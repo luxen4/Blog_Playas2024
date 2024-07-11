@@ -10,3 +10,5 @@
         </div>
     </div>
 </div>
+
+<p style="text-align: center; margin-top: 1em;"><?= $pieFotos; ?></p>

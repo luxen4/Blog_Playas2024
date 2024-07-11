@@ -64,9 +64,10 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
 
-                    <?php require '9casillas.php'; ?>
-                    <?php require '9casillas.php'; ?>
-                    <?php require '9casillas.php'; ?>
+                    <?php  // Camisas //
+                    require '3_casillas_horizontales.php'; ?>
+
+
                 </div>
             </div>
 

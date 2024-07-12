@@ -30,7 +30,7 @@ $alt_general_shorts = 'Imagen de un short';
 $images_shorts = [
     [
         "href" => "https://www.amazon.es/Amazon-Essentials-Classic-Fit-Pantalones-Cortos/dp/B0775C5H42?pd_rd_w=zzG6b&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=K6W8E2KFP33SMV9QX92G&pd_rd_wg=10R2c&pd_rd_r=83b41593-6d76-4ed4-8c28-2a10e6408df6&pd_rd_i=B0775C5H42&psc=1&linkCode=ll1&tag=adrian8204-21&linkId=3b73d6c4ac063aaff39e6bb612372b35&language=es_ES&ref_=as_li_ss_tl",
-        "src" => "https://m.media-amazon.com/images/I/71e2wHGixbL._AC_SX569_.jpg",
+        "src" => "https://m.media-amazon.com/images/I/A1as75N7xEL._AC_SX679_.jpg",
         "alt" => $alt_general_shorts
     ],
     [

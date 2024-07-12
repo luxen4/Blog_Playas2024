@@ -12,10 +12,10 @@ Este puente es un testimonio vivo de la historia medieval de la ciudad y es un p
 </p>
 
 
-<p>Es conocido por su arquitectura robusta y su diseño funcional:
-    <strong>Construcción en Piedra:</strong> El puente está construido principalmente de piedra, lo que le confiere una apariencia sólida y duradera.
-    <strong>Arcos:</strong> Presenta un diseño de arcos que es característico de la arquitectura medieval, proporcionando estabilidad y una estética distintiva.
-    <strong>Entorno Pintoresco:</strong> El puente se integra perfectamente con el paisaje circundante, ofreciendo vistas panorámicas del puerto y la ciudad.
+<p>Es conocido por su arquitectura robusta y su diseño funcional: <br>
+    <strong>Construcción en Piedra:</strong> El puente está construido principalmente de piedra, lo que le confiere una apariencia sólida y duradera. <br>
+    <strong>Arcos:</strong> Presenta un diseño de arcos que es característico de la arquitectura medieval, proporcionando estabilidad y una estética distintiva. <br>
+    <strong>Entorno Pintoresco:</strong> El puente se integra perfectamente con el paisaje circundante, ofreciendo vistas panorámicas del puerto y la ciudad. <br>
     <strong>Acceso Peatonal:</strong> El puente es accesible para los peatones, lo que permite a los visitantes cruzar y disfrutar del entorno histórico y natural.
 </p>
 

@@ -35,20 +35,22 @@
                 include_once 'bloques/localidades/index.php'; ?>
                 <!--Fin Castro Urdiales-->
 
+                <!--Anuncios horizontales de Amazón-->
+                <?php include 'carrusel_horizontal_0.php'; ?>
+
                 <!--Inicio Castro Bakio-->
                 <?php $localidad = 'Noja';
                 $presentacion = 'bla, bla, bla.';
                 include 'bloques/localidades/index.php'; ?>
                 <!--Fin Bakio-->
 
-                <!--Inicio Castro Bakio-->
+                <!--Inicio Castro Laredo-->
                 <?php $localidad = 'Laredo';
                 $presentacion = 'bla, bla, bla.';
                 include 'bloques/localidades/index.php'; ?>
                 <!--Fin Bakio-->
 
-                <!--Carrusel de anuncios horizontales de Amazón-->
-                <?php include 'carrusel_horizontal_0.php'; ?>
+
 
 
 

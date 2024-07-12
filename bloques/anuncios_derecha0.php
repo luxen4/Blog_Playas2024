@@ -45,3 +45,5 @@ $price = "44,79€"; ?>
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+

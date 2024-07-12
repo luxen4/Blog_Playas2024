@@ -7,7 +7,7 @@
         <?php include_once './../../../../bloques/barra_navegacion.html'; ?>
 
         <div id="#" class="col-xl-9 text-center col-lg-6 col-md-10 col-sm-10 col-12">
-            
+
 
             <?php /*
             $localidad = 'Castro Urdiales';
@@ -20,7 +20,11 @@
             include '1foto.php';*/
             ?>
 
-<h2>10 lugares que no te puedes perder en Castro Urdiales</h2>
+            <h2>10 lugares que no te puedes perder en Castro Urdiales</h2>
+
+
+            <?php include 'carrusel.php'; ?>
+            
             <hr>
             <?php include_once './../lugares/parqueamestoy.php'; ?>
             <hr>
@@ -58,7 +62,16 @@
 
 
 
+        <footer>
+            <?php require './../../../../bloques/estructura/footer.php' ?>
+        </footer>
+
     </div>
+
+
+
+
+
 </div>
 
 <!-- jQuery -->

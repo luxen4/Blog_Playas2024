@@ -20,3 +20,4 @@
     $price = "55,23€";
     require 'bloques/anuncios_carrusel.php';
 ?>
+

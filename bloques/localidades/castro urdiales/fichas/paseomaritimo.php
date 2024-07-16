@@ -7,10 +7,10 @@
     Es fácilmente accesible desde el centro y ofrece vistas panorámicas del mar Cantábrico.
 </p>
 
-<p>El paseo está diseñado para el disfrute de los peatones y cuenta con varias características destacadas como
-    <strong>Senderos Peatonales:</strong> Amplios caminos para caminar, correr o andar en bicicleta.
-    <strong>Zonas Verdes:</strong> Áreas ajardinadas con bancos y sombra para descansar y disfrutar del entorno.
-    <strong>Vistas al Mar:</strong> Puntos de observación perfectos para admirar el paisaje marino y tomar fotografías.
+<p>El paseo está diseñado para el disfrute de los peatones y cuenta con varias características destacadas como:
+    <strong>Senderos Peatonales:</strong> Amplios caminos para caminar, correr o andar en bicicleta. <br>
+    <strong>Zonas Verdes:</strong> Áreas ajardinadas con bancos y sombra para descansar y disfrutar del entorno. <br>
+    <strong>Vistas al Mar:</strong> Puntos de observación perfectos para admirar el paisaje marino y tomar fotografías. <br>
     <strong>Playas Cercanas:</strong> Acceso fácil a las playas locales, como la Playa de Brazomar y la Playa de Ostende.
 </p>
 
@@ -42,4 +42,5 @@ $foto3 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo3.jpg";
 $altFoto3 = '...';
 $pieFotos = 'Algunas de las imágenes del ' . $lugar . ' en ' . $localidad;
 include '2fotos.php';
+
 ?>

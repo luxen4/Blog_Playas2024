@@ -1,6 +1,7 @@
 <!--<iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe>-->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+
 <div id="#" class="container">
     <div class="row">
         <!--<iframe src="./../../../../ads_terra/468px-60px.html"></iframe>-->
@@ -20,31 +21,55 @@
             include '1foto.php';*/
             ?>
 
-            <h2>10 lugares que no te puedes perder en Castro Urdiales</h2>
+
+
+            <h2>Castro Urdiales</h2>
+            <p>Castro Urdiales, conocido en la antigüedad como Flaviobriga, fue fundado por los romanos en el siglo I d.C. <br>
+                Su puerto natural jugó un papel crucial en el comercio y la pesca, convirtiéndose en uno de los puertos más importantes del Cantábrico.
+            </p>
+            <p>En la Edad Media, el puerto de Castro Urdiales continuó siendo un centro de actividad marítima. <br>
+                Durante los siglos XIX y XX, se desarrollaron importantes infraestructuras portuarias que ayudaron a modernizar la ciudad y su puerto.
+            </p>
+
+
 
 
             <?php include 'carrusel.php'; ?>
-            
+
             <hr>
+            <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
             <?php include_once './../lugares/parqueamestoy.php'; ?>
             <hr>
             <?php include_once './asadorlaperla.php'; ?>
             <hr>
             <?php include_once './paseomaritimo.php'; ?>
             <hr>
+            <?php include './../../../../bloques/carrusel_horizontal_fijo.php'; // Carrusel fijo de camisas Hawaianas ?>
+            <hr>
             <?php include_once './clubnautico.php'; ?>
+            <hr>
+            <?php include './../../../../bloques/carrusel_horizontal_fijo.php'; // Carrusel fijo de camisetas ?>
             <hr>
             <?php include_once './palaciodeochagaran.php'; ?>
             <hr>
-            <?php include_once './puertocastrourdiales.php'; ?>
+            <?php include './../../../../bloques/carrusel_horizontal_fijo.php'; // Carrusel fijo de pantalones cortos ?>
             <hr>
-            <?php include_once './plazaayuntamiento.php'; ?>
+            <?php include_once './puertocastrourdiales.php'; // Carrusel fijo de bolsos de hombre 
+                // https://www.amazon.es/dp/B0D98167FL/ref=twister_B0D97Z6G2Z?_encoding=UTF8&th=1&psc=1
+            ?>
             <hr>
-            <?php include_once './puertocastrourdiales.php'; ?>
+            <?php include_once './plazaayuntamiento.php'; // Blusas para mujer ?>
             <hr>
-            <?php include_once './puentemedieval.php'; ?>
+            <?php include_once './puertocastrourdiales.php'; // Zapateria de mujer 
+                // https://www.amazon.es/XTI-Bot%C3%ADn-cierre-cremallera-blanco/dp/B0CH8SRCK8/ref=sl_ob_desktop_dp_0_3_v2?_encoding=UTF8&pd_rd_w=F17oA&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=XZCSJ6QDJV5Y77AMSCAG&pd_rd_wg=mTwaI&pd_rd_r=4aca3441-4f73-41af-b62f-5111a7b925d6
+            ?>
             <hr>
-            <?php include_once './castillodesantaana.php'; ?>
+            <?php include_once './puentemedieval.php'; 
+                // Sandalias hombre ?>
+            <hr>
+            <?php include_once './castillodesantaana.php'; 
+                // Bisuteria
+            ?>
             <hr>
             <?php include_once './iglesiadesantamariadelaasuncion.php'; ?>
             <hr>
@@ -83,9 +108,8 @@
 
 
 <style>
-    h3,
-    h3,
-    p {
+    /*<link rel="stylesheet" href="./../../../../styles.css">*/
+    h3,h4,p {
         text-align: left;
     }
 </style>

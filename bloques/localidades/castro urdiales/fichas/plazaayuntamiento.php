@@ -12,10 +12,10 @@
     Con el tiempo, ha sido testigo de numerosos eventos históricos y culturales, convirtiéndose en un símbolo de la identidad de la ciudad.
 </p>
 
-<p>La Plaza del Ayuntamiento se caracteriza por su diseño arquitectónico y su entorno pintoresco:
-    <strong>Edificio del Ayuntamiento:</strong> Un edificio histórico con una fachada impresionante, que alberga las oficinas administrativas de la ciudad.
-    <strong>Zona Peatonal:</strong> La plaza es principalmente peatonal, lo que la hace ideal para pasear y disfrutar del ambiente sin preocuparse por el tráfico.
-    <strong>Fuentes y Estatuas:</strong> La plaza cuenta con varias fuentes y estatuas que añaden belleza y carácter al espacio.
+<p>La Plaza del Ayuntamiento se caracteriza por su diseño arquitectónico y su entorno pintoresco: <br>
+    <strong>Edificio del Ayuntamiento:</strong> Un edificio histórico con una fachada impresionante, que alberga las oficinas administrativas de la ciudad. <br>
+    <strong>Zona Peatonal:</strong> La plaza es principalmente peatonal, lo que la hace ideal para pasear y disfrutar del ambiente sin preocuparse por el tráfico. <br>
+    <strong>Fuentes y Estatuas:</strong> La plaza cuenta con varias fuentes y estatuas que añaden belleza y carácter al espacio. <br>
     <strong>Terrazas y Cafeterías:</strong> Numerosos bares y cafeterías con terrazas al aire libre donde se puede disfrutar de una bebida
     o una comida mientras se observa la vida de la plaza.
 </p>

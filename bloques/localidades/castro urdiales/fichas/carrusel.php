@@ -1,109 +1,93 @@
 <?php
-// Vamos a alternar entre 3 camisas Hawaianas diferentes //
-$alt_general10 = 'Imagen de una Camisa Hawaiana';
-
-// slider carrusel item-1
-$images_zapatillas_1_1 = [
-    [
-        "href" => "https://amzn.to/3S9AhWL",
-        "src" => "https://m.media-amazon.com/images/I/81-lvYlaSyL._AC_SX625_.jpg",
-        "alt" => $alt_general10
-    ],
-    [
-        "href" => "https://amzn.to/466sU8u",
-        "src" => "https://m.media-amazon.com/images/I/71njNKZR-lL._AC_SY625_.jpg",
-        "alt" => $alt_general10
-    ],
-    [
-        "href" => "https://amzn.to/4cYxHe9",
-        "src" => "https://m.media-amazon.com/images/I/61ZVCTB9t7L._AC_SY625_.jpg",
-        "alt" => $alt_general10
-    ],
-
-    [
-        "href" => "https://amzn.to/4bLc5Rs",
-        "src" => "https://m.media-amazon.com/images/I/41Lipuk4-pL._AC_SY625_.jpg",
-        "alt" => $alt_general10
-    ]
-]; 
-
-/* Completar con más zapatillas
-$images_zapatillas_1_2
-$images_zapatillas_1_3
-$images_zapatillas_1_4 */
+// Vamos a alternar entre 3 shirts Hawaianas diferentes //
+$alt_general_zapatillas = 'Imagen de unas zapatillas';
 
 
+$table='amazon_shirts_images';
+$where = 'where direccion = "modelo_frente"';
+include './../../../../bloques/carrusel_horizontal/item_1.php';
 
-//idem
-// slider carrusel item-2
-//$images_camisas
 
-// slider carrusel item-3
-//$images_shorts
+/*
+$table='amazon_shorts_images';
+$where = 'where direccion = "frente"';
+include './../../../../bloques/carrusel_horizontal/item_2.php';
+*/
+
+
+$table='amazon_sneakers_images';
+$where = 'where direccion = "izquierda_15º"';
+include './../../../../bloques/carrusel_horizontal/item_2.php';
 
 
 
 
+
+
+
+// Meter esta 
+// https://www.amazon.es/HISDERN-Camisa-Hawaiana-Hombre-Camisas/dp/B0BZ7GS91B?pd_rd_w=A2Cpx&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=CX759DB09W9YW15XZB1Z&pd_rd_wg=HZuSj&pd_rd_r=7d6ebf7e-94e1-447c-96c1-5a32f5d7ca87&pd_rd_i=B09V2FG11J&th=1&linkCode=sl1&tag=adrian8204-21&linkId=88405fad94fde5c9c46bd6a0cd31f99d&language=es_ES&ref_=as_li_ss_tl&psc=1
+// https://www.amazon.es/HISDERN-Camisa-Hawaiana-Hombre-Camisas/dp/B09NQXDJJC?pd_rd_w=A2Cpx&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=CX759DB09W9YW15XZB1Z&pd_rd_wg=HZuSj&pd_rd_r=7d6ebf7e-94e1-447c-96c1-5a32f5d7ca87&pd_rd_i=B09V2FG11J&th=1&linkCode=sl1&tag=adrian8204-21&linkId=88405fad94fde5c9c46bd6a0cd31f99d&language=es_ES&ref_=as_li_ss_tl
+// https://m.media-amazon.com/images/I/81k0dq+DFNL._AC_SX679_.jpg
 ?>
 
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
+
         <div class="carousel-item active">
             <div style="display: flex;">
 
-                <a id="image-link10" href="<?php echo $images_zapatillas_1_1[0]['href']; ?>">
-                    <img id="image10" src="<?php echo $images_zapatillas_1_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_zapatillas_1_1[0]['alt']; ?>">
+                <a id="image-link_shirts_1_1" href="<?php echo $images_shirts_1_1[0]['href']; ?>">
+                    <img id="image_shirts_1_1" src="<?php echo $images_shirts_1_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_2[0]['alt']; ?>">
                 </a>
 
-                <a href="https://amzn.to/466sU8u">
-                    <img src="https://m.media-amazon.com/images/I/71njNKZR-lL._AC_SY625_.jpg" class="d-block w-100" alt="Anuncio 1">
+                <a id="image-link_shirts_1_2" href="<?php echo $images_shirts_1_2[0]['href']; ?>">
+                    <img id="image_shirts_1_2" src="<?php echo $images_shirts_1_2[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_2[0]['alt']; ?>">
                 </a>
 
-                <a href="https://amzn.to/4cYxHe9">
-                    <img src="https://m.media-amazon.com/images/I/61ZVCTB9t7L._AC_SY625_.jpg" class="d-block w-100" alt="Anuncio 1">
+                <a id="image-link_shirts_1_3" href="<?php echo $images_shirts_1_3[0]['href']; ?>">
+                    <img id="image_shirts_1_3" src="<?php echo $images_shirts_1_3[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_3[0]['alt']; ?>">
                 </a>
 
-                <a href="https://amzn.to/4bLc5Rs">
-                    <img src="https://m.media-amazon.com/images/I/41Lipuk4-pL._AC_SY625_.jpg" class="d-block w-100" alt="Anuncio 1">
+                <a id="image-link_shirts_1_4" href="<?php echo $images_shirts_1_4[0]['href']; ?>">
+                    <img id="image_shirts_1_4" src="<?php echo $images_shirts_1_4[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_2[0]['alt']; ?>">
                 </a>
 
             </div>
-
-
         </div>
 
-        <div class="carousel-item">
+        <? // Zapatillas ?>
+        <!--
+        <div class="carousel-item ">
             <div style="display: flex;">
 
-                <a id="image-link10" href="<?php echo $images_zapatillas_1_1[0]['href']; ?>">
-                    <img id="image10" src="<?php echo $images_zapatillas_1_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_zapatillas_1_1[0]['alt']; ?>">
+                <a id="image-link_sneakers_2_1" href="<?php echo $images_sneakers_2_1[0]['href']; ?>">
+                    <img id="image_sneakers_2_1" src="<?php echo $images_sneakers_2_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_1[0]['alt']; ?>">
                 </a>
 
-                <a href="https://amzn.to/466sU8u">
-                    <img src="https://m.media-amazon.com/images/I/71njNKZR-lL._AC_SY625_.jpg" class="d-block w-100" alt="Anuncio 1">
+                <a id="image-link_sneakers_2_2" href="<?php echo $images_sneakers_2_2[0]['href']; ?>">
+                    <img id="image_sneakers_2_2" src="<?php echo $images_sneakers_2_2[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_2[0]['alt']; ?>">
                 </a>
 
-                <a href="https://amzn.to/4cYxHe9">
-                    <img src="https://m.media-amazon.com/images/I/61ZVCTB9t7L._AC_SY625_.jpg" class="d-block w-100" alt="Anuncio 1">
+
+                <a id="image-link_sneakers_2_3" href="<?php echo $images_sneakers_2_3[0]['href']; ?>">
+                    <img id="image_sneakers_2_3" src="<?php echo $images_sneakers_2_3[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_3[0]['alt']; ?>">
                 </a>
 
-                <a href="https://amzn.to/4bLc5Rs">
-                    <img src="https://m.media-amazon.com/images/I/41Lipuk4-pL._AC_SY625_.jpg" class="d-block w-100" alt="Anuncio 1">
+                <a id="image-link_sneakers_2_4" href="<?php echo $images_sneakers_2_4[0]['href']; ?>">
+                    <img id="image_sneakers_2_4" src="<?php echo $images_sneakers_2_4[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_4[0]['alt']; ?>">
                 </a>
 
             </div>
-        </div>
-
-
-        <div class="carousel-item">
 
         </div>
+        -->
 
 
     </div>
@@ -117,6 +101,13 @@ $images_zapatillas_1_4 */
     </a>
 </div>
 
+
+
+
+
+
+
+
 <!-- Enlaza el JavaScript de Bootstrap y sus dependencias -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
@@ -124,21 +115,51 @@ $images_zapatillas_1_4 */
 
 
 <script>
-    const images_zapatillas_1_1 = <?php echo json_encode($images_zapatillas_1_1); ?>;
+    
+    const images_shirts_1_1 = <?php echo json_encode($images_shirts_1_1); ?>;
+    const images_shirts_1_2 = <?php echo json_encode($images_shirts_1_2); ?>;
+    const images_shirts_1_3 = <?php echo json_encode($images_shirts_1_3); ?>;
+    const images_shirts_1_4 = <?php echo json_encode($images_shirts_1_4); ?>;
 
-    let currentIndex10 = 0;
+    const images_sneakers_2_1 = <?php echo json_encode($images_sneakers_2_1); ?>;
+    const images_sneakers_2_2 = <?php echo json_encode($images_sneakers_2_2); ?>;
+    const images_sneakers_2_3 = <?php echo json_encode($images_sneakers_2_3); ?>;
+    const images_sneakers_2_4 = <?php echo json_encode($images_sneakers_2_4); ?>;
 
-    function changeImage10() {
-        currentIndex10 = (currentIndex10 + 1) % images_zapatillas_1_1.length;
-        document.getElementById('image-link10').href = images_zapatillas_1_1[currentIndex10].href;
-        document.getElementById('image10').src = images_zapatillas_1_1[currentIndex10].src;
-        document.getElementById('image10').alt = images_zapatillas_1_1[currentIndex10].alt;
+    let currentIndex = {
+     
+        shirts_1_1: 0,
+        shirts_1_2: 0,
+        shirts_1_3: 0,
+        shirts_1_4: 0,
+
+        sneakers_2_1: 0,
+        sneakers_2_2: 0,
+        sneakers_2_3: 0,
+        sneakers_2_4: 0,
+    };
+
+    
+    function prueba(image_link, image, cte, indexKey) {
+        currentIndex[indexKey] = (currentIndex[indexKey] + 1) % cte.length;
+        document.getElementById(image_link).href = cte[currentIndex[indexKey]].href;
+        document.getElementById(image).src = cte[currentIndex[indexKey]].src;
+        document.getElementById(image).alt = cte[currentIndex[indexKey]].alt;
     }
 
 
-    function changeImages_zapatillas_1_1() {
-        changeImage10();
+    function changeImages() {
+
+        prueba('image-link_shirts_1_1', 'image_shirts_1_1', images_shirts_1_1, 'shirts_1_1');
+        prueba('image-link_shirts_1_2', 'image_shirts_1_2', images_shirts_1_2, 'shirts_1_2');
+        prueba('image-link_shirts_1_3', 'image_shirts_1_3', images_shirts_1_3, 'shirts_1_3');
+        prueba('image-link_shirts_1_4', 'image_shirts_1_4', images_shirts_1_4, 'shirts_1_4');
+
+        prueba('image-link_sneakers_2_1', 'image_sneakers_2_1', images_sneakers_2_1, 'sneakers_2_1');
+        prueba('image-link_sneakers_2_2', 'image_sneakers_2_2', images_sneakers_2_2, 'sneakers_2_2');
+        prueba('image-link_sneakers_2_3', 'image_sneakers_2_3', images_sneakers_2_3, 'sneakers_2_3');
+        prueba('image-link_sneakers_2_4', 'image_sneakers_2_4', images_sneakers_2_4, 'sneakers_2_4');
     }
 
-    setInterval(changeImages_zapatillas_1_1, 2000);
+    setInterval(changeImages, 4000);
 </script>

@@ -3,8 +3,12 @@ $href = "https://www.amazon.es/Irevial-Cuadros-Franela-Boyfriend-Bolsillo/dp/B09
 $src = "https://m.media-amazon.com/images/I/71GrO7q8jhL._AC_SX569_.jpg";
 $alt = "AAA";
 $nombre_producto = "Irevial Camisa Manga Larga Mujer Oficina Elegante Blusas con Botones Trabajo Camisetas con Cuello Pico Oficina Shirt Básico para Primavera Otoño Invierno";
-$price = ""; ?>
-<?php require 'anuncios_derecha.php' ?>
+$price = ""; 
+require 'anuncios_derecha.php' ;
+?>
+
+
+<?php require 'anuncios_derecha_1item.php' ;?>
 
 
 <?php
@@ -13,37 +17,4 @@ $src = "https://m.media-amazon.com/images/I/914XCovYMuL._AC_SX625_.jpg";
 $alt = "AAA";
 $nombre_producto = "Tom Tailor lari, Bolsa para Mujer, Gris, 5x21x26.5 cm (B x H x T)";
 $price = "44,79€"; ?>
-<?php require 'anuncios_derecha.php' ?>
-
-
-<div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-
-
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="https://m.media-amazon.com/images/I/81pmWyooJEL._AC_SX625_.jpg" class="d-block w-100" alt="Anuncio 1">
-        </div>
-        <div class="carousel-item">
-            <img src="https://m.media-amazon.com/images/I/71TJW6E-7vL._AC_SY695_.jpg" class="d-block w-100" alt="Anuncio 2">
-        </div>
-        <div class="carousel-item">
-            <img src="https://m.media-amazon.com/images/I/81puJaj14sL._AC_SX625_.jpg" class="d-block w-100" alt="Anuncio 3">
-        </div>
-    </div>
-
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-
+<?php require 'anuncios_derecha.php' ;?>

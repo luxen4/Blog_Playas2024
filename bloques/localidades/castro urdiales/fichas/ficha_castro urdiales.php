@@ -22,6 +22,12 @@
             ?>
 
 
+<?php include_once './../../../../bloques/registro_visitas_web.php'; ?>
+
+
+
+
+
 
             <h2>Castro Urdiales</h2>
             <p>Castro Urdiales, conocido en la antigüedad como Flaviobriga, fue fundado por los romanos en el siglo I d.C. <br>
@@ -44,15 +50,19 @@
             <hr>
             <?php include_once './paseomaritimo.php'; ?>
             <hr>
-            <?php include './../../../../bloques/carrusel_horizontal_fijo.php'; // Carrusel fijo de camisas Hawaianas ?>
+            
+            <?php include './../../../../bloques/carrusel_horizontal_fijo_shorts.php'; // Carrusel fijo de camisas Hawaianas ?>
+            <?php include './../../../../bloques/carrusel_horizontal_fijo_sneakers.php'; // Carrusel fijo de camisas Hawaianas ?>
+
+            
             <hr>
             <?php include_once './clubnautico.php'; ?>
             <hr>
-            <?php include './../../../../bloques/carrusel_horizontal_fijo.php'; // Carrusel fijo de camisetas ?>
+            <?php include './../../../../bloques/carrusel_horizontal_fijo_shorts.php'; // Carrusel fijo de camisetas ?>
             <hr>
             <?php include_once './palaciodeochagaran.php'; ?>
             <hr>
-            <?php include './../../../../bloques/carrusel_horizontal_fijo.php'; // Carrusel fijo de pantalones cortos ?>
+            <?php include './../../../../bloques/carrusel_horizontal_fijo_sneakers.php'; // Carrusel fijo de pantalones cortos ?>
             <hr>
             <?php include_once './puertocastrourdiales.php'; // Carrusel fijo de bolsos de hombre 
                 // https://www.amazon.es/dp/B0D98167FL/ref=twister_B0D97Z6G2Z?_encoding=UTF8&th=1&psc=1
@@ -63,6 +73,8 @@
             <?php include_once './puertocastrourdiales.php'; // Zapateria de mujer 
                 // https://www.amazon.es/XTI-Bot%C3%ADn-cierre-cremallera-blanco/dp/B0CH8SRCK8/ref=sl_ob_desktop_dp_0_3_v2?_encoding=UTF8&pd_rd_w=F17oA&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=XZCSJ6QDJV5Y77AMSCAG&pd_rd_wg=mTwaI&pd_rd_r=4aca3441-4f73-41af-b62f-5111a7b925d6
             ?>
+            <hr>
+            <?php include './../../../../bloques/carrusel_horizontal_fijo_shorts.php'; // Carrusel fijo de camisetas ?>
             <hr>
             <?php include_once './puentemedieval.php'; 
                 // Sandalias hombre ?>
@@ -76,11 +88,14 @@
             <?php include_once './elpedregal.php'; ?>
             <hr>
             <?php include_once './playadeostende.php'; ?>
+            <h6>
+            Para más información puede consultar en la pagina de la oficina de turismo de 
+            <a href="http://turismo.castro-urdiales.net/turcastro/planifica-tu-viaje/oficina-de-turismo">Castro-Urdiales</a></h6>
             <hr>
         </div>
 
 
-
+        
         <div id="#" class="col-xl-3 text-center col-lg-3 col-md-12 col-sm-12 col-12">
             <?php require './../../../../bloques/anuncios_derecha0.php' ?>
         </div>

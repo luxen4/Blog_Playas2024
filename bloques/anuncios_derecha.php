@@ -36,7 +36,7 @@ $images_zapatillas = [
 	.amazon-product {
 		border: 1px solid #ddd;
 		padding: 10px;
-		/*margin: 20px;*/
+		margin-top: 20px;
 		max-width: 300px;
 		font-family: Arial, sans-serif;
 	}
@@ -72,6 +72,7 @@ $images_zapatillas = [
 	.amazon-product button:hover {
 		background-color: #E68900;
 	}
+
 </style>
 
 <div class="amazon-product" class="d-block w-100" >
@@ -88,6 +89,5 @@ $images_zapatillas = [
 		</a>
 	</div>
 </div>
-
 
 

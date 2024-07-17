@@ -1,1 +1,12 @@
 Carrusel con el primer itenm con las camisas mirando a la izda.
+Preparar todas las imágenes y enlaces para los carruseles, de acuerdo con los productos de cada categoría.
+Preparar ids para las direcciones de las imágenes de cada producto.
+Interfaz que inserte enlaces e imágenes en la base de datos.
+Ver otras páginas de anuncios de afiliados, al estilo de amazon.
+Preparar un sistema de visitas de cara a contabilizar.
+Enlaces hacia tripadvisor para restaurantes.
+Hacer el footer genérico.
+Hacer la barra de navegación de acuerdo a comunidades autónomas.
+Mezclar anuncios para hombre y mujer al 50%.
+Reordenar carpetas y simplificar código.
+Hacer código genérico donde se pueda.o

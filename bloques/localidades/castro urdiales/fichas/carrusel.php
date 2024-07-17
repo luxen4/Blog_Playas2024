@@ -7,21 +7,19 @@ $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';
 include './../../../../bloques/carrusel_horizontal/item_1.php';
 
-
-/*
-$table='amazon_shorts_images';
-$where = 'where direccion = "frente"';
-include './../../../../bloques/carrusel_horizontal/item_2.php';
-*/
-
-
 $table='amazon_sneakers_images';
 $where = 'where direccion = "izquierda_15º"';
 include './../../../../bloques/carrusel_horizontal/item_2.php';
 
+$table='amazon_shorts_images';
+$where = 'where direccion = "frente"';
+include './../../../../bloques/carrusel_horizontal/item_3.php';
 
 
 
+$table='amazon_shirts_images';
+$where = 'where direccion = "modelo_frente"';
+include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
 
 
 
@@ -126,6 +124,16 @@ include './../../../../bloques/carrusel_horizontal/item_2.php';
     const images_sneakers_2_3 = <?php echo json_encode($images_sneakers_2_3); ?>;
     const images_sneakers_2_4 = <?php echo json_encode($images_sneakers_2_4); ?>;
 
+    const images_shorts_3_1 = <?php echo json_encode($images_shorts_3_1); ?>;
+    const images_shorts_3_2 = <?php echo json_encode($images_shorts_3_2); ?>;
+    const images_shorts_3_3 = <?php echo json_encode($images_shorts_3_3); ?>;
+    const images_shorts_3_4 = <?php echo json_encode($images_shorts_3_4); ?>;
+
+
+
+    const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
+
+    
     let currentIndex = {
      
         shirts_1_1: 0,
@@ -137,6 +145,14 @@ include './../../../../bloques/carrusel_horizontal/item_2.php';
         sneakers_2_2: 0,
         sneakers_2_3: 0,
         sneakers_2_4: 0,
+
+        shorts_3_1: 0,
+        shorts_3_2: 0,
+        shorts_3_3: 0,
+        shorts_3_4: 0,
+
+
+        shirts_lateral_1_1: 0
     };
 
     
@@ -159,6 +175,17 @@ include './../../../../bloques/carrusel_horizontal/item_2.php';
         prueba('image-link_sneakers_2_2', 'image_sneakers_2_2', images_sneakers_2_2, 'sneakers_2_2');
         prueba('image-link_sneakers_2_3', 'image_sneakers_2_3', images_sneakers_2_3, 'sneakers_2_3');
         prueba('image-link_sneakers_2_4', 'image_sneakers_2_4', images_sneakers_2_4, 'sneakers_2_4');
+
+
+        prueba('image-link_shorts_3_1', 'image_shorts_3_1', images_shorts_3_1, 'shorts_3_1');
+        prueba('image-link_shorts_3_2', 'image_shorts_3_2', images_shorts_3_2, 'shorts_3_2');
+        prueba('image-link_shorts_3_3', 'image_shorts_3_3', images_shorts_3_3, 'shorts_3_3');
+        prueba('image-link_shorts_3_4', 'image_shorts_3_4', images_shorts_3_4, 'shorts_3_4');
+
+
+        // Todo debe ir aquí
+        prueba('image-link_shirts_lateral_1_1', 'image_shirts_lateral_1_1', images_shirts_lateral_1_1, 'shirts_lateral_1_1');
+
     }
 
     setInterval(changeImages, 4000);

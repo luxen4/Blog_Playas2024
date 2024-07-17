@@ -97,3 +97,10 @@ INSERT INTO amazon_shorts_images (href, src, alt, direccion) VALUES
 
 
 
+CREATE TABLE IF NOT EXISTS visitas_webs (
+    id_visita INT AUTO_INCREMENT PRIMARY KEY,
+    url VARCHAR (255) NOT NULL,
+    fecha DATE NOT NULL,
+    nombreweb VARCHAR(255) NOT NULL
+);
+

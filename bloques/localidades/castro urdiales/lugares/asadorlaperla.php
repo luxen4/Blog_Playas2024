@@ -17,6 +17,19 @@
 Su acogedor interior y su terraza con vistas al mar lo convierten en un lugar perfecto para disfrutar de una comida en cualquier época del año.
 </p>
 
+<?php
+$localidad = 'Castro Urdiales';
+$lugar = 'Asador La Perla';
+
+$foto1 = "./../../../../img/castrourdiales/asadorlaperla1.jpg";
+$altFoto1 = 'Imagen del Asador La Perla';
+$foto2 = "./../../../../img/castrourdiales/contribution_gallery.jpg";
+$altFoto2 = 'Imagen de un plato de sardinas asadas en el asador La Perla';
+$foto3 = "./../../../../img/castrourdiales/parrillas2-kJFE-U806794120254DD-624x422@El Correo.jpg";
+$pieFotos = 'Algunas de las imágenes del ' . $lugar;
+include './disp_imagenes/3fotos.php';
+?>
+
 <p>Entre los servicios que ofrece el Asador La Perla se incluyen 
     <strong>Reservas previas, Menú del día y a la carta, Opciones para eventos y celebraciones, Atención personalizada.</strong>
 </p>
@@ -30,16 +43,5 @@ Sábados y Domingos: 13:00 - 23:00 (horario continuo)
 <p>Si buscas una experiencia culinaria memorable en Castro Urdiales, el Asador La Perla es el lugar ideal. ¡No te lo pierdas!</p>
 
 
-<?php
-$localidad = 'Castro Urdiales';
-$lugar = 'Asador La Perla';
 
-$foto1 = "./../../../../img/castrourdiales/asadorlaperla1.jpg";
-$altFoto1 = 'Imagen del Asador La Perla';
-$foto2 = "./../../../../img/castrourdiales/contribution_gallery.jpg";
-$altFoto2 = 'Imagen de un plato de sardinas asadas en el asador La Perla';
-$foto3 = "./../../../../img/castrourdiales/parrillas2-kJFE-U806794120254DD-624x422@El Correo.jpg";
-$pieFotos = 'Algunas de las imágenes del ' . $lugar;
-include '3fotos.php';
-?>
 

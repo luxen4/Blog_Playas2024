@@ -1,0 +1,198 @@
+
+CREATE DATABASE IF NOT EXISTS blogplayas2024_db;
+USE blogplayas2024_db;
+
+CREATE TABLE IF NOT EXISTS amazon_shirts_images (
+    amazon_shirts_images INT AUTO_INCREMENT PRIMARY KEY,
+    href VARCHAR(255) NOT NULL,
+    src VARCHAR(255) NOT NULL,
+    alt VARCHAR(255) NOT NULL,
+    id_direccion INT (255) NOT NULL
+);
+
+INSERT INTO amazon_shirts_images (href, src, alt, direccion) VALUES
+('https://amzn.to/4fjeKFh',
+'https://m.media-amazon.com/images/I/81LRvrfI7CL._AC_SX569_.jpg',
+'Camisa Hawaiana', 'modelo_frente');
+
+*COMPLETAR*
+
+
+CREATE TABLE IF NOT EXISTS amazon_sneakers_images (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    href VARCHAR(255) NOT NULL,
+    src VARCHAR(255) NOT NULL,
+    alt VARCHAR(255) NOT NULL
+);
+
+
+
+
+INSERT INTO amazon_sneakers_images (href, src, alt, marca, precio, direccion) VALUES
+('https://amzn.to/3WzJnyM',
+'https://m.media-amazon.com/images/I/61uOi-PZ4TL._AC_SY575_.jpg',
+'Zapatillas marca Geox',
+'GEOX',
+89.90,
+'izquierda_0º'
+)
+;
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS amazon_shorts_images (
+    amazon_shorts_images INT AUTO_INCREMENT PRIMARY KEY,
+    href VARCHAR(255) NOT NULL,
+    src VARCHAR(255) NOT NULL,
+    alt VARCHAR(255) NOT NULL,
+    direccion VARCHAR (255) NOT NULL
+);
+
+
+INSERT INTO amazon_shorts_images (href, src, alt, direccion) VALUES
+('https://amzn.to/3Y3M4tu',
+'https://m.media-amazon.com/images/I/719ieBktVFS._AC_SX679_.jpg',
+'Short running para hombre ',
+'frente')
+;
+
+
+
+CREATE TABLE IF NOT EXISTS visitas_webs (
+    id_visita INT AUTO_INCREMENT PRIMARY KEY,
+    url VARCHAR (255) NOT NULL,
+    fecha DATE NOT NULL,
+    nombreweb VARCHAR(255) NOT NULL
+);
+
+
+
+CREATE TABLE IF NOT EXISTS amazon_direccion_images (
+    id_direccion_images INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL
+);
+
+
+
+
+
+
+
+
+
+
+// amazon_sports_shirts_images
+    CREATE TABLE IF NOT EXISTS amazon_sports_shirts_images (
+        amazon_sports_shirts_images INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_sports_shirts_images (href, src, alt, marca, precio, direccion) VALUES
+('https://amzn.to/4c5u2KY',
+'https://m.media-amazon.com/images/I/41N1kuoNz+L._AC_SX679_.jpg',
+'Camiseta deportiva',
+'Pepe Jeans',
+24.95,
+'modelo_frente_izquierda')
+;
+
+
+            
+// amazon_swimsuits_woman_images
+    CREATE TABLE IF NOT EXISTS amazon_swimsuits_woman_images (
+        amazon_swimsuits_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_swimsuits_woman_images (href, src, alt, marca, precio, direccion) VALUES
+('https://amzn.to/3WARafy',
+'https://m.media-amazon.com/images/I/41BKOBTwqhL._AC_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_frente'),
+
+('https://amzn.to/3ybESkx',
+'https://m.media-amazon.com/images/I/418PwbqrcmL._AC_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_frente'),
+
+('https://amzn.to/3YhiG2U',
+'https://m.media-amazon.com/images/I/41O2qjgsSBL._AC_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_frente'),
+
+('https://amzn.to/3ybF7vX',
+'https://m.media-amazon.com/images/I/61yfh+Y7UdL._AC_SY741_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_frente'),
+
+('https://amzn.to/3YdJFfZ',
+'https://m.media-amazon.com/images/I/51ToMZxhQPL._AC_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_frente'),
+
+
+
+
+('https://amzn.to/4cXB5Xa',
+'https://m.media-amazon.com/images/I/61--kaGnSrL._AC_SY741_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_posterior'),
+
+('https://amzn.to/4bXbyMC',
+'https://m.media-amazon.com/images/I/61X-KmLmM8L._AC_SY741_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_posterior'),
+
+('https://amzn.to/4dgGHf2',
+'https://m.media-amazon.com/images/I/61lUGlddKVL._AC_SY741_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_posterior'),
+
+('https://amzn.to/4dgyes5',
+'https://m.media-amazon.com/images/I/61USfyVFFJL._AC_SY741_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_posterior'),
+
+('https://amzn.to/3WqV1ea',
+'https://m.media-amazon.com/images/I/61SK56OvmrL._AC_SY741_.jpg',
+'Bikini',
+'YSABEL MORA',
+26.99,
+'modelo_posterior')
+
+
+
+
+
+
+;

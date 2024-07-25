@@ -17,6 +17,17 @@
     <strong>Interiores:</strong> Aunque el acceso al interior no siempre está permitido al público, el palacio cuenta con habitaciones lujosamente decoradas y mobiliario de época.
 </p>
 
+<?php
+/*
+$localidad = 'Castro Urdiales';
+$lugar = 'Palacio de Ochagarán';
+
+$foto1 = "./../../../../img/castrourdiales/palaciodeochagaran/palaciodeochagaran1.jpg";
+$altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
+$pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
+include '1foto.php';*/
+?>
+
 
 <p>En la actualidad, sigue siendo una propiedad privada y no está abierto al público de manera regular. 
     Sin embargo, su exterior y los jardines pueden ser admirados desde la calle y forman parte del patrimonio cultural de Castro Urdiales.
@@ -32,11 +43,12 @@
 </p>
 
 <?php
+
 $localidad = 'Castro Urdiales';
 $lugar = 'Palacio de Ochagarán';
 
 $foto1 = "./../../../../img/castrourdiales/palaciodeochagaran/palaciodeochagaran1.jpg";
 $altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
 $pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
-include '1foto.php';
+include './disp_imagenes/1foto.php';
 ?>

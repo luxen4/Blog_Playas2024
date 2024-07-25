@@ -18,7 +18,16 @@
 </p>
 
 <p>El parque está cerca de otros puntos de interés en Castro Urdiales, como la <strong>Iglesia de Santa María de la Asunción</strong>, el <strong>Castillo Faro de Santa Ana</strong> y las playas de la ciudad. Esto permite a los visitantes disfrutar de un recorrido completo por los lugares más emblemáticos de la localidad.</p>
-
+<?php
+$foto1 = "./../../../../img/castrourdiales/Castro-Urdiales-Parque-de-la-musica.jpg";
+$altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
+$foto2 = "./../../../../img/castrourdiales/Castro-Urdiales-paseo-Amestoy.jpg";
+$altFoto2 = 'Imagen del Paseo Amestoy en Castro Urdiales';
+$foto3 = "./../../../../img/castrourdiales/solarium_alojamiento_castro_urdiales.jpg";
+$altFoto3 = '';
+$pieFotos = 'Algunas de las imágenes del parque Amestoy';
+include './disp_imagenes/3fotos.php';
+?>
 <p>Con su ambiente tranquilo y su entorno natural, ofrece un respiro del ajetreo urbano,
     proporcionando un espacio verde donde las personas pueden disfrutar del aire libre y la belleza del paisaje costero.
 </p>
@@ -28,14 +37,5 @@
 </p>
 
 
-<?php
-$foto1 = "./../../../../img/castrourdiales/Castro-Urdiales-Parque-de-la-musica.jpg";
-$altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
-$foto2 = "./../../../../img/castrourdiales/Castro-Urdiales-paseo-Amestoy.jpg";
-$altFoto2 = 'Imagen del Paseo Amestoy en Castro Urdiales';
-$foto3 = "./../../../../img/castrourdiales/solarium_alojamiento_castro_urdiales.jpg";
-$altFoto3 = '';
-$pieFotos = 'Algunas de las imágenes del parque Amestoy';
-include '3fotos.php';
-?>
+
 

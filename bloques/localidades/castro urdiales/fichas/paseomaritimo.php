@@ -41,6 +41,6 @@ $altFoto2 = '...';
 $foto3 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo3.jpg";
 $altFoto3 = '...';
 $pieFotos = 'Algunas de las imágenes del ' . $lugar . ' en ' . $localidad;
-include '2fotos.php';
+include './disp_imagenes/2fotos.php';
 
 ?>

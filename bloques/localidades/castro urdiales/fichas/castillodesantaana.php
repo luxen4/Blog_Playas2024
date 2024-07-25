@@ -54,5 +54,5 @@ $foto2 = "./../../../../img/castrourdiales/castillodesantaana/castillodesantaana
 $altFoto2 = 'Imagen del '. $lugar . 'en ' . $localidad;
 
 $pieFotos = 'Imágenes del ' . $lugar . ' en ' . $localidad;
-include '2fotos.php';
+include './disp_imagenes/2fotos.php';
 ?>

@@ -42,5 +42,5 @@
 <?php
 $foto1 = "./../../../../img/castrourdiales/plazaayuntamiento1.jpg";
 $foto2 = "./../../../../img/castrourdiales/plazaayuntamiento2.png";
-include '2fotos.php';
+include './disp_imagenes/2fotos.php';
 ?>

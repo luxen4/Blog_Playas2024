@@ -8,13 +8,23 @@ $where = 'where direccion = "modelo_frente"';
 include './../../../../bloques/carrusel_horizontal/item_1.php';
 
 $table='amazon_sneakers_images';
-$where = 'where direccion = "izquierda_15º"';
+$where = 'where marca = "GEOX" and direccion = "izquierda_0º"';
 include './../../../../bloques/carrusel_horizontal/item_2.php';
+
+
+$table='amazon_swimsuits_woman_images';
+$where = 'order by direccion';
+include './../../../../bloques/carrusel_horizontal/item_4.php';
+
 
 $table='amazon_shorts_images';
 $where = 'where direccion = "frente"';
 include './../../../../bloques/carrusel_horizontal/item_3.php';
 
+
+$table='amazon_sports_shirts_images';
+$where = 'where marca = "Pepe Jeans" and direccion = "modelo_frente_izquierda"';
+include './../../../../bloques/carruseles/1item_sports_shirts_amazon.php';
 
 
 $table='amazon_shirts_images';
@@ -39,54 +49,59 @@ include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-            <div style="display: flex;">
-
-                <a id="image-link_shirts_1_1" href="<?php echo $images_shirts_1_1[0]['href']; ?>">
-                    <img id="image_shirts_1_1" src="<?php echo $images_shirts_1_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_2[0]['alt']; ?>">
-                </a>
-
-                <a id="image-link_shirts_1_2" href="<?php echo $images_shirts_1_2[0]['href']; ?>">
-                    <img id="image_shirts_1_2" src="<?php echo $images_shirts_1_2[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_2[0]['alt']; ?>">
-                </a>
-
-                <a id="image-link_shirts_1_3" href="<?php echo $images_shirts_1_3[0]['href']; ?>">
-                    <img id="image_shirts_1_3" src="<?php echo $images_shirts_1_3[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_3[0]['alt']; ?>">
-                </a>
-
-                <a id="image-link_shirts_1_4" href="<?php echo $images_shirts_1_4[0]['href']; ?>">
-                    <img id="image_shirts_1_4" src="<?php echo $images_shirts_1_4[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_2[0]['alt']; ?>">
-                </a>
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_shirts_1_1" href="<?php echo $images_shirts_1_1[0]['href']; ?>">
+                            <img id="image_shirts_1_1" src="<?php echo $images_shirts_1_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_1[0]['alt']; ?>">
+                        </a>
+                    </div>
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_shirts_1_2" href="<?php echo $images_shirts_1_2[0]['href']; ?>">
+                            <img id="image_shirts_1_2" src="<?php echo $images_shirts_1_2[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_2[0]['alt']; ?>">
+                        </a>
+                    </div>
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_shirts_1_3" href="<?php echo $images_shirts_1_3[0]['href']; ?>">
+                            <img id="image_shirts_1_3" src="<?php echo $images_shirts_1_3[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_3[0]['alt']; ?>">
+                        </a>
+                    </div>
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_shirts_1_4" href="<?php echo $images_shirts_1_4[0]['href']; ?>">
+                            <img id="image_shirts_1_4" src="<?php echo $images_shirts_1_4[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_shirts_1_4[0]['alt']; ?>">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <? // Zapatillas ?>
-        <!--
-        <div class="carousel-item ">
-            <div style="display: flex;">
-
-                <a id="image-link_sneakers_2_1" href="<?php echo $images_sneakers_2_1[0]['href']; ?>">
-                    <img id="image_sneakers_2_1" src="<?php echo $images_sneakers_2_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_1[0]['alt']; ?>">
-                </a>
-
-                <a id="image-link_sneakers_2_2" href="<?php echo $images_sneakers_2_2[0]['href']; ?>">
-                    <img id="image_sneakers_2_2" src="<?php echo $images_sneakers_2_2[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_2[0]['alt']; ?>">
-                </a>
-
-
-                <a id="image-link_sneakers_2_3" href="<?php echo $images_sneakers_2_3[0]['href']; ?>">
-                    <img id="image_sneakers_2_3" src="<?php echo $images_sneakers_2_3[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_3[0]['alt']; ?>">
-                </a>
-
-                <a id="image-link_sneakers_2_4" href="<?php echo $images_sneakers_2_4[0]['href']; ?>">
-                    <img id="image_sneakers_2_4" src="<?php echo $images_sneakers_2_4[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_4[0]['alt']; ?>">
-                </a>
-
+        <!-- Optional: Additional carousel items 
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_sneakers_2_1" href="<?php echo $images_sneakers_2_1[0]['href']; ?>">
+                            <img id="image_sneakers_2_1" src="<?php echo $images_sneakers_2_1[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_1[0]['alt']; ?>">
+                        </a>
+                    </div>
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_sneakers_2_2" href="<?php echo $images_sneakers_2_2[0]['href']; ?>">
+                            <img id="image_sneakers_2_2" src="<?php echo $images_sneakers_2_2[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_2[0]['alt']; ?>">
+                        </a>
+                    </div>
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_sneakers_2_3" href="<?php echo $images_sneakers_2_3[0]['href']; ?>">
+                            <img id="image_sneakers_2_3" src="<?php echo $images_sneakers_2_3[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_3[0]['alt']; ?>">
+                        </a>
+                    </div>
+                    <div class="col-xl-3 text-center col-lg-3 col-md-6 col-sm-6 col-6">
+                        <a id="image-link_sneakers_2_4" href="<?php echo $images_sneakers_2_4[0]['href']; ?>">
+                            <img id="image_sneakers_2_4" src="<?php echo $images_sneakers_2_4[0]['src']; ?>" class="d-block w-100" alt="<?php echo $images_sneakers_2_4[0]['alt']; ?>">
+                        </a>
+                    </div>
+                </div>
             </div>
-
-        </div>
-        -->
-
+        </div>-->
 
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -119,15 +134,34 @@ include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
     const images_shirts_1_3 = <?php echo json_encode($images_shirts_1_3); ?>;
     const images_shirts_1_4 = <?php echo json_encode($images_shirts_1_4); ?>;
 
-    const images_sneakers_2_1 = <?php echo json_encode($images_sneakers_2_1); ?>;
-    const images_sneakers_2_2 = <?php echo json_encode($images_sneakers_2_2); ?>;
-    const images_sneakers_2_3 = <?php echo json_encode($images_sneakers_2_3); ?>;
-    const images_sneakers_2_4 = <?php echo json_encode($images_sneakers_2_4); ?>;
+                                                             
+    const images_sports_shirts_1_1 = <?php echo json_encode($images_sports_shirts_1_1); ?>;
+    const images_sports_shirts_1_2 = <?php echo json_encode($images_sports_shirts_1_2); ?>;
+    const images_sports_shirts_1_3 = <?php echo json_encode($images_sports_shirts_1_3); ?>;
+    const images_sports_shirts_1_4 = <?php echo json_encode($images_sports_shirts_1_4); ?>;
+    const images_sports_shirts_1_5 = <?php echo json_encode($images_sports_shirts_1_5); ?>;
+
 
     const images_shorts_3_1 = <?php echo json_encode($images_shorts_3_1); ?>;
     const images_shorts_3_2 = <?php echo json_encode($images_shorts_3_2); ?>;
     const images_shorts_3_3 = <?php echo json_encode($images_shorts_3_3); ?>;
     const images_shorts_3_4 = <?php echo json_encode($images_shorts_3_4); ?>;
+
+
+    const images_sneakers_2_1 = <?php echo json_encode($images_sneakers_2_1); ?>;
+    const images_sneakers_2_2 = <?php echo json_encode($images_sneakers_2_2); ?>;
+    const images_sneakers_2_3 = <?php echo json_encode($images_sneakers_2_3); ?>;
+    const images_sneakers_2_4 = <?php echo json_encode($images_sneakers_2_4); ?>;
+
+
+
+    const images_swimsuits_woman_1_1 = <?php echo json_encode($images_swimsuits_woman_1_1); ?>;
+    const images_swimsuits_woman_1_2 = <?php echo json_encode($images_swimsuits_woman_1_2); ?>;
+    const images_swimsuits_woman_1_3 = <?php echo json_encode($images_swimsuits_woman_1_3); ?>;
+    const images_swimsuits_woman_1_4 = <?php echo json_encode($images_swimsuits_woman_1_4); ?>;
+
+
+
 
 
 
@@ -141,15 +175,29 @@ include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
         shirts_1_3: 0,
         shirts_1_4: 0,
 
-        sneakers_2_1: 0,
-        sneakers_2_2: 0,
-        sneakers_2_3: 0,
-        sneakers_2_4: 0,
+        sports_shirts_1_1: 0,
+        sports_shirts_1_2: 0,
+        sports_shirts_1_3: 0,
+        sports_shirts_1_4: 0,
+        sports_shirts_1_5: 0,
 
         shorts_3_1: 0,
         shorts_3_2: 0,
         shorts_3_3: 0,
         shorts_3_4: 0,
+
+        sneakers_2_1: 0,
+        sneakers_2_2: 0,
+        sneakers_2_3: 0,
+        sneakers_2_4: 0,
+
+
+        swimsuits_woman_1_1: 0,
+        swimsuits_woman_1_2: 0,
+        swimsuits_woman_1_3: 0,
+        swimsuits_woman_1_4: 0,
+
+
 
 
         shirts_lateral_1_1: 0
@@ -171,16 +219,36 @@ include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
         prueba('image-link_shirts_1_3', 'image_shirts_1_3', images_shirts_1_3, 'shirts_1_3');
         prueba('image-link_shirts_1_4', 'image_shirts_1_4', images_shirts_1_4, 'shirts_1_4');
 
-        prueba('image-link_sneakers_2_1', 'image_sneakers_2_1', images_sneakers_2_1, 'sneakers_2_1');
-        prueba('image-link_sneakers_2_2', 'image_sneakers_2_2', images_sneakers_2_2, 'sneakers_2_2');
-        prueba('image-link_sneakers_2_3', 'image_sneakers_2_3', images_sneakers_2_3, 'sneakers_2_3');
-        prueba('image-link_sneakers_2_4', 'image_sneakers_2_4', images_sneakers_2_4, 'sneakers_2_4');
-
-
         prueba('image-link_shorts_3_1', 'image_shorts_3_1', images_shorts_3_1, 'shorts_3_1');
         prueba('image-link_shorts_3_2', 'image_shorts_3_2', images_shorts_3_2, 'shorts_3_2');
         prueba('image-link_shorts_3_3', 'image_shorts_3_3', images_shorts_3_3, 'shorts_3_3');
         prueba('image-link_shorts_3_4', 'image_shorts_3_4', images_shorts_3_4, 'shorts_3_4');
+
+        prueba('image-link_sneakers_2_1', 'image_sneakers_2_1', images_sneakers_2_1, 'sneakers_2_1');
+        prueba('image-link_sneakers_2_2', 'image_sneakers_2_2', images_sneakers_2_2, 'sneakers_2_2');
+        prueba('image-link_sneakers_2_3', 'image_sneakers_2_3', images_sneakers_2_3, 'sneakers_2_3');
+        prueba('image-link_sneakers_2_4', 'image_sneakers_2_4', images_sneakers_2_4, 'sneakers_2_4');
+        ///
+        
+
+
+        prueba('image-link_sports_shirts_1_1', 'image_sports_shirts_1_1', images_sports_shirts_1_1, 'sports_shirts_1_1');
+        prueba('image-link_sports_shirts_1_2', 'image_sports_shirts_1_2', images_sports_shirts_1_2, 'sports_shirts_1_2');
+        prueba('image-link_sports_shirts_1_3', 'image_sports_shirts_1_3', images_sports_shirts_1_3, 'sports_shirts_1_3');
+        prueba('image-link_sports_shirts_1_4', 'image_sports_shirts_1_4', images_sports_shirts_1_4, 'sports_shirts_1_4');
+        //prueba('image-link_sports_shirts_1_5', 'image_sports_shirts_1_5', images_sports_shirts_1_5, 'sports_shirts_1_5');
+
+        prueba('image-link_swimsuits_woman_1_1', 'image_swimsuits_woman_1_1', images_swimsuits_woman_1_1, 'swimsuits_woman_1_1');
+        prueba('image-link_swimsuits_woman_1_2', 'image_swimsuits_woman_1_2', images_swimsuits_woman_1_2, 'swimsuits_woman_1_2');
+        prueba('image-link_swimsuits_woman_1_3', 'image_swimsuits_woman_1_3', images_swimsuits_woman_1_3, 'swimsuits_woman_1_3');
+        prueba('image-link_swimsuits_woman_1_4', 'image_swimsuits_woman_1_4', images_swimsuits_woman_1_4, 'swimsuits_woman_1_4');
+
+
+
+
+
+        ///
+
 
 
         // Todo debe ir aquí

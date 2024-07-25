@@ -20,5 +20,6 @@ Es un lugar perfecto para pasear, disfrutar de la gastronomía local en los rest
 
 
 
-<p>El Puerto de Castro Urdiales es uno de los lugares más emblemáticos de la ciudad de Castro Urdiales, situada en la comunidad autónoma de Cantabria, en el norte de España. Este puerto pesquero y deportivo ofrece unas vistas impresionantes del Mar Cantábrico y es un punto de encuentro para turistas y locales.</p>
+<p>El Puerto de Castro Urdiales es uno de los lugares más emblemáticos de la ciudad de Castro Urdiales, situada en la comunidad autónoma de Cantabria, en el norte de España. <br>
+     Este puerto pesquero y deportivo ofrece unas vistas impresionantes del Mar Cantábrico y es un punto de encuentro para turistas y locales.</p>
 <p>El puerto tiene una larga historia que se remonta a la época romana, y hoy en día combina la tradición pesquera con modernas instalaciones para embarcaciones de recreo.</p>

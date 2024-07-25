@@ -47,7 +47,7 @@ $foto2 = "./../../../../img/castrourdiales/puentemedieval/puentemedieval2.png";
 $altFoto2 = 'Imagen del '. $lugar . 'en ' . $localidad;
 
 $pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
-include '2fotos.php';
+include './disp_imagenes/2fotos.php';
 ?>
 
 

@@ -29,5 +29,5 @@ $altFoto1 = 'Imagen del ' . $lugar. ' en ' . $localidad;
 
 
 $pieFotos = 'Imágen de la ' . $lugar . ' en ' . $localidad;
-include '1foto.php';
+include './disp_imagenes/1foto.php';
 ?>

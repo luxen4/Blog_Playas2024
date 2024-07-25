@@ -18,7 +18,7 @@
 <body>
 
     
-    <?php include_once 'bloques/barra_navegacion.html'; ?>
+    <?php // include_once 'bloques/barra_navegacion.html'; ?>
 
 
     <div id="#" class="container">

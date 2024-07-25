@@ -46,5 +46,5 @@ $lugar = 'Club Nautico';
 $foto1 = "./../../../../img/castrourdiales/clubnautico/clubnautico1.jpg";
 $altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
 $pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
-include '1foto.php';
+include './disp_imagenes/1foto.php';
 ?>

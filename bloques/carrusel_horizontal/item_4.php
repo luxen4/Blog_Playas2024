@@ -9,7 +9,7 @@ $dbname = "blogplayas2024_db";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 $sql = "SELECT * FROM " .$table.  " " .$where;
-echo($sql);
+
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

@@ -17,6 +17,11 @@ $where = 'order by direccion';
 include './../../../../bloques/carrusel_horizontal/item_4.php';
 
 
+$table='amazon_sandals_man_images';
+$where = 'order by direccion';
+include './../../../../bloques/carrusel_horizontal/item_sandals_man.php';
+
+
 $table='amazon_shorts_images';
 $where = 'where direccion = "frente"';
 include './../../../../bloques/carrusel_horizontal/item_3.php';
@@ -161,7 +166,10 @@ include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
     const images_swimsuits_woman_1_4 = <?php echo json_encode($images_swimsuits_woman_1_4); ?>;
 
 
-
+    const images_sandals_man_1_1 = <?php echo json_encode($images_sandals_man_1_1); ?>;
+    const images_sandals_man_1_2 = <?php echo json_encode($images_sandals_man_1_2); ?>;
+    const images_sandals_man_1_3 = <?php echo json_encode($images_sandals_man_1_3); ?>;
+    const images_sandals_man_1_4 = <?php echo json_encode($images_sandals_man_1_4); ?>;
 
 
 
@@ -196,6 +204,11 @@ include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
         swimsuits_woman_1_2: 0,
         swimsuits_woman_1_3: 0,
         swimsuits_woman_1_4: 0,
+
+        sandals_man_1_1: 0,
+        sandals_man_1_2: 0,
+        sandals_man_1_3: 0,
+        sandals_man_1_4: 0,
 
 
 
@@ -244,6 +257,10 @@ include './../../../../bloques/carrusel_horizontal/item_1_lateral.php';
         prueba('image-link_swimsuits_woman_1_4', 'image_swimsuits_woman_1_4', images_swimsuits_woman_1_4, 'swimsuits_woman_1_4');
 
 
+        prueba('image-link_sandals_man_1_1', 'image_sandals_man_1_1', images_sandals_man_1_1, 'sandals_man_1_1');
+        prueba('image-link_sandals_man_1_2', 'image_sandals_man_1_2', images_sandals_man_1_2, 'sandals_man_1_2');
+        prueba('image-link_sandals_man_1_3', 'image_sandals_man_1_3', images_sandals_man_1_3, 'sandals_man_1_3');
+        prueba('image-link_sandals_man_1_4', 'image_sandals_man_1_4', images_sandals_man_1_4, 'sandals_man_1_4');
 
 
 

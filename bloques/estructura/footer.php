@@ -23,7 +23,7 @@
                 <h6><a href="https://www.islacantabria.com/inicio">Isla</a></h6>
                 <h6><a href="http://nojaturismo.com/">Noja</a></h6>
                 <h6><a href="https://www.laredo.es/09/oficina_turismo.php">Laredo</a></h6>
-                <h6><a href="./../../ficha_castro urdiales.php">Castro-Urdiales</a></h6>
+                <h6><a href="./../../ficha_castro_urdiales.php">Castro-Urdiales</a></h6>
                 
                 <?php // <h6><a href="http://turismo.castro-urdiales.net/turcastro/planifica-tu-viaje/oficina-de-turismo">Castro-Urdiales</a></h6> ?>
 

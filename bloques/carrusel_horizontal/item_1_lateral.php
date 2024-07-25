@@ -6,6 +6,7 @@ $username = "root";
 $password = ""; // Cambia esto si tu usuario de MySQL tiene una contraseña
 $dbname = "blogplayas2024_db";
 
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 $sql = "SELECT * FROM amazon_shirts_images " . $where;

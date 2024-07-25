@@ -189,10 +189,84 @@ INSERT INTO amazon_swimsuits_woman_images (href, src, alt, marca, precio, direcc
 'YSABEL MORA',
 26.99,
 'modelo_posterior')
+;
 
 
 
 
+// amazon_sandals_man_images
+    CREATE TABLE IF NOT EXISTS amazon_sandals_man_images (
+        amazon_sandals_man_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+INSERT INTO amazon_sandals_man_images (href, src, alt, marca, precio, direccion) VALUES
 
 
+('https://amzn.to/4c4GgTL',
+'https://m.media-amazon.com/images/I/61n4Tpwep4L._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º'),
+
+
+('https://amzn.to/3zXOGz5',
+'https://m.media-amazon.com/images/I/71Rlu7o7nJL._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º'),
+
+
+('https://amzn.to/4dkoMUN',
+'https://m.media-amazon.com/images/I/71F5Ksdb9XL._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º'),
+
+
+('https://amzn.to/4ffXC33',
+'https://m.media-amazon.com/images/I/61i0SzFmOsL._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º'),
+
+('https://amzn.to/3WiXXcz',
+'https://m.media-amazon.com/images/I/71UnstpDuAL._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º'),
+
+
+('https://amzn.to/46mFAIh',
+'https://m.media-amazon.com/images/I/71vb8Jt1AXS._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º'),
+
+
+('https://amzn.to/3zWhjNj',
+'https://m.media-amazon.com/images/I/71YbMv0lNEL._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º'),
+
+
+('https://amzn.to/4d1styY',
+'https://m.media-amazon.com/images/I/71-EkdLHjPL._AC_SY625_.jpg',
+'Sandalias Deportivas Hombres',
+'FLARUT',
+33.99,
+'izquierda_45º')
 ;

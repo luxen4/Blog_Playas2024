@@ -63,7 +63,7 @@ if (isset($_POST['nuevaAgenciaViajes'])) {
 
 
 if (isset($_POST['enviar'])) {
-    echo("Entro");
+
     $datos = $_POST['datos'];
 
     if (isset($datos['estaseguro'])) {

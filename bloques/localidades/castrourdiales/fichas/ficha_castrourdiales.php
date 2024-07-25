@@ -27,11 +27,6 @@
 
         <div id="#" class="col-xl-8 text-center col-lg-10 col-md-10 col-sm-12 col-12">
 
-
-
-        https://m.media-amazon.com/images/I/715d12hrMML._AC_SX466_.jpg
-
-
         <?php /*include_once './../../../../bloques/registro_visitas_web.php'; 
 
         <a href="./../../../../bloques/amazon_interfaz_enlaces.php" target="_blank">
@@ -57,7 +52,7 @@
                 Durante los siglos XIX y XX, se desarrollaron importantes infraestructuras portuarias que ayudaron a modernizar la ciudad y su puerto.
             </p>
 
-            
+
             <hr><?php include 'carrusel.php'; ?><hr>
 
             <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>

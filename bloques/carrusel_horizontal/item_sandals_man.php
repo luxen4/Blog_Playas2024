@@ -6,21 +6,18 @@ $username = "root";
 $password = ""; // Cambia esto si tu usuario de MySQL tiene una contraseña
 $dbname = "blogplayas2024_db";
 
-
-//include 'C:\xampp\htdocs\Blog_Playas2024\bloques\carrusel_horizontal\conexion_mysql.php'; 
-
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-$sql = "SELECT * FROM amazon_shirts_images " . $where;
+$sql = "SELECT * FROM " .$table.  " " .$where;
+
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // Salida de datos de cada fila
-    $images_shirts_1_1 = [];
-    $images_shirts_1_2 = [];
-    $images_shirts_1_3 = [];
-    $images_shirts_1_4 = [];
+    $images_sandals_man_1_1 = [];
+    $images_sandals_man_1_2 = [];
+    $images_sandals_man_1_3 = [];
+    $images_sandals_man_1_4 = [];
     $posicion = 1;
 
     while ($row = $result->fetch_assoc()) {
@@ -31,18 +28,19 @@ if ($result->num_rows > 0) {
             "alt" => $row["alt"]
         ];
 
+
         if ($posicion == 5) {
             $posicion = 1;
         }
 
-        if ($posicion == 1) {
-            array_push($images_shirts_1_1, $product);
-        } elseif ($posicion == 2) {
-            array_push($images_shirts_1_2, $product);
+        if ($posicion == 1) { 
+            array_push($images_sandals_man_1_1, $product);
+        } elseif ($posicion == 2) {        
+            array_push($images_sandals_man_1_2, $product);
         } elseif ($posicion == 3) {
-            array_push($images_shirts_1_3, $product);
+            array_push($images_sandals_man_1_3, $product);
         } elseif ($posicion == 4) {
-            array_push($images_shirts_1_4, $product);
+            array_push($images_sandals_man_1_4, $product);
         }
 
         $posicion = $posicion + 1;
@@ -52,3 +50,5 @@ if ($result->num_rows > 0) {
 }
 
 $conn->close();
+
+?>

@@ -1,21 +1,11 @@
+
 <?php
-
-// Parámetros de la conexión
-$servername = "localhost";
-$username = "root";
-$password = ""; // Cambia esto si tu usuario de MySQL tiene una contraseña
-$dbname = "blogplayas2024_db";
-
-
-//include 'C:\xampp\htdocs\Blog_Playas2024\bloques\carrusel_horizontal\conexion_mysql.php'; 
-
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
 $sql = "SELECT * FROM amazon_shirts_images " . $where;
-$result = $conn->query($sql);
+$stmt = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+if ($stmt->rowCount() > 0) {
     // Salida de datos de cada fila
     $images_shirts_1_1 = [];
     $images_shirts_1_2 = [];
@@ -23,13 +13,13 @@ if ($result->num_rows > 0) {
     $images_shirts_1_4 = [];
     $posicion = 1;
 
-    while ($row = $result->fetch_assoc()) {
-
+    while ($row = $stmt->fetch()) {
         $product = [
             "href" => $row["href"],
             "src" => $row["src"],
             "alt" => $row["alt"]
         ];
+        // echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
 
         if ($posicion == 5) {
             $posicion = 1;
@@ -51,4 +41,6 @@ if ($result->num_rows > 0) {
     echo "0 resultados";
 }
 
-$conn->close();
+// Cerrar la conexión
+$conn = null;
+?>

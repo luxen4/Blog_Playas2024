@@ -1,13 +1,13 @@
+
 <div id="#" class="container">
     <div class="row">
-
 
         <div class="row">
             <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
                 <h2>Tourist offices</h2>
             </div>
         </div>
-
+<!--
         <div class="row">
             <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
                 <hr class="letra">
@@ -65,8 +65,7 @@
 
         <div id="#" class="col-xl-12 text-center col-lg-3 col-md-12 col-sm-12 col-12">
             <p style="text-align: center;">Hecho por Adrián Laya García <br><a href="mailto:superlaya50@gmail.com"> superlaya50@gmail.com</a></p>
-        </div>
-
+        </div>-->
     </div>
 </div>
 
@@ -89,7 +88,3 @@
         text-decoration: underline;
     }
 </style>
-
-
-
-

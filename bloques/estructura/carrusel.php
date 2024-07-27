@@ -4,7 +4,9 @@
 
 $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';
-include $_SERVER['DOCUMENT_ROOT']. '/Blog_Playas2024/products_amazon/shirts.php';
+$servername = $_SERVER['SERVER_NAME'];
+require './../../../../products_amazon/shirts.php';
+
 
 $table='amazon_sneakers_images';
 $where = 'where marca = "GEOX" and direccion = "izquierda_0º"';

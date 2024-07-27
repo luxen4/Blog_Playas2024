@@ -19,7 +19,7 @@ if ($stmt->rowCount() > 0) {
         array_push($images_shirts_lateral_1_1, $product);
     }
 } else {
-    echo "0 resultados";
+    echo "0000000 resultados";
 }
 
 // Cerrar la conexión

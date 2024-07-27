@@ -19,7 +19,7 @@ if ($stmt->rowCount() > 0) {
             "src" => $row["src"],
             "alt" => $row["alt"]
         ];
-         echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
+        // echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
 
         if ($posicion == 6) {
             $posicion = 1;
@@ -40,7 +40,7 @@ if ($stmt->rowCount() > 0) {
         $posicion = $posicion + 1;
     }
 } else {
-    echo "0 resultados";
+    echo "000000 resultados";
 }
 
 // Cerrar la conexión

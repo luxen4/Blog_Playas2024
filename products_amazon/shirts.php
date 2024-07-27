@@ -37,7 +37,7 @@ if ($stmt->rowCount() > 0) {
         $posicion = $posicion + 1;
     }
 } else {
-    echo "0 resultados";
+    echo "000 resultados";
 }
 
 // Cerrar la conexión

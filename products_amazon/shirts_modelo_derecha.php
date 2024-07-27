@@ -1,7 +1,9 @@
-<?php
+
+AAA<?php
 require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
-$sql = "SELECT * FROM amazon_shirts_images ";
+$sql = "SELECT * FROM amazon_shirts_images " . $where;
+echo($sql);
 $stmt = $conn->query($sql);
 
 if ($stmt->rowCount() > 0) {
@@ -18,7 +20,7 @@ if ($stmt->rowCount() > 0) {
             "src" => $row["src"],
             "alt" => $row["alt"]
         ];
-        // echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
+         echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
 
         if ($posicion == 5) {
             $posicion = 1;
@@ -37,8 +39,8 @@ if ($stmt->rowCount() > 0) {
         $posicion = $posicion + 1;
     }
 } else {
-    echo "0 resultados";
+    echo "00 resultados";
 }
 
 // Cerrar la conexión
-$conn = null;
+$conn = null; ?>

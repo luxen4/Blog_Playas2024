@@ -55,12 +55,12 @@
                 Durante los siglos XIX y XX, se desarrollaron importantes infraestructuras portuarias que ayudaron a modernizar la ciudad y su puerto.
             </p>
 
-            <hr><?php include './../../../../bloques/estructura/anuncios/carga_productos.php'; ?><hr>
+            <?php include './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
 
             <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_frente.php'; ?><hr>
 
 
-                <?php require './../../../../bloques/estructura/carrusel_horizontal_fijo_shorts.php'; ?>
+                
 
             <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
             <hr><?php include_once './../lugares/parqueamestoy.php'; ?><hr> 
@@ -74,22 +74,22 @@
             <?php include_once './paseomaritimo.php'; ?>
             <hr><?php 
             // Carrusel fijo de 
-            include './../../../../bloques/estructura/carrusel_horizontal_fijo_swimsuits_woman_amazon.php'; ?><hr>
+            include './../../../../bloques/estructura/carrusel_swimsuits_woman_amazon.php'; ?><hr>
 
            
 
             <?php include_once './clubnautico.php'; ?>
             <hr><?php 
             // Carrusel fijo de camisetas UNDER ARMOUR
-            include './../../../../bloques/estructura/carrusel_horizontal_fijo_sports_shirts_amazon.php';  ?><hr>
+            include './../../../../bloques/estructura/carrusel_sports_shirts_amazon.php';  ?><hr>
 
 
             <?php include_once './palaciodeochagaran.php'; ?>  
-            <hr><?php include './../../../../bloques/estructura/carrusel_horizontal_fijo_sneakers.php'; ?><hr> 
+            <hr><?php include './../../../../bloques/estructura/carrusel_sneakers.php'; ?><hr> 
            
 
             <?php include_once './puertocastrourdiales.php'; ?>
-
+            <?php require './../../../../bloques/estructura/carrusel_horizontal_fijo_shorts.php'; ?>
         
 
             <?php include_once './plazaayuntamiento.php'; ?>
@@ -113,13 +113,9 @@
 
             </div>
         </div>
-        <footer>
-            <?php
-            error_reporting(E_ALL);
-            ini_set('display_errors', 1);
-             require './../../../../bloques/estructura/footer.php';
 
-            ?>
+        <footer>
+            <?php require './../../../../bloques/estructura/footer.php'; ?>
         </footer>
        
             

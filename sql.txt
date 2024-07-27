@@ -7,13 +7,80 @@ CREATE TABLE IF NOT EXISTS amazon_shirts_images (
     href VARCHAR(255) NOT NULL,
     src VARCHAR(255) NOT NULL,
     alt VARCHAR(255) NOT NULL,
+    marca VARCHAR(32) NOT NULL,
+    precio DECIMAL (10,2),
     id_direccion INT (255) NOT NULL
 );
 
-INSERT INTO amazon_shirts_images (href, src, alt, direccion) VALUES
-('https://amzn.to/4fjeKFh',
-'https://m.media-amazon.com/images/I/81LRvrfI7CL._AC_SX569_.jpg',
-'Camisa Hawaiana', 'modelo_frente');
+INSERT INTO amazon_shirts_images (href, src, alt, marca, precio, direccion) VALUES
+('https://amzn.to/46jzZCJ',
+'https://m.media-amazon.com/images/I/813MLF4OoPL._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+24.99,
+'modelo_derecha'),
+
+('https://amzn.to/3WkEqbD',
+'https://m.media-amazon.com/images/I/81ILQomN53L._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+24.49,
+'modelo_derecha'),
+
+
+('https://amzn.to/3WC7HQy',
+'https://m.media-amazon.com/images/I/81JYZy9aTWL._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+24.99,
+'modelo_derecha'),
+
+('https://amzn.to/3ydKDOK',
+'https://m.media-amazon.com/images/I/81AoZdDVVvL._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+24.49,
+'modelo_derecha'),
+
+
+
+
+
+
+('https://amzn.to/46mIrAY',
+'https://m.media-amazon.com/images/I/81OT1oan9WL._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+24.99,
+'modelo_derecha'),
+
+('https://amzn.to/3WpuSMN',
+'https://m.media-amazon.com/images/I/817OvqeqB1L._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+24.49,
+'modelo_derecha'),
+
+
+('https://amzn.to/3WlzJ1i',
+'https://m.media-amazon.com/images/I/61rtNa9JxCL._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+24.49,
+'modelo_derecha'),
+
+('https://amzn.to/3YjBEpK',
+'https://m.media-amazon.com/images/I/71iD1HMtFOL._AC_SY741_.jpg',
+'Camisa Hawaiana',
+'APTRO',
+25.49,
+'modelo_derecha')
+
+
+
+
+
+;
 
 *COMPLETAR*
 

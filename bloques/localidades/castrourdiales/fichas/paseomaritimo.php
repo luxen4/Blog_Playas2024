@@ -13,7 +13,19 @@
     <strong>Vistas al Mar:</strong> Puntos de observación perfectos para admirar el paisaje marino y tomar fotografías. <br>
     <strong>Playas Cercanas:</strong> Acceso fácil a las playas locales, como la Playa de Brazomar y la Playa de Ostende.
 </p>
+<?php
+$localidad = 'Castro Urdiales';
+$lugar = 'Paseo Marítimo';
 
+$foto1 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo1.jpg";
+$altFoto1 = '...';
+$foto2 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo2.jpg";
+$altFoto2 = '...';
+$foto3 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo3.jpg";
+$altFoto3 = '...';
+$pieFotos = 'Algunas de las imágenes del ' . $lugar . ' en ' . $localidad;
+include './disp_imagenes/2fotos.php';
+?>
 
 <p>Es un lugar ideal para una variedad de actividades al aire libre: <br>
     <strong>Paseos y Ejercicio:</strong> Perfecto para caminar, correr, patinar y montar en bicicleta. <br>
@@ -30,17 +42,3 @@
     ofreciendo una combinación perfecta de belleza natural, actividades al aire libre y una atmósfera encantadora.
 </p>
 
-<?php
-$localidad = 'Castro Urdiales';
-$lugar = 'Paseo Marítimo';
-
-$foto1 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo1.jpg";
-$altFoto1 = '...';
-$foto2 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo2.jpg";
-$altFoto2 = '...';
-$foto3 = "./../../../../img/castrourdiales/paseomaritimo/paseomaritimo3.jpg";
-$altFoto3 = '...';
-$pieFotos = 'Algunas de las imágenes del ' . $lugar . ' en ' . $localidad;
-include './disp_imagenes/2fotos.php';
-
-?>

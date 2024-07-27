@@ -18,7 +18,15 @@
     <strong>Zona de Deportes:</strong> Instalaciones deportivas para la práctica de diversos deportes acuáticos y terrestres.<br>
 </p>
 
+<?php
+$localidad = 'Castro Urdiales';
+$lugar = 'Club Nautico';
 
+$foto1 = "./../../../../img/castrourdiales/clubnautico/clubnautico1.jpg";
+$altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
+$pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
+include './disp_imagenes/1foto.php';
+?>
 <p>Organiza y promueve una amplia gama de actividades, tales como: <br>
 <strong>Regatas:</strong> Competiciones de vela y otros deportes náuticos. <br>
 <strong>Cursos y Talleres:</strong> Formación en navegación, seguridad marítima y otras habilidades relacionadas. <br>
@@ -39,12 +47,3 @@ Las opciones de afiliación incluyen membresías individuales, familiares y temp
 
 <p>El Club Náutico de Castro Urdiales es un lugar ideal para los amantes del mar y las actividades náuticas, ofreciendo un entorno único y servicios de primera calidad.</p>
 
-<?php
-$localidad = 'Castro Urdiales';
-$lugar = 'Club Nautico';
-
-$foto1 = "./../../../../img/castrourdiales/clubnautico/clubnautico1.jpg";
-$altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
-$pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
-include './disp_imagenes/1foto.php';
-?>

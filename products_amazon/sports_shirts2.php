@@ -1,32 +1,28 @@
 <?php
-
-// Parámetros de la conexión
-$servername = "localhost";
-$username = "root";
-$password = ""; // Cambia esto si tu usuario de MySQL tiene una contraseña
-$dbname = "blogplayas2024_db";
-
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
 $sql = "SELECT * FROM amazon_shirts_images " . $where;
-$result = $conn->query($sql);
+$stmt = $conn->query($sql);
 
-if ($result->num_rows > 0) {
+if ($stmt->rowCount() > 0) {
     // Salida de datos de cada fila
     $images_shirts_lateral_1_1 = [];
 
-    while ($row = $result->fetch_assoc()) {
-
+    while ($row = $stmt->fetch()) {
         $product = [
             "href" => $row["href"],
             "src" => $row["src"],
             "alt" => $row["alt"]
         ];
-            array_push($images_shirts_lateral_1_1, $product);
+        // echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
+
+        array_push($images_shirts_lateral_1_1, $product);
     }
 } else {
     echo "0 resultados";
 }
 
-$conn->close();
+// Cerrar la conexión
+$conn = null;
+
+

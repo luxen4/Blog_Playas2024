@@ -26,12 +26,3 @@
 
     </div>
 </div>
-
-<style>
-    /*
-.custom {
-    max-height: 300px; /* Adjust the max-height as needed
-    width: auto; /* Maintain aspect ratio 
-    object-fit: cover; /* Ensure the image covers the allocated space while maintaining aspect ratio 
-}*/
-</style>

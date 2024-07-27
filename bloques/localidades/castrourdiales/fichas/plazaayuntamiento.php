@@ -20,7 +20,11 @@
     o una comida mientras se observa la vida de la plaza.
 </p>
 
-
+<?php
+$foto1 = "./../../../../img/castrourdiales/plazaayuntamiento1.jpg";
+$foto2 = "./../../../../img/castrourdiales/plazaayuntamiento2.png";
+include './disp_imagenes/2fotos.php';
+?>
 
 <p>Es un lugar dinámico donde se celebran diversos eventos y actividades a lo largo del año:
     <strong>Mercados y Ferias:</strong> Mercados semanales y ferias ocasionales que atraen a visitantes de toda la región.
@@ -39,8 +43,3 @@
 </p>
 
 
-<?php
-$foto1 = "./../../../../img/castrourdiales/plazaayuntamiento1.jpg";
-$foto2 = "./../../../../img/castrourdiales/plazaayuntamiento2.png";
-include './disp_imagenes/2fotos.php';
-?>

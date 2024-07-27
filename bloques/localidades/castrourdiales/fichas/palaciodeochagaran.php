@@ -16,16 +16,15 @@
     <strong>Jardines:</strong> Amplios jardines que rodean el palacio, con una gran variedad de plantas y árboles exóticos. <br>
     <strong>Interiores:</strong> Aunque el acceso al interior no siempre está permitido al público, el palacio cuenta con habitaciones lujosamente decoradas y mobiliario de época.
 </p>
-
 <?php
-/*
+
 $localidad = 'Castro Urdiales';
 $lugar = 'Palacio de Ochagarán';
 
 $foto1 = "./../../../../img/castrourdiales/palaciodeochagaran/palaciodeochagaran1.jpg";
 $altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
 $pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
-include '1foto.php';*/
+include './disp_imagenes/1foto.php';
 ?>
 
 
@@ -42,13 +41,3 @@ include '1foto.php';*/
     Su imponente presencia y su hermosa construcción lo convierten en un punto de referencia indispensable para quienes visitan la ciudad.
 </p>
 
-<?php
-
-$localidad = 'Castro Urdiales';
-$lugar = 'Palacio de Ochagarán';
-
-$foto1 = "./../../../../img/castrourdiales/palaciodeochagaran/palaciodeochagaran1.jpg";
-$altFoto1 = 'Imagen del Parque de la Música en Castro Urdiales';
-$pieFotos = 'Imágen del ' . $lugar . ' en ' . $localidad;
-include './disp_imagenes/1foto.php';
-?>

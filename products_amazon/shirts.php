@@ -1,4 +1,3 @@
-
 <?php
 require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
@@ -43,4 +42,3 @@ if ($stmt->rowCount() > 0) {
 
 // Cerrar la conexión
 $conn = null;
-?>

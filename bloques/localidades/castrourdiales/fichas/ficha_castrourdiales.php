@@ -55,62 +55,52 @@
                 Durante los siglos XIX y XX, se desarrollaron importantes infraestructuras portuarias que ayudaron a modernizar la ciudad y su puerto.
             </p>
 
+            <hr><?php include './../../../../bloques/estructura/anuncios/carga_productos.php'; ?><hr>
 
-            <hr><?php require './../../../../bloques/estructura/carrusel.php'; ?><hr>
+            <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_frente.php'; ?><hr>
 
+
+                <?php require './../../../../bloques/estructura/carrusel_horizontal_fijo_shorts.php'; ?>
 
             <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
             <hr><?php include_once './../lugares/parqueamestoy.php'; ?><hr> 
           
 
             <?php include_once './../lugares/asadorlaperla.php'; ?>
-            <hr><?php include './../../../../bloques/carrusel_horizontal_fijo_swimsuits_woman_amazon.php'; // Carrusel fijo de camisetas UNDER ARMOUR 
-                ?><hr>
-
+            <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_derecha.php'; ?><hr>
+           
            
             
             <?php include_once './paseomaritimo.php'; ?>
-            <hr><?php include './../../../../bloques/carrusel_horizontal_fijo_sneakers.php'; ?> <hr> 
+            <hr><?php 
+            // Carrusel fijo de 
+            include './../../../../bloques/estructura/carrusel_horizontal_fijo_swimsuits_woman_amazon.php'; ?><hr>
+
            
 
             <?php include_once './clubnautico.php'; ?>
+            <hr><?php 
+            // Carrusel fijo de camisetas UNDER ARMOUR
+            include './../../../../bloques/estructura/carrusel_horizontal_fijo_sports_shirts_amazon.php';  ?><hr>
 
-            <?php include_once './palaciodeochagaran.php'; ?> 
-            <hr><?php include './../../../../bloques/carrusel_horizontal_fijo_sports_shirts_amazon.php'; // Carrusel fijo de camisetas UNDER ARMOUR 
-                ?><hr>
+
+            <?php include_once './palaciodeochagaran.php'; ?>  
+            <hr><?php include './../../../../bloques/estructura/carrusel_horizontal_fijo_sneakers.php'; ?><hr> 
+           
+
+            <?php include_once './puertocastrourdiales.php'; ?>
+
         
 
-            <?php include_once './puertocastrourdiales.php'; // Carrusel fijo de bolsos de hombre // https://www.amazon.es/dp/B0D98167FL/ref=twister_B0D97Z6G2Z?_encoding=UTF8&th=1&psc=1
-            ?>
-
-            <?php include_once './plazaayuntamiento.php'; // Blusas para mujer 
-            ?>
-            <hr>
-            <?php include_once './puertocastrourdiales.php'; // Zapateria de mujer 
-            // https://www.amazon.es/XTI-Bot%C3%ADn-cierre-cremallera-blanco/dp/B0CH8SRCK8/ref=sl_ob_desktop_dp_0_3_v2?_encoding=UTF8&pd_rd_w=F17oA&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=XZCSJ6QDJV5Y77AMSCAG&pd_rd_wg=mTwaI&pd_rd_r=4aca3441-4f73-41af-b62f-5111a7b925d6
-            ?>
-
-            <?php include_once './puentemedieval.php';
-            // Sandalias hombre 
-            ?>
-                <?php include './../../../../bloques/carrusel_horizontal_fijo_sports_shirts_amazon.php'; // Carrusel fijo de camisetas UNDER ARMOUR 
-                ?>
-            <hr>
-            <?php include_once './castillodesantaana.php';
-            // Bisuteria
-            ?>
-
+            <?php include_once './plazaayuntamiento.php'; ?>
+            <?php include_once './puertocastrourdiales.php'; ?>  
+            <?php include_once './puentemedieval.php'; ?>
+            <?php include_once './castillodesantaana.php'; ?>
             <?php include_once './iglesiadesantamariadelaasuncion.php'; ?>
-            <hr><?php include './../../../../bloques/carrusel_horizontal_fijo_shorts.php'; // Carrusel fijo de shorts Tansozer 
-                ?><hr>
-          
             <?php include_once './elpedregal.php'; ?>
-
-            <?php include './../../../../bloques/carrusel_horizontal_fijo_sports_shirts_amazon.php'; // Carrusel fijo de camisetas UNDER ARMOUR 
-            ?>
             <?php include_once './playadeostende.php'; ?>
-            <h6>
-            Para más información puede consultar en la pagina de la oficina de turismo de 
+
+            <h6>Para más información puede consultar en la pagina de la oficina de turismo de 
             <a href="http://turismo.castro-urdiales.net/turcastro/planifica-tu-viaje/oficina-de-turismo">Castro-Urdiales</a></h6>
 
         </div>
@@ -131,12 +121,15 @@
 
             ?>
         </footer>
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <!-- Popper.js -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       
+            
+        
+    </body>
+
+
+        <?php include_once './../js/logica_anuncios.php'; ?>
+
+
 
 
         <style>
@@ -147,9 +140,14 @@
                 text-align: left;
             }
 
+            img{padding: 1em;}
 
 
             .carousel-item a img {
                 max-height: 300px;
+            }
+
+            body{
+                background-color: white;
             }
         </style>

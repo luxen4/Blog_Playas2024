@@ -20,6 +20,19 @@ $table='amazon_sneakers_images';
 $where = 'where marca = "GEOX" and direccion = "izquierda_0º"';
 include './../../../../products_amazon/sneakers.php';
 
+//
+$table='amazon_sneakers_images';
+$where = 'where marca = "TARELO" and direccion = "izquierda_45º"';
+include './../../../../products_amazon/sneakers_izquierda_45.php';
+
+
+$table='amazon_dress_woman_images';
+$where = 'where marca = "The Drop" ';
+include './../../../../products_amazon/dress_woman.php';
+
+
+
+
 $table='amazon_swimsuits_woman_images';
 $where = 'order by direccion';
 include './../../../../products_amazon/swimsuits_woman.php';

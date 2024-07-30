@@ -96,13 +96,76 @@ CREATE TABLE IF NOT EXISTS amazon_sneakers_images (
 
 
 INSERT INTO amazon_sneakers_images (href, src, alt, marca, precio, direccion) VALUES
-('https://amzn.to/3WzJnyM',
-'https://m.media-amazon.com/images/I/61uOi-PZ4TL._AC_SY575_.jpg',
-'Zapatillas marca Geox',
-'GEOX',
-89.90,
-'izquierda_0º'
+('https://amzn.to/3SuUaYm',
+'https://m.media-amazon.com/images/I/71VfFwWF3NL._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+49.99,
+'izquierda_45º'
+),
+
+('https://amzn.to/3LLaGzL',
+'https://m.media-amazon.com/images/I/714O73YhxhL._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+49.99,
+'izquierda_45º'
+),
+
+
+('https://amzn.to/3WtKBKu',
+'https://m.media-amazon.com/images/I/71s8GC6-DDL._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+49.99,
+'izquierda_45º'
+),
+
+('https://amzn.to/3Wpr7GY',
+'https://m.media-amazon.com/images/I/716uXGwOJ8L._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+49.99,
+'izquierda_45º'
+),
+
+
+
+('https://amzn.to/3AevRrp',
+'https://m.media-amazon.com/images/I/71F8Do5feDL._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+30.99,
+'izquierda_45º'
+),
+
+('https://amzn.to/46tEHgY',
+'https://m.media-amazon.com/images/I/71DVl9txgPL._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+47.99,
+'izquierda_45º'
+),
+
+
+
+
+('https://amzn.to/4dnFfr3',
+'https://m.media-amazon.com/images/I/71aqVXCci3L._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+47.99,
+'izquierda_45º'
+),
+
+('https://amzn.to/4fm83Cb',
+'https://m.media-amazon.com/images/I/71Bt0YUCjLL._AC_SY625_.jpg',
+'Zapatillas marca TARELO',
+'TARELO',
+30.99,
+'izquierda_45º'
 )
+
 ;
 
 
@@ -336,4 +399,85 @@ INSERT INTO amazon_sandals_man_images (href, src, alt, marca, precio, direccion)
 'FLARUT',
 33.99,
 'izquierda_45º')
+;
+
+
+
+
+
+
+
+
+// amazon_dress_woman_images
+    CREATE TABLE IF NOT EXISTS amazon_dress_woman_images (
+        amazon_dress_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_dress_woman_images (href, src, alt, marca, precio, direccion) VALUES
+
+('https://amzn.to/3WtQsiW',
+'https://m.media-amazon.com/images/I/71H5OtYaDoL._AC_SX569_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+41.93,
+'modelo_izquierda_liso'),
+
+('https://amzn.to/3WLB8Ql',
+'https://m.media-amazon.com/images/I/61SInBv736L._AC_SY741_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+41.93,
+'modelo_derecha_liso'),
+
+('https://amzn.to/3yj8mNr',
+'https://m.media-amazon.com/images/I/81EbnG6-NaL._AC_SX569_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+45.85,
+'modelo_frente_estampado'),
+
+('https://amzn.to/4dnXI6K',
+'https://m.media-amazon.com/images/I/81WKW7-ee2L._AC_SX569_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+41.93,
+'modelo_derecha_estampado'),
+
+
+
+('https://amzn.to/3YwCBuO',
+'https://m.media-amazon.com/images/I/71xbyafFlyL._AC_SX569_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+41.93,
+'modelo_frente_liso'),
+
+('https://amzn.to/3WucWR5',
+'https://m.media-amazon.com/images/I/81NKOdKIG6L._AC_SX569_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+41.59,
+'modelo_derecha_estampado'),
+
+('https://amzn.to/3A4xMiq',
+'https://m.media-amazon.com/images/I/81wMmtnXt6L._AC_SX569_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+46.36,
+'modelo_derecha_estampado'),
+
+('https://amzn.to/46pGPqg',
+'https://m.media-amazon.com/images/I/71LYH+C5j0L._AC_SX569_.jpg',
+'Vestido Mujer marca The Drop',
+'The Drop',
+41.93,
+'modelo_izquierda_liso')
+
 ;

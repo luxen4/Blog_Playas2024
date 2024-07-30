@@ -1,19 +1,11 @@
 <div id="#" class="container">
     <div class="row">
 
-
         <div class="row">
             <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
-                <h2>Tourist offices</h2>
+                <h2>Oficinas de Turismo</h2>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
-                <hr class="letra">
-            </div>
-        </div>
-
 
         <div class="row">
             <div class="col-xl-3 text-center col-lg-3 col-md-3 col-sm-3 col-6">

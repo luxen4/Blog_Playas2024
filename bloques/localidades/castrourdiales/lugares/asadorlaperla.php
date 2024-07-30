@@ -1,6 +1,3 @@
-                <!--Anuncios horizontales de Amazón-->
-                <?php include './../../../../carrusel_horizontal_0.php'; ?>
-
 <h3>2. Asador La Perla</h3>
 <p>El <strong>Asador La Perla</strong> es un restaurante emblemático en Castro Urdiales. Conocido por su ambiente acogedor y su excelente cocina, este asador es una parada obligatoria para quienes visitan la región.</p>
 
@@ -34,14 +31,9 @@ include './disp_imagenes/3fotos.php';
     <strong>Reservas previas, Menú del día y a la carta, Opciones para eventos y celebraciones, Atención personalizada.</strong>
 </p>
 
-
 <p>Está abierto todos los días de la semana, con el siguiente horario: <br>
 Lunes a Viernes: 13:00 - 16:00 y 20:00 - 23:00 <br>
 Sábados y Domingos: 13:00 - 23:00 (horario continuo)
 </ul>
 </p>
 <p>Si buscas una experiencia culinaria memorable en Castro Urdiales, el Asador La Perla es el lugar ideal. ¡No te lo pierdas!</p>
-
-
-
-

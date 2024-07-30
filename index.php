@@ -36,8 +36,6 @@
                 include_once 'bloques/localidades/index.php'; ?>
                 <!--Fin Castro Urdiales-->
 
-                <!--Anuncios horizontales de Amazón-->
-                <?php include 'carrusel_horizontal_0.php'; ?>
 
                 <!--Inicio Castro Bakio-->
                 <?php $localidad = 'Noja';

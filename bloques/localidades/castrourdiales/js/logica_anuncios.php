@@ -37,6 +37,11 @@
     const images_sneakers_2_3 = <?php echo json_encode($images_sneakers_2_3); ?>;
     const images_sneakers_2_4 = <?php echo json_encode($images_sneakers_2_4); ?>;
 
+    const images_sneakers_izquierda_45_2_1 = <?php echo json_encode($images_sneakers_izquierda_45_2_1); ?>;
+    const images_sneakers_izquierda_45_2_2 = <?php echo json_encode($images_sneakers_izquierda_45_2_2); ?>;
+    const images_sneakers_izquierda_45_2_3 = <?php echo json_encode($images_sneakers_izquierda_45_2_3); ?>;
+    const images_sneakers_izquierda_45_2_4 = <?php echo json_encode($images_sneakers_izquierda_45_2_4); ?>;
+
 
 
     const images_swimsuits_woman_1_1 = <?php echo json_encode($images_swimsuits_woman_1_1); ?>;
@@ -49,6 +54,12 @@
     const images_sandals_man_1_2 = <?php echo json_encode($images_sandals_man_1_2); ?>;
     const images_sandals_man_1_3 = <?php echo json_encode($images_sandals_man_1_3); ?>;
     const images_sandals_man_1_4 = <?php echo json_encode($images_sandals_man_1_4); ?>;
+
+
+    const images_dress_woman_2_1 = <?php echo json_encode($images_dress_woman_2_1); ?>;
+    const images_dress_woman_2_2 = <?php echo json_encode($images_dress_woman_2_2); ?>;
+    const images_dress_woman_2_3 = <?php echo json_encode($images_dress_woman_2_3); ?>;
+    const images_dress_woman_2_4 = <?php echo json_encode($images_dress_woman_2_4); ?>;
 
 
 
@@ -83,6 +94,11 @@
         sneakers_2_3: 0,
         sneakers_2_4: 0,
 
+        sneakers_izquierda_45_2_1: 0,
+        sneakers_izquierda_45_2_2: 0,
+        sneakers_izquierda_45_2_3: 0,
+        sneakers_izquierda_45_2_4: 0,
+
 
         swimsuits_woman_1_1: 0,
         swimsuits_woman_1_2: 0,
@@ -94,7 +110,10 @@
         sandals_man_1_3: 0,
         sandals_man_1_4: 0,
 
-
+        dress_woman_2_1: 0,
+        dress_woman_2_2: 0,
+        dress_woman_2_3: 0,
+        dress_woman_2_4: 0,
 
 
         shirts_lateral_1_1: 0
@@ -133,6 +152,12 @@
         prueba('image-link_sneakers_2_2', 'image_sneakers_2_2', images_sneakers_2_2, 'sneakers_2_2');
         prueba('image-link_sneakers_2_3', 'image_sneakers_2_3', images_sneakers_2_3, 'sneakers_2_3');
         prueba('image-link_sneakers_2_4', 'image_sneakers_2_4', images_sneakers_2_4, 'sneakers_2_4');
+
+        
+        prueba('image-link_sneakers_izquierda_45_2_1', 'image_sneakers_izquierda_45_2_1', images_sneakers_izquierda_45_2_1, 'sneakers_izquierda_45_2_1');
+        prueba('image-link_sneakers_izquierda_45_2_2', 'image_sneakers_izquierda_45_2_2', images_sneakers_izquierda_45_2_2, 'sneakers_izquierda_45_2_2');
+        prueba('image-link_sneakers_izquierda_45_2_3', 'image_sneakers_izquierda_45_2_3', images_sneakers_izquierda_45_2_3, 'sneakers_izquierda_45_2_3');
+        prueba('image-link_sneakers_izquierda_45_2_4', 'image_sneakers_izquierda_45_2_4', images_sneakers_izquierda_45_2_4, 'sneakers_izquierda_45_2_4');
         ///
         
 
@@ -155,7 +180,10 @@
         prueba('image-link_sandals_man_1_4', 'image_sandals_man_1_4', images_sandals_man_1_4, 'sandals_man_1_4');
 
 
-
+        prueba('image-link_dress_woman_2_1', 'image_dress_woman_2_1', images_dress_woman_2_1, 'dress_woman_2_1');
+        prueba('image-link_dress_woman_2_2', 'image_dress_woman_2_2', images_dress_woman_2_2, 'dress_woman_2_2');
+        prueba('image-link_dress_woman_2_3', 'image_dress_woman_2_3', images_dress_woman_2_3, 'dress_woman_2_3');
+        prueba('image-link_dress_woman_2_4', 'image_dress_woman_2_4', images_dress_woman_2_4, 'dress_woman_2_4');
         ///
 
 

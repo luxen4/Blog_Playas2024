@@ -1,4 +1,52 @@
 <?php
+require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
+
+$sql = "SELECT * FROM amazon_dress_woman_images ". $where;
+$stmt = $conn->query($sql);
+
+if ($stmt->rowCount() > 0) {
+    // Salida de datos de cada fila
+    $images_dress_woman_2_1 = [];
+    $images_dress_woman_2_2 = [];
+    $images_dress_woman_2_3 = [];
+    $images_dress_woman_2_4 = [];
+    $posicion = 1;
+
+    while ($row = $stmt->fetch()) {
+        $product = [
+            "href" => $row["href"],
+            "src" => $row["src"],
+            "alt" => $row["alt"]
+        ];
+        // echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
+
+        if ($posicion == 5) {
+            $posicion = 1;
+        }
+
+        if ($posicion == 1) {
+            array_push($images_dress_woman_2_1, $product);
+        } elseif ($posicion == 2) {
+            array_push($images_dress_woman_2_2, $product);
+        } elseif ($posicion == 3) {
+            array_push($images_dress_woman_2_3, $product);
+        } elseif ($posicion == 4) {
+            array_push($images_dress_woman_2_4, $product);
+        }
+
+        $posicion = $posicion + 1;
+    }
+} else {
+    echo "00000 resultados";
+}
+
+// Cerrar la conexión
+$conn = null; ?>
+
+
+
+<?php
+/*
 // Vamos a alternar entre 3 camisas Hawaianas diferentes //
 $alt_general = 'Imagen de una Camisa Hawaiana';
 $images = [
@@ -64,38 +112,6 @@ $images_zapatillas = [
 ];
 
 
-
-
-?>
-
-
-
-
-<div style="display: flex; ">
-
-
-    <div class="amazon-product" class="d-block w-100" style="width: 100px;">
-        <a id="image-link1" href="<?php echo $images[0]['href']; ?>">
-            <img id="image1" src="<?php echo $images[0]['src']; ?>" alt="<?php echo $images[0]['alt']; ?>">
-        </a>
-    </div>
-
-    <div class="amazon-product" class="d-block w-100" style="width: 100px;">
-        <a id="image-link2" href="<?php echo $images_shorts[0]['href']; ?>">
-            <img id="image2" src="<?php echo $images_shorts[0]['src']; ?>" alt="<?php echo $images_shorts[0]['alt']; ?>">
-        </a>
-    </div>
-
-    <div class="amazon-product" class="d-block w-100" style="width: 100px;">
-        <a id="image-link3" href="<?php echo $images_zapatillas[0]['href']; ?>">
-            <img id="image3" src="<?php echo $images_zapatillas[0]['src']; ?>" alt="<?php echo $images_zapatillas[0]['alt']; ?>">
-        </a>
-    </div>
-</div>
-
-
-
-
 <style>
     .amazon-product {
         border: 1px solid black;
@@ -108,42 +124,5 @@ $images_zapatillas = [
     }
 </style>
 
-
-<script>
-        const images = <?php echo json_encode($images); ?>;
-        const images_shorts = <?php echo json_encode($images_shorts); ?>;
-        const images_zapatillas = <?php echo json_encode($images_zapatillas); ?>;
-
-        let currentIndex = 0;
-        let currentShortsIndex = 0;
-        let currentZapatillasIndex = 0;
-
-        function changeImage() {
-            currentIndex = (currentIndex + 1) % images.length;
-            document.getElementById('image-link1').href = images[currentIndex].href;
-            document.getElementById('image1').src = images[currentIndex].src;
-            document.getElementById('image1').alt = images[currentIndex].alt;
-        }
-
-        function changeImage2() {
-            currentShortsIndex = (currentShortsIndex + 1) % images_shorts.length;
-            document.getElementById('image-link2').href = images_shorts[currentShortsIndex].href;
-            document.getElementById('image2').src = images_shorts[currentShortsIndex].src;
-            document.getElementById('image2').alt = images_shorts[currentShortsIndex].alt;
-        }
-
-        function changeImage3() {
-            currentZapatillasIndex = (currentZapatillasIndex + 1) % images_zapatillas.length;
-            document.getElementById('image-link3').href = images_zapatillas[currentZapatillasIndex].href;
-            document.getElementById('image3').src = images_zapatillas[currentZapatillasIndex].src;
-            document.getElementById('image3').alt = images_zapatillas[currentZapatillasIndex].alt;
-        }
-
-        function changeImages() {
-            changeImage();
-            changeImage2();
-            changeImage3();
-        }
-
-        setInterval(changeImages, 2000);
-    </script>
+*/
+?>

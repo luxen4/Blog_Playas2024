@@ -62,62 +62,66 @@
     const images_dress_woman_2_4 = <?php echo json_encode($images_dress_woman_2_4); ?>;
 
 
+    const images_purse_woman_2_1 = <?php echo json_encode($images_purse_woman_2_1); ?>;
+    const images_purse_woman_2_2 = <?php echo json_encode($images_purse_woman_2_2); ?>;
+    const images_purse_woman_2_3 = <?php echo json_encode($images_purse_woman_2_3); ?>;
+    const images_purse_woman_2_4 = <?php echo json_encode($images_purse_woman_2_4); ?>;
+
+
+    const images_sandals_woman_2_1 = <?php echo json_encode($images_sandals_woman_2_1); ?>;
+    const images_sandals_woman_2_2 = <?php echo json_encode($images_sandals_woman_2_2); ?>;
+    const images_sandals_woman_2_3 = <?php echo json_encode($images_sandals_woman_2_3); ?>;
+    const images_sandals_woman_2_4 = <?php echo json_encode($images_sandals_woman_2_4); ?>;
+
+
+    const images_jeans_man_derecha_2_1 = <?php echo json_encode($images_jeans_man_derecha_2_1); ?>;
+    const images_jeans_man_derecha_2_2 = <?php echo json_encode($images_jeans_man_derecha_2_2); ?>;
+    const images_jeans_man_derecha_2_3 = <?php echo json_encode($images_jeans_man_derecha_2_3); ?>;
+    const images_jeans_man_derecha_2_4 = <?php echo json_encode($images_jeans_man_derecha_2_4); ?>;
+
+
+    const images_polos_man_frente_2_1 = <?php echo json_encode($images_polos_man_frente_2_1); ?>;
+    const images_polos_man_frente_2_2 = <?php echo json_encode($images_polos_man_frente_2_2); ?>;
+    const images_polos_man_frente_2_3 = <?php echo json_encode($images_polos_man_frente_2_3); ?>;
+    const images_polos_man_frente_2_4 = <?php echo json_encode($images_polos_man_frente_2_4); ?>;
+
+
 
     const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
 
     
-    let currentIndex = {
-     
-        shirts_1_1: 0,
-        shirts_1_2: 0,
-        shirts_1_3: 0,
-        shirts_1_4: 0,
+    let currentIndex = {};
 
-        shirts_modelo_derecha_1_1: 0,
-        shirts_modelo_derecha_1_2: 0,
-        shirts_modelo_derecha_1_3: 0,
-        shirts_modelo_derecha_1_4: 0,
+// Función para agregar propiedades al objeto con un patrón definido
+function addProperties(baseName, groupRange, count) {
+    for (let i = 1; i <= count; i++) {
+        currentIndex[`${baseName}_${groupRange}_${i}`] = 0;
+    }
+}
 
-        sports_shirts_1_1: 0,
-        sports_shirts_1_2: 0,
-        sports_shirts_1_3: 0,
-        sports_shirts_1_4: 0,
-        sports_shirts_1_5: 0,
+// Definir las bases y rangos de grupos
+const definitions = [
+    { baseName: 'shirts', groupRange: 1, count: 4 },
+    { baseName: 'shirts_modelo_derecha', groupRange: 1, count: 4 },
+    { baseName: 'sports_shirts', groupRange: 1, count: 5 },
+    { baseName: 'shorts', groupRange: 3, count: 4 },
+    { baseName: 'sneakers', groupRange: 2, count: 4 },
+    { baseName: 'sneakers_izquierda_45', groupRange: 2, count: 4 },
+    { baseName: 'swimsuits_woman', groupRange: 1, count: 4 },
+    { baseName: 'sandals_man', groupRange: 1, count: 4 },
+    { baseName: 'dress_woman', groupRange: 2, count: 4 },
+    { baseName: 'purse_woman', groupRange: 2, count: 4 },
+    { baseName: 'sandals_woman', groupRange: 2, count: 4 },
+    { baseName: 'jeans_man_derecha', groupRange: 2, count: 4 },
+    { baseName: 'polos_man_frente', groupRange: 2, count: 4 },
+    { baseName: 'jeans_man_derecha', groupRange: 2, count: 4 },
+    { baseName: 'shirts_lateral', groupRange: 1, count: 1 }  // Especial caso para "shirts_lateral"
+];
 
-        shorts_3_1: 0,
-        shorts_3_2: 0,
-        shorts_3_3: 0,
-        shorts_3_4: 0,
-
-        sneakers_2_1: 0,
-        sneakers_2_2: 0,
-        sneakers_2_3: 0,
-        sneakers_2_4: 0,
-
-        sneakers_izquierda_45_2_1: 0,
-        sneakers_izquierda_45_2_2: 0,
-        sneakers_izquierda_45_2_3: 0,
-        sneakers_izquierda_45_2_4: 0,
+// Agregar las propiedades usando la función definida
+definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
 
 
-        swimsuits_woman_1_1: 0,
-        swimsuits_woman_1_2: 0,
-        swimsuits_woman_1_3: 0,
-        swimsuits_woman_1_4: 0,
-
-        sandals_man_1_1: 0,
-        sandals_man_1_2: 0,
-        sandals_man_1_3: 0,
-        sandals_man_1_4: 0,
-
-        dress_woman_2_1: 0,
-        dress_woman_2_2: 0,
-        dress_woman_2_3: 0,
-        dress_woman_2_4: 0,
-
-
-        shirts_lateral_1_1: 0
-    };
 
     
     function prueba(image_link, image, cte, indexKey) {
@@ -130,61 +134,112 @@
 
     function changeImages() {
 
-        prueba('image-link_shirts_1_1', 'image_shirts_1_1', images_shirts_1_1, 'shirts_1_1');
-        prueba('image-link_shirts_1_2', 'image_shirts_1_2', images_shirts_1_2, 'shirts_1_2');
-        prueba('image-link_shirts_1_3', 'image_shirts_1_3', images_shirts_1_3, 'shirts_1_3');
-        prueba('image-link_shirts_1_4', 'image_shirts_1_4', images_shirts_1_4, 'shirts_1_4');
 
-
-        prueba('image-link_shirts_modelo_derecha_1_1', 'image_shirts_modelo_derecha_1_1', images_shirts_modelo_derecha_1_1, 'shirts_modelo_derecha_1_1');
-        prueba('image-link_shirts_modelo_derecha_1_2', 'image_shirts_modelo_derecha_1_2', images_shirts_modelo_derecha_1_2, 'shirts_modelo_derecha_1_2');
-        prueba('image-link_shirts_modelo_derecha_1_3', 'image_shirts_modelo_derecha_1_3', images_shirts_modelo_derecha_1_3, 'shirts_modelo_derecha_1_3');
-        prueba('image-link_shirts_modelo_derecha_1_4', 'image_shirts_modelo_derecha_1_4', images_shirts_modelo_derecha_1_4, 'shirts_modelo_derecha_1_4');
+        <?php 
+        $articulo = "shirts";
+        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
 
 
 
-        prueba('image-link_shorts_3_1', 'image_shorts_3_1', images_shorts_3_1, 'shorts_3_1');
-        prueba('image-link_shorts_3_2', 'image_shorts_3_2', images_shorts_3_2, 'shorts_3_2');
-        prueba('image-link_shorts_3_3', 'image_shorts_3_3', images_shorts_3_3, 'shorts_3_3');
-        prueba('image-link_shorts_3_4', 'image_shorts_3_4', images_shorts_3_4, 'shorts_3_4');
+        <?php 
+        $articulo = "shirts_modelo_derecha";
+        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
 
-        prueba('image-link_sneakers_2_1', 'image_sneakers_2_1', images_sneakers_2_1, 'sneakers_2_1');
-        prueba('image-link_sneakers_2_2', 'image_sneakers_2_2', images_sneakers_2_2, 'sneakers_2_2');
-        prueba('image-link_sneakers_2_3', 'image_sneakers_2_3', images_sneakers_2_3, 'sneakers_2_3');
-        prueba('image-link_sneakers_2_4', 'image_sneakers_2_4', images_sneakers_2_4, 'sneakers_2_4');
+
+
+
+        <?php 
+        $articulo = "shorts";
+        $images = [ "images_{$articulo}_3_1","images_{$articulo}_3_2","images_{$articulo}_3_3","images_{$articulo}_3_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_3_$i', 'image_{$articulo}_3_$i', {$images[$i - 1]}, '{$articulo}_3_$i');\n";}?>
 
         
-        prueba('image-link_sneakers_izquierda_45_2_1', 'image_sneakers_izquierda_45_2_1', images_sneakers_izquierda_45_2_1, 'sneakers_izquierda_45_2_1');
-        prueba('image-link_sneakers_izquierda_45_2_2', 'image_sneakers_izquierda_45_2_2', images_sneakers_izquierda_45_2_2, 'sneakers_izquierda_45_2_2');
-        prueba('image-link_sneakers_izquierda_45_2_3', 'image_sneakers_izquierda_45_2_3', images_sneakers_izquierda_45_2_3, 'sneakers_izquierda_45_2_3');
-        prueba('image-link_sneakers_izquierda_45_2_4', 'image_sneakers_izquierda_45_2_4', images_sneakers_izquierda_45_2_4, 'sneakers_izquierda_45_2_4');
-        ///
+
+
+        <?php 
+        $articulo = "sneakers";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
         
 
-
-        prueba('image-link_sports_shirts_1_1', 'image_sports_shirts_1_1', images_sports_shirts_1_1, 'sports_shirts_1_1');
-        prueba('image-link_sports_shirts_1_2', 'image_sports_shirts_1_2', images_sports_shirts_1_2, 'sports_shirts_1_2');
-        prueba('image-link_sports_shirts_1_3', 'image_sports_shirts_1_3', images_sports_shirts_1_3, 'sports_shirts_1_3');
-        prueba('image-link_sports_shirts_1_4', 'image_sports_shirts_1_4', images_sports_shirts_1_4, 'sports_shirts_1_4');
-        //prueba('image-link_sports_shirts_1_5', 'image_sports_shirts_1_5', images_sports_shirts_1_5, 'sports_shirts_1_5');
-
-        prueba('image-link_swimsuits_woman_1_1', 'image_swimsuits_woman_1_1', images_swimsuits_woman_1_1, 'swimsuits_woman_1_1');
-        prueba('image-link_swimsuits_woman_1_2', 'image_swimsuits_woman_1_2', images_swimsuits_woman_1_2, 'swimsuits_woman_1_2');
-        prueba('image-link_swimsuits_woman_1_3', 'image_swimsuits_woman_1_3', images_swimsuits_woman_1_3, 'swimsuits_woman_1_3');
-        prueba('image-link_swimsuits_woman_1_4', 'image_swimsuits_woman_1_4', images_swimsuits_woman_1_4, 'swimsuits_woman_1_4');
+        <?php 
+        $articulo = "sneakers_izquierda_45";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
 
-        prueba('image-link_sandals_man_1_1', 'image_sandals_man_1_1', images_sandals_man_1_1, 'sandals_man_1_1');
-        prueba('image-link_sandals_man_1_2', 'image_sandals_man_1_2', images_sandals_man_1_2, 'sandals_man_1_2');
-        prueba('image-link_sandals_man_1_3', 'image_sandals_man_1_3', images_sandals_man_1_3, 'sandals_man_1_3');
-        prueba('image-link_sandals_man_1_4', 'image_sandals_man_1_4', images_sandals_man_1_4, 'sandals_man_1_4');
 
 
-        prueba('image-link_dress_woman_2_1', 'image_dress_woman_2_1', images_dress_woman_2_1, 'dress_woman_2_1');
-        prueba('image-link_dress_woman_2_2', 'image_dress_woman_2_2', images_dress_woman_2_2, 'dress_woman_2_2');
-        prueba('image-link_dress_woman_2_3', 'image_dress_woman_2_3', images_dress_woman_2_3, 'dress_woman_2_3');
-        prueba('image-link_dress_woman_2_4', 'image_dress_woman_2_4', images_dress_woman_2_4, 'dress_woman_2_4');
-        ///
+        <?php 
+        $articulo = "sports_shirts";
+        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+
+
+
+        <?php 
+        $articulo = "swimsuits_woman";
+        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+
+
+
+        <?php 
+        $articulo = "sandals_man";
+        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+
+
+        
+
+        <?php 
+        $articulo = "sandals_woman";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+
+        <?php 
+        $articulo = "dress_woman";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+        
+        <?php 
+        $articulo = "purse_woman";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+        <?php 
+        $articulo = "polos_man_frente";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+        
+        <?php //$articulo="sandals_woman"; ?>
+        //prueba('image-link_<?php echo $articulo; ?>_2_1', 'image_<?php echo $articulo; ?>_2_1', images_sandals_woman_2_1, '<?php echo $articulo; ?>_2_1');
+        //prueba('image-link_<?php echo $articulo; ?>_2_2', 'image_<?php echo $articulo; ?>_2_2', images_sandals_woman_2_2, '<?php echo $articulo; ?>_2_2');
+        //prueba('image-link_<?php echo $articulo; ?>_2_3', 'image_<?php echo $articulo; ?>_2_3', images_sandals_woman_2_3, '<?php echo $articulo; ?>_2_3');
+        //prueba('image-link_<?php echo $articulo; ?>_2_4', 'image_<?php echo $articulo; ?>_2_4', images_sandals_woman_2_4, '<?php echo $articulo; ?>_2_4');
+
+
+        <?php 
+        $articulo = "sandals_woman";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+        //
+        <?php 
+        $articulo = "jeans_man_derecha";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
 
 
 

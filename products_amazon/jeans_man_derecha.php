@@ -1,15 +1,15 @@
-<?php 
+<?php
 require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
-$sql = "SELECT * FROM amazon_sandals_man_images " . $where;
+$sql = "SELECT * FROM amazon_jeans_man_images ". $where;
 $stmt = $conn->query($sql);
 
 if ($stmt->rowCount() > 0) {
     // Salida de datos de cada fila
-    $images_sandals_man_1_1 = [];
-    $images_sandals_man_1_2 = [];
-    $images_sandals_man_1_3 = [];
-    $images_sandals_man_1_4 = [];
+    $images_jeans_man_derecha_2_1 = [];
+    $images_jeans_man_derecha_2_2 = [];
+    $images_jeans_man_derecha_2_3 = [];
+    $images_jeans_man_derecha_2_4 = [];
     $posicion = 1;
 
     while ($row = $stmt->fetch()) {
@@ -25,19 +25,19 @@ if ($stmt->rowCount() > 0) {
         }
 
         if ($posicion == 1) {
-            array_push($images_sandals_man_1_1, $product);
+            array_push($images_jeans_man_derecha_2_1, $product);
         } elseif ($posicion == 2) {
-            array_push($images_sandals_man_1_2, $product);
+            array_push($images_jeans_man_derecha_2_2, $product);
         } elseif ($posicion == 3) {
-            array_push($images_sandals_man_1_3, $product);
+            array_push($images_jeans_man_derecha_2_3, $product);
         } elseif ($posicion == 4) {
-            array_push($images_sandals_man_1_4, $product);
+            array_push($images_jeans_man_derecha_2_4, $product);
         }
 
         $posicion = $posicion + 1;
     }
 } else {
-    echo "888 resultados";
+    echo "666 resultados";
 }
 
 // Cerrar la conexión

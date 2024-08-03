@@ -2,18 +2,84 @@
 <html lang="en">
 
 <head>
+    <title>Qué ver en Castro Urdiales</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="site-verification" content="e148bdbc89c019bd06122ab7bd08a8be" />
-    <title>Qué ver en Castro Urdiales</title>
+    <meta name="description" content="Los lugares que debes visitar en tu viaje a Castro Urdiales, como paseos, monumentos, playas y demás rincones turísticos.">
+    <meta name="keywords" content="Castro Urdiales, monumentos, paseos, lugares de interés, restaurantes">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Adrián Laya García">
+    <meta name="language" content="es">
 
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Castro Urdiales - Información y Turismo">
+    <meta property="og:description" content="Descubre Castro Urdiales, una hermosa ciudad costera en el norte de España. Explora su rica historia, playas, y lugares de interés turístico.">
+    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/castrourdiales/foto_presentacion.jpg">
+    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades/castrourdiales/fichas/ficha_castrourdiales.php">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Castro Urdiales - Información y Turismo">
+    <meta name="twitter:description" content="Descubre Castro Urdiales, una hermosa ciudad costera en el norte de España. Explora su rica historia, playas, y lugares de interés turístico.">
+    <meta name="twitter:image" content="https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg">
+
+    <!-- Pinterest -->
+    <meta property="pinterest:card" content="summary_large_image">
+    <meta property="pinterest:title" content="Qué ver en Castro Urdiales">
+    <meta property="pinterest:description" content="Los lugares más destacados que no te puedes perder en tu visita a Castro Urdiales como paseos, monumentos, playas y demás rincones turísticos.">
+    <meta property="pinterest:image" content="https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg">
+
+    <!-- Sitemap Link -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Alternate Languages -->
+    <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
+    <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
+
+    <!-- Stylesheets -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="./../css/styles.css">
 
+    <!-- Ads Script -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebPage",
+      "name": "Castro Urdiales - Información y Turismo",
+      "description": "Descubre Castro Urdiales, una hermosa ciudad costera en el norte de España. Explora su rica historia, playas, y lugares de interés turístico.",
+      "url": "http://playas2024.kesug.com/bloques/localidades/castrourdiales/fichas/ficha_castrourdiales.php",
+      "mainEntity": {
+        "@type": "Place",
+        "name": "Castro Urdiales",
+        "description": "Castro Urdiales es una localidad situada en la provincia de Cantabria, España, conocida por su puerto, playas y patrimonio histórico.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Castro Urdiales",
+          "addressRegion": "Cantabria",
+          "addressCountry": "España"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 43.3833,
+          "longitude": -3.1833
+        },
+        "image": "https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg",
+        "url": "http://playas2024.kesug.com/bloques/localidades/castrourdiales/fichas/ficha_castrourdiales.php"
+      }
+    }
+    </script>
+
 </head>
 
 <body>
@@ -59,55 +125,65 @@
 
                 <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_frente.php'; ?><hr>
 
-                <hr><?php include './../../../../bloques/estructura/carrusel_dress_woman.php'; ?><hr>
-
-
-
-
 
                 <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
-                <hr><?php include_once './../lugares/parqueamestoy.php'; ?>
-                <hr>
+                <?php include_once './../lugares/parqueamestoy.php'; ?>
+                <hr><?php include './../../../../bloques/estructura/carrusel_dress_woman.php'; ?><hr>
 
+                
 
                 <?php include_once './../lugares/asadorlaperla.php'; ?>
-                <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_derecha.php'; ?>
-                <hr>
+                <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_derecha.php'; ?><hr>
 
 
 
                 <?php include_once './paseomaritimo.php'; ?>
-                <hr><?php
-                    // Carrusel fijo de 
-                    include './../../../../bloques/estructura/carrusel_swimsuits_woman_amazon.php'; ?>
-                <hr>
-
+                <hr><?php include './../../../../bloques/estructura/carrusel_swimsuits_woman_amazon.php'; ?><hr>
+                
 
 
                 <?php include_once './clubnautico.php'; ?>
-                <hr><?php
-                    // Carrusel fijo de camisetas UNDER ARMOUR
-                    include './../../../../bloques/estructura/carrusel_sports_shirts_amazon.php';  ?>
-                <hr>
+                <hr><?php include './../../../../bloques/estructura/carrusel_sports_shirts_amazon.php';  ?><hr>
 
 
                 <?php include_once './palaciodeochagaran.php'; ?>
-                <hr><?php include './../../../../bloques/estructura/carrusel_sneakers.php'; ?><hr>
+                <hr><?php $articulo = "sneakers";
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
 
                 <?php include_once './puertocastrourdiales.php'; ?>
-                <?php require './../../../../bloques/estructura/carrusel_horizontal_fijo_shorts.php'; ?>
+                <hr><?php require './../../../../bloques/estructura/carrusel_horizontal_fijo_shorts.php'; ?><hr>
+
+
 
 
                 <?php include_once './plazaayuntamiento.php'; ?>
-                <hr><?php include './../../../../bloques/estructura/carrusel_sneakers_izquierda_45.php'; ?>
-                <hr>
+                <hr><?php $articulo = "sneakers_izquierda_45";
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
 
                 <?php include_once './puertocastrourdiales.php'; ?>
+
+
                 <?php include_once './puentemedieval.php'; ?>
+                <hr><?php $articulo = "purse_woman";
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
                 <?php include_once './castillodesantaana.php'; ?>
+                <hr><?php $articulo = "sandals_woman";
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
+
                 <?php include_once './iglesiadesantamariadelaasuncion.php'; ?>
+                <hr><?php $articulo = "jeans_man_derecha";
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
+
                 <?php include_once './elpedregal.php'; ?>
+                <hr><?php $articulo = "polos_man_frente";
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
+                
                 <?php include_once './playadeostende.php'; ?>
 
                 <h6>Para más información puede consultar en la pagina de la oficina de turismo de
@@ -137,3 +213,8 @@
 
 
 <?php include_once './../js/logica_anuncios.php'; ?>
+
+
+
+
+

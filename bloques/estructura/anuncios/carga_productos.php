@@ -14,16 +14,41 @@ $table='amazon_shorts_images';
 $where = 'where direccion = "frente"';
 include './../../../../products_amazon/shorts_man.php';
 
+$table='amazon_sneakers_images';
+$where = 'where marca = "TARELO" and direccion = "izquierda_45º"';
+include './../../../../products_amazon/sneakers_izquierda_45.php';
 
 
 $table='amazon_sneakers_images';
 $where = 'where marca = "GEOX" and direccion = "izquierda_0º"';
 include './../../../../products_amazon/sneakers.php';
 
+
+
+
+
+
+$table='amazon_purse_woman_images';
+$where = 'where marca = "JANSBEN" and direccion = "frente"';
+include './../../../../products_amazon/purse_woman_frente.php';
+
+
+$table='amazon_sandals_woman_images';
+$where = 'where direccion = "izda_15º"';
+//$where = 'where marca = "XTI" and direccion = "izda_15º"';
+include './../../../../products_amazon/sandals_woman_15izda.php';
+
+
+
+$table='amazon_jeans_man_images';
+$where = 'where direccion = "derecha"';
+include './../../../../products_amazon/jeans_man_derecha.php';
+
 //
-$table='amazon_sneakers_images';
-$where = 'where marca = "TARELO" and direccion = "izquierda_45º"';
-include './../../../../products_amazon/sneakers_izquierda_45.php';
+$table='amazon_polos_man_images';
+$where = 'where direccion = "frente"';
+include './../../../../products_amazon/polos_man_frente.php';
+
 
 
 $table='amazon_dress_woman_images';

@@ -481,3 +481,491 @@ INSERT INTO amazon_dress_woman_images (href, src, alt, marca, precio, direccion)
 'modelo_izquierda_liso')
 
 ;
+
+
+
+
+// amazon_purse_woman_images
+    CREATE TABLE IF NOT EXISTS amazon_purse_woman_images (
+        amazon_dress_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_purse_woman_images (href, src, alt, marca, precio, direccion) VALUES
+
+('https://amzn.to/4d5KQCK',
+'https://m.media-amazon.com/images/I/51R77GKKKLL._AC_SY625_.jpg',
+'Bolso Mujer marca énvo',
+'énvo',
+49.99,
+'frente'),
+
+('https://amzn.to/3SwN31V',
+'https://m.media-amazon.com/images/I/51rKlv2LMtL._AC_SY625_.jpg',
+'Bolso Mujer marca énvo',
+'énvo',
+49.99,
+'frente'),
+
+('https://amzn.to/4c8aDJk',
+'https://m.media-amazon.com/images/I/419yVmST9AL._AC_SY625_.jpg',
+'Bolso Mujer marca énvo',
+'énvo',
+49.99,
+'frente'),
+
+
+
+
+
+
+('https://amzn.to/4fuivrb',
+'https://m.media-amazon.com/images/I/51KLZXQjIIL._AC_SY625_.jpg',
+'Bolso Mujer marca MODELISA',
+'MODELISA',
+34.99,
+'frente'),
+
+('https://amzn.to/3LPSC7E',
+'https://m.media-amazon.com/images/I/41tVOJLJ37L._AC_SY625_.jpg',
+'Bolso Mujer marca MODELISA',
+'MODELISA',
+34.99,
+'frente'),
+
+
+
+
+
+
+('https://amzn.to/3AaIi7N',
+'https://m.media-amazon.com/images/I/81q46HwF1DL._AC_SY625_.jpg',
+'Bolso Mujer marca Myhozee',
+'Myhozee',
+19.54,
+'frente'),
+
+('https://amzn.to/4c587mR',
+'https://m.media-amazon.com/images/I/71iqqoTWKbL._AC_SY625_.jpg',
+'Bolso Mujer marca Myhozee',
+'Myhozee',
+18.80,
+'frente'),
+
+
+('https://amzn.to/3WIA5QZ',
+'https://m.media-amazon.com/images/I/61b2kz9P-yL._AC_SY625_.jpg',
+'Bolso Mujer marca Myhozee',
+'Myhozee',
+18.80,
+'frente'),
+
+
+
+('https://amzn.to/4fqh2Cp',
+'https://m.media-amazon.com/images/I/810fW5NH4KL._AC_SY625_.jpg',
+'Bolso Mujer marca JANSBEN',
+'JANSBEN',
+25.99,
+'frente'),
+
+('https://amzn.to/4fqh2Cp',
+'https://m.media-amazon.com/images/I/81-8xfb4NZL._AC_SY625_.jpg',
+'Bolso Mujer marca JANSBEN',
+'JANSBEN',
+25.79,
+'frente'),
+
+
+('https://amzn.to/4fqh2Cp',
+'https://m.media-amazon.com/images/I/61b2kz9P-yL._AC_SY625_.jpg',
+'Bolso Mujer marca JANSBEN',
+'JANSBEN',
+25.59,
+'frente'),
+
+('https://amzn.to/4fqh2Cp',
+'https://m.media-amazon.com/images/I/71vIJBS6zhL._AC_SY625_.jpg',
+'Bolso Mujer marca JANSBEN',
+'JANSBEN',
+25.99,
+'frente'),
+
+('https://amzn.to/4fqh2Cp',
+'https://m.media-amazon.com/images/I/71xNtsmJ3NL._AC_SY625_.jpg',
+'Bolso Mujer marca JANSBEN',
+'JANSBEN',
+25.99,
+'frente'),
+
+
+('https://amzn.to/4fqh2Cp',
+'https://m.media-amazon.com/images/I/61tpME7LmWL._AC_SY625_.jpg',
+'Bolso Mujer marca JANSBEN',
+'JANSBEN',
+25.99,
+'frente'),
+
+('https://amzn.to/4fqh2Cp',
+'https://m.media-amazon.com/images/I/81IfVqUJ0WL._AC_SY625_.jpg',
+'Bolso Mujer marca JANSBEN',
+'JANSBEN',
+25.99,
+'frente')
+
+;
+
+
+
+
+
+// amazon_sandals_woman_images
+    CREATE TABLE IF NOT EXISTS amazon_sandals_woman_images (
+        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_sandals_woman_images (href, src, alt, marca, precio, direccion) VALUES
+
+('https://amzn.to/4doCjuk',
+'https://m.media-amazon.com/images/I/710aZ+18xRL._AC_SX625_.jpg',
+'Sandalias Mujer marca XTI',
+'XTI',
+33.94,
+'izda_15º'),
+
+('https://amzn.to/4fwK2s0',
+'https://m.media-amazon.com/images/I/61Ck4NTb8ML._AC_SX625_.jpg',
+'Sandalias Mujer marca XTI',
+'XTI',
+29.95,
+'izda_15º'),
+
+('https://amzn.to/4doCjuk',
+'https://m.media-amazon.com/images/I/61s7oZTkI+L._AC_SX625_.jpg',
+'Sandalias Mujer marca XTI',
+'XTI',
+33.94,
+'izda_15º'),
+
+('https://amzn.to/3yqxwtA',
+'https://m.media-amazon.com/images/I/71iVSBuIqCL._AC_SX625_.jpg',
+'Sandalias Mujer marca XTI',
+'XTI',
+44.92,
+'izda_15º'),
+
+
+
+
+
+
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71CIUhIvxzL._AC_SX625_.jpg',
+'Sandalias Mujer marca REFRESH',
+'REFRESH',
+29.95,
+'izda_15º'),
+
+('https://amzn.to/3YuVxtX',
+'https://m.media-amazon.com/images/I/71tiEUSkBRL._AC_SX625_.jpg',
+'Sandalias Mujer marca REFRESH',
+'REFRESH',
+29.95,
+'izda_15º'),
+
+('https://amzn.to/3WvpVC7',
+'https://m.media-amazon.com/images/I/71MIw2QKJeL._AC_SX625_.jpg',
+'Sandalias Mujer marca REFRESH',
+'REFRESH',
+29.95,
+'izda_15º'),
+
+('https://amzn.to/3AkarZW',
+'https://m.media-amazon.com/images/I/71Ild+rTwVL._AC_SX625_.jpg',
+'Sandalias Mujer marca REFRESH',
+'REFRESH',
+29.95,
+'izda_15º'),
+
+
+
+
+
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71bXIk7hsEL._AC_SX625_.jpg',
+'Sandalias Mujer marca CELANDA',
+'CELANDA',
+36.99,
+'izda_15º'),
+
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71iYyVn1JpL._AC_SX625_.jpg',
+'Sandalias Mujer marca CELANDA',
+'CELANDA',
+36.99,
+'izda_15º'),
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71J2Kic7dIL._AC_SX625_.jpg',
+'Sandalias Mujer marca CELANDA',
+'CELANDA',
+36.99,
+'izda_15º'),
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71XTSH1+N7L._AC_SX625_.jpg',
+'Sandalias Mujer marca CELANDA',
+'CELANDA',
+36.99,
+'izda_15º'),
+
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71hgTp-P4gL._AC_SX625_.jpg',
+'Sandalias Mujer marca CELANDA',
+'CELANDA',
+36.99,
+'izda_15º'),
+
+
+
+
+('https://amzn.to/3LOhf4z',
+'https://m.media-amazon.com/images/I/71uUTtXaV+L._AC_SY625_.jpg',
+'Sandalias Mujer marca Acfoda',
+'Acfoda',
+31.44,
+'izda_15º'),
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71dHxgdqnCL._AC_SY625_.jpg',
+'Sandalias Mujer marca CELANDA',
+'CELANDA',
+31.44,
+'izda_15º'),
+
+
+('https://amzn.to/3YsESas',
+'https://m.media-amazon.com/images/I/71RFD8yz+IL._AC_SY625_.jpg',
+'Sandalias Mujer marca CELANDA',
+'CELANDA',
+31.44,
+'izda_15º')
+
+;
+
+
+
+
+
+// amazon_jeans_man_images
+    CREATE TABLE IF NOT EXISTS amazon_jeans_man_images (
+        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_jeans_woman_images (href, src, alt, marca, precio, direccion) VALUES
+
+('https://amzn.to/3MaLNOt',
+'https://m.media-amazon.com/images/I/61vr30uGwPL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+
+('https://amzn.to/3yrcLxP',
+'https://m.media-amazon.com/images/I/61BjiFfwzpL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+
+
+('https://amzn.to/3MaLNOt',
+'https://m.media-amazon.com/images/I/71WJfjgHpuL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+
+('https://amzn.to/3yrcLxP',
+'https://m.media-amazon.com/images/I/61XhVCcRhSL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+('https://amzn.to/3MaLNOt',
+'https://m.media-amazon.com/images/I/71MewAVUTaL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+
+('https://amzn.to/3yrcLxP',
+'https://m.media-amazon.com/images/I/61PnxSn3nOL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+('https://amzn.to/3MaLNOt',
+'https://m.media-amazon.com/images/I/71HMiGo+RZL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+('https://amzn.to/3yrcLxP',
+'https://m.media-amazon.com/images/I/61Rv-AzZAkL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+('https://amzn.to/3yrcLxP',
+'https://m.media-amazon.com/images/I/61Y+IcHltGL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+('https://amzn.to/3MaLNOt',
+'https://m.media-amazon.com/images/I/519tbCD6BeL._AC_SY741_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha'),
+
+
+('https://amzn.to/3yrcLxP',
+'https://m.media-amazon.com/images/I/61MzjrmAgXL._AC_SX569_.jpg',
+'Jeans Hombre marca CEDY DENIM',
+'CEDY DENIM',
+42.90,
+'derecha')
+
+;
+
+
+
+
+
+
+
+
+
+// amazon_polos_man_images
+    CREATE TABLE IF NOT EXISTS amazon_polos_man_images (
+        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_polos_man_images (href, src, alt, marca, precio, direccion) VALUES
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/61vr30uGwPL._AC_SY741_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/51+sdwoZtYL._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/41IW9DeyyQS._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/41OmJLkfFyS._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+
+
+
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/51chhNXYVsS._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/61X-IML8JCS._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/51lwX8+OqwL._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/51wmzcvuybL._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente'),
+
+('https://amzn.to/3ydD36R',
+'https://m.media-amazon.com/images/I/41G-k5EeB4S._AC_SX679_.jpg',
+'Polo de Golf Hombre marca Calvin Klein',
+'Calvin Klein',
+38.65,
+'frente');

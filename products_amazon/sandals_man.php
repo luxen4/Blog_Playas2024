@@ -6,10 +6,10 @@ $stmt = $conn->query($sql);
 
 if ($stmt->rowCount() > 0) {
     // Salida de datos de cada fila
-    $images_sandals_man_1_1 = [];
-    $images_sandals_man_1_2 = [];
-    $images_sandals_man_1_3 = [];
-    $images_sandals_man_1_4 = [];
+    $images_sandals_man_2_1 = [];
+    $images_sandals_man_2_2 = [];
+    $images_sandals_man_2_3 = [];
+    $images_sandals_man_2_4 = [];
     $posicion = 1;
 
     while ($row = $stmt->fetch()) {
@@ -25,19 +25,19 @@ if ($stmt->rowCount() > 0) {
         }
 
         if ($posicion == 1) {
-            array_push($images_sandals_man_1_1, $product);
+            array_push($images_sandals_man_2_1, $product);
         } elseif ($posicion == 2) {
-            array_push($images_sandals_man_1_2, $product);
+            array_push($images_sandals_man_2_2, $product);
         } elseif ($posicion == 3) {
-            array_push($images_sandals_man_1_3, $product);
+            array_push($images_sandals_man_2_3, $product);
         } elseif ($posicion == 4) {
-            array_push($images_sandals_man_1_4, $product);
+            array_push($images_sandals_man_2_4, $product);
         }
 
         $posicion = $posicion + 1;
     }
 } else {
-    echo "0 resultados en sandals_man";
+    echo "888 resultados";
 }
 
 // Cerrar la conexión

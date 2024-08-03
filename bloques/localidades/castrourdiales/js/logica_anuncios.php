@@ -1,91 +1,41 @@
-
-<!-- Enlaza el JavaScript de Bootstrap y sus dependencias -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
 <script>
     
-    const images_shirts_1_1 = <?php echo json_encode($images_shirts_1_1); ?>;
-    const images_shirts_1_2 = <?php echo json_encode($images_shirts_1_2); ?>;
-    const images_shirts_1_3 = <?php echo json_encode($images_shirts_1_3); ?>;
-    const images_shirts_1_4 = <?php echo json_encode($images_shirts_1_4); ?>;
+    <?php
+    function generateImageConstants($total_images, $categories) {
+        foreach ($categories as $category => $group) {
+            for ($i = 1; $i <= $total_images; $i++) {
+                $variable_name = "{$category}_{$group}_{$i}";
+                if (isset($GLOBALS["images_" . $variable_name])) {
+                    echo "const images_{$variable_name} = " . json_encode($GLOBALS["images_" . $variable_name]) . ";\n";
+                } else {
+                    echo "const images_{$variable_name} = [];\n";
+                }
+            }
+        }
+    }
+    
+    // Define categories and their respective groups
+    $categories = [
+        "shirts" => 1,
+        "shirts_modelo_derecha" => 1,
+        "sports_shirts" => 1,
+        "swimsuits_woman" => 1,
+        "sandals_man" => 2,
+        "sneakers" => 2,
+        "sneakers_izquierda_45" => 2,
+        "dress_woman" => 2,
+        "purse_woman" => 2,
+        "sandals_woman" => 2,
+        "jeans_man_derecha" => 2,
+        "polos_man_frente" => 2,
+        "shorts" => 3
+    ];
+    
+    // Call the function with the total number of images and categories
+    generateImageConstants(4, $categories);
+    ?>
 
-
-    const images_shirts_modelo_derecha_1_1 = <?php echo json_encode($images_shirts_modelo_derecha_1_1); ?>;
-    const images_shirts_modelo_derecha_1_2 = <?php echo json_encode($images_shirts_modelo_derecha_1_2); ?>;
-    const images_shirts_modelo_derecha_1_3 = <?php echo json_encode($images_shirts_modelo_derecha_1_3); ?>;
-    const images_shirts_modelo_derecha_1_4 = <?php echo json_encode($images_shirts_modelo_derecha_1_4); ?>;
-
-                                                             
-    const images_sports_shirts_1_1 = <?php echo json_encode($images_sports_shirts_1_1); ?>;
-    const images_sports_shirts_1_2 = <?php echo json_encode($images_sports_shirts_1_2); ?>;
-    const images_sports_shirts_1_3 = <?php echo json_encode($images_sports_shirts_1_3); ?>;
-    const images_sports_shirts_1_4 = <?php echo json_encode($images_sports_shirts_1_4); ?>;
-    const images_sports_shirts_1_5 = <?php echo json_encode($images_sports_shirts_1_5); ?>;
-
-
-    const images_shorts_3_1 = <?php echo json_encode($images_shorts_3_1); ?>;
-    const images_shorts_3_2 = <?php echo json_encode($images_shorts_3_2); ?>;
-    const images_shorts_3_3 = <?php echo json_encode($images_shorts_3_3); ?>;
-    const images_shorts_3_4 = <?php echo json_encode($images_shorts_3_4); ?>;
-
-
-    const images_sneakers_2_1 = <?php echo json_encode($images_sneakers_2_1); ?>;
-    const images_sneakers_2_2 = <?php echo json_encode($images_sneakers_2_2); ?>;
-    const images_sneakers_2_3 = <?php echo json_encode($images_sneakers_2_3); ?>;
-    const images_sneakers_2_4 = <?php echo json_encode($images_sneakers_2_4); ?>;
-
-    const images_sneakers_izquierda_45_2_1 = <?php echo json_encode($images_sneakers_izquierda_45_2_1); ?>;
-    const images_sneakers_izquierda_45_2_2 = <?php echo json_encode($images_sneakers_izquierda_45_2_2); ?>;
-    const images_sneakers_izquierda_45_2_3 = <?php echo json_encode($images_sneakers_izquierda_45_2_3); ?>;
-    const images_sneakers_izquierda_45_2_4 = <?php echo json_encode($images_sneakers_izquierda_45_2_4); ?>;
-
-
-
-    const images_swimsuits_woman_1_1 = <?php echo json_encode($images_swimsuits_woman_1_1); ?>;
-    const images_swimsuits_woman_1_2 = <?php echo json_encode($images_swimsuits_woman_1_2); ?>;
-    const images_swimsuits_woman_1_3 = <?php echo json_encode($images_swimsuits_woman_1_3); ?>;
-    const images_swimsuits_woman_1_4 = <?php echo json_encode($images_swimsuits_woman_1_4); ?>;
-
-
-    const images_sandals_man_1_1 = <?php echo json_encode($images_sandals_man_1_1); ?>;
-    const images_sandals_man_1_2 = <?php echo json_encode($images_sandals_man_1_2); ?>;
-    const images_sandals_man_1_3 = <?php echo json_encode($images_sandals_man_1_3); ?>;
-    const images_sandals_man_1_4 = <?php echo json_encode($images_sandals_man_1_4); ?>;
-
-
-    const images_dress_woman_2_1 = <?php echo json_encode($images_dress_woman_2_1); ?>;
-    const images_dress_woman_2_2 = <?php echo json_encode($images_dress_woman_2_2); ?>;
-    const images_dress_woman_2_3 = <?php echo json_encode($images_dress_woman_2_3); ?>;
-    const images_dress_woman_2_4 = <?php echo json_encode($images_dress_woman_2_4); ?>;
-
-
-    const images_purse_woman_2_1 = <?php echo json_encode($images_purse_woman_2_1); ?>;
-    const images_purse_woman_2_2 = <?php echo json_encode($images_purse_woman_2_2); ?>;
-    const images_purse_woman_2_3 = <?php echo json_encode($images_purse_woman_2_3); ?>;
-    const images_purse_woman_2_4 = <?php echo json_encode($images_purse_woman_2_4); ?>;
-
-
-    const images_sandals_woman_2_1 = <?php echo json_encode($images_sandals_woman_2_1); ?>;
-    const images_sandals_woman_2_2 = <?php echo json_encode($images_sandals_woman_2_2); ?>;
-    const images_sandals_woman_2_3 = <?php echo json_encode($images_sandals_woman_2_3); ?>;
-    const images_sandals_woman_2_4 = <?php echo json_encode($images_sandals_woman_2_4); ?>;
-
-
-    const images_jeans_man_derecha_2_1 = <?php echo json_encode($images_jeans_man_derecha_2_1); ?>;
-    const images_jeans_man_derecha_2_2 = <?php echo json_encode($images_jeans_man_derecha_2_2); ?>;
-    const images_jeans_man_derecha_2_3 = <?php echo json_encode($images_jeans_man_derecha_2_3); ?>;
-    const images_jeans_man_derecha_2_4 = <?php echo json_encode($images_jeans_man_derecha_2_4); ?>;
-
-
-    const images_polos_man_frente_2_1 = <?php echo json_encode($images_polos_man_frente_2_1); ?>;
-    const images_polos_man_frente_2_2 = <?php echo json_encode($images_polos_man_frente_2_2); ?>;
-    const images_polos_man_frente_2_3 = <?php echo json_encode($images_polos_man_frente_2_3); ?>;
-    const images_polos_man_frente_2_4 = <?php echo json_encode($images_polos_man_frente_2_4); ?>;
-
-
+  
 
     const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
 
@@ -108,7 +58,7 @@ const definitions = [
     { baseName: 'sneakers', groupRange: 2, count: 4 },
     { baseName: 'sneakers_izquierda_45', groupRange: 2, count: 4 },
     { baseName: 'swimsuits_woman', groupRange: 1, count: 4 },
-    { baseName: 'sandals_man', groupRange: 1, count: 4 },
+    { baseName: 'sandals_man', groupRange: 2, count: 4 },
     { baseName: 'dress_woman', groupRange: 2, count: 4 },
     { baseName: 'purse_woman', groupRange: 2, count: 4 },
     { baseName: 'sandals_woman', groupRange: 2, count: 4 },
@@ -255,4 +205,5 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
     }
 
     setInterval(changeImages, 4000);
+
 </script>

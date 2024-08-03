@@ -51,43 +51,17 @@
     <!-- Ads Script -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
 
-    <!-- Structured Data (Schema.org) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "WebPage",
-      "name": "Castro Urdiales - Información y Turismo",
-      "description": "Descubre Castro Urdiales, una hermosa ciudad costera en el norte de España. Explora su rica historia, playas, y lugares de interés turístico.",
-      "url": "http://playas2024.kesug.com/bloques/localidades/castrourdiales/fichas/ficha_castrourdiales.php",
-      "mainEntity": {
-        "@type": "Place",
-        "name": "Castro Urdiales",
-        "description": "Castro Urdiales es una localidad situada en la provincia de Cantabria, España, conocida por su puerto, playas y patrimonio histórico.",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Castro Urdiales",
-          "addressRegion": "Cantabria",
-          "addressCountry": "España"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 43.3833,
-          "longitude": -3.1833
-        },
-        "image": "https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg",
-        "url": "http://playas2024.kesug.com/bloques/localidades/castrourdiales/fichas/ficha_castrourdiales.php"
-      }
-    }
-    </script>
+
+    <?php include_once './../../../../bloques/localidades/castrourdiales/js/structured_data.php'; // Entra?>
+
+
 
 </head>
 
 <body>
     <?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> ?>
-
-
-    <?php include_once './bloques/barra_navegacion.html';
-    ?>
+    <?php include_once './../../../../bloques/estructura/barra_navegacion.php';?>
+    <?php include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
 
 
 <div id="#" class="container">
@@ -109,10 +83,8 @@
                     Su puerto natural jugó un papel crucial en el comercio y la pesca, convirtiéndose en uno de los puertos más importantes del Cantábrico.
                 </p>
 
-                <?php
-                // Definir la constante para la ruta base
-                define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');
-                ?>
+                <?php // Definir la constante para la ruta base
+                define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');?>
 
                 <?php
                 $localidad = 'Castro Urdiales';
@@ -128,9 +100,7 @@
                     Durante los siglos XIX y XX, se desarrollaron importantes infraestructuras portuarias que ayudaron a modernizar la ciudad y su puerto.
                 </p>
 
-                <?php 
-                 include './../../../../bloques/estructura/anuncios/carga_productos.php'; 
-                ?>
+
 
 
                 <hr><?php $articulo = "shirts"; $grupo = '_1';
@@ -175,7 +145,7 @@
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/castillodesantaana.php'; ?>
-                <hr><?php $articulo = "sandals_man";          $grupo = '_1';
+                <hr><?php $articulo = "sandals_man";          $grupo = '_2';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/iglesiadesantamariadelaasuncion.php'; ?>
@@ -213,21 +183,20 @@
     </div>
 
 
-
     <footer>
         <?php require './../../../../bloques/estructura/footer.php'; ?>
     </footer>
-
-
 
 </body>
 
 
 <?php 
-//include_once './../js/logica_anuncios.php'; 
+// include_once './../js/logica_anuncios.php'; 
 include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php'; 
 ?>
 
 
-
-
+<!-- Enlaza el JavaScript de Bootstrap y sus dependencias -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

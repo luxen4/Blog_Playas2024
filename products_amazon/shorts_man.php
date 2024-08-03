@@ -1,7 +1,7 @@
 <?php
 require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
-$sql = "SELECT * FROM amazon_shorts_images " . $where;
+$sql = "SELECT * FROM " . $table . " " . $where;
 $stmt = $conn->query($sql);
 
 if ($stmt->rowCount() > 0) {
@@ -37,7 +37,7 @@ if ($stmt->rowCount() > 0) {
         $posicion = $posicion + 1;
     }
 } else {
-    echo "0000 resultados en shorts_man";
+    echo "0 resultados en shorts_man";
 }
 
 // Cerrar la conexión

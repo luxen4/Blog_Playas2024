@@ -23,7 +23,7 @@
 
     <div id="#" class="container">
         <div class="row">
-            <div id="#" class="col-xl-9 text-center col-lg-6 col-md-10 col-sm-10 col-12">
+            <div id="#" class="col-xl-10 text-center col-lg-6 col-md-10 col-sm-10 col-12">
 
                 <h2>Cantabria</h2>
 
@@ -42,7 +42,9 @@
 
                 <!--Inicio Castro Bakio-->
                 <?php $localidad = 'Noja';
-                $presentacion = 'bla, bla, bla.';
+                $ruta_localidad = 'noja';
+                $presentacion = 'Noja es un encantador municipio costero situado en la región de Cantabria, al norte de España. Conocido por sus hermosas playas de arena fina, como Playa de Ris y Playa de Trengandín, Noja es un popular destino turístico, especialmente en verano. Además de su atractivo natural, la localidad cuenta con un rico patrimonio cultural, que incluye iglesias históricas y palacetes, así como una oferta gastronómica que destaca por los mariscos y pescados frescos. 
+                Es un lugar ideal para disfrutar de la naturaleza, el mar, y la tranquilidad en un entorno pintoresco.';
                 include 'bloques/localidades/index.php'; ?>
                 <!--Fin Bakio-->
 
@@ -90,7 +92,7 @@
             </div>
 
 
-            <div id="#" class="col-xl-3 text-center col-lg-3 col-md-12 col-sm-12 col-12">
+            <div id="#" class="col-xl-2 text-center col-lg-3 col-md-12 col-sm-12 col-12">
                 <?php require './bloques/anuncios_derecha0.php' ?>
             </div>
         </div>

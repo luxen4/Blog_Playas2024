@@ -83,14 +83,17 @@
 </head>
 
 <body>
-    <?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> 
+    <?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> ?>
+
+
+    <?php include_once './bloques/barra_navegacion.html';
     ?>
 
-    <div id="#" class="container">
+
+<div id="#" class="container">
         <div class="row">
                 <!--<iframe src="./../../../../ads_terra/468px-60px.html"></iframe>-->
-                <?php // include_once './../../../../bloques/barra_navegacion.html'; 
-                ?>
+
 
             <div id="#" class="col-xl-10 text-center col-lg-10 col-md-10 col-sm-12 col-12">
 
@@ -106,6 +109,10 @@
                     Su puerto natural jugó un papel crucial en el comercio y la pesca, convirtiéndose en uno de los puertos más importantes del Cantábrico.
                 </p>
 
+                <?php
+                // Definir la constante para la ruta base
+                define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');
+                ?>
 
                 <?php
                 $localidad = 'Castro Urdiales';
@@ -115,105 +122,80 @@
                 $altFoto1 =  $lugar . ' en ' . $localidad;
 
                 $pieFotos = 'Imágen de un ' . $lugar;
-                include './disp_imagenes/1foto.php';
+                include './disp_imagenes/1foto.php'; 
                 ?>
                 <p>En la Edad Media, el puerto de Castro Urdiales continuó siendo un centro de actividad marítima. <br>
                     Durante los siglos XIX y XX, se desarrollaron importantes infraestructuras portuarias que ayudaron a modernizar la ciudad y su puerto.
                 </p>
 
-                <?php include './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+                <?php 
+                 include './../../../../bloques/estructura/anuncios/carga_productos.php'; 
+                ?>
 
-                <hr><?php //require './../../../../bloques/estructura/carrusel_shirts_modelo_frente.php'; ?><hr>
 
-                <hr><?php $articulo = "shirts";          $grupo = '_1';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                <hr><?php $articulo = "shirts"; $grupo = '_1';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
                 
              
-                
-
 
                 <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
+
+
                 <?php include_once './../lugares/parqueamestoy.php'; ?>
-
                 <hr><?php $articulo = "dress_woman";          $grupo = '_2';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
-                
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/asadorlaperla.php'; ?>
-
                 <hr><?php $articulo = "shirts_modelo_derecha";          $grupo = '_1';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-
-
-
-                <?php include_once './paseomaritimo.php'; ?>
-                <hr><?php //include './../../../../bloques/estructura/carrusel_swimsuits_woman_amazon.php'; ?><hr>
-
+                <?php include_once './../lugares/paseomaritimo.php'; ?>
                 <hr><?php $articulo = "swimsuits_woman";          $grupo = '_1';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
                 
-
-
-                <?php include_once './clubnautico.php'; ?>
+                <?php include_once './../lugares/clubnautico.php'; ?>
                 <hr><?php $articulo = "sports_shirts";          $grupo = '_1';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-                
-
-
-                <?php include_once './puentemedieval.php'; ?>
-                <hr><?php 
-                /////////
-                $articulo = "sneakers";         $grupo = '_2';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                <?php include_once './../lugares/puentemedieval.php'; ?>
+                <hr><?php $articulo = "sneakers";         $grupo = '_2';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
 
-                <hr><?php 
-                ////////
-                $articulo = "purse_woman";              $grupo = '_2';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
-
-
-
-                <?php include_once './puertocastrourdiales.php'; ?>
+                <?php include_once './../lugares/puertocastrourdiales.php'; ?>
                 <hr><?php $articulo = "shorts";          $grupo = '_3';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
+                <?php include_once './../lugares/plazaayuntamiento.php'; ?>
 
 
-                <?php include_once './palaciodeochagaran.php'; ?>
-                <?php include_once './plazaayuntamiento.php'; ?>
-                <hr><?php $articulo = "sneakers_izquierda_45";          $grupo = '_2';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
+                <?php include_once './../lugares/puertocastrourdiales.php'; ?>
+                <hr><?php $articulo = "purse_woman";              $grupo = '_2';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-                <?php include_once './puertocastrourdiales.php'; ?>
-
-                <?php include_once './castillodesantaana.php'; ?>
+                <?php include_once './../lugares/castillodesantaana.php'; ?>
                 <hr><?php $articulo = "sandals_man";          $grupo = '_1';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
-
-                <?php include_once './castillodesantaana.php'; ?>
-                <hr><?php $articulo = "sandals_woman";  $grupo = '_2';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
-
-                <?php include_once './iglesiadesantamariadelaasuncion.php'; ?>
+                <?php include_once './../lugares/iglesiadesantamariadelaasuncion.php'; ?>
                 <hr><?php $articulo = "jeans_man_derecha";  $grupo = '_2';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-
-                <?php include_once './elpedregal.php'; ?>
+                <?php include_once './../lugares/elpedregal.php'; ?>
                 <hr><?php $articulo = "polos_man_frente";  $grupo = '_2';
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
                 
-                <?php include_once './playadeostende.php'; ?>
+                <?php include_once './../lugares/playadeostende.php'; ?>     
+                <hr><?php $articulo = "sandals_woman";  $grupo = '_2';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>   
+                
+                
+                <?php include_once './../lugares/palaciodeochagaran.php'; ?>
+                <hr><?php $articulo = "sneakers_izquierda_45";          $grupo = '_2';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
 
                 <h6>Para más información puede consultar en la pagina de la oficina de turismo de
                     <a href="http://turismo.castro-urdiales.net/turcastro/planifica-tu-viaje/oficina-de-turismo">Castro-Urdiales</a>
@@ -241,8 +223,10 @@
 </body>
 
 
-<?php include_once './../js/logica_anuncios.php'; ?>
-
+<?php 
+//include_once './../js/logica_anuncios.php'; 
+include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php'; 
+?>
 
 
 

@@ -37,7 +37,7 @@ if ($stmt->rowCount() > 0) {
         $posicion = $posicion + 1;
     }
 } else {
-    echo "999 resultados";
+    echo "0 resultados en sandals_woman";
 }
 
 // Cerrar la conexión

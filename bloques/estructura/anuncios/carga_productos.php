@@ -15,12 +15,12 @@ $where = 'where direccion = "frente"';
 include './../../../../products_amazon/shorts_man.php';
 
 $table='amazon_sneakers_images';
-$where = 'where marca = "TARELO" and direccion = "izquierda_45º"';
+$where = 'where marca = "TARELO" and direccion = "izquierda_45"';
 include './../../../../products_amazon/sneakers_izquierda_45.php';
 
 
 $table='amazon_sneakers_images';
-$where = 'where marca = "GEOX" and direccion = "izquierda_0º"';
+$where = 'where marca = "GEOX" and direccion = "izquierda_0"';
 include './../../../../products_amazon/sneakers.php';
 
 
@@ -32,7 +32,7 @@ include './../../../../products_amazon/purse_woman_frente.php';
 
 
 $table='amazon_sandals_woman_images';
-$where = 'where direccion = "izda_15º"';
+$where = 'where direccion = "izda_15"';
 //$where = 'where marca = "XTI" and direccion = "izda_15º"';
 include './../../../../products_amazon/sandals_woman_15izda.php';
 

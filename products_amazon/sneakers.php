@@ -18,7 +18,7 @@ if ($stmt->rowCount() > 0) {
             "src" => $row["src"],
             "alt" => $row["alt"]
         ];
-         echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
+        // echo($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
 
         if ($posicion == 5) {
             $posicion = 1;

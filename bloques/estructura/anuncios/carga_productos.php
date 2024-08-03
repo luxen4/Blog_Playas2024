@@ -25,11 +25,9 @@ include './../../../../products_amazon/sneakers.php';
 
 
 
-
-
-
 $table='amazon_purse_woman_images';
-$where = 'where marca = "JANSBEN" and direccion = "frente"';
+// $where = 'where marca = "JANSBEN" and direccion = "frente"';
+$where = 'where direccion = "frente"';
 include './../../../../products_amazon/purse_woman_frente.php';
 
 

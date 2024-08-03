@@ -123,64 +123,93 @@
 
                 <?php include './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
 
-                <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_frente.php'; ?><hr>
+                <hr><?php //require './../../../../bloques/estructura/carrusel_shirts_modelo_frente.php'; ?><hr>
+
+                <hr><?php $articulo = "shirts";          $grupo = '_1';
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                
+             
+                
 
 
                 <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
                 <?php include_once './../lugares/parqueamestoy.php'; ?>
-                <hr><?php include './../../../../bloques/estructura/carrusel_dress_woman.php'; ?><hr>
+
+                <hr><?php $articulo = "dress_woman";          $grupo = '_2';
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 
 
                 <?php include_once './../lugares/asadorlaperla.php'; ?>
-                <hr><?php require './../../../../bloques/estructura/carrusel_shirts_modelo_derecha.php'; ?><hr>
+
+                <hr><?php $articulo = "shirts_modelo_derecha";          $grupo = '_1';
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
 
 
 
                 <?php include_once './paseomaritimo.php'; ?>
-                <hr><?php include './../../../../bloques/estructura/carrusel_swimsuits_woman_amazon.php'; ?><hr>
+                <hr><?php //include './../../../../bloques/estructura/carrusel_swimsuits_woman_amazon.php'; ?><hr>
+
+                <hr><?php $articulo = "swimsuits_woman";          $grupo = '_1';
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
                 
 
 
                 <?php include_once './clubnautico.php'; ?>
-                <hr><?php include './../../../../bloques/estructura/carrusel_sports_shirts_amazon.php';  ?><hr>
-
-
-                <?php include_once './palaciodeochagaran.php'; ?>
-                <hr><?php $articulo = "sneakers";
+                <hr><?php $articulo = "sports_shirts";          $grupo = '_1';
                 include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
-
-                <?php include_once './puertocastrourdiales.php'; ?>
-                <hr><?php require './../../../../bloques/estructura/carrusel_horizontal_fijo_shorts.php'; ?><hr>
-
-
-
-
-                <?php include_once './plazaayuntamiento.php'; ?>
-                <hr><?php $articulo = "sneakers_izquierda_45";
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
-
-                <?php include_once './puertocastrourdiales.php'; ?>
+                
 
 
                 <?php include_once './puentemedieval.php'; ?>
-                <hr><?php $articulo = "purse_woman";
+                <hr><?php 
+                /////////
+                $articulo = "sneakers";         $grupo = '_2';
                 include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
+
+                <hr><?php 
+                ////////
+                $articulo = "purse_woman";              $grupo = '_2';
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
+
+
+
+                <?php include_once './puertocastrourdiales.php'; ?>
+                <hr><?php $articulo = "shorts";          $grupo = '_3';
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
+
+                <?php include_once './palaciodeochagaran.php'; ?>
+                <?php include_once './plazaayuntamiento.php'; ?>
+                <hr><?php $articulo = "sneakers_izquierda_45";          $grupo = '_2';
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
+
+                <?php include_once './puertocastrourdiales.php'; ?>
+
                 <?php include_once './castillodesantaana.php'; ?>
-                <hr><?php $articulo = "sandals_woman";
+                <hr><?php $articulo = "sandals_man";          $grupo = '_1';
+
+
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+
+
+                <?php include_once './castillodesantaana.php'; ?>
+                <hr><?php $articulo = "sandals_woman";  $grupo = '_2';
                 include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
 
                 <?php include_once './iglesiadesantamariadelaasuncion.php'; ?>
-                <hr><?php $articulo = "jeans_man_derecha";
+                <hr><?php $articulo = "jeans_man_derecha";  $grupo = '_2';
                 include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
 
                 <?php include_once './elpedregal.php'; ?>
-                <hr><?php $articulo = "polos_man_frente";
+                <hr><?php $articulo = "polos_man_frente";  $grupo = '_2';
                 include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 

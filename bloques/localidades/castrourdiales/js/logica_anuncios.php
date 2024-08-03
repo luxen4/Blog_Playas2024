@@ -164,6 +164,36 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
         
+        <?php 
+        $articulo = "purse_woman";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+        //
+        <?php 
+        $articulo = "jeans_man_derecha";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+
+        <?php 
+        $articulo = "polos_man_frente";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+  
+        
+
+        <?php 
+        $articulo = "sandals_woman";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+
+
 
         <?php 
         $articulo = "sneakers_izquierda_45";
@@ -185,39 +215,22 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
         $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
 
-
-
-        <?php 
-        $articulo = "sandals_man";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
-
-
-        
-
-        <?php 
-        $articulo = "sandals_woman";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-
-        <?php 
+      <?php 
         $articulo = "dress_woman";
         $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
 
-        
-        <?php 
-        $articulo = "purse_woman";
+
+
+        <?php // Problemas
+        $articulo = "sandals_man";
         $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
-        <?php 
-        $articulo = "polos_man_frente";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+        
+
 
 
         
@@ -230,13 +243,6 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
 
         <?php 
         $articulo = "sandals_woman";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-        //
-        <?php 
-        $articulo = "jeans_man_derecha";
         $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 

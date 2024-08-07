@@ -162,15 +162,25 @@
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>   
                 
                 
-                <?php include_once './../lugares/palaciodeochagaran.php'; ?>
-                <hr><?php $articulo = "sneakers_izquierda_45";          $grupo = '_2';
-                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+                <?php 
+                //////////
+                
+                include_once './../lugares/palaciodeochagaran.php'; ?>
+                <?php 
+                
+                // <hr> $articulo = "sneakers_izquierda_45";          $grupo = '_2';
+                // include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; <hr>  ?>
 
 
-                <hr><?php $articulo = "sneakers_puma_izda_0";          $grupo = '_2';
-                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-                <?php include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_variado.php'; ?><hr>
+               <?php 
+                // <hr> Misma marca y misma dirección.
+                // $articulo = "sneakers_puma_izda_0";                     $grupo = '_2';
+                // include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; <hr> ?>
+
+                <?php 
+                // Diferentes artículos que hacen un conjunto entre ellos.
+                // include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_variado.php'; <hr> ?>
 
 
                 <h6>Para más información puede consultar en la pagina de la oficina de turismo de

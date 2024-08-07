@@ -35,6 +35,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
         </div>
     </div>
 
+
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -66,7 +67,8 @@ $articulo_2_4 = $articulo . $grupo . "_4";
     }
 
     a img {
-        border: 1px solid #ccc; /* Light gray color */
+        margin: 1em;
+        /*border: 1px solid #ccc;*/ /* Light gray color */
     }
 
 </style>

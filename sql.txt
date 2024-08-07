@@ -96,37 +96,15 @@ CREATE TABLE IF NOT EXISTS amazon_sneakers_images (
 
 
 INSERT INTO amazon_sneakers_images (href, src, alt, marca, precio, direccion) VALUES
-('https://amzn.to/3LUrWCH',
-'https://m.media-amazon.com/images/I/71awPjiPp9L._AC_SY625_.jpg',
-'Zapatillas marca PUMA',
-'PUMA',
-55.3,
-'izquierda_0'
-),
-
-('https://amzn.to/3YyQNn8',
-'https://m.media-amazon.com/images/I/61k9Hxn+PLL._AC_SY625_.jpg',
-'Zapatillas marca PUMA',
-'PUMA',
-89.99,
-'izquierda_0'
-),
 
 
-('https://amzn.to/3WTOWYY',
-'https://m.media-amazon.com/images/I/51vs2Ssdj+L._AC_SY625_.jpg',
-'Zapatillas marca PUMA',
-'PUMA',
-115.00,
-'izquierda_0'
-),
 
-('https://amzn.to/3WRQxi0',
-'https://m.media-amazon.com/images/I/71LhswIuq0L._AC_SY625_.jpg',
-'Zapatillas marca PUMA',
-'PUMA',
-115.00,
-'izquierda_0'
+('https://amzn.to/4fBJLnN',
+'https://m.media-amazon.com/images/I/81EFN0rUVBL._AC_SX625_.jpg',
+'Zapatillas marca Skechers Hombre',
+'Skechers',
+76.31,
+'izquierda_15'
 )
 
 ;

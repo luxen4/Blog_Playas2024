@@ -5,6 +5,15 @@
     Su ubicación privilegiada ofrece vistas impresionantes de la ciudad y del mar Cantábrico.
 </p>
 
+    <hr>
+    <?php 
+        //////////
+        
+        //include_once './../lugares/palaciodeochagaran.php'; ?>
+        <?php $articulo = "sneakers_izquierda_45";          $grupo = '_2';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+    <hr>
+
 <p>Fue construido a finales del siglo XIX por el arquitecto Eladio Laredo.
     Encargado por Luis de Ocharan Mazas, un acaudalado empresario e industrial, el palacio combina estilos arquitectónicos variados,
     incluyendo elementos neogóticos y modernistas.

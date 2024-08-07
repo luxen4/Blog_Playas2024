@@ -15,6 +15,9 @@ Este castillo, situado en una posición estratégica, ha sido un punto de defens
     En la actualidad, el castillo ha sido restaurado y es un importante atractivo turístico.
 </p>
 
+                <?php 
+                // Diferentes artículos que hacen un conjunto entre ellos.
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_variado.php'; ?><hr>
 
 <p>Se caracteriza por su robusta construcción y su estilo medieval: <br>
     <strong>Torreón:</strong> Un torreón principal que servía como punto de vigilancia y defensa. <br>

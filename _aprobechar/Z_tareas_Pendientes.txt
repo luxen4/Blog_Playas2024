@@ -9,7 +9,16 @@ Hacer el footer genérico.
 Hacer la barra de navegación de acuerdo a comunidades autónomas.
 Mezclar anuncios para hombre y mujer al 50%.
 Reordenar carpetas y simplificar código.
-Hacer código genérico donde se pueda.o
+Hacer código genérico donde se pueda.
+Carrusel de 2 items de 4 artículos que conjunten.
+Carrusel de 2 items de 4 zapatillas de diferente marca y misma dirección.
+Carrusel de 2 items de 4 artículos que se cambien sus mismas fotografias (posición).
+
+Anuncios de Temu y otras plataformas.
+
+
+Empezar con Playa de Laga
+
 
 
 Repartir más el espacio para que no se junten las fotos de publicidad y del blog.

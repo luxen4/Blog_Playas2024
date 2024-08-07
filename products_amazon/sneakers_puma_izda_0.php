@@ -2,7 +2,6 @@
 require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
 $sql = "SELECT * FROM " . $table . " " . $where;
-echo($sql);
 $stmt = $conn->query($sql);
 
 if ($stmt->rowCount() > 0) {

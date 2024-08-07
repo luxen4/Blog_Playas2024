@@ -1,6 +1,5 @@
 <?php
 
-
 $articulo_2_1 = $articulo . $grupo . "_1";
 $articulo_2_2 = $articulo . $grupo . "_2";
 $articulo_2_3 = $articulo . $grupo . "_3";
@@ -14,7 +13,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
         <div class="carousel-item active">
             <div class="container">
                 <div class="row">
-                        <?php $var_name = "images_shirts_1_1"; ?>
+                        <?php $var_name = "images_shirts_1_2"; ?>
                         <div class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6">
                             <a id="image-link_<?= $var_name; ?>" href="<?= ${$var_name}[0]['href']; ?>">
                                 <img id="image_<?= $var_name; ?>" src="<?= ${$var_name}[0]['src']; ?>" class="d-block w-100 custom-carousel-image" alt="<?= ${$var_name}[0]['alt']; ?>">
@@ -35,7 +34,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
                                 <img id="image_<?= $var_name; ?>" src="<?= ${$var_name}[0]['src']; ?>" class="d-block w-100 custom-carousel-image" alt="<?= ${$var_name}[0]['alt']; ?>">
                             </a>
                         </div>
-                        <?php $var_name = "images_sneakers_puma_izda_0_2_1"; ?>
+                        <?php $var_name = "images_sneakers_izquierda_45_2_2"; ?>
                         <div class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6">
                             <a id="image-link_<?= $var_name; ?>" href="<?= ${$var_name}[0]['href']; ?>">
                                 <img id="image_<?= $var_name; ?>" src="<?= ${$var_name}[0]['src']; ?>" class="d-block w-100 custom-carousel-image" alt="<?= ${$var_name}[0]['alt']; ?>">

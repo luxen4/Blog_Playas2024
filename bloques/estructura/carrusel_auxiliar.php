@@ -23,9 +23,9 @@ $articulo_2_4 = $articulo . $grupo . "_4";
                         //echo($images_articulo_var);
                         // Renderizar el HTML
                         echo '
-                            <div class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6">
-                                <a id="image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
-                                    <img id="image_' . $articulo_var . '" src="' . ${$images_articulo_var}[0]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . ${$images_articulo_var}[0]['alt'] . '">
+                            <div  class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6">
+                                <a style="marging: 1em;" id="image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
+                                    <img style="padding: 0em;"; id="image_' . $articulo_var . '" src="' . ${$images_articulo_var}[0]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . ${$images_articulo_var}[0]['alt'] . '">
                                 </a>
                             </div>';
                     }
@@ -56,4 +56,17 @@ $articulo_2_4 = $articulo . $grupo . "_4";
         object-position: top;
         /* Alinea la imagen desde la parte superior */
     }
+
+
+    @media (max-width: 576px) {
+        .custom {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+
+    a img {
+        border: 1px solid #ccc; /* Light gray color */
+    }
+
 </style>

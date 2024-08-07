@@ -167,6 +167,12 @@
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
 
+                <hr><?php $articulo = "sneakers_puma_izda_0";          $grupo = '_2';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
+                <?php include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_variado.php'; ?><hr>
+
+
                 <h6>Para más información puede consultar en la pagina de la oficina de turismo de
                     <a href="http://turismo.castro-urdiales.net/turcastro/planifica-tu-viaje/oficina-de-turismo">Castro-Urdiales</a>
                 </h6>

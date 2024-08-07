@@ -1,9 +1,11 @@
 <?php
 $servername = $_SERVER['SERVER_NAME'];
-
+$category = '$images_shirts';
+$group = "1";
 $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';
 require './../../../../products_amazon/shirts.php';
+
 
 
 $table='amazon_shirts_images';
@@ -14,6 +16,7 @@ $table='amazon_shorts_images';
 $where = 'where direccion = "frente"';
 include './../../../../products_amazon/shorts_man.php';
 
+
 $table='amazon_sneakers_images';
 $where = 'where marca = "TARELO" and direccion = "izquierda_45"';
 include './../../../../products_amazon/sneakers_izquierda_45.php';
@@ -23,6 +26,11 @@ $table='amazon_sneakers_images';
 $where = 'where marca = "GEOX" and direccion = "izquierda_0"';
 include './../../../../products_amazon/sneakers.php';
 
+
+
+$table='amazon_sneakers_images';
+$where = 'where marca = "PUMA" and direccion = "izquierda_0"';
+include './../../../../products_amazon/sneakers_puma_izda_0.php';
 
 
 $table='amazon_purse_woman_images';
@@ -72,3 +80,7 @@ include './../../../../products_amazon/sports_shirts.php';
 $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';
 include './../../../../products_amazon/sports_shirts2.php';
+
+
+//$images_shirts_1_1 = []; $images_shirts_1_2 = []; $images_shirts_1_3 = []; $images_shirts_1_4 = [];
+//require   './../../../../products_amazon/sql.php';

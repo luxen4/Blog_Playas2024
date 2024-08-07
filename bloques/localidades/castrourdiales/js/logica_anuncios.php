@@ -23,6 +23,7 @@
         "sandals_man" => 2,
         "sneakers" => 2,
         "sneakers_izquierda_45" => 2,
+        "sneakers_puma_izda_0" => 2,
         "dress_woman" => 2,
         "purse_woman" => 2,
         "sandals_woman" => 2,
@@ -57,6 +58,7 @@ const definitions = [
     { baseName: 'shorts', groupRange: 3, count: 4 },
     { baseName: 'sneakers', groupRange: 2, count: 4 },
     { baseName: 'sneakers_izquierda_45', groupRange: 2, count: 4 },
+    { baseName: 'sneakers_puma_izda_0', groupRange: 2, count: 4 },
     { baseName: 'swimsuits_woman', groupRange: 1, count: 4 },
     { baseName: 'sandals_man', groupRange: 2, count: 4 },
     { baseName: 'dress_woman', groupRange: 2, count: 4 },
@@ -149,6 +151,12 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
         $articulo = "sneakers_izquierda_45";
         $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+///
+        <?php 
+        $articulo = "sneakers_puma_izda_0";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
 
 
 

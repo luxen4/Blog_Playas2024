@@ -28,7 +28,8 @@
                 <h2>Cantabria</h2>
 
                 <!--Inicio Castro Urdiales-->
-                <?php $localidad = 'Castro Urdiales';
+                <?php $localidad_nombre = 'Castro Urdiales';
+                $localidad = 'Castro Urdiales';
                 $ruta_localidad = 'castrourdiales';
                 $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
                         cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
@@ -50,8 +51,8 @@
 
                 <!--Inicio Castro Laredo-->
                 <?php $localidad = 'Laredo';
-                $presentacion = 'bla, bla, bla.';
-                include 'bloques/localidades/index.php'; ?>
+                //$presentacion = 'bla, bla, bla.';
+                //include 'bloques/localidades/index.php'; ?>
                 <!--Fin Bakio-->
 
 
@@ -66,8 +67,18 @@
                 include 'bloques/localidades/index.php'; ?>
                 <!--Fin Bakio-->
 
+
+
+
                 <h2>Vizcaya</h2>
-                <!--Inicio Castro Bakio-->
+                <?php $localidad_nombre = 'Playa de Laga';
+                $ruta_localidad = 'playadelaga';
+                $presentacion = 'bla, bla, bla.';
+                include 'bloques/localidades/playadelaga/ficha_playa_de_laga.php'; ?>
+                <!--Fin Bakio-->
+
+
+                <!--Inicio Bakio-->
                 <?php $localidad = 'Bakio';
                 $presentacion = 'bla, bla, bla.';
                 include 'bloques/localidades/index.php'; ?>

@@ -910,3 +910,30 @@ INSERT INTO amazon_polos_man_images (href, src, alt, marca, precio, direccion) V
 'Calvin Klein',
 38.65,
 'frente');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Manejar múltiples carruseles con la misma clase
+document.querySelectorAll('.custom-carousel').forEach(function(carousel) {
+    let nextButton = carousel.querySelector('.carousel-control-next');
+    let prevButton = carousel.querySelector('.carousel-control-prev');
+
+    nextButton.addEventListener('click', function() {
+        $(carousel).carousel('next');
+    });
+
+    prevButton.addEventListener('click', function() {
+        $(carousel).carousel('prev');
+    });
+});

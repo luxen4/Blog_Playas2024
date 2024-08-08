@@ -1,5 +1,7 @@
 <?php
-require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
+require './../../../../products_amazon/conexion.php'; //Castrourdiales // Así funciona para localhost
+
+//require './../../../products_amazon/conexion.php'; // Laga Así funciona para localhost
 
 $sql = "SELECT * FROM " . $table . " " . $where;
 $stmt = $conn->query($sql);

@@ -1,7 +1,7 @@
 <div class="row">
     <div id="#" class="col-xl-5 text-center col-lg-6 col-md-12 col-sm-12 col-12" style="margin-top: 1em;">
         <a href="./bloques/localidades/<?= $ruta_localidad; ?>/fichas/ficha_<?= $ruta_localidad; ?>.php" target="_blank">
-            <img src="./bloques/localidades/<?= $ruta_localidad; ?>/foto_presentacion.jpg" alt="Imagen de <?= $localidad; ?>">
+            <img src="./bloques/localidades/<?= $ruta_localidad; ?>/foto_presentacion.jpg" alt="Imagen de <?= $localidad_nombre; ?>">
         </a>
     </div>
 

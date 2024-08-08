@@ -64,6 +64,12 @@
     <?php include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
 
 
+
+
+
+
+
+
 <div id="#" class="container">
         <div class="row">
                 <!--<iframe src="./../../../../ads_terra/468px-60px.html"></iframe>-->
@@ -79,6 +85,19 @@
 
 
                 <h2>Castro Urdiales</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <p>Castro Urdiales, conocido en la antigüedad como Flaviobriga, fue fundado por los romanos en el siglo I d.C. <br>
                     Su puerto natural jugó un papel crucial en el comercio y la pesca, convirtiéndose en uno de los puertos más importantes del Cantábrico.
                 </p>
@@ -105,6 +124,9 @@
 
                 <hr><?php $articulo = "shirts"; $grupo = '_1';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
+                
+
                 
              
 
@@ -197,7 +219,9 @@
         </div>
 
     </div>
-
+    <!--
+    <hr><?php //$articulo = "dress_woman";          $grupo = '_2';
+    //include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?><hr> Si lo meto aquí no funcionan los demás carruseles-->
 
     <footer>
         <?php require './../../../../bloques/estructura/footer.php'; ?>

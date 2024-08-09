@@ -74,7 +74,7 @@
                 <?php $localidad_nombre = 'Playa de Laga';
                 $ruta_localidad = 'playadelaga';
                 $presentacion = 'bla, bla, bla.';
-                include 'bloques/localidades/playadelaga/ficha_playa_de_laga.php'; ?>
+                include  __DIR__ . '/bloques/localidades/playadelaga/fichas/ficha_playa_de_laga.php'; ?>
                 <!--Fin Bakio-->
 
 

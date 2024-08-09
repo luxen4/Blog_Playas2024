@@ -937,3 +937,9 @@ document.querySelectorAll('.custom-carousel').forEach(function(carousel) {
         $(carousel).carousel('prev');
     });
 });
+
+
+
+Crear otro destino
+Meter anuncios a la Playa de Laga
+El Home, dejarlo bien

@@ -1,16 +1,15 @@
 <?php
-require $require;
-// require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
+require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
 
 $sql = "SELECT * FROM " .$table . " " . $where;
 $stmt = $conn->query($sql);
 
 if ($stmt->rowCount() > 0) {
     // Salida de datos de cada fila
-    $images_sneakers_2_1 = [];
-    $images_sneakers_2_2 = [];
-    $images_sneakers_2_3 = [];
-    $images_sneakers_2_4 = [];
+    $images_mochilas_2_1 = [];
+    $images_mochilas_2_2 = [];
+    $images_mochilas_2_3 = [];
+    $images_mochilas_2_4 = [];
     $posicion = 1;
 
     while ($row = $stmt->fetch()) {
@@ -26,19 +25,19 @@ if ($stmt->rowCount() > 0) {
         }
 
         if ($posicion == 1) {
-            array_push($images_sneakers_2_1, $product);
+            array_push($images_mochilas_2_1, $product);
         } elseif ($posicion == 2) {
-            array_push($images_sneakers_2_2, $product);
+            array_push($images_mochilas_2_2, $product);
         } elseif ($posicion == 3) {
-            array_push($images_sneakers_2_3, $product);
+            array_push($images_mochilas_2_3, $product);
         } elseif ($posicion == 4) {
-            array_push($images_sneakers_2_4, $product);
+            array_push($images_mochilas_2_4, $product);
         }
 
         $posicion = $posicion + 1;
     }
 } else {
-    echo "0 resultados en sneakers";
+    echo "0 resultados en mochilas";
 }
 
 // Cerrar la conexión

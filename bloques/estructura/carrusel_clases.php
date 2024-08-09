@@ -1,7 +1,8 @@
 <?php
+/*
 $images = 'images_';
 $articulo = 'shorts';
-$grupo = '_3';
+$grupo = '_3';*/
 
 $articulo_2_1 = $articulo . $grupo . "_1";
 $articulo_2_2 = $articulo . $grupo . "_2";

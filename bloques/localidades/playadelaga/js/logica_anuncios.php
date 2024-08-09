@@ -29,7 +29,8 @@
         "sandals_woman" => 2,
         "jeans_man_derecha" => 2,
         "polos_man_frente" => 2,
-        "shorts" => 3
+        "shorts" => 3,
+        "mochilas" => 2
     ];
     
     // Call the function with the total number of images and categories
@@ -67,6 +68,7 @@ const definitions = [
     { baseName: 'jeans_man_derecha', groupRange: 2, count: 4 },
     { baseName: 'polos_man_frente', groupRange: 2, count: 4 },
     { baseName: 'jeans_man_derecha', groupRange: 2, count: 4 },
+    { baseName: 'mochilas', groupRange: 2, count: 4 },
     { baseName: 'shirts_lateral', groupRange: 1, count: 1 }  // Especial caso para "shirts_lateral"
 ];
 
@@ -178,6 +180,12 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
         $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
+        <?php 
+        $articulo = "mochilas";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
 
 
 
@@ -203,6 +211,7 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
         $articulo = "sandals_woman";
         $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
 
 
 

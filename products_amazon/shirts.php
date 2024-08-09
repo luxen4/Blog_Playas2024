@@ -1,7 +1,7 @@
 <?php
-require './../../../../products_amazon/conexion.php'; // Así funciona para localhost
+require $require;
 
-$sql = "SELECT * FROM amazon_shirts_images " . $where;
+$sql = "SELECT * FROM " . $table . " " . $where;
 $stmt = $conn->query($sql);
 
 if ($stmt->rowCount() > 0) {

@@ -136,7 +136,7 @@
     include_once './../../../../bloques/estructura/barra_navegacion.php'; ?>
     <?php $require = './../../../../products_amazon/shirts.php'; ?>
     <?php include_once './../../../../bloques/estructura/anuncios/carga_productos_laga.php'; ?>
-
+    
     <div class="container">
         <div class="row">
             <div id="#" class="col-xl-10 text-center col-lg-10 col-md-10 col-sm-12 col-12">
@@ -145,16 +145,24 @@
                     <h1>Playa de Laga</h1>
                     <h2>Descripción</h2>
                     <section class="description">
+
+
+                    
                         <p>La playa de Laga, situada en la región de Bizkaia en el País Vasco, España, es una de las joyas costeras de la costa cantábrica. Este rincón encantador de la península Ibérica combina un entorno natural impresionante con una rica historia cultural y una serie de características únicas que la convierten en un destino atractivo para los amantes de la naturaleza y los viajeros en busca de tranquilidad.</p>
                         <hr><?php
                             define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');
+                            $images = 'images_';
+                            $articulo = 'shorts';
+                            $grupo = '_3';
                             include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
                         <hr>
 
-                        <?php // Definir la constante para la ruta base
-                        define('BASE_PATH_ESTRUCTURA_PLAYA_DE_LAGA', __DIR__ . '/../../../../bloques/estructura/'); ?>
+                   
+
+                       
                     </section>
                 </main>
+                
 
                 <main class="content">
                     <h2>Ubicación y Accesibilidad</h2>
@@ -166,6 +174,9 @@
                     <p>El oleaje en Laga puede variar, con olas que ofrecen condiciones ideales para el surf, especialmente para aquellos con experiencia. La calidad del agua es generalmente excelente, y la playa cuenta con una bandera azul que certifica su limpieza y seguridad. Las mareas juegan un papel importante en la configuración de la playa, y el ambiente cambia significativamente entre la marea baja y alta, creando oportunidades para explorar las formaciones rocosas y las pequeñas calas que emergen en marea baja.</p>
                 </main>
 
+                        <hr><?php $articulo = "shirts"; $grupo = '_1';
+                        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
 
                 <h2>Actividades y Servicios</h2>
                 <p>La playa de Laga es un destino popular tanto para los residentes locales como para los turistas debido a su belleza natural y la variedad de actividades que ofrece. Entre las actividades más comunes se encuentran:</p>
@@ -175,15 +186,26 @@
                     <li><strong>Observación de la Naturaleza:</strong> El entorno natural de Laga es perfecto para la observación de aves y la fotografía de paisajes. La proximidad al Parque Natural de Urdaibai permite a los visitantes explorar una rica biodiversidad, incluyendo especies tanto marinas como terrestres.</li>
                     <li><strong>Relajación:</strong> Para aquellos que buscan tranquilidad, la playa es ideal para relajarse bajo el sol, disfrutar de un picnic o simplemente escuchar el sonido de las olas rompiendo en la orilla. Las zonas de césped cercanas a la playa también son perfectas para hacer un descanso y disfrutar de la belleza del entorno.</li>
                 </ul>
+
+
+                <hr><?php $articulo = "sneakers_puma_izda_0"; $grupo = '_2';
+                    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
+
+
                 <p>La playa de Laga también cuenta con algunos servicios básicos para los visitantes, como baños y duchas. Aunque no tiene una gran oferta de restaurantes o tiendas en la misma playa, la cercana localidad de Ibarrangelu y la ciudad de Gernika-Lumo ofrecen una variedad de opciones gastronómicas y de alojamiento.</p>
 
                 <h2>Aspectos Culturales e Históricos</h2>
                 <p>La playa de Laga y su entorno tienen una rica historia cultural que se remonta a tiempos antiguos. La región del País Vasco ha sido habitada desde tiempos prehistóricos, y la influencia de las culturas y tradiciones locales se refleja en el estilo de vida de la zona. Las tradiciones marítimas, la gastronomía basada en productos del mar y las festividades locales son aspectos importantes de la vida en esta región.</p>
                 <p>Además, la cercanía a Gernika-Lumo añade una dimensión histórica significativa al área. Gernika es conocida por su importancia durante la Guerra Civil Española, y su historia está ligada a la cultura y la identidad del País Vasco. La visita a Gernika-Lumo, con su famoso árbol de Gernika y el Museo de la Paz, puede complementar la experiencia en la playa de Laga con una perspectiva más amplia sobre la historia y la cultura de la región.</p>
+                
                 <hr><?php
-                           
-                            include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
-                        <hr>
+                $images = 'images_';
+                $articulo = 'mochilas';
+                $grupo = '_2';         
+                include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
+                <hr>
+
                 <main class="content">
                     <section class="gallery">
 
@@ -243,7 +265,7 @@
 
 <?php
 // include_once './../js/logica_anuncios.php'; 
-include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php';
+//include_once './../../../../bloques/localidades/playadelaga/js/logica_anuncios.php';
 ?>
 
 

@@ -1,10 +1,12 @@
 <?php
 $servername = $_SERVER['SERVER_NAME'];
+$require = './../../../../products_amazon/conexion.php';
+
+
 $category = '$images_shirts';
 $group = "1";
 $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';
-//require $require;
 require './../../../../products_amazon/shirts.php';
 
 

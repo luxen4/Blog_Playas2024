@@ -823,7 +823,7 @@ INSERT INTO amazon_jeans_woman_images (href, src, alt, marca, precio, direccion)
 
 
 // amazon_polos_man_images
-    CREATE TABLE IF NOT EXISTS amazon_mochilas_images (
+    CREATE TABLE IF NOT EXISTS amazon_pantalones_cortos_correr_images (
         amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
         href VARCHAR(255) NOT NULL,
         src VARCHAR(255) NOT NULL,
@@ -834,75 +834,94 @@ INSERT INTO amazon_jeans_woman_images (href, src, alt, marca, precio, direccion)
     );
 
 
-INSERT INTO amazon_mochilas_images (href, src, alt, marca, precio, direccion) VALUES
+INSERT INTO amazon_pantalones_cortos_correr_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/4dCa6jJ',
-'https://m.media-amazon.com/images/I/71Gwm5ncZGL._AC_SX679_.jpg',
-'Mochila Senderismo marca SKYSPER ',
-'SKYSPER ',
-32.50,
+('https://amzn.to/3SLUgLv',
+'https://m.media-amazon.com/images/I/81wWz+cw86L._AC_SX679_.jpg',
+'Pantalones Cortos para Correr Hombre marca RDX',
+'RDX',
+32.99,
 'izquierda'),
 
 
-('https://amzn.to/4dfhWjv',
-'https://m.media-amazon.com/images/I/811fx6pP20L._AC_SX679_.jpg',
-'Mochila Senderismo marca SKYSPER ',
-'SKYSPER ',
-33.99,
+('https://amzn.to/3YCa3Ab',
+'https://m.media-amazon.com/images/I/61FDFwMqliL._AC_SX569_.jpg',
+'Pantalones Cortos Hombre Deporte marca TCA',
+'TCA',
+27.99,
 'izquierda'),
 
 
 ('https://amzn.to/3SKUEdb',
 'https://m.media-amazon.com/images/I/7185Co1uR-L._AC_SX679_.jpg',
-'Mochila Senderismo marca SKYSPER ',
-'SKYSPER ',
-33.99,
+'Pantalones Cortos de Running 2 en 1 para Hombre marca Lixada',
+'Lixada',
+23.99,
 'izquierda'),
 
 
-('https://amzn.to/3AjorDw',
-'https://m.media-amazon.com/images/I/71D2UNwbtSL._AC_SX679_.jpg',
-'Mochila Senderismo marca SKYSPER ',
-'SKYSPER ',
-34.99,
-'izquierda'),
-
-
-
-('https://amzn.to/3SIyd8o',
-'https://m.media-amazon.com/images/I/813xFTq9MPL._AC_SX679_.jpg',
-'Mochila Senderismo marca Waterfly  ',
-'Waterfly  ',
-39.99,
-'izquierda'),
-
-
-
-('https://amzn.to/3WYNZyw',
-'https://m.media-amazon.com/images/I/71eMIMOKgqL._AC_SX679_.jpg',
-'Mochila Senderismo marca ENJOHOS   ',
-'ENJOHOS   ',
-36.99,
-'izquierda'),
-
-
-('https://amzn.to/4dA05ni',
-'https://m.media-amazon.com/images/I/81lNy0V42NL._AC_SX679_.jpg',
-'Mochila Senderismo marca SKYSPER   ',
-'SKYSPER   ',
-33.99,
-'izquierda'),
-
-
-
-
-('https://amzn.to/4dh9hx1',
-'https://m.media-amazon.com/images/I/71Z9yMIgtKL._AC_SX679_.jpg',
-'Mochila Senderismo/Trekking marca SKYSPER   ',
-'SKYSPER   ',
-34.99,
+('https://amzn.to/4dijxoG',
+'https://m.media-amazon.com/images/I/71hPA5Exl9L._AC_SX679_.jpg',
+'Pantalones Cortos Laser de Running Ligeros con Bolsillos para Hombre marca TCA',
+'TCA',
+22.99,
 'izquierda')
 ;
+
+
+
+// amazon_polos_man_images
+    CREATE TABLE IF NOT EXISTS amazon_camiseta_deporte_manga_corta_images (
+        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
+
+
+INSERT INTO amazon_camiseta_deporte_manga_corta_images (href, src, alt, marca, precio, direccion) VALUES
+
+('https://amzn.to/3yCdk85',
+'https://m.media-amazon.com/images/I/51wYmTk7-mL._AC_SX679_.jpg',
+'Camiseta Deporte Hombre Manga Corta Hombre marca TCA',
+'TCA',
+19.99,
+'izquierda'),
+
+
+('https://amzn.to/3SOb9Fl',
+'https://m.media-amazon.com/images/I/61Ezv7NaUxL._AC_SY741_.jpg',
+'Camiseta SuperKnit de Gimnasio/Running para Hombre marca TCA',
+'TCA',
+23.99,
+'izquierda'),
+
+
+('https://amzn.to/3YGHcuS',
+'https://m.media-amazon.com/images/I/51oBQnOfNLL._AC_SX679_.jpg',
+'Camiseta de compresión con Manga Corta para Hombre marca TCA',
+'TCA',
+19.99,
+'izquierda'),
+
+
+('https://amzn.to/4fHRsbY',
+'https://m.media-amazon.com/images/I/61Vi3Cs43VL._AC_SX679_.jpg',
+'Camisas de compresión de manga corta para hombre para Hombre marca Anawakia',
+'Anawakia',
+14.99,
+'izquierda')
+;
+
+
+
+
+
+
+
 
 
 
@@ -936,3 +955,9 @@ document.querySelectorAll('.custom-carousel').forEach(function(carousel) {
 Crear otro destino
 Meter anuncios a la Playa de Laga
 El Home, dejarlo bien
+
+
+          meter de esto
+        https://amzn.to/4cjYwJ5
+        https://amzn.to/4fELsAO
+        https://amzn.to/4fD1YRX

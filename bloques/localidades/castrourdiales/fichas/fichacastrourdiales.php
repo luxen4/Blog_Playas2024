@@ -52,8 +52,8 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
 
 
-    <?php include_once './../../../../bloques/localidades/castrourdiales/js/structured_data.php'; // Entra?>
-
+    <?php //include_once './../../../../bloques/localidades/castrourdiales/js/structured_data.php'; // Entra?>
+    <?php include_once 'structured_data.php'; // Entra ?>
 
 
 </head>
@@ -178,10 +178,11 @@
                 <hr><?php $articulo = "polos_man_frente";  $grupo = '_2';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-                
                 <?php include_once './../lugares/playadeostende.php'; ?>     
                 <hr><?php $articulo = "sandals_woman";  $grupo = '_2';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>   
+
+
                 
                 
                 <?php 

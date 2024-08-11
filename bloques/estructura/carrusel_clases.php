@@ -1,14 +1,8 @@
 <?php
-/*
-$images = 'images_';
-$articulo = 'shorts';
-$grupo = '_3';*/
-
 $articulo_2_1 = $articulo . $grupo . "_1";
 $articulo_2_2 = $articulo . $grupo . "_2";
 $articulo_2_3 = $articulo . $grupo . "_3";
 $articulo_2_4 = $articulo . $grupo . "_4";
-
 ?>
 
 <div class="carousel slide custom-carousel" data-ride="carousel" data-interval="6000">

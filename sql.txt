@@ -961,3 +961,9 @@ El Home, dejarlo bien
         https://amzn.to/4cjYwJ5
         https://amzn.to/4fELsAO
         https://amzn.to/4fD1YRX
+
+
+Simplificar en playa de laga las consultas y se hagan contra la genérica.
+
+Cada 2 dias que se haga una consulta a la base de datos y se genere un archivo de artículos de publicidad, 
+así no se consultará la base de datos numerosas veces.

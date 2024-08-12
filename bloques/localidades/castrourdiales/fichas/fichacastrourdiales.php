@@ -60,7 +60,7 @@
 
 <body>
     <?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> ?>
-    <?php include_once './../../../../bloques/estructura/barra_navegacion.php';?>
+    <?php include_once './../../../../bloques/estructura/barra_navegacion2.php';?>
     <?php include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
 
 
@@ -85,19 +85,7 @@
 
 
                 <h2>Castro Urdiales</h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
                 <p>Castro Urdiales, conocido en la antigüedad como Flaviobriga, fue fundado por los romanos en el siglo I d.C. <br>
                     Su puerto natural jugó un papel crucial en el comercio y la pesca, convirtiéndose en uno de los puertos más importantes del Cantábrico.
                 </p>

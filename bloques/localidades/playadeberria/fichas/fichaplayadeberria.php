@@ -23,7 +23,7 @@
                 <h1>Playa de Berria - Santoña, Cantabria</h1>
 
                 <div class="image-container">
-                    <img src="./../img/playadeberria.jpg" alt="Playa de Berria, Santoña">
+                    <img src="./../foto_presentacion2.jpg" alt="Playa de Berria, Santoña">
                 </div>
 
                 <div class="section">
@@ -184,7 +184,8 @@
     // Define categories and their respective groups
     $categories = [
         "shirts" => 1,
-        "shorts" => 2
+        "shorts" => 2,
+        "pantalones_cortos_correr" => 2
     ];
 
     // Call the function with the total number of images and categories
@@ -209,6 +210,11 @@
         },
         {
             baseName: 'shorts',
+            groupRange: 2,
+            count: 4
+        }, // Especial caso para "shirts_lateral"
+        {
+            baseName: 'pantalones_cortos_correr',
             groupRange: 2,
             count: 4
         } // Especial caso para "shirts_lateral"
@@ -241,6 +247,14 @@
         for ($i = 1; $i <= 4; $i++) {
             echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
         } ?>
+
+<?php
+        $articulo = "pantalones_cortos_correr";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
 
     }
 

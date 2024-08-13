@@ -42,6 +42,9 @@
     </p>
 </section>
 
+                <?php include_once './../../../../bloques/estructura/barra_navegacion2.php';?>
+                <?php include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+
                 <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');?>
 
                 <?php $page='playadelaga'; ?>
@@ -57,9 +60,10 @@
         <li>
             <strong>Chiringuitos y Restaurantes:</strong> La playa cuenta con varios chiringuitos y restaurantes a lo largo del paseo marítimo, donde se pueden disfrutar desde platos locales hasta cocina internacional. Es el lugar perfecto para degustar mariscos frescos y platos tradicionales del País Vasco, mientras se disfruta de vistas al mar.
         </li>
-        <hr><?php                         
-                $articulo = 'shorts'; $grupo = '_3';
-                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+        
+            <hr><?php                         
+            $articulo = 'shorts'; $grupo = '_3';
+            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
         <li>
             <strong>Alquiler de Equipos:</strong> Hay varios puntos de alquiler de equipos deportivos a lo largo de la playa, donde puedes rentar tablas de surf, paddle surf, kayaks y bicicletas. También se ofrecen clases para principiantes y avanzados en surf y otros deportes acuáticos.
         </li>

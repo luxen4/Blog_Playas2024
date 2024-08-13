@@ -17,7 +17,31 @@ $require = './../../../../products_amazon/conexion.php';
 
 
 
-    //$require = './../../../../products_amazon/conexion.php';       
+    //$require = './../../../../products_amazon/conexion.php';  
+    
+    /*
+$table='amazon_swimsuits_woman_images';
+$where = 'order by direccion';
+include './../../../../products_amazon/swimsuits_woman.php';*/
+
+$articulo = 'swimsuits_woman';
+$grupo = '_1';
+$var_base = 'images_swimsuits_woman_1_';
+$table = 'amazon_swimsuits_woman_images';
+$where = 'order by direccion';
+require './../../../../products_amazon/sql_generica.php';
+
+/*
+$table='amazon_sandals_man_images';
+$where = 'order by direccion';
+include './../../../../products_amazon/sandals_man.php';*/
+
+$articulo = 'sandals_man';
+$grupo = '_2';
+$var_base = 'images_sandals_man_2_';
+$table = 'amazon_sandals_man_images';
+$where = 'where marca = "FLARUT"';
+require './../../../../products_amazon/sql_generica.php';
     
     
     $articulo = 'shirts';
@@ -99,13 +123,9 @@ include './../../../../products_amazon/dress_woman.php';
 
 
 
-$table='amazon_swimsuits_woman_images';
-$where = 'order by direccion';
-include './../../../../products_amazon/swimsuits_woman.php';
 
-$table='amazon_sandals_man_images';
-$where = 'order by direccion';
-include './../../../../products_amazon/sandals_man.php';
+
+
 
 
 $table='amazon_sports_shirts_images';

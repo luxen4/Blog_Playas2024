@@ -4,7 +4,7 @@
     <a class="navbar-brand" href="#">
 
         <img style="max-width: 100px;" src="<?= $src; ?>" alt="Logo" class="d-inline-block align-top"><br>
-        Destinos Playeros  
+        <p id="">Viaja con Laya </p>  
     </a>
     </div>
   
@@ -72,3 +72,14 @@
         <a href="#" class="btn btn-outline-primary ml-lg-3">Iniciar Sesión</a>
     </div>
 </nav>
+
+<style>
+    #navbar{
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: blue;
+    font-size: 34px;
+    line-height: 1.95;
+    }
+</style>

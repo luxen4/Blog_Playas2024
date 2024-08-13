@@ -6,17 +6,24 @@
     <title>Playa de Hendaya</title>
     <!-- Enlace al CSS de Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .custom-carousel-image {
-            max-height: 300px;
-            object-fit: cover;
-        }
-        .map iframe {
-            border: 0;
-        }
-    </style>
 </head>
 <body>
+<?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> ?>
+    <?php include_once './../../../../bloques/estructura/barra_navegacion2.php';?>
+    <?php include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+
+
+    <div id="#" class="container">
+        <div class="row">
+                <!--<iframe src="./../../../../ads_terra/468px-60px.html"></iframe>-->
+
+
+            <div id="#" class="col-xl-10 text-center col-lg-10 col-md-10 col-sm-12 col-12">
+
+            </div>
+        </div>
+    </div>
+
 
 <!-- Encabezado -->
 <header class="text-center my-5">
@@ -35,6 +42,57 @@
     </p>
 </section>
 
+                <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');?>
+
+                <?php $page='playadelaga'; ?>
+                
+                <hr><?php
+                $articulo = 'shirts'; $grupo = '_1';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+                
+<!-- Servicios y Actividades -->
+<section class="container my-5">
+    <h2>Servicios y Actividades</h2>
+    <ul>
+        <li>
+            <strong>Chiringuitos y Restaurantes:</strong> La playa cuenta con varios chiringuitos y restaurantes a lo largo del paseo marítimo, donde se pueden disfrutar desde platos locales hasta cocina internacional. Es el lugar perfecto para degustar mariscos frescos y platos tradicionales del País Vasco, mientras se disfruta de vistas al mar.
+        </li>
+        <hr><?php                         
+                $articulo = 'shorts'; $grupo = '_3';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+        <li>
+            <strong>Alquiler de Equipos:</strong> Hay varios puntos de alquiler de equipos deportivos a lo largo de la playa, donde puedes rentar tablas de surf, paddle surf, kayaks y bicicletas. También se ofrecen clases para principiantes y avanzados en surf y otros deportes acuáticos.
+        </li>
+        <li>
+            <strong>Zonas de Juegos:</strong> Para las familias, la playa ofrece áreas de juegos infantiles bien equipadas. Estas zonas son seguras y están ubicadas cerca de los servicios básicos como baños y duchas.
+        </li>
+        <li>
+            <strong>Zonas Deportivas:</strong> Además del surf, la Playa de Hendaya cuenta con instalaciones para practicar voleibol de playa y fútbol. También se organizan torneos y eventos deportivos durante la temporada alta.
+        </li>
+        <li>
+            <strong>Seguridad y Salvamento:</strong> Durante la temporada alta, la playa está vigilada por socorristas, lo que garantiza un entorno seguro para nadar y disfrutar del mar.
+        </li>
+        <li>
+            <strong>Accesibilidad:</strong> La playa está equipada con accesos para personas con movilidad reducida, incluyendo rampas y sillas anfibias, lo que la convierte en un destino inclusivo.
+        </li>
+        <hr><?php                         
+                $articulo = 'sneakers'; $grupo = '_2';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+        <li>
+            <strong>Paseo Marítimo:</strong> El hermoso paseo marítimo que rodea la playa es ideal para caminar, correr o simplemente disfrutar de las vistas. A lo largo del paseo, encontrarás bancos y zonas sombreadas, perfectas para relajarse.
+        </li>
+        <li>
+            <strong>Mercadillos y Ferias:</strong> Durante el verano, se organizan mercadillos y ferias a lo largo del paseo, donde se pueden encontrar artesanías locales, productos frescos y recuerdos.
+        </li>
+        <li>
+            <strong>Excursiones y Rutas:</strong> La Playa de Hendaya es también el punto de partida ideal para explorar la región. Hay varias rutas de senderismo cercanas que ofrecen vistas espectaculares de la costa y las montañas circundantes. Además, es posible realizar excursiones en barco para explorar la bahía y la costa cercana.
+        </li>
+        <li>
+            <strong>Aparcamiento:</strong> La playa dispone de varios aparcamientos cercanos, algunos de ellos gratuitos y otros de pago, que facilitan el acceso a los visitantes.
+        </li>
+    </ul>
+</section>
+
 <!-- Galería de Imágenes -->
 <section class="container my-5">
     <h2>Galería de Imágenes</h2>
@@ -46,13 +104,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://example.com/hendaya1.jpg" class="d-block w-100 custom-carousel-image" alt="Playa de Hendaya 1">
+                <img src="./../../../../bloques/localidades/playadehendaya/img/playadehendaya1.jpg" class="d-block w-100 custom-carousel-image" alt="Playa de Hendaya 1">
             </div>
             <div class="carousel-item">
-                <img src="https://example.com/hendaya2.jpg" class="d-block w-100 custom-carousel-image" alt="Playa de Hendaya 2">
+                <img src="./../../../../bloques/localidades/playadehendaya/img/playadehendaya2.jpg" class="d-block w-100 custom-carousel-image" alt="Playa de Hendaya 2">
             </div>
             <div class="carousel-item">
-                <img src="https://example.com/hendaya3.jpg" class="d-block w-100 custom-carousel-image" alt="Playa de Hendaya 3">
+                <img src="./../../../../bloques/localidades/playadehendaya/img/playadehendaya3.jpg" class="d-block w-100 custom-carousel-image" alt="Playa de Hendaya 3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -66,11 +124,36 @@
     </div>
 </section>
 
+
+<!-- Conclusión -->
+<section class="container my-5">
+    <p>
+        La Playa de Hendaya no solo es un paraíso natural, sino también un destino completo que ofrece una amplia variedad de servicios y actividades para todos los gustos. Ya sea que busques un día relajado en la playa, una aventura deportiva o una experiencia cultural, Hendaya tiene algo para todos.
+    </p>
+</section>
+
+
+<hr><?php                         
+                $articulo = 'polos_man_frente'; $grupo = '_2';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
+
 <!-- Mapa de Ubicación -->
 <section class="map container my-5">
     <h2>Ubicación</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.826156279471!2d-1.7787072845505665!3d43.33662127913719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f678e2f6835b1%3A0x8f77db1a89c5da4!2sPlaya%20de%20Hendaya!5e0!3m2!1ses!2ses!4v1689350134823!5m2!1ses!2ses" width="100%" height="450" allowfullscreen="" loading="lazy" aria-hidden="false" tabindex="0"></iframe>
 </section>
+
+
+<footer>
+    <?php require './../../../../bloques/estructura/footer.php'; ?>
+</footer>
+
+
+<?php 
+// include_once './../js/logica_anuncios.php'; 
+// include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php'; 
+?>
 
 <!-- Enlace a los scripts de Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -78,3 +161,151 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<style>
+
+
+/* Estilos para pantallas móviles */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.17em; /* Tamaño similar a h3 */
+        font-weight: normal;
+    }
+
+    h2 {
+        font-size: 1.1em; /* Disminuye el tamaño del h2 */
+        font-weight: normal;
+    }
+
+    h3 {
+        font-size: 1em; /* Disminuye el tamaño del h3 */
+        font-weight: normal;
+    }
+
+    h4 {
+        font-size: 0.9em; /* Disminuye el tamaño del h4 */
+        font-weight: normal;
+    }
+
+    h5 {
+        font-size: 0.8em; /* Disminuye el tamaño del h5 */
+        font-weight: normal;
+    }
+
+    p {
+        font-size: 0.9em; /* Disminuye el tamaño del párrafo */
+    }
+
+    .lead {
+        font-size: 1em; /* Tamaño similar a h3 */
+    }
+
+}
+</style>
+
+
+<script>
+    
+    <?php
+    function generateImageConstants($total_images, $categories) {
+        foreach ($categories as $category => $group) {
+            for ($i = 1; $i <= $total_images; $i++) {
+                $variable_name = "{$category}_{$group}_{$i}";
+                if (isset($GLOBALS["images_" . $variable_name])) {
+                    echo "const images_{$variable_name} = " . json_encode($GLOBALS["images_" . $variable_name]) . ";\n";
+                } else {
+                    echo "const images_{$variable_name} = [];\n";
+                }
+            }
+        }
+    }
+    
+    // Define categories and their respective groups
+    $categories = [
+        "shirts" => 1,
+        "shirts_modelo_derecha" => 1,
+        "sports_shirts" => 1,
+        "swimsuits_woman" => 1,
+        "sandals_man" => 2,
+        "sneakers" => 2,
+        "sneakers_izquierda_45" => 2,
+        "sneakers_puma_izda_0" => 2,
+        "dress_woman" => 2,
+        "purse_woman" => 2,
+        "sandals_woman" => 2,
+        "jeans_man_derecha" => 2,
+        "polos_man_frente" => 2,
+        "shorts" => 3
+    ];
+    
+    // Call the function with the total number of images and categories
+    generateImageConstants(4, $categories);
+    ?>
+
+  
+
+    const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
+
+    
+    let currentIndex = {};
+
+// Función para agregar propiedades al objeto con un patrón definido
+function addProperties(baseName, groupRange, count) {
+    for (let i = 1; i <= count; i++) {
+        currentIndex[`${baseName}_${groupRange}_${i}`] = 0;
+    }
+}
+
+// Definir las bases y rangos de grupos
+const definitions = [
+    { baseName: 'shirts', groupRange: 1, count: 4 },
+    { baseName: 'shorts', groupRange: 3, count: 4 },
+    { baseName: 'sneakers', groupRange: 2, count: 4 },
+    { baseName: 'polos_man_frente', groupRange: 2, count: 4 }
+];
+
+// Agregar las propiedades usando la función definida
+definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
+
+
+
+    
+    function prueba(image_link, image, cte, indexKey) {
+        currentIndex[indexKey] = (currentIndex[indexKey] + 1) % cte.length;
+        document.getElementById(image_link).href = cte[currentIndex[indexKey]].href;
+        document.getElementById(image).src = cte[currentIndex[indexKey]].src;
+        document.getElementById(image).alt = cte[currentIndex[indexKey]].alt;
+    }
+
+
+    function changeImages() {
+
+
+        <?php 
+        $articulo = "shirts";
+        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+
+
+        <?php 
+        $articulo = "shorts";
+        $images = [ "images_{$articulo}_3_1","images_{$articulo}_3_2","images_{$articulo}_3_3","images_{$articulo}_3_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_3_$i', 'image_{$articulo}_3_$i', {$images[$i - 1]}, '{$articulo}_3_$i');\n";}?>
+
+        <?php 
+        $articulo = "sneakers";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+        <?php 
+        $articulo = "polos_man_frente";
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
+
+
+    }
+
+    setInterval(changeImages, 4000);
+
+</script>

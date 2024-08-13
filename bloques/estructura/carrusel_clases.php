@@ -34,9 +34,9 @@ $articulo_2_4 = $articulo . $grupo . "_4";
                         $articulo_var = $articulo . $grupo . '_' . $i;
                         $images_articulo_var = 'images_' . $articulo_var;
                         echo '
-                            <div class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6">
-                                <a class="image-link image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
-                                    <img class="image image_' . $articulo_var . ' d-block w-100 custom-carousel-image" src="' . ${$images_articulo_var}[0]['src'] . '" alt="' . ${$images_articulo_var}[0]['alt'] . '">
+                            <div  class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6">
+                                <a  class="image-link image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
+                                    <img  class="image image_' . $articulo_var . ' d-block w-100 custom-carousel-image" src="' . ${$images_articulo_var}[0]['src'] . '" alt="' . ${$images_articulo_var}[0]['alt'] . '">
                                 </a>
                             </div>';
                     }
@@ -114,3 +114,10 @@ $articulo_2_4 = $articulo . $grupo . "_4";
         });
     });
 </script>
+
+<style>
+    .custom-carousel {
+    transform: scale(0.85);
+    transform-origin: center center;
+}
+</style>

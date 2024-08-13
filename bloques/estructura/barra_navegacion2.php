@@ -3,7 +3,7 @@
     <div>
     <a class="navbar-brand" href="#">
 
-        <img style="max-width: 100px;" src="mifoto.png" alt="Logo" class="d-inline-block align-top"><br>
+        <img style="max-width: 100px;" src="<?= $src; ?>" alt="Logo" class="d-inline-block align-top"><br>
         Destinos Playeros  
     </a>
     </div>
@@ -14,17 +14,37 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
+
             <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./../../../../">Inicio <span class="sr-only"></span></a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./../../../../">Cantabria<span class="sr-only"></span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./../../../../">Vizcaya<span class="sr-only"></span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./../../../../">Guipuzkoa<span class="sr-only"></span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="./../../../../">Francia<span class="sr-only"></span></a>
+            </li>
+
+
+            <?php /*
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Playas de Cantabria</a>
+                    <a class="dropdown-item" href="#">Playas de Vizcaya</a>
+                    <a class="dropdown-item" href="#">Playas de Guipuzkoa</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -35,7 +55,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
-            </li>
+            </li> */ ?>
+
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
         <div style="display: flex;">

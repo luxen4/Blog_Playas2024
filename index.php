@@ -16,7 +16,9 @@
 
 <body>
 
-    <?php include_once 'bloques/estructura/barra_navegacion2.php'; ?>
+    <?php 
+    $src='mifoto.png';
+    include_once 'bloques/estructura/barra_navegacion2.php'; ?>
 
 
     <div id="#" class="container">
@@ -50,7 +52,7 @@
                 $var_base = 'images_sneakers_2_';
                 $table = 'amazon_sneakers_images';
                 $where = 'where marca = "GEOX" and direccion = "izquierda_0"';
-                require 'products_amazon/shirtsauxiliar.php'; ?>
+                require 'products_amazon/sql_generica.php'; ?>
 
                 <div class="row">
                     <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">

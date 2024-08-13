@@ -113,11 +113,6 @@
                 <hr><?php $articulo = "shirts"; $grupo = '_1';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-                
-
-                
-             
-
                 <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
 
 

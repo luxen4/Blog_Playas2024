@@ -22,15 +22,17 @@
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Castro Urdiales - Información y Turismo">
-    <meta name="twitter:description" content="Descubre Castro Urdiales, una hermosa ciudad costera en el norte de España. Explora su rica historia, playas, y lugares de interés turístico.">
-    <meta name="twitter:image" content="https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg">
+    <meta name="twitter:site" content="@laya_garcia">
+    <meta name="twitter:title" content="Playa de Laga - Información y Turismo">
+    <meta name="twitter:description" content="Playa de Laga, situada en la Reserva de la Biosfera de Urdaibai, es un paraíso natural en la costa vasca. Con su extensa franja de arena dorada y olas perfectas para el surf, es el destino ideal para los amantes de la naturaleza y los deportes acuáticos. Rodeada de verdes colinas y vistas impresionantes al mar Cantábrico, Laga ofrece una escapada tranquila y pintoresca, perfecta para desconectar y disfrutar del paisaje.">
+    <meta name="twitter:image" content="http://playas2024.kesug.com/bloques/localidades/playadelaga/foto_presentacion.jpg">
+    <meta name="twitter:url" content="http://playas2024.kesug.com/bloques/localidades/playadelaga/fichas/fichaplayadelaga.php?i=1">
 
     <!-- Pinterest -->
     <meta property="pinterest:card" content="summary_large_image">
-    <meta property="pinterest:title" content="Qué ver en Castro Urdiales">
-    <meta property="pinterest:description" content="Los lugares más destacados que no te puedes perder en tu visita a Castro Urdiales como paseos, monumentos, playas y demás rincones turísticos.">
-    <meta property="pinterest:image" content="https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg">
+    <meta property="pinterest:title" content="Playa de Laga - Información y Turismo">
+    <meta property="pinterest:description" content="Playa de Laga, situada en la Reserva de la Biosfera de Urdaibai, es un paraíso natural en la costa vasca. Con su extensa franja de arena dorada y olas perfectas para el surf, es el destino ideal para los amantes de la naturaleza y los deportes acuáticos. Rodeada de verdes colinas y vistas impresionantes al mar Cantábrico, Laga ofrece una escapada tranquila y pintoresca, perfecta para desconectar y disfrutar del paisaje.">
+    <meta property="pinterest:image" content="http://playas2024.kesug.com/bloques/localidades/playadelaga/fichas/fichaplayadelaga.php?i=1">
 
     <!-- Sitemap Link -->
     <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
@@ -58,7 +60,11 @@
 </head>
 
 <body>
-    <?php include_once './../../../../bloques/estructura/barra_navegacion.php'; ?>
+    
+    <?php 
+    $src='./../../../../mifoto.png';
+    include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
+
     <?php $require = './../../../../products_amazon/shirts.php'; ?>
 
     <div class="container">
@@ -70,16 +76,18 @@
                     <h2>Descripción</h2>
                     <section class="description">
                         <p>La playa de Laga, situada en la región de Bizkaia en el País Vasco, España, es una de las joyas costeras de la costa cantábrica. Este rincón encantador de la península Ibérica combina un entorno natural impresionante con una rica historia cultural y una serie de características únicas que la convierten en un destino atractivo para los amantes de la naturaleza y los viajeros en busca de tranquilidad.</p>
+                        
                         <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
+                        <?php $require = './../../../../products_amazon/conexion.php'; ?>       
+
                         <hr>
                         <?php
-                        $require = './../../../../products_amazon/conexion.php';
                         $articulo = 'shorts';
                         $grupo = '_3';
                         $var_base = 'images_shorts_3_';
                         $table = 'amazon_shorts_images';
                         $where = 'where direccion = "frente"';
-                        require './../../../../products_amazon/shirtsauxiliar.php';
+                        require './../../../../products_amazon/sql_generica.php';
                         include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
                         <hr>
                     </section>
@@ -90,22 +98,42 @@
                     <h2>Ubicación y Accesibilidad</h2>
                     <p>La playa de Laga se encuentra en el municipio de Ibarrangelu, dentro del Parque Natural de las Marismas de Urdaibai. Este parque, declarado Reserva de la Biosfera por la UNESCO en 1984, es conocido por su biodiversidad y paisajes naturales. La playa está aproximadamente a unos 10 kilómetros al oeste de la localidad de Gernika-Lumo, un punto de referencia histórico y cultural importante en la región.</p>
                     <p>Para llegar a la playa, los visitantes pueden tomar la carretera BI-2238 desde Gernika-Lumo, que ofrece vistas panorámicas a medida que se acerca a la costa. La playa cuenta con un acceso en coche y una zona de aparcamiento cercana, aunque durante la temporada alta, el espacio puede ser limitado debido a la afluencia de turistas.</p>
+                    
+                    
+                <hr><?php                         
+                $articulo = 'sports_shirts';
+                $grupo = '_2';
+                $var_base = 'images_sports_shirts_2_';
+                $table = 'amazon_sports_shirts_images';
+                $where = 'where direccion = "frente"';
+                require './../../../../products_amazon/sql_generica.php';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?><hr>
+                
 
                     <h2>Características Físicas</h2>
                     <p>La playa de Laga es conocida por su paisaje impresionante y su entorno natural intacto. Se extiende a lo largo de aproximadamente 500 metros de arena dorada, flanqueada por acantilados rocosos que la protegen de los vientos más fuertes y ofrecen vistas espectaculares del océano. La playa está rodeada por un paisaje verde exuberante que incluye colinas y bosques, creando un contraste vibrante con el azul del mar Cantábrico.</p>
+                    
+                <hr><?php                         
+                $articulo = 'polos_man_frente';
+                $grupo = '_2';
+                $var_base = 'images_polos_man_frente_2_';
+                $table = 'amazon_polos_man_images';
+                $where = 'where direccion = "frente"';
+                require './../../../../products_amazon/sql_generica.php';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?><hr> 
+                    
                     <p>El oleaje en Laga puede variar, con olas que ofrecen condiciones ideales para el surf, especialmente para aquellos con experiencia. La calidad del agua es generalmente excelente, y la playa cuenta con una bandera azul que certifica su limpieza y seguridad. Las mareas juegan un papel importante en la configuración de la playa, y el ambiente cambia significativamente entre la marea baja y alta, creando oportunidades para explorar las formaciones rocosas y las pequeñas calas que emergen en marea baja.</p>
                 </main>
 
 
                 <hr>
-                <?php
-                //$require = './../../../../products_amazon/conexion.php';                            
+                <?php                         
                 $articulo = 'shirts';
                 $grupo = '_1';
                 $var_base = 'images_shirts_1_';
                 $table = 'amazon_shirts_images';
                 $where = 'where direccion = "modelo_frente"';
-                require './../../../../products_amazon/shirtsauxiliar.php';
+                require './../../../../products_amazon/sql_generica.php';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
                 <hr>
 
@@ -122,14 +150,13 @@
                 </ul>
 
                 <hr>
-                <?php
-                //$require = './../../../../products_amazon/conexion.php';                            
+                <?php                          
                 $articulo = 'sneakers_puma_izda_0';
                 $grupo = '_2';
                 $var_base = 'images_sneakers_puma_izda_0_2_';
                 $table = 'amazon_sneakers_images';
                 $where = 'where marca="PUMA" and direccion = "izquierda_0"';
-                require './../../../../products_amazon/shirtsauxiliar.php';
+                require './../../../../products_amazon/sql_generica.php';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
                 <hr>
 
@@ -141,13 +168,6 @@
                 <p>La playa de Laga y su entorno tienen una rica historia cultural que se remonta a tiempos antiguos. La región del País Vasco ha sido habitada desde tiempos prehistóricos, y la influencia de las culturas y tradiciones locales se refleja en el estilo de vida de la zona. Las tradiciones marítimas, la gastronomía basada en productos del mar y las festividades locales son aspectos importantes de la vida en esta región.</p>
                 <p>Además, la cercanía a Gernika-Lumo añade una dimensión histórica significativa al área. Gernika es conocida por su importancia durante la Guerra Civil Española, y su historia está ligada a la cultura y la identidad del País Vasco. La visita a Gernika-Lumo, con su famoso árbol de Gernika y el Museo de la Paz, puede complementar la experiencia en la playa de Laga con una perspectiva más amplia sobre la historia y la cultura de la región.</p>
 
-                <hr><?php
-                    $images = 'images_';
-                    $articulo = 'mochilas';
-                    $grupo = '_2';
-                    //include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; 
-                    ?>
-                <hr>
 
                 <hr>
                 <?php
@@ -157,7 +177,7 @@
                 $var_base = 'images_mochilas_2_';
                 $table = 'amazon_mochilas_images';
                 $where = 'where direccion = "izquierda"';
-                require './../../../../products_amazon/shirtsauxiliar.php';
+                require './../../../../products_amazon/sql_generica.php';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
                 <hr>
 

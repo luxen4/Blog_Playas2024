@@ -37,7 +37,7 @@ $sql = "SELECT * FROM " . $table . " " . $where;
 
             // Dynamically determine the key to push the product into
             $key = "{$category}_{$group}_{$posicion}";
-            echo("auxiliar " . $key);
+            //echo("auxiliar " . $key);
             //array_push($images[$key], $product);
 
             

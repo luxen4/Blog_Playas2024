@@ -965,5 +965,18 @@ El Home, dejarlo bien
 
 Simplificar en playa de laga las consultas y se hagan contra la genérica.
 
+Preparar cada pagina con un mismo tipo de carrusel de anuncios para simplicidad.
+
+
+CONTROL DE PÁGINAS
+
+                // Footer        // Barra de Navegación    // Subida al Hosting   // Pinterest    // Carruseles   // Sitemap
+
+Playa de Laga      No               No                     No              No              No
+(Funcione la barra de navegación, logo, etc...será el ejemplo prototipo)
+
+
+
+
 Cada 2 dias que se haga una consulta a la base de datos y se genere un archivo de artículos de publicidad, 
 así no se consultará la base de datos numerosas veces.

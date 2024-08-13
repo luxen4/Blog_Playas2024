@@ -2,12 +2,47 @@
 $servername = $_SERVER['SERVER_NAME'];
 $require = './../../../../products_amazon/conexion.php';
 
+//if ($page == 'playadelaga'){ 
+    //$category = '$images_shirts';
+    /*$group = "1";
 
-$category = '$images_shirts';
-$group = "1";
-$table='amazon_shirts_images';
-$where = 'where direccion = "modelo_frente"';
-require './../../../../products_amazon/shirts.php';
+    $table='amazon_shirts_images';
+    $where = 'where direccion = "modelo_frente"';
+    require './../../../../products_amazon/shirts.php';*/
+
+    /*
+    $table='amazon_shorts_images';
+    $where = 'where direccion = "frente"';
+    include './../../../../products_amazon/shorts_man.php';*/
+
+
+
+    //$require = './../../../../products_amazon/conexion.php';       
+    
+    
+    $articulo = 'shirts';
+    $grupo = '_1';
+    $var_base = 'images_shirts_1_';
+    $table = 'amazon_shirts_images';
+    $where = 'where direccion = "modelo_frente"';
+    require './../../../../products_amazon/sql_generica.php';
+
+
+    $articulo = 'shorts';
+    $grupo = '_3';
+    $var_base = 'images_shorts_3_';
+    $table = 'amazon_shorts_images';
+    $where = 'where direccion = "frente"';
+    require './../../../../products_amazon/sql_generica.php';
+
+
+
+
+
+
+//}
+
+
 
 
 
@@ -15,9 +50,6 @@ $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_derecha"';
 require './../../../../products_amazon/shirts_modelo_derecha.php';
 
-$table='amazon_shorts_images';
-$where = 'where direccion = "frente"';
-include './../../../../products_amazon/shorts_man.php';
 
 
 $table='amazon_sneakers_images';

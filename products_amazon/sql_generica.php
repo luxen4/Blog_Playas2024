@@ -24,3 +24,4 @@ if ($stmt->rowCount() > 0) {
 }
 
 $conn = null;   // Cerrar la conexión
+?>

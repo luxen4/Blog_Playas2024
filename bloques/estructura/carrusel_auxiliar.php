@@ -50,13 +50,12 @@ $articulo_2_4 = $articulo . $grupo . "_4";
 <style>
     /* Clase personalizada para las imágenes del carrusel */
     .custom-carousel-image {
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-        /* Ajusta la imagen dentro del contenedor manteniendo la proporción */
-        object-position: top;
-        /* Alinea la imagen desde la parte superior */
-    }
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor manteniendo la proporción */
+    object-position: top; /* Alinea la imagen desde la parte superior si es necesario */
+    display: block; /* Elimina el espacio inferior en algunos navegadores */
+}
 
 
     @media (max-width: 576px) {

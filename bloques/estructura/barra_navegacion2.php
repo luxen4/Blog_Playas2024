@@ -16,7 +16,7 @@
         <ul class="navbar-nav ml-auto">
 
             <li class="nav-item active">
-                <a class="nav-link" href="./../../../../">Inicio <span class="sr-only"></span></a>
+            <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/">Inicio <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">

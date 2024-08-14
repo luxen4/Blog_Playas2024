@@ -16,14 +16,25 @@
 
 <body>
 
-    <?php 
-    $src='mifoto.png';
+    <?php
+    $src = 'mifoto.png';
     include_once 'bloques/estructura/barra_navegacion2.php'; ?>
+    <?php include_once 'bloques/estructura/barra_navegacion2.php';?>
+    <?php $page='home'; ?>
+    <?php $require = $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/products_amazon/sql_generica.php' ; ?>
+    <?php //include_once 'bloques/estructura/anuncios/carga_productos.php'; ?>
 
+    <?php define('BASE_PATH_ESTRUCTURA', $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/'); ?>
+
+               
 
     <div id="#" class="container">
         <div class="row">
             <div id="#" class="col-xl-10 text-center col-lg-6 col-md-10 col-sm-10 col-12">
+
+            <hr><?php                         
+            $articulo = 'shorts'; $grupo = '_3';
+            //include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
                 <h2>Cantabria</h2>
 
@@ -45,7 +56,7 @@
                 include 'bloques/localidades/index.php'; ?>
 
 
-                <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/bloques/estructura/'); ?>
+<!--
                 <?php
                 $servername = $_SERVER['SERVER_NAME'];
                 $require = 'products_amazon/conexion.php';
@@ -106,34 +117,10 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-                        </div>
+                        </div>-->
 
 
-                        <style>
-                            /* Clase personalizada para las imágenes del carrusel */
-                            .custom-carousel-image {
-                                height: 100%;
-                                width: 100%;
-                                object-fit: contain;
-                                /* Ajusta la imagen dentro del contenedor manteniendo la proporción */
-                                object-position: top;
-                                /* Alinea la imagen desde la parte superior */
-                            }
 
-
-                            @media (max-width: 576px) {
-                                .custom {
-                                    width: 65%;
-                                    margin: 0 auto;
-                                }
-                            }
-
-                            a img {
-                                margin: 1em;
-                                /*border: 1px solid #ccc;*/
-                                /* Light gray color */
-                            }
-                        </style>
                         <hr>
                     </div>
                 </div>
@@ -157,7 +144,7 @@
                 include 'bloques/localidades/index.php'; ?>
 
 
-<?php
+                <?php
                 $localidad_nombre = 'Playa de Santander';
                 $localidad = 'Playa de Santander';
                 $ruta_localidad = 'playadesantander';
@@ -184,7 +171,7 @@
                 $localidad_nombre = 'Playa de Suances';
                 $localidad = 'Playa de Suances';
                 $ruta_localidad = 'playadesuances';
-                $presentacion = '.';
+                $presentacion = 'La Playa de Suances, situada en el corazón de Cantabria, es un rincón costero que combina la belleza natural con un ambiente acogedor.<br> Conocida por su arena dorada y sus aguas limpias, esta playa es un destino perfecto para disfrutar de un día en familia o practicar deportes acuáticos. Rodeada de impresionantes paisajes y con un paseo marítimo lleno de vida, Suances ofrece una experiencia costera única, donde la tranquilidad y la diversión se encuentran a partes iguales.';
                 include 'bloques/localidades/index.php'; ?>
 
 
@@ -272,7 +259,7 @@
                 $localidad_nombre = 'Playa de Zarautz';
                 $localidad = 'Playa de Zarautz';
                 $ruta_localidad = 'playadezarautz';
-                $presentacion = '.';
+                $presentacion = 'La Playa de Zarautz, conocida como "La Reina de las Playas", es una de las joyas del País Vasco. Con más de 2.5 kilómetros de arena dorada, es la playa más extensa de la región y un destino privilegiado para los amantes del surf.<br> Rodeada de un pintoresco paseo marítimo, Zarautz combina la belleza natural de su entorno con una vibrante oferta gastronómica y cultural, haciendo de esta playa un lugar ideal para disfrutar del mar, el deporte y la vida al aire libre en cualquier época del año.';
                 include 'bloques/localidades/index.php'; ?>
 
 
@@ -305,11 +292,11 @@
 
 
             <div id="#" class="col-xl-2 text-center col-lg-3 col-md-12 col-sm-12 col-12">
-                <?php require './bloques/anuncios_derecha0.php' ?>
+                <?php //require './bloques/anuncios_derecha0.php' ?>
             </div>
         </div>
     </div>
-
+                                        
     <script type="text/javascript" src="https://cdn.diclotrans.com/sdk/v1/31180/af0d219c84b03a7bba793620fffa25689a03ba0d/lib.js"></script>
 
 
@@ -339,6 +326,90 @@
 <?php //include_once 'bloques/localidades/playadelaga/js/logica_anuncios.php'; 
 ?>
 
+
+
+<script>
+    
+    <?php
+    function generateImageConstants($total_images, $categories) {
+        foreach ($categories as $category => $group) {
+            for ($i = 1; $i <= $total_images; $i++) {
+                $variable_name = "{$category}_{$group}_{$i}";
+                if (isset($GLOBALS["images_" . $variable_name])) {
+                    echo "const images_{$variable_name} = " . json_encode($GLOBALS["images_" . $variable_name]) . ";\n";
+                } else {
+                    echo "const images_{$variable_name} = [];\n";
+                }
+            }
+        }
+    }
+    
+    // Define categories and their respective groups
+    $categories = [
+        "shorts" => 3
+    ];
+    
+    // Call the function with the total number of images and categories
+    generateImageConstants(4, $categories);
+    ?>
+
+  
+
+    const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
+
+    
+    let currentIndex = {};
+
+// Función para agregar propiedades al objeto con un patrón definido
+function addProperties(baseName, groupRange, count) {
+    for (let i = 1; i <= count; i++) {
+        currentIndex[`${baseName}_${groupRange}_${i}`] = 0;
+    }
+}
+
+// Definir las bases y rangos de grupos
+const definitions = [
+    { baseName: 'shorts', groupRange: 3, count: 4 }
+];
+
+// Agregar las propiedades usando la función definida
+definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
+
+
+
+    
+function prueba(image_link, image, cte, indexKey) {
+    currentIndex[indexKey] = (currentIndex[indexKey] + 1) % cte.length;
+    console.log(`Changing image for ${indexKey} to index ${currentIndex[indexKey]}`);
+    document.getElementById(image_link).href = cte[currentIndex[indexKey]].href;
+    document.getElementById(image).src = cte[currentIndex[indexKey]].src;
+    document.getElementById(image).alt = cte[currentIndex[indexKey]].alt;
+}
+
+function changeImages() {
+    <?php 
+    $articulo = "shorts";
+    $images = [ "images_{$articulo}_3_1","images_{$articulo}_3_2","images_{$articulo}_3_3","images_{$articulo}_3_4"];
+    for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_3_$i', 'image_{$articulo}_3_$i', {$images[$i - 1]}, '{$articulo}_3_$i');\n";} ?>
+}
+
+setInterval(changeImages, 4000);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style>
     h2,
     h3,
@@ -350,5 +421,29 @@
     img {
         width: 100%;
         object-fit: cover;
+    }
+
+    /* Clase personalizada para las imágenes del carrusel */
+    .custom-carousel-image {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        /* Ajusta la imagen dentro del contenedor manteniendo la proporción */
+        object-position: top;
+        /* Alinea la imagen desde la parte superior */
+    }
+
+
+    @media (max-width: 576px) {
+        .custom {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+
+    a img {
+        margin: 1em;
+        /*border: 1px solid #ccc;*/
+        /* Light gray color */
     }
 </style>

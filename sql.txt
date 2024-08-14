@@ -13,73 +13,35 @@ CREATE TABLE IF NOT EXISTS amazon_shirts_images (
 );
 
 INSERT INTO amazon_shirts_images (href, src, alt, marca, precio, direccion) VALUES
-('https://amzn.to/46jzZCJ',
-'https://m.media-amazon.com/images/I/813MLF4OoPL._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
-24.99,
-'modelo_derecha'),
 
-('https://amzn.to/3WkEqbD',
-'https://m.media-amazon.com/images/I/81ILQomN53L._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
+('https://amzn.to/4fKWHI4',
+'https://m.media-amazon.com/images/I/8160c89oeOL._AC_SX679_.jpg',
+'Camisa Hawaiana Hombre Verano Rithern',
+'Rithern',
+19.99,
+'izquierda'),
+
+('https://amzn.to/3STmRhZ',
+'https://m.media-amazon.com/images/I/81Q5eIYnmhL._AC_SX679_.jpg',
+'Camisa Hawaiana Hombre Manga Corta Enlision',
+'Enlision',
+23.99,
+'izquierda'),
+
+
+('https://amzn.to/46OAdSu',
+'https://m.media-amazon.com/images/I/81Q5eIYnmhL._AC_SX679_.jpg',
+'Camisa Hawaiana Hombre Manga Corta Enlision',
+'Enlision',
+23.99,
+'izquierda'),
+
+('https://amzn.to/3yGk0lO',
+'https://m.media-amazon.com/images/I/71K2BpUVj9L._AC_SX679_.jpg',
+'Camisa Hawaiana Hombre Funky Manga Corta Enlision',
+'Enlision',
 24.49,
-'modelo_derecha'),
-
-
-('https://amzn.to/3WC7HQy',
-'https://m.media-amazon.com/images/I/81JYZy9aTWL._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
-24.99,
-'modelo_derecha'),
-
-('https://amzn.to/3ydKDOK',
-'https://m.media-amazon.com/images/I/81AoZdDVVvL._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
-24.49,
-'modelo_derecha'),
-
-
-
-
-
-
-('https://amzn.to/46mIrAY',
-'https://m.media-amazon.com/images/I/81OT1oan9WL._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
-24.99,
-'modelo_derecha'),
-
-('https://amzn.to/3WpuSMN',
-'https://m.media-amazon.com/images/I/817OvqeqB1L._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
-24.49,
-'modelo_derecha'),
-
-
-('https://amzn.to/3WlzJ1i',
-'https://m.media-amazon.com/images/I/61rtNa9JxCL._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
-24.49,
-'modelo_derecha'),
-
-('https://amzn.to/3YjBEpK',
-'https://m.media-amazon.com/images/I/71iD1HMtFOL._AC_SY741_.jpg',
-'Camisa Hawaiana',
-'APTRO',
-25.49,
-'modelo_derecha')
-
-
-
-
-
+'izquierda')
 ;
 
 *COMPLETAR*
@@ -114,20 +76,84 @@ INSERT INTO amazon_sneakers_images (href, src, alt, marca, precio, direccion) VA
 
 
 CREATE TABLE IF NOT EXISTS amazon_shorts_images (
-    amazon_shorts_images INT AUTO_INCREMENT PRIMARY KEY,
+    amazon_swimsuits_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
     href VARCHAR(255) NOT NULL,
     src VARCHAR(255) NOT NULL,
     alt VARCHAR(255) NOT NULL,
+    marca VARCHAR(32) NOT NULL,
+    precio DECIMAL (10,2),
     direccion VARCHAR (255) NOT NULL
 );
 
 
-INSERT INTO amazon_shorts_images (href, src, alt, direccion) VALUES
-('https://amzn.to/3Y3M4tu',
+INSERT INTO amazon_shorts_images (href, src, alt, marca, precio, direccion) VALUES
+('https://amzn.to/3McgAtT',
+'https://m.media-amazon.com/images/I/61A5rpxOQQL._AC_SX569_.jpg',
+'Pantalones deportivos para hombre Csqtongan',
+'Csqtongan',
+22.99,
+'frente'),
+
+('https://amzn.to/4cyJsrm',
 'https://m.media-amazon.com/images/I/719ieBktVFS._AC_SX679_.jpg',
-'Short running para hombre ',
+'Pantalones Cortos Hombre Deporte Running Tansozer',
+'Tansozer',
+33.99,
+'frente'),
+
+('https://amzn.to/4fHKe81',
+'https://m.media-amazon.com/images/I/61mbWC+M4+L._AC_SX679_.jpg',
+'Pantalones Cortos Hombre Deporte Shorts Running con Cremallera JustSun',
+'JustSun',
+32.99,
+'frente'),
+
+('https://amzn.to/4csodYb',
+'https://m.media-amazon.com/images/I/71KmgyRGcJL._AC_SX679_.jpg',
+'Pantalones Cortos Casuales de Verano para Hombres LY4U',
+'LY4U',
+19.99,
+'frente'),
+
+('https://amzn.to/3YJulHZ',
+'https://m.media-amazon.com/images/I/61-JH8TRNvS._AC_SX679_.jpg',
+'Pantalones Cortos Deportivos de algodón para Hombre Biutimarden',
+'Biutimarden',
+44.99,
+'frente'),
+
+('https://amzn.to/4fGMxbt',
+'https://m.media-amazon.com/images/I/717oK60vsiL._AC_SX679_.jpg',
+'Pantalones Cortos Cargo para Hombre Btmpmcs',
+'Btmpmcs',
+32.99,
+'frente'),
+
+
+
+('https://amzn.to/3X2iRy5',
+'https://m.media-amazon.com/images/I/818F0AQgPFL._AC_SX679_.jpg',
+'Pantalones Cortos Transpirables Escalada Aire Libre,Azul Lago KEFITEVD',
+'KEFITEVD',
+39.99,
+'frente'),
+
+
+('https://amzn.to/3X2YJMf',
+'https://m.media-amazon.com/images/I/61oF7QUOonL._AC_SX679_.jpg',
+'Pantalones Cortos Hombre Verano Shorts Casual Chino con Bolsillos JustSun',
+'JustSun',
+33.99,
 'frente')
+
+
+
+
 ;
+
+
+
+
 
 
 
@@ -188,78 +214,41 @@ INSERT INTO amazon_sports_shirts_images (href, src, alt, marca, precio, direccio
 
 
 INSERT INTO amazon_swimsuits_woman_images (href, src, alt, marca, precio, direccion) VALUES
-('https://amzn.to/3WARafy',
-'https://m.media-amazon.com/images/I/41BKOBTwqhL._AC_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
+
+
+
+
+('https://amzn.to/3AlFhl7',
+'https://m.media-amazon.com/images/I/71AqS5s05cL._AC_SY741_.jpg',
+'Traje de Baño de Una Pieza para Mujer Push-up Volantes SHEKINI',
+'SHEKINI',
+44.99,
 'modelo_frente'),
 
-('https://amzn.to/3ybESkx',
-'https://m.media-amazon.com/images/I/418PwbqrcmL._AC_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_frente'),
-
-('https://amzn.to/3YhiG2U',
-'https://m.media-amazon.com/images/I/41O2qjgsSBL._AC_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_frente'),
-
-('https://amzn.to/3ybF7vX',
-'https://m.media-amazon.com/images/I/61yfh+Y7UdL._AC_SY741_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_frente'),
-
-('https://amzn.to/3YdJFfZ',
-'https://m.media-amazon.com/images/I/51ToMZxhQPL._AC_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
+('https://amzn.to/4dqlGPw',
+'https://m.media-amazon.com/images/I/711d-bxXV5L._AC_SY741_.jpg',
+'Elegante Traje de BañO de Una Pieza para Mujer SHEKINI',
+'SHEKINI',
+36.54,
 'modelo_frente'),
 
 
 
+('https://amzn.to/3YJxOX1',
+'https://m.media-amazon.com/images/I/71mTEsvYyXL._AC_SY741_.jpg',
+'Mujer Bañador con Falda Traje de Baño Elegante SHEKINI',
+'SHEKINI ',
+39.51,
+'modelo_frente'),
 
-('https://amzn.to/4cXB5Xa',
-'https://m.media-amazon.com/images/I/61--kaGnSrL._AC_SY741_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_posterior'),
+('https://amzn.to/3yBvRS4',
+'https://m.media-amazon.com/images/I/817fd+h0tEL._AC_SY741_.jpg',
+'Mujer Traje de Baño con Falda Una Pieza SHEKINI',
+'SHEKINI',
+43.19,
+'modelo_frente')
 
-('https://amzn.to/4bXbyMC',
-'https://m.media-amazon.com/images/I/61X-KmLmM8L._AC_SY741_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_posterior'),
 
-('https://amzn.to/4dgGHf2',
-'https://m.media-amazon.com/images/I/61lUGlddKVL._AC_SY741_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_posterior'),
-
-('https://amzn.to/4dgyes5',
-'https://m.media-amazon.com/images/I/61USfyVFFJL._AC_SY741_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_posterior'),
-
-('https://amzn.to/3WqV1ea',
-'https://m.media-amazon.com/images/I/61SK56OvmrL._AC_SY741_.jpg',
-'Bikini',
-'YSABEL MORA',
-26.99,
-'modelo_posterior')
 ;
 
 
@@ -836,37 +825,20 @@ INSERT INTO amazon_jeans_woman_images (href, src, alt, marca, precio, direccion)
 
 INSERT INTO amazon_pantalones_cortos_correr_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/3SLUgLv',
-'https://m.media-amazon.com/images/I/81wWz+cw86L._AC_SX679_.jpg',
-'Pantalones Cortos para Correr Hombre marca RDX',
-'RDX',
-32.99,
-'izquierda'),
-
-
-('https://amzn.to/3YCa3Ab',
-'https://m.media-amazon.com/images/I/61FDFwMqliL._AC_SX569_.jpg',
-'Pantalones Cortos Hombre Deporte marca TCA',
-'TCA',
-27.99,
-'izquierda'),
-
-
-('https://amzn.to/3SKUEdb',
-'https://m.media-amazon.com/images/I/7185Co1uR-L._AC_SX679_.jpg',
-'Pantalones Cortos de Running 2 en 1 para Hombre marca Lixada',
-'Lixada',
-23.99,
-'izquierda'),
-
-
-('https://amzn.to/4dijxoG',
-'https://m.media-amazon.com/images/I/71hPA5Exl9L._AC_SX679_.jpg',
-'Pantalones Cortos Laser de Running Ligeros con Bolsillos para Hombre marca TCA',
-'TCA',
-22.99,
+('https://amzn.to/46HN7lj',
+'https://m.media-amazon.com/images/I/4128lzpks5L._AC_SY741_.jpg',
+'Pantalon Cortos Hombre para Correr marca PITBULL',
+'PITBULL',
+49.50,
 'izquierda')
+
+
+
 ;
+
+https://m.media-amazon.com/images/I/61pzGgZqoLL._AC_SX679_.jpg
+
+https://amzn.to/3YLgp0q
 
 
 
@@ -884,35 +856,35 @@ INSERT INTO amazon_pantalones_cortos_correr_images (href, src, alt, marca, preci
 
 INSERT INTO amazon_camiseta_deporte_manga_corta_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/3yCdk85',
-'https://m.media-amazon.com/images/I/51wYmTk7-mL._AC_SX679_.jpg',
-'Camiseta Deporte Hombre Manga Corta Hombre marca TCA',
-'TCA',
-19.99,
+('https://amzn.to/3YJtK9x',
+'https://m.media-amazon.com/images/I/61acAPwkqfL._AC_SX679_.jpg',
+'Camiseta de Compresión para Hombre Camisa Deportiva de Manga Corta Secado Rápido para Ejercicio Correr Gimnasio marca Sunxia',
+'Sunxia',
+19.49,
 'izquierda'),
 
 
-('https://amzn.to/3SOb9Fl',
-'https://m.media-amazon.com/images/I/61Ezv7NaUxL._AC_SY741_.jpg',
-'Camiseta SuperKnit de Gimnasio/Running para Hombre marca TCA',
-'TCA',
-23.99,
+('https://amzn.to/3WJ8bDq',
+'https://m.media-amazon.com/images/I/61EcVMCCTJL._AC_SX679_.jpg',
+'Camiseta de Compresión Hombre Manga Corta Camisetas de Fitness Secado Rápido para Correr Ejercicio Gimnasio marca Yishengwan',
+'Yishengwan',
+17.99,
 'izquierda'),
 
 
-('https://amzn.to/3YGHcuS',
-'https://m.media-amazon.com/images/I/51oBQnOfNLL._AC_SX679_.jpg',
-'Camiseta de compresión con Manga Corta para Hombre marca TCA',
-'TCA',
-19.99,
+('https://amzn.to/3yHY2Pd',
+'https://m.media-amazon.com/images/I/61fbNLawg4S._AC_SX679_.jpg',
+'Camiseta de Compresión para Hombre Camiseta de Manga Corta para Deportistas Correr Gimnasio marca AMZSPORT',
+'AMZSPORT',
+18.98,
 'izquierda'),
 
 
-('https://amzn.to/4fHRsbY',
-'https://m.media-amazon.com/images/I/61Vi3Cs43VL._AC_SX679_.jpg',
-'Camisas de compresión de manga corta para hombre para Hombre marca Anawakia',
-'Anawakia',
-14.99,
+('https://amzn.to/3X3QFes',
+'https://m.media-amazon.com/images/I/51KGTBpJoOL._AC_SX679_.jpg',
+'Camisas de compresión de manga corta para hombre para Hombre marca QINFEN YUNDOU',
+'QINFEN YUNDOU',
+13.89,
 'izquierda')
 ;
 
@@ -972,7 +944,13 @@ CONTROL DE PÁGINAS
 
                 // Footer        // Barra de Navegación    // Subida al Hosting   // Pinterest    // Carruseles   // Sitemap
 
-Playa de Laga      No               No                     No              No              No
+Playa de Laga      No               No                      No              No              No
+Playa de Berria    Si               Si                      Si              No              No         Si              Si
+
+
+
+
+
 (Funcione la barra de navegación, logo, etc...será el ejemplo prototipo)
 https://www.viajaenmimochila.com/ ver esta web para copiar
 

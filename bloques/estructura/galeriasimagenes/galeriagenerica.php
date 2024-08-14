@@ -1,6 +1,5 @@
 <!-- Galería de Imágenes -->
 <section class="container my-5">
-    <h2>Galería de Imágenes</h2>
     <div class="row gallery">
     <?php 
         // Iteramos sobre el array de nombres de imágenes

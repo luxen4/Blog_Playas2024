@@ -13,26 +13,26 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" style="margin: auto;">
 
             <li class="nav-item active">
-            <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/">Inicio <span class="sr-only"></span></a>
+            <a class="nav-link" href="./../../../../">Inicio <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="./../../../../">Cantabria<span class="sr-only"></span></a>
+                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#cantabria">Cantabria<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="./../../../../">Vizcaya<span class="sr-only"></span></a>
+                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#vizcaya">Vizcaya<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="./../../../../">Guipuzkoa<span class="sr-only"></span></a>
+                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#guipuzkoa">Guipuzkoa<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="./../../../../">Francia<span class="sr-only"></span></a>
+                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#francia">Francia<span class="sr-only"></span></a>
             </li>
 
 
@@ -59,6 +59,7 @@
 
 
         </ul>
+        <?php /*
         <form class="form-inline my-2 my-lg-0">
         <div style="display: flex;">
           <div>
@@ -68,7 +69,7 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </div>
         </div>
-      </form>
+      </form> */?>
         <a href="#" class="btn btn-outline-primary ml-lg-3">Iniciar Sesión</a>
     </div>
 </nav>

@@ -36,25 +36,6 @@
             $articulo = 'shorts'; $grupo = '_3';
             //include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
-                <h2>Cantabria</h2>
-
-                <?php
-                $localidad_nombre = 'Castro Urdiales';
-                $localidad = 'Castro Urdiales';
-                $ruta_localidad = 'castrourdiales';
-                $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
-                        cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
-                        en un importante puerto y centro comercial debido a su estratégica ubicación costera.';
-                include 'bloques/localidades/index.php'; ?>
-
-                <h2>Vizcaya</h2>
-                <?php
-                $localidad_nombre = 'Playa de Laga';
-                $localidad = 'Playa de Laga';
-                $ruta_localidad = 'playadelaga';
-                $presentacion = 'La Playa de Laga, ubicada en la costa de Bizkaia en el País Vasco, es un paraíso natural dentro del Parque Natural de Urdaibai, una Reserva de la Biosfera declarada por la UNESCO. <br>Con su arena dorada y su entorno rodeado de acantilados y vegetación exuberante, es un destino perfecto para quienes buscan tranquilidad y belleza natural.<br>Además, es popular entre los surfistas gracias a sus olas y es ideal para el senderismo y la observación de aves. <br>La playa de Laga ofrece una experiencia única donde la naturaleza y el mar se encuentran en su máximo esplendor..';
-                include 'bloques/localidades/index.php'; ?>
-
 
 <!--
                 <?php
@@ -127,7 +108,18 @@
 
 
 
-                <h2>Cantabria</h2>
+                <h2 id="cantabria">Cantabria</h2>
+                <?php
+                $localidad_nombre = 'Castro Urdiales';
+                $localidad = 'Castro Urdiales';
+                $ruta_localidad = 'castrourdiales';
+                $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
+                        cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
+                        en un importante puerto y centro comercial debido a su estratégica ubicación costera.';?>
+                
+
+                <?php include 'bloques/localidades/index.php'; ?>
+               
                 <?php
                 $localidad_nombre = 'Playa de Noja';
                 $localidad = 'Playa de Noja';
@@ -145,8 +137,8 @@
 
 
                 <?php
-                $localidad_nombre = 'Playa de Santander';
-                $localidad = 'Playa de Santander';
+                $localidad_nombre = 'Playa del Sardinero, Santander';
+                $localidad = 'Playa del Sardinero, Santander';
                 $ruta_localidad = 'playadesantander';
                 $presentacion = 'La Playa de Santander, ubicada en la ciudad del mismo nombre en Cantabria, es una de las playas urbanas más emblemáticas del norte de España. Con su extensa franja de arena dorada y aguas tranquilas, es el lugar ideal para disfrutar de un día de sol y mar. Además de su belleza natural, ofrece un vibrante paseo marítimo con una variedad de restaurantes, bares y tiendas. Perfecta para familias, bañistas y quienes buscan disfrutar del surf, la Playa de Santander combina el encanto de una playa clásica con la comodidad de la proximidad urbana.';
                 include 'bloques/localidades/index.php'; ?>
@@ -175,7 +167,14 @@
                 include 'bloques/localidades/index.php'; ?>
 
 
-                <h2>Vizcaya</h2>
+                <h2 id="vizcaya">Vizcaya</h2>
+                <?php
+                $localidad_nombre = 'Playa de Laga';
+                $localidad = 'Playa de Laga';
+                $ruta_localidad = 'playadelaga';
+                $presentacion = 'La Playa de Laga, ubicada en la costa de Bizkaia en el País Vasco, es un paraíso natural dentro del Parque Natural de Urdaibai, una Reserva de la Biosfera declarada por la UNESCO. <br>Con su arena dorada y su entorno rodeado de acantilados y vegetación exuberante, es un destino perfecto para quienes buscan tranquilidad y belleza natural.<br>Además, es popular entre los surfistas gracias a sus olas y es ideal para el senderismo y la observación de aves. <br>La playa de Laga ofrece una experiencia única donde la naturaleza y el mar se encuentran en su máximo esplendor..';
+                include 'bloques/localidades/index.php'; ?>
+
                 <?php
                 $localidad_nombre = 'Playa de Bakio';
                 $localidad = 'Playa de Bakio';
@@ -240,7 +239,7 @@
                 $presentacion = 'La Playa de Zumaia, situada en la costa del País Vasco, es un destino imprescindible para los amantes de la naturaleza y el mar. Conocida por su impresionante paisaje de acantilados y su arena dorada, esta playa ofrece un entorno espectacular donde disfrutar de la belleza natural de la región. Su entorno protegido, rodeado de formaciones geológicas únicas y un mar cristalino, la convierte en un lugar ideal para relajarse, tomar el sol o practicar deportes acuáticos. Además, la playa está perfectamente equipada con servicios para visitantes, incluyendo restaurantes y áreas de recreo, haciendo de Zumaia un lugar perfecto para pasar un día inolvidable en la costa vasca.';
                 include 'bloques/localidades/index.php'; ?>
 
-                <h2>Guipuzkoa</h2>
+                <h2 id="guipuzkoa">Guipuzkoa</h2>
                 <?php
                 $localidad_nombre = 'Playa de Deba';
                 $localidad = 'Playa de Deba';
@@ -266,7 +265,7 @@
 
 
 
-                <h2>Francia</h2>
+                <h2 id="francia">Francia</h2>
                 <?php
                 $localidad_nombre = 'Playa de Hendaya';
                 $localidad = 'Playa de Hendaya';
@@ -398,22 +397,10 @@ setInterval(changeImages, 4000);
 </script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <style>
     h2,
     h3,
-    h4 {
+    h4, p {
         text-align: left;
     }
 

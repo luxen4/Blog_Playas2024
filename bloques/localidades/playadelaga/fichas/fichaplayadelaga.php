@@ -55,8 +55,6 @@
 
 
     <?php include_once 'structured_data.php'; // Entra ?>
-
-
 </head>
  
 <body>

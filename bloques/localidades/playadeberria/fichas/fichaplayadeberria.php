@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playa de Berria - Santoña, Cantabria</title>
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <?php include_once 'structured_data.php'; // Entra 
+    ?>
 </head>
 
 <body>
+    <?php $src = './../../../../mifoto.png'; ?>
     <?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> 
     ?>
-    <?php include_once './../../../../bloques/estructura/barra_navegacion.php'; ?>
 
     <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
-
-
-
+    <?php include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
     <div class="container">
+        <div class="row">
+            <div id="#" class="col-xl-12 text-center col-lg-10 col-md-10 col-sm-12 col-12">
+
+            </div>
+        </div>
+
         <div class="row">
             <div id="#" class="col-xl-12 text-center col-lg-10 col-md-10 col-sm-12 col-12">
                 <h1>Playa de Berria - Santoña, Cantabria</h1>
@@ -41,28 +48,24 @@
                         <li><strong>Accesibilidad:</strong> Fácil acceso por carretera desde Santoña, con varias zonas de aparcamiento cerca de la playa.</li>
                     </ul>
                 </div>
-
-
-
-
                 <?php
                 $servername = $_SERVER['SERVER_NAME'];
                 $require = './../../../../products_amazon/conexion.php';
                 $var_base = 'images_shirts_1_';
                 $table = 'amazon_shirts_images';
                 $where = 'where direccion = "modelo_frente"';
-                require './../../../../products_amazon/shirtsauxiliar.php'; ?>
+                require './../../../../products_amazon/sql_generica.php'; ?>
 
 
 
-                    <div class="row">
-                        <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
-                            <hr><?php $articulo = "shirts";
-                                $grupo = '_1';
-                                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-                            <hr>
-                        </div>
+                <div class="row">
+                    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
+                        <hr><?php $articulo = "shirts";
+                            $grupo = '_1';
+                            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+                        <hr>
                     </div>
+                </div>
 
 
 
@@ -81,17 +84,17 @@
                 $var_base = 'images_shorts_2_';
                 $table = 'amazon_shorts_images';
                 $where = 'where direccion = "frente"';
-                require './../../../../products_amazon/shirtsauxiliar.php'; ?>
+                require './../../../../products_amazon/sql_generica.php'; ?>
 
-                    <div class="row">
-                        <div id="#" class="col-xl-12 text-center col-lg-10 col-md-10 col-sm-12 col-12">
-                            <hr><?php $articulo = "shorts";
-                                $grupo = '_2';
-                                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-                            <hr>
-                        </div>
+                <div class="row">
+                    <div id="#" class="col-xl-12 text-center col-lg-10 col-md-10 col-sm-12 col-12">
+                        <hr><?php $articulo = "shorts";
+                            $grupo = '_2';
+                            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+                        <hr>
                     </div>
-           
+                </div>
+
 
 
 
@@ -106,29 +109,30 @@
                 $var_base = 'images_pantalones_cortos_correr_2_';
                 $table = 'amazon_pantalones_cortos_correr_images';
                 $where = 'where direccion = "izquierda"';
-                require './../../../../products_amazon/shirtsauxiliar.php'; ?>
+                require './../../../../products_amazon/sql_generica.php'; ?>
 
                 <?php
                 $require = './../../../../products_amazon/conexion.php';
                 $var_base = 'images_camiseta_deporte_manga_corta_2_';
                 $table = 'amazon_camiseta_deporte_manga_corta_images';
                 $where = 'where direccion = "izquierda"';
-                require './../../../../products_amazon/shirtsauxiliar.php'; ?>
+                require './../../../../products_amazon/sql_generica.php'; ?>
 
-             
-                    <div class="row">
-                        <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
-                            <hr><?php
-                                $articulo  = "pantalones_cortos_correr";
-                                $grupo =  '_2';
-                                $articulo2 = "camiseta_deporte_manga_corta";
-                                $grupo2 = '_2';
 
-                                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_doble.php'; ?>
-                            <hr>
-                        </div>
+                <div class="row">
+                    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
+                        <hr><?php
+                            $articulo  = "pantalones_cortos_correr";
+                            $grupo =  '_2';
+
+                            $articulo2 = "camiseta_deporte_manga_corta";
+                            $grupo2 = '_2';
+
+                            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_doble.php'; ?>
+                        <hr>
                     </div>
-                
+                </div>
+
                 <div class="section">
                     <h2>Cómo Llegar</h2>
                     <p>La Playa de Berria se encuentra a unos 2 kilómetros del centro de Santoña, y es fácilmente accesible en coche o bicicleta. Desde Santander, se puede llegar en aproximadamente 45 minutos por la autovía A-8.</p>
@@ -185,7 +189,8 @@
     $categories = [
         "shirts" => 1,
         "shorts" => 2,
-        "pantalones_cortos_correr" => 2
+        "pantalones_cortos_correr" => 2,
+        "camiseta_deporte_manga_corta" => 2
     ];
 
     // Call the function with the total number of images and categories
@@ -212,12 +217,17 @@
             baseName: 'shorts',
             groupRange: 2,
             count: 4
-        }, // Especial caso para "shirts_lateral"
+        },
         {
             baseName: 'pantalones_cortos_correr',
             groupRange: 2,
             count: 4
-        } // Especial caso para "shirts_lateral"
+        },
+        {
+            baseName: 'camiseta_deporte_manga_corta',
+            groupRange: 2,
+            count: 4
+        }
     ];
 
     // Agregar las propiedades usando la función definida
@@ -248,8 +258,16 @@
             echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
         } ?>
 
-<?php
+        <?php
         $articulo = "pantalones_cortos_correr";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
+
+        <?php
+        $articulo = "camiseta_deporte_manga_corta";
         $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
             echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
@@ -282,7 +300,10 @@
         text-align: left;
     }
 
-    p, li{text-align: left;}
+    p,
+    li {
+        text-align: left;
+    }
 
     .container {
         max-width: 1200px;

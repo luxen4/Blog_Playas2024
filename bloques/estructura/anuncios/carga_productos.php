@@ -5,24 +5,9 @@ $require = './../../../../products_amazon/conexion.php';
 //if ($page == 'playadelaga'){ 
     //$category = '$images_shirts';
     /*$group = "1";
-
-    $table='amazon_shirts_images';
-    $where = 'where direccion = "modelo_frente"';
-    require './../../../../products_amazon/shirts.php';*/
-
-    /*
-    $table='amazon_shorts_images';
-    $where = 'where direccion = "frente"';
-    include './../../../../products_amazon/shorts_man.php';*/
-
-
-
-    //$require = './../../../../products_amazon/conexion.php';  
+    //$require = './../../../../products_amazon/conexion.php';  */
     
-    /*
-$table='amazon_swimsuits_woman_images';
-$where = 'order by direccion';
-include './../../../../products_amazon/swimsuits_woman.php';*/
+
 
 $articulo = 'swimsuits_woman';
 $grupo = '_1';
@@ -32,10 +17,7 @@ $where = 'order by direccion';
 require './../../../../products_amazon/sql_generica.php';
 
 
-/*
-$table='amazon_sneakers_images';
-$where = 'where marca = "TARELO" and direccion = "izquierda_45"';
-include './../../../../products_amazon/sneakers_izquierda_45.php';*/
+
 
 $articulo = 'sneakers';
 $grupo = '_2';
@@ -46,10 +28,7 @@ require './../../../../products_amazon/sql_generica.php';
 
 
 
-/*
-$table='amazon_sandals_man_images';
-$where = 'order by direccion';
-include './../../../../products_amazon/sandals_man.php';*/
+
 
 $articulo = 'sandals_man';
 $grupo = '_2';
@@ -60,10 +39,7 @@ require './../../../../products_amazon/sql_generica.php';
 
 
 
-/* $table='amazon_purse_woman_images';
-// $where = 'where marca = "JANSBEN" and direccion = "frente"';
-$where = 'where direccion = "frente"';
-include './../../../../products_amazon/purse_woman_frente.php'; */
+
 
 $articulo = 'purse_woman';
 $grupo = '_2';
@@ -72,18 +48,37 @@ $table = 'amazon_purse_woman_images';
 $where = 'where direccion = "frente"';
 require './../../../../products_amazon/sql_generica.php';
 
-/*
-$table='amazon_sandals_woman_images';
-$where = 'where direccion = "izda_15"';
-//$where = 'where marca = "XTI" and direccion = "izda_15º"';
-include './../../../../products_amazon/sandals_woman_15izda.php';*/
-
 $articulo = 'sandals_woman';
 $grupo = '_2';
 $var_base = 'images_sandals_woman_woman_2_';
 $table = 'amazon_sandals_woman_images';
 $where = 'where direccion = "izda_15"';
 require './../../../../products_amazon/sql_generica.php';
+
+/*
+$table='amazon_sandals_woman_images';
+$where = 'where direccion = "izda_15"';
+$where = 'where marca = "XTI" and direccion = "izda_15º"';
+include './../../../../products_amazon/sandals_woman_15izda.php';*/
+
+$articulo = 'sandals_woman';
+$grupo = '_2';
+$var_base = 'images_sandals_woman_izda_15_2_';
+$table = 'amazon_sandals_woman_images';
+$where = 'where direccion = "izda_15"';
+require './../../../../products_amazon/sql_generica.php';
+
+
+
+
+
+$articulo = 'sports_shirts';
+$grupo = '_2';
+$var_base = 'images_sports_shirts_2_';
+$table = 'amazon_sports_shirts_images';
+$where = 'where direccion = "frente"';
+require './../../../../products_amazon/sql_generica.php';
+
 
 /* $table='amazon_dress_woman_images';
 $where = 'where marca = "The Drop" ';
@@ -98,22 +93,45 @@ $where = 'where marca = "FLARUT"';
 require './../../../../products_amazon/sql_generica.php';
 
 
+$articulo = 'camiseta_deporte_manga_corta';
+$grupo = '_2';
+$var_base = 'images_camiseta_deporte_manga_corta_2_';
+$table = 'amazon_camiseta_deporte_manga_corta_images';
+$where = 'where precio > 12.99';
+require './../../../../products_amazon/sql_generica.php';
+
     
-    
-    $articulo = 'shirts';
-    $grupo = '_1';
-    $var_base = 'images_shirts_1_';
-    $table = 'amazon_shirts_images';
-    $where = 'where direccion = "modelo_frente"';
-    require './../../../../products_amazon/sql_generica.php';
+$articulo = 'shirts';
+$grupo = '_1';
+$var_base = 'images_shirts_1_';
+$table = 'amazon_shirts_images';
+$where = 'where direccion = "modelo_frente"';
+require './../../../../products_amazon/sql_generica.php';
 
 
-    $articulo = 'shorts';
-    $grupo = '_3';
-    $var_base = 'images_shorts_3_';
-    $table = 'amazon_shorts_images';
-    $where = 'where direccion = "frente"';
-    require './../../../../products_amazon/sql_generica.php';
+
+$articulo = 'shirts';
+$grupo = '_2';
+$var_base = 'images_shirts_modelo_derecha_2_';
+$table = 'amazon_shirts_images';
+$where = 'where direccion = "modelo_derecha"';
+require './../../../../products_amazon/sql_generica.php';
+
+$articulo = 'shirts';
+$grupo = '_2';
+$var_base = 'images_shirts_izquierda_2_';
+$table = 'amazon_shirts_images';
+$where = 'where direccion = "izquierda"';
+require './../../../../products_amazon/sql_generica.php';
+
+
+
+$articulo = 'shorts';
+$grupo = '_3';
+$var_base = 'images_shorts_3_';
+$table = 'amazon_shorts_images';
+$where = 'where direccion = "frente"';
+require './../../../../products_amazon/sql_generica.php';
 
 
 
@@ -121,38 +139,21 @@ require './../../../../products_amazon/sql_generica.php';
 
 
 //}
+$articulo = 'sneakers';
+$grupo = '_2';
+$var_base = 'images_sneakers_izquierda_0_2_';
+$table = 'amazon_sneakers_images';
+$where = 'where direccion = "izquierda_15"';
+require './../../../../products_amazon/sql_generica.php';
+// Hacer más
 
 
 
 
 
-$table='amazon_shirts_images';
-$where = 'where direccion = "modelo_derecha"';
-require './../../../../products_amazon/shirts_modelo_derecha.php';
 
 
 
-
-
-/*
-$table='amazon_sneakers_images';
-$where = 'where marca = "GEOX" and direccion = "izquierda_0"';
-include './../../../../products_amazon/sneakers.php';*/
-
-
-
-$table='amazon_sneakers_images';
-$where = 'where marca = "PUMA" and direccion = "izquierda_0"';
-include './../../../../products_amazon/sneakers_puma_izda_0.php';
-
-
-
-
-
-$table='amazon_sandals_woman_images';
-$where = 'where direccion = "izda_15"';
-//$where = 'where marca = "XTI" and direccion = "izda_15º"';
-include './../../../../products_amazon/sandals_woman_15izda.php';
 
 
 
@@ -176,9 +177,7 @@ include './../../../../products_amazon/polos_man_frente.php';
 
 
 
-$table='amazon_sports_shirts_images';
-$where = 'where marca = "Pepe Jeans" and direccion = "modelo_frente_izquierda"';
-include './../../../../products_amazon/sports_shirts.php';
+
 
 $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';

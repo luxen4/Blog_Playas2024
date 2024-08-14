@@ -9,14 +9,15 @@
 
 </head>
 
-<body>                <?php
-                $src = './../../../../mifoto.png';
-                include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
-                <?php
-                $page = 'pagehendaya';
-                include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+<body>          
+    <?php
+    $src = './../../../../mifoto.png';
+    include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
+    <?php
+    $page = 'pagehendaya';
+    include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
 
-                <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
     <div id="#" class="container">
         <div class="row">
             <div id="#" class="col-xl-12 text-center col-lg-6 col-md-10 col-sm-10 col-12">
@@ -291,6 +292,7 @@
 
 
 <style>
+    h1, h2, p, li{text-align: left;}
     .custom-carousel-image {
         height: 100%;
         

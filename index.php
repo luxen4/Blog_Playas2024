@@ -21,12 +21,16 @@
     include_once 'bloques/estructura/barra_navegacion2.php'; ?>
     <?php include_once 'bloques/estructura/barra_navegacion2.php';?>
     <?php $page='home'; ?>
-    <?php $require = $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/products_amazon/sql_generica.php' ; ?>
+    <?php //$require = $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/products_amazon/sql_generica.php' ; ?>
     <?php //include_once 'bloques/estructura/anuncios/carga_productos.php'; ?>
 
-    <?php define('BASE_PATH_ESTRUCTURA', $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/'); ?>
+    <?php //define('BASE_PATH_ESTRUCTURA', $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/'); ?>
 
-               
+
+    <?php 
+    $ruta = './bloques/estructura/';
+    include $ruta . '/basico.php'; ?>
+    
 
     <div id="#" class="container">
         <div class="row">

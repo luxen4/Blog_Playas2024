@@ -1,18 +1,9 @@
-<h3>4. Palacio Ocharan</h3>
+<h3>Palacio Ocharan</h3>
 <p>El <strong>Palacio Ocharan</strong>, también conocido como el Palacio de Toki Eder, es una de las edificaciones más emblemáticas de Castro Urdiales, una ciudad costera en la región de Cantabria, España. Este palacio destaca por su arquitectura y su historia, siendo un punto de interés turístico muy importante.</p>
 
 <p>Se encuentra en la Avenida de la Constitución, cerca del centro de Castro Urdiales.
     Su ubicación privilegiada ofrece vistas impresionantes de la ciudad y del mar Cantábrico.
 </p>
-
-    <hr>
-    <?php 
-        //////////
-        
-        //include_once './../lugares/palaciodeochagaran.php'; ?>
-        <?php $articulo = "sneakers_izquierda_45";          $grupo = '_2';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-    <hr>
 
 <p>Fue construido a finales del siglo XIX por el arquitecto Eladio Laredo.
     Encargado por Luis de Ocharan Mazas, un acaudalado empresario e industrial, el palacio combina estilos arquitectónicos variados,
@@ -49,4 +40,3 @@ include './disp_imagenes/1foto.php';
 <p>Es sin duda una joya arquitectónica en Castro Urdiales, que refleja la riqueza histórica y cultural de la región. 
     Su imponente presencia y su hermosa construcción lo convierten en un punto de referencia indispensable para quienes visitan la ciudad.
 </p>
-

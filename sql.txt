@@ -959,3 +959,36 @@ https://www.viajaenmimochila.com/ ver esta web para copiar
 
 Cada 2 dias que se haga una consulta a la base de datos y se genere un archivo de artículos de publicidad, 
 así no se consultará la base de datos numerosas veces.
+
+
+
+    $categories = [
+        "shirts" => 1/*,
+        "sneakers" => 2,
+        "purse_woman" => 2,
+        "sandals_woman" => 2,
+        "sandals_man" => 2*/
+    ];
+
+
+/*,
+        {
+            baseName: 'sneakers',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'purse_woman',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'sandals_woman',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'sandals_man',
+            groupRange: 2,
+            count: 4
+        }*/

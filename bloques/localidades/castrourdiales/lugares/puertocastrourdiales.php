@@ -8,13 +8,6 @@
 Es un lugar perfecto para pasear, disfrutar de la gastronomía local en los restaurantes cercanos y contemplar las vistas panorámicas.
 </p>
 
-    <hr><?php 
-        // Misma marca y misma dirección.
-        $articulo = "sneakers_puma_izda_0";      $grupo = '_2';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-    <hr>
-
-
 <p>Hoy en día, el Puerto de Castro Urdiales es un lugar vibrante donde se pueden realizar diversas actividades como: <br>
 
     <strong>Paseos en barco y deportes náuticos.</strong> <br>

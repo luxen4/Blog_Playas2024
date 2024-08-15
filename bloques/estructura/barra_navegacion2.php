@@ -1,8 +1,7 @@
-<!-- Barra de navegación -->
+<?php // Barra de navegación // ?>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div>
     <a class="navbar-brand" href="#">
-
         <img style="max-width: 100px;" src="<?= $src; ?>" alt="Logo" class="d-inline-block align-top"><br>
         <p id="">Viaja con Laya </p>  
     </a>
@@ -24,11 +23,11 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#vizcaya">Vizcaya<span class="sr-only"></span></a>
+                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/">Vizcaya<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#guipuzkoa">Guipuzkoa<span class="sr-only"></span></a>
+                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024">Guipuzkoa<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
@@ -69,8 +68,8 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </div>
         </div>
-      </form> */?>
-        <a href="#" class="btn btn-outline-primary ml-lg-3">Iniciar Sesión</a>
+      </form> 
+        <a href="#" class="btn btn-outline-primary ml-lg-3">Iniciar Sesión</a>*/?>
     </div>
 </nav>
 

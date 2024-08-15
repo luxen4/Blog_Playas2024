@@ -20,7 +20,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
                         $articulo_var = $articulo . $grupo . '_' . $i;
 
                         $images_articulo_var = 'images_' . $articulo_var;
-                        //echo($images_articulo_var);
+                        echo($images_articulo_var);
                         // Renderizar el HTML
                         echo '
                             <div  class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6">

@@ -6,33 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playa de Noja</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 
-<body>          
+<body>
     <?php
-    $src = './../../../../mifoto.png';
-    include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
-    <?php
-    $page = 'pagehendaya';
-    include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
-    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
+    $page = 'noja';
+    $nivel_atras4 = './../../../../';
+    $ruta = $nivel_atras4 . 'bloques/estructura';
+    include $nivel_atras4 . 'bloques/estructura/basico.php'; ?>
+
 
     <div id="#" class="container">
         <div class="row">
             <div id="#" class="col-xl-12 text-center col-lg-6 col-md-10 col-sm-10 col-12">
-
-
-
-                <hr><?php
-                    $articulo = 'shirts';
-                    $grupo = '_1';
-                    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-                <hr>
-
-
-
-
 
 
 
@@ -45,9 +31,28 @@
                 </section>
 
                 <hr><?php
-                    $articulo = 'purse_woman';
-                    $grupo = '_2';
-                    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+                    $articulo = 'shirts';
+                    $grupo = '_1';
+                    include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?>
+                    
+
+
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+                <hr>
+
+
+                <hr><?php 
+                    $articulo = 'purse_woman'; $grupo = '_2';
+                    include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php';  ?>
                 <hr>
 
                 <!-- Servicios -->
@@ -60,14 +65,12 @@
                         <li><strong>Aparcamiento:</strong> Existen varias zonas de aparcamiento cercanas, algunas gratuitas y otras de pago, para facilitar el acceso a la playa.</li>
                     </ul>
                 </section>
-                <hr><?php
+                <hr><?php /*
                     $articulo = 'sneakers';
                     $grupo = '_2';
-                    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+                    include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; */?>
                 <hr>
 
-
-           
                 <!-- Actividades -->
                 <section class="container my-5">
                     <h3>Actividades</h3>
@@ -78,10 +81,11 @@
                         <li><strong>Excursiones:</strong> Desde Noja, se pueden organizar excursiones en barco para explorar la costa cantábrica y sus acantilados.</li>
                     </ul>
                 </section>
-     <hr><?php
-                    $articulo = 'sandals_woman';
-                    $grupo = '_2';
-                    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+
+                <hr><?php /*
+                    $articulo = 'sandals_woman'; $grupo = '_2';
+                    include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; */ ?>
                 <hr>
 
                 <!-- Seguridad y Accesibilidad -->
@@ -103,11 +107,14 @@
                         <li><strong>Entorno Natural:</strong> La Playa de Noja está rodeada por un entorno natural protegido, con dunas y marismas que son hogar de una rica biodiversidad.</li>
                     </ul>
                 </section>
-                <hr><?php
+
+                <hr><?php /*
                     $articulo = 'sandals_man';
                     $grupo = '_2';
-                    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+                    include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; */?>
                 <hr>
+
+
                 <!-- Conclusión -->
                 <section class="container my-5">
                     <h3>Conclusión</h3>
@@ -155,12 +162,10 @@
 </html>
 
 
-
 <script>
     /* Solo Shirts */
     <?php
-    function generateImageConstants($total_images, $categories)
-    {
+    function generateImageConstants($total_images, $categories) {
         foreach ($categories as $category => $group) {
             for ($i = 1; $i <= $total_images; $i++) {
                 $variable_name = "{$category}_{$group}_{$i}";
@@ -176,20 +181,12 @@
     // Define categories and their respective groups
     $categories = [
         "shirts" => 1,
-        "sneakers" => 2,
-        "purse_woman" => 2,
-        "sandals_woman" => 2,
-        "sandals_man" => 2
+        "purse_woman" => 2
     ];
 
     // Call the function with the total number of images and categories
     generateImageConstants(4, $categories);
     ?>
-
-
-
-    const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
-
 
     let currentIndex = {};
 
@@ -205,24 +202,8 @@
             baseName: 'shirts',
             groupRange: 1,
             count: 4
-        },
-        {
-            baseName: 'sneakers',
-            groupRange: 2,
-            count: 4
-        },
-        {
+        },{
             baseName: 'purse_woman',
-            groupRange: 2,
-            count: 4
-        },
-        {
-            baseName: 'sandals_woman',
-            groupRange: 2,
-            count: 4
-        },
-        {
-            baseName: 'sandals_man',
             groupRange: 2,
             count: 4
         }
@@ -231,42 +212,37 @@
     // Agregar las propiedades usando la función definida
     definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
 
-
-
-
-    function prueba(image_link, image, cte, indexKey) {
+    // Función para actualizar imágenes
+    function updateImages(imageLink, image, cte, indexKey) {
         currentIndex[indexKey] = (currentIndex[indexKey] + 1) % cte.length;
-        document.getElementById(image_link).href = cte[currentIndex[indexKey]].href;
+        document.getElementById(imageLink).href = cte[currentIndex[indexKey]].href;
         document.getElementById(image).src = cte[currentIndex[indexKey]].src;
         document.getElementById(image).alt = cte[currentIndex[indexKey]].alt;
     }
 
-
+    // Función para cambiar las imágenes del carrusel
     function changeImages() {
-
-
         <?php
+        /*
         $articulo = "shirts";
         $images = ["images_{$articulo}_1_1", "images_{$articulo}_1_2", "images_{$articulo}_1_3", "images_{$articulo}_1_4"];
         for ($i = 1; $i <= 4; $i++) {
-            echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";
-        } ?>
+            echo "updateImages('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";
+        } */?>
 
-
-
-        <?php
+        <?php /*
         $articulo = "sneakers";
         $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
             echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
-        } ?>
-        <?php
+        } */?>
+        <?php 
         $articulo = "purse_woman";
         $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
             echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
-        } ?>        
-        <?php
+        } ?>
+        <?php /*
         $articulo = "sandals_woman";
         $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
@@ -278,11 +254,10 @@
         $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
             echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
-        } ?>
-
-
+        } */?>
     }
 
+    // Cambia las imágenes cada 4 segundos
     setInterval(changeImages, 4000);
 </script>
 
@@ -292,10 +267,16 @@
 
 
 <style>
-    h1, h2, p, li{text-align: left;}
+    h1,
+    h2,
+    p,
+    li {
+        text-align: left;
+    }
+
     .custom-carousel-image {
         height: 100%;
-        
+
     }
 
     .map iframe {
@@ -308,3 +289,8 @@
         margin-bottom: 15px;
     }
 </style>
+
+
+
+
+

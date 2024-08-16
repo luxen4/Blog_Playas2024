@@ -1,4 +1,4 @@
-<h3>6. Plaza del Ayuntamiento</h3>
+<h3>Plaza del Ayuntamiento</h3>
 <p>La <strong>Plaza del Ayuntamiento</strong> es uno de los lugares más significativos de Castro Urdiales, una pintoresca ciudad costera en la región de Cantabria, España.
     Esta plaza es el corazón administrativo y social de la ciudad, y es conocida por su encanto y su atmósfera vibrante.
 </p>

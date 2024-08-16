@@ -127,7 +127,7 @@
                 <hr>
                 <?php                         
                 $articulo = 'shirts';
-                $grupo = '_1';
+                $grupo = '_2';
                 $var_base = 'images_shirts_1_';
                 $table = 'amazon_shirts_images';
                 $where = 'where direccion = "modelo_frente"';

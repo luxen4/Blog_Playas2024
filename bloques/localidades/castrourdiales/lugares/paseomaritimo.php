@@ -1,4 +1,4 @@
-<h3>3. Paseo Marítimo</h3>
+<h3>Paseo Marítimo</h3>
 <p>El <strong>Paseo Marítimo</strong> de Castro Urdiales es uno de los lugares más emblemáticos y concurridos de esta hermosa ciudad costera en Cantabria, España.
     Con su impresionante vista al mar y su ambiente relajante, es un destino popular tanto para locales como para turistas.
 </p>

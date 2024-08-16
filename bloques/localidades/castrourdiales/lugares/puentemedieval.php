@@ -1,4 +1,4 @@
-<h3>7. Puente Medieval</h3>
+<h3>Puente Medieval</h3>
 <p>El <strong>Puente Medieval</strong> de Castro Urdiales es una de las estructuras más antiguas y emblemáticas de esta hermosa ciudad costera en la región de Cantabria, España. 
 Este puente es un testimonio vivo de la historia medieval de la ciudad y es un punto de interés destacado para los visitantes.
 </p>

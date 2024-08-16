@@ -32,7 +32,7 @@
 
                 <hr><?php
                     $articulo = 'shirts';
-                    $grupo = '_1';
+                    $grupo = '_2';
                     include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?>
                     
 
@@ -180,7 +180,7 @@
 
     // Define categories and their respective groups
     $categories = [
-        "shirts" => 1,
+        "shirts" => 2,
         "purse_woman" => 2
     ];
 
@@ -200,7 +200,7 @@
     // Definir las bases y rangos de grupos
     const definitions = [{
             baseName: 'shirts',
-            groupRange: 1,
+            groupRange: 2,
             count: 4
         },{
             baseName: 'purse_woman',

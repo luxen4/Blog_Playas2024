@@ -51,7 +51,7 @@
                 <?php
                 $servername = $_SERVER['SERVER_NAME'];
                 $require = './../../../../products_amazon/conexion.php';
-                $var_base = 'images_shirts_1_';
+                $var_base = 'images_shirts_2_';
                 $table = 'amazon_shirts_images';
                 $where = 'where direccion = "modelo_frente"';
                 require './../../../../products_amazon/sql_generica.php'; ?>
@@ -61,7 +61,7 @@
                 <div class="row">
                     <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
                         <hr><?php $articulo = "shirts";
-                            $grupo = '_1';
+                            $grupo = '_2';
                             include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
                         <hr>
                     </div>
@@ -189,7 +189,7 @@
 
     // Define categories and their respective groups
     $categories = [
-        "shirts" => 1,
+        "shirts" => 2,
         "shorts" => 2,
         "pantalones_cortos_correr" => 2,
         "camiseta_deporte_manga_corta" => 2,
@@ -213,7 +213,7 @@
     // Definir las bases y rangos de grupos
     const definitions = [{
             baseName: 'shirts',
-            groupRange: 1,
+            groupRange: 2,
             count: 4
         },
         {
@@ -253,9 +253,9 @@
 
         <?php
         $articulo = "shirts";
-        $images = ["images_{$articulo}_1_1", "images_{$articulo}_1_2", "images_{$articulo}_1_3", "images_{$articulo}_1_4"];
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
-            echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
         } ?>
 
 

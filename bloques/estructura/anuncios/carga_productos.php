@@ -239,7 +239,7 @@ if ($page == 'home'){
 //}
 $articulo = 'sneakers';
 $grupo = '_2';
-$var_base = 'images_sneakers_izquierda_0_2_';
+$var_base = 'images_sneakers_izquierda_15_2_';
 $table = 'amazon_sneakers_images';
 $where = 'where direccion = "izquierda_15"';
 if ($page == 'home'){ 
@@ -250,12 +250,6 @@ if ($page == 'home'){
 }
 
 // Hacer más
-
-
-
-
-
-
 
 
 
@@ -315,6 +309,18 @@ if ($page == 'home'){
 }
 
 
+$articulo = 'sneakers_izquierda_0';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table='amazon_sneakers_images';
+$where = 'where direccion = "izquierda_0"';
+
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../products_amazon/sql_generica.php';
+}
 
 
 

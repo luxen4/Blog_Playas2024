@@ -20,7 +20,7 @@
     $src = './../../../../mifoto.png';
     include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
     <?php
-    //$page = 'pagehendaya';
+    $page = 'playadelaredo';
     include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
     <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
 
@@ -221,7 +221,7 @@
 </body>
 
 </html>
-
+ 
 
 
 <?php

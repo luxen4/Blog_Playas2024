@@ -22,17 +22,17 @@
         <p class="text-center">La Playa del Sardinero es una de las más icónicas y visitadas de Santander, ubicada en la región de Cantabria, en el norte de España. Este extenso arenal, dividido en dos secciones conocidas como Primera y Segunda Playa del Sardinero, se extiende a lo largo de la costa atlántica y es un lugar popular tanto para locales como para turistas.</p>
         <p class="text-center">Con su arena fina y dorada, y sus aguas limpias y cristalinas, la Playa del Sardinero es ideal para disfrutar de un día de sol y mar. Además, está rodeada de un impresionante paisaje, con vistas al mar Cantábrico y al majestuoso Palacio de la Magdalena, que domina la península cercana.</p>
     </header>
-
+    <?php $page = 'playadesantander'; ?>
     <?php include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
     <?php include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
 
     <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
 
-    <?php $page = 'playadesantander'; ?>
+
 
     <hr><?php
         $articulo = 'shirts';
-        $grupo = '_1';
+        $grupo = '_2';
         include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
     <hr>
 
@@ -64,7 +64,7 @@
             </li>
             <hr><?php
                 $articulo = 'shorts';
-                $grupo = '_3';
+                $grupo = '_2';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
             <hr>
             <li>
@@ -112,7 +112,7 @@
 
     <hr><?php
                 $articulo = 'swimsuits_woman';
-                $grupo = '_1';
+                $grupo = '_2';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
             <hr>
 
@@ -186,10 +186,10 @@
 
     // Define categories and their respective groups
     $categories = [
-        "shirts" => 1,
-        "swimsuits_woman" => 1,
+        "shirts" => 2,
+        "swimsuits_woman" => 2,
         "sneakers" => 2,
-        "shorts" => 3,
+        "shorts" => 2,
         "sandals_man" => 2
     ];
 
@@ -214,12 +214,12 @@
     // Definir las bases y rangos de grupos
     const definitions = [{
             baseName: 'shirts',
-            groupRange: 1,
+            groupRange: 2,
             count: 4
         },
         {
             baseName: 'shorts',
-            groupRange: 3,
+            groupRange: 2,
             count: 4
         },
         {
@@ -230,7 +230,7 @@
 
         {
             baseName: 'swimsuits_woman',
-            groupRange: 1,
+            groupRange: 2,
             count: 4
         },
 
@@ -260,9 +260,9 @@
 
         <?php
         $articulo = "shirts";
-        $images = ["images_{$articulo}_1_1", "images_{$articulo}_1_2", "images_{$articulo}_1_3", "images_{$articulo}_1_4"];
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
-            echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
         } ?>
 
 
@@ -283,9 +283,9 @@
 
         <?php
         $articulo = "swimsuits_woman";
-        $images = ["images_{$articulo}_1_1", "images_{$articulo}_1_2", "images_{$articulo}_1_3", "images_{$articulo}_1_4"];
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
-            echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
         } ?>
 
         <?php // Problemas

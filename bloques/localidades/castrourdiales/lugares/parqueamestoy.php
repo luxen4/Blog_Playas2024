@@ -1,4 +1,4 @@
-<h4>1. Parque Amestoy</h4>
+<h4>Parque Amestoy</h4>
 <p>El Parque Amestoy es una zona verde ubicada en Castro Urdiales, una pintoresca ciudad costera en la región de Cantabria, España.
     Este parque es un lugar destacado en la ciudad y ofrece un espacio de recreo y descanso tanto para los residentes locales como para los visitantes.
 </p>

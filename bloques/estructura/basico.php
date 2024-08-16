@@ -10,6 +10,6 @@
     include_once $ruta . '/anuncios/carga_productos.php'; ?>
 
     <?php // Definir la constante para la ruta base
-    //define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');  // antes
-    // define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../bloques/estructura/');           // Hendaya 
-    define('BASE_PATH_ESTRUCTURA', 'bloques/estructura/');?>
+    // define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/');      // antes
+     define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../bloques/estructura/');           // Hendaya 
+    // define('BASE_PATH_ESTRUCTURA', 'bloques/estructura/');?>

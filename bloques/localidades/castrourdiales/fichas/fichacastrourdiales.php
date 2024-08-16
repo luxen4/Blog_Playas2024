@@ -1,183 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <title>Qué ver en Castro Urdiales</title>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="site-verification" content="e148bdbc89c019bd06122ab7bd08a8be" />
-    <meta name="description" content="Los lugares que debes visitar en tu viaje a Castro Urdiales, como paseos, monumentos, playas y demás rincones turísticos.">
-    <meta name="keywords" content="Castro Urdiales, monumentos, paseos, lugares de interés, restaurantes">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Adrián Laya García">
-    <meta name="language" content="es">
-
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Castro Urdiales - Información y Turismo">
-    <meta property="og:description" content="Descubre Castro Urdiales, una hermosa ciudad costera en el norte de España. Explora su rica historia, playas, y lugares de interés turístico.">
-    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/castrourdiales/foto_presentacion.jpg">
-    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades/castrourdiales/fichas/ficha_castrourdiales.php">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Castro Urdiales - Información y Turismo">
-    <meta name="twitter:description" content="Descubre Castro Urdiales, una hermosa ciudad costera en el norte de España. Explora su rica historia, playas, y lugares de interés turístico.">
-    <meta name="twitter:image" content="https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg">
-
-    <!-- Pinterest -->
-    <meta property="pinterest:card" content="summary_large_image">
-    <meta property="pinterest:title" content="Qué ver en Castro Urdiales">
-    <meta property="pinterest:description" content="Los lugares más destacados que no te puedes perder en tu visita a Castro Urdiales como paseos, monumentos, playas y demás rincones turísticos.">
-    <meta property="pinterest:image" content="https://i.pinimg.com/736x/bc/bb/47/bcbb473564005c1806bd166b4cd353e4.jpg">
-
-    <!-- Sitemap Link -->
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <!-- Alternate Languages -->
-    <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
-    <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
-
-    <!-- Stylesheets -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./../css/styles.css">
-
-    <!-- Ads Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
-
-
-    <?php //include_once './../../../../bloques/localidades/castrourdiales/js/structured_data.php'; // Entra?>
-    <?php include_once 'structured_data.php'; // Entra ?>
-
-
+    <title>Playa de Castro Urdiales</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Encabezado de la Playa de Castro Urdiales 
+    <header class="bg-primary text-white text-center py-1">
+        <h1>Playa de Castro Urdiales</h1>
+        <p>La Playa de Castro Urdiales, también conocida como La Salvé, es una de las playas más extensas y bellas de la costa cántabra. Un lugar perfecto para disfrutar del sol, el mar y los deportes acuáticos.</p>
+    </header>-->
 
-    <?php 
+
+    <?php
+    $src = './../../../../mifoto.png';
+    include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
+    <?php
     $page = 'castrourdiales';
-    $ruta = './../../../../bloques/estructura';
-    include './../../../../bloques/estructura/basico.php'; ?>
-    
-<div id="#" class="container">
-        <div class="row">
-                <!--<iframe src="./../../../../ads_terra/468px-60px.html"></iframe>-->
-
-                <hr><?php                         
-                $articulo = 'sports_shirts';
-                $grupo = '_2';
-                $var_base = 'images_sports_shirts_2_';
-                $table = 'amazon_sports_shirts_images';
-                $where = 'where direccion = "frente"';
-                require './../../../../products_amazon/sql_generica.php';
-                //include './../../../../bloques/estructura/carrusel_clases.php'; ?><hr>
-
-            <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
-
-                <?php /*include_once './../../../../bloques/registro_visitas_web.php'; 
-
-                        <a href="./../../../../bloques/amazon_interfaz_enlaces.php" target="_blank">
-                            <button>Enlaces Publicidad</button>
-                        </a>*/ ?>
+    include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
 
 
-                <h2>Castro Urdiales</h2>
+    <div class="container my-5">
+        <h1 class="text-center">Playa de Castro Urdiales: Un Paraíso en Cantabria</h1>
+
+        <section class="my-4">
+        <h2>Castro Urdiales</h2>
                 
                 <p>Castro Urdiales, conocido en la antigüedad como Flaviobriga, fue fundado por los romanos en el siglo I d.C. <br>
                     Su puerto natural jugó un papel crucial en el comercio y la pesca, convirtiéndose en uno de los puertos más importantes del Cantábrico.
                 </p>
 
-
-
-                <?php
-                $localidad = 'Castro Urdiales';
-                $lugar = 'Rótulo en el paseo de ' . $localidad;
-
-                $foto1 = "./../../../../img/castrourdiales/rotuloencalle.jpg";
-                $altFoto1 =  $lugar . ' en ' . $localidad;
-
-                $pieFotos = 'Imágen de un ' . $lugar;
-                include './disp_imagenes/1foto.php'; 
-                ?>
                 <p>En la Edad Media, el puerto de Castro Urdiales continuó siendo un centro de actividad marítima. <br>
                     Durante los siglos XIX y XX, se desarrollaron importantes infraestructuras portuarias que ayudaron a modernizar la ciudad y su puerto.
                 </p>
+        </section>
 
 
-                <hr><?php 
-                $articulo = "shirts"; $grupo = '_2';
+        <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
 
-                if ($servername === 'localhost') {
-                    $nivel_atras4 = './../../../../';
-                } else {
-                    $nivel_atras4 = './../../../../';
-                }
-               
-                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
-
-
-                <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
-
-
-                <?php include_once './../lugares/parqueamestoy.php'; ?>    
-                <hr><?php $articulo = "shorts"; 
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+        <?php include_once './../lugares/parqueamestoy.php'; ?>
 
                 <?php include_once './../lugares/asadorlaperla.php'; ?>
-                <hr><?php $articulo = "shirts_modelo_derecha";          
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
+        <hr><?php
+            $articulo = 'sandals_man';
+            $grupo = '_2';
+            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <hr>
                 <?php include_once './../lugares/paseomaritimo.php'; ?>
-                <hr><?php $articulo = "swimsuits_woman";          
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
                 
                 <?php include_once './../lugares/clubnautico.php'; ?>
-                <hr><?php $articulo = "sports_shirts";         
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
+        <hr><?php
+            $articulo = 'sandals_woman_izda_15';
+            $grupo = '_2';
+            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <hr>
                 <?php include_once './../lugares/puentemedieval.php'; ?>
-                <hr><?php $articulo = "sneakers";
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/puertocastrourdiales.php'; ?><hr>
-                <?php $articulo = "dress_woman";
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/plazaayuntamiento.php'; ?>
-                <hr><?php $articulo = "sneakers_puma_izda_0";      
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
+        <hr><?php
+            $articulo = 'shirts_modelo_derecha';
+            $grupo = '_2';
+            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <hr>
                 <?php include_once './../lugares/puertocastrourdiales.php'; ?>
-                <hr><?php $articulo = "purse_woman";        
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/castillodesantaana.php'; ?>
-                <hr><?php $articulo = "sandals_man";     
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/iglesiadesantamariadelaasuncion.php'; ?>
-                <hr><?php $articulo = "jeans_man";
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
-
+        <hr><?php
+            $articulo = 'shirts_izquierda';
+            $grupo = '_2';
+            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <hr>
                 <?php include_once './../lugares/elpedregal.php'; ?>
-                <hr><?php $articulo = "polos_man_frente";  
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
-                <?php include_once './../lugares/playadeostende.php'; ?>     
-                <hr><?php $articulo = "sandals_woman";
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>   
-
+                <?php include_once './../lugares/playadeostende.php'; ?> 
+        <hr><?php
+            $articulo = 'sneakers_izquierda_15';
+            $grupo = '_2';
+            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <hr>
                 <?php include_once './../lugares/palaciodeochagaran.php'; ?>
-                <hr><?php $articulo = "sneakers_izquierda_45";
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr> 
-                
+
+    </div>
+
+
+
+    <!-- Contenido principal -->
+    <main class="container my-4">
+
+        <?php // Carrusel de 3 Imágenes //
+        $lugar = 'castrourdiales';
+        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
+        $imges_name = ['/playacastrourdiales.jpg', '/paseomaritimocastrourdiales.jpg', '/atardecerencastrourdiales.jpg'];
+        $alt = ["Vista de la Playa de Castro Urdiales", "Paseo marítimo en la Playa de Castro Urdiales", "Atardecer en la Playa de Castro Urdiales"];
+        require './../../../../bloques/estructura/carruselimagenes/carruselgenerico.php'; ?>
+
+        <?php // Galeria 3 imagenes //
+        $lugar = 'castrourdiales';
+        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
+        $imges_name = ['/actividadesenlacastrourdiales.jpg', '/olasenlacastrourdiales.jpg', '/puertodeportivodecastrourdiales.jpg'];
+        $alt = ["Actividades en la Playa de Castro Urdiales", "Olas en la Playa de Castro Urdiales", "Puerto deportivo en la Playa de Castro Urdiales"];
+        require './../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; ?>
+
+
+
 
 <!-- Mapa de Ubicación -->
 <section class="map container my-5">
@@ -191,80 +125,191 @@
         aria-hidden="false"
         tabindex="0">
     </iframe>
-</section>      <?php 
-                // Diferentes artículos que hacen un conjunto entre ellos.
-                // include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_variado.php'; <hr> ?>
+</section>
 
 
-                <h6>Para más información puede consultar en la pagina de la oficina de turismo de
-                    <a href="http://turismo.castro-urdiales.net/turcastro/planifica-tu-viaje/oficina-de-turismo">Castro-Urdiales</a>
-                </h6>
 
-            </div>
+    </main>
 
-                <?php /*
-                <div id="#" class="col-xl-3 text-center col-lg-3 col-md-12 col-sm-12 col-12">
-                    <?php require './../../../../bloques/anuncios_derecha0.php' ?>
-                </div> */ ?>
-
-        </div>
-    </div>
- 
-
+    <!-- Footer -->
     <footer>
         <?php require './../../../../bloques/estructura/footer.php'; ?>
     </footer>
 
+    <!-- Enlace a los scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
-<!-- Enlaza el JavaScript de Bootstrap y sus dependencias -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
+ 
 
 
-<?php include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php'; ?>
+<?php
+/*                
+Vista aérea de la Playa de Castro Urdiales
+Para una imagen que muestre una vista desde arriba de la playa y sus alrededores.
+
+Paseo marítimo en la Playa de Castro Urdiales
+Para una imagen que capture el paseo marítimo junto a la playa.
+
+Atardecer en la Playa de Castro Urdiales
+Para una imagen que muestre el atardecer sobre el mar en Castro Urdiales.
+
+Actividades en la Playa de Castro Urdiales
+Para una imagen que muestre a personas disfrutando de actividades como voleibol o natación en la playa.
+
+Olas en la Playa de Castro Urdiales
+Para una imagen que capture las olas rompiendo en la orilla de la playa.
+
+Surf en la Playa de Castro Urdiales
+Para una imagen que muestre a surfistas disfrutando de las olas en la playa.
+
+Familias disfrutando en la Playa de Castro Urdiales
+Para una imagen que muestre a familias jugando o relajándose en la arena.
+
+Vista panorámica desde el monte Atalaya en Castro Urdiales
+Para una imagen que muestre una vista panorámica de la playa y la ciudad desde una ubicación elevada.
+
+Playas doradas de Castro Urdiales en verano
+Para una imagen que capture la playa llena de bañistas en un día soleado de verano.
+
+Puerto deportivo de Castro Urdiales junto a la playa
+Para una imagen que muestre el puerto deportivo cercano a la playa.*/
 
 
 
-<?php /*
-Claro, aquí tienes algunas ideas para temas etiquetados en Pinterest para Castro Urdiales. Puedes usar estas etiquetas para organizar y destacar diferentes aspectos de la ciudad:
+?>
 
-    1. Maravillas Naturales
-    Playas de Castro Urdiales: Fotos de playas como Playa de Ostende y Playa de Brazomar.
-    Parques y Senderos: Imágenes de senderos naturales y parques locales.
-    Vistas Panorámicas: Imágenes aéreas y vistas panorámicas de la ciudad y sus alrededores.
-    2. Arquitectura Histórica
-    Castillo de Santa Ana: Fotografías del castillo y sus alrededores.
-    Puente Medieval: Imágenes del puente histórico y su arquitectura.
-    Iglesia de Santa María: Fotos de la iglesia y su impresionante arquitectura gótica.
-    3. Cultura Local
-    Fiestas y Eventos: Fotos de eventos locales, como festivales y celebraciones.
-    Gastronomía Local: Imágenes de platos típicos y restaurantes recomendados.
-    Arte y Artesanía: Fotografías de artesanías locales y arte tradicional.
-    4. Actividades al Aire Libre
-    Deportes Acuáticos: Imágenes de surf, paddle surf y otras actividades en el mar.
-    Senderismo y Excursiones: Fotos de rutas de senderismo y excursiones cercanas.
-    Ciclismo: Rutas de ciclismo y bicicletas disponibles para alquiler.
-    5. Lugares de Interés
-    Puerto de Castro Urdiales: Imágenes del puerto y la vida marina.
-    Plaza del Ayuntamiento: Fotos de la plaza y su arquitectura.
-    Palacio de Ochoa-Garan: Fotografías del palacio y sus detalles arquitectónicos.
-    6. Alojamientos y Estancias
-    Hoteles y Posadas: Imágenes de opciones de alojamiento en la ciudad.
-    Apartamentos y Casas Vacacionales: Fotos de alojamientos disponibles para alquiler.
-    7. Consejos de Viaje
-    Guías y Mapas: Recursos para planificar la visita a Castro Urdiales.
-    Consejos de Transporte: Información sobre cómo moverse por la ciudad y sus alrededores.
-    Ejemplos de Descripciones:
-    Playas de Castro Urdiales: "Relájate en las idílicas playas de Castro Urdiales. Descubre la belleza de la Playa de Ostende y Playa de Brazomar en nuestra colección de fotos."
-    
-    Castillo de Santa Ana: "Explora el histórico Castillo de Santa Ana, una joya medieval con impresionantes vistas al mar. Ideal para los amantes de la historia y la arquitectura."
-    
-    Puerto de Castro Urdiales: "Disfruta del animado puerto de Castro Urdiales, donde el mar y la vida local se encuentran. Perfecto para paseos y cenas frente al mar."
-    
-    Gastronomía Local: "Saborea la auténtica cocina de Castro Urdiales con nuestros platos recomendados. Desde mariscos frescos hasta tapas deliciosas."
-    
-    Senderismo y Excursiones: "Embárcate en una aventura al aire libre con nuestras rutas de senderismo en Castro Urdiales. Ideal para los amantes de la naturaleza y el deporte."
-    
-    Estos temas y descripciones pueden ayudarte a crear tableros atractivos y bien organizados en Pinterest, atrayendo a visitantes interesados en diferentes aspectos de Castro Urdiales. */?>
+
+<script>
+    /* Solo Shirts */
+    <?php
+    function generateImageConstants($total_images, $categories)
+    {
+        foreach ($categories as $category => $group) {
+            for ($i = 1; $i <= $total_images; $i++) {
+                $variable_name = "{$category}_{$group}_{$i}";
+                if (isset($GLOBALS["images_" . $variable_name])) {
+                    echo "const images_{$variable_name} = " . json_encode($GLOBALS["images_" . $variable_name]) . ";\n";
+                } else {
+                    echo "const images_{$variable_name} = [];\n";
+                }
+            }
+        }
+    }
+
+    // Define categories and their respective groups
+    $categories = [
+        "sandals_man" => 2,
+        "shirts_modelo_derecha" => 2,
+        "shirts_izquierda" => 2,
+        "sneakers_izquierda_15" => 2,
+        "sandals_woman_izda_15" => 2
+    ];
+
+    // Call the function with the total number of images and categories
+    generateImageConstants(4, $categories);
+    ?>
+
+
+
+    const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
+
+
+    let currentIndex = {};
+
+    // Función para agregar propiedades al objeto con un patrón definido
+    function addProperties(baseName, groupRange, count) {
+        for (let i = 1; i <= count; i++) {
+            currentIndex[`${baseName}_${groupRange}_${i}`] = 0;
+        }
+    }
+
+    // Definir las bases y rangos de grupos
+    const definitions = [{
+            baseName: 'sandals_man',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'shirts_modelo_derecha',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'shirts_izquierda',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'sneakers_izquierda_15',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'sandals_woman_izda_15',
+            groupRange: 2,
+            count: 4
+        }
+
+    ];
+
+    // Agregar las propiedades usando la función definida
+    definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
+
+
+
+
+    function prueba(image_link, image, cte, indexKey) {
+        currentIndex[indexKey] = (currentIndex[indexKey] + 1) % cte.length;
+        document.getElementById(image_link).href = cte[currentIndex[indexKey]].href;
+        document.getElementById(image).src = cte[currentIndex[indexKey]].src;
+        document.getElementById(image).alt = cte[currentIndex[indexKey]].alt;
+    }
+
+
+    function changeImages() {
+
+        <?php
+        $articulo = "sandals_man";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
+        <?php
+        $articulo = "shirts_modelo_derecha";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
+        <?php
+        $articulo = "shirts_izquierda";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
+        <?php
+        $articulo = "sneakers_izquierda_15";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
+        <?php
+        $articulo = "sandals_woman_izda_15";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
+
+
+    }
+
+    setInterval(changeImages, 4000);
+</script>

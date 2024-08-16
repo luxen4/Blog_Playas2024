@@ -16,10 +16,10 @@
     
     // Define categories and their respective groups
     $categories = [
-        "shirts" => 1,
-        "shirts_modelo_derecha" => 1,
-        "sports_shirts" => 1,
-        "swimsuits_woman" => 1,
+        "shirts" => 2,
+        "shirts_modelo_derecha" => 2,
+        "sports_shirts" => 2,
+        "swimsuits_woman" => 2,
         "sandals_man" => 2,
         "sneakers" => 2,
         "sneakers_izquierda_45" => 2,
@@ -29,7 +29,7 @@
         "sandals_woman" => 2,
         "jeans_man_derecha" => 2,
         "polos_man_frente" => 2,
-        "shorts" => 3,
+        "shorts" => 2,
         "mochilas" => 2
     ];
     
@@ -53,14 +53,14 @@ function addProperties(baseName, groupRange, count) {
 
 // Definir las bases y rangos de grupos
 const definitions = [
-    { baseName: 'shirts', groupRange: 1, count: 4 },
-    { baseName: 'shirts_modelo_derecha', groupRange: 1, count: 4 },
-    { baseName: 'sports_shirts', groupRange: 1, count: 5 },
-    { baseName: 'shorts', groupRange: 3, count: 4 },
+    { baseName: 'shirts', groupRange: 2, count: 4 },
+    { baseName: 'shirts_modelo_derecha', groupRange: 2, count: 4 },
+    { baseName: 'sports_shirts', groupRange: 2, count: 5 },
+    { baseName: 'shorts', groupRange: 2, count: 4 },
     { baseName: 'sneakers', groupRange: 2, count: 4 },
     { baseName: 'sneakers_izquierda_45', groupRange: 2, count: 4 },
     { baseName: 'sneakers_puma_izda_0', groupRange: 2, count: 4 },
-    { baseName: 'swimsuits_woman', groupRange: 1, count: 4 },
+    { baseName: 'swimsuits_woman', groupRange: 2, count: 4 },
     { baseName: 'sandals_man', groupRange: 2, count: 4 },
     { baseName: 'dress_woman', groupRange: 2, count: 4 },
     { baseName: 'purse_woman', groupRange: 2, count: 4 },
@@ -69,7 +69,7 @@ const definitions = [
     { baseName: 'polos_man_frente', groupRange: 2, count: 4 },
     { baseName: 'jeans_man_derecha', groupRange: 2, count: 4 },
     { baseName: 'mochilas', groupRange: 2, count: 4 },
-    { baseName: 'shirts_lateral', groupRange: 1, count: 1 }  // Especial caso para "shirts_lateral"
+    { baseName: 'shirts_lateral', groupRange: 2, count: 1 }  // Especial caso para "shirts_lateral"
 ];
 
 // Agregar las propiedades usando la función definida
@@ -91,23 +91,23 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
 
         <?php 
         $articulo = "shirts";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
 
 
         <?php 
         $articulo = "shirts_modelo_derecha";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
 
 
 
         <?php 
         $articulo = "shorts";
-        $images = [ "images_{$articulo}_3_1","images_{$articulo}_3_2","images_{$articulo}_3_3","images_{$articulo}_3_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_3_$i', 'image_{$articulo}_3_$i', {$images[$i - 1]}, '{$articulo}_3_$i');\n";}?>
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
         
 
@@ -165,15 +165,15 @@ definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count
 
         <?php 
         $articulo = "sports_shirts";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
 
 
         <?php 
         $articulo = "swimsuits_woman";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
+        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
 
       <?php 
         $articulo = "dress_woman";

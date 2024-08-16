@@ -10,12 +10,11 @@
 </head>
 
 <body>
-    <?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> 
-    ?>
-    <?php include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
-    <?php
-    $page = 'pagehendaya';
-    include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+
+<?php 
+    $page = 'playadehendaya';
+    $ruta = './../../../../bloques/estructura';
+    include './../../../../bloques/estructura/basico.php'; ?>
 
 
     <div id="#" class="container">
@@ -47,16 +46,17 @@
         </p>
     </section>
 
-    <?php include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
-    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
-
-
+        
+    <hr><?php
+    $articulo = 'shirts'; $grupo = '_2';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
     <hr><?php
-        $articulo = 'shirts';
-        $grupo = '_1';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-    <hr>
+    $articulo = 'shorts'; $grupo = '_2';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+
+
+
 
     <!-- Servicios y Actividades -->
     <section class="container my-5">
@@ -213,6 +213,8 @@
 </style>
 
 
+
+
 <script>
     <?php
     function generateImageConstants($total_images, $categories)
@@ -231,62 +233,61 @@
 
     // Define categories and their respective groups
     $categories = [
-        "shirts" => 1
+        "shirts" => 2,
+        "shorts" => 2
     ];
 
     // Call the function with the total number of images and categories
     generateImageConstants(4, $categories);
     ?>
 
-
-
-    const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
-
-
+    // Initialize currentIndex for each image set
     let currentIndex = {};
 
-    // Función para agregar propiedades al objeto con un patrón definido
+    // Function to add properties to the currentIndex object based on a pattern
     function addProperties(baseName, groupRange, count) {
         for (let i = 1; i <= count; i++) {
             currentIndex[`${baseName}_${groupRange}_${i}`] = 0;
         }
     }
 
-    // Definir las bases y rangos de grupos
-    const definitions = [{
-            baseName: 'shirts',
-            groupRange: 1,
-            count: 4
-        }
+    // Define the bases and group ranges
+    const definitions = [
+        { baseName: 'shirts', groupRange: 2, count: 4 },
+        { baseName: 'shorts', groupRange: 2, count: 4 }
     ];
 
-    // Agregar las propiedades usando la función definida
+    // Add properties to currentIndex using the defined bases and ranges
     definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
 
-
-
-
-    function prueba(image_link, image, cte, indexKey) {
-        currentIndex[indexKey] = (currentIndex[indexKey] + 1) % cte.length;
-        document.getElementById(image_link).href = cte[currentIndex[indexKey]].href;
-        document.getElementById(image).src = cte[currentIndex[indexKey]].src;
-        document.getElementById(image).alt = cte[currentIndex[indexKey]].alt;
+    // Function to update carousel images
+    function updateCarouselImage(imageLinkId, imageId, imageArray, indexKey) {
+        currentIndex[indexKey] = (currentIndex[indexKey] + 1) % imageArray.length;
+        document.getElementById(imageLinkId).href = imageArray[currentIndex[indexKey]].href;
+        document.getElementById(imageId).src = imageArray[currentIndex[indexKey]].src;
+        document.getElementById(imageId).alt = imageArray[currentIndex[indexKey]].alt;
     }
 
-
+    // Function to change images in the carousel
     function changeImages() {
-
-
         <?php
         $articulo = "shirts";
-        $images = ["images_{$articulo}_1_1", "images_{$articulo}_1_2", "images_{$articulo}_1_3", "images_{$articulo}_1_4"];
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
-            echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";
-        } ?>
+            echo "updateCarouselImage('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } 
+
+        $articulo = "shorts";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "updateCarouselImage('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } 
 
 
 
+        ?>
     }
 
+    // Set interval for changing images
     setInterval(changeImages, 4000);
 </script>

@@ -77,7 +77,7 @@
                         
                         <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
                         <?php $require = './../../../../products_amazon/conexion.php'; ?>       
-
+ 
                         <hr>
                         <?php
                         $articulo = 'shorts';
@@ -157,6 +157,11 @@
                 require './../../../../products_amazon/sql_generica.php';
                 include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; ?>
                 <hr>
+
+                <hr><?php /*
+    $articulo = "dress_woman";          $grupo = '_2';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; */?><hr> 
+
 
 
 
@@ -258,3 +263,12 @@
         </div>
     </div>
 </div>
+
+
+<style>
+    .custom-carousel {
+    transform: scale(0.85);
+    transform-origin: center center;
+}
+</style>
+

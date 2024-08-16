@@ -64,7 +64,8 @@ $articulo_2_4 = $articulo . $grupo . "_4";
     // Inicializa los índices para cada grupo de imágenes
     function initializeIndexes() {
         for (let i = 1; i <= 4; i++) {
-            currentIndex[`shorts_3_${i}`] = 0;
+            currentIndex[`shorts_2_${i}`] = 0;
+            //currentIndex[`sports_shirts_2_${i}`] = 0;
         }
     }
 
@@ -88,12 +89,15 @@ $articulo_2_4 = $articulo . $grupo . "_4";
 
     // Función para cambiar las imágenes en intervalos regulares
     function changeImages() {
-        <?php
+        <?php 
         for ($i = 1; $i <= 4; $i++) {
             $articulo_var = $articulo . $grupo . '_' . $i;
             $images_articulo_var = 'images_' . $articulo_var;
-            echo "changeImage('image-link_{$articulo_var}', 'image_{$articulo_var}', " . json_encode($$images_articulo_var) . ", 'shorts_3_{$i}');\n";
-        }
+            echo "changeImage('image-link_{$articulo_var}', 'image_{$articulo_var}', " . json_encode($$images_articulo_var) . ", 'shorts_2_{$i}');\n";
+        
+            //echo "changeImage('image-link_{$articulo_var}', 'image_{$articulo_var}', " . json_encode($$images_articulo_var) . ", 'sports_shirts_2_{$i}');\n";
+        
+        } 
         ?>
     }
 
@@ -121,3 +125,6 @@ $articulo_2_4 = $articulo . $grupo . "_4";
     transform-origin: center center;
 }
 </style>
+
+
+

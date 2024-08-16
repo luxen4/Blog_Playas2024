@@ -65,14 +65,20 @@
     $ruta = './../../../../bloques/estructura';
     include './../../../../bloques/estructura/basico.php'; ?>
     
-
-
 <div id="#" class="container">
         <div class="row">
                 <!--<iframe src="./../../../../ads_terra/468px-60px.html"></iframe>-->
 
+                <hr><?php                         
+                $articulo = 'sports_shirts';
+                $grupo = '_2';
+                $var_base = 'images_sports_shirts_2_';
+                $table = 'amazon_sports_shirts_images';
+                $where = 'where direccion = "frente"';
+                require './../../../../products_amazon/sql_generica.php';
+                //include './../../../../bloques/estructura/carrusel_clases.php'; ?><hr>
 
-            <div id="#" class="col-xl-12 text-center col-lg-10 col-md-10 col-sm-12 col-12">
+            <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
 
                 <?php /*include_once './../../../../bloques/registro_visitas_web.php'; 
 
@@ -104,25 +110,25 @@
                 </p>
 
 
-
-
                 <hr><?php 
                 $articulo = "shirts"; $grupo = '_2';
-                $nivel_atras4 = './../../../../';
-                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
-
-
-
+                if ($servername === 'localhost') {
+                    $nivel_atras4 = './../../../../';
+                } else {
+                    $nivel_atras4 = './../../../../';
+                }
+               
+                include './../../../../bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
 
 
                 <h3>10 lugares que no te puedes perder en Castro Urdiales</h3>
 
 
-                <?php include_once './../lugares/parqueamestoy.php'; ?>
-                <hr><?php $articulo = "dress_woman";          
-                //include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
+                <?php include_once './../lugares/parqueamestoy.php'; ?>    
+                <hr><?php $articulo = "shorts"; 
+                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/asadorlaperla.php'; ?>
                 <hr><?php $articulo = "shirts_modelo_derecha";          
@@ -140,9 +146,8 @@
                 <hr><?php $articulo = "sneakers";
                 include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
-
-                <?php include_once './../lugares/puertocastrourdiales.php'; ?>
-                <hr><?php $articulo = "shorts"; 
+                <?php include_once './../lugares/puertocastrourdiales.php'; ?><hr>
+                <?php $articulo = "dress_woman";
                 include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>
 
                 <?php include_once './../lugares/plazaayuntamiento.php'; ?>
@@ -170,9 +175,23 @@
                 include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr>   
 
                 <?php include_once './../lugares/palaciodeochagaran.php'; ?>
+                <hr><?php $articulo = "sneakers_izquierda_45";
+                include $nivel_atras4 . 'bloques/estructura/carrusel_auxiliar.php'; ?><hr> 
                 
 
-                <?php 
+<!-- Mapa de Ubicación -->
+<section class="map container my-5">
+    <h2>Ubicación</h2>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5831.651444241797!2d-3.223077446167217!3d43.386075434058306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd491d8696af44a3%3A0xc1223f750f28a028!2sCastro-Urdiales%2C%20Cantabria!5e0!3m2!1ses!2ses!4v1692109982432!5m2!1ses!2ses"
+        width="100%"
+        height="450"
+        allowfullscreen=""
+        loading="lazy"
+        aria-hidden="false"
+        tabindex="0">
+    </iframe>
+</section>      <?php 
                 // Diferentes artículos que hacen un conjunto entre ellos.
                 // include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_variado.php'; <hr> ?>
 
@@ -189,12 +208,8 @@
                 </div> */ ?>
 
         </div>
-
     </div>
-
-    <hr><?php /*
-    $articulo = "dress_woman";          $grupo = '_2';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_clases.php'; <hr> */?>
+ 
 
     <footer>
         <?php require './../../../../bloques/estructura/footer.php'; ?>
@@ -202,14 +217,54 @@
 
 </body>
 
-
-<?php 
-// include_once './../js/logica_anuncios.php'; 
-include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php'; 
-?>
-
-
 <!-- Enlaza el JavaScript de Bootstrap y sus dependencias -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<?php include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php'; ?>
+
+
+
+<?php /*
+Claro, aquí tienes algunas ideas para temas etiquetados en Pinterest para Castro Urdiales. Puedes usar estas etiquetas para organizar y destacar diferentes aspectos de la ciudad:
+
+    1. Maravillas Naturales
+    Playas de Castro Urdiales: Fotos de playas como Playa de Ostende y Playa de Brazomar.
+    Parques y Senderos: Imágenes de senderos naturales y parques locales.
+    Vistas Panorámicas: Imágenes aéreas y vistas panorámicas de la ciudad y sus alrededores.
+    2. Arquitectura Histórica
+    Castillo de Santa Ana: Fotografías del castillo y sus alrededores.
+    Puente Medieval: Imágenes del puente histórico y su arquitectura.
+    Iglesia de Santa María: Fotos de la iglesia y su impresionante arquitectura gótica.
+    3. Cultura Local
+    Fiestas y Eventos: Fotos de eventos locales, como festivales y celebraciones.
+    Gastronomía Local: Imágenes de platos típicos y restaurantes recomendados.
+    Arte y Artesanía: Fotografías de artesanías locales y arte tradicional.
+    4. Actividades al Aire Libre
+    Deportes Acuáticos: Imágenes de surf, paddle surf y otras actividades en el mar.
+    Senderismo y Excursiones: Fotos de rutas de senderismo y excursiones cercanas.
+    Ciclismo: Rutas de ciclismo y bicicletas disponibles para alquiler.
+    5. Lugares de Interés
+    Puerto de Castro Urdiales: Imágenes del puerto y la vida marina.
+    Plaza del Ayuntamiento: Fotos de la plaza y su arquitectura.
+    Palacio de Ochoa-Garan: Fotografías del palacio y sus detalles arquitectónicos.
+    6. Alojamientos y Estancias
+    Hoteles y Posadas: Imágenes de opciones de alojamiento en la ciudad.
+    Apartamentos y Casas Vacacionales: Fotos de alojamientos disponibles para alquiler.
+    7. Consejos de Viaje
+    Guías y Mapas: Recursos para planificar la visita a Castro Urdiales.
+    Consejos de Transporte: Información sobre cómo moverse por la ciudad y sus alrededores.
+    Ejemplos de Descripciones:
+    Playas de Castro Urdiales: "Relájate en las idílicas playas de Castro Urdiales. Descubre la belleza de la Playa de Ostende y Playa de Brazomar en nuestra colección de fotos."
+    
+    Castillo de Santa Ana: "Explora el histórico Castillo de Santa Ana, una joya medieval con impresionantes vistas al mar. Ideal para los amantes de la historia y la arquitectura."
+    
+    Puerto de Castro Urdiales: "Disfruta del animado puerto de Castro Urdiales, donde el mar y la vida local se encuentran. Perfecto para paseos y cenas frente al mar."
+    
+    Gastronomía Local: "Saborea la auténtica cocina de Castro Urdiales con nuestros platos recomendados. Desde mariscos frescos hasta tapas deliciosas."
+    
+    Senderismo y Excursiones: "Embárcate en una aventura al aire libre con nuestras rutas de senderismo en Castro Urdiales. Ideal para los amantes de la naturaleza y el deporte."
+    
+    Estos temas y descripciones pueden ayudarte a crear tableros atractivos y bien organizados en Pinterest, atrayendo a visitantes interesados en diferentes aspectos de Castro Urdiales. */?>

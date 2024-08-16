@@ -15,7 +15,7 @@ if ($stmt->rowCount() > 0) {
 
     while ($row = $stmt->fetch()) {
         $product = ["href" => $row["href"], "src" => $row["src"], "alt" => $row["alt"]]; 
-        echo ($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
+        //echo ($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
 
         ${$var_base . $posicion}[] = $product;
         $posicion = ($posicion % 4) + 1; // Ciclo entre 1 y 4

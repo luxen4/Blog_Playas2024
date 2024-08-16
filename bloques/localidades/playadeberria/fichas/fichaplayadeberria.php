@@ -96,7 +96,7 @@
                 </div>
 
 
-
+ 
 
 
                 <div class="section">
@@ -128,7 +128,7 @@
                             $articulo2 = "camiseta_deporte_manga_corta";
                             $grupo2 = '_2';
 
-                            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_doble.php'; ?>
+                            //include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar_doble.php'; ?>
                         <hr>
                     </div>
                 </div>
@@ -169,6 +169,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+
+
 <script>
     <?php
     function generateImageConstants($total_images, $categories)
@@ -190,7 +192,8 @@
         "shirts" => 1,
         "shorts" => 2,
         "pantalones_cortos_correr" => 2,
-        "camiseta_deporte_manga_corta" => 2
+        "camiseta_deporte_manga_corta" => 2,
+        "sports_shirts" => 2
     ];
 
     // Call the function with the total number of images and categories
@@ -225,6 +228,11 @@
         },
         {
             baseName: 'camiseta_deporte_manga_corta',
+            groupRange: 2,
+            count: 4
+        },
+        {
+            baseName: 'sports_shirts',
             groupRange: 2,
             count: 4
         }
@@ -268,6 +276,13 @@
 
         <?php
         $articulo = "camiseta_deporte_manga_corta";
+        $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
+        for ($i = 1; $i <= 4; $i++) {
+            echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";
+        } ?>
+
+        <?php
+        $articulo = "sports_shirts";
         $images = ["images_{$articulo}_2_1", "images_{$articulo}_2_2", "images_{$articulo}_2_3", "images_{$articulo}_2_4"];
         for ($i = 1; $i <= 4; $i++) {
             echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";

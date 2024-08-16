@@ -2,7 +2,7 @@
 $servername = $_SERVER['SERVER_NAME'];
 $require = './../../../../products_amazon/conexion.php';
 
-/*
+
 $articulo = 'swimsuits_woman';
 $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
@@ -175,7 +175,7 @@ if ($page == 'home'){
 }else{
     require './../../../../products_amazon/sql_generica.php';
 }
-*/
+
     
 $articulo = 'shirts';
 $grupo = '_2';
@@ -189,8 +189,18 @@ if ($page == 'home'){
     require './../../../../products_amazon/sql_generica.php';
 }
 
+$articulo = 'shorts';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "frente"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../products_amazon/sql_generica.php';
+}
 
-/*
 $articulo = 'shirts';
 $grupo = '_2';
 $var_base = 'images_shirts_modelo_derecha_2_';
@@ -202,6 +212,9 @@ if ($page == 'home'){
 }else{
     require './../../../../products_amazon/sql_generica.php';
 }
+
+
+
 
 $articulo = 'shirts';
 $grupo = '_2';
@@ -217,17 +230,6 @@ if ($page == 'home'){
 
 
 
-$articulo = 'shorts';
-$grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table = 'amazon_'.$articulo.'_images';
-$where = 'where direccion = "frente"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../products_amazon/sql_generica.php';
-}
 
 
 

@@ -1,7 +1,7 @@
 <script>
-    
     <?php
-    function generateImageConstants($total_images, $categories) {
+    function generateImageConstants($total_images, $categories)
+    {
         foreach ($categories as $category => $group) {
             for ($i = 1; $i <= $total_images; $i++) {
                 $variable_name = "{$category}_{$group}_{$i}";
@@ -13,205 +13,88 @@
             }
         }
     }
-    
+
     // Define categories and their respective groups
     $categories = [
-        "shirts" => 1,
-        "shirts_modelo_derecha" => 1,
-        "sports_shirts" => 1,
-        "swimsuits_woman" => 1,
-        "sandals_man" => 2,
-        "sneakers" => 2,
-        "sneakers_izquierda_45" => 2,
-        "sneakers_puma_izda_0" => 2,
+        "shirts" => 2,
+        "shorts" => 2,
+        "shirts_modelo_derecha" => 2,
+        "swimsuits_woman" => 2,
+        "sports_shirts" => 2,
+        "sneakers" => 2,        
         "dress_woman" => 2,
-        "purse_woman" => 2,
-        "sandals_woman" => 2,
-        "jeans_man_derecha" => 2,
-        "polos_man_frente" => 2,
-        "shorts" => 3
+        "sneakers_puma_izda_0" => 2,        
+        "purse_woman" => 2,    
+        "sandals_man" => 2,        
+        "jeans_man" => 2,
+        "polos_man_frente" => 2,        
+        "sandals_woman" => 2,        
+        "sneakers_izquierda_45" => 2
     ];
-    
+
     // Call the function with the total number of images and categories
     generateImageConstants(4, $categories);
     ?>
 
-  
-
-    const images_shirts_lateral_1_1 = <?php echo json_encode($images_shirts_lateral_1_1); ?>
-
-    
+    // Initialize currentIndex for each image set
     let currentIndex = {};
 
-// Función para agregar propiedades al objeto con un patrón definido
-function addProperties(baseName, groupRange, count) {
-    for (let i = 1; i <= count; i++) {
-        currentIndex[`${baseName}_${groupRange}_${i}`] = 0;
-    }
-}
-
-// Definir las bases y rangos de grupos
-const definitions = [
-    { baseName: 'shirts', groupRange: 1, count: 4 },
-    { baseName: 'shirts_modelo_derecha', groupRange: 1, count: 4 },
-    { baseName: 'sports_shirts', groupRange: 1, count: 5 },
-    { baseName: 'shorts', groupRange: 3, count: 4 },
-    { baseName: 'sneakers', groupRange: 2, count: 4 },
-    { baseName: 'sneakers_izquierda_45', groupRange: 2, count: 4 },
-    { baseName: 'sneakers_puma_izda_0', groupRange: 2, count: 4 },
-    { baseName: 'swimsuits_woman', groupRange: 1, count: 4 },
-    { baseName: 'sandals_man', groupRange: 2, count: 4 },
-    { baseName: 'dress_woman', groupRange: 2, count: 4 },
-    { baseName: 'purse_woman', groupRange: 2, count: 4 },
-    { baseName: 'sandals_woman', groupRange: 2, count: 4 },
-    { baseName: 'jeans_man_derecha', groupRange: 2, count: 4 },
-    { baseName: 'polos_man_frente', groupRange: 2, count: 4 },
-    { baseName: 'jeans_man_derecha', groupRange: 2, count: 4 },
-    { baseName: 'shirts_lateral', groupRange: 1, count: 1 }  // Especial caso para "shirts_lateral"
-];
-
-// Agregar las propiedades usando la función definida
-definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
-
-
-
-    
-    function prueba(image_link, image, cte, indexKey) {
-        currentIndex[indexKey] = (currentIndex[indexKey] + 1) % cte.length;
-        document.getElementById(image_link).href = cte[currentIndex[indexKey]].href;
-        document.getElementById(image).src = cte[currentIndex[indexKey]].src;
-        document.getElementById(image).alt = cte[currentIndex[indexKey]].alt;
+    // Function to add properties to the currentIndex object based on a pattern
+    function addProperties(baseName, groupRange, count) {
+        for (let i = 1; i <= count; i++) {
+            currentIndex[`${baseName}_${groupRange}_${i}`] = 0;
+        }
     }
 
+    // Define the bases and group ranges
+    const definitions = [
+        { baseName: 'shirts', groupRange: 2, count: 4 },
+        { baseName: 'shorts', groupRange: 2, count: 4 },
+        { baseName: 'shirts_modelo_derecha', groupRange: 2, count: 4 },
+        { baseName: 'swimsuits_woman', groupRange: 2, count: 4 },
+        { baseName: 'sports_shirts', groupRange: 2, count: 4 },
+        { baseName: 'sneakers', groupRange: 2, count: 4 },
+        { baseName: 'sneakers_puma_izda_0', groupRange: 2, count: 4 },
+        { baseName: 'purse_woman', groupRange: 2, count: 4 },
+        { baseName: 'sandals_man', groupRange: 2, count: 4 },
+        { baseName: 'jeans_man', groupRange: 2, count: 4 },
+        { baseName: 'polos_man_frente', groupRange: 2, count: 4 },
+        { baseName: 'sandals_woman', groupRange: 2, count: 4 },
+        { baseName: 'dress_woman', groupRange: 2, count: 4 },
+        { baseName: 'sneakers_izquierda_45', groupRange: 2, count: 4 }
+        
+    ];
 
+    // Add properties to currentIndex using the defined bases and ranges
+    definitions.forEach(def => addProperties(def.baseName, def.groupRange, def.count));
+
+    // Function to update carousel images
+    function updateCarouselImage(imageLinkId, imageId, imageArray, indexKey) {
+        currentIndex[indexKey] = (currentIndex[indexKey] + 1) % imageArray.length;
+        document.getElementById(imageLinkId).href = imageArray[currentIndex[indexKey]].href;
+        document.getElementById(imageId).src = imageArray[currentIndex[indexKey]].src;
+        document.getElementById(imageId).alt = imageArray[currentIndex[indexKey]].alt;
+    }
+
+    // Function to change images in the carousel
     function changeImages() {
-
-
-        <?php 
-        $articulo = "shirts";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
-
-
-
-        <?php 
-        $articulo = "shirts_modelo_derecha";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
-
-
-
-
-        <?php 
-        $articulo = "shorts";
-        $images = [ "images_{$articulo}_3_1","images_{$articulo}_3_2","images_{$articulo}_3_3","images_{$articulo}_3_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_3_$i', 'image_{$articulo}_3_$i', {$images[$i - 1]}, '{$articulo}_3_$i');\n";}?>
-
-        
-
-
-        <?php 
-        $articulo = "sneakers";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-        
-        <?php 
-        $articulo = "purse_woman";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-        //
-        <?php 
-        $articulo = "jeans_man_derecha";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-
-        <?php 
-        $articulo = "polos_man_frente";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-  
-        
-
-        <?php 
-        $articulo = "sandals_woman";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-
-
-
-        <?php 
-        $articulo = "sneakers_izquierda_45";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-///
-        <?php 
-        $articulo = "sneakers_puma_izda_0";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-
-
-
-        <?php 
-        $articulo = "sports_shirts";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
-
-
-
-        <?php 
-        $articulo = "swimsuits_woman";
-        $images = [ "images_{$articulo}_1_1","images_{$articulo}_1_2","images_{$articulo}_1_3","images_{$articulo}_1_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_1_$i', 'image_{$articulo}_1_$i', {$images[$i - 1]}, '{$articulo}_1_$i');\n";}?>
-
-      <?php 
-        $articulo = "dress_woman";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-
-
-        <?php // Problemas
-        $articulo = "sandals_man";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-        
-
-
-
-        
-        <?php //$articulo="sandals_woman"; ?>
-        //prueba('image-link_<?php echo $articulo; ?>_2_1', 'image_<?php echo $articulo; ?>_2_1', images_sandals_woman_2_1, '<?php echo $articulo; ?>_2_1');
-        //prueba('image-link_<?php echo $articulo; ?>_2_2', 'image_<?php echo $articulo; ?>_2_2', images_sandals_woman_2_2, '<?php echo $articulo; ?>_2_2');
-        //prueba('image-link_<?php echo $articulo; ?>_2_3', 'image_<?php echo $articulo; ?>_2_3', images_sandals_woman_2_3, '<?php echo $articulo; ?>_2_3');
-        //prueba('image-link_<?php echo $articulo; ?>_2_4', 'image_<?php echo $articulo; ?>_2_4', images_sandals_woman_2_4, '<?php echo $articulo; ?>_2_4');
-
-
-        <?php 
-        $articulo = "sandals_woman";
-        $images = [ "images_{$articulo}_2_1","images_{$articulo}_2_2","images_{$articulo}_2_3","images_{$articulo}_2_4"];
-        for ($i = 1; $i <= 4; $i++) {echo "prueba('image-link_{$articulo}_2_$i', 'image_{$articulo}_2_$i', {$images[$i - 1]}, '{$articulo}_2_$i');\n";}?>
-
-
-
-
-        // Todo debe ir aquí
-        prueba('image-link_shirts_lateral_1_1', 'image_shirts_lateral_1_1', images_shirts_lateral_1_1, 'shirts_lateral_1_1');
-
+        <?php
+        // Simplified loop to generate the JS calls for each article
+        foreach (['shirts', 'shorts', 'shirts_modelo_derecha', 'swimsuits_woman', 'sports_shirts', 'sneakers', 'sneakers_puma_izda_0',
+         'purse_woman', 'sandals_man', 'jeans_man', 'polos_man_frente', 'sandals_woman', 'dress_woman', 'sneakers_izquierda_45'] as $articulo) {
+            for ($i = 1; $i <= 4; $i++) {
+                $images_articulo_var = "images_{$articulo}_2_{$i}";
+                echo "updateCarouselImage('image-link_{$articulo}_2_{$i}', 'image_{$articulo}_2_{$i}', {$images_articulo_var}, '{$articulo}_2_{$i}');\n";
+            }
+        }
+        ?>
     }
 
-    setInterval(changeImages, 4000);
 
+    // Set interval for changing images
+    setInterval(changeImages, 4000);
+</script>
+
+<script>
+    alert("Entroo");
 </script>

@@ -944,8 +944,20 @@ CONTROL DE PÁGINAS
 
                 // Footer        // Barra de Navegación    // Subida al Hosting   // Pinterest    // Carruseles   // Sitemap
 
-Playa de Laga      No               No                      No              No              No
 Playa de Berria    Si               Si                      Si              No              No         Si              Si
+
+Playa de Laga      No               No                      No              No              No
+Playa de Hendaya
+Playa de Noja
+Playa de Castro Urdiales
+Santander
+
+
+
+16/08/2024
+    - Ver cual es donde funcionan los anuncios y trasladar a las demás que funcionen.
+    - Hacer las targetas de pinterest de la que funcionen los anuncios.
+    - Styles comunes 
 
 
 
@@ -961,34 +973,3 @@ Cada 2 dias que se haga una consulta a la base de datos y se genere un archivo d
 así no se consultará la base de datos numerosas veces.
 
 
-
-    $categories = [
-        "shirts" => 1/*,
-        "sneakers" => 2,
-        "purse_woman" => 2,
-        "sandals_woman" => 2,
-        "sandals_man" => 2*/
-    ];
-
-
-/*,
-        {
-            baseName: 'sneakers',
-            groupRange: 2,
-            count: 4
-        },
-        {
-            baseName: 'purse_woman',
-            groupRange: 2,
-            count: 4
-        },
-        {
-            baseName: 'sandals_woman',
-            groupRange: 2,
-            count: 4
-        },
-        {
-            baseName: 'sandals_man',
-            groupRange: 2,
-            count: 4
-        }*/

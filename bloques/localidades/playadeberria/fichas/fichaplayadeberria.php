@@ -1,21 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playa de Berria - Santoña, Cantabria</title>
+<title>Playa de Berria - Santoña, Cantabria</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="site-verification" content="e148bdbc89c019bd06122ab7bd08a8be" />
+<meta name="description" content="Descubre la Playa de Berria, un rincón espectacular en la costa cántabra. Perfecta para disfrutar del surf, la naturaleza y vistas panorámicas.">
+<meta name="keywords" content="Playa de Berria, surf, naturaleza, vistas panorámicas, Costa Cantábrica, turismo en Cantabria, playa Berria">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Adrián Laya García">
+<meta name="language" content="es">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Playa de Berria - Información y Turismo">
+    <meta property="og:description" content="Descubre la Playa de Berria, un rincón espectacular en la costa cántabra. Perfecta para disfrutar del surf, la naturaleza y vistas panorámicas.">
+    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/playadeberria/foto_presentacion.jpg">
+    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades/playadeberria/fichas/fichaplayadeberria.php">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@laya_garcia">
+    <meta name="twitter:title" content="Playa de Berria - Información y Turismo">
+    <meta name="twitter:description" content="Descubre la Playa de Berria, un rincón espectacular en la costa cántabra. Perfecta para disfrutar del surf, la naturaleza y vistas panorámicas.">
+    <meta name="twitter:image" content="http://playas2024.kesug.com/bloques/localidades/playadelaga/foto_presentacion.jpg">
+    <meta name="twitter:url" content="http://playas2024.kesug.com/bloques/localidades/playadeberria/fichas/fichaplayadeberria.php?i=1">
+
+    <!-- Pinterest -->
+    <meta property="pinterest:card" content="summary_large_image">
+    <meta property="pinterest:title" content="Playa de Berria - Información y Turismo">
+    <meta property="pinterest:description" content="Descubre la Playa de Berria, un rincón espectacular en la costa cántabra. Perfecta para disfrutar del surf, la naturaleza y vistas panorámicas.">
+    <meta property="pinterest:image" content="http://playas2024.kesug.com/bloques/localidades/playadeberria/fichas/fichaplayadeberria.php?i=1">
+
+    <!-- Sitemap Link -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Alternate Languages -->
+    <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
+    <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
+
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <?php include_once 'structured_data.php'; // Entra 
-    ?>
+
+
+    <link rel="stylesheet" href="./../css/styles.css">
+
+    <!-- Ads Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
+
+
+    <?php include_once 'structured_data.php'; // Entra ?>
 </head>
+
+
+
 
 <body>
     <?php $src = './../../../../mifoto.png'; ?>
     <?php // <iframe style="width: 100%;" src="carrousels/castrourdiales/castrourdiales.html" style="border:none;"></iframe> 
     ?>
-
+ 
     <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
     <?php include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
     <div class="container">
@@ -94,9 +147,6 @@
                         <hr>
                     </div>
                 </div>
-
-
- 
 
 
                 <div class="section">

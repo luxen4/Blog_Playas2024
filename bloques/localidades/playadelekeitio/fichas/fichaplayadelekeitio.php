@@ -5,20 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playa de Lekeitio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .custom-carousel-image {
-            width: 100%;
-            height: auto;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 15px;
-        }
-        .map {
-            margin-top: 30px;
-        }
-    </style>
+
 </head>
 <body>
 
@@ -27,6 +14,7 @@
     <h1 class="text-center">Playa de Lekeitio</h1>
     <p class="text-center">La Playa de Lekeitio es un encantador destino costero en el País Vasco, conocida por su arena dorada y su ambiente tranquilo. Perfecta para disfrutar de un día relajante junto al mar en un entorno pintoresco.</p>
 </header>
+
 
 <!-- Sección de descripción -->
 <section class="container my-5">
@@ -66,3 +54,19 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+<style>
+        .custom-carousel-image {
+            width: 100%;
+            height: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .map {
+            margin-top: 30px;
+        }
+    </style>

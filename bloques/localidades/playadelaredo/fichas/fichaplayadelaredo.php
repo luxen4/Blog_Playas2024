@@ -173,12 +173,6 @@
 
     <!-- Contenido principal -->
     <main class="container my-4">
-
-
-
-
-
-
         <?php // Carrusel de 3 Imágenes //
         $lugar = 'playadelaredo';
         $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
@@ -192,9 +186,6 @@
         $imges_name = ['/actividadesenlaplayadelaredo.jpg', '/olasenlaplayadelaredo.jpg', '/puertodeportivodelaredo.jpg'];
         $alt = ["Actividades en la Playa de Laredo", "Olas en la Playa de Laredo", "Puerto deportivo en la Playa de Laredo"];
         require './../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; ?>
-
-
-
 
         <!-- Mapa de ubicación -->
         <section class="map mb-4">

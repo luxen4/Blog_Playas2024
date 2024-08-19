@@ -13,6 +13,8 @@
     $page = 'noja';
     $nivel_atras4 = './../../../../';
     $ruta = $nivel_atras4 . 'bloques/estructura';
+    $href_lugar = './../../../../';
+    $href_zona = './../../../../index.php';
     include $nivel_atras4 . 'bloques/estructura/basico.php'; ?>
 
 

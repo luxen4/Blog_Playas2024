@@ -17,7 +17,9 @@
 <body>
 
     <?php
-    $src = 'mifoto.png';
+    $src = './../../mifoto.png';
+    $href_lugar = './';
+    $href_zona = './../../../../Blog_Playas2024/index.php';
     include_once 'bloques/estructura/barra_navegacion2.php'; ?>
     <?php include_once 'bloques/estructura/barra_navegacion2.php';?>
     <?php $page='home'; ?>
@@ -29,7 +31,9 @@
 
     <?php 
     $ruta = './bloques/estructura/';
-    include $ruta . '/basico.php'; ?>
+    include $ruta . '/basico.php'; 
+    
+    ?>
     
 
     <div id="#" class="container">
@@ -109,7 +113,6 @@
                         <hr>
                     </div>
                 </div>
-
 
 
                 <h2 id="cantabria">Cantabria</h2>

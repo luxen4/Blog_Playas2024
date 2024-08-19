@@ -1,11 +1,11 @@
 <?php // Barra de navegación // ?>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div>
+    <!--<div>
     <a class="navbar-brand" href="#">
         <img style="max-width: 100px;" src="<?= $src; ?>" alt="Logo" class="d-inline-block align-top"><br>
         <p id="">Viaja con Laya </p>  
     </a>
-    </div>
+    </div>-->
   
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,23 +15,24 @@
         <ul class="navbar-nav ml-auto" style="margin: auto;">
 
             <li class="nav-item active">
-            <a class="nav-link" href="./../../../../">Inicio <span class="sr-only"></span></a>
+            <!--<a class="nav-link" href="<?= $_SERVER['SERVER_NAME'];?>">Inicio <span class="sr-only"></span></a>-->
+            <a class="nav-link" href="<?= $href_lugar;?>">Inicio <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#cantabria">Cantabria<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $href_zona; ?>/#cantabria">Cantabria</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/">Vizcaya<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $href_zona; ?>/#vizcaya">Vizcaya<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024">Guipuzkoa<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $href_zona; ?>/#guipuzcoa">Guipuzkoa<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/#francia">Francia<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $href_zona; ?>/#francia">Francia<span class="sr-only"></span></a>
             </li>
 
 

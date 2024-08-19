@@ -5,7 +5,7 @@
         // Iteramos sobre el array de nombres de imágenes
         for ($i = 0; $i < count($imges_name); $i++) {
             echo '<div class="col-md-4">
-                    <img src="' . $ruta . '/' . $imges_name[$i] . '" alt="' . $alt[$i] . '" class="img-fluid gallery-image">
+                    <img style="margin-bottom: 1em;" src="' . $ruta . '/' . $imges_name[$i] . '" alt="' . $alt[$i] . '" class="img-fluid gallery-image">
                   </div>';
         }
         ?>

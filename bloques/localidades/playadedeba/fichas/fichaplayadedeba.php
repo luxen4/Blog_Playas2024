@@ -60,6 +60,15 @@
 
 
 <body>
+<?php
+    $src = './../../../../mifoto.png';
+    $href_lugar = './../../../../';
+    $href_zona = './../../../../index.php';
+    include_once './../../../../bloques/estructura/barra_navegacion2.php'; ?>
+    <?php
+    $page = 'castrourdiales';
+    include_once './../../../../bloques/estructura/anuncios/carga_productos.php'; ?>
+    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/../../../../bloques/estructura/'); ?>
 
     <!-- Hero Section -->
     <header class="hero">

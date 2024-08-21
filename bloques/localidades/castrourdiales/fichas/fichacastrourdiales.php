@@ -113,8 +113,11 @@
         $alt = ["Actividades en la Playa de Castro Urdiales", "Olas en la Playa de Castro Urdiales", "Puerto deportivo en la Playa de Castro Urdiales"];
         require './../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; ?>
 
-
-
+        <?php /*
+        <article>
+            <h2>Artículo Destacado</h2>
+            <p>Un artículo relevante o noticia importante.</p>
+        </article> */?>
 
         <!-- Mapa de Ubicación -->
         <section class="map container my-5">
@@ -129,8 +132,6 @@
                 tabindex="0">
             </iframe>
         </section>
-
-
 
     </main>
 

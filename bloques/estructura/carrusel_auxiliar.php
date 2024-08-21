@@ -12,10 +12,10 @@ $articulo_2_4 = $articulo . $grupo . "_4";
     <hr>
     <div class="row">
 
-        <div class="col-xl-2 text-center col-lg-1 col-md-1 col-sm-1 col-1">
+        <div class="col-xl-2 text-center col-lg-1 col-md-1">
         </div>
 
-        <div class="col-xl-8 text-center col-lg-10 col-md-10 col-sm-10 col-10">
+        <div class="col-xl-8 text-center col-lg-10 col-md-10 col-sm-12 col-12">
 
             <div id="carouselExampleIndicators" class="carousel slide custom" data-ride="carousel" data-interval="10000">
                 <div class="carousel-inner">
@@ -57,7 +57,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
         </div>
 
 
-        <div class="col-xl-2 text-center col-lg-1 col-md-1 col-sm-1 col-1">
+        <div class="col-xl-2 text-center col-lg-1 col-md-1">
         </div>
     </div>
     <hr>
@@ -65,6 +65,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
 
 
 <style>
+    
     .custom-carousel-container {
         display: flex;
         justify-content: center;

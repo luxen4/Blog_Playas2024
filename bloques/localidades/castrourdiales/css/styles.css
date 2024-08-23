@@ -17,5 +17,16 @@
                 background-color: white;
             }
 
-
+            nav {
+                background-color: #34495e;
+                padding: 10px;
+                text-align: center;
+            }
+        
+            nav a {
+                color: #ecf0f1;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: bold;
+            }
             

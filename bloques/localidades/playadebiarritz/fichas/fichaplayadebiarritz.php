@@ -1,64 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <title>Playa de Biarritz - Biarritz, Francia</title>
+<?php // head
+$localidad = 'Playa de Biarritz';
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
+$description_content = 'Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.';
+$keywords_content = 'Playa de Biarritz, surf, naturaleza, paseo marítimo, Costa Vasca, turismo en Francia, playa Biarritz';
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="site-verification" content="e148bdbc89c019bd06122ab7bd08a8be" />
-    <meta name="description" content="Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.">
-    <meta name="keywords" content="Playa de Biarritz, surf, naturaleza, paseo marítimo, Costa Vasca, turismo en Francia, playa Biarritz">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Adrián Laya García">
-    <meta name="language" content="es">
+$graph_Meta_Tags_property_title = 'Playa de Biarritz - Información y Turismo';
+$graph_Meta_Tags_property_description = 'Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/playadebiarritz/foto_presentacion.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/playadebiarritz/fichas/fichaplayadebiarritz.php';
+$graph_Meta_Tags_property_type = 'website';
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Playa de Biarritz - Información y Turismo">
-    <meta property="og:description" content="Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.">
-    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/playadebiarritz/foto_presentacion.jpg">
-    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades/playadebiarritz/fichas/fichaplayadebiarritz.php">
-    <meta property="og:type" content="website">
+$twiterCards_card = 'summary_large_image';
+$twiterCards_site = '@laya_garcia';
+$twiterCards_title = 'Playa de Biarritz - Información y Turismo';
+$twiterCards_descripcion = 'Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/playadebiarritz/foto_presentacion.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/playadebiarritz/fichas/fichaplayadebiarritz.php?i=1';
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@laya_garcia">
-    <meta name="twitter:title" content="Playa de Biarritz - Información y Turismo">
-    <meta name="twitter:description" content="Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.">
-    <meta name="twitter:image" content="http://playas2024.kesug.com/bloques/localidades/playadebiarritz/foto_presentacion.jpg">
-    <meta name="twitter:url" content="http://playas2024.kesug.com/bloques/localidades/playadebiarritz/fichas/fichaplayadebiarritz.php?i=1">
+$pinterest_property_card_card_content = 'summary_large_image';
+$pinterest_property_card_title_content = 'Playa de Biarritz - Información y Turismo';
+$pinterest_property_card_description_content = 'Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/playadebiarritz/fichas/fichaplayadebiarritz.php?i=1';
 
-    <!-- Pinterest -->
-    <meta property="pinterest:card" content="summary_large_image">
-    <meta property="pinterest:title" content="Playa de Biarritz - Información y Turismo">
-    <meta property="pinterest:description" content="Descubre la Playa de Biarritz, un destino de surf mundialmente conocido en la costa vasca francesa. Perfecta para surfear, relajarse y disfrutar de su vibrante paseo marítimo.">
-    <meta property="pinterest:image" content="http://playas2024.kesug.com/bloques/localidades/playadebiarritz/fichas/fichaplayadebiarritz.php?i=1">
-
-    <!-- Sitemap Link -->
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-    <!-- Alternate Languages -->
-    <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
-    <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
-
-    <!-- Stylesheets -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="./../css/styles.css">
-
-    <!-- Ads Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
-
-    <?php include_once 'structured_data.php'; ?>
-</head>
-
-
+$href_styles = './../css/styles.css';
+require "./../../../../bloques/estructura/head.php";
+?>
 
 
 <body>
@@ -99,11 +68,9 @@
 
 
 
-        <?php
-            $articulo = 'jeans_man';
-            $grupo = '_2';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-        
+        <?php $articulo = 'jeans_man';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
 
 
         <!-- Mapa de Ubicación -->
@@ -132,34 +99,31 @@
 
 
             <article>
-                <h3>Paseos por el Paseo Marítimo</h3>                                
+                <h3>Paseos por el Paseo Marítimo</h3>
                 <div class="image-text-container">
-                <img src="<?= $ruta; ?>/paseo-maritimo-playa-biarritz.jfif" alt="Paseo Marítimo de Biarritz" class="img-fluid img-left">
-                <p>Disfruta de un paseo por el pintoresco paseo marítimo, con vistas al océano Atlántico y a las impresionantes formaciones rocosas de la costa vasca.</p>
-                
-            </div>
+                    <img src="<?= $ruta; ?>/paseo-maritimo-playa-biarritz.jfif" alt="Paseo Marítimo de Biarritz" class="img-fluid img-left">
+                    <p>Disfruta de un paseo por el pintoresco paseo marítimo, con vistas al océano Atlántico y a las impresionantes formaciones rocosas de la costa vasca.</p>
+
+                </div>
             </article>
 
 
-
-            
-
             <article>
-                <h3>Paseos por el Paseo Marítimo</h3>                                
+                <h3>Paseos por el Paseo Marítimo</h3>
                 <div class="image-text-container">
-                <img src="<?= $ruta; ?>/rocher-de-la-vierge.jpg" alt="Rocher de la Vierge en Biarritz" class="img-fluid img-right">
-                <p>Disfruta de un paseo por el pintoresco paseo marítimo, con vistas al océano Atlántico y a las impresionantes formaciones rocosas de la costa vasca.</p>
-                
-            </div>
+                    <img src="<?= $ruta; ?>/rocher-de-la-vierge.jpg" alt="Rocher de la Vierge en Biarritz" class="img-fluid img-right">
+                    <p>Disfruta de un paseo por el pintoresco paseo marítimo, con vistas al océano Atlántico y a las impresionantes formaciones rocosas de la costa vasca.</p>
+
+                </div>
             </article>
 
 
             <article>
                 <h3>Relax en la Playa</h3>
-                <div class="image-text-container">   
-                <img src="<?= $ruta; ?>/relax-relajacion-playa-biarritz.jfif" alt="Relajación en la Playa de Biarritz" class="img-fluid img-left">
-                <p>Si lo que buscas es relajarte, la Playa de Biarritz es el lugar perfecto. Extiende tu toalla y disfruta del sol, el sonido de las olas y la brisa marina.</p>
-             </article>
+                <div class="image-text-container">
+                    <img src="<?= $ruta; ?>/relax-relajacion-playa-biarritz.jfif" alt="Relajación en la Playa de Biarritz" class="img-fluid img-left">
+                    <p>Si lo que buscas es relajarte, la Playa de Biarritz es el lugar perfecto. Extiende tu toalla y disfruta del sol, el sonido de las olas y la brisa marina.</p>
+            </article>
         </section>
 
 
@@ -168,10 +132,9 @@
                 <h2>Servicios en la Playa de Biarritz</h2>
                 <p>La Playa de Biarritz ofrece una amplia gama de servicios para garantizar que tu visita sea cómoda y agradable. Desde instalaciones para el disfrute del día hasta opciones para comidas y actividades, aquí tienes todo lo que necesitas saber sobre los servicios disponibles.</p>
                 <?php
-            $articulo = 'sports_shirts';
-            $grupo = '_2';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-        
+                $articulo = 'sports_shirts';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
                 <div class="row">
                     <div class="col-md-4">
                         <h3>Instalaciones Sanitarias</h3>
@@ -193,10 +156,9 @@
                 </div>
 
                 <?php
-            $articulo = 'shirts_izquierda';
-            $grupo = '_2';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-        
+                $articulo = 'shirts_izquierda';
+                include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
 
 
                 <div class="row">
@@ -330,13 +292,12 @@
         */
         ?>
 
-<?php
-            $articulo = 'swimsuits_woman';
-            $grupo = '_2';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php
+        $articulo = 'swimsuits_woman';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
 
-        
+
 
 
 
@@ -354,10 +315,9 @@
 
 
         <?php
-            $articulo = 'sandals_woman';
-            $grupo = '_2';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-        
+        $articulo = 'sandals_woman';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
 
 
 
@@ -387,105 +347,3 @@
 </body>
 
 </html>
-
-
-
-
-<style>
-    .gallery img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 15px;
-        border-radius: 10px;
-    }
-</style>
-
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        margin: 0;
-        padding: 0;
-    }
-
-    header {
-        background-color: #2c3e50;
-        color: #ecf0f1;
-        padding: 20px 0;
-        text-align: center;
-    }
-
-    nav {
-        background-color: #34495e;
-        padding: 10px;
-        text-align: center;
-    }
-
-    nav a {
-        color: #ecf0f1;
-        text-decoration: none;
-        margin: 0 15px;
-        font-weight: bold;
-    }
-
-    main {
-        padding: 20px;
-    }
-
-    h1,
-    h2 {
-        /*color: #2c3e50;*/
-    }
-
-    .content-section {
-        margin-bottom: 20px;
-    }
-
-    footer {
-        background-color: #2c3e50;
-        color: #ecf0f1;
-        text-align: center;
-        padding: 10px 0;
-        margin-top: 20px;
-    }
-</style>
-
-
-<style>
-                .image-text-container {
-                    overflow: hidden;
-                    /* Asegura que el contenedor se ajuste al contenido flotante */
-                    margin: 1em 0;
-                    /* Margen alrededor del contenedor */
-                }
-
-                .img-right {
-                    width: 50%;
-                    /* Ajusta el ancho de la imagen */
-                    height: auto;
-                    /* Mantiene la proporción de la imagen */
-                    float: right;
-                    /* Flota la imagen a la derecha del contenedor */
-                    margin-left: 20px;
-                    /* Espacio entre la imagen y el texto */
-                }
-
-                .img-left {
-                    width: 50%;
-                    /* Ajusta el ancho de la imagen */
-                    height: auto;
-                    /* Mantiene la proporción de la imagen */
-                    float: left;
-                    /* Flota la imagen a la derecha del contenedor */
-                    margin-right: 20px;
-                    /* Espacio entre la imagen y el texto */
-                }
-
-                /* Opcional: Estilo para el párrafo que sigue a la imagen */
-                .image-text-container p {
-                    margin-top: 0;
-                    /* Opcional: Elimina el margen superior del párrafo para una alineación más precisa */
-                }
-            </style>

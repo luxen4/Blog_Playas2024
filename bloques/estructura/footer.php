@@ -1,8 +1,6 @@
 <div id="#" class="container my-4 text-center">
 <hr>
-
     <h2>Oficinas de Turismo</h2>
-
 
     <div class="row">
         <div class="col-xl-3 text-center col-lg-3 col-md-3 col-sm-3 col-3">
@@ -12,7 +10,7 @@
             <h6><a href="https://www.islacantabria.com/inicio">Isla</a></h6>
             <h6><a href="http://nojaturismo.com/">Noja</a></h6>
             <h6><a href="https://www.laredo.es/09/oficina_turismo.php">Laredo</a></h6>
-            <h6><a href="./../../ficha_castro_urdiales.php">Castro-Urdiales</a></h6>
+            <h6><a href="https://turismo.castro-urdiales.net/">Castro-Urdiales</a></h6>
 
             <?php // <h6><a href="http://turismo.castro-urdiales.net/turcastro/planifica-tu-viaje/oficina-de-turismo">Castro-Urdiales</a></h6> 
             ?>

@@ -4,6 +4,8 @@
     
     <?php // Barra de navegacion //
     $src = './../../../../mifoto.png';
+
+  
     include_once $ruta . '/barra_navegacion2.php';?>
 
     <?php // Carga de anuncios de productos

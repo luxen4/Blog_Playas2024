@@ -973,3 +973,28 @@ Cada 2 dias que se haga una consulta a la base de datos y se genere un archivo d
 así no se consultará la base de datos numerosas veces.
 
 
+
+
+CREATE TABLE `amazon_sandals_man_images` (
+  `amazon_sandals_man_images_id` int(11) NOT NULL,
+  `href` varchar(255) NOT NULL,
+  `src` varchar(255) NOT NULL,
+  `alt` varchar(255) NOT NULL,
+  `marca` varchar(32) NOT NULL,
+  `precio` decimal(10,2) DEFAULT NULL,
+  `direccion` varchar(255) NOT NULL
+) ;
+
+--
+-- Volcado de datos para la tabla `amazon_sandals_man_images`
+--
+
+INSERT INTO `amazon_sandals_man_images` (`amazon_sandals_man_images_id`, `href`, `src`, `alt`, `marca`, `precio`, `direccion`) VALUES
+(1, 'https://amzn.to/3z3xTue', 'https://m.media-amazon.com/images/I/41mY0KK8HJL._AC_UF480,480_SR480,480_.jpg', 'Sandalias Deportivas Hombres Verano Exterior Senderismo Zapatos Trekking Casual Zapatos de Montaña Cuero Sandalias de Playa', 'FLARUT', '39.99', 'izquierda_45'),
+(2, 'https://amzn.to/4dTTsMP', 'https://m.media-amazon.com/images/I/51vXJRVUrwL._AC_UF480,480_SR480,480_.jpg', 'rismart Hombre Punta Cerrado Gancho y Bucle Al Aire Libre Excursionismo Cuero Zapatos Sandalias y Chanclas', 'rismart', '36.90', 'izquierda_45'),
+(3, 'https://amzn.to/3XgCd2NN', 'https://m.media-amazon.com/images/I/51nH7AEfI6L._AC_UF480,480_SR480,480_.jpg', 'Unitysow Sandalias Hombre Verano Sandalia de Senderismo Al Aire Libre Deportivas Sandalias Casual Cuero Sandalias Ligero Sandalias de Playa 39-46', 'Unitysow', '30.67', 'izquierda_45'),
+(4, 'https://amzn.to/3MgUvuv', 'https://m.media-amazon.com/images/I/51PLh7kVXXL._AC_UF480,480_SR480,480_.jpg', 'Moudn Sandalias Deportivas Hombres Verano Exterior Senderismo Playa Cuero Zapatos Trekking Casual Al Aire Libre Sandalias', 'Moudn', '40.98', 'izquierda_45'),
+(5, 'https://amzn.to/3X0KINR', 'https://images-eu.ssl-images-amazon.com/images/I/71Rlu7o7nJL._AC_UL165_SR165,165_.jpg', 'FLARUT Sandalias Deportivas Hombres Verano Exterior Senderismo Zapatos Trekking Casual Zapatos de Montaña Cuero Sandalias de Playa', 'FLARUT', '39.99', 'izquierda_45'),
+(6, 'https://amzn.to/4cUFLwl', 'https://m.media-amazon.com/images/I/51PvJwL1o0L._AC_UF480,480_SR480,480_.jpg', 'Unitysow Sandalias Hombre Verano Sandalia de Senderismo Al Aire Libre Deportivas Sandalias Casual Cuero Sandalias Ligero Sandalias de Playa 39-46', 'Unitysow', '30.93', 'izquierda_45'),
+(7, 'https://amzn.to/3YZ04Fw', 'https://m.media-amazon.com/images/I/5159DsUAY6L._AC_UF480,480_SR480,480_.jpg', 'Lvptsh Sandalias Hombre Zapatillas de Senderismo Transpirable Peso Ligero Cuero Camper Deportivas Sandalias Al Aire Libre Pescador Playa Zapatos 38-46', 'Lvptsh', '33.99', 'izquierda_45'),
+(8, 'https://amzn.to/3T2FcJo', 'https://images-eu.ssl-images-amazon.com/images/I/61W7BSjso4L._AC_UL165_SR165,165_.jpg', 'rismart Hombre Punta Cerrado Gancho y Bucle Al Aire Libre Excursionismo Cuero Zapatos Sandalias y Chanclas', 'ristmart', '36.90', 'izquierda_45');

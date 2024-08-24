@@ -1,6 +1,6 @@
 <?php
 $servername = $_SERVER['SERVER_NAME'];
-$require = './../../../../products_amazon/conexion.php';
+$require = './../../../../../products_amazon/conexion.php';
 
 
 
@@ -13,7 +13,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -29,7 +29,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -45,7 +45,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -55,12 +55,12 @@ $articulo = 'sandals_man';
 $grupo = '_2';
 $var_base = 'images_sandals_man_2_';
 $table = 'amazon_sandals_man_images';
-$where = 'where marca = "FLARUT"';
+$where = 'where direccion = "izquierda_45"';
 if ($page == 'home'){ 
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -75,7 +75,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -90,7 +90,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -103,7 +103,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -119,7 +119,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -133,7 +133,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -146,7 +146,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -159,24 +159,12 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
 
 
-
-$articulo = 'sandals_man';
-$grupo = '_2';
-$var_base = 'images_sandals_man_2_';
-$table = 'amazon_sandals_man_images';
-$where = 'where marca = "FLARUT"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../products_amazon/sql_generica.php';
-}
 
 
 $articulo = 'camiseta_deporte_manga_corta';
@@ -188,7 +176,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
     
@@ -201,7 +189,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -215,7 +203,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -230,7 +218,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -251,7 +239,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 // Hacer más
@@ -267,7 +255,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -282,7 +270,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -297,7 +285,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 $articulo = 'sneakers_izquierda_45';
@@ -310,7 +298,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -324,7 +312,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -339,9 +327,24 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../products_amazon/sql_generica.php';
+    require './../../../../../products_amazon/sql_generica.php';
 }
 
 
 //$images_shirts_1_1 = []; $images_shirts_1_2 = []; $images_shirts_1_3 = []; $images_shirts_1_4 = [];
-//require   './../../../../products_amazon/sql.php';*/
+//require   './../../../../../products_amazon/sql.php';*/
+
+
+
+/*
+$articulo = 'sandals_man';
+$grupo = '_2';
+$var_base = 'images_sandals_man_2_';
+$table = 'amazon_sandals_man_images';
+$where = 'where marca = "FLARUT"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../../products_amazon/sql_generica.php';
+}*/

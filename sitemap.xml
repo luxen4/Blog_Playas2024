@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadesuances/fichas/ficha_playadesuances.php</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadesomo/fichas/ficha_playadesomo.php</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadegorliz/fichas/ficha_playadegorliz.php</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadegetxo/fichas/ficha_playadegetxo.php</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadegetaria/fichas/ficha_playadegetaria.php</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadehendaya/fichas/ficha_playadehendaya.php</loc>
+        <lastmod>2024-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadelaredo/fichas/ficha_playadebiarritz.php</loc>

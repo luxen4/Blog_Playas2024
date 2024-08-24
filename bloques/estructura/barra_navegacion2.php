@@ -1,4 +1,16 @@
 <?php // Barra de navegación // ?>
+
+<?php 
+
+if(!isset($page)){
+    $nivel = '';
+}else{
+    $nivel = './../../../../../';
+}
+
+
+?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!--<div>
     <a class="navbar-brand" href="#">
@@ -15,24 +27,26 @@
         <ul class="navbar-nav ml-auto" style="margin: auto;">
 
             <li class="nav-item active">
-            <!--<a class="nav-link" href="<?= $_SERVER['SERVER_NAME'];?>">Inicio <span class="sr-only"></span></a>-->
-            <a class="nav-link" href="<?= $href_lugar;?>">Inicio <span class="sr-only"></span></a>
+            <!--<a class="nav-link" href="<?= $_SERVER['SERVER_NAME'];?>">Inicio <span class="sr-only"></span></a>
+            <a class="nav-link" href="<?= $href_lugar;?>">Inicio <span class="sr-only"></span></a>-->
+            <a class="nav-link" href="<?= $nivel; ?>">Inicio <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?= $href_zona; ?>/#cantabria">Cantabria</a>
+                <!--<a class="nav-link" href="<?= $href_zona; ?>/#cantabria">Cantabria</a>-->
+                <a class="nav-link" href="<?= $nivel; ?>#cantabria">Cantabria <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?= $href_zona; ?>/#vizcaya">Vizcaya<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $nivel . "#vizcaya"?>">Vizcaya<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?= $href_zona; ?>/#guipuzcoa">Guipuzkoa<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $nivel; ?>#guipuzkoa">Guipuzkoa<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?= $href_zona; ?>/#francia">Francia<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $nivel; ?>#francia">Francia<span class="sr-only"></span></a>
             </li>
 
 

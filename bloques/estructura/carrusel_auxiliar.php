@@ -25,7 +25,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
                                 <?php
                                 for ($i = 1; $i <= 4; $i++) {
                                     // Generate variable names dynamically
-                                    $articulo_var = $articulo . $grupo . '_' . $i;
+                                    $articulo_var = $articulo . $grupo . '_' . $i; // echo($articulo_var);
                                     $images_articulo_var = 'images_' . $articulo_var;
 
                                     // Render the HTML

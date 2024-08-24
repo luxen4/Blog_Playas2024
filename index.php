@@ -22,7 +22,7 @@
     $href_zona = './../../../../Blog_Playas2024/index.php';
     include_once 'bloques/estructura/barra_navegacion2.php'; ?>
     <?php include_once 'bloques/estructura/barra_navegacion2.php';?>
-    <?php $page='home'; ?>
+    <?php $page = 'home'; ?>
     <?php //$require = $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/products_amazon/sql_generica.php' ; ?>
     <?php //include_once 'bloques/estructura/anuncios/carga_productos.php'; ?>
 
@@ -30,6 +30,7 @@
 
 
     <?php 
+
     $ruta = './bloques/estructura/';
     include $ruta . '/basico.php'; 
     
@@ -42,7 +43,7 @@
 
             <hr><?php                         
             $articulo = 'shorts'; $grupo = '_3';
-            //include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
+            // include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?><hr>
 
 
 <!--
@@ -126,6 +127,22 @@
                 
 
                 <?php include 'bloques/localidades/index.php'; ?>
+
+                <?php
+                $localidad_nombre = 'Playa de Suances';
+                $localidad = 'Playa de Suances';
+                $ruta_localidad = 'playadesuances';
+                $presentacion = 'Suances es una vibrante localidad costera situada en Cantabria, al norte de España. Famosa por su extensa playa de arena dorada, la Playa de Suances es un destino ideal tanto para los entusiastas del surf como para las familias que buscan disfrutar de un día de sol y mar. La playa cuenta con excelentes instalaciones, incluyendo restaurantes, bares y tiendas. Además, Suances ofrece un entorno natural impresionante con vistas al Mar Cantábrico y proximidad a la ciudad de Santander. Es el lugar perfecto para disfrutar de actividades acuáticas, relajarse en la playa y degustar la rica gastronomía local basada en mariscos frescos y platos típicos cántabros.';
+                include 'bloques/localidades/index.php';
+                ?>
+
+                <?php
+                $localidad_nombre = 'Playa de Somo';
+                $localidad = 'Playa de Somo';
+                $ruta_localidad = 'playadesomo';
+                $presentacion = 'Somo es una popular localidad costera situada en Cantabria, al norte de España. Conocida por su extensa playa de arena dorada, la Playa de Somo es un destino destacado para los amantes del surf y las actividades acuáticas. Esta playa ofrece un ambiente vibrante y una amplia gama de servicios, incluyendo restaurantes, bares y tiendas. Además de su atractivo costero, Somo cuenta con un entorno natural impresionante, con vistas al Mar Cantábrico y a la ciudad de Santander. Es el lugar perfecto para disfrutar de la playa, el sol y una rica gastronomía basada en productos frescos del mar.';
+                include 'bloques/localidades/index.php';
+                ?>
                
                 <?php
                 $localidad_nombre = 'Playa de Noja';
@@ -175,11 +192,27 @@
 
 
                 <h2 id="vizcaya">Vizcaya</h2>
+
+                <?php
+                $localidad_nombre = 'Playa de Gorliz';
+                $localidad = 'Playa de Gorliz';
+                $ruta_localidad = 'playadegorliz';
+                $presentacion = 'Situada en la costa del País Vasco, la Playa de Gorliz es un refugio ideal para quienes buscan relajarse y disfrutar del mar. Con su amplia franja de arena dorada y aguas tranquilas, esta playa es perfecta para familias y amantes de la tranquilidad. Rodeada de un hermoso paisaje natural y bien equipada con servicios, la Playa de Gorliz también ofrece un ambiente acogedor y diversas actividades para todos los gustos.';
+                include 'bloques/localidades/index.php'; ?>
+
+                <?php
+                $localidad_nombre = 'Playa de Getxo';
+                $localidad = 'Playa de Getxo';
+                $ruta_localidad = 'playadegetxo';
+                $presentacion = 'La Playa de Getxo, situada en la costa de Bizkaia, es un popular destino costero del País Vasco. Con su amplia oferta de actividades acuáticas, espectaculares vistas del mar Cantábrico, y una vibrante vida cultural y gastronómica, Getxo es ideal tanto para los amantes del surf como para quienes buscan relajarse y disfrutar de su entorno natural.';
+                include 'bloques/localidades/index.php'; ?>
+
+
                 <?php
                 $localidad_nombre = 'Playa de Laga';
                 $localidad = 'Playa de Laga';
                 $ruta_localidad = 'playadelaga';
-                $presentacion = 'La Playa de Laga, ubicada en la costa de Bizkaia en el País Vasco, es un paraíso natural dentro del Parque Natural de Urdaibai, una Reserva de la Biosfera declarada por la UNESCO. <br>Con su arena dorada y su entorno rodeado de acantilados y vegetación exuberante, es un destino perfecto para quienes buscan tranquilidad y belleza natural.<br>Además, es popular entre los surfistas gracias a sus olas y es ideal para el senderismo y la observación de aves. <br>La playa de Laga ofrece una experiencia única donde la naturaleza y el mar se encuentran en su máximo esplendor..';
+                $presentacion = 'La Playa de Laga, ubicada en la costa de Bizkaia en el País Vasco, es un paraíso natural dentro del Parque Natural de Urdaibai, una Reserva de la Biosfera declarada por la UNESCO. <br>Con su arena dorada y su entorno rodeado de acantilados y vegetación exuberante, es un destino perfecto para quienes buscan tranquilidad y belleza natural.<br>Además, es popular entre los surfistas gracias a sus olas y es ideal para el senderismo y la observación de aves. <br>La playa de Laga ofrece una experiencia única donde la naturaleza y el mar se encuentran en su máximo esplendor.';
                 include 'bloques/localidades/index.php'; ?>
 
                 <?php
@@ -190,12 +223,7 @@
                 include 'bloques/localidades/index.php'; ?>
 
 
-                <?php
-                $localidad_nombre = 'Playa de Gorliz';
-                $localidad = 'Playa de Gorliz';
-                $ruta_localidad = 'playadegorliz';
-                $presentacion = 'Situada en la costa del País Vasco, la Playa de Gorliz es un refugio ideal para quienes buscan relajarse y disfrutar del mar. Con su amplia franja de arena dorada y aguas tranquilas, esta playa es perfecta para familias y amantes de la tranquilidad. Rodeada de un hermoso paisaje natural y bien equipada con servicios, la Playa de Gorliz también ofrece un ambiente acogedor y diversas actividades para todos los gustos.';
-                include 'bloques/localidades/index.php'; ?>
+
 
                 <?php
                 $localidad_nombre = 'Playa de Lekeitio';
@@ -247,6 +275,14 @@
                 include 'bloques/localidades/index.php'; ?>
 
                 <h2 id="guipuzkoa">Guipuzkoa</h2>
+
+                <?php
+                $localidad_nombre = 'Playa de Getaria';
+                $localidad = 'Playa de Getaria';
+                $ruta_localidad = 'playadegetaria';
+                $presentacion = 'La playa de Getaria, situada en la costa guipuzcoana, es un auténtico paraíso natural donde se fusionan la serenidad del mar Cantábrico y la belleza de un entorno protegido. Con su amplia extensión de arena dorada y fina, es ideal para disfrutar de un día de sol, practicar surf o simplemente relajarse mientras se contempla el paisaje. Además, su proximidad al Geoparque de la Costa Vasca la convierte en un destino perfecto para los amantes de la naturaleza y la geología, ofreciendo una experiencia única en un entorno incomparable.';
+                include 'bloques/localidades/index.php'; ?>
+
                 <?php
                 $localidad_nombre = 'Playa de Deba';
                 $localidad = 'Playa de Deba';
@@ -271,8 +307,9 @@
 
 
 
-
+                                            
                 <h2 id="francia">Francia</h2>
+                <?php $region='francia';?>
                 <?php
                 $localidad_nombre = 'Playa de Hendaya';
                 $localidad = 'Playa de Hendaya';

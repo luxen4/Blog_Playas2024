@@ -38,7 +38,7 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
 
     <!-- Favicon -->
-    <link rel="icon" href="./../../../../img/icono-sombrilla.ico" type="image/x-icon">
+    <link rel="icon" href="./../../../../../img/icono-sombrilla.ico" type="image/x-icon">
 
     <?php /*
     <!-- Si usas un formato PNG o SVG -->
@@ -61,5 +61,5 @@
     <!-- Ads Script -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
 
-    <?php include_once 'structured_data.php'; ?>
+    <?php include_once 'structured_data_generico.php'; ?>
 </head>

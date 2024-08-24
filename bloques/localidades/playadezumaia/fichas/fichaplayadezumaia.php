@@ -65,7 +65,7 @@
 
 <body>
     <?php 
-    $page = 'castrourdiales';
+    $page = 'zumaia';
     $ruta = './../../../../bloques/estructura';
     include './../../../../bloques/estructura/basico.php'; ?>
 

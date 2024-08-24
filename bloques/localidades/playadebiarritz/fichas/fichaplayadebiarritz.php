@@ -185,9 +185,6 @@ require "./../../../../bloques/estructura/head.php";
 
         <!-- Galería de Imágenes -->
         <section id="galeria" class="gallery container my-5">
-
-
-
             <?php // Carrusel de 3 Imágenes //
             $lugar = 'playadebiarritz';
             $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';

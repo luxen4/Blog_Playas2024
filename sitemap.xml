@@ -36,19 +36,30 @@
         <priority>1.0</priority>
     </url>
 
+
+    <!-- Francia -->
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadehendaya/fichas/ficha_playadehendaya.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadelaredo/fichas/fichaplayadebiarritz.php</loc>
         <lastmod>2024-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadelaredo/fichas/ficha_playadebiarritz.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadehendaya/fichas/fichaplayadehendaya.php</loc>
         <lastmod>2024-08-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadesanjuandeluz/fichas/fichaplayadesanjuandeluz.php</loc>
+        <lastmod>2024-08-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Francia -->
+
 
 
 

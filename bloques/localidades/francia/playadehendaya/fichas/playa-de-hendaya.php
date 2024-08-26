@@ -10,21 +10,21 @@ $keywords_content = 'Playa de Hendaya, País Vasco francés, sol, mar, turismo e
 
 $graph_Meta_Tags_property_title = 'Playa de Hendaya - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/playadehendaya/foto_presentacion.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/playadehendaya/fichas/fichaplayadehendaya.php';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playadehendaya.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Hendaya - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/playadehendaya/foto_presentacion.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/playadehendaya/fichas/fichaplayadehendaya.php?i=1';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playadehendaya.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Hendaya - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/playadehendaya/foto_presentacion.jpg';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -35,7 +35,7 @@ $localidad = 'Berria';
 $localidad_minuscula = 'berria';
 
 $descripcion = 'Explora la Playa de Berria, una impresionante playa en Cantabria, ideal para el surf y el descanso en un entorno natural privilegiado.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/playadeberria/fichas/fichaplayadeberria.php';
+$url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadeberria/fichas/playadeberria.php';
 
 $mainEntity_description = 'La Playa de Berria es una hermosa playa situada en Santoña, Cantabria, conocida por su arena dorada y sus excelentes condiciones para el surf.';
 $mainEntity_addressLocality = 'Santoña';
@@ -46,7 +46,7 @@ $mainEntity_geo_latitude = 43.4672;
 $mainEntity_geo_longitude = -3.4366;
 
 $mainEntity_image = 'https://example.com/path/to/berria-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/playade' . $localidad_minuscula . '/fichas/fichaplayade' . $localidad_minuscula . '.php';
+$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playade' . $localidad_minuscula . '/fichas/playade' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../../bloques/estructura/head.php"; ?>
@@ -155,7 +155,7 @@ require "./../../../../../bloques/estructura/head.php"; ?>
         <section id="galeria" class="gallery container">
             <?php // Carrusel de 3 Imágenes //
             $lugar = 'francia/playadehendaya';
-            $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
+            $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/francia/' . $lugar . '/img';
             $imges_name = ['/playa-de-hendaya_1.jpg', '/playa-de-hendaya_2.jpg', '/playa-de-hendaya_4.jpg'];
             $alt = ["Playa de Hendaya", "Vista aerea de la Playa de Hendaya.", "Vista panorámica de la Playa de Hendaya."];
             require './../../../../../bloques/estructura/carruselimagenes/carruselgenerico.php'; ?>
@@ -163,7 +163,7 @@ require "./../../../../../bloques/estructura/head.php"; ?>
 
             <?php // Galeria 3 imagenes //
             $lugar = 'francia/playadehendaya';
-            $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
+            $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/francia/' . $lugar . '/img';
             $imges_name = ['/surfistas-playa-de-hendaya.png', '/casino-playa-de-hendaya.png', '/turistas-paseando-por-la-playa-de-hendaya.jpg'];
             $alt = [
                 "Surfistas en la Playa de Hendaya",
@@ -211,7 +211,7 @@ require "./../../../../../bloques/estructura/head.php"; ?>
 
     <?php
     // include_once './../js/logica_anuncios.php'; 
-    // include_once './../../../../bloques/localidades/castrourdiales/js/logica_anuncios.php'; 
+    // include_once './../../../../bloques/localidades/francia/castrourdiales/js/logica_anuncios.php'; 
     ?>
 
     <!-- Enlace a los scripts de Bootstrap -->

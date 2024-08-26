@@ -49,6 +49,10 @@ require "./../../../../../bloques/estructura/head.php";
     $ruta = './../../../../../bloques/estructura';
     //$href_lugar = 'ficha_playadehendaya';
     include './../../../../../bloques/estructura/basico.php'; ?>
+
+
+
+
 <!-- Header -->
 <header class="bg-primary text-white text-center py-5">
     <h1>Playa de San Juan de Luz</h1>

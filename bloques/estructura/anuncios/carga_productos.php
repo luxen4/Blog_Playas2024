@@ -223,7 +223,17 @@ if ($page == 'home'){
 
 
 
-
+$articulo = 'mochilas';
+$grupo = '_2';
+$var_base = 'images_mochilas_2_';
+$table = 'amazon_mochilas_images';
+//$where = 'where direccion = "izquierda_15"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../../products_amazon/sql_generica.php';
+}
 
 
 

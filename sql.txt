@@ -59,8 +59,6 @@ CREATE TABLE IF NOT EXISTS amazon_sneakers_images (
 
 INSERT INTO amazon_sneakers_images (href, src, alt, marca, precio, direccion) VALUES
 
-
-
 ('https://amzn.to/4fBJLnN',
 'https://m.media-amazon.com/images/I/81EFN0rUVBL._AC_SX625_.jpg',
 'Zapatillas marca Skechers Hombre',
@@ -87,67 +85,65 @@ CREATE TABLE IF NOT EXISTS amazon_shorts_images (
 
 
 INSERT INTO amazon_shorts_images (href, src, alt, marca, precio, direccion) VALUES
-('https://amzn.to/3McgAtT',
+('https://amzn.to/3YUJl6b',
 'https://m.media-amazon.com/images/I/61A5rpxOQQL._AC_SX569_.jpg',
-'Pantalones deportivos para hombre Csqtongan',
-'Csqtongan',
-22.99,
-'frente'),
-
-('https://amzn.to/4cyJsrm',
-'https://m.media-amazon.com/images/I/719ieBktVFS._AC_SX679_.jpg',
-'Pantalones Cortos Hombre Deporte Running Tansozer',
-'Tansozer',
-33.99,
-'frente'),
-
-('https://amzn.to/4fHKe81',
-'https://m.media-amazon.com/images/I/61mbWC+M4+L._AC_SX679_.jpg',
-'Pantalones Cortos Hombre Deporte Shorts Running con Cremallera JustSun',
-'JustSun',
-32.99,
-'frente'),
-
-('https://amzn.to/4csodYb',
-'https://m.media-amazon.com/images/I/71KmgyRGcJL._AC_SX679_.jpg',
-'Pantalones Cortos Casuales de Verano para Hombres LY4U',
+'LY4U Pantalones Cortos Deportivos Casuales para Hombre con Bolsillos con Cremallera en la Cintura Elástica',
 'LY4U',
 19.99,
 'frente'),
 
-('https://amzn.to/3YJulHZ',
-'https://m.media-amazon.com/images/I/61-JH8TRNvS._AC_SX679_.jpg',
-'Pantalones Cortos Deportivos de algodón para Hombre Biutimarden',
-'Biutimarden',
-44.99,
-'frente'),
-
-('https://amzn.to/4fGMxbt',
-'https://m.media-amazon.com/images/I/717oK60vsiL._AC_SX679_.jpg',
-'Pantalones Cortos Cargo para Hombre Btmpmcs',
-'Btmpmcs',
-32.99,
+('https://amzn.to/3AHvi9Z',
+'https://images-eu.ssl-images-amazon.com/images/I/71CFTMk+t5L._AC_UL165_SR165,165_.jpg',
+'Tansozer Pantalones Cortos Hombre Deporte Running',
+'Tansozer',
+18.08,
 'frente'),
 
 
-
-('https://amzn.to/3X2iRy5',
-'https://m.media-amazon.com/images/I/818F0AQgPFL._AC_SX679_.jpg',
-'Pantalones Cortos Transpirables Escalada Aire Libre,Azul Lago KEFITEVD',
-'KEFITEVD',
-39.99,
+('https://amzn.to/3X2yWm7',
+'https://m.media-amazon.com/images/I/61A5rpxOQQL._AC_UF480,600_SR480,600_.jpg',
+'Csqtongan Pantalones deportivos para hombre, pantalones cortos para hombre, pantalones cortos de verano, algodón, pantalones cortos de deporte, elásticos, para gimnasio, con bolsillo',
+'Csqtongan',
+22.99,
 'frente'),
 
-
-('https://amzn.to/3X2YJMf',
-'https://m.media-amazon.com/images/I/61oF7QUOonL._AC_SX679_.jpg',
-'Pantalones Cortos Hombre Verano Shorts Casual Chino con Bolsillos JustSun',
+('https://amzn.to/3WXNrrz',
+'https://m.media-amazon.com/images/I/51V8lb5FHvL._AC_UF480,600_SR480,600_.jpg',
+'JustSun Pantalones Cortos Hombre Deporte Shorts Running con Cremallera',
 'JustSun',
-33.99,
+30.99,
+'frente'),
+
+
+
+('https://amzn.to/3MnJqI5',
+'https://m.media-amazon.com/images/I/61JXEdgTDqL._AC_UF480,600_SR480,600_.jpg',
+'Csqtongan Pantalones cortos de verano para hombre, pantalones cortos deportivos de algodón, para gimnasio, correr, elásticos, con bolsillos',
+'Csqtongan',
+20.99,
+'frente'),
+
+('https://amzn.to/3yRrfaC',
+'https://m.media-amazon.com/images/I/41S0X85MNmS._AC_UF480,600_SR480,600_.jpg',
+'Tansozer Pantalones Cortos Hombre Deporte Running',
+'Tansozer',
+25.49,
+'frente'),
+
+
+('https://amzn.to/4cM3EWt',
+'https://images-eu.ssl-images-amazon.com/images/I/71LrCOcS+OL._AC_UL165_SR165,165_.jpg',
+'Tansozer Pantalones Cortos Hombre Deporte Running',
+'Tansozer',
+28.89,
+'frente'),
+
+('https://amzn.to/3ySKy3f',
+'https://images-eu.ssl-images-amazon.com/images/I/71lBgWum+sL._AC_UL165_SR165,165_.jpg',
+'LY4U Pantalones Cortos Deportivos Casuales para Hombre con Bolsillos con Cremallera en la Cintura Elástica',
+'LY4U',
+19.99,
 'frente')
-
-
-
 
 ;
 
@@ -273,61 +269,6 @@ INSERT INTO amazon_sandals_man_images (href, src, alt, marca, precio, direccion)
 'Sandalias Deportivas Hombres',
 'FLARUT',
 33.99,
-'izquierda_45º'),
-
-
-('https://amzn.to/3zXOGz5',
-'https://m.media-amazon.com/images/I/71Rlu7o7nJL._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
-'izquierda_45º'),
-
-
-('https://amzn.to/4dkoMUN',
-'https://m.media-amazon.com/images/I/71F5Ksdb9XL._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
-'izquierda_45º'),
-
-
-('https://amzn.to/4ffXC33',
-'https://m.media-amazon.com/images/I/61i0SzFmOsL._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
-'izquierda_45º'),
-
-('https://amzn.to/3WiXXcz',
-'https://m.media-amazon.com/images/I/71UnstpDuAL._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
-'izquierda_45º'),
-
-
-('https://amzn.to/46mFAIh',
-'https://m.media-amazon.com/images/I/71vb8Jt1AXS._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
-'izquierda_45º'),
-
-
-('https://amzn.to/3zWhjNj',
-'https://m.media-amazon.com/images/I/71YbMv0lNEL._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
-'izquierda_45º'),
-
-
-('https://amzn.to/4d1styY',
-'https://m.media-amazon.com/images/I/71-EkdLHjPL._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
 'izquierda_45º')
 ;
 
@@ -357,57 +298,6 @@ INSERT INTO amazon_dress_woman_images (href, src, alt, marca, precio, direccion)
 'Vestido Mujer marca The Drop',
 'The Drop',
 41.93,
-'modelo_izquierda_liso'),
-
-('https://amzn.to/3WLB8Ql',
-'https://m.media-amazon.com/images/I/61SInBv736L._AC_SY741_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-41.93,
-'modelo_derecha_liso'),
-
-('https://amzn.to/3yj8mNr',
-'https://m.media-amazon.com/images/I/81EbnG6-NaL._AC_SX569_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-45.85,
-'modelo_frente_estampado'),
-
-('https://amzn.to/4dnXI6K',
-'https://m.media-amazon.com/images/I/81WKW7-ee2L._AC_SX569_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-41.93,
-'modelo_derecha_estampado'),
-
-
-
-('https://amzn.to/3YwCBuO',
-'https://m.media-amazon.com/images/I/71xbyafFlyL._AC_SX569_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-41.93,
-'modelo_frente_liso'),
-
-('https://amzn.to/3WucWR5',
-'https://m.media-amazon.com/images/I/81NKOdKIG6L._AC_SX569_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-41.59,
-'modelo_derecha_estampado'),
-
-('https://amzn.to/3A4xMiq',
-'https://m.media-amazon.com/images/I/81wMmtnXt6L._AC_SX569_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-46.36,
-'modelo_derecha_estampado'),
-
-('https://amzn.to/46pGPqg',
-'https://m.media-amazon.com/images/I/71LYH+C5j0L._AC_SX569_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-41.93,
 'modelo_izquierda_liso')
 
 ;
@@ -434,121 +324,7 @@ INSERT INTO amazon_purse_woman_images (href, src, alt, marca, precio, direccion)
 'Bolso Mujer marca énvo',
 'énvo',
 49.99,
-'frente'),
-
-('https://amzn.to/3SwN31V',
-'https://m.media-amazon.com/images/I/51rKlv2LMtL._AC_SY625_.jpg',
-'Bolso Mujer marca énvo',
-'énvo',
-49.99,
-'frente'),
-
-('https://amzn.to/4c8aDJk',
-'https://m.media-amazon.com/images/I/419yVmST9AL._AC_SY625_.jpg',
-'Bolso Mujer marca énvo',
-'énvo',
-49.99,
-'frente'),
-
-
-
-
-
-
-('https://amzn.to/4fuivrb',
-'https://m.media-amazon.com/images/I/51KLZXQjIIL._AC_SY625_.jpg',
-'Bolso Mujer marca MODELISA',
-'MODELISA',
-34.99,
-'frente'),
-
-('https://amzn.to/3LPSC7E',
-'https://m.media-amazon.com/images/I/41tVOJLJ37L._AC_SY625_.jpg',
-'Bolso Mujer marca MODELISA',
-'MODELISA',
-34.99,
-'frente'),
-
-
-
-
-
-
-('https://amzn.to/3AaIi7N',
-'https://m.media-amazon.com/images/I/81q46HwF1DL._AC_SY625_.jpg',
-'Bolso Mujer marca Myhozee',
-'Myhozee',
-19.54,
-'frente'),
-
-('https://amzn.to/4c587mR',
-'https://m.media-amazon.com/images/I/71iqqoTWKbL._AC_SY625_.jpg',
-'Bolso Mujer marca Myhozee',
-'Myhozee',
-18.80,
-'frente'),
-
-
-('https://amzn.to/3WIA5QZ',
-'https://m.media-amazon.com/images/I/61b2kz9P-yL._AC_SY625_.jpg',
-'Bolso Mujer marca Myhozee',
-'Myhozee',
-18.80,
-'frente'),
-
-
-
-('https://amzn.to/4fqh2Cp',
-'https://m.media-amazon.com/images/I/810fW5NH4KL._AC_SY625_.jpg',
-'Bolso Mujer marca JANSBEN',
-'JANSBEN',
-25.99,
-'frente'),
-
-('https://amzn.to/4fqh2Cp',
-'https://m.media-amazon.com/images/I/81-8xfb4NZL._AC_SY625_.jpg',
-'Bolso Mujer marca JANSBEN',
-'JANSBEN',
-25.79,
-'frente'),
-
-
-('https://amzn.to/4fqh2Cp',
-'https://m.media-amazon.com/images/I/61b2kz9P-yL._AC_SY625_.jpg',
-'Bolso Mujer marca JANSBEN',
-'JANSBEN',
-25.59,
-'frente'),
-
-('https://amzn.to/4fqh2Cp',
-'https://m.media-amazon.com/images/I/71vIJBS6zhL._AC_SY625_.jpg',
-'Bolso Mujer marca JANSBEN',
-'JANSBEN',
-25.99,
-'frente'),
-
-('https://amzn.to/4fqh2Cp',
-'https://m.media-amazon.com/images/I/71xNtsmJ3NL._AC_SY625_.jpg',
-'Bolso Mujer marca JANSBEN',
-'JANSBEN',
-25.99,
-'frente'),
-
-
-('https://amzn.to/4fqh2Cp',
-'https://m.media-amazon.com/images/I/61tpME7LmWL._AC_SY625_.jpg',
-'Bolso Mujer marca JANSBEN',
-'JANSBEN',
-25.99,
-'frente'),
-
-('https://amzn.to/4fqh2Cp',
-'https://m.media-amazon.com/images/I/81IfVqUJ0WL._AC_SY625_.jpg',
-'Bolso Mujer marca JANSBEN',
-'JANSBEN',
-25.99,
 'frente')
-
 ;
 
 
@@ -574,130 +350,7 @@ INSERT INTO amazon_sandals_woman_images (href, src, alt, marca, precio, direccio
 'Sandalias Mujer marca XTI',
 'XTI',
 33.94,
-'izda_15º'),
-
-('https://amzn.to/4fwK2s0',
-'https://m.media-amazon.com/images/I/61Ck4NTb8ML._AC_SX625_.jpg',
-'Sandalias Mujer marca XTI',
-'XTI',
-29.95,
-'izda_15º'),
-
-('https://amzn.to/4doCjuk',
-'https://m.media-amazon.com/images/I/61s7oZTkI+L._AC_SX625_.jpg',
-'Sandalias Mujer marca XTI',
-'XTI',
-33.94,
-'izda_15º'),
-
-('https://amzn.to/3yqxwtA',
-'https://m.media-amazon.com/images/I/71iVSBuIqCL._AC_SX625_.jpg',
-'Sandalias Mujer marca XTI',
-'XTI',
-44.92,
-'izda_15º'),
-
-
-
-
-
-
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71CIUhIvxzL._AC_SX625_.jpg',
-'Sandalias Mujer marca REFRESH',
-'REFRESH',
-29.95,
-'izda_15º'),
-
-('https://amzn.to/3YuVxtX',
-'https://m.media-amazon.com/images/I/71tiEUSkBRL._AC_SX625_.jpg',
-'Sandalias Mujer marca REFRESH',
-'REFRESH',
-29.95,
-'izda_15º'),
-
-('https://amzn.to/3WvpVC7',
-'https://m.media-amazon.com/images/I/71MIw2QKJeL._AC_SX625_.jpg',
-'Sandalias Mujer marca REFRESH',
-'REFRESH',
-29.95,
-'izda_15º'),
-
-('https://amzn.to/3AkarZW',
-'https://m.media-amazon.com/images/I/71Ild+rTwVL._AC_SX625_.jpg',
-'Sandalias Mujer marca REFRESH',
-'REFRESH',
-29.95,
-'izda_15º'),
-
-
-
-
-
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71bXIk7hsEL._AC_SX625_.jpg',
-'Sandalias Mujer marca CELANDA',
-'CELANDA',
-36.99,
-'izda_15º'),
-
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71iYyVn1JpL._AC_SX625_.jpg',
-'Sandalias Mujer marca CELANDA',
-'CELANDA',
-36.99,
-'izda_15º'),
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71J2Kic7dIL._AC_SX625_.jpg',
-'Sandalias Mujer marca CELANDA',
-'CELANDA',
-36.99,
-'izda_15º'),
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71XTSH1+N7L._AC_SX625_.jpg',
-'Sandalias Mujer marca CELANDA',
-'CELANDA',
-36.99,
-'izda_15º'),
-
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71hgTp-P4gL._AC_SX625_.jpg',
-'Sandalias Mujer marca CELANDA',
-'CELANDA',
-36.99,
-'izda_15º'),
-
-
-
-
-('https://amzn.to/3LOhf4z',
-'https://m.media-amazon.com/images/I/71uUTtXaV+L._AC_SY625_.jpg',
-'Sandalias Mujer marca Acfoda',
-'Acfoda',
-31.44,
-'izda_15º'),
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71dHxgdqnCL._AC_SY625_.jpg',
-'Sandalias Mujer marca CELANDA',
-'CELANDA',
-31.44,
-'izda_15º'),
-
-
-('https://amzn.to/3YsESas',
-'https://m.media-amazon.com/images/I/71RFD8yz+IL._AC_SY625_.jpg',
-'Sandalias Mujer marca CELANDA',
-'CELANDA',
-31.44,
 'izda_15º')
-
 ;
 
 
@@ -723,84 +376,7 @@ INSERT INTO amazon_jeans_woman_images (href, src, alt, marca, precio, direccion)
 'Jeans Hombre marca CEDY DENIM',
 'CEDY DENIM',
 42.90,
-'derecha'),
-
-
-('https://amzn.to/3yrcLxP',
-'https://m.media-amazon.com/images/I/61BjiFfwzpL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-
-
-('https://amzn.to/3MaLNOt',
-'https://m.media-amazon.com/images/I/71WJfjgHpuL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-
-('https://amzn.to/3yrcLxP',
-'https://m.media-amazon.com/images/I/61XhVCcRhSL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-('https://amzn.to/3MaLNOt',
-'https://m.media-amazon.com/images/I/71MewAVUTaL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-
-('https://amzn.to/3yrcLxP',
-'https://m.media-amazon.com/images/I/61PnxSn3nOL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-('https://amzn.to/3MaLNOt',
-'https://m.media-amazon.com/images/I/71HMiGo+RZL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-('https://amzn.to/3yrcLxP',
-'https://m.media-amazon.com/images/I/61Rv-AzZAkL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-('https://amzn.to/3yrcLxP',
-'https://m.media-amazon.com/images/I/61Y+IcHltGL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-('https://amzn.to/3MaLNOt',
-'https://m.media-amazon.com/images/I/519tbCD6BeL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha'),
-
-
-('https://amzn.to/3yrcLxP',
-'https://m.media-amazon.com/images/I/61MzjrmAgXL._AC_SX569_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
 'derecha')
-
 ;
 
 
@@ -942,7 +518,22 @@ Preparar cada pagina con un mismo tipo de carrusel de anuncios para simplicidad.
 
 CONTROL DE PÁGINAS
 
-                // Footer        // Barra de Navegación    // Subida al Hosting   // Pinterest    // Carruseles   // Sitemap
+                        // Footer   // Barra de Navegación  // Subida al Hosting    // Pinterest    // Carruseles   // Sitemap  // Structured_data.php
+
+-Francia-
+    Hendaya
+    San Juan de Luz
+    Biarritz
+
+
+
+-Fotografias uniformes-
+    shorts
+    sandals_man             Si
+    
+
+
+
 
 Playa de Berria    Si               Si                      Si              No              No         Si              Si
 
@@ -974,30 +565,6 @@ así no se consultará la base de datos numerosas veces.
 
 
 
-
-CREATE TABLE `amazon_sandals_man_images` (
-  `amazon_sandals_man_images_id` int(11) NOT NULL,
-  `href` varchar(255) NOT NULL,
-  `src` varchar(255) NOT NULL,
-  `alt` varchar(255) NOT NULL,
-  `marca` varchar(32) NOT NULL,
-  `precio` decimal(10,2) DEFAULT NULL,
-  `direccion` varchar(255) NOT NULL
-) ;
-
---
--- Volcado de datos para la tabla `amazon_sandals_man_images`
---
-
-INSERT INTO `amazon_sandals_man_images` (`amazon_sandals_man_images_id`, `href`, `src`, `alt`, `marca`, `precio`, `direccion`) VALUES
-(1, 'https://amzn.to/3z3xTue', 'https://m.media-amazon.com/images/I/41mY0KK8HJL._AC_UF480,480_SR480,480_.jpg', 'Sandalias Deportivas Hombres Verano Exterior Senderismo Zapatos Trekking Casual Zapatos de Montaña Cuero Sandalias de Playa', 'FLARUT', '39.99', 'izquierda_45'),
-(2, 'https://amzn.to/4dTTsMP', 'https://m.media-amazon.com/images/I/51vXJRVUrwL._AC_UF480,480_SR480,480_.jpg', 'rismart Hombre Punta Cerrado Gancho y Bucle Al Aire Libre Excursionismo Cuero Zapatos Sandalias y Chanclas', 'rismart', '36.90', 'izquierda_45'),
-(3, 'https://amzn.to/3XgCd2NN', 'https://m.media-amazon.com/images/I/51nH7AEfI6L._AC_UF480,480_SR480,480_.jpg', 'Unitysow Sandalias Hombre Verano Sandalia de Senderismo Al Aire Libre Deportivas Sandalias Casual Cuero Sandalias Ligero Sandalias de Playa 39-46', 'Unitysow', '30.67', 'izquierda_45'),
-(4, 'https://amzn.to/3MgUvuv', 'https://m.media-amazon.com/images/I/51PLh7kVXXL._AC_UF480,480_SR480,480_.jpg', 'Moudn Sandalias Deportivas Hombres Verano Exterior Senderismo Playa Cuero Zapatos Trekking Casual Al Aire Libre Sandalias', 'Moudn', '40.98', 'izquierda_45'),
-(5, 'https://amzn.to/3X0KINR', 'https://images-eu.ssl-images-amazon.com/images/I/71Rlu7o7nJL._AC_UL165_SR165,165_.jpg', 'FLARUT Sandalias Deportivas Hombres Verano Exterior Senderismo Zapatos Trekking Casual Zapatos de Montaña Cuero Sandalias de Playa', 'FLARUT', '39.99', 'izquierda_45'),
-(6, 'https://amzn.to/4cUFLwl', 'https://m.media-amazon.com/images/I/51PvJwL1o0L._AC_UF480,480_SR480,480_.jpg', 'Unitysow Sandalias Hombre Verano Sandalia de Senderismo Al Aire Libre Deportivas Sandalias Casual Cuero Sandalias Ligero Sandalias de Playa 39-46', 'Unitysow', '30.93', 'izquierda_45'),
-(7, 'https://amzn.to/3YZ04Fw', 'https://m.media-amazon.com/images/I/5159DsUAY6L._AC_UF480,480_SR480,480_.jpg', 'Lvptsh Sandalias Hombre Zapatillas de Senderismo Transpirable Peso Ligero Cuero Camper Deportivas Sandalias Al Aire Libre Pescador Playa Zapatos 38-46', 'Lvptsh', '33.99', 'izquierda_45'),
-(8, 'https://amzn.to/3T2FcJo', 'https://images-eu.ssl-images-amazon.com/images/I/61W7BSjso4L._AC_UL165_SR165,165_.jpg', 'rismart Hombre Punta Cerrado Gancho y Bucle Al Aire Libre Excursionismo Cuero Zapatos Sandalias y Chanclas', 'ristmart', '36.90', 'izquierda_45');
 
 
 ---Servidor---

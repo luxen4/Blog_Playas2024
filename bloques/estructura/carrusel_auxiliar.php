@@ -32,7 +32,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
                                     echo '
                             <div class="col-xl-3 text-center col-lg-3 col-md-3 col-sm-3 col-3">
                                 <a id="image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
-                                    <img style="padding: 0.5em;" id="image_' . $articulo_var . '" src="' . ${$images_articulo_var}[0]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . ${$images_articulo_var}[0]['alt'] . '">
+                                    <img id="image_' . $articulo_var . '" src="' . ${$images_articulo_var}[0]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . ${$images_articulo_var}[0]['alt'] . '">
                                 </a>
                             </div>';
                                 }

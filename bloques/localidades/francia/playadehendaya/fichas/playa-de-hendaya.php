@@ -11,7 +11,7 @@ $keywords_content = 'Playa de Hendaya, País Vasco francés, sol, mar, turismo e
 $graph_Meta_Tags_property_title = 'Playa de Hendaya - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
 $graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playadehendaya.php';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
@@ -19,7 +19,7 @@ $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Hendaya - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
 $twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playadehendaya.php?i=1';
+$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Hendaya - Información y Turismo';
@@ -31,21 +31,21 @@ $href_styles = './../fichas/css/styles.css';
 
 ////////
 // Para el archivo Structured_data_generico.php
-$localidad = 'Berria';
-$localidad_minuscula = 'berria';
+$localidad = 'Hendaya';
+$localidad_minuscula = 'hendaya';
 
-$descripcion = 'Explora la Playa de Berria, una impresionante playa en Cantabria, ideal para el surf y el descanso en un entorno natural privilegiado.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadeberria/fichas/playadeberria.php';
+$descripcion = 'Descubre la Playa de Hendaya, una de las playas más hermosas de Francia, perfecta para disfrutar del surf, paseos por la costa y vistas impresionantes al mar.';
+$url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php';
 
-$mainEntity_description = 'La Playa de Berria es una hermosa playa situada en Santoña, Cantabria, conocida por su arena dorada y sus excelentes condiciones para el surf.';
-$mainEntity_addressLocality = 'Santoña';
-$mainEntity_addressRegion = 'Cantabria';
-$mainEntity_addressCountry = 'España';
+$mainEntity_description = 'La Playa de Hendaya es una playa espectacular en la costa suroeste de Francia, conocida por su arena fina y dorada, su gran extensión, y sus condiciones ideales para el surf y otros deportes acuáticos.';
+$mainEntity_addressLocality = 'Hendaya';
+$mainEntity_addressRegion = 'Nueva Aquitania';
+$mainEntity_addressCountry = 'Francia';
 
-$mainEntity_geo_latitude = 43.4672;
-$mainEntity_geo_longitude = -3.4366;
+$mainEntity_geo_latitude = 43.3773;
+$mainEntity_geo_longitude = -1.7781;
 
-$mainEntity_image = 'https://example.com/path/to/berria-image.jpg';
+$mainEntity_image = 'https://example.com/path/to/hendaya-image.jpg';
 $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playade' . $localidad_minuscula . '/fichas/playade' . $localidad_minuscula . '.php';
 ////////
 

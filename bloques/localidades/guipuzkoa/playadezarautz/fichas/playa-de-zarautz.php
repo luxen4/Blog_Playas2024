@@ -77,11 +77,12 @@ $localidad = 'Zarautz'; ?>
 
 
 
-    <!-- Encabezado -->
-    <header class="container my-4">
-        <h1 class="text-center">Playa de Zarautz</h1>
-        <p class="text-center">Descubre la Playa de Zarautz, una joya costera en el País Vasco conocida por su amplia playa de arena y sus ideales olas para el surf. Ideal para disfrutar de un día soleado y explorar la vibrante vida local.</p>
-    </header>
+<!-- Encabezado -->
+<header class="container my-4">
+    <h1 class="text-center">Playa de Orio</h1>
+    <p class="text-center">Descubre la Playa de Orio, una encantadora playa en el País Vasco, conocida por su ambiente familiar, arena dorada y excelentes condiciones para el surf. Perfecta para disfrutar de un día relajado y explorar la pintoresca localidad de Orio.</p>
+</header>
+
         <?php $articulo = 'sandals_man'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
     <!-- Contenido principal -->
@@ -106,8 +107,6 @@ $localidad = 'Zarautz'; ?>
         <h6 id="masinfo">Para más información puede consultar en la pagina de la Oficina de Turismo de
             <a href="https://www.turismozarautz.eus/es/oficina-de-turismo">Zarautz</a>
         </h6>
-
-
     </main>
 
     <!-- Footer -->

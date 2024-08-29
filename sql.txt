@@ -319,13 +319,98 @@ INSERT INTO amazon_dress_woman_images (href, src, alt, marca, precio, direccion)
 
 INSERT INTO amazon_purse_woman_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/4d5KQCK',
-'https://m.media-amazon.com/images/I/51R77GKKKLL._AC_SY625_.jpg',
-'Bolso Mujer marca énvo',
-'énvo',
-49.99,
+('https://amzn.to/4cJiKMI',
+'https://m.media-amazon.com/images/I/315mwRK4r7L._AC_.jpg',
+'MODELISA - Bolso Saco Piel Antelina Shopper Made In Italy Mujer',
+'MODELISA',
+34.99,
+'frente'),
+
+('https://amzn.to/476HZqY',
+'https://m.media-amazon.com/images/I/41kSOdGI+ML._AC_UF480,480_SR480,480_.jpg',
+'Pahajim Mochila Mujer Antirrobo Bolso Mochila Casual Bolsa de Mano de PU Cuero Elegantes Impermeable Mochila Piel Bolso Hobo 2 en 1 para Salir Viaje Commute Trabaja (Marrón)',
+'Pahajim',
+26.99,
+'frente'),
+
+('https://amzn.to/3MotchO',
+'https://m.media-amazon.com/images/I/31itREoaNAL._AC_.jpg',
+'MODELISA - Bolso Shopper Hombro Antelina Mujer (Azul)',
+'MODELISA',
+36.99,
+'frente'),
+
+
+('https://amzn.to/475aq8E',
+'https://m.media-amazon.com/images/I/41qWQxVmE5L._AC_.jpg',
+'Freyday FFSA51 - Bolso al hombro de Fabricada en piel auténtica. 100% Made in Italy – 100% satisfacción. para mujer Beige beige',
+'Freyday',
+40.90,
+'frente'),
+
+
+
+
+('https://amzn.to/4cFJrSo',
+'https://m.media-amazon.com/images/I/41-TVY9yj1L._AC_UF480,480_SR480,480_.jpg',
+'DORRISO Bolsos de Mujer Bandolera Bolso Moda Bolso de Mano Bolsa de Hombro Escuela Casual Viajes Diario Impermeable Mujer Bolsos Cruzados Rosado',
+'DORRISO',
+31.99,
+'frente'),
+
+
+
+
+
+('https://amzn.to/3Z09EYJ',
+'https://m.media-amazon.com/images/I/41R66iou2jL._AC_.jpg',
+'Kipling Art, Bolso de Hombro para Mujer, 20x44x27 cm (LxWxH)',
+'Kipling',
+77.18,
+'frente'),
+
+
+
+
+
+('https://amzn.to/3Xp0dAA',
+'https://m.media-amazon.com/images/I/41+WlFmcEmL._AC_UF480,480_SR480,480_.jpg',
+'DEERWORD Mujer Bolsos Bandolera Casual Totes Marca Pequeña Mano Antirrobo Hombro Italianos PU Cuero 5502 1 piezas',
+'DEERWORD',
+38.56,
+'frente'),
+
+
+
+
+
+
+
+
+('https://amzn.to/3MlOxZk',
+'https://m.media-amazon.com/images/I/51Zj2AdfnzL._AC_UF480,480_SR480,480_.jpg',
+'DEERWORD Mujer Bolsos Totes Casual Mano Marca Mediano Bandolera Antirrobo Hombro Italianos PU Cuero 5706 2 piezas',
+'DEERWORD',
+38.99,
 'frente')
+
+
+
+
 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

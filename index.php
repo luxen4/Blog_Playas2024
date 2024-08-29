@@ -284,16 +284,18 @@
                 include 'bloques/localidades/index.php'; ?>
 
                 <?php
+                $carpeta = 'playadedeba';
                 $localidad_nombre = 'Playa de Deba';
                 $localidad = 'Playa de Deba';
-                $archivo_name = 'playadedeba';
+                $archivo_name = 'playa-de-deba';
                 $presentacion = 'La playa de Deba, situada en la costa guipuzcoana, es un auténtico paraíso natural donde se fusionan la serenidad del mar Cantábrico y la belleza de un entorno protegido. Con su amplia extensión de arena dorada y fina, es ideal para disfrutar de un día de sol, practicar surf o simplemente relajarse mientras se contempla el paisaje. Además, su proximidad al Geoparque de la Costa Vasca la convierte en un destino perfecto para los amantes de la naturaleza y la geología, ofreciendo una experiencia única en un entorno incomparable.';
                 include 'bloques/localidades/index.php'; ?>
 
                 <?php
+                $carpeta = 'playadeorio';
                 $localidad_nombre = 'Playa de Orio';
                 $localidad = 'Playa de Orio';
-                $archivo_name = 'playadeorio';
+                $archivo_name = 'playa-de-orio';
                 $presentacion = 'La playa de Orio, ubicada en la costa del País Vasco, es un destino encantador que combina la belleza natural con el ambiente acogedor de un pueblo pesquero tradicional. Con su arena dorada y aguas tranquilas, es ideal para disfrutar de un día en familia o practicar deportes acuáticos como el surf. Además, su proximidad al casco histórico de Orio permite explorar la rica cultura y gastronomía local, haciendo de esta playa un lugar perfecto para relajarse y descubrir.';
                 include 'bloques/localidades/index.php'; ?>
 

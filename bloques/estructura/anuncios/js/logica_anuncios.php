@@ -6,10 +6,12 @@
 $categories = [
     "sandals_man" => 2,
     "shirts_modelo_derecha" => 2,
-    "shirts_izquierda" => 2,
-    "sneakers_izquierda_15" => 2,
-    "sandals_woman_izda_15" => 2
-];
+    "purse_woman" => 2,
+    "sneakers_izquierda_45" => 2,
+    "sandals_woman_izda_15" => 2,
+    "dress_woman" => 2
+    /*"shirts_izquierda" => 2,*/
+  ];
 
 // Función para generar las constantes de imagen en JavaScript
 function generateImageConstants($categories, $total_images = 4) {
@@ -67,5 +69,5 @@ function addProperties($categories, $total_images = 4) {
 </script>
 
 <script>
-    //alert("Entro");
+    alert("Entro");
 </script>

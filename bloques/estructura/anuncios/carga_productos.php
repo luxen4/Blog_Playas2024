@@ -38,7 +38,7 @@ $articulo = 'sneakers';
 $grupo = '_2';
 $var_base = 'images_sneakers_2_';
 $table = 'amazon_sneakers_images';
-$where = 'where marca = "TARELO" and direccion = "izquierda_45"';
+$where = 'where direccion = "izquierda_45"';
 
 
 if ($page == 'home'){ 
@@ -94,7 +94,7 @@ if ($page == 'home'){
 }
 
 
-$articulo = 'sandals_woman';
+$articulo = 'sandals_woman_izda_15';
 $grupo = '_2';
 $var_base = 'images_sandals_woman_izda_15_2_';
 $table = 'amazon_sandals_woman_images';
@@ -240,6 +240,8 @@ if ($page == 'home'){
 
 
 //}
+
+/*
 $articulo = 'sneakers';
 $grupo = '_2';
 $var_base = 'images_sneakers_izquierda_15_2_';
@@ -250,7 +252,7 @@ if ($page == 'home'){
     require 'products_amazon/sql_generica.php';
 }else{
     require './../../../../../products_amazon/sql_generica.php';
-}
+}*/
 
 // Hacer más
 

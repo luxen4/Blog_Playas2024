@@ -2,62 +2,56 @@
 <html lang="es">
 
 <?php
-$localidad = 'Biarritz';
-$region = 'francia';
-$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Biarritz si se utiliza para verificación
-$description_content = 'Descubre la Playa de Biarritz, un icónico destino costero en el País Vasco francés. Ideal para disfrutar del sol, el surf y la rica cultura de la región.';
-$keywords_content = 'Playa de Biarritz, País Vasco francés, sol, surf, turismo en Francia, Biarritz';
+$localidad = 'Zarautz';
+$region = 'guipuzkoa';
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Zarautz si se utiliza para verificación
+$description_content = 'Descubre la Playa de Zarautz, un destino emblemático en la costa vasca española, ideal para disfrutar del surf, la naturaleza y la rica cultura local.';
+$keywords_content = 'Playa de Zarautz, costa vasca, surf, naturaleza, turismo en España, Zarautz';
 
-$graph_Meta_Tags_property_title = 'Playa de Biarritz - Información y Turismo';
-$graph_Meta_Tags_property_description = 'Descubre la Playa de Biarritz, un icónico destino costero en el País Vasco francés. Ideal para disfrutar del sol, el surf y la rica cultura de la región.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadebiarritz/foto_presentacion.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadebiarritz/fichas/playadebiarritz.php';
+$graph_Meta_Tags_property_title = 'Playa de Zarautz - Información y Turismo';
+$graph_Meta_Tags_property_description = 'Descubre la Playa de Zarautz, un destino emblemático en la costa vasca española, ideal para disfrutar del surf, la naturaleza y la rica cultura local.';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/españa/playadezarautz/foto_presentacion.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/españa/playadezarautz/fichas/playadezarautz.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
-$twiterCards_title = 'Playa de Biarritz - Información y Turismo';
-$twiterCards_descripcion = 'Descubre la Playa de Biarritz, un icónico destino costero en el País Vasco francés. Ideal para disfrutar del sol, el surf y la rica cultura de la región.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadebiarritz/foto_presentacion.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadebiarritz/fichas/playadebiarritz.php?i=1';
+$twiterCards_title = 'Playa de Zarautz - Información y Turismo';
+$twiterCards_descripcion = 'Descubre la Playa de Zarautz, un destino emblemático en la costa vasca española, ideal para disfrutar del surf, la naturaleza y la rica cultura local.';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/españa/playadezarautz/foto_presentacion.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/españa/playadezarautz/fichas/playadezarautz.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
-$pinterest_property_card_title_content = 'Playa de Biarritz - Información y Turismo';
-$pinterest_property_card_description_content = 'Descubre la Playa de Biarritz, un icónico destino costero en el País Vasco francés. Ideal para disfrutar del sol, el surf y la rica cultura de la región.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/francia/playadebiarritz/foto_presentacion.jpg';
+$pinterest_property_card_title_content = 'Playa de Zarautz - Información y Turismo';
+$pinterest_property_card_description_content = 'Descubre la Playa de Zarautz, un destino emblemático en la costa vasca española, ideal para disfrutar del surf, la naturaleza y la rica cultura local.';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/españa/playadezarautz/foto_presentacion.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
 // Para el archivo Structured_data_generico.php
-$localidad = 'Biarritz';
-$localidad_minuscula = 'biarritz';
+$localidad = 'Zarautz';
+$localidad_minuscula = 'zarautz';
 
-$descripcion = 'Descubre la Playa de Biarritz, una hermosa playa en la costa vasca francesa, ideal para disfrutar del sol, el surf y actividades acuáticas en un entorno elegante.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadebiarritz/fichas/playadebiarritz.php';
+$descripcion = 'Descubre la Playa de Zarautz, una extensa playa en la costa vasca española, conocida por sus olas perfectas para el surf y su entorno natural espectacular.';
+$url = 'http://playas2024.kesug.com/bloques/localidades/españa/playadezarautz/fichas/playadezarautz.php';
 
-$mainEntity_description = 'La Playa de ' . $localidad . ', ubicada en la costa vasca de Francia, es famosa por sus olas perfectas para surfistas y su elegante ambiente playero, con aguas ideales para nadar y practicar deportes acuáticos.';
-$mainEntity_addressLocality = 'Biarritz';
-$mainEntity_addressRegion = 'Pirineos Atlánticos';
-$mainEntity_addressCountry = 'Francia';
+$mainEntity_description = 'La Playa de ' . $localidad . ', ubicada en la costa vasca de España, es famosa por su longitud, su ambiente relajado y sus olas ideales para surfistas de todos los niveles.';
+$mainEntity_addressLocality = 'Zarautz';
+$mainEntity_addressRegion = 'Guipúzcoa';
+$mainEntity_addressCountry = 'España';
 
-$mainEntity_geo_latitude = 43.4832;
-$mainEntity_geo_longitude = -1.5586;
+$mainEntity_geo_latitude = 43.2845;
+$mainEntity_geo_longitude = -2.1691;
 
-$mainEntity_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playade' . $localidad_minuscula . '/foto_presentacion.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playade' . $localidad_minuscula . '/fichas/playade' . $localidad_minuscula . '.php';
+$mainEntity_image = 'http://playas2024.kesug.com/bloques/localidades/españa/playade' . $localidad_minuscula . '/foto_presentacion.jpg';
+$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/españa/playade' . $localidad_minuscula . '/fichas/playade' . $localidad_minuscula . '.php';
 
-require "./../../../../../bloques/estructura/head.php";
+require "./../../../../../bloques/estructura/head.php"; 
 ?>
-
-
-
-
 
 <body>
 
     <?php require "./../../../../../bloques/estructura/header.php"; ?>
-
-
 
     <main>
 

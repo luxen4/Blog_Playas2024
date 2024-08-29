@@ -275,7 +275,7 @@
                 include 'bloques/localidades/index.php'; ?>
 
                 <h2 id="guipuzkoa">Guipuzkoa</h2>
-
+                <?php $region='guipuzkoa'; ?>
                 <?php
                 $localidad_nombre = 'Playa de Getaria';
                 $localidad = 'Playa de Getaria';
@@ -298,10 +298,12 @@
                 include 'bloques/localidades/index.php'; ?>
 
                 <?php
+                                
+                $carpeta = 'playadezarautz';
                 $localidad_nombre = 'Playa de Zarautz';
                 $localidad = 'Playa de Zarautz';
-                $archivo_name = 'playadezarautz';
-                $presentacion = 'La Playa de Zarautz, conocida como "La Reina de las Playas", es una de las joyas del País Vasco. Con más de 2.5 kilómetros de arena dorada, es la playa más extensa de la región y un destino privilegiado para los amantes del surf.<br> Rodeada de un pintoresco paseo marítimo, Zarautz combina la belleza natural de su entorno con una vibrante oferta gastronómica y cultural, haciendo de esta playa un lugar ideal para disfrutar del mar, el deporte y la vida al aire libre en cualquier época del año.';
+                $archivo_name = 'playa-de-zarautz';
+                $presentacion = 'La Playa de Zarautz, conocida como "La Reina de las Playas", es una de las joyas del País Vasco. Con más de 2.5 kilómetros de arena dorada, es la playa más extensa de la región y un destino privilegiado para los amantes del surf.<br> Rodeada de un pintoresco paseo marítimo, Zarautz combina la belleza natural de su entorno con una vibrante oferta gastronómica y cultural, haciendo de esta playa un lugar ideal para disfrutar del mar, el deporte y la vida al aire libre en cualquier época del año.';              
                 include 'bloques/localidades/index.php'; ?>
 
 
@@ -330,7 +332,6 @@
                 $carpeta = 'playadebiarritz';
                 $localidad_nombre = 'Playa de Biarritz';
                 $localidad = 'Playa de Biarritz';
-                $archivo_name = 'playadebiarritz';
                 $archivo_name = 'playa-de-biarritz';
                 $presentacion = 'La playa de Biarritz, situada en la glamorosa costa atlántica de Francia, es un paraíso para los amantes del sol y el surf. Con sus olas de renombre mundial, este destino es ideal tanto para surfistas como para aquellos que buscan relajarse en su extensa franja de arena dorada. Rodeada de elegantes edificios, cafés y tiendas de lujo, la playa de Biarritz ofrece un ambiente sofisticado y vibrante, donde la belleza natural se fusiona con el encanto cultural de esta icónica ciudad balnearia.';
                 include 'bloques/localidades/index.php'; ?>

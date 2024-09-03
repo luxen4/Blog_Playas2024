@@ -192,6 +192,7 @@
 
 
                 <h2 id="vizcaya">Vizcaya</h2>
+                <?php $region='vizcaya'; ?>
 
                 <?php
                 $localidad_nombre = 'Playa de Gorliz';
@@ -267,19 +268,25 @@
                 $presentacion = 'Ubicada en la pintoresca localidad de Plentzia, en la provincia de Bizkaia, la Playa de Plentzia es un destino costero que cautiva con su belleza natural. Con sus suaves arenas doradas y aguas cristalinas, esta playa es el lugar perfecto para disfrutar de un día relajado bajo el sol. La playa cuenta con una amplia variedad de servicios, como chiringuitos y áreas de recreo, que la convierten en un lugar ideal tanto para familias como para amantes de los deportes acuáticos. Además, su entorno idílico y su tranquilo ambiente la hacen perfecta para quienes buscan un escape de la rutina diaria y desean sumergirse en la belleza del País Vasco.';
                 include 'bloques/localidades/index.php'; ?>
 
+
+
+                <h2 id="guipuzkoa">Guipuzkoa</h2>
+                <?php $region='guipuzkoa'; ?>                
+                
                 <?php
+                $carpeta = 'playadezumaia';
                 $localidad_nombre = 'Playa de Zumaia';
                 $localidad = 'Playa de Zumaia';
-                $archivo_name = 'playadezumaia';
+                $archivo_name = 'playa-de-zumaia';
                 $presentacion = 'La Playa de Zumaia, situada en la costa del País Vasco, es un destino imprescindible para los amantes de la naturaleza y el mar. Conocida por su impresionante paisaje de acantilados y su arena dorada, esta playa ofrece un entorno espectacular donde disfrutar de la belleza natural de la región. Su entorno protegido, rodeado de formaciones geológicas únicas y un mar cristalino, la convierte en un lugar ideal para relajarse, tomar el sol o practicar deportes acuáticos. Además, la playa está perfectamente equipada con servicios para visitantes, incluyendo restaurantes y áreas de recreo, haciendo de Zumaia un lugar perfecto para pasar un día inolvidable en la costa vasca.';
                 include 'bloques/localidades/index.php'; ?>
 
-                <h2 id="guipuzkoa">Guipuzkoa</h2>
-                <?php $region='guipuzkoa'; ?>
+
                 <?php
+                $carpeta = 'playadegetaria';
                 $localidad_nombre = 'Playa de Getaria';
                 $localidad = 'Playa de Getaria';
-                $archivo_name = 'playadegetaria';
+                $archivo_name = 'playa-de-getaria';
                 $presentacion = 'La playa de Getaria, situada en la costa guipuzcoana, es un auténtico paraíso natural donde se fusionan la serenidad del mar Cantábrico y la belleza de un entorno protegido. Con su amplia extensión de arena dorada y fina, es ideal para disfrutar de un día de sol, practicar surf o simplemente relajarse mientras se contempla el paisaje. Además, su proximidad al Geoparque de la Costa Vasca la convierte en un destino perfecto para los amantes de la naturaleza y la geología, ofreciendo una experiencia única en un entorno incomparable.';
                 include 'bloques/localidades/index.php'; ?>
 

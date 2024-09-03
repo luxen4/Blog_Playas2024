@@ -1,6 +1,6 @@
 <header class="bg-primary text-white text-center d-flex flex-column flex-lg-row align-items-center justify-content-between p-3">
     <div class="d-flex flex-column flex-md-row align-items-center">
-        <img src="<?php $_SERVER['SERVER_NAME']?> /Blog_Playas2024/img/yo.png" alt="Auto de viaje" class="img-fluid" style="max-height: 180px; margin-right: 20px;">
+        <img src="./../../../../../img/yo.png" alt="Auto de viaje" class="img-fluid" style="max-height: 180px; margin-right: 20px;">
         <div class="text-center text-md-left mt-md-0">
             <h1 class="mb-0">Playa de <?= $localidad; ?></h1>
             <p class="lead mb-0">Tu destino perfecto en la costa vasca de <?= $region; ?></p>

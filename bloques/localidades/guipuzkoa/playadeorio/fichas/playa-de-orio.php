@@ -11,7 +11,7 @@ $keywords_content = 'Playa de Orio, País Vasco, sol, mar, turismo en Euskadi, O
 
 $graph_Meta_Tags_property_title = 'Playa de Orio - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Orio, un hermoso destino costero en el País Vasco. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/foto_presentacion.jpg';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/playa-de-orio.jpg';
 $graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/fichas/playa-de-orio.php';
 $graph_Meta_Tags_property_type = 'website';
 
@@ -19,13 +19,13 @@ $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Orio - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Orio, un hermoso destino costero en el País Vasco. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/foto_presentacion.jpg';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/playa-de-orio.jpg';
 $twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/fichas/playa-de-orio.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Orio - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de Orio, un hermoso destino costero en el País Vasco. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/foto_presentacion.jpg';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playadeorio/playa-de-orio.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -47,7 +47,7 @@ $mainEntity_geo_latitude = 43.2789;
 $mainEntity_geo_longitude = -2.1275;
 
 $mainEntity_image = 'https://example.com/path/to/orio-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playade' . $localidad_minuscula . '/fichas/playade' . $localidad_minuscula . '.php';
+$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/euskadi/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../../bloques/estructura/head.php"; ?>

@@ -1,0 +1,8 @@
+<!-- Presentación de la Playa de Zumaia -->
+<section id="descripcion" class="content-section container my-5">
+    <h2 class="section-header text-center">Presentación</h2>
+    <p>Ubicada en la hermosa localidad de Zumaia, en el País Vasco, la Playa de Zumaia es un destino costero que combina impresionante belleza natural con una rica oferta de actividades recreativas. Esta playa destaca por su extenso arenal dorado y sus aguas limpias, que la convierten en un lugar ideal para disfrutar de un día de sol y mar.</p>
+    <p>Famosa por sus formaciones geológicas únicas conocidas como los "Flysch", la Playa de Zumaia ofrece vistas espectaculares de acantilados y rocas que se han formado a lo largo de millones de años. Estas formaciones geológicas no solo aportan un impresionante paisaje, sino que también son un atractivo para los amantes de la geología y los fotógrafos.</p>
+    <p>Además de su belleza natural, la playa cuenta con amplias zonas de acceso para familias, un paseo marítimo encantador con restaurantes y tiendas, y diversas instalaciones para el disfrute de los visitantes, incluyendo servicios de alquiler de sombrillas y tumbonas, y zonas de juegos para niños.</p>
+    <p>La Playa de Zumaia es también conocida por sus olas suaves, ideales para principiantes en el surf y para aquellos que desean relajarse en el agua. Con su combinación de belleza natural, oportunidades recreativas y comodidades modernas, es un destino perfecto para todos aquellos que buscan disfrutar de la costa vasca en su máximo esplendor.</p>
+</section>

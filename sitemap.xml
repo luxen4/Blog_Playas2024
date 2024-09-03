@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- Francia -->
-    <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadelaredo/fichas/playa-de-biarritz.php</loc>
-        <lastmod>2024-08-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
 
-    <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php</loc>
-        <lastmod>2024-08-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
 
-    <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz.php</loc>
-        <lastmod>2024-08-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <!-- Francia -->
 
 
 
@@ -31,69 +11,102 @@
     <!-- Guipuzkoa -->
 
     <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadezumaia/fichas/playa-de-zumaia.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadedeba/fichas/playa-de-getaria.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url> 
+
+    <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadedeba/fichas/playa-de-deba.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>  
 
-
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeorio/fichas/playa-de-orio.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>   
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/fichas/playa-de-zarautz.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+    <!-- Francia -->
+    <!--
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadebayona/fichas/playa-de-bayona.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>-->
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadelaredo/fichas/playa-de-biarritz.php</loc>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
 
 
-
-
-
-
-
-
+<!--
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadesuances/fichas/ficha_playadesuances.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadesomo/fichas/ficha_playadesomo.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadegorliz/fichas/ficha_playadegorliz.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadegetxo/fichas/ficha_playadegetxo.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-
-    <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadegetaria/fichas/ficha_playadegetaria.php</loc>
-        <lastmod>2024-08-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
+-->
 
 
 
@@ -104,14 +117,14 @@
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadelaredo/fichas/ficha_playadelaredo.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadedeba/fichas/ficha_playadedeba.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -120,49 +133,44 @@
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadesopelana/fichas/ficha_playadesopelana.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
-    <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadezumaia/fichas/ficha_playadezumaia.php</loc>
-        <lastmod>2024-08-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
+
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadeberria/fichas/ficha_playadeberria.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/castrourdiales/fichas/ficha_castrourdiales.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadenoja/fichas/ficha_playadenoja.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadelaga/fichas/ficha_playadelaga.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/castrourdiales/galeria.php</loc>
-        <lastmod>2024-08-29</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>

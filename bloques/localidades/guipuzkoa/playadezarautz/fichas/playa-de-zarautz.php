@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php $region = 'Guipuzkoa';
-$localidad = 'Zarautz'; ?>
 
-<head>
-    <title>Playa de Zarautz - Zarautz, Gipuzkoa</title>
+<?php
+$localidad = 'Zarautz';
+$region = 'Guipuzcoa';
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Zarautz si se utiliza para verificación
+$description_content = 'Explora la Playa de Zarautz, un extenso arenal en el País Vasco, ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.';
+$keywords_content = 'Playa de Zarautz, surf, naturaleza, paseo marítimo, Costa Vasca, turismo en Gipuzkoa, Zarautz';
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="site-verification" content="e148bdbc89c019bd06122ab7bd08a8be" />
-    <meta name="description" content="Explora la Playa de Zarautz, una de las playas más icónicas del País Vasco. Ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.">
-    <meta name="keywords" content="Playa de Zarautz, surf, naturaleza, paseo marítimo, Costa Vasca, turismo en Gipuzkoa, playa Zarautz">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Adrián Laya García">
-    <meta name="language" content="es">
+$graph_Meta_Tags_property_title = 'Playa de Zarautz - Información y Turismo';
+$graph_Meta_Tags_property_description = 'Explora la Playa de Zarautz, un extenso arenal en el País Vasco, ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/playa-de-zarautz.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/fichas/playa-de-zarautz.php';
+$graph_Meta_Tags_property_type = 'website';
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Playa de Zarautz - Información y Turismo">
-    <meta property="og:description" content="Explora la Playa de Zarautz, una de las playas más icónicas del País Vasco. Ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.">
-    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/playadezarautz/foto_presentacion.jpg">
-    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades//guipuzkoa/playadezarautz/fichas/playadezarautz.php">
-    <meta property="og:type" content="website">
+$twiterCards_card = 'summary_large_image';
+$twiterCards_site = '@laya_garcia';
+$twiterCards_title = 'Playa de Zarautz - Información y Turismo';
+$twiterCards_descripcion = 'Explora la Playa de Zarautz, un extenso arenal en el País Vasco, ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/playa-de-zarautz.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/fichas/playa-de-zarautz.php?i=1';
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@laya_garcia">
-    <meta name="twitter:title" content="Playa de Zarautz - Información y Turismo">
-    <meta name="twitter:description" content="Explora la Playa de Zarautz, una de las playas más icónicas del País Vasco. Ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.">
-    <meta name="twitter:image" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/foto_presentacion.jpg">
-    <meta name="twitter:url" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/fichas/playadezarautz.php?i=1">
+$pinterest_property_card_card_content = 'summary_large_image';
+$pinterest_property_card_title_content = 'Playa de Zarautz - Información y Turismo';
+$pinterest_property_card_description_content = 'Explora la Playa de Zarautz, un extenso arenal en el País Vasco, ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/playa-de-zarautz.jpg';
 
-    <!-- Pinterest -->
-    <meta property="pinterest:card" content="summary_large_image">
-    <meta property="pinterest:title" content="Playa de Zarautz - Información y Turismo">
-    <meta property="pinterest:description" content="Explora la Playa de Zarautz, una de las playas más icónicas del País Vasco. Ideal para el surf, paseos por la costa y disfrutar de la gastronomía vasca.">
-    <meta property="pinterest:image" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/fichas/playadezarautz.php?i=1">
+$href_styles = './../fichas/css/styles.css';
 
-    <!-- Sitemap Link -->
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
 
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+////////
+// Para el archivo Structured_data_generico.php
+$localidad = 'Zarautz';
+$localidad_minuscula = 'zarautz';
 
-    <!-- Alternate Languages -->
-    <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
-    <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
+$descripcion = 'Explora la Playa de Zarautz, un destino famoso por su largo arenal, excelente para practicar surf y disfrutar de un vibrante paseo marítimo lleno de vida.';
+$url = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadezarautz/fichas/playa-de-zarautz.php';
 
-    <!-- Stylesheets -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+$mainEntity_description = 'La Playa de Zarautz es una de las playas más emblemáticas del País Vasco, conocida por su gran extensión, arena dorada, y excelentes condiciones para el surf.';
+$mainEntity_addressLocality = 'Zarautz';
+$mainEntity_addressRegion = 'Gipuzkoa';
+$mainEntity_addressCountry = 'España';
 
-    <link rel="stylesheet" href="./../css/styles.css">
+$mainEntity_geo_latitude = 43.2846;
+$mainEntity_geo_longitude = -2.1699;
 
-    <!-- Ads Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
+$mainEntity_image = 'https://example.com/path/to/zarautz-image.jpg';
+$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+////////
 
-    <?php include_once 'structured_data.php'; ?>
-</head>
+require "./../../../../../bloques/estructura/head.php"; ?>
 
 
 <body>

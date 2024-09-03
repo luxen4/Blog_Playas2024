@@ -20,8 +20,8 @@ $localidad = 'Deba';
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Playa de Deba - Información y Turismo">
     <meta property="og:description" content="Explora la Playa de Deba, una joya costera en el País Vasco conocida por su belleza natural y tranquilas playas. Ideal para relajarse y disfrutar de la naturaleza.">
-    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/foto_presentacion.jpg">
-    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/fichas/playadeba.php">
+    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/playa-de-deba.jpg">
+    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/fichas/playa-de-deba.php">
     <meta property="og:type" content="website">
 
     <!-- Twitter Cards -->
@@ -30,13 +30,13 @@ $localidad = 'Deba';
     <meta name="twitter:title" content="Playa de Deba - Información y Turismo">
     <meta name="twitter:description" content="Explora la Playa de Deba, una joya costera en el País Vasco conocida por su belleza natural y tranquilas playas. Ideal para relajarse y disfrutar de la naturaleza.">
     <meta name="twitter:image" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/foto_presentacion.jpg">
-    <meta name="twitter:url" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/fichas/playadeba.php?i=1">
+    <meta name="twitter:url" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/fichas/playa-de-deba.php?i=1">
 
     <!-- Pinterest -->
     <meta property="pinterest:card" content="summary_large_image">
     <meta property="pinterest:title" content="Playa de Deba - Información y Turismo">
     <meta property="pinterest:description" content="Explora la Playa de Deba, una joya costera en el País Vasco conocida por su belleza natural y tranquilas playas. Ideal para relajarse y disfrutar de la naturaleza.">
-    <meta property="pinterest:image" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/foto_presentacion.jpg">
+    <meta property="pinterest:image" content="http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadeba/playa-de-deba.jpg">
 
     <!-- Sitemap Link -->
     <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">

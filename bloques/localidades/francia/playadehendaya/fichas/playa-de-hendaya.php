@@ -10,7 +10,7 @@ $keywords_content = 'Playa de Hendaya, País Vasco francés, sol, mar, turismo e
 
 $graph_Meta_Tags_property_title = 'Playa de Hendaya - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/playa-de-hendaya.jpg';
 $graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php';
 $graph_Meta_Tags_property_type = 'website';
 
@@ -18,13 +18,13 @@ $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Hendaya - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/playa-de-hendaya.jpg';
 $twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Hendaya - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de Hendaya, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/foto_presentacion.jpg';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/francia/playadehendaya/playa-de-hendaya.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -46,7 +46,7 @@ $mainEntity_geo_latitude = 43.3773;
 $mainEntity_geo_longitude = -1.7781;
 
 $mainEntity_image = 'https://example.com/path/to/hendaya-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playade' . $localidad_minuscula . '/fichas/playade' . $localidad_minuscula . '.php';
+$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../../bloques/estructura/head.php"; ?>

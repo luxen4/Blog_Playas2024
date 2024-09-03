@@ -98,3 +98,14 @@ if(!isset($page)){
     line-height: 1.95;
     }
 </style>
+
+<?php /*
+    <nav>
+        <a href="#descripcion">Descripción</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+*/ ?>

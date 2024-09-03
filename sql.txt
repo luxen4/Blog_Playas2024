@@ -603,7 +603,11 @@ Preparar cada pagina con un mismo tipo de carrusel de anuncios para simplicidad.
 
 CONTROL DE PÁGINAS
 
-                        // Footer   // Barra de Navegación  // Subida al Hosting    // Pinterest    // Carruseles   // Sitemap  // Structured_data.php
+                // Head        // Footer   // Barra de Navegación  // Subida al Hosting    // Pinterest    // Carruseles   // Sitemap  // Structured_data.php
+
+
+-Guipuzkoa
+    Zarautz     // Comprobar
 
 -Francia-
     Hendaya
@@ -657,3 +661,9 @@ así no se consultará la base de datos numerosas veces.
     if0_36676672
     bfsgEjznrBWCKzj
     21
+
+
+
+
+
+

@@ -255,16 +255,18 @@
                 include 'bloques/localidades/index.php'; ?>
 
                 <?php
+                $carpeta = 'playadeazkorri';
                 $localidad_nombre = 'Playa de Azkorri';
                 $localidad = 'Playa de Azkorri';
-                $archivo_name = 'playadeazkorri';
+                $archivo_name = 'playa-de-azkorri';
                 $presentacion = 'La Playa de Azkorri, situada en la costa del País Vasco, es una joya escondida que ofrece una experiencia costera única. Con su arena dorada y aguas cristalinas, este rincón tranquilo es perfecto para quienes buscan escapar del bullicio. Rodeada de impresionantes acantilados, la playa proporciona vistas panorámicas que son un verdadero deleite para los amantes de la naturaleza.';
                 include 'bloques/localidades/index.php'; ?>
 
                 <?php
+                $carpeta = 'playadeplentzia';
                 $localidad_nombre = 'Playa de Plentzia';
                 $localidad = 'Playa de Plentzia';
-                $archivo_name = 'playadeplentzia';
+                $archivo_name = 'playa-de-plentzia';
                 $presentacion = 'Ubicada en la pintoresca localidad de Plentzia, en la provincia de Bizkaia, la Playa de Plentzia es un destino costero que cautiva con su belleza natural. Con sus suaves arenas doradas y aguas cristalinas, esta playa es el lugar perfecto para disfrutar de un día relajado bajo el sol. La playa cuenta con una amplia variedad de servicios, como chiringuitos y áreas de recreo, que la convierten en un lugar ideal tanto para familias como para amantes de los deportes acuáticos. Además, su entorno idílico y su tranquilo ambiente la hacen perfecta para quienes buscan un escape de la rutina diaria y desean sumergirse en la belleza del País Vasco.';
                 include 'bloques/localidades/index.php'; ?>
 

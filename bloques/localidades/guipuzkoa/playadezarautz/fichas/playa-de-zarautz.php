@@ -95,9 +95,12 @@ require "./../../../../../bloques/estructura/head.php"; ?>
         <?php $articulo = 'purse_woman'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
         <?php $articulo = 'sandals_woman_izda_15'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
-        <h6 id="masinfo">Para más información puede consultar en la pagina de la Oficina de Turismo de
-            <a href="https://www.turismozarautz.eus/es/oficina-de-turismo">Zarautz</a>
-        </h6>
+        
+
+        <?php require './sections/contacto.php'; ?>
+            <?php $articulo = 'sandals_woman_izda_15';
+            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
     </main>
 
     <!-- Footer -->

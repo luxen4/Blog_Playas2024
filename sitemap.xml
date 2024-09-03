@@ -3,8 +3,14 @@
 
 
 
+    <!-- Vizcaia -->
 
-
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadeplentzia/fichas/playa-de-plentzia.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
 
 
@@ -18,7 +24,7 @@
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadedeba/fichas/playa-de-getaria.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playadegetaria/fichas/playa-de-getaria.php</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -70,7 +76,7 @@
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadelaredo/fichas/playa-de-biarritz.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/francia/playadebiarritz/fichas/playa-de-biarritz.php</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -116,23 +122,14 @@
 
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadelaredo/fichas/ficha_playadelaredo.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadelaredo/fichas/playa-de-laredo.php</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadedeba/fichas/ficha_playadedeba.php</loc>
-        <lastmod>2024-09-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-
-
-    <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadesopelana/fichas/ficha_playadesopelana.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadedeba/fichas/playa-de-deba.php</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -141,7 +138,16 @@
 
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadeberria/fichas/ficha_playadeberria.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadesopelana/fichas/playa-de-sopelana.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadeberria/fichas/playa-de-berria.php</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -155,14 +161,14 @@
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadenoja/fichas/ficha_playadenoja.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadenoja/fichas/playa-de-noja.php</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/bloques/localidades/playadelaga/fichas/ficha_playadelaga.php</loc>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadelaga/fichas/playa-de-laga.php</loc>
         <lastmod>2024-09-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

@@ -233,26 +233,24 @@
                 $presentacion = 'La Playa de Lekeitio, ubicada en el pintoresco municipio de Lekeitio en la provincia de Bizkaia, es un rincón encantador del País Vasco. Con su extensa franja de arena dorada y aguas tranquilas, es un lugar perfecto para disfrutar de un día en la playa. La playa está rodeada por un hermoso paisaje costero y el pintoresco puerto pesquero, lo que la convierte en un destino popular tanto para locales como para turistas. Ideal para familias y amantes de la naturaleza, la Playa de Lekeitio ofrece un ambiente relajado y una variedad de actividades recreativas en un entorno natural impresionante.';
                 include 'bloques/localidades/index.php'; ?>
 
+
                 <?php
+                $carpeta = 'playadesopelana';
                 $localidad_nombre = 'Playa de Sopelana';
                 $localidad = 'Playa de Sopelana';
-                $archivo_name = 'playadesopelana';
+                $archivo_name = 'playa-de-sopelana';
                 $presentacion = 'Ubicada en la costa de Bizkaia, la Playa de Sopelana es un paraíso para los amantes del surf y la naturaleza. Con su extensa franja de arena dorada y sus impresionantes acantilados, esta playa ofrece un entorno vibrante y acogedor tanto para los surfistas como para quienes buscan relajarse junto al mar. Además, su cercanía al pintoresco pueblo de Sopelana permite disfrutar de una oferta gastronómica y cultural rica, convirtiendo a esta playa en un destino ideal para pasar un día completo.';
                 include 'bloques/localidades/index.php'; ?>
 
+
                 <?php
+                $carpeta = 'playademuskiz';
                 $localidad_nombre = 'Playa de Muskiz';
                 $localidad = 'Playa de Muskiz';
-                $archivo_name = 'playademuskiz';
+                $archivo_name = 'playa-de-muskiz';
                 $presentacion = 'La Playa de Muskiz, situada en la costa de Bizkaia, ofrece un refugio encantador con su arena dorada y aguas tranquilas. Con un entorno natural impresionante, esta playa es ideal para relajarse, disfrutar de un día soleado y explorar sus alrededores costeros. Su ambiente sereno y su belleza natural la convierten en un destino perfecto para aquellos que buscan escapar del bullicio y disfrutar de un día en la playa.';
                 include 'bloques/localidades/index.php'; ?>
 
-                <?php
-                $localidad_nombre = 'Playa de Fuenterrabia';
-                $localidad = 'Playa de Fuenterrabia';
-                $archivo_name = 'playadefuenterrabia';
-                $presentacion = 'La playa de Fuenterrabía, situada en el encantador pueblo costero del País Vasco, es un lugar donde la historia y la naturaleza se entrelazan. Con vistas al mar Cantábrico y rodeada por montañas, esta playa ofrece un refugio tranquilo con arenas doradas y aguas cristalinas. Ideal para familias y amantes de la naturaleza, Fuenterrabía no solo es perfecta para un día de sol y mar, sino también para explorar su pintoresco casco antiguo y disfrutar de la rica gastronomía vasca en sus cercanías.';
-                include 'bloques/localidades/index.php'; ?>
 
                 <?php
                 $carpeta = 'playadeazkorri';
@@ -273,7 +271,16 @@
 
 
                 <h2 id="guipuzkoa">Guipuzkoa</h2>
-                <?php $region='guipuzkoa'; ?>                
+                <?php $region='guipuzkoa'; ?>     
+                
+                <?php
+                $carpeta = 'playadefuenterrabia';
+                $localidad_nombre = 'Playa de Fuenterrabia';
+                $localidad = 'Playa de Fuenterrabia';
+                $archivo_name = 'playa-de-fuenterrabia';
+                $presentacion = 'La playa de Fuenterrabía, situada en el encantador pueblo costero del País Vasco, es un lugar donde la historia y la naturaleza se entrelazan. Con vistas al mar Cantábrico y rodeada por montañas, esta playa ofrece un refugio tranquilo con arenas doradas y aguas cristalinas. Ideal para familias y amantes de la naturaleza, Fuenterrabía no solo es perfecta para un día de sol y mar, sino también para explorar su pintoresco casco antiguo y disfrutar de la rica gastronomía vasca en sus cercanías.';
+                include 'bloques/localidades/index.php'; ?>
+
                 
                 <?php
                 $carpeta = 'playadezumaia';

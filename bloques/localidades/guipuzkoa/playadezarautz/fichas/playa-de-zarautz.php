@@ -68,38 +68,41 @@ require "./../../../../../bloques/estructura/head.php"; ?>
 
 
 
-<!-- Encabezado -->
-<header class="container my-4">
-    <h1 class="text-center">Playa de Orio</h1>
-    <p class="text-center">Descubre la Playa de Orio, una encantadora playa en el País Vasco, conocida por su ambiente familiar, arena dorada y excelentes condiciones para el surf. Perfecta para disfrutar de un día relajado y explorar la pintoresca localidad de Orio.</p>
-</header>
 
-        <?php $articulo = 'sandals_man'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+    <?php require './sections/encabezado.php'; ?>
+    <?php $articulo = 'sandals_man';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
     <!-- Contenido principal -->
     <main class="container my-4">
         <?php require './sections/descripcion-detallada.php'; ?>
-        <?php $articulo = 'jeans_man'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php $articulo = 'jeans_man';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
         <?php require './sections/mapa-ubicacion.php'; ?>
-        <?php $articulo = 'shirts_modelo_derecha'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php $articulo = 'shirts_modelo_derecha';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
         <?php require './sections/actividades-recomendadas.php'; ?>
-        <?php $articulo = 'sneakers_izquierda_45'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php $articulo = 'sneakers_izquierda_45';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
         <?php require './sections/servicios.php'; ?>
-        <?php $articulo = 'dress_woman'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php $articulo = 'dress_woman';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
 
         <?php require './sections/galeria-imagenes.php'; ?>
-        <?php $articulo = 'purse_woman'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-        <?php $articulo = 'sandals_woman_izda_15'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php $articulo = 'purse_woman';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php $articulo = 'sandals_woman_izda_15';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
-        
+
 
         <?php require './sections/contacto.php'; ?>
-            <?php $articulo = 'sandals_woman_izda_15';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+        <?php $articulo = 'sandals_woman_izda_15';
+        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
     </main>
 

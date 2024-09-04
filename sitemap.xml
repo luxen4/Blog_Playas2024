@@ -3,7 +3,22 @@
 
 
 
-    <!-- Vizcaia -->
+    <!-- Vizcaya -->
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadesopelana/fichas/playa-de-sopelana.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playademuskiz/fichas/playa-de-muskiz.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadeplentzia/fichas/playa-de-plentzia.php</loc>
@@ -15,6 +30,13 @@
 
 
     <!-- Guipuzkoa -->
+
+    <url>
+        <loc>http://playas2024.kesug.com/bloques/localidades/playadefuenterrabia/fichas/playa-de-fuenterrabia.php</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
     <url>
         <loc>http://playas2024.kesug.com/bloques/localidades/playadezumaia/fichas/playa-de-zumaia.php</loc>

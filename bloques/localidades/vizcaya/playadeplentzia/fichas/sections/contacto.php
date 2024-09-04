@@ -1,3 +1,4 @@
+<!-- Más información -->
 <section id="masinfo" class="content-section container my-5">
     <h2>Más Info...</h2>
     <p>Para más información sobre la Playa de Zumaia, puedes contactarnos a través de los siguientes medios:</p>

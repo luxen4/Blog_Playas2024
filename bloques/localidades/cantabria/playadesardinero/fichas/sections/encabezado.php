@@ -1,0 +1,7 @@
+<!-- Sección de Presentación -->
+<header class="bg-primary text-white text-center py-5 container my-5">
+    <h1 class="text-center">Playa del Sardinero, Santander</h1>
+    <p class="text-center">La Playa de Santander es una de las playas más populares del norte de España, ubicada en la ciudad de Santander, Cantabria. Con su amplia franja de arena dorada y vistas impresionantes de la bahía, ofrece un espacio ideal para relajarse, practicar deportes acuáticos y disfrutar de un ambiente vibrante.</p>
+    <p class="text-center">La Playa del Sardinero es una de las más icónicas y visitadas de Santander, ubicada en la región de Cantabria, en el norte de España. Este extenso arenal, dividido en dos secciones conocidas como Primera y Segunda Playa del Sardinero, se extiende a lo largo de la costa atlántica y es un lugar popular tanto para locales como para turistas.</p>
+    <p class="text-center">Con su arena fina y dorada, y sus aguas limpias y cristalinas, la Playa del Sardinero es ideal para disfrutar de un día de sol y mar. Además, está rodeada de un impresionante paisaje, con vistas al mar Cantábrico y al majestuoso Palacio de la Magdalena, que domina la península cercana.</p>
+</header>

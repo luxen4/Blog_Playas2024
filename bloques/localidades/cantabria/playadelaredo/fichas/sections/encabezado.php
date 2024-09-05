@@ -1,0 +1,6 @@
+<!-- Sección de Presentación -->
+<header class="bg-primary text-white text-center py-5">
+    <h1 class="text-center">Playa de Laredo</h1>
+    <p class="text-center">Descubre la Playa de Laredo, conocida como "La Salvé", una de las playas más extensas y hermosas de la costa cantábrica. Con más de 4 kilómetros de arena dorada y fina, Laredo ofrece un entorno natural espectacular y un ambiente ideal para disfrutar del sol y el mar. Su amplio paseo marítimo, lleno de bares y restaurantes, te invita a saborear la gastronomía local mientras disfrutas de vistas impresionantes del Mar Cantábrico.</p>
+    <p class="text-center">La Playa de Laredo es perfecta para familias, surfistas y amantes de la naturaleza. La playa cuenta con servicios completos, como duchas y socorristas, así como zonas de juegos para los más pequeños. Además, la cercanía a áreas naturales protegidas y rutas de senderismo ofrece oportunidades para explorar y disfrutar de la belleza del paisaje costero. Ya sea que busques relajarte, practicar deportes acuáticos o explorar la rica vida marina, la Playa de Laredo tiene algo para todos.</p>
+</header>

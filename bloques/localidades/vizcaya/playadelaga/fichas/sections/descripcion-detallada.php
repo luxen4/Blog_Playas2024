@@ -1,0 +1,6 @@
+<!-- Descripción detallada -->
+<section id="presentacion" class="container my-5">
+    <h2 class="section-header text-center">Presentación</h2>
+    <p class="section-content">La Playa de Laga, ubicada en la provincia de Bizkaia, es una joya del litoral vasco. Con su impresionante franja de arena dorada y un entorno natural inigualable, esta playa ofrece un refugio tranquilo y pintoresco para todos los visitantes. La Playa de Laga es conocida por sus impresionantes paisajes, incluyendo los acantilados circundantes y el entorno natural virgen.</p>
+    <p class="section-content">Además de su belleza natural, Laga ofrece una variedad de actividades al aire libre, como senderismo y surf. La zona también cuenta con una oferta de restaurantes que sirven cocina local, permitiendo a los visitantes disfrutar de platos típicos en un entorno relajado. Con su mezcla de naturaleza, tranquilidad y actividades recreativas, la Playa de Laga es el destino perfecto para quienes buscan una experiencia auténtica y rejuvenecedora en la costa vasca.</p>
+</section>

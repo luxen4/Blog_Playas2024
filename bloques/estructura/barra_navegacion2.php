@@ -1,15 +1,11 @@
 <?php // Barra de navegación // ?>
 
 <?php 
-
-if(!isset($page)){
-    $nivel = '';
-}else{
+if($page == 'home'){
+    $nivel = '';?><script>alert("Home");</script><?php
+}else{?><script>alert("NO Home");</script><?php
     $nivel = './../../../../../';
-}
-
-
-?>
+} ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!--<div>
@@ -27,18 +23,15 @@ if(!isset($page)){
         <ul class="navbar-nav ml-auto" style="margin: auto;">
 
             <li class="nav-item active">
-            <!--<a class="nav-link" href="<?= $_SERVER['SERVER_NAME'];?>">Inicio <span class="sr-only"></span></a>
-            <a class="nav-link" href="<?= $href_lugar;?>">Inicio <span class="sr-only"></span></a>-->
-            <a class="nav-link" href="<?= $nivel; ?>">Inicio <span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $nivel; ?>">Inicio <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <!--<a class="nav-link" href="<?= $href_zona; ?>/#cantabria">Cantabria</a>-->
                 <a class="nav-link" href="<?= $nivel; ?>#cantabria">Cantabria <span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?= $nivel . "#vizcaya"?>">Vizcaya<span class="sr-only"></span></a>
+                <a class="nav-link" href="<?= $nivel; ?>#vizcaya">Vizcaya<span class="sr-only"></span></a>
             </li>
 
             <li class="nav-item">
@@ -98,14 +91,3 @@ if(!isset($page)){
     line-height: 1.95;
     }
 </style>
-
-<?php /*
-    <nav>
-        <a href="#descripcion">Descripción</a>
-        <a href="#ubicacion">Ubicación</a>
-        <a href="#actividades">Actividades</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#galeria">Galería</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-*/ ?>

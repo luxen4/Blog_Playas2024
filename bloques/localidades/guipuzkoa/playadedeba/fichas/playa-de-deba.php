@@ -65,9 +65,7 @@ $localidad = 'Deba';
 <body>
 <?php
 
-$page = 'playadedeba';
-//$href_lugar = './../../../../';
-//$href_zona = $atras_5niveles . '/index.php';    
+$page = 'playadedeba';   
 $atras_5niveles = './../../../../..';
 
 require $atras_5niveles . "/bloques/estructura/header.php"; ?>

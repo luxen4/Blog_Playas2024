@@ -2,6 +2,7 @@
 <?php
 $region = 'cantabria';
 
+/*
 $carpeta = 'castrourdiales';
 $localidad_nombre = 'Castro Urdiales';
 $localidad = 'Castro Urdiales';
@@ -11,7 +12,7 @@ $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundaci
                         en un importante puerto y centro comercial debido a su estratégica ubicación costera.'; ?>
 
 
-<?php include 'bloques/localidades/index.php'; ?>
+<?php include 'bloques/localidades/index.php'; */?>
 
 
 

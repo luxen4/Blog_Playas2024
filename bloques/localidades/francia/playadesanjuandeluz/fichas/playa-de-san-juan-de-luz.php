@@ -1,56 +1,138 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php 
+
+<?php
 $localidad = 'San Juan de Luz';
-$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para San Juan de Luz si se utiliza para verificación
-$description_content = 'Descubre la Playa de San Juan de Luz, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$keywords_content = 'Playa de San Juan de Luz, País Vasco francés, sol, mar, turismo en Francia, San Juan de Luz';
+$region = 'Pirineos Atlánticos';
+$site_verification_content = 'tu_codigo_de_verificacion_aqui'; // Asegúrate de que este código es correcto para San Juan de Luz si se utiliza para verificación
+$description_content = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
+$keywords_content = 'Playa de San Juan de Luz, surf, naturaleza, paseo marítimo, Costa Vasca, turismo en Pirineos Atlánticos, San Juan de Luz';
 
 $graph_Meta_Tags_property_title = 'Playa de San Juan de Luz - Información y Turismo';
-$graph_Meta_Tags_property_description = 'Descubre la Playa de San Juan de Luz, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/playadesanjuandeluz/foto_presentacion.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/playadesanjuandeluz/fichas/fichaplayadesanjuandeluz.php';
+$graph_Meta_Tags_property_description = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
-$twiterCards_site = '@laya_garcia';
+$twiterCards_site = '@laya_garcia'; // Actualiza si es necesario
 $twiterCards_title = 'Playa de San Juan de Luz - Información y Turismo';
-$twiterCards_descripcion = 'Descubre la Playa de San Juan de Luz, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/playadesanjuandeluz/foto_presentacion.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/playadesanjuandeluz/fichas/fichaplayadesanjuandeluz.php?i=1';
+$twiterCards_descripcion = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de San Juan de Luz - Información y Turismo';
-$pinterest_property_card_description_content = 'Descubre la Playa de San Juan de Luz, un hermoso destino costero en el País Vasco francés. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/playadesanjuandeluz/foto_presentacion.jpg';
+$pinterest_property_card_description_content = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
+
+////////
 // Para el archivo Structured_data_generico.php
-$localidad = 'San Juan de Luz'; $localidad_minuscula = 'sanjuandeluz';
+$localidad = 'San Juan de Luz';
+$localidad_minuscula = 'san-juan-de-luz';
 
-$descripcion = 'Descubre la Playa de San Juan de Luz, una hermosa playa en la costa vasca francesa, ideal para disfrutar del sol, el mar y actividades acuáticas en un entorno encantador.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/sanjuandeluz/fichas/fichaplayadesanjuandeluz.php';
+$descripcion = 'Explora la Playa de San Juan de Luz, un destino famoso por su hermoso arenal, excelente para practicar surf y disfrutar de un vibrante paseo marítimo lleno de vida.';
+$url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php';
 
-$mainEntity_description = 'La Playa de '.$localidad.', ubicada en la costa vasca de Francia, es conocida por su belleza natural, su ambiente tranquilo y sus aguas ideales para nadar y practicar deportes acuáticos.';
-$mainEntity_addressLocality = 'San Juan de Luz'; $mainEntity_addressRegion = 'Pirineos Atlánticos'; $mainEntity_addressCountry = 'Francia';
+$mainEntity_description = 'La Playa de San Juan de Luz es una de las playas más emblemáticas de la costa vasca francesa, conocida por su hermoso arenal, mar tranquilo y excelente oferta gastronómica.';
+$mainEntity_addressLocality = 'San Juan de Luz';
+$mainEntity_addressRegion = 'Pirineos Atlánticos';
+$mainEntity_addressCountry = 'Francia';
 
-$mainEntity_geo_latitude = 43.3894; $mainEntity_geo_longitude = -1.6628;
+$mainEntity_geo_latitude = 43.3833;
+$mainEntity_geo_longitude = -1.6667;
 
-$mainEntity_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playade'.$localidad_minuscula.'/foto_presentacion.jpg'; 
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playade'.$localidad_minuscula.'/fichas/fichaplayade'.$localidad_minuscula.'.php';
+$mainEntity_image = 'https://example.com/path/to/san-juan-de-luz-image.jpg'; // Reemplaza con la imagen correcta
+$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php';
+////////
 
-require "./../../../../../bloques/estructura/head.php"; 
-?>
+require "./../../../../../bloques/estructura/head.php"; ?>
+
 
 <body>
+
+
+
 <?php
-    $page = 'playadesanjuandeluz';
-    $ruta = './../../../../../bloques/estructura';
-    //$href_lugar = 'ficha_playadehendaya';
-    include './../../../../../bloques/estructura/basico.php'; ?>
+
+$page = 'playadesanjuandeluz';
+$atras_5niveles = './../../../../..';
+
+require $atras_5niveles . "/bloques/estructura/header.php"; ?>
+<?php include_once $atras_5niveles . '/bloques/estructura/barra_navegacion2.php'; ?>
+<?php include_once $atras_5niveles . '/bloques/estructura/anuncios/carga_productos.php'; ?>
+<?php define('BASE_PATH_ESTRUCTURA', __DIR__ . $atras_5niveles . '/bloques/estructura/'); ?>
 
 
+
+
+<?php require './sections/encabezado.php'; ?>
+<?php $articulo = 'sandals_man';
+include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+<!-- Contenido principal -->
+<main class="container my-4">
+    <?php require './sections/descripcion-detallada.php'; ?>
+    <?php $articulo = 'jeans_man';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+    <?php require './sections/mapa-ubicacion.php'; ?>
+    <?php $articulo = 'shirts_modelo_derecha';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+    <?php require './sections/actividades-recomendadas.php'; ?>
+    <?php $articulo = 'sneakers_izquierda_45';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+    <?php require './sections/servicios.php'; ?>
+    <?php $articulo = 'dress_woman';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+
+    <?php require './sections/galeria-imagenes.php'; ?>
+    <?php $articulo = 'purse_woman';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+    <?php $articulo = 'sandals_woman_izda_15';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+
+
+    <?php require './sections/contacto.php'; ?>
+    <?php $articulo = 'sandals_woman_izda_15';
+    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
+
+</main>
+
+<!-- Footer -->
+<?php require $atras_5niveles . '/bloques/estructura/footer.php'; ?>
+
+
+<?php require $atras_5niveles . '/bloques/estructura/anuncios/js/logica_anuncios.php'; ?>
+<?php require $atras_5niveles . '/bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
+
+</body>
+
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php /*
 
 
 <!-- Header -->

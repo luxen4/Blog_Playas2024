@@ -57,9 +57,7 @@ require "./../../../../../bloques/estructura/head.php"; ?>
 
 <?php
 
-$page = 'playadezarautz';
-//$href_lugar = './../../../../';
-//$href_zona = $atras_5niveles . '/index.php';    
+$page = 'playadegetxo';  
 $atras_5niveles = './../../../../..';
 
 require $atras_5niveles . "/bloques/estructura/header.php"; ?>

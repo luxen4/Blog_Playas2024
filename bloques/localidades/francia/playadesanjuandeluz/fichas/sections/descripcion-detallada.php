@@ -1,0 +1,6 @@
+<!-- Descripción detallada -->
+<section id="presentacion" class="container my-5">
+    <h2 class="section-header text-center">Presentación</h2>
+    <p class="section-content">La Playa de San Juan de Luz, ubicada en la pintoresca localidad francesa de Saint-Jean-de-Luz, es un destino costero encantador conocido por su playa de arena fina y aguas tranquilas. Con su bahía en forma de media luna y una longitud de aproximadamente 1.5 kilómetros, esta playa es ideal para familias y amantes del mar. La playa se caracteriza por su ambiente relajado y sus excelentes condiciones para nadar y disfrutar de deportes acuáticos.</p>
+    <p class="section-content">San Juan de Luz no solo ofrece una playa magnífica, sino también un vibrante paseo marítimo lleno de boutiques, cafés y restaurantes donde se pueden degustar especialidades locales como el chipiron y el macaron. La localidad también es famosa por sus eventos culturales y festivales a lo largo del año. Con su encantador paisaje costero y su animada vida local, la Playa de San Juan de Luz es el lugar perfecto para disfrutar de un día al sol y explorar la rica cultura vasca y francesa.</p>
+</section>

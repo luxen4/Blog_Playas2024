@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<!-- informacion_general -->
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Orio, ubicada en la provincia de Gipuzkoa, es un encantador destino costero en el País Vasco. Con su acogedora franja de arena dorada que se extiende por aproximadamente 1 kilómetro, esta playa ofrece un ambiente tranquilo y familiar, ideal para locales y visitantes que buscan relajarse junto al mar. Orio es conocido por sus buenas condiciones para el surf, lo que lo convierte en un destino atractivo para surfistas de todos los niveles.</p>
     <?php $articulo = 'sandals_man'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar2.php'; ?>

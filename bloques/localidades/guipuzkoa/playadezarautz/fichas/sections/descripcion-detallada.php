@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion"class="container my-5">
+<!-- informacion_general -->
+<section id="informacion_general"class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Zarautz, situada en la provincia de Gipuzkoa, es una de las playas más icónicas del País Vasco. Con su extensa franja de arena dorada que se extiende por más de 2.5 kilómetros, esta playa ofrece un ambiente vibrante y acogedor tanto para locales como para visitantes. Zarautz es conocida por sus excelentes condiciones para el surf, lo que la convierte en un destino popular para los entusiastas de este deporte.</p>
     <p class="section-content">Además de su playa, Zarautz cuenta con un encantador paseo marítimo lleno de bares y restaurantes donde puedes disfrutar de la gastronomía local. La playa también está rodeada por una variada oferta de actividades y eventos culturales durante todo el año. Con un paisaje costero impresionante y una animada vida social, la Playa de Zarautz es el lugar ideal para pasar un día relajante junto al mar.</p>

@@ -51,69 +51,9 @@ $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/pla
 
 require "./../../../../../bloques/estructura/head.php"; ?>
 
-
 <body>
-
-
-    <?php
-
-    $page = 'playadezumaia';    
-    $atras_5niveles = './../../../../..';
-
-    require $atras_5niveles . "/bloques/estructura/header.php"; ?>
-    <?php include_once $atras_5niveles . '/bloques/estructura/barra_navegacion2.php'; ?>
-    <?php include_once $atras_5niveles . '/bloques/estructura/anuncios/carga_productos.php'; ?>
-    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . $atras_5niveles . '/bloques/estructura/'); ?>
-
-
-
-    <!-- Encabezado -->
-    <header class="container my-4">
-        <h1 class="text-center">Playa de Zumaia</h1>
-        <p class="text-center">Descubre la Playa de Zumaia, un lugar único en el País Vasco, famoso por sus impresionantes formaciones rocosas Flysch y su entorno natural. Ideal para los amantes de la geología, el senderismo y la tranquilidad que ofrece esta pintoresca localidad costera.</p>
-    </header>
-
-
-        <?php $articulo = 'sandals_man';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-        <!-- Contenido principal -->
-        <main class="container my-4">
-            <?php require './sections/descripcion-detallada.php'; ?>
-            <?php $articulo = 'jeans_man';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-            <?php require './sections/mapa-ubicacion.php'; ?>
-            <?php $articulo = 'shirts_modelo_derecha';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-            <?php require './sections/actividades-recomendadas.php'; ?>
-            <?php $articulo = 'sneakers_izquierda_45';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-            <?php require './sections/servicios.php'; ?>
-            <?php $articulo = 'dress_woman';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-            <?php require './sections/galeria-imagenes.php'; ?>
-            <?php $articulo = 'purse_woman';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-            <?php require './sections/contacto.php'; ?>
-            <?php $articulo = 'sandals_woman_izda_15';
-            include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-        </main>
-
-        <!-- Footer -->
-        <?php require $atras_5niveles . '/bloques/estructura/footer.php'; ?>
-
-
-        <?php require $atras_5niveles . '/bloques/estructura/anuncios/js/logica_anuncios.php'; ?>
-        <?php require $atras_5niveles . '/bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
-
+    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 
 </html>

@@ -8,5 +8,11 @@
         <li><strong>Áreas de Picnic:</strong> Espacios acondicionados para disfrutar de comidas al aire libre con vistas al mar.</li>
         <li><strong>Instalaciones para Familias:</strong> Zonas de juegos infantiles y áreas familiares, asegurando diversión y seguridad para los más pequeños.</li>
         <li><strong>Accesibilidad:</strong> La playa está adaptada para personas con movilidad reducida, con rampas y accesos adecuados.</li>
+        <li><strong>Alquiler de sombrillas y tumbonas:</strong> Disfruta de un día de sol con todas las comodidades.</li>
+        <li><strong>Escuelas de surf:</strong> Aprende a surfear o mejora tus habilidades con instructores locales.</li>
+        <li><strong>Senderismo y paseos:</strong> Explora los senderos costeros que ofrecen vistas impresionantes de la bahía.</li>
+        <li><strong>Parking cercano:</strong> Acceso fácil y cómodo con parking cercano disponible.</li>
+        <li><strong>Actividades acuáticas:</strong> Disfruta de actividades como el paddle surf, kayak, y más.</li>
+        <li><strong>Alquiler de bicicletas:</strong> Recorre la ciudad y sus alrededores en bicicleta con opciones de alquiler cercanas.</li>
     </ul>
 </section>

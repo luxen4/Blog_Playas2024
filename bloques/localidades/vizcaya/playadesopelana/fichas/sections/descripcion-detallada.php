@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<!-- informacion_general -->
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Sopelana, también conocida como Barinatxe, es una de las playas más icónicas de la costa vasca, situada en la provincia de Bizkaia. Famosa por su amplia franja de arena dorada y sus espectaculares acantilados que ofrecen vistas panorámicas del mar Cantábrico, esta playa se ha convertido en un destino ideal tanto para los amantes del surf como para los entusiastas de la naturaleza.</p>
     <p class="section-content">Con una longitud de aproximadamente 800 metros y una anchura que varía en función de la marea, la Playa de Sopelana ofrece amplios espacios para relajarse, practicar deportes acuáticos o simplemente disfrutar de las impresionantes vistas. Sus aguas limpias y bravas proporcionan condiciones de olas consistentes, lo que la convierte en un punto de encuentro para surfistas de todas partes.</p>

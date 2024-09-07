@@ -1,3 +1,4 @@
+<!-- Footer -->
 <footer>
     <div style="padding: 1em;" class="text-center">
 

@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<!-- informacion_general -->
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p>
         La Playa de Plentzia, ubicada en la encantadora localidad costera del País Vasco, ofrece una experiencia única para los amantes del sol y el mar. Esta playa de arena dorada y aguas cristalinas es ideal para disfrutar de un día en familia o para relajarse bajo el sol. Su ambiente acogedor y sus vistas panorámicas al mar Cantábrico crean un entorno perfecto para practicar deportes acuáticos, como el surf y el paddleboarding, o simplemente para relajarse y disfrutar de la tranquilidad del entorno. Con una amplia gama de servicios y una vibrante vida local, Plentzia es el destino perfecto para una escapada costera inolvidable.

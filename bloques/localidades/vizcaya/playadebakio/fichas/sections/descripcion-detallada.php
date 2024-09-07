@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<!-- Descripción informacion_general -->
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Bakio, situada en la provincia de Bizkaia, es un lugar destacado en la Costa Vasca. Con su extensa franja de arena dorada y un entorno natural impresionante, Bakio ofrece un ambiente relajado ideal para disfrutar del mar y el sol. La playa es conocida por sus excelentes condiciones para el surf y sus paisajes costeros que capturan la esencia de la región.</p>
     <p class="section-content">Además de su playa, Bakio está cerca de la icónica isla de San Juan de Gaztelugatxe, un destino popular para los amantes del senderismo y las vistas panorámicas. La localidad también ofrece una rica gastronomía local con mariscos frescos y txakoli, un vino típico de la región. Con su combinación de belleza natural y cultura local, la Playa de Bakio es el destino perfecto para quienes buscan una experiencia auténtica en la costa vasca.</p>

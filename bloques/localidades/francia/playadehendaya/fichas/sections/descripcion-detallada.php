@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<!-- informacion_general -->
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Hendaya, ubicada en el suroeste de Francia, cerca de la frontera con España, es un destino costero destacado en la región de los Países Vascos. Con su amplia franja de arena dorada que se extiende por más de 3 kilómetros, esta playa es ideal para familias y amantes del sol. Hendaya es conocida por sus aguas tranquilas y sus perfectas condiciones para el surf y otros deportes acuáticos.</p>
     <p class="section-content">La playa cuenta con un vibrante paseo marítimo repleto de restaurantes y bares donde puedes saborear delicias locales y disfrutar de vistas panorámicas del océano. Hendaya también ofrece una rica oferta de actividades, desde eventos culturales y deportivos hasta excursiones en barco y rutas de senderismo en sus alrededores. Con su encantador entorno costero y una variedad de opciones para el ocio, la Playa de Hendaya es el lugar perfecto para disfrutar de un día junto al mar.</p>

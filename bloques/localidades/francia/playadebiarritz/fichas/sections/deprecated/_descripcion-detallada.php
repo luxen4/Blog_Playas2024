@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<!-- informacion_general -->
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Biarritz, situada en el sur de Francia en la región de Nueva Aquitania, es una de las playas más emblemáticas de la costa vasca. Con su amplia franja de arena dorada, que se extiende a lo largo del centro de Biarritz, esta playa es conocida por su ambiente cosmopolita y su vibrante vida social. Biarritz es famosa por sus excelentes condiciones para el surf, lo que la convierte en un destino preferido por los surfistas de todo el mundo.</p>
     <p class="section-content">Además de su playa, Biarritz cuenta con un animado paseo marítimo lleno de tiendas, bares y restaurantes que ofrecen una amplia gama de opciones gastronómicas. La ciudad también alberga una variedad de actividades culturales y eventos a lo largo del año. Con su impresionante paisaje costero y su rica oferta cultural, la Playa de Biarritz es el lugar perfecto para disfrutar de unas vacaciones junto al mar en un entorno sofisticado y acogedor.</p>

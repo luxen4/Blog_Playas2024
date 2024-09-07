@@ -46,65 +46,11 @@ $mainEntity_geo_longitude = -2.2025;
 $mainEntity_image = 'https://example.com/path/to/getaria-image.jpg';
 $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/guipuzkoa/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 
-require "./../../../../../bloques/estructura/head.php";
-?>
+require "./../../../../../bloques/estructura/head.php"; ?>
 
 <body>
-
-    <?php
-
-    $page = 'playadegetaria';   
-    $atras_5niveles = './../../../../..';
-
-    require $atras_5niveles . "/bloques/estructura/header.php"; ?>
-    <?php include_once $atras_5niveles . '/bloques/estructura/barra_navegacion2.php'; ?>
-    <?php include_once $atras_5niveles . '/bloques/estructura/anuncios/carga_productos.php'; ?>
-    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . $atras_5niveles . '/bloques/estructura/'); ?>
-
-
-    <!-- Encabezado -->
-    <header class="container my-4">
-        <h1 class="text-center">Playa de Getaria</h1>
-        <p class="text-center">Descubre la Playa de Getaria, una joya costera en el País Vasco, conocida por su tradición pesquera, aguas tranquilas y entorno natural impresionante. Perfecta para disfrutar de un día relajado, practicar surf y explorar la encantadora localidad de Getaria.</p>
-    </header>
-
-
-
-    <?php $articulo = 'sandals_man';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-    <!-- Contenido principal -->
-    <main class="container my-4">
-        <?php require './sections/descripcion-detallada.php'; ?>
-        <?php $articulo = 'jeans_man';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-        <?php require './sections/mapa-ubicacion.php'; ?>
-        <?php $articulo = 'shirts_modelo_derecha';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-        <?php require './sections/actividades-recomendadas.php'; ?>
-        <?php $articulo = 'sneakers_izquierda_45';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-        <?php require './sections/servicios.php'; ?>
-        <?php $articulo = 'dress_woman';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-        <?php require './sections/galeria-imagenes.php'; ?>
-        <?php $articulo = 'purse_woman';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-        <?php $articulo = 'sandals_woman_izda_15';
-        include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-        <h6 id="masinfo">Para más información puede consultar en la pagina de la Oficina de Turismo de
-            <a href="https://turismo.euskadi.eus/es/oficinas-turismo/oficina-de-turismo-de-getaria/aa30-12375/es/"><?= $localidad; ?></a>
-        </h6>
-    </main>
-
-    <!-- Footer -->
-    <?php require $atras_5niveles . '/bloques/estructura/footer.php'; ?>
+    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 
 </html>

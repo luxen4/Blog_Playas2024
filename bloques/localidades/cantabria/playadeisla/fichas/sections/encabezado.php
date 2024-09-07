@@ -1,5 +1,7 @@
-<!-- Sección de Presentación -->
+<!-- Sección de Encabezado -->
 <header class="bg-primary text-white text-center py-5">
     <h1 class="text-center">Playa de Isla</h1>
-    <p class="text-center">La Playa de Isla es un hermoso destino en Cantabria, conocida por su amplia franja de arena dorada y sus aguas tranquilas. Ideal para disfrutar de un día relajante en la costa, Isla ofrece un entorno natural impresionante con vistas al Mar Cantábrico y un ambiente acogedor para toda la familia.</p>
+    <p class="text-center">La Playa de Isla, ubicada en la hermosa costa de Cantabria, es un paraíso natural que destaca por su extensa franja de arena dorada, ideal para relajarse o disfrutar de un paseo al atardecer. Con sus aguas tranquilas y cristalinas, es un lugar perfecto tanto para familias con niños como para quienes buscan un ambiente sereno para desconectar del bullicio diario. La playa está rodeada de un paisaje espectacular, con vistas al imponente Mar Cantábrico y áreas verdes que invitan a la exploración.</p>
+    <p class="text-center">Isla no solo ofrece la oportunidad de disfrutar del sol y el mar, sino que también es un excelente punto de partida para descubrir los encantos de la región. Desde sus cercanas calas escondidas hasta los senderos que bordean los acantilados, este destino es una joya para los amantes de la naturaleza. Además, los visitantes pueden deleitarse con la gastronomía local, famosa por sus platos de mariscos frescos y especialidades cántabras, disponibles en los restaurantes y chiringuitos a pie de playa.</p>
+    <p class="text-center">Ya sea que busques un día de playa lleno de tranquilidad, practicar deportes acuáticos como paddle surf o kayak, o simplemente explorar las maravillas naturales de la zona, la Playa de Isla es un destino que combina belleza, paz y actividades para todos los gustos. Un lugar imprescindible en la costa de Cantabria para unas vacaciones inolvidables.</p>
 </header>

@@ -1,5 +1,5 @@
 <!-- Sección de Presentación -->
 <header class="bg-primary text-white text-center py-5">
     <h1 class="text-center">Playa de Suances</h1>
-    <p class="text-center">La Playa de Suances es un destino costero vibrante en Cantabria, conocida por su extensa arena dorada y sus ideales condiciones para el surf. Con un ambiente animado y una oferta variada de actividades tanto para familias como para jóvenes, esta playa es perfecta para disfrutar del sol y del mar. Su entorno natural, junto con la cercanía a restaurantes y bares, hace de la Playa de Suances un lugar ideal para pasar un día completo junto al mar.</p>
+    <p class="text-center">La Playa de Suances, situada en la hermosa costa de Cantabria, es un destino vibrante y popular tanto para surfistas como para familias que buscan un lugar para relajarse. Con su amplia franja de arena dorada y aguas ideales para diversas actividades acuáticas, Suances ofrece un entorno perfecto para disfrutar de un día al aire libre. Además, su proximidad a excelentes restaurantes con una rica oferta de mariscos y pescado fresco, junto con un entorno natural impresionante, hacen de la Playa de Suances un lugar inmejorable para vivir una experiencia completa junto al mar.</p>
 </header>

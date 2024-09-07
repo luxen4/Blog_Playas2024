@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-4 mb-4">
             <div class="card border-0 shadow">
-                <img src="./../img/vista-aerea-de-la-playa-de-biarritz.png" class="card-img-top img-fluid" alt="Vista aérea de la Playa de Biarritz">
+                <img src="./../img/vista-panoramica-aerea-playa-de-biarritz.jfif" class="card-img-top img-fluid" alt="Vista aérea de la Playa de Biarritz">
                 <div class="card-body">
                     <p class="card-text text-center">Vista aérea de la Playa de Biarritz</p>
                 </div>
@@ -12,7 +12,7 @@
         </div>
         <div class="col-md-4 mb-4">
             <div class="card border-0 shadow">
-                <img src="./../img/surf-en-la-playa-de-biarritz.jpg" class="card-img-top img-fluid" alt="Surf en la Playa de Biarritz">
+                <img src="./../img/surfistas-playa-biarritz-francia.jfif" class="card-img-top img-fluid" alt="Surf en la Playa de Biarritz">
                 <div class="card-body">
                     <p class="card-text text-center">Surf en la Playa de Biarritz</p>
                 </div>
@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-4 mb-4">
             <div class="card border-0 shadow">
-                <img src="./../img/puesta-de-sol-en-biarritz.jpg" class="card-img-top img-fluid" alt="Puesta de sol en Biarritz">
+                <img src="./../img/puesta-sol-playa-biarritz.jpeg" class="card-img-top img-fluid" alt="Puesta de sol en Biarritz">
                 <div class="card-body">
                     <p class="card-text text-center">Puesta de sol en Biarritz</p>
                 </div>
@@ -28,15 +28,15 @@
         </div>
         <div class="col-md-4 mb-4">
             <div class="card border-0 shadow">
-                <img src="./../img/biarritz-malecon.jpg" class="card-img-top img-fluid" alt="Panorámica de la Playa de Biarritz desde el malecón">
+                <img src="./../img/panoramica-playa-biarritz.jpg" class="card-img-top img-fluid" alt="Panorámica de la Playa de Biarritz">
                 <div class="card-body">
-                    <p class="card-text text-center">Panorámica de la Playa de Biarritz desde el malecón</p>
+                    <p class="card-text text-center">Panorámica de la Playa de Biarritz</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 mb-4">
             <div class="card border-0 shadow">
-                <img src="./../img/familias-disfrutando-en-la-playa-de-biarritz.jpg" class="card-img-top img-fluid" alt="Gente disfrutando en la Playa de Biarritz">
+                <img src="./../img/dia-de-verano-en-la-playa-de-biarritz.jfif" class="card-img-top img-fluid" alt="Gente disfrutando en la Playa de Biarritz">
                 <div class="card-body">
                     <p class="card-text text-center">Gente disfrutando en la Playa de Biarritz</p>
                 </div>
@@ -44,7 +44,7 @@
         </div>
         <div class="col-md-4 mb-4">
             <div class="card border-0 shadow">
-                <img src="./../img/paseo-costero-de-biarritz.jpg" class="card-img-top img-fluid" alt="Paseo marítimo de Biarritz">
+                <img src="./../img/paseo-maritimo-playa-biarritz.jfif" class="card-img-top img-fluid" alt="Paseo marítimo de Biarritz">
                 <div class="card-body">
                     <p class="card-text text-center">Paseo marítimo en Biarritz</p>
                 </div>

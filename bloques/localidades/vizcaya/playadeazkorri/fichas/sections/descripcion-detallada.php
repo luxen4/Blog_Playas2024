@@ -1,5 +1,5 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<!-- informacion_general -->
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Presentación</h2>
     <p>La **Playa de Azkorri**, ubicada en la costa del País Vasco, ofrece una experiencia costera única en un entorno natural impresionante. Su extensa franja de arena dorada, bañada por aguas cristalinas, proporciona un ambiente sereno y perfecto para escapar del bullicio urbano.</p>
     <p>Rodeada de majestuosos acantilados y paisajes costeros, Azkorri es ideal para quienes buscan tranquilidad y belleza natural. La playa es un excelente destino para disfrutar de caminatas relajantes a lo largo de la costa y para observar la fauna local, incluyendo diversas especies de aves marinas.</p>

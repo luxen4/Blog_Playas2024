@@ -51,71 +51,12 @@ $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atla
 
 require "./../../../../../bloques/estructura/head.php"; ?>
 
-
 <body>
-
-
-
-<?php
-
-$page = 'playadesanjuandeluz';
-$atras_5niveles = './../../../../..';
-
-require $atras_5niveles . "/bloques/estructura/header.php"; ?>
-<?php include_once $atras_5niveles . '/bloques/estructura/barra_navegacion2.php'; ?>
-<?php include_once $atras_5niveles . '/bloques/estructura/anuncios/carga_productos.php'; ?>
-<?php define('BASE_PATH_ESTRUCTURA', __DIR__ . $atras_5niveles . '/bloques/estructura/'); ?>
-
-
-
-
-<?php require './sections/encabezado.php'; ?>
-<?php $articulo = 'sandals_man';
-include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-<!-- Contenido principal -->
-<main class="container my-4">
-    <?php require './sections/descripcion-detallada.php'; ?>
-    <?php $articulo = 'jeans_man';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-    <?php require './sections/mapa-ubicacion.php'; ?>
-    <?php $articulo = 'shirts_modelo_derecha';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-    <?php require './sections/actividades-recomendadas.php'; ?>
-    <?php $articulo = 'sneakers_izquierda_45';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-    <?php require './sections/servicios.php'; ?>
-    <?php $articulo = 'dress_woman';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-    <?php require './sections/galeria-imagenes.php'; ?>
-    <?php $articulo = 'purse_woman';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-    <?php $articulo = 'sandals_woman_izda_15';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-
-    <?php require './sections/contacto.php'; ?>
-    <?php $articulo = 'sandals_woman_izda_15';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-</main>
-
-<!-- Footer -->
-<?php require $atras_5niveles . '/bloques/estructura/footer.php'; ?>
-
-
-<?php require $atras_5niveles . '/bloques/estructura/anuncios/js/logica_anuncios.php'; ?>
-<?php require $atras_5niveles . '/bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
-
+    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 
-</html> 
+</html>
 
 
 
@@ -160,13 +101,13 @@ include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
             <?php /*
             <li class="nav-item">
                 <a class="nav-link text-white" href="#contacto">Contacto</a>
-            </li> */ ?>
+            </li> 
             
             <li class="nav-item">
                 <a class="nav-link text-white" href="#masinfo">Más Info</a>
             </li>
         </ul>
-    </nav>
+    </nav>*/ ?>
 
 
     
@@ -175,50 +116,8 @@ include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
 <main>
 
-<!-- Presentación -->
-<section id="presentacion" class="container my-5">
-    <h2 class="text-center">Bienvenidos a San Juan de Luz</h2>
-    <p class="text-justify">La playa de San Juan de Luz, situada en el encantador municipio costero del País Vasco francés, es un destino ideal para quienes buscan disfrutar de la belleza natural y la rica cultura local. Con su arena dorada y aguas tranquilas, esta playa es perfecta tanto para familias como para amantes de los deportes acuáticos. San Juan de Luz se distingue por su ambiente relajado, su pintoresco puerto y su histórico casco antiguo, lo que la convierte en una de las joyas de la costa atlántica.</p>
-</section>
 
 
-<?php $articulo = 'shirts'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-<!-- Mapa de Ubicación -->
-<section id="ubicacion" class="map container my-5">
-    <h2 class="text-center">Ubicación</h2>
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.9740157831254!2d-1.664256684502581!3d43.389344879.130274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51944c1d2d76df%3A0x84059a9ae9f3e9b5!2sPlage%20de%20Saint-Jean-de-Luz!5e0!3m2!1ses!2ses!4v1697641577763!5m2!1ses!2ses" width="100%" height="450" allowfullscreen="" loading="lazy" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-</section>
-
-
-<!-- Actividades -->
-<section id="actividades" class="container my-5">
-    <h2 class="text-center mb-4">Actividades en la Playa de San Juan de Luz</h2>
-    <div class="row">
-        <div class="col-md-6 mb-4">
-            <h3>Surf</h3>
-            <p>San Juan de Luz es un destino perfecto para los amantes del surf. Las olas son ideales tanto para principiantes como para surfistas experimentados. Hay varias escuelas de surf en la playa que ofrecen clases y alquiler de equipo.</p>
-            <img src="./../img/surf-en-san-juan-de-luz.png" alt="Surf en San Juan de Luz" class="img-fluid rounded">
-        </div>
-        <div class="col-md-6 mb-4">
-            <h3>Paseos en barco</h3>
-            <p>Disfruta de un paseo en barco por la bahía de San Juan de Luz. Explora la costa vasca desde el mar y admira las vistas panorámicas de la playa y las montañas circundantes.</p>
-            <img src="./../img/paseos-en-barco-en-san-juan-de-luz.png" alt="Paseos en barco en San Juan de Luz" class="img-fluid rounded">
-        </div>
-        <div class="col-md-6 mb-4">
-            <h3>Senderismo</h3>
-            <p>Los alrededores de San Juan de Luz ofrecen excelentes rutas de senderismo. Explora los senderos costeros que te llevarán a impresionantes miradores con vistas al océano Atlántico.</p>
-            <img src="./../img/senderismo-en-san-juan-de-luz.jpg" alt="Senderismo en San Juan de Luz" class="img-fluid rounded">
-        </div>
-        <div class="col-md-6 mb-4">
-            <h3>Kayak y Paddle Surf</h3>
-            <p>Alquila un kayak o una tabla de paddle surf y explora la costa de San Juan de Luz desde el agua. Es una excelente manera de disfrutar de la tranquilidad del mar y la belleza natural del entorno.</p>
-            <img src="./../img/kayak-y-paddle-surf-en-san-juan-de-luz.jpg" alt="Kayak y Paddle Surf en San Juan de Luz" class="img-fluid rounded">
-        </div>
-    </div>
-</section>
 
 
 <?php /* Hacer mi montaje
@@ -236,64 +135,6 @@ https://www.youtube.com/watch?v=gEFvZUnrEfU
 
 
 
-
-
-
-
-<!-- Galería de Imágenes -->
-<section id="galeria" class="gallery container my-5">
-    <h2 class="text-center">Galería de Imágenes</h2>
-    <div class="row">
-        <div class="col-md-4">
-            <img src="./../img/playa-de-san-juan-de-luz.jpg" alt="Vista de la playa de San Juan de Luz" class="img-fluid mb-3">
-        </div>
-        <div class="col-md-4">
-            <img src="./../img/vista-general-casetas-playa-de-san-juan-de-luz.jpg" alt="Vista general de la Playa de San Juan de Luz y casetas" class="img-fluid mb-3">
-        </div>
-        <div class="col-md-4">
-            <img src="./../img/paseo-playa-de-san-juan-de-luz.png" alt="Paseo por la Playa en San Juan de Luz" class="img-fluid mb-3">
-        </div>
-    </div>
-</section>
-
-<?php $articulo = 'sandals_man'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-<!-- Servicios y Actividades -->
-<section id="servicios" class="container my-5">
-    <h2 class="text-center">Servicios y Actividades</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <ul>
-                <li><strong>Alquiler de sombrillas y tumbonas:</strong> Disfruta de un día de sol con todas las comodidades.
-            </li>
-                <li><strong>Escuelas de surf:</strong> Aprende a surfear o mejora tus habilidades con instructores locales.</li>
-                <li><strong>Chiringuitos y restaurantes:</strong> Saborea la gastronomía local con vistas al mar.</li>
-                <li><strong>Zonas de juegos infantiles:</strong> Ideal para que los más pequeños se diviertan en un entorno seguro.</li>
-                <li><strong>Senderismo y paseos:</strong> Explora los senderos costeros que ofrecen vistas impresionantes de la bahía.</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <ul>
-                <li><strong>Parking cercano:</strong> Acceso fácil y cómodo con parking cercano disponible.</li>
-                <li><strong>Accesibilidad:</strong> Servicios y acceso adaptados para personas con movilidad reducida.</li>
-                <li><strong>Actividades acuáticas:</strong> Disfruta de actividades como el paddle surf, kayak, y más.</li>
-                <li><strong>Socorristas:</strong> Seguridad garantizada con socorristas disponibles durante la temporada alta.</li>
-                <li><strong>Alquiler de bicicletas:</strong> Recorre la ciudad y sus alrededores en bicicleta con opciones de alquiler cercanas.</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-
-<?php $articulo = 'shorts'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-<!-- Más info -->
-<section id="masinfo" class="map container my-5">
-    <h6>Para más información puede consultar en la pagina de la oficina de turismo de la
-        <a href="https://www.guide-du-paysbasque.com/es/turismo/informacion/oficinas-de-turismo/san-juan-de-luz-75/oficina-de-turismo-de-san-juan-de-luz-1372.html">Playa de San Juan de Luz</a>
-    </h6>
-</section>
         </main>
 
 
@@ -384,18 +225,3 @@ https://www.youtube.com/watch?v=gEFvZUnrEfU
         </div>
     </div>
 </footer> */ ?>
-
-
-    <footer>
-        <?php require './../../../../../bloques/estructura/footer.php'; ?>
-    </footer>
-    
-<!-- lógica de anuncios -->
-<?php require './../../js/logica_anuncios_generico.php'; ?>
-
-<!-- Enlace a Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>

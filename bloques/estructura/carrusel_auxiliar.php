@@ -65,6 +65,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
 
 
 <style>
+
     
     .custom-carousel-container {
         display: flex;

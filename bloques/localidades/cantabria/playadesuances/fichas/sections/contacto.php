@@ -1,12 +1,12 @@
 <!-- Más información -->
 <section id="masinfo" class="content-section container my-5">
     <h2>Más Información</h2>
-    <p>Para más información sobre la Playa de Lekeitio, puedes contactarnos a través de los siguientes medios:</p>
+    <p>Para más información sobre la Playa de Suances, puedes contactarnos a través de los siguientes medios:</p>
     <ul>
-        <li><strong>Teléfono:</strong> +34 946 844 017</li>
-        <li><strong>Email:</strong> turismo@lekeitio.eus</li>
-        <li><strong>Oficina de Turismo:</strong> Plaza Independencia, 1, 48280 Lekeitio, Bizkaia
-            <a href="https://www.lekeitio.eus/es/turismo"><strong>Web</strong></a>
+        <li><strong>Teléfono:</strong> +34 942 811 811</li>
+        <li><strong>Email:</strong> turismo@aytosuances.com</li>
+        <li><strong>Oficina de Turismo:</strong> Plaza Viares, 1, 39340 Suances, Cantabria
+            <a href="https://www.suances.es/turismo"><strong>Web</strong></a>
         </li>
     </ul>
 </section>

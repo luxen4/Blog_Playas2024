@@ -1,5 +1,5 @@
 <!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
+<section id="informacion_general" class="container my-5">
     <h2 class="section-header text-center">Información General</h2>
     <div class="info-box">
         <p class="section-content">La Playa de Berria, ubicada en la costa de Cantabria, es uno de los destinos más atractivos para disfrutar del mar en el norte de España. Con su extensa franja de arena dorada y sus impresionantes vistas al Mar Cantábrico, esta playa es ideal para quienes buscan relajación y diversión en un entorno natural único. Berria es conocida por su ambiente tranquilo y sus excelentes condiciones para el surf, convirtiéndola en un lugar popular entre los amantes de los deportes acuáticos y las familias.</p>

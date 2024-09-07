@@ -1,5 +1,5 @@
 <!-- Sección de Acceso y Cómo Llegar -->
-<section id="acceso" class="container my-5">
+<section id="ubicacion" class="map container my-5">
     <h2>Cómo Llegar</h2>
     <p>La Playa de San Juan de Luz es de fácil acceso tanto en coche como en transporte público.</p>
     <ul>
@@ -9,6 +9,8 @@
     </ul>
     <!-- Mapa de Ubicación -->
     <div class="map-container my-4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.848291373193!2d-1.6651866848366606!3d43.37874067913714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a0d2e5a4f5c7%3A0x15d2d76b8e98e!2sPlaya%20de%20San%20Juan%20de%20Luz!5e0!3m2!1ses!2ses!4v1633934520996!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.9740157831254!2d-1.664256684502581!3d43.389344879.130274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51944c1d2d76df%3A0x84059a9ae9f3e9b5!2sPlage%20de%20Saint-Jean-de-Luz!5e0!3m2!1ses!2ses!4v1697641577763!5m2!1ses!2ses" width="100%" height="450" allowfullscreen="" loading="lazy" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     </div>
 </section>

@@ -1,6 +1,6 @@
 <header class="bg-primary text-white text-center d-flex flex-column flex-lg-row align-items-center justify-content-between p-3">
     <div class="d-flex flex-column flex-md-row align-items-center">
-        <img src="./../../../../../img/yo.png" alt="Auto de viaje" class="img-fluid" style="max-height: 180px; margin-right: 20px;">
+        <img src="./../../../../../img/yo.png" alt="Auto de viaje" class="img-fluid" style="margin-right: 20px;">
         <div class="text-center text-md-left mt-md-0">
             <h1 class="mb-0">Playa de <?= $localidad; ?></h1>
             <p class="lead mb-0">Tu destino perfecto en la costa vasca de <?= $region; ?></p>
@@ -10,7 +10,7 @@
     <nav class="mt-3 mt-lg-0">
         <ul class="nav justify-content-center flex-wrap">
             <li class="nav-item">
-                <a class="nav-link text-white" href="#presentacion">Presentación</a>
+                <a class="nav-link text-white" href="#informacion_general">General</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="#ubicacion">Ubicación</a>

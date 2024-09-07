@@ -49,126 +49,28 @@ $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/pla
 ////////
 
 require "./../../../../../bloques/estructura/head.php"; ?>
+
+<?php $li_services = '
+     <li><strong>Alquiler de Barcos y Kayaks:</strong> Disponibilidad de embarcaciones y kayaks para explorar la costa y la Isla de San Pedro.</li>
+        <li><strong>Chiringuitos y Restaurantes:</strong> Variedad de bares y restaurantes donde degustar mariscos frescos y cocina local cántabra.</li>
+        <li><strong>Servicios de Seguridad:</strong> Presencia de socorristas y puntos de primeros auxilios durante la temporada alta.</li>
+        <li><strong>Zona de Juegos Infantiles:</strong> Áreas dedicadas para el entretenimiento de los más pequeños.</li>
+   '; ?>
+
 <body>
-
-
-<?php
-
-$page = 'playadeisla';   
-$atras_5niveles = './../../../../..';
-
-require $atras_5niveles . "/bloques/estructura/header.php"; ?>
-<?php include_once $atras_5niveles . '/bloques/estructura/barra_navegacion2.php'; ?>
-<?php include_once $atras_5niveles . '/bloques/estructura/anuncios/carga_productos.php'; ?>
-<?php define('BASE_PATH_ESTRUCTURA', __DIR__ . $atras_5niveles . '/bloques/estructura/'); ?>
-
-
-
-
-<?php require './sections/encabezado.php'; ?>
-<?php $articulo = 'sandals_man';
-include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-<!-- Contenido principal -->
-<main class="container my-4">
-    <?php require './sections/descripcion-detallada.php'; ?>
-    <?php $articulo = 'jeans_man';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-    <?php require './sections/mapa-ubicacion.php'; ?>
-    <?php $articulo = 'shirts_modelo_derecha';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-    <?php require './sections/actividades-recomendadas.php'; ?>
-    <?php $articulo = 'sneakers_izquierda_45';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-    <?php require './sections/servicios.php'; ?>
-    <?php $articulo = 'dress_woman';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-    <?php require './sections/galeria-imagenes.php'; ?>
-    <?php $articulo = 'purse_woman';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-    <?php $articulo = 'sandals_woman_izda_15';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-
-
-    <?php require './sections/contacto.php'; ?>
-    <?php $articulo = 'sandals_woman_izda_15';
-    include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
-
-</main>
-
-<!-- Footer -->
-<?php require $atras_5niveles . '/bloques/estructura/footer.php'; ?>
-
-
-<?php require $atras_5niveles . '/bloques/estructura/anuncios/js/logica_anuncios.php'; ?>
-<?php require $atras_5niveles . '/bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
-
+    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 
-</html> 
+</html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<style>
-        .custom-image {
-            width: 100%;
-            height: auto;
-        }
-        .map {
-            margin-top: 20px;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            margin-bottom: 15px;
-        }
-        .section-padding {
-            padding: 40px 0;
-        }
-        .section-title {
-            margin-bottom: 30px;
-        }
-    </style>
+<!-- Servicios 
+<section id="servicios" class="content-section container my-5">
+    <h2 class="section-header text-center">Servicios en la Playa de Isla</h2>
+    <ul class="list-unstyled">
+        <li><strong>Alquiler de Barcos y Kayaks:</strong> Disponibilidad de embarcaciones y kayaks para explorar la costa y la Isla de San Pedro.</li>
+        <li><strong>Chiringuitos y Restaurantes:</strong> Variedad de bares y restaurantes donde degustar mariscos frescos y cocina local cántabra.</li>
+        <li><strong>Servicios de Seguridad:</strong> Presencia de socorristas y puntos de primeros auxilios durante la temporada alta.</li>
+        <li><strong>Zona de Juegos Infantiles:</strong> Áreas dedicadas para el entretenimiento de los más pequeños.</li>
+    </ul>
+</section>-->

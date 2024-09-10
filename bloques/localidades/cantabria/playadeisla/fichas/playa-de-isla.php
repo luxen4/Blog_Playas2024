@@ -50,15 +50,9 @@ $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/pla
 
 require "./../../../../../bloques/estructura/head.php"; ?>
 
-<?php $li_services = '
-     <li><strong>Alquiler de Barcos y Kayaks:</strong> Disponibilidad de embarcaciones y kayaks para explorar la costa y la Isla de San Pedro.</li>
-        <li><strong>Chiringuitos y Restaurantes:</strong> Variedad de bares y restaurantes donde degustar mariscos frescos y cocina local cántabra.</li>
-        <li><strong>Servicios de Seguridad:</strong> Presencia de socorristas y puntos de primeros auxilios durante la temporada alta.</li>
-        <li><strong>Zona de Juegos Infantiles:</strong> Áreas dedicadas para el entretenimiento de los más pequeños.</li>
-   '; ?>
-
 <body>
-    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php $page = 'playade'.$localidad_minuscula;?>
+    <?php require "./sections/info.php"; ?>    
     <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 

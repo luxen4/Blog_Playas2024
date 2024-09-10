@@ -9,16 +9,12 @@
     </ul>
     <h3>Mapa de la Playa de Noja</h3>
     <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5831.651444241797!2d-3.223077446167217!3d43.386075434058306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd491d8696af44a3%3A0xc1223f750f28a028!2sCastro-Urdiales%2C%20Cantabria!5e0!3m2!1ses!2ses!4v1692109982432!5m2!1ses!2ses"
-                width="100%"
-                height="450"
-                allowfullscreen=""
-                loading="lazy"
-                aria-hidden="false"
-                tabindex="0">
-            </iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5831.651444241797!2d-3.223077446167217!3d43.386075434058306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd491d8696af44a3%3A0xc1223f750f28a028!2sCastro-Urdiales%2C%20Cantabria!5e0!3m2!1ses!2ses!4v1692109982432!5m2!1ses!2ses"
+        width="100%"
+        height="450"
+        allowfullscreen=""
+        loading="lazy"
+        aria-hidden="false"
+        tabindex="0">
+    </iframe>
 </section>
-
-
-
-

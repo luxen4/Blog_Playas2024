@@ -2,46 +2,78 @@
 CREATE DATABASE IF NOT EXISTS blogplayas2024_db;
 USE blogplayas2024_db;
 
-CREATE TABLE IF NOT EXISTS amazon_shirts_images (
-    amazon_shirts_images INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS amazon_sweatshirts_images (
+    amazon_sweatshirts_id INT AUTO_INCREMENT PRIMARY KEY,
     href VARCHAR(255) NOT NULL,
     src VARCHAR(255) NOT NULL,
     alt VARCHAR(255) NOT NULL,
     marca VARCHAR(32) NOT NULL,
     precio DECIMAL (10,2),
-    id_direccion INT (255) NOT NULL
+    direccion INT (255) NOT NULL
 );
 
-INSERT INTO amazon_shirts_images (href, src, alt, marca, precio, direccion) VALUES
+INSERT INTO amazon_sweatshirts_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/4fKWHI4',
-'https://m.media-amazon.com/images/I/8160c89oeOL._AC_SX679_.jpg',
-'Camisa Hawaiana Hombre Verano Rithern',
-'Rithern',
-19.99,
-'izquierda'),
+('https://amzn.to/3AZrzVp',
+'https://images-eu.ssl-images-amazon.com/images/I/81CmIo6ZxCL._AC_UL165_SR165,165_.jpg',
+'Joma Cairo, Sudadera para Hombre',
+'Joma',
+18.90,
+'frente'),
 
-('https://amzn.to/3STmRhZ',
-'https://m.media-amazon.com/images/I/81Q5eIYnmhL._AC_SX679_.jpg',
-'Camisa Hawaiana Hombre Manga Corta Enlision',
-'Enlision',
-23.99,
-'izquierda'),
+('https://amzn.to/47kGTIj',
+'https://images-eu.ssl-images-amazon.com/images/I/71D7qahEqaL._AC_UL165_SR165,165_.jpg',
+'Jack & Jones Jjebasic Sweat Crew Neck Noos Sudadera para Hombre',
+'Jack & Jones',
+23.88,
+'frente'),
+
+('https://amzn.to/3AThtFn',
+'https://images-eu.ssl-images-amazon.com/images/I/61pgW0YFByL._AC_UL165_SR165,165_.jpg',
+'Joma Sudadera Crew V Hombre Sudadera Hombre',
+'Joma',
+21.32,
+'frente'),
+
+('https://amzn.to/3AThtFn',
+'https://images-eu.ssl-images-amazon.com/images/I/71dLy82MbGL._AC_UL165_SR165,165_.jpg',
+'adidas Entrada 22 Sweatshirt Sudadera Hombre (Pack de 1)',
+'adidas',
+31.64,
+'frente'),
 
 
-('https://amzn.to/46OAdSu',
-'https://m.media-amazon.com/images/I/81Q5eIYnmhL._AC_SX679_.jpg',
-'Camisa Hawaiana Hombre Manga Corta Enlision',
-'Enlision',
-23.99,
-'izquierda'),
+('https://amzn.to/3z9oNMO',
+'https://images-eu.ssl-images-amazon.com/images/I/71dLy82MbGL._AC_UL165_SR165,165_.jpg',
+'Jack & Jones Jjebradley Sweat Crew Noos Sudadera para Hombre',
+'Jack & Jones',
+22.99,
+'frente'),
 
-('https://amzn.to/3yGk0lO',
-'https://m.media-amazon.com/images/I/71K2BpUVj9L._AC_SX679_.jpg',
-'Camisa Hawaiana Hombre Funky Manga Corta Enlision',
-'Enlision',
-24.49,
-'izquierda')
+
+
+('https://amzn.to/3z9oNMO',
+'https://images-eu.ssl-images-amazon.com/images/I/81+aAgsQ3eL._AC_UL165_SR165,165_.jpg',
+'RED BRIDGE Sudadera para Hombre con Capucha o Cuello Redondo Unicolor de algodón',
+'RED BRIDGE',
+26.90,
+'frente'),
+
+('https://amzn.to/3z9oNMO',
+'https://images-eu.ssl-images-amazon.com/images/I/51y4zHewpPS._AC_UL165_SR165,165_.jpg',
+'DRESSED IN MUSIC PLAY WITH ME Sudadera clásica de Cuello Redondo para Hombre/Mujer - Sudadera Algodón Orgánico Surf Monkey',
+'DRESSED IN MUSIC PLAY WITH ME',
+59.95,
+'frente'),
+
+
+('https://amzn.to/3z9oNMO',
+'https://images-eu.ssl-images-amazon.com/images/I/61oKapKgypL._AC_UL165_SR165,165_.jpg',
+'DRESSED IN MUSIC PLAY WITH ME Hoodie Sudadera Ecológica con Capucha para Hombre/Mujer - Algodón Orgánico Gots Surf Monkey®',
+'DRESSED IN MUSIC PLAY WITH ME',
+64.95,
+'frente')
+
 ;
 
 *COMPLETAR*
@@ -657,10 +689,10 @@ así no se consultará la base de datos numerosas veces.
 
 
 ---Servidor---
-    ftpupload.net
-    if0_36676672
-    bfsgEjznrBWCKzj
-    21
+ftpupload.net
+if0_36676672
+bfsgEjznrBWCKzj
+21
 
 
 

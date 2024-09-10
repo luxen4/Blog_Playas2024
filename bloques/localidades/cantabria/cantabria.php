@@ -14,7 +14,8 @@ $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundaci
 
 <?php include 'bloques/localidades/index.php'; */?>
 
-
+<details>
+  <summary>Desplegar</summary>
 
 <?php
 $carpeta = 'playadesomo';
@@ -76,3 +77,5 @@ $localidad = 'Playa de Suances';
 $archivo_name = 'playa-de-suances';
 $presentacion = 'La Playa de Suances, situada en el corazón de Cantabria, es un rincón costero que combina la belleza natural con un ambiente acogedor.<br> Conocida por su arena dorada y sus aguas limpias, esta playa es un destino perfecto para disfrutar de un día en familia o practicar deportes acuáticos. Rodeada de impresionantes paisajes y con un paseo marítimo lleno de vida, Suances ofrece una experiencia costera única, donde la tranquilidad y la diversión se encuentran a partes iguales.';
 include 'bloques/localidades/index.php'; ?>
+
+</details>

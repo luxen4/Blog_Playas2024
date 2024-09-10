@@ -2,6 +2,17 @@
 $servername = $_SERVER['SERVER_NAME'];
 $require = './../../../../../products_amazon/conexion.php';
 
+$articulo = 'sweatshirts';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "frente"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../../products_amazon/sql_generica.php';
+}
 
 
 $articulo = 'shorts';
@@ -22,7 +33,7 @@ $articulo = 'swimsuits_woman';
 $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
 $table = 'amazon_swimsuits_woman_images';
-$where = 'order by direccion';
+$where = 'where direccion = "modelo_frente"';
 
 
 if ($page == 'home'){ 
@@ -137,18 +148,6 @@ if ($page == 'home'){
 }
 
 
-$articulo = 'shirts_modelo_derecha';
-$grupo = '_2';
-$var_base = 'images_' .$articulo. '_2_';
-$table = 'amazon_shirts_images';
-$where = 'where direccion = "modelo_derecha"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../../products_amazon/sql_generica.php';
-}
-
 
 $articulo = 'shirts_modelo_derecha';
 $grupo = '_2';
@@ -227,7 +226,7 @@ $articulo = 'mochilas';
 $grupo = '_2';
 $var_base = 'images_mochilas_2_';
 $table = 'amazon_mochilas_images';
-//$where = 'where direccion = "izquierda_15"';
+$where = 'where direccion = "izquierda"';
 if ($page == 'home'){ 
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
@@ -330,9 +329,6 @@ if ($page == 'home'){
 
 
 
-
-
-
 $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';
 if ($page == 'home'){ 
@@ -341,22 +337,3 @@ if ($page == 'home'){
 }else{
     require './../../../../../products_amazon/sql_generica.php';
 }
-
-
-//$images_shirts_1_1 = []; $images_shirts_1_2 = []; $images_shirts_1_3 = []; $images_shirts_1_4 = [];
-//require   './../../../../../products_amazon/sql.php';*/
-
-
-
-/*
-$articulo = 'sandals_man';
-$grupo = '_2';
-$var_base = 'images_sandals_man_2_';
-$table = 'amazon_sandals_man_images';
-$where = 'where marca = "FLARUT"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../../products_amazon/sql_generica.php';
-}*/

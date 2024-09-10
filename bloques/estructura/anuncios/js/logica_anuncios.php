@@ -4,13 +4,21 @@
 <?php
 // Definir categorías y grupos
 $categories = [
+    "sweatshirts" => 2,
     "sandals_man" => 2,
     "shirts_modelo_derecha" => 2,
     "purse_woman" => 2,
     "sneakers_izquierda_45" => 2,
     "sandals_woman_izda_15" => 2,
-    "dress_woman" => 2
+    "dress_woman" => 2,
     /*"shirts_izquierda" => 2,*/
+
+    "camiseta_deporte_manga_corta" => 2,
+    "polos_man_frente" => 2,
+    "swimsuits_woman" => 2,
+    "shirts" => 2,
+    "sneakers_puma_izda_0" => 2,
+    "mochilas" => 2
   ];
 
 // Función para generar las constantes de imagen en JavaScript

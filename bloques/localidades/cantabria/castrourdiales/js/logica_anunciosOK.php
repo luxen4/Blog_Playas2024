@@ -23,8 +23,7 @@
         "sports_shirts" => 2,
         "sneakers" => 2,        
         "dress_woman" => 2,
-        "sneakers_puma_izda_0" => 2,        
-        "purse_woman" => 2,    
+        "sneakers_puma_izda_0" => 2, 
         "sandals_man" => 2,        
         "jeans_man" => 2,
         "polos_man_frente" => 2,        
@@ -55,7 +54,6 @@
         { baseName: 'sports_shirts', groupRange: 2, count: 4 },
         { baseName: 'sneakers', groupRange: 2, count: 4 },
         { baseName: 'sneakers_puma_izda_0', groupRange: 2, count: 4 },
-        { baseName: 'purse_woman', groupRange: 2, count: 4 },
         { baseName: 'sandals_man', groupRange: 2, count: 4 },
         { baseName: 'jeans_man', groupRange: 2, count: 4 },
         { baseName: 'polos_man_frente', groupRange: 2, count: 4 },
@@ -81,7 +79,7 @@
         <?php
         // Simplified loop to generate the JS calls for each article
         foreach (['shirts', 'shorts', 'shirts_modelo_derecha', 'swimsuits_woman', 'sports_shirts', 'sneakers', 'sneakers_puma_izda_0',
-         'purse_woman', 'sandals_man', 'jeans_man', 'polos_man_frente', 'sandals_woman', 'dress_woman', /*'sneakers_izquierda_45'*/] as $articulo) {
+           'sandals_man', 'jeans_man', 'polos_man_frente', 'sandals_woman', 'dress_woman', /*'sneakers_izquierda_45'*/] as $articulo) {
             for ($i = 1; $i <= 4; $i++) {
                 $images_articulo_var = "images_{$articulo}_2_{$i}";
                 echo "updateCarouselImage('image-link_{$articulo}_2_{$i}', 'image_{$articulo}_2_{$i}', {$images_articulo_var}, '{$articulo}_2_{$i}');\n";

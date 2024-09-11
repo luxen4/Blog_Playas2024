@@ -26,7 +26,7 @@ $pinterest_property_card_title_content = 'Playa de Somo - Información y Turismo
 $pinterest_property_card_description_content = 'Descubre la Playa de Somo, un extenso arenal en Cantabria, ideal para el surf, paseos por la costa y disfrutar de la naturaleza.';
 $pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesomo/playa-de-somo.jpg';
 
-//$href_styles = './../fichas/css/styles.css';
+// $href_styles = './../fichas/css/styles.css';
 
 
 ////////

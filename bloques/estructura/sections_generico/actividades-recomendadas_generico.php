@@ -1,10 +1,28 @@
-<!-- Actividades recomendadas -->
-<section id="actividades" class="container my-5">
-    <?= $li_actividades_recomendadas; ?></ul>
+<!-- informacion_general -->
+<section id="actividades_recomendadas">
+<?= $li_actividades_recomendadas; ?>
+    <?php $articulo = $productos[array_rand($productos)]; include "./../../../../../bloques/estructura/carrusel_auxiliar.php"; ?>
+
+    <?php
+    if(isset($li_actividades_recomendadas2)){
+        echo($li_actividades_recomendadas2); 
+        $articulo = $productos[array_rand($productos)]; include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+
+    }?>
+
+    <?php
+    if(isset($li_actividades_recomendadas3)){
+        echo($li_actividades_recomendadas3); 
+        $articulo = $productos[array_rand($productos)]; include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+    }?>
+
+<?php
+    if(isset($li_actividades_recomendadas4)){
+        echo($li_actividades_recomendadas4); 
+        //$articulo = $productos[array_rand($productos)]; include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+    }?>
 </section>
 
-<style>
-    #actividades li{
-        text-align: left;
-    }
-</style>
+
+
+

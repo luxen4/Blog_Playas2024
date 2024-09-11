@@ -33,9 +33,6 @@
 
 '; ?>
 
-<?php 
-//$grupo='_2';
-//$articulo = "shorts"; include "./../../../../../bloques/estructura/carrusel_auxiliar.php"; ?>
 
 <?php $li_descripcion_detallada2 = '
 

@@ -77,18 +77,6 @@ if ($page == 'home'){
 
 
 
-$articulo = 'purse_woman';
-$grupo = '_2';
-$var_base = 'images_purse_woman_2_';
-$table = 'amazon_purse_woman_images';
-$where = 'where direccion = "frente"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../../products_amazon/sql_generica.php';
-}
-
 
 
 $articulo = 'sandals_woman';
@@ -234,26 +222,6 @@ if ($page == 'home'){
     require './../../../../../products_amazon/sql_generica.php';
 }
 
-
-
-
-
-//}
-
-/*
-$articulo = 'sneakers';
-$grupo = '_2';
-$var_base = 'images_sneakers_izquierda_15_2_';
-$table = 'amazon_sneakers_images';
-$where = 'where direccion = "izquierda_15"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../../products_amazon/sql_generica.php';
-}*/
-
-// Hacer más
 
 
 

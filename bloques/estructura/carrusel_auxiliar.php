@@ -7,66 +7,84 @@ $articulo_2_3 = $articulo . $grupo . "_3";
 $articulo_2_4 = $articulo . $grupo . "_4";
 ?>
 
+<!--<div class="carrusel <?php if (isset($es_segundo_carrusel)) echo 'segundo-carrusel'; ?> <?php if (isset($es_tercer_carrusel)) echo 'tercer-carrusel'; ?>">-->
+    <div class="container">
+        <hr>
+        <div class="row">
 
-<div class="container">
-    <hr>
-    <div class="row">
+            <div class="col-xl-2 text-center col-lg-1 col-md-1">
+            </div>
 
-        <div class="col-xl-2 text-center col-lg-1 col-md-1">
-        </div>
+            <div class="col-xl-8 text-center col-lg-10 col-md-10 col-sm-12 col-12">
 
-        <div class="col-xl-8 text-center col-lg-10 col-md-10 col-sm-12 col-12">
+                <div id="carouselExampleIndicators" class="carousel slide custom" data-ride="carousel" data-interval="10000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <?php
+                                    for ($i = 1; $i <= 4; $i++) {
+                                        // Generate variable names dynamically
+                                        $articulo_var = $articulo . $grupo . '_' . $i; // echo($articulo_var);
+                                        $images_articulo_var = 'images_' . $articulo_var;
 
-            <div id="carouselExampleIndicators" class="carousel slide custom" data-ride="carousel" data-interval="10000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="container">
-                            <div class="row">
-                                <?php
-                                for ($i = 1; $i <= 4; $i++) {
-                                    // Generate variable names dynamically
-                                    $articulo_var = $articulo . $grupo . '_' . $i; // echo($articulo_var);
-                                    $images_articulo_var = 'images_' . $articulo_var;
-
-                                    // Render the HTML
-                                    echo '
+                                        // Render the HTML
+                                        echo '
                             <div class="col-xl-3 text-center col-lg-3 col-md-3 col-sm-3 col-3"> 
                                 <a id="image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
                                     <img id="image_' . $articulo_var . '" src="' . ${$images_articulo_var}[0]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . ${$images_articulo_var}[0]['alt'] . '">
                                 </a>
                             </div>';
-                                }
-                                ?>
+                                    }
+                                    ?>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
                 </div>
+            </div>
 
-                
 
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-
+            <div class="col-xl-2 text-center col-lg-1 col-md-1">
             </div>
         </div>
-
-
-        <div class="col-xl-2 text-center col-lg-1 col-md-1">
-        </div>
+        <hr>
     </div>
-    <hr>
-</div>
+<!--</div>-->
+
+
 
 
 <style>
+/* Mostrar el segundo y tercer carrusel en pantallas pequeñas (móviles y tabletas) 
+@media (max-width: 768px) {
+    #informacion_general .segundo-carrusel,
+    #informacion_general .tercer-carrusel {
+        display: block;
+    }
+}*/
 
-    
+/* Ocultar el segundo y tercer carrusel en pantallas grandes (escritorios) 
+@media (min-width: 769px) {
+    #informacion_general .segundo-carrusel,
+    #informacion_general .tercer-carrusel {
+        display: none;
+    }
+}*/
+
+
     .custom-carousel-container {
         display: flex;
         justify-content: center;
@@ -95,9 +113,7 @@ $articulo_2_4 = $articulo . $grupo . "_4";
         }
     }
 
-    a{
-        
-    }
+    a {}
 
     a img {
         /*

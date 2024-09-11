@@ -61,7 +61,7 @@ $localidad = 'Deba';
 
     <?php include_once 'structured_data.php'; ?>
 </head>
-
+ 
 <body>
 <?php
 
@@ -96,8 +96,6 @@ require $atras_5niveles . "/bloques/estructura/header.php"; ?>
         <?php $articulo = 'dress_woman'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
 
-        <?php require './sections/galeria-imagenes.php'; ?>
-        <?php $articulo = 'purse_woman'; include BASE_PATH_ESTRUCTURA . 'carrusel_auxiliar.php'; ?>
 
 
         <h6 id="masinfo">Para más información puede consultar en la pagina de la Oficina de Turismo de

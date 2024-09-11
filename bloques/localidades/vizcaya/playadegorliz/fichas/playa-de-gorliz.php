@@ -26,7 +26,7 @@ $pinterest_property_card_title_content = 'Playa de Gorliz - Información y Turis
 $pinterest_property_card_description_content = 'Explora la Playa de Gorliz, una hermosa playa en Bizkaia, ideal para disfrutar del sol, practicar deportes acuáticos y relajarte en un entorno natural impresionante.';
 $pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/bizkaia/playadegorliz/playa-de-gorliz.jpg';
 
-$href_styles = './../fichas/css/styles.css';
+//$href_styles = './../fichas/css/styles.css';
 
 
 ////////
@@ -52,7 +52,8 @@ $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/bizkaia/playa
 require "./../../../../../bloques/estructura/head.php"; ?>
 
 <body>
-    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php $page = 'playade'.$localidad_minuscula;?>
+    <?php require "./sections/info.php"; ?>    
     <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 

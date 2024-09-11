@@ -14,10 +14,20 @@
     <p class="section-content">Rodeada de dunas y áreas protegidas, la Playa de Somo es ideal para el senderismo y la observación de la naturaleza. Su cercanía a la Bahía de Santander añade valor ecológico, creando un entorno tranquilo y bello.</p>
 </div>
 
+    '
+    ; ?>
+
+
+<?php $li_descripcion_detallada2 = '
+
 <h2 class="section-header text-center">Gastronomía</h2>
 <div class="info-box">
     <p class="section-content">Somo es un paraíso para los surfistas y los amantes de la buena comida, con restaurantes que ofrecen platos cántabros tradicionales, como pescados, mariscos y pintxos locales.</p>
 </div>
+
+';?>
+
+<?php $li_descripcion_detallada3 = '
 
 <h2 class="section-header text-center">Eventos Destacados</h2>
 <div class="events">
@@ -29,8 +39,7 @@
         <li><span class="highlight">Competición de Vela:</span> En septiembre, con regatas en la Bahía de Santander y eventos paralelos en Somo.</li>
     </ul>
 </div>
-    '
-    ; ?>
+'; ?>
 
 
 
@@ -59,14 +68,38 @@
             <li><span class="highlight">Windsurf:</span> Somo es ideal para la práctica del windsurf, gracias a las condiciones de viento favorables y las amplias zonas de agua.</li>
             <li><span class="highlight">Paddle Surf:</span> El paddle surf es una actividad muy popular en Somo, con opciones de alquiler de tablas y clases para quienes quieran disfrutar del mar de una manera más relajada.</li>
             <li><span class="highlight">Senderismo:</span> Explora los alrededores de Somo con rutas de senderismo que te llevarán a través de dunas y bosques costeros, ofreciendo vistas espectaculares del litoral cántabro.</li>
-            <li><span class="highlight">Vela:</span> La bahía de Santander, visible desde Somo, es un lugar perfecto para la práctica de la vela, con varias escuelas que ofrecen clases para todos los niveles.</li>
+         
+'; ?>
+
+
+<?php $li_actividades_recomendadas2 = '
+   <li><span class="highlight">Vela:</span> La bahía de Santander, visible desde Somo, es un lugar perfecto para la práctica de la vela, con varias escuelas que ofrecen clases para todos los niveles.</li>
             <li><span class="highlight">Bicicleta:</span> La zona cuenta con rutas ciclistas que bordean la costa, permitiendo descubrir los paisajes naturales de Somo y su entorno de una forma activa.</li>
             <li><span class="highlight">Gastronomía:</span> La Playa de Somo no solo es un paraíso para los surfistas, sino también para los amantes de la buena comida. A lo largo de la costa, encontrarás una variedad de restaurantes que ofrecen desde platos típicos cántabros hasta cocina internacional. No te pierdas los mariscos frescos y los pintxos locales.</li>
             <li><span class="highlight">Eventos y Fiestas:</span> Durante el verano, Somo es un lugar vibrante con numerosos eventos y festividades. Destacan las competiciones de surf, conciertos al aire libre y las tradicionales fiestas de San Juan, con hogueras en la playa y fuegos artificiales.</li>
             <li><span class="highlight">Entorno Natural:</span> El entorno natural de Somo es impresionante. La playa está rodeada de dunas y áreas protegidas que son ideales para explorar. Desde la playa, se pueden disfrutar vistas espectaculares de la Bahía de Santander y las montañas circundantes.</li>
+
+'; ?>
+
+
+<?php $li_actividades_recomendadas3 = '
+            <li><span class="highlight">Vela:</span> La bahía de Santander, visible desde Somo, es un lugar perfecto para la práctica de la vela, con varias escuelas que ofrecen clases para todos los niveles.</li>
+            <li><span class="highlight">Bicicleta:</span> La zona cuenta con rutas ciclistas que bordean la costa, permitiendo descubrir los paisajes naturales de Somo y su entorno de una forma activa.</li>
+            <li><span class="highlight">Gastronomía:</span> La Playa de Somo no solo es un paraíso para los surfistas, sino también para los amantes de la buena comida. A lo largo de la costa, encontrarás una variedad de restaurantes que ofrecen desde platos típicos cántabros hasta cocina internacional. No te pierdas los mariscos frescos y los pintxos locales.</li>
+            <li><span class="highlight">Eventos y Fiestas:</span> Durante el verano, Somo es un lugar vibrante con numerosos eventos y festividades. Destacan las competiciones de surf, conciertos al aire libre y las tradicionales fiestas de San Juan, con hogueras en la playa y fuegos artificiales.</li>
+'; ?>
+
+<?php $li_actividades_recomendadas4 = '
+            <li><span class="highlight">Entorno Natural:</span> El entorno natural de Somo es impresionante. La playa está rodeada de dunas y áreas protegidas que son ideales para explorar. Desde la playa, se pueden disfrutar vistas espectaculares de la Bahía de Santander y las montañas circundantes.</li>
        </ul>
     </div>
 '; ?>
+
+
+
+
+
+
 
 <?php $li_mas_info = '
     <h2>Más Info...</h2>
@@ -84,7 +117,17 @@
 
 
 <?php $li_services = '
-
+    <h2 class="section-header text-center">Servicios en la Playa de Somo</h2>
+    <div class="info-box">
+        <ul>
+            <li><span class="highlight">Socorristas:</span> La playa cuenta con un servicio de socorrismo durante la temporada alta para garantizar la seguridad de los bañistas.</li>
+            <li><span class="highlight">Accesibilidad:</span> Acceso adaptado para personas con movilidad reducida, incluyendo rampas y pasarelas de madera que facilitan el acceso a la arena y al agua.</li>
+            <li><span class="highlight">Duchas y baños:</span> Instalaciones de duchas y baños ubicadas a lo largo de la playa para mayor comodidad de los visitantes.</li>
+            <li><span class="highlight">Aparcamiento:</span> Amplias zonas de aparcamiento cercanas a la playa, con espacios reservados para personas con discapacidad y aparcamiento para bicicletas.</li>
+            <li><span class="highlight">Alquiler de equipos:</span> Disponibilidad de alquiler de tablas de surf, sombrillas y hamacas, así como de otros equipos deportivos y de playa.</li>
+            <li><span class="highlight">Chiringuitos:</span> Varios chiringuitos a lo largo de la playa ofrecen una variedad de bebidas, snacks y comidas, perfectos para una pausa junto al mar.</li>
+        </ul>
+    </div>
 '; ?>
 
 <style>

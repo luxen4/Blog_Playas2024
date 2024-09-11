@@ -7,7 +7,6 @@ $categories = [
     "sweatshirts" => 2,
     "sandals_man" => 2,
     "shirts_modelo_derecha" => 2,
-    "purse_woman" => 2,
     "sneakers_izquierda_45" => 2,
     "sandals_woman_izda_15" => 2,
     "dress_woman" => 2,

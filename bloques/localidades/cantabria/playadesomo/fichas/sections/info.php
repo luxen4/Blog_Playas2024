@@ -1,15 +1,15 @@
 <?php $li_encabezado = '
-    <h1 class="text-center">Playa de Somo</h1>
-    <p class="text-center">Descubre la Playa de Somo, un destino espectacular en la costa de Cantabria. Con su extenso arenal dorado y vistas impresionantes hacia la bahía de Santander, Somo es ideal para los amantes del surf, el descanso junto al mar y los paseos por la costa. Su entorno natural, combinado con una variedad de bares y restaurantes en el paseo marítimo, asegura una experiencia inolvidable para aquellos que buscan belleza, tranquilidad y aventura en la costa cantábrica.</p>
+    <h1 class=">Playa de Somo</h1>
+    <p class=">Descubre la Playa de Somo, un destino espectacular en la costa de Cantabria. Con su extenso arenal dorado y vistas impresionantes hacia la bahía de Santander, Somo es ideal para los amantes del surf, el descanso junto al mar y los paseos por la costa. Su entorno natural, combinado con una variedad de bares y restaurantes en el paseo marítimo, asegura una experiencia inolvidable para aquellos que buscan belleza, tranquilidad y aventura en la costa cantábrica.</p>
 '; ?>
 
 <?php $li_descripcion_detallada = '
-<h2 class="section-header text-center">Información General</h2>
+<h2 class="section-header">Información General</h2>
 <div class="info-box">
     <p class="section-content">La Playa de Somo, en Cantabria, es un popular destino para locales y turistas, conocido por su extensa arena dorada, condiciones ideales para el surf y un ambiente relajado. Además de la playa, Somo ofrece un paseo marítimo con bares y restaurantes, y está cerca de áreas naturales y rutas de senderismo, lo que lo convierte en un lugar perfecto para disfrutar de actividades al aire libre.</p>
 </div>
 
-<h2 class="section-header text-center">Entorno Natural</h2>
+<h2 class="section-header">Entorno Natural</h2>
 <div class="info-box">
     <p class="section-content">Rodeada de dunas y áreas protegidas, la Playa de Somo es ideal para el senderismo y la observación de la naturaleza. Su cercanía a la Bahía de Santander añade valor ecológico, creando un entorno tranquilo y bello.</p>
 </div>
@@ -20,7 +20,7 @@
 
 <?php $li_descripcion_detallada2 = '
 
-<h2 class="section-header text-center">Gastronomía</h2>
+<h2 class="section-header">Gastronomía</h2>
 <div class="info-box">
     <p class="section-content">Somo es un paraíso para los surfistas y los amantes de la buena comida, con restaurantes que ofrecen platos cántabros tradicionales, como pescados, mariscos y pintxos locales.</p>
 </div>
@@ -29,7 +29,7 @@
 
 <?php $li_descripcion_detallada3 = '
 
-<h2 class="section-header text-center">Eventos Destacados</h2>
+<h2 class="section-header">Eventos Destacados</h2>
 <div class="events">
     <ul>
         <li><span class="highlight">Festival de Surf de Somo:</span> En agosto, reúne surfistas de todos los niveles para competir y disfrutar de un ambiente festivo.</li>
@@ -117,7 +117,7 @@
 
 
 <?php $li_services = '
-    <h2 class="section-header text-center">Servicios en la Playa de Somo</h2>
+    <h2 class="section-header">Servicios en la Playa de Somo</h2>
     <div class="info-box">
         <ul>
             <li><span class="highlight">Socorristas:</span> La playa cuenta con un servicio de socorrismo durante la temporada alta para garantizar la seguridad de los bañistas.</li>
@@ -130,12 +130,50 @@
     </div>
 '; ?>
 
-<style>
-    ul{
-        text-align: left;
-    }
 
-    .highlight{
-        text-decoration: underline;
-    }
-</style>
+<?php
+$imagenes = [
+
+    [
+        'src' => './../img/playa-somo.jpg',
+        'alt' => 'Playa de Somo, vista panorámica',
+        'figcaption' => 'Playa de Somo, Cantabria. Fuente:',
+        'href' => 'https://saposyprincesas.elmundo.es/actividades-ninos/cantabria/aire-libre/playas/playa-de-somo',
+        'titulo_href' => 'saposyprincesas.elmundo.es'
+    ],
+    [
+        'src' => './../img/surf-playa-Somo-Cantabria.jpg',
+        'alt' => 'Surf en Playa de Somo" class="img-fluid',
+        'figcaption' => 'Surf en la Playa de Somo, Cantabria. Fuente:',
+        'href' => 'https://elpais.com/elviajero/2021/01/21/actualidad/1611229533_330658.html#',
+        'titulo_href' => 'elpais.com'
+    ],
+    [
+        'src' => './../img/atardecer-playa-somo-cantabria.jpg',
+        'alt' => 'Atardecer en Playa de Somo',
+        'figcaption' => 'Atardecer en la Playa de Somo, Cantabria. Fuente:',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+    [
+        'src' => './../img/senderismo-playa-somo-cantabria.jpg',
+        'alt' => 'Senderismo cerca de Playa de Somo',
+        'figcaption' => 'Senderismo cerca de la Playa de Somo, Cantabria.',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+    [
+        'src' => './../img/vista-aerea-playa-somo.jpg',
+        'alt' => 'Vista aérea de Playa de Somo',
+        'figcaption' => 'Vista aérea de la Playa de Somo, Cantabria.',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+    [
+        'src' => './../img/familias-difrutando-playa-somo-cantabria.jpg',
+        'alt' => 'Familias disfrutando en la Playa de Somo, Cantabria',
+        'figcaption' => 'Familias disfrutando en la Playa de Somo, Cantabria. Fuente:',
+        'href' => '',
+        'titulo_href' => ''
+    ]
+]; ?>

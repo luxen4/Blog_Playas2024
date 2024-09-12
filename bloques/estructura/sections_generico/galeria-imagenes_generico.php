@@ -1,7 +1,7 @@
 <?php
 function generarGaleria($imagenes) {
     echo '<section class="gallery container mb-5">';
-    echo '<h2 class="text-center">Galería de Imágenes</h2>';
+    echo '<h2 class="">Galería de Imágenes</h2>';
     echo '<div class="row">';
     
     foreach ($imagenes as $imagen) {

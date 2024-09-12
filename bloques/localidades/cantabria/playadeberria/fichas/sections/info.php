@@ -14,6 +14,11 @@
     </ul>
 </div>
 
+'
+; ?>
+
+<?php $li_descripcion_detallada2 = '
+
 <h3 class="section-header text-center">Entorno Natural</h3>
 <div class="info-box">
     <ul class="section-content">
@@ -32,6 +37,11 @@
     </ul>
 </div>
 
+
+'; ?>
+
+
+<?php $li_descripcion_detallada3 = '
 <h3>Características Principales</h3>
 <div class="info-box">
     <ul>
@@ -42,8 +52,7 @@
         <li><u><strong>Accesibilidad:</strong></u> Fácil acceso con aparcamiento cercano.</li>
     </ul>
 </div>
-'
-; ?>
+'; ?>
 
 
 <?php $li_mapa_ubicacion = '
@@ -97,7 +106,7 @@
 
 
 <?php $li_services = '
-    <h2 class="section-header text-center">Servicios en la Playa de Gorliz</h2>
+    <h2 class="section-header">Servicios en la Playa de Gorliz</h2>
     <div class="info-box">
         <ul>
             <li><span class="highlight">Socorristas:</span> Servicio de socorrismo disponible durante la temporada alta para garantizar la seguridad de todos los bañistas.</li>
@@ -115,13 +124,48 @@
 
 
 
-
-<style>
-    ul{
-        text-align: left;
-    }
-
-    .highlight{
-        text-decoration: underline;
-    }
-</style>
+<?php
+$imagenes = [
+    [
+        'src' => './../img/vista-panoramica-playa-Berria-800x533.jpg',
+        'alt' => 'Vista panorámica de la Playa de Berria',
+        'figcaption' => 'Vista panorámica de la Playa de Berria, Cantabria. Fuente:',
+        'href' => 'https://www.cantabriarural.com/playas/playa-de-berria.html',
+        'titulo_href' => 'cantabriarural.com'
+    ],
+    [
+        'src' => './../img/dunas-arena-playa-Berria-y-punta-de-El-Brusco.jpg',
+        'alt' => 'Dunas de arena en la Playa de Berria" class="img-fluid',
+        'figcaption' => 'Dunas de arena en la Playa de Berria, Cantabria. Fuente:',
+        'href' => 'https://elpais.com/elviajero/2021/01/21/actualidad/1611229533_330658.html#',
+        'titulo_href' => 'redcantabrarural.com'
+    ],
+    [
+        'src' => './../img/surfistas-en-la-playa-de-Berria.jpg',
+        'alt' => 'Surfistas en la Playa de Berria',
+        'figcaption' => ' Surfistas en la Playa de Berria, Cantabria. Fuente:',
+        'href' => 'https://www.youtube.com/watch?v=2qedUp4dVYM',
+        'titulo_href' => 'Youtube'
+    ],
+    [
+        'src' => './../img/atardecer-playa-de-Berria.jpg',
+        'alt' => 'Atardecer en la Playa de Berria',
+        'figcaption' => 'Familias disfrutando en la Playa de Gorliz, Vizcaya.',
+        'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4556139-i336517190-Playa_De_Berria-Santona_Cantabria.html',
+        'titulo_href' => 'tripadvisor'
+    ],
+    [
+        'src' => './../img/playa-de-berria-santona.jpg',
+        'alt' => 'Vista de la Playa de Berria, Santoña',
+        'figcaption' => 'Playa de Berria, Santoña. Fuente:',
+        'href' => 'https://turismodecantabria.com',
+        'titulo_href' => 'Turismo de Cantabria'
+    ],
+    [
+        'src' => './../img/monte-buciero-cercano-playa-de-Berria.jpg',
+        'alt' => 'Vistas al Monte Buciero cercano a la playa Berria',
+        'figcaption' => 'Vistas al Monte Buciero cercano a la Playa de Berria. Fuente:',
+        'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4555728-i117278266-Monte_Buciero-Santona_Cantabria.html',
+        'titulo_href' => 'Tripadvisor'
+    ]
+]; ?>

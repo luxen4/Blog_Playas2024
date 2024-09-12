@@ -3,9 +3,3 @@
     <?= $li_mas_info; 
     $articulo = $productos[array_rand($productos)]; include "./../../../../../bloques/estructura/carrusel_auxiliar.php";?>
 </section>
-
-<style>
-    #masinfo li{
-        text-align: left;
-    }
-</style>

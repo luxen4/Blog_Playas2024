@@ -1,6 +1,0 @@
-<!-- Descripción detallada -->
-<section id="presentacion" class="container my-5">
-    <h2 class="section-header text-left">Descripción</h2>
-    <p class="section-content">La Playa de Deba, situada en la provincia de Gipuzkoa, es un destino costero encantador en el País Vasco. Con su franja de arena dorada y su impresionante entorno natural, esta playa ofrece un ambiente tranquilo y pintoresco tanto para los locales como para los visitantes. Deba es conocida por su belleza escénica y sus oportunidades para disfrutar de actividades al aire libre, como el senderismo y la observación de la naturaleza.</p>
-    <p class="section-content">Además de su playa, Deba cuenta con un encantador casco antiguo lleno de historia y cultura, así como una oferta gastronómica que destaca por sus platos locales. La playa también está rodeada por una variada oferta de actividades recreativas y eventos culturales durante todo el año. Con su entorno costero impresionante y su ambiente relajado, la Playa de Deba es el lugar perfecto para disfrutar de un día junto al mar y explorar la belleza natural de la región.</p>
-</section>

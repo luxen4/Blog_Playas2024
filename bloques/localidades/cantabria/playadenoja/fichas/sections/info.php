@@ -66,7 +66,7 @@
 
 
 <?php $li_services = '
-    <h2 class="section-header text-center">Servicios en la Playa de Noja</h2>
+    <h2 class="section-header">Servicios en la Playa de Noja</h2>
     <ul class="list-unstyled">
         <li><strong>Chiringuitos y Restaurantes:</strong> A lo largo del paseo marítimo, encontrarás varios chiringuitos y restaurantes que ofrecen platos locales y bebidas refrescantes. Es un lugar perfecto para disfrutar de la gastronomía cántabra mientras se contempla el mar.</li>
         <li><strong>Alquiler de Equipos:</strong> La playa cuenta con puntos de alquiler donde puedes rentar sombrillas, tumbonas, y equipos para deportes acuáticos como tablas de surf, paddle surf y kayaks.</li>

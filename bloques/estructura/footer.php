@@ -59,6 +59,10 @@
         bottom: 0;
     }
 
+    footer h4,  footer h2{
+        text-align: center;
+    }
+
     footer a {
         color: #4CAF50;
         text-decoration: none;

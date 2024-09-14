@@ -14,11 +14,23 @@ if ($page == 'home'){
     require './../../../../../products_amazon/sql_generica.php';
 }
 
-
+/*
 $articulo = 'shorts';
 $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
 $table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "frente"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../../products_amazon/sql_generica.php';
+}*/
+
+$articulo = 'shorts';
+$grupo = '_2';
+$var_base = 'images_shorts_2_';
+$table = 'amazon_shorts_images';
 $where = 'where direccion = "frente"';
 if ($page == 'home'){ 
     $require = 'products_amazon/conexion.php';

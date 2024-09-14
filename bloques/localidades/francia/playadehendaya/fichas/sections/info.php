@@ -6,13 +6,13 @@
 <?php $li_descripcion_detallada = '
     <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Hendaya, ubicada en el suroeste de Francia, cerca de la frontera con España, es un destino costero destacado en la región de los Países Vascos. Con su amplia franja de arena dorada que se extiende por más de 3 kilómetros, esta playa es ideal para familias y amantes del sol. Hendaya es conocida por sus aguas tranquilas y sus perfectas condiciones para el surf y otros deportes acuáticos.</p>
-    <p class="section-content">La playa cuenta con un vibrante paseo marítimo repleto de restaurantes y bares donde puedes saborear delicias locales y disfrutar de vistas panorámicas del océano. Hendaya también ofrece una rica oferta de actividades, desde eventos culturales y deportivos hasta excursiones en barco y rutas de senderismo en sus alrededores. Con su encantador entorno costero y una variedad de opciones para el ocio, la Playa de Hendaya es el lugar perfecto para disfrutar de un día junto al mar.</p>
 
 '
 ; ?>
 
 
 <?php $li_descripcion_detallada2 = '    
+    <p class="section-content">La playa cuenta con un vibrante paseo marítimo repleto de restaurantes y bares donde puedes saborear delicias locales y disfrutar de vistas panorámicas del océano. Hendaya también ofrece una rica oferta de actividades, desde eventos culturales y deportivos hasta excursiones en barco y rutas de senderismo en sus alrededores. Con su encantador entorno costero y una variedad de opciones para el ocio, la Playa de Hendaya es el lugar perfecto para disfrutar de un día junto al mar.</p>
 
 ';?>
 
@@ -90,7 +90,6 @@
 
 
 <?php $li_services = '
-    <h2 class="section-header text-center">Servicios en la Playa de Hendaya</h2>
     <ul class="list-unstyled">
         <li>
             <strong>Chiringuitos y Restaurantes:</strong> La playa cuenta con varios chiringuitos y restaurantes a lo largo del paseo marítimo, donde se pueden disfrutar desde platos locales hasta cocina internacional. Es el lugar perfecto para degustar mariscos frescos y platos tradicionales del País Vasco, mientras se disfruta de vistas al mar.
@@ -100,6 +99,13 @@
             <strong>Alquiler de Equipos:</strong> Hay varios puntos de alquiler de equipos deportivos a lo largo de la playa, donde puedes rentar tablas de surf, paddle surf, kayaks y bicicletas. También se ofrecen clases para principiantes y avanzados en surf y otros deportes acuáticos.
         </li>
 
+
+
+        
+
+'; ?>
+
+<?php $li_services2 = '
         <li>
             <strong>Zonas de Juegos:</strong> Para las familias, la playa ofrece áreas de juegos infantiles bien equipadas. Estas zonas son seguras y están ubicadas cerca de los servicios básicos como baños y duchas.
         </li>
@@ -115,9 +121,14 @@
         <li>
             <strong>Accesibilidad:</strong> La playa está equipada con accesos para personas con movilidad reducida, incluyendo rampas y sillas anfibias, lo que la convierte en un destino inclusivo.
         </li>
+'
 
+; ?>
+
+
+<?php $li_services3 = '
         <li>
-            <strong>Paseo Marítimo:</strong> El hermoso paseo marítimo que rodea la playa es ideal para caminar, correr o simplemente disfrutar de las vistas. A lo largo del paseo, encontrarás bancos y zonas sombreadas, perfectas para relajarse.
+        <strong>Paseo Marítimo:</strong> El hermoso paseo marítimo que rodea la playa es ideal para caminar, correr o simplemente disfrutar de las vistas. A lo largo del paseo, encontrarás bancos y zonas sombreadas, perfectas para relajarse.
         </li>
 
         <li>
@@ -134,83 +145,59 @@
     </ul>
 '; ?>
 
-<section id="galeria" class="gallery container">
-    <?php // Carrusel de 3 Imágenes //
-    $lugar = 'francia/playadehendaya';
-    $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
-    $imges_name = ['/playa-de-hendaya_1.jpg', '/playa-de-hendaya_2.jpg', '/playa-de-hendaya_4.jpg'];
-    $alt = ["Playa de Hendaya", "Vista aerea de la Playa de Hendaya.", "Vista panorámica de la Playa de Hendaya."];
-    require './../../../../../bloques/estructura/carruselimagenes/carruselgenerico.php'; ?>
 
 
-    <?php // Galeria 3 imagenes //
-    $lugar = 'francia/playadehendaya';
-    $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
-    $imges_name = ['/surfistas-playa-de-hendaya.png', '/casino-playa-de-hendaya.png', '/turistas-paseando-por-la-playa-de-hendaya.jpg'];
-    $alt = [
-        "Surfistas en la Playa de Hendaya",
-        "Casino en la Playa de Hendaya.",
-        "Turistas paseando por la orilla de la Playa de Hendaya en un día soleado."
+
+
+
+<?php $lugar = 'francia/playadehendaya'; 
+
+
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
+
+
+    $imagenes = [
+        [
+            'src' => $ruta . '/casino-playa-de-hendaya.png',
+            'alt' => 'Playa de Hendaya, Francia',
+            'figcaption' => 'Casino cerca de la Playa de Hendaya, Francia. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta . '/surfistas-playa-de-hendaya.png',
+            'alt' => 'Surf en Playa de Hendaya',
+            'figcaption' => 'Surf en la Playa de Hendaya, Francia. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta .'/vista-aerea-playa-Hendaya-Francia.jpg',
+            'alt' => 'Vista aerea de la Playa de Hendaya, Francia',
+            'figcaption' => 'Vista aerea de la Playa de Hendaya, Francia. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta .'/senderismo-cerca-playa-Hendaya-Francia.png',
+            'alt' => 'Senderismo cerca de Playa de Hendaya',
+            'figcaption' => 'Senderismo cerca de la Playa de Hendaya, Francia. Fuente:',
+            'href' => 'https://es.wikiloc.com/rutas/senderismo/francia/aquitaine-limousin-poitou-charentes/hendaye',
+            'titulo_href' => 'es.wikiloc.com'
+        ],
+        [
+            'src' => $ruta . '/Vista-aérea-Playa_de_Hendaya_País_Vasco_España.png',
+            'alt' => 'Vista aérea Playa de Hendaya, Francia.',
+            'figcaption' => 'Vista aérea de la Playa de Hendaya, Francia. Fuente:',
+            'href' => 'https://mairiefontenay95.fr/playa+en+hendaya',
+            'titulo_href' => 'mairiefontenay95.fr'
+        ],
+        [
+            'src' => $ruta .'/familias-disfrutando-playa-Hendaya-Francia.jpg',
+            'alt' => 'Familias disfrutando en la Playa de Hendaya, Francia',
+            'figcaption' => 'Familias disfrutando en la Playa de Hendaya, Francia. Fuente:',
+            'href' => 'https://www.losviajeros.com/Fotos.php?pl=64742',
+            'titulo_href' => 'www.losviajeros.com'
+        ]
     ];
-    require './../../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; ?>
-</section>
-
-<?php
-
-
-/*
-*/
-
-
-
-
-
-
-
-
-
-$imagenes = [
-    [
-        'src' => './img/vista-panoramica-playa-de-Bakio-Bizkaia.jpg',
-        'alt' => 'Playa de Bakio, vista panorámica',
-        'figcaption' => 'Playa de Bakio, Bizkaia. Fuente:',
-        'href' => 'https://www.deia.eus/bizkaia/2023/05/04/playa-bakio-unica-bizkaia-bandera-6760225.html',
-        'titulo_href' => 'deia.eus'
-    ],
-    [
-        'src' => './img/surfistas-playa-de-Bakio-Bizkaia.jfif',
-        'alt' => 'Surf en Playa de Bakio',
-        'figcaption' => 'Surf en la Playa de Bakio, Bizkaia. Fuente:',
-        'href' => 'https://www.eaj-pnv.eus/es/galeria-imagenes/680/surf-bakio-puerto-classics',
-        'titulo_href' => 'eaj-pnv.eus'
-    ],
-    [
-        'src' => './img/Atardecer-en-la-Playa-de-Bakio-Bizkaia.jpg',
-        'alt' => 'Atardecer en Playa de Bakio',
-        'figcaption' => 'Atardecer en la Playa de Bakio, Bizkaia. Fuente:',
-        'href' => 'https://www.flickr.com/photos/basajauntxo/7741446988',
-        'titulo_href' => 'www.flickr.com'
-    ],
-    [
-        'src' => './img/senderismo-playa-de-Bakio-Bizkaia.png',
-        'alt' => 'Senderismo cerca de Playa de Bakio',
-        'figcaption' => 'Senderismo cerca de la Playa de Bakio, Bizkaia. Fuente:',
-        'href' => 'https://arimune.es/ruta-bakio-san-juan-de-gaztelugatxe/',
-        'titulo_href' => 'arimune.es'
-    ],
-    [
-        'src' => './img/Vista-aérea-Playa_de_Baquio_País_Vasco_España.jpg',
-        'alt' => 'Vista-aérea-Playa_de_Baquio_País_Vasco_España.jpg',
-        'figcaption' => 'Vista aérea de la Playa de Bakio, Bizkaia. Fuente:',
-        'href' => 'https://turismovasco.com/bizkaia/que-ver-bizkaia/bakio/',
-        'titulo_href' => 'turismovasco.com'
-    ],
-    [
-        'src' => './img/familias-disfrutando-Playa-Bakio-Bizkaia.jpg',
-        'alt' => 'Familias disfrutando en la Playa de Bakio, Bizkaia',
-        'figcaption' => 'Familias disfrutando en la Playa de Bakio, Bizkaia. Fuente:',
-        'href' => 'https://www.deia.eus/bizkaia/2023/05/04/playa-bakio-unica-bizkaia-bandera-6760225.html',
-        'titulo_href' => 'www.deia.eus'
-    ]
-];
 ?>

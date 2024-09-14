@@ -5,8 +5,12 @@
 // Definir categorías y grupos
 $categories = [
     "sweatshirts" => 2,
+    "sports_shirts" => 2,
     "sandals_man" => 2,
+    "sandals_woman" => 2,
     "shirts_modelo_derecha" => 2,
+    "shorts" => 2,
+    "sneakers" => 2,
     "sneakers_izquierda_45" => 2,
     "sandals_woman_izda_15" => 2,
     "dress_woman" => 2,

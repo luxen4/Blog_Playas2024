@@ -13,22 +13,18 @@
 <div class="info-box">
     <p class="section-content">Rodeada de dunas y áreas protegidas, la Playa de Somo es ideal para el senderismo y la observación de la naturaleza. Su cercanía a la Bahía de Santander añade valor ecológico, creando un entorno tranquilo y bello.</p>
 </div>
-
-    '
-    ; ?>
+'
+; ?>
 
 
 <?php $li_descripcion_detallada2 = '
-
 <h2 class="section-header">Gastronomía</h2>
 <div class="info-box">
     <p class="section-content">Somo es un paraíso para los surfistas y los amantes de la buena comida, con restaurantes que ofrecen platos cántabros tradicionales, como pescados, mariscos y pintxos locales.</p>
 </div>
-
 ';?>
 
 <?php $li_descripcion_detallada3 = '
-
 <h2 class="section-header">Eventos Destacados</h2>
 <div class="events">
     <ul>
@@ -40,9 +36,6 @@
     </ul>
 </div>
 '; ?>
-
-
-
 
 <?php $li_mapa_ubicacion = '
 <h2>Cómo Llegar</h2>
@@ -71,7 +64,6 @@
          
 '; ?>
 
-
 <?php $li_actividades_recomendadas2 = '
    <li><span class="highlight">Vela:</span> La bahía de Santander, visible desde Somo, es un lugar perfecto para la práctica de la vela, con varias escuelas que ofrecen clases para todos los niveles.</li>
             <li><span class="highlight">Bicicleta:</span> La zona cuenta con rutas ciclistas que bordean la costa, permitiendo descubrir los paisajes naturales de Somo y su entorno de una forma activa.</li>
@@ -94,12 +86,6 @@
        </ul>
     </div>
 '; ?>
-
-
-
-
-
-
 
 <?php $li_mas_info = '
     <h2>Más Info...</h2>

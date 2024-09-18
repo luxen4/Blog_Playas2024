@@ -77,15 +77,52 @@
 
 
 
+<?php // Carrusel de 3 Imágenes //
+$lugar = 'playadenoja';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/'.$region.'/'.$lugar.'/img';
 
 
-
-<style>
-    ul{
-        text-align: left;
-    }
-
-    .highlight{
-        text-decoration: underline;
-    }
-</style>
+$imagenes = [
+        [
+            'src' => $ruta . '/playa-de-trengandin.jpg',
+            'alt' => 'Vista de la Playa Trengandin, Noja, Cantabria',
+            'figcaption' => 'Vista de la Playa Trengandin, Noja, Cantabria. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta . '/vista-aerea-playa-noja.jpg',
+            'alt' => 'Vista aerea de la Playa de Noja, Cantabria',
+            'figcaption' => 'Vista aerea de la Playa de Noja, Cantabria. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta .'/rocas-playa-noja.jpg',
+            'alt' => 'Rocas en la Playa de Noja, Noja, Cantabria',
+            'figcaption' => 'Rocas en la Playa de Noja, Noja, Cantabria. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta .'/vista-playa-noja.jpg',
+            'alt' => 'Vista aerea de la Playa de Noja',
+            'figcaption' => 'Vista aerea de la Playa de Noja. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta . '/atardecer-playa-noja.jpg',
+            'alt' => 'Atardecer en la Playa de Noja.',
+            'figcaption' => 'Atardecer en la Playa de Noja. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ],
+        [
+            'src' => $ruta .'/playa-ris.jpg',
+            'alt' => 'Actividades en la Playa de Noja',
+            'figcaption' => 'Actividades en la Playa de Noja. Fuente:',
+            'href' => '',
+            'titulo_href' => ''
+        ]
+    ]; ?>

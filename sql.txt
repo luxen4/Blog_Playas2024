@@ -533,7 +533,15 @@ Preparar cada pagina con un mismo tipo de carrusel de anuncios para simplicidad.
 
 CONTROL DE PÁGINAS
 
-                // Head        // Footer   // Barra de Navegación  // Subida al Hosting    // Pinterest    // Carruseles   // Sitemap  // Structured_data.php
+                // Contenido ChatGpt    // Head        // Footer   // Barra de Navegación  // Subida al Hosting    // Pinterest    // Carruseles   // Sitemap  // Structured_data.php
+
+-Cantabria
+    Somo            OK
+    Noja            OK
+    Berria          OK
+    Sardinero/Cantabria FALTAN sustituir LAS IMAGENES
+    Laredo              FALTAN LAS IMAGENES
+
 
 
 -Guipuzkoa

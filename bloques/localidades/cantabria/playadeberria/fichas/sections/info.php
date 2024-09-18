@@ -1,7 +1,6 @@
 <?php $li_encabezado = '
     <h1 class="text-center">Playa de Gorliz</h1>
     <p class="text-center">Descubre la Playa de Gorliz, un rincón encantador en la costa de Bizkaia. Con su extensa franja de arena dorada y un entorno natural impresionante, Gorliz ofrece un ambiente relajante ideal para disfrutar del sol, practicar deportes acuáticos y explorar paisajes costeros. Además, su paseo marítimo cuenta con una selección de bares y restaurantes, ofreciendo una experiencia completa para todos los visitantes que buscan tranquilidad y belleza natural.</p>
-
 '; ?>
 
 <?php $li_descripcion_detallada = '
@@ -13,7 +12,6 @@
         <li>La cercana localidad de Santoña ofrece una excelente oferta gastronómica con pescados y mariscos frescos, así como pintxos típicos de la región.</li>
     </ul>
 </div>
-
 '
 ; ?>
 
@@ -36,8 +34,6 @@
         <li>Esto asegura una experiencia culinaria inigualable tras un día de playa.</li>
     </ul>
 </div>
-
-
 '; ?>
 
 
@@ -106,18 +102,17 @@
 
 
 <?php $li_services = '
-    <h2 class="section-header">Servicios en la Playa de Gorliz</h2>
-    <div class="info-box">
-        <ul>
-            <li><span class="highlight">Socorristas:</span> Servicio de socorrismo disponible durante la temporada alta para garantizar la seguridad de todos los bañistas.</li>
-            <li><span class="highlight">Accesibilidad:</span> La playa cuenta con accesos adaptados para personas con movilidad reducida, incluyendo rampas y sillas anfibias.</li>
-            <li><span class="highlight">Duchas y baños:</span> Instalaciones de duchas de agua dulce y baños públicos ubicados a lo largo de la playa.</li>
-            <li><span class="highlight">Aparcamiento:</span> Zona de aparcamiento amplia y gratuita cerca de la playa, con plazas reservadas para personas con discapacidad.</li>
-            <li><span class="highlight">Alquiler de sombrillas y hamacas:</span> Servicios de alquiler disponibles durante los meses de verano para mayor comodidad de los visitantes.</li>
-            <li><span class="highlight">Chiringuitos:</span> Varios chiringuitos a lo largo de la playa que ofrecen una variedad de refrescos, helados y comidas ligeras.</li>
-            <li><span class="highlight">Centro de Deportes Náuticos:</span> Alquiler de equipos para practicar surf, paddle surf y otros deportes acuáticos.</li>
-        </ul>
-    </div>
+<div class="info-box">
+    <ul>
+        <li><span class="highlight">Socorristas:</span> Servicio de socorrismo disponible durante la temporada alta para garantizar la seguridad de todos los bañistas en la Playa de Noja.</li>
+        <li><span class="highlight">Accesibilidad:</span> La playa cuenta con accesos adaptados para personas con movilidad reducida, incluyendo rampas y sillas anfibias.</li>
+        <li><span class="highlight">Duchas y baños:</span> Instalaciones de duchas de agua dulce y baños públicos ubicados a lo largo de la Playa de Noja.</li>
+        <li><span class="highlight">Aparcamiento:</span> Zona de aparcamiento amplia y gratuita cerca de la playa, con plazas reservadas para personas con discapacidad.</li>
+        <li><span class="highlight">Alquiler de sombrillas y hamacas:</span> Servicios de alquiler disponibles durante los meses de verano para mayor comodidad de los visitantes en la Playa de Noja.</li>
+        <li><span class="highlight">Chiringuitos:</span> Varios chiringuitos a lo largo de la playa que ofrecen una variedad de refrescos, helados y comidas ligeras.</li>
+        <li><span class="highlight">Centro de Deportes Náuticos:</span> Alquiler de equipos para practicar surf, paddle surf y otros deportes acuáticos en la Playa de Noja.</li>
+    </ul>
+</div>
 '; ?>
 
 

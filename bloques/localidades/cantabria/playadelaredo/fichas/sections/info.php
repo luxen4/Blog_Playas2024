@@ -149,67 +149,48 @@
 '; ?>
 
 
-
-
-<?php // Carrusel de 3 Imágenes //  PASAR ESTAS FOTOS
-
-$lugar = 'playadelaredo';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' .$region.'/'.$lugar. '/img';
-$imges_name = ['/vista-aerea-playa-de-laredo.jpg', '/paseomaritimoplayadelaredo.jpg', '/atardecerenplayadelaredo.jpg'];
-$alt = ["Vista aérea de la Playa de Laredo", "Paseo marítimo en la Playa de Laredo", "Atardecer en la Playa de Laredo"];
-require './../../../../../bloques/estructura/carruselimagenes/carruselgenerico.php'; ?>
-
-        <?php // Galeria 3 imagenes //
-        $lugar = 'playadelaredo';
-        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' .$region.'/'.$lugar. '/img';
-        $imges_name = ['/actividadesenlaplayadelaredo.jpg', '/olasenlaplayadelaredo.jpg', '/puertodeportivodelaredo.jpg'];
-        $alt = ["Actividades en la Playa de Laredo", "Olas en la Playa de Laredo", "Puerto deportivo en la Playa de Laredo"];
-        require './../../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; ?>
-
-
-
 <?php
 $imagenes = [
     [
         'src' => './../img/vista-aerea-playa-de-laredo.jpg',
         'alt' => 'Vista aérea de la Playa de Laredo, Cantabria',
         'figcaption' => 'Vista aérea de la Playa de Laredo, Cantabria.',
-        'href' => '', meter el si existe
+        'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/dunas-arena-playa-Berria-y-punta-de-El-Brusco.jpg',
-        'alt' => 'Dunas de arena en la Playa de Berria" class="img-fluid',
-        'figcaption' => 'Dunas de arena en la Playa de Berria, Cantabria. Fuente:',
-        'href' => 'https://elpais.com/elviajero/2021/01/21/actualidad/1611229533_330658.html#',
-        'titulo_href' => 'redcantabrarural.com'
+        'src' => './../img/paseo-maritimo-playa-Laredo-Cantabria.jpg',
+        'alt' => 'Paseo marítimo en la Playa de Laredo, Cantabria',
+        'figcaption' => 'Paseo marítimo en la Playa de Laredo, Cantabria. Fuente:',
+        'href' => '',
+        'titulo_href' => ''
     ],
     [
-        'src' => './../img/surfistas-en-la-playa-de-Berria.jpg',
-        'alt' => 'Surfistas en la Playa de Berria',
-        'figcaption' => ' Surfistas en la Playa de Berria, Cantabria. Fuente:',
-        'href' => 'https://www.youtube.com/watch?v=2qedUp4dVYM',
-        'titulo_href' => 'Youtube'
+        'src' => './../img/atardecer-playa-Laredo-Cantabria.jpg',
+        'alt' => 'Atardecer en la Playa de Laredo',
+        'figcaption' => 'Atardecer en la Playa de Laredo. Fuente:',
+        'href' => '',
+        'titulo_href' => ''
     ],
     [
-        'src' => './../img/atardecer-playa-de-Berria.jpg',
-        'alt' => 'Atardecer en la Playa de Berria',
-        'figcaption' => 'Familias disfrutando en la Playa de Gorliz, Vizcaya.',
-        'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4556139-i336517190-Playa_De_Berria-Santona_Cantabria.html',
-        'titulo_href' => 'tripadvisor'
+        'src' => './../img/actividades-playa-Laredo-Cantabria.jpg',
+        'alt' => 'Actividades en la Playa de Laredo, Cantabria',
+        'figcaption' => 'Actividades en la Playa de Laredo, Cantabria.',
+        'href' => '',
+        'titulo_href' => ''
     ],
     [
-        'src' => './../img/playa-de-berria-santona.jpg',
-        'alt' => 'Vista de la Playa de Berria, Santoña',
-        'figcaption' => 'Playa de Berria, Santoña. Fuente:',
-        'href' => 'https://turismodecantabria.com',
-        'titulo_href' => 'Turismo de Cantabria'
+        'src' => './../img/olas-playa-Laredo_Cantabria.jpg',
+        'alt' => 'Olas en la Playa de Laredo, Cantabria',
+        'figcaption' => 'Olas en la Playa de Laredo, Cantabria. Fuente:',
+        'href' => '',
+        'titulo_href' => ''
     ],
     [
-        'src' => './../img/monte-buciero-cercano-playa-de-Berria.jpg',
-        'alt' => 'Vistas al Monte Buciero cercano a la playa Berria',
-        'figcaption' => 'Vistas al Monte Buciero cercano a la Playa de Berria. Fuente:',
-        'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4555728-i117278266-Monte_Buciero-Santona_Cantabria.html',
-        'titulo_href' => 'Tripadvisor'
+        'src' => './../img/puerto-deportivo-Laredo-Cantabria.jpg',
+        'alt' => 'Puerto deportivo en la Playa de Laredo, Cantabria',
+        'figcaption' => 'Puerto deportivo en la Playa de Laredo, Cantabria. Fuente:',
+        'href' => '',
+        'titulo_href' => ''
     ]
 ]; ?>

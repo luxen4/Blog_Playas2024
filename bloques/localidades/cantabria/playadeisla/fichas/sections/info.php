@@ -58,3 +58,54 @@
         <li><strong>Servicios de Seguridad:</strong> Presencia de socorristas y puntos de primeros auxilios durante la temporada alta.</li>
         <li><strong>Zona de Juegos Infantiles:</strong> Áreas dedicadas para el entretenimiento de los más pequeños.</li>
    '; ?>
+
+
+
+
+
+<?php
+$imagenes = [
+
+    [
+        'src' => './../img/playa-de-la-cava-isla-cantabria.png',
+        'alt' => 'Playa de La Cava en Isla, Cantabria',
+        'figcaption' => 'Playa de La Cava en Isla, Cantabria. Fuente:',
+        'href' => 'https://piensaenunlugar.wordpress.com/2016/09/29/la-playa-de-la-cava-y-la-playa-joyel-en-cantabria/',
+        'titulo_href' => 'piensaenunlugar.wordpress.com'
+    ],
+    [
+        'src' => './../img/playa-del-candano.jpg',
+        'alt' => 'Playa del Cándano en Isla, Cantabria',
+        'figcaption' => 'Playa del Cándano en Isla, Cantabria. Fuente:',
+        'href' => 'https://quedat.cat/playa+de+la+cava+isla',
+        'titulo_href' => 'quedat.cat'
+    ],
+    [
+        'src' => './../img/playa-de-Los-Barcos-Isla-Cantabria.jpg',
+        'alt' => 'Playa de Los Barcos en Isla, Cantabria',
+        'figcaption' => 'Playa de Los Barcos en Isla, Cantabria. Fuente:',
+        'href' => 'https://turismodecantabria.com/playas/playa-de-los-barcos/',
+        'titulo_href' => 'turismodecantabria.com'
+    ],
+    [
+        'src' => './../img/playa-el-sable-isla-cantabria-600x400.jpg',
+        'alt' => 'Playa de El Sable en Isla, Cantabria',
+        'figcaption' => 'Playa de El Sable en Isla, Cantabria. Fuente:',
+        'href' => 'https://turismodecantabria.com/playas/playa-de-el-sable/',
+        'titulo_href' => 'turismodecantabria.com'
+    ],
+    [
+        'src' => './../img/playa-arnadal-isla-cantabria-600x450.jpg',
+        'alt' => 'Playa de Arnadal en Isla, Cantabria',
+        'figcaption' => 'Playa de Arnadal en Isla, Cantabria. Fuente:',
+        'href' => 'https://turismodecantabria.com/playas/playa-de-arnadal/',
+        'titulo_href' => 'turismodecantabria.com'
+    ],
+    [
+        'src' => './../img/playa-arena-isla-cantabria-600x450.jpg',
+        'alt' => 'Playa de La Arena en Isla, Cantabria',
+        'figcaption' => 'Playa de La Arena en Isla, Cantabria. Fuente:',
+        'href' => 'https://turismodecantabria.com/playas/playa-de-la-arena/',
+        'titulo_href' => 'turismodecantabria.com'
+    ]
+]; ?>

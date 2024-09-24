@@ -26,7 +26,7 @@ $pinterest_property_card_title_content = 'Playa de Plentzia - Información y Tur
 $pinterest_property_card_description_content = 'Descubre la Playa de Plentzia, un hermoso arenal en la costa de Bizkaia, ideal para disfrutar de un día en familia, practicar deportes acuáticos y explorar la encantadora villa de Plentzia.';
 $pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/bizkaia/playadeplentzia/playa-de-plentzia.jpg';
 
-$href_styles = './../fichas/css/styles.css';
+//$href_styles = './../fichas/css/styles.css';
 
 
 ////////
@@ -52,7 +52,8 @@ $mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/bizkaia/playa
 require "./../../../../../bloques/estructura/head.php"; ?>
 
 <body>
-    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php $page = 'playade'.$localidad_minuscula; ?>
+    <?php require "./sections/info.php"; ?>    
     <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 

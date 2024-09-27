@@ -10,21 +10,21 @@ $keywords_content = 'Playa de San Juan de Luz, surf, naturaleza, paseo marítimo
 
 $graph_Meta_Tags_property_title = 'Playa de San Juan de Luz - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia'; // Actualiza si es necesario
 $twiterCards_title = 'Playa de San Juan de Luz - Información y Turismo';
 $twiterCards_descripcion = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php?i=1';
+$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/francia/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de San Juan de Luz - Información y Turismo';
 $pinterest_property_card_description_content = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/francia/playa-de-san-juan-de-luz/playa-de-san-juan-de-luz.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -35,7 +35,7 @@ $localidad = 'San Juan de Luz';
 $localidad_minuscula = 'san-juan-de-luz';
 
 $descripcion = 'Explora la Playa de San Juan de Luz, un destino famoso por su hermoso arenal, excelente para practicar surf y disfrutar de un vibrante paseo marítimo lleno de vida.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php';
+$url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz.php';
 
 $mainEntity_description = 'La Playa de San Juan de Luz es una de las playas más emblemáticas de la costa vasca francesa, conocida por su hermoso arenal, mar tranquilo y excelente oferta gastronómica.';
 $mainEntity_addressLocality = 'San Juan de Luz';
@@ -46,13 +46,14 @@ $mainEntity_geo_latitude = 43.3833;
 $mainEntity_geo_longitude = -1.6667;
 
 $mainEntity_image = 'https://example.com/path/to/san-juan-de-luz-image.jpg'; // Reemplaza con la imagen correcta
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/pirineos-atlanticos/playa-de-san-juan-de-luz/fichas/playa-de-san-juan-de-luz.php';
+$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz.php';
 ////////
 
 require "./../../../../../bloques/estructura/head.php"; ?>
 
 <body>
-    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php $page = 'playade'.$localidad_minuscula; ?>
+    <?php require "./sections/info.php"; ?>    
     <?php require "./../../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 

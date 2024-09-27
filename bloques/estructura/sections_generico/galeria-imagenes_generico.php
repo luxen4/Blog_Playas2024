@@ -1,6 +1,6 @@
 <?php
 function generarGaleria($imagenes) {
-    echo '<section class="gallery container mb-5">';
+    echo '<hr><section class="gallery">';
     echo '<h2 class="">Galería de Imágenes</h2>';
     echo '<div class="row">';
     

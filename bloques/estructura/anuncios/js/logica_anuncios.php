@@ -80,5 +80,5 @@ function addProperties($categories, $total_images = 4) {
 </script>
 
 <script>
-    alert("Entro");
+    //alert("Entro");
 </script>

@@ -1,19 +1,16 @@
 <?php $li_encabezado = '
-   <h1 class="text-center">Playa de Hendaya</h1>
-    <p class="text-center">Descubre la Playa de Hendaya, un impresionante arenal situado en la costa vasca. Con su extensa playa de arena dorada, olas perfectas para el surf y un entorno natural impresionante, Hendaya es el destino ideal para disfrutar de actividades acuáticas, paseos en la playa y una gastronomía deliciosa. Ya sea que busques relajarte bajo el sol o explorar la vibrante oferta local, Hendaya te ofrece una experiencia inolvidable.</p>
+   <h1 class="">Playa de Hendaya</h1>
+   <p class="">Descubre la Playa de Hendaya, un impresionante arenal situado en la costa vasca. Con su extensa playa de arena dorada, olas perfectas para el surf y un entorno natural impresionante, Hendaya es el destino ideal para disfrutar de actividades acuáticas, paseos en la playa y una gastronomía deliciosa. Ya sea que busques relajarte bajo el sol o explorar la vibrante oferta local, Hendaya te ofrece una experiencia inolvidable.</p>
 '; ?>
 
 <?php $li_descripcion_detallada = '
-    <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Hendaya, ubicada en el suroeste de Francia, cerca de la frontera con España, es un destino costero destacado en la región de los Países Vascos. Con su amplia franja de arena dorada que se extiende por más de 3 kilómetros, esta playa es ideal para familias y amantes del sol. Hendaya es conocida por sus aguas tranquilas y sus perfectas condiciones para el surf y otros deportes acuáticos.</p>
-
 '
 ; ?>
 
 
 <?php $li_descripcion_detallada2 = '    
     <p class="section-content">La playa cuenta con un vibrante paseo marítimo repleto de restaurantes y bares donde puedes saborear delicias locales y disfrutar de vistas panorámicas del océano. Hendaya también ofrece una rica oferta de actividades, desde eventos culturales y deportivos hasta excursiones en barco y rutas de senderismo en sus alrededores. Con su encantador entorno costero y una variedad de opciones para el ocio, la Playa de Hendaya es el lugar perfecto para disfrutar de un día junto al mar.</p>
-
 ';?>
 
 <?php $li_descripcion_detallada30 = '
@@ -24,7 +21,6 @@
 
 
 <?php $li_mapa_ubicacion = '
-    <h2>Cómo Llegar</h2>
     <p>La Playa de Hendaya es de fácil acceso tanto en coche como en transporte público.</p>
     <ul>
         <li><strong>En coche:</strong> Desde San Sebastián, la Playa de Hendaya se encuentra a unos 30 minutos en coche por la carretera N-1 y la AP-8. Hay varias opciones de aparcamiento cerca de la playa, incluyendo zonas gratuitas y de pago.</li>
@@ -47,10 +43,8 @@
 
 
 <?php $li_actividades_recomendadas = '
-    <h2 class="section-header text-center">Actividades Recomendadas en la Playa de Hendaya</h2>
     <ul class="list-unstyled">
         <li><strong>Surf:</strong> Hendaya es famosa por sus excelentes condiciones para el surf, con olas que atraen a surfistas de todos los niveles. Aprovecha las escuelas de surf locales para mejorar tus habilidades o comenzar a practicar.</li>
-
 '; ?>
 
 

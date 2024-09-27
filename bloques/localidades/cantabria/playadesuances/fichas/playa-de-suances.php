@@ -26,7 +26,7 @@ $pinterest_property_card_title_content = 'Playa de Suances - Información y Turi
 $pinterest_property_card_description_content = 'Descubre la Playa de Suances, una extensa playa en Cantabria ideal para disfrutar del sol, las olas y la belleza natural del norte de España.';
 $pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/playa-de-suances.jpg';
 
-$href_styles = './../fichas/css/styles.css';
+// $href_styles = './../fichas/css/styles.css';
 
 
 ////////

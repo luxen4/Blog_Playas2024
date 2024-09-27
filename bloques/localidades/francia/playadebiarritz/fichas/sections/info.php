@@ -1,5 +1,8 @@
+<?php $li_encabezado = '
+<h1 class="">Playa de Biarritz</h1>
+<p class="">La Playa de Biarritz, situada en la impresionante costa vasca, es un destino vibrante y popular tanto para surfistas como para familias que buscan un lugar para relajarse. Con su amplia franja de arena dorada y aguas ideales para diversas actividades acuáticas, Biarritz ofrece un entorno perfecto para disfrutar de un día al aire libre. Además, su proximidad a excelentes restaurantes que ofrecen una rica variedad de mariscos y especialidades locales, junto con un entorno natural cautivador, hacen de la Playa de Biarritz un lugar inmejorable para vivir una experiencia completa junto al mar.</p>'; ?>
+
 <?php $li_descripcion_detallada = '
-    <h2 class="section-header text-center">Presentación</h2>
     <p class="section-content">La Playa de Biarritz, situada en el sur de Francia en la región de Nueva Aquitania, es una de las playas más emblemáticas de la costa vasca. Con su amplia franja de arena dorada, que se extiende a lo largo del centro de Biarritz, esta playa es conocida por su ambiente cosmopolita y su vibrante vida social. Biarritz es famosa por sus excelentes condiciones para el surf, lo que la convierte en un destino preferido por los surfistas de todo el mundo.</p>
     <p class="section-content">Además de su playa, Biarritz cuenta con un animado paseo marítimo lleno de tiendas, bares y restaurantes que ofrecen una amplia gama de opciones gastronómicas. La ciudad también alberga una variedad de actividades culturales y eventos a lo largo del año. Con su impresionante paisaje costero y su rica oferta cultural, la Playa de Biarritz es el lugar perfecto para disfrutar de unas vacaciones junto al mar en un entorno sofisticado y acogedor.</p>
  ' ?>
@@ -21,7 +24,6 @@
 ' ?>
 
 <?php $li_mapa_ubicacion = '
- <h2>Cómo Llegar</h2>
     <p>La Playa de Biarritz es de fácil acceso tanto en coche como en transporte público.</p>
     <ul>
         <li><strong>En coche:</strong> Desde Bayona, la Playa de Biarritz se encuentra a unos 10 minutos en coche por la carretera D810. Hay varias opciones de aparcamiento cerca de la playa, incluyendo zonas gratuitas y de pago.</li>
@@ -43,3 +45,54 @@
             <a href="https://www.biarritz.fr/decouvrir-biarritz/bureau-dinformation-touristique"><strong>Web</strong></a>
         </li>
     </ul>' ?>
+
+
+
+
+<?php
+$imagenes = [
+
+    [
+        'src' => './../img/vista-aerea-playa-Biarritz-Francia.jfif',
+        'alt' => 'Vista aérea de la Playa de Biarritz, Francia',
+        'figcaption' => 'Vista aérea de la Playa de Biarritz, Francia',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+    [
+        'src' => './../img/surfistas-playa-Biarritz-Francia.jfif',
+        'alt' => 'Surfistas en la playa de Biarritz, Francia',
+        'figcaption' => 'Surfistas en la playa de Biarritz, Francia',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+    [
+        'src' => './../img/puesta-sol-playa-Biarritz-Francia.jpeg',
+        'alt' => 'Atardecer en Playa de Biarritz, Francia',
+        'figcaption' => '',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+    [
+        'src' => './../img/panoramica-playa-Biarritz-Francia.jpg',
+        'alt' => 'Panorámica de la playa de Biarritz en Francia.',
+        'figcaption' => 'Panorámica de la playa de Biarritz en Francia.',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+    [
+        'src' => './../img/dia-verano-playa-Biarritz-Francia.jfif',
+        'alt' => 'Dia de verano en la playa de Biarritz en Francia.',
+        'figcaption' => 'Dia de verano en la playa de Biarritz en Francia.',
+        'href' => '',
+        'titulo_href' => ''
+    ],
+
+    [
+        'src' => './../img/paseo-maritimo-playa-Biarritz-Francia.jfif',
+        'alt' => 'Paseo marítimo en la playa de Biarritz en Francia.',
+        'figcaption' => 'Paseo marítimo en la playa de Biarritz en Francia.',
+        'href' => '',
+        'titulo_href' => ''
+    ]
+]; ?>

@@ -1,17 +1,25 @@
 <!-- información_general -->
 <section id="informacion_general">
+    <h2 class="section-header text-center"></h2>
+    <hr>
     <?= $li_descripcion_detallada; ?>
     <?php
     $articulo = $productos[array_rand($productos)];
-    include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+
+    if($anuncios='si'){
+        //include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+    }
+       
     ?>
 
     <?php
     if (isset($li_descripcion_detallada2)) {
-        $es_segundo_carrusel = '';
+        $es_segundo_carrusel = ''; 
         echo($li_descripcion_detallada2);
         $articulo = $productos[array_rand($productos)];
-        include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+        if($anuncios='si'){
+            //include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+        }
     }
     ?>
 
@@ -19,7 +27,9 @@
     if (isset($li_descripcion_detallada3)) {
         echo($li_descripcion_detallada3);
         $articulo = $productos[array_rand($productos)];
-        include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+        if($anuncios='si'){
+            //include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+        }
     }
     ?>
 </section>

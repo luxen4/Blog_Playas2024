@@ -4,49 +4,37 @@
     <h1 class="small mb-0 text-uppercase" style="opacity: 0.7;">Los viajes de Adrián</h1>
 </div> */ ?>                 
 <header class="bg-primary text-white text-center d-flex flex-column flex-lg-row align-items-center justify-content-between p-3">
-  
-    <div class="d-flex flex-column flex-md-row align-items-center flex-grow-1">
-        <img src="./../../../../../img/yo.png" alt="Auto de viaje" class="img-fluid" style="margin-right: 20px;">
-    </div>
-
-    <nav class="mt-3 mt-lg-0 w-100">
-
-
-
     
-        <div style="text-align: center;" class="text-center text-md-left mt-md-0">
-            <h2 style="text-align: center;" class="mb-0"> <?= "Playa de " .$localidad; ?></h2>
-            <p style="text-align: center;" class="lead mb-0">Tu destino perfecto en <?= $region; ?></p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary w-100">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="./../../../../../index.php">Todas Playas por Zonas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#informacion_general">General</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#ubicacion">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#actividades">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#galeria">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#masinfo">Más Info</a>
+                </li>
+            </ul>
         </div>
-
-        <ul class="nav justify-content-center flex-wrap">
-
-            <li class="nav-item active">
-                <a class="nav-link text-white" href="./../../../../../index.php">Todas Playas por Zonas<span class="sr-only"></span></a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#informacion_general">General</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#ubicacion">Ubicación</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#actividades">Actividades</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#servicios">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#galeria">Galería</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#masinfo">Más Info</a>
-            </li>
-        </ul>        
-        
-
-
     </nav>
 </header>
 

@@ -41,12 +41,19 @@
         </div>
 
 
-        <div class="text-center">
-            <p style="text-align: center; margin-bottom: 0rem;">Hecho por Adrián Laya García <br><a href="mailto:superlaya50@gmail.com"> superlaya50@gmail.com</a></p>
-            <?php // <p>&copy; 2024 Playa de Santander. Todos los derechos reservados.</p>
-            ?>
+
+        <div class="d-flex justify-content-center align-items-center vh-5">
+
+                <img src="./../../../../../img/yo.png" alt="Auto de viaje" class="img-fluid" style="margin-right: 20px;">
+
+                <div>
+                    <p style="margin-bottom: 0rem;">Hecho por Adrián Laya García <br><a href="mailto:superlaya50@gmail.com">superlaya50@gmail.com</a></p>
+                    <?php // <p>&copy; 2024 Playa de Santander. Todos los derechos reservados.</p> 
+                    ?>
+                </div>
+            </div>
         </div>
-      
+
     </div>
 </footer>
 
@@ -59,7 +66,8 @@
         bottom: 0;
     }
 
-    footer h4,  footer h2{
+    footer h4,
+    footer h2 {
         text-align: center;
     }
 
@@ -74,10 +82,78 @@
 
     @media (max-width: 767.98px) {
         footer h4 {
-            font-size: 1.2rem; /* Reduce el tamaño del encabezado en pantallas pequeñas */
+            font-size: 1.2rem;
+            /* Reduce el tamaño del encabezado en pantallas pequeñas */
         }
+
         footer h6 {
-            font-size: 0.9rem; /* Reduce el tamaño del texto en pantallas pequeñas */
+            font-size: 0.9rem;
+            /* Reduce el tamaño del texto en pantallas pequeñas */
+        }
+    }
+
+
+
+
+
+
+    /* Estilo para la imagen de presentación del auto */
+    footer img {
+        max-height: 100px;
+        /* Ajusta la altura máxima */
+        margin: 20px;
+        /* Espacio entre la imagen y el texto */
+        border-radius: 10px;
+        /* Bordes redondeados */
+        border: 2px solid #ffffff;
+        /* Borde blanco */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Sombra suave */
+        opacity: 0.9;
+        /* Ligera transparencia */
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        /* Transición para animaciones */
+    }
+
+    /* Efecto al pasar el ratón por encima de la imagen */
+    footer img:hover {
+        transform: scale(1.05);
+        /* Aumenta ligeramente el tamaño al pasar el ratón */
+        opacity: 1;
+        /* Hace la imagen completamente opaca */
+    }
+
+    /* Inscripción debajo de la imagen */
+    footer .small {
+        opacity: 0.7;
+        /* Opacidad para hacer el texto más sutil */
+        font-style: italic;
+        /* Fuente cursiva */
+    }
+
+    /* Ajustes de tamaño de fuente y márgenes en pantallas pequeñas */
+    @media (max-width: 576px) {
+        footer h1 {
+            font-size: 1.5rem;
+        }
+
+        footer p.lead {
+            font-size: 1rem;
+        }
+
+        footer img {
+            max-height: 80px;
+            /* Reduce el tamaño de la imagen en pantallas pequeñas */
+            margin: 10px;
+        }
+
+        nav ul.nav {
+            flex-direction: column;
+            /* Coloca los enlaces en una columna en pantallas pequeñas */
+        }
+
+        nav ul.nav li.nav-item {
+            margin-bottom: 10px;
         }
     }
 </style>

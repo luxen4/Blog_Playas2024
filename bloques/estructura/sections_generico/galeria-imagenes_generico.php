@@ -1,6 +1,6 @@
 <?php
 function generarGaleria($imagenes) {
-    echo '<hr><section class="gallery">';
+    echo '<hr><section id="galeria" class="gallery">';
     echo '<h2 class="">Galería de Imágenes</h2>';
     echo '<div class="row">';
     
@@ -12,7 +12,7 @@ function generarGaleria($imagenes) {
 
         if($imagen['href'] != ''){
         echo '<figcaption>';
-        echo htmlspecialchars($imagen['figcaption']) . ' Fuente: ';            
+        echo htmlspecialchars($imagen['figcaption']) . '<br>Fuente: ';            
         echo '<a href="' . htmlspecialchars($imagen['href']) . '" target="_blank">' . htmlspecialchars($imagen['titulo_href']) . '</a>';
         echo '</figcaption>';        
         }

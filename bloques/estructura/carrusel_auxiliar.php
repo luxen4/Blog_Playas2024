@@ -1,17 +1,15 @@
-<?php
+<?php /*
 $images = 'images_';
 
 $articulo_2_1 = $articulo . $grupo . "_1";
 $articulo_2_2 = $articulo . $grupo . "_2";
 $articulo_2_3 = $articulo . $grupo . "_3";
-$articulo_2_4 = $articulo . $grupo . "_4";
+$articulo_2_4 = $articulo . $grupo . "_4";  */
 ?>
-
+<hr>
 <!--<div class="carrusel <?php if (isset($es_segundo_carrusel)) echo 'segundo-carrusel'; ?> <?php if (isset($es_tercer_carrusel)) echo 'tercer-carrusel'; ?>">-->
-    <div class="container">
-        <hr>
+    <div style="margin: 2em;" class="container">
         <div class="row">
-
             <div class="col-xl-2 text-center col-lg-1 col-md-1">
             </div>
 
@@ -60,10 +58,9 @@ $articulo_2_4 = $articulo . $grupo . "_4";
             <div class="col-xl-2 text-center col-lg-1 col-md-1">
             </div>
         </div>
-        <hr>
     </div>
 <!--</div>-->
-
+<hr>
 
 
 

@@ -1,14 +1,12 @@
 <!-- información_general -->
 <section id="informacion_general">
     <h2 class="section-header text-center"></h2>
-    <hr>
     <?= $li_descripcion_detallada; ?>
     <?php
     $articulo = $productos[array_rand($productos)];
 
-    if($anuncios='si'){
-        //include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
-    }
+    if($anuncios='si'){include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+}
        
     ?>
 

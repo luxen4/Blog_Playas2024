@@ -1,6 +1,6 @@
 <?php
 $servername = $_SERVER['SERVER_NAME'];
-$require = './../../../../../products_amazon/conexion.php';
+$require = './../../../../products_amazon/conexion.php';
 
 $articulo = 'sweatshirts';
 $grupo = '_2';
@@ -11,7 +11,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 /*
@@ -24,7 +24,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }*/
 
 $articulo = 'shorts';
@@ -36,7 +36,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -52,8 +52,9 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
+
 
 
 
@@ -68,7 +69,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -83,7 +84,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -101,7 +102,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -114,7 +115,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -130,7 +131,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -144,7 +145,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -158,7 +159,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -175,7 +176,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
     
@@ -188,7 +189,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -202,7 +203,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -217,7 +218,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -231,7 +232,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -246,7 +247,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -261,7 +262,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -276,7 +277,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 $articulo = 'sneakers_izquierda_45';
@@ -289,7 +290,7 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
@@ -303,17 +304,37 @@ if ($page == 'home'){
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
 
 
 
-
+$articulo = 'shirts';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
 $table='amazon_shirts_images';
 $where = 'where direccion = "modelo_frente"';
 if ($page == 'home'){ 
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
-    require './../../../../../products_amazon/sql_generica.php';
+    require './../../../../products_amazon/sql_generica.php';
 }
+
+
+
+$articulo = 'sweater_man';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "frente"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../products_amazon/sql_generica.php';
+}
+
+
+
+

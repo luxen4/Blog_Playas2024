@@ -1,5 +1,5 @@
 <?php
-$atras_5niveles = './../../../../..';
+$atras_5niveles = './../../../..';
 
 // include_once $atras_5niveles . '/bloques/estructura/barra_navegacion2.php'; ?>
 <?php include_once $atras_5niveles . '/bloques/estructura/anuncios/carga_productos.php'; ?>

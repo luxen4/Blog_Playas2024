@@ -2,6 +2,7 @@
 // Definir el array con los elementos proporcionados
 $productos = [
     'sweatshirts', /* OK */
+    'sweater_man',
     'shorts',
     'swimsuits_woman',
     'sneakers',

@@ -1,430 +1,51 @@
 
-CREATE DATABASE IF NOT EXISTS blogplayas2024_db;
-USE blogplayas2024_db;
+// amazon_sweater_man_images
+    CREATE TABLE IF NOT EXISTS amazon_sweater_man_images (
+        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+        href VARCHAR(255) NOT NULL,
+        src VARCHAR(255) NOT NULL,
+        alt VARCHAR(255) NOT NULL,
+        marca VARCHAR(32) NOT NULL,
+        precio DECIMAL (10,2),
+        direccion VARCHAR (255) NOT NULL
+    );
 
-CREATE TABLE IF NOT EXISTS amazon_sweatshirts_images (
-    amazon_sweatshirts_id INT AUTO_INCREMENT PRIMARY KEY,
-    href VARCHAR(255) NOT NULL,
-    src VARCHAR(255) NOT NULL,
-    alt VARCHAR(255) NOT NULL,
-    marca VARCHAR(32) NOT NULL,
-    precio DECIMAL (10,2),
-    direccion INT (255) NOT NULL
-);
 
-INSERT INTO amazon_sweatshirts_images (href, src, alt, marca, precio, direccion) VALUES
+INSERT INTO amazon_sweater_man_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/3AZrzVp',
-'https://images-eu.ssl-images-amazon.com/images/I/81CmIo6ZxCL._AC_UL165_SR165,165_.jpg',
-'Joma Cairo, Sudadera para Hombre',
-'Joma',
-18.90,
+('https://amzn.to/4dooR9j',
+'https://images-eu.ssl-images-amazon.com/images/I/71A5yIa-uAL._AC_UL165_SR165,165_.jpg',
+'Leif Nelson Jersey de Punto Grueso Chal Collar de los Hombres de LN-5385',
+'Leif Nelson',
+59.99,
 'frente'),
 
-('https://amzn.to/47kGTIj',
-'https://images-eu.ssl-images-amazon.com/images/I/71D7qahEqaL._AC_UL165_SR165,165_.jpg',
-'Jack & Jones Jjebasic Sweat Crew Neck Noos Sudadera para Hombre',
-'Jack & Jones',
-23.88,
-'frente'),
-
-('https://amzn.to/3AThtFn',
-'https://images-eu.ssl-images-amazon.com/images/I/61pgW0YFByL._AC_UL165_SR165,165_.jpg',
-'Joma Sudadera Crew V Hombre Sudadera Hombre',
-'Joma',
-21.32,
-'frente'),
-
-('https://amzn.to/3AThtFn',
-'https://images-eu.ssl-images-amazon.com/images/I/71dLy82MbGL._AC_UL165_SR165,165_.jpg',
-'adidas Entrada 22 Sweatshirt Sudadera Hombre (Pack de 1)',
-'adidas',
-31.64,
-'frente'),
-
-
-('https://amzn.to/3z9oNMO',
-'https://images-eu.ssl-images-amazon.com/images/I/71dLy82MbGL._AC_UL165_SR165,165_.jpg',
-'Jack & Jones Jjebradley Sweat Crew Noos Sudadera para Hombre',
-'Jack & Jones',
-22.99,
+('https://amzn.to/4eGt0GP',
+'https://images-eu.ssl-images-amazon.com/images/I/71JBxKypw7L._AC_UL165_SR165,165_.jpg',
+'Leif Nelson Jersey de Punto Grueso Chal Collar de los Hombres de LN-5255',
+'Leif Nelson',
+59.99,
 'frente'),
 
 
 
-('https://amzn.to/3z9oNMO',
-'https://images-eu.ssl-images-amazon.com/images/I/81+aAgsQ3eL._AC_UL165_SR165,165_.jpg',
-'RED BRIDGE Sudadera para Hombre con Capucha o Cuello Redondo Unicolor de algodón',
-'RED BRIDGE',
-26.90,
-'frente'),
 
-('https://amzn.to/3z9oNMO',
-'https://images-eu.ssl-images-amazon.com/images/I/51y4zHewpPS._AC_UL165_SR165,165_.jpg',
-'DRESSED IN MUSIC PLAY WITH ME Sudadera clásica de Cuello Redondo para Hombre/Mujer - Sudadera Algodón Orgánico Surf Monkey',
-'DRESSED IN MUSIC PLAY WITH ME',
-59.95,
+
+
+('https://amzn.to/4gNuWzi',
+'https://images-eu.ssl-images-amazon.com/images/I/918DRLWExeL._AC_UL165_SR165,165_.jpg',
+'Leif Nelson Hombres Chaqueta de Punto con Cuello Chal LN-5165',
+'Leif Nelson',
+74.99,
 'frente'),
 
 
-('https://amzn.to/3z9oNMO',
-'https://images-eu.ssl-images-amazon.com/images/I/61oKapKgypL._AC_UL165_SR165,165_.jpg',
-'DRESSED IN MUSIC PLAY WITH ME Hoodie Sudadera Ecológica con Capucha para Hombre/Mujer - Algodón Orgánico Gots Surf Monkey®',
-'DRESSED IN MUSIC PLAY WITH ME',
-64.95,
+('https://amzn.to/3Y3Duud',
+'https://images-eu.ssl-images-amazon.com/images/I/71VWKfFzPDL._AC_UL165_SR165,165_.jpg',
+'Leif Nelson Los Hombres de Jersey de Punto Grueso de Cuello Alto LN-7025',
+'Leif Nelson',
+59.99,
 'frente')
-
-;
-
-*COMPLETAR*
-
-
-CREATE TABLE IF NOT EXISTS amazon_sneakers_images (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    href VARCHAR(255) NOT NULL,
-    src VARCHAR(255) NOT NULL,
-    alt VARCHAR(255) NOT NULL
-);
-
-
-
-
-INSERT INTO amazon_sneakers_images (href, src, alt, marca, precio, direccion) VALUES
-
-('https://amzn.to/4fBJLnN',
-'https://m.media-amazon.com/images/I/81EFN0rUVBL._AC_SX625_.jpg',
-'Zapatillas marca Skechers Hombre',
-'Skechers',
-76.31,
-'izquierda_15'
-)
-
-;
-
-
-
-
-
-CREATE TABLE IF NOT EXISTS amazon_shorts_images (
-    amazon_swimsuits_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
-    href VARCHAR(255) NOT NULL,
-    src VARCHAR(255) NOT NULL,
-    alt VARCHAR(255) NOT NULL,
-    marca VARCHAR(32) NOT NULL,
-    precio DECIMAL (10,2),
-    direccion VARCHAR (255) NOT NULL
-);
-
-
-INSERT INTO amazon_shorts_images (href, src, alt, marca, precio, direccion) VALUES
-('https://amzn.to/3YUJl6b',
-'https://m.media-amazon.com/images/I/61A5rpxOQQL._AC_SX569_.jpg',
-'LY4U Pantalones Cortos Deportivos Casuales para Hombre con Bolsillos con Cremallera en la Cintura Elástica',
-'LY4U',
-19.99,
-'frente'),
-
-('https://amzn.to/3AHvi9Z',
-'https://images-eu.ssl-images-amazon.com/images/I/71CFTMk+t5L._AC_UL165_SR165,165_.jpg',
-'Tansozer Pantalones Cortos Hombre Deporte Running',
-'Tansozer',
-18.08,
-'frente'),
-
-
-('https://amzn.to/3X2yWm7',
-'https://m.media-amazon.com/images/I/61A5rpxOQQL._AC_UF480,600_SR480,600_.jpg',
-'Csqtongan Pantalones deportivos para hombre, pantalones cortos para hombre, pantalones cortos de verano, algodón, pantalones cortos de deporte, elásticos, para gimnasio, con bolsillo',
-'Csqtongan',
-22.99,
-'frente'),
-
-('https://amzn.to/3WXNrrz',
-'https://m.media-amazon.com/images/I/51V8lb5FHvL._AC_UF480,600_SR480,600_.jpg',
-'JustSun Pantalones Cortos Hombre Deporte Shorts Running con Cremallera',
-'JustSun',
-30.99,
-'frente'),
-
-
-
-('https://amzn.to/3MnJqI5',
-'https://m.media-amazon.com/images/I/61JXEdgTDqL._AC_UF480,600_SR480,600_.jpg',
-'Csqtongan Pantalones cortos de verano para hombre, pantalones cortos deportivos de algodón, para gimnasio, correr, elásticos, con bolsillos',
-'Csqtongan',
-20.99,
-'frente'),
-
-('https://amzn.to/3yRrfaC',
-'https://m.media-amazon.com/images/I/41S0X85MNmS._AC_UF480,600_SR480,600_.jpg',
-'Tansozer Pantalones Cortos Hombre Deporte Running',
-'Tansozer',
-25.49,
-'frente'),
-
-
-('https://amzn.to/4cM3EWt',
-'https://images-eu.ssl-images-amazon.com/images/I/71LrCOcS+OL._AC_UL165_SR165,165_.jpg',
-'Tansozer Pantalones Cortos Hombre Deporte Running',
-'Tansozer',
-28.89,
-'frente'),
-
-('https://amzn.to/3ySKy3f',
-'https://images-eu.ssl-images-amazon.com/images/I/71lBgWum+sL._AC_UL165_SR165,165_.jpg',
-'LY4U Pantalones Cortos Deportivos Casuales para Hombre con Bolsillos con Cremallera en la Cintura Elástica',
-'LY4U',
-19.99,
-'frente')
-
-;
-
-
-
-
-
-
-
-CREATE TABLE IF NOT EXISTS visitas_webs (
-    id_visita INT AUTO_INCREMENT PRIMARY KEY,
-    url VARCHAR (255) NOT NULL,
-    fecha DATE NOT NULL,
-    nombreweb VARCHAR(255) NOT NULL
-);
-
-
-
-CREATE TABLE IF NOT EXISTS amazon_direccion_images (
-    id_direccion_images INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(255) NOT NULL
-);
-
-
-
-
-
-
-
-
-
-
-// amazon_sports_shirts_images
-    CREATE TABLE IF NOT EXISTS amazon_sports_shirts_images (
-        amazon_sports_shirts_images INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        direccion VARCHAR (255) NOT NULL
-    );
-
-
-INSERT INTO amazon_sports_shirts_images (href, src, alt, marca, precio, direccion) VALUES
-('https://amzn.to/4c5u2KY',
-'https://m.media-amazon.com/images/I/41N1kuoNz+L._AC_SX679_.jpg',
-'Camiseta deportiva',
-'Pepe Jeans',
-24.95,
-'modelo_frente_izquierda')
-;
-
-
-            
-// amazon_swimsuits_woman_images
-    CREATE TABLE IF NOT EXISTS amazon_swimsuits_woman_images (
-        amazon_swimsuits_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        marca VARCHAR(32) NOT NULL,
-        precio DECIMAL (10,2),
-        direccion VARCHAR (255) NOT NULL
-    );
-
-
-INSERT INTO amazon_swimsuits_woman_images (href, src, alt, marca, precio, direccion) VALUES
-
-
-
-
-('https://amzn.to/3AlFhl7',
-'https://m.media-amazon.com/images/I/71AqS5s05cL._AC_SY741_.jpg',
-'Traje de Baño de Una Pieza para Mujer Push-up Volantes SHEKINI',
-'SHEKINI',
-44.99,
-'modelo_frente'),
-
-('https://amzn.to/4dqlGPw',
-'https://m.media-amazon.com/images/I/711d-bxXV5L._AC_SY741_.jpg',
-'Elegante Traje de BañO de Una Pieza para Mujer SHEKINI',
-'SHEKINI',
-36.54,
-'modelo_frente'),
-
-
-
-('https://amzn.to/3YJxOX1',
-'https://m.media-amazon.com/images/I/71mTEsvYyXL._AC_SY741_.jpg',
-'Mujer Bañador con Falda Traje de Baño Elegante SHEKINI',
-'SHEKINI ',
-39.51,
-'modelo_frente'),
-
-('https://amzn.to/3yBvRS4',
-'https://m.media-amazon.com/images/I/817fd+h0tEL._AC_SY741_.jpg',
-'Mujer Traje de Baño con Falda Una Pieza SHEKINI',
-'SHEKINI',
-43.19,
-'modelo_frente')
-
-
-;
-
-
-
-
-// amazon_sandals_man_images
-    CREATE TABLE IF NOT EXISTS amazon_sandals_man_images (
-        amazon_sandals_man_images_id INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        marca VARCHAR(32) NOT NULL,
-        precio DECIMAL (10,2),
-        direccion VARCHAR (255) NOT NULL
-    );
-
-INSERT INTO amazon_sandals_man_images (href, src, alt, marca, precio, direccion) VALUES
-
-
-('https://amzn.to/4c4GgTL',
-'https://m.media-amazon.com/images/I/61n4Tpwep4L._AC_SY625_.jpg',
-'Sandalias Deportivas Hombres',
-'FLARUT',
-33.99,
-'izquierda_45º')
-;
-
-
-
-
-
-
-
-
-// amazon_dress_woman_images
-    CREATE TABLE IF NOT EXISTS amazon_dress_woman_images (
-        amazon_dress_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        marca VARCHAR(32) NOT NULL,
-        precio DECIMAL (10,2),
-        direccion VARCHAR (255) NOT NULL
-    );
-
-
-INSERT INTO amazon_dress_woman_images (href, src, alt, marca, precio, direccion) VALUES
-
-('https://amzn.to/3WtQsiW',
-'https://m.media-amazon.com/images/I/71H5OtYaDoL._AC_SX569_.jpg',
-'Vestido Mujer marca The Drop',
-'The Drop',
-41.93,
-'modelo_izquierda_liso')
-
-;
-
-
-
-
-
-
-
-
-
-
-
-
-
-// amazon_sandals_woman_images
-    CREATE TABLE IF NOT EXISTS amazon_sandals_woman_images (
-        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        marca VARCHAR(32) NOT NULL,
-        precio DECIMAL (10,2),
-        direccion VARCHAR (255) NOT NULL
-    );
-
-
-INSERT INTO amazon_sandals_woman_images (href, src, alt, marca, precio, direccion) VALUES
-
-('https://amzn.to/4doCjuk',
-'https://m.media-amazon.com/images/I/710aZ+18xRL._AC_SX625_.jpg',
-'Sandalias Mujer marca XTI',
-'XTI',
-33.94,
-'izda_15º')
-;
-
-
-
-
-
-// amazon_jeans_man_images
-    CREATE TABLE IF NOT EXISTS amazon_jeans_man_images (
-        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        marca VARCHAR(32) NOT NULL,
-        precio DECIMAL (10,2),
-        direccion VARCHAR (255) NOT NULL
-    );
-
-
-INSERT INTO amazon_jeans_woman_images (href, src, alt, marca, precio, direccion) VALUES
-
-('https://amzn.to/3MaLNOt',
-'https://m.media-amazon.com/images/I/61vr30uGwPL._AC_SY741_.jpg',
-'Jeans Hombre marca CEDY DENIM',
-'CEDY DENIM',
-42.90,
-'derecha')
-;
-
-
-
-
-
-
-
-
-
-// amazon_polos_man_images
-    CREATE TABLE IF NOT EXISTS amazon_pantalones_cortos_correr_images (
-        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        marca VARCHAR(32) NOT NULL,
-        precio DECIMAL (10,2),
-        direccion VARCHAR (255) NOT NULL
-    );
-
-
-INSERT INTO amazon_pantalones_cortos_correr_images (href, src, alt, marca, precio, direccion) VALUES
-
-('https://amzn.to/46HN7lj',
-'https://m.media-amazon.com/images/I/4128lzpks5L._AC_SY741_.jpg',
-'Pantalon Cortos Hombre para Correr marca PITBULL',
-'PITBULL',
-49.50,
-'izquierda')
-
-
-
 ;
 
 https://m.media-amazon.com/images/I/61pzGgZqoLL._AC_SX679_.jpg

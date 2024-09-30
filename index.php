@@ -28,17 +28,31 @@
 
     <!-- Header de Introducción -->
     <header class="bg-primary text-white text-center py-5">
-        <h1 class="display-4">Explora las Mejores Playas</h1>
-        <p class="lead">Bienvenido a nuestro blog dedicado a las playas más hermosas y emocionantes. Desde arenas doradas y aguas cristalinas hasta vibrantes actividades y tranquilos rincones para relajarte, aquí encontrarás todo lo que necesitas saber para planificar tu próxima escapada costera. Navega por nuestras guías y descubre los secretos mejor guardados de los destinos playeros alrededor del mundo.</p>
-        <a href="#explorar" class="btn btn-light btn-lg mt-3">Explora Ahora</a>
+        <h1 class="display-4">Descubre las Playas del Cantábrico</h1>
     </header>
     
-    <div id="#" class="container">
-        <?php include 'bloques/localidades/cantabria/cantabria.php'; ?>
-        <?php include 'bloques/localidades/vizcaya/vizcaya.php'; ?>
-        <?php include 'bloques/localidades/guipuzkoa/guipuzkoa.php'; ?>
-        <?php include 'bloques/localidades/francia/francia.php'; ?>
+    <div class="container">
+    <p style="text-align: center;">
+            Bienvenido a nuestro blog, donde te invitamos a explorar las playas más impresionantes de la costa cantábrica. <br>
+            Desde extensas franjas de arena dorada y aguas cristalinas, hasta rincones tranquilos y vibrantes actividades acuáticas,
+            Aquí encontrarás toda la información que necesitas para planificar tu próxima escapada a la costa norte de España.
+            Navega por nuestras guías y descubre la belleza natural y la rica gastronomía de cada destino.
+        </p>
+    <div class="row">
+        <div class="">
+            <?php include 'localidades/cantabria/cantabria.php'; ?>
+        </div>
+        <div class="">
+            <?php include 'localidades/vizcaya/vizcaya.php'; ?>
+        </div>
+        <div class="">
+            <?php include 'localidades/guipuzkoa/guipuzkoa.php'; ?>
+        </div>
+        <div class="">
+            <?php include 'localidades/francia/francia.php'; ?>
+        </div>
     </div>
+</div>
 
 
     <div id="#" class="col-xl-2 text-center col-lg-3 col-md-12 col-sm-12 col-12">
@@ -71,3 +85,7 @@
         zoneId: 'ctwlmuaot0',
     });
 </script>
+
+<style>
+    .bg-primary{background-color: #333 !important}
+</style>

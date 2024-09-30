@@ -44,7 +44,7 @@
 
         <div class="d-flex justify-content-center align-items-center vh-5">
 
-                <img src="./../../../../../img/yo.png" alt="Auto de viaje" class="img-fluid" style="margin-right: 20px;">
+                <img src="/Blog_Playas2024/img/yo.png" alt="Auto de viaje" class="img-fluid" style="margin-right: 20px;">
 
                 <div>
                     <p style="margin-bottom: 0rem;">Hecho por Adrián Laya García <br><a href="mailto:superlaya50@gmail.com">superlaya50@gmail.com</a></p>

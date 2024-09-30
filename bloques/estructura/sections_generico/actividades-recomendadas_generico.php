@@ -1,5 +1,5 @@
 <!-- informacion_general -->
-<section id="actividades_recomendadas"><hr>    <h2 class="section-header">Actividades recomendadas en la Playa de <?= $localidad; ?></h2>
+<section id="actividades"><hr>    <h2 class="section-header">Actividades recomendadas en la Playa de <?= $localidad; ?></h2>
 <?= $li_actividades_recomendadas; ?>
     <?php $articulo = $productos[array_rand($productos)]; //include "./../../../../../bloques/estructura/carrusel_auxiliar.php"; ?>
 

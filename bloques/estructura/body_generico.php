@@ -1,4 +1,4 @@
-<?php require "./../../../../../bloques/estructura/basico.php"; ?>
+<?php require "./../../../../bloques/estructura/basico.php"; ?>
 
 <?php require $atras_5niveles . "/bloques/estructura/header.php"; ?>
 <?php require $atras_5niveles . '/bloques/estructura/main.php'; ?>

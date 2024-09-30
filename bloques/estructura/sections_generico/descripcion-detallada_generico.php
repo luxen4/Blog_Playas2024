@@ -5,7 +5,7 @@
     <?php
     $articulo = $productos[array_rand($productos)];
 
-    if($anuncios='si'){include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+    if($anuncios='si'){include "./../../../../bloques/estructura/carrusel_auxiliar.php";
 }
        
     ?>
@@ -16,7 +16,7 @@
         echo($li_descripcion_detallada2);
         $articulo = $productos[array_rand($productos)];
         if($anuncios='si'){
-            //include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+            //include "./../../../../bloques/estructura/carrusel_auxiliar.php";
         }
     }
     ?>
@@ -26,7 +26,7 @@
         echo($li_descripcion_detallada3);
         $articulo = $productos[array_rand($productos)];
         if($anuncios='si'){
-            //include "./../../../../../bloques/estructura/carrusel_auxiliar.php";
+            //include "./../../../../bloques/estructura/carrusel_auxiliar.php";
         }
     }
     ?>

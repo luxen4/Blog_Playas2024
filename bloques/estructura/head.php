@@ -38,7 +38,7 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
 
     <!-- Favicon -->
-    <link rel="icon" href="./../../../../../img/icono-sombrilla.ico" type="image/x-icon">
+    <link rel="icon" href="./../../../../img/icono-sombrilla.ico" type="image/x-icon">
 
     <?php /*
     <!-- Si usas un formato PNG o SVG -->

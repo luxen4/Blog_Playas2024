@@ -1,29 +1,12 @@
 
 
-
 <?php
 // Definir categorías y grupos
-$categories = [
-    "sweatshirts" => 2,
+$categories = [    
     "sweater_man" => 2,
-    "sports_shirts" => 2,
-    "sandals_man" => 2,
-    "sandals_woman" => 2,
-    "shirts_modelo_derecha" => 2,
-    "shorts" => 2,
-    "sneakers" => 2,
-    "sneakers_izquierda_45" => 2,
-    "sandals_woman_izda_15" => 2,
-    "dress_woman" => 2,
-    /*"shirts_izquierda" => 2,*/
-
-    "camiseta_deporte_manga_corta" => 2,
-    "polos_man_frente" => 2,
-    "swimsuits_woman" => 2,
+    "sweatshirts" => 2,
     "shirts" => 2,
-    "sneakers_puma_izda_0" => 2,
-    "mochilas" => 2
-  ];
+];
 
 // Función para generar las constantes de imagen en JavaScript
 function generateImageConstants($categories, $total_images = 4) {
@@ -78,8 +61,4 @@ function addProperties($categories, $total_images = 4) {
     }
 
     setInterval(changeImages, 4000);
-</script>
-
-<script>
-    //alert("Entro");
 </script>

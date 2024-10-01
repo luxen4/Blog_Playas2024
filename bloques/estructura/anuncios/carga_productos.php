@@ -2,7 +2,7 @@
 $servername = $_SERVER['SERVER_NAME'];
 $require = './../../../../products_amazon/conexion.php';
 
-$articulo = 'sweatshirts';
+$articulo = 'sweater_man';
 $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
 $table = 'amazon_'.$articulo.'_images';
@@ -13,6 +13,20 @@ if ($page == 'home'){
 }else{
     require './../../../../products_amazon/sql_generica.php';
 }
+
+$articulo = 'shirts';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "izquierda"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    $require = './../../../../products_amazon/conexion.php';
+    require './../../../../products_amazon/sql_generica.php';
+}
+
 
 /*
 $articulo = 'shorts';
@@ -26,6 +40,109 @@ if ($page == 'home'){
 }else{
     require './../../../../products_amazon/sql_generica.php';
 }*/
+
+
+
+
+
+/*
+$articulo = 'sneakers';
+$grupo = '_2';
+$var_base = 'images_sneakers_2_';
+$table = 'amazon_sneakers_images';
+$where = 'where direccion = "izquierda_45"';
+
+
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    $require = './../../../../products_amazon/conexion.php';
+    require './../../../../products_amazon/sql_generica.php';
+}
+*/
+
+
+
+$articulo = 'sweatshirts';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "frente"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    $require = './../../../../products_amazon/conexion.php';
+    require './../../../../products_amazon/sql_generica.php';
+}
+
+/*
+$articulo = 'shirts';
+$grupo = '_2';
+$var_base = 'images_shirts_2_';
+$table = 'amazon_shirts_images';
+$where = 'where direccion = "modelo_frente"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../products_amazon/sql_generica.php';
+}*/
+
+
+
+/*
+$articulo = 'sneakers_puma_izda_0';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table='amazon_sneakers_images';
+$where = 'where direccion = "izquierda_0"';
+
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    $require = './../../../../products_amazon/conexion.php';
+    require './../../../../products_amazon/sql_generica.php';
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+$articulo = 'shorts';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "frente"';
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    require './../../../../products_amazon/sql_generica.php';
+}
 
 $articulo = 'shorts';
 $grupo = '_2';
@@ -58,19 +175,7 @@ if ($page == 'home'){
 
 
 
-$articulo = 'sneakers';
-$grupo = '_2';
-$var_base = 'images_sneakers_2_';
-$table = 'amazon_sneakers_images';
-$where = 'where direccion = "izquierda_45"';
 
-
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../products_amazon/sql_generica.php';
-}
 
 
 
@@ -149,18 +254,6 @@ if ($page == 'home'){
 }
 
 
-
-$articulo = 'shirts_modelo_derecha';
-$grupo = '_2';
-$var_base = 'images_sports_shirts_2_';
-$table = 'amazon_shirts_images';
-$where = 'where direccion = "modelo_derecha"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../products_amazon/sql_generica.php';
-}
 
 
 
@@ -267,18 +360,7 @@ if ($page == 'home'){
 
 
 
-$articulo = 'sneakers_puma_izda_0';
-$grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table='amazon_sneakers_images';
-$where = 'where direccion = "izquierda_0"';
 
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../products_amazon/sql_generica.php';
-}
 
 $articulo = 'sneakers_izquierda_45';
 $grupo = '_2';
@@ -320,20 +402,10 @@ if ($page == 'home'){
 }else{
     require './../../../../products_amazon/sql_generica.php';
 }
+*/
 
 
 
-$articulo = 'sweater_man';
-$grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table = 'amazon_'.$articulo.'_images';
-$where = 'where direccion = "frente"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../products_amazon/sql_generica.php';
-}
 
 
 

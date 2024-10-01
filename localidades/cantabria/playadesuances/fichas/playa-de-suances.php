@@ -10,21 +10,21 @@ $keywords_content = 'Playa de Suances, surf, naturaleza, costa cántabra, turism
 
 $graph_Meta_Tags_property_title = 'Playa de Suances - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Suances, una extensa playa en Cantabria ideal para disfrutar del sol, las olas y la belleza natural del norte de España.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/playa-de-suances.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/fichas/playa-de-suances.php';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/playa-de-suances.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/fichas/playa-de-suances.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Suances - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Suances, una extensa playa en Cantabria ideal para disfrutar del sol, las olas y la belleza natural del norte de España.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/playa-de-suances.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/fichas/playa-de-suances.php?i=1';
+$twiterCards_image = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/playa-de-suances.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/fichas/playa-de-suances.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Suances - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de Suances, una extensa playa en Cantabria ideal para disfrutar del sol, las olas y la belleza natural del norte de España.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/playa-de-suances.jpg';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/playa-de-suances.jpg';
 
 // $href_styles = './../fichas/css/styles.css';
 
@@ -35,7 +35,7 @@ $localidad = 'Suances';
 $localidad_minuscula = 'suances';
 
 $descripcion = 'Descubre la Playa de Suances, un destino famoso por su extensa playa, excelentes condiciones para el surf y un entorno natural impresionante.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/fichas/playa-de-suances.php';
+$url = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/fichas/playa-de-suances.php';
 
 $mainEntity_description = 'La Playa de Suances es una de las playas más destacadas de Cantabria, conocida por su gran extensión, arena dorada y excelente entorno natural.';
 $mainEntity_addressLocality = 'Suances';
@@ -46,7 +46,7 @@ $mainEntity_geo_latitude = 43.4016;
 $mainEntity_geo_longitude = -4.2375;
 
 $mainEntity_image = 'https://example.com/path/to/suances-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadesuances/fichas/playa-de-suances.php';
+$mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/fichas/playa-de-suances.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>

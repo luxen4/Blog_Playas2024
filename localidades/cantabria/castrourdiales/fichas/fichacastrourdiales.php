@@ -10,21 +10,21 @@ $keywords_content = 'Playa de Castro Urdiales, costa norte, sol, mar, turismo en
 
 $graph_Meta_Tags_property_title = 'Playa de Castro Urdiales - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Explora la Playa de Castro Urdiales, un hermoso destino costero en el norte de España. Ideal para disfrutar del sol, el mar y la rica cultura de la región';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/foto_presentacion.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/playadecastrourdiales/foto_presentacion.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Castro Urdiales - Información y Turismo';
 $twiterCards_descripcion = 'Explora la Playa de Castro Urdiales, un hermoso destino costero en el norte de España. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/foto_presentacion.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1';
+$twiterCards_image = 'http://playas2024.kesug.com/localidades/playadecastrourdiales/foto_presentacion.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Castro Urdiales - Información y Turismo';
 $pinterest_property_card_description_content = 'Explora la Playa de Castro Urdiales, un hermoso destino costero en el norte de España. Ideal para disfrutar del sol, el mar y la rica cultura de la región.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1';
 
 $href_styles = './../css/styles.css';
 require "./../../../../bloques/estructura/head.php"; ?>
@@ -46,8 +46,8 @@ require "./../../../../bloques/estructura/head.php"; ?>
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Playa de Castro Urdiales - Información y Turismo">
     <meta property="og:description" content="Explora la Playa de Castro Urdiales, un hermoso destino costero en el norte de España. Ideal para disfrutar del sol, el mar y la rica cultura de la región.">
-    <meta property="og:image" content="http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/foto_presentacion.jpg">
-    <meta property="og:url" content="http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php">
+    <meta property="og:image" content="http://playas2024.kesug.com/localidades/playadecastrourdiales/foto_presentacion.jpg">
+    <meta property="og:url" content="http://playas2024.kesug.com/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php">
     <meta property="og:type" content="website">
 
     <!-- Twitter Cards -->
@@ -55,14 +55,14 @@ require "./../../../../bloques/estructura/head.php"; ?>
     <meta name="twitter:site" content="@laya_garcia">
     <meta name="twitter:title" content="Playa de Castro Urdiales - Información y Turismo">
     <meta name="twitter:description" content="Explora la Playa de Castro Urdiales, un hermoso destino costero en el norte de España. Ideal para disfrutar del sol, el mar y la rica cultura de la región.">
-    <meta name="twitter:image" content="http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/foto_presentacion.jpg">
-    <meta name="twitter:url" content="http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1">
+    <meta name="twitter:image" content="http://playas2024.kesug.com/localidades/playadecastrourdiales/foto_presentacion.jpg">
+    <meta name="twitter:url" content="http://playas2024.kesug.com/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1">
 
     <!-- Pinterest -->
     <meta property="pinterest:card" content="summary_large_image">
     <meta property="pinterest:title" content="Playa de Castro Urdiales - Información y Turismo">
     <meta property="pinterest:description" content="Explora la Playa de Castro Urdiales, un hermoso destino costero en el norte de España. Ideal para disfrutar del sol, el mar y la rica cultura de la región.">
-    <meta property="pinterest:image" content="http://playas2024.kesug.com/bloques/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1">
+    <meta property="pinterest:image" content="http://playas2024.kesug.com/localidades/playadecastrourdiales/fichas/fichaplayadecastrourdiales.php?i=1">
 
     <!-- Sitemap Link -->
     <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.xml">
@@ -144,7 +144,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Senderismo y Naturaleza -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/senderismo.jpg" class="card-img-top" alt="Senderismo en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/senderismo.jpg" class="card-img-top" alt="Senderismo en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Senderismo y Naturaleza</h5>
                     <p class="card-text">Explora las rutas de senderismo que rodean Castro Urdiales. Desde caminatas suaves hasta recorridos más exigentes, disfruta de paisajes impresionantes que incluyen montañas, acantilados y vistas al mar.</p>
@@ -155,7 +155,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Surf y Deportes Acuáticos -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/surf.jpg" class="card-img-top" alt="Surf en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/surf.jpg" class="card-img-top" alt="Surf en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Surf y Deportes Acuáticos</h5>
                     <p class="card-text">Las playas de Castro Urdiales son perfectas para practicar surf y otros deportes acuáticos como paddle surf y kayak. Las condiciones del mar ofrecen desafíos tanto para principiantes como para expertos.</p>
@@ -166,7 +166,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Cultura e Historia -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/cultura_historia.jpg" class="card-img-top" alt="Cultura e Historia en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/cultura_historia.jpg" class="card-img-top" alt="Cultura e Historia en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Cultura e Historia</h5>
                     <p class="card-text">Descubre el rico patrimonio histórico de Castro Urdiales, visitando monumentos como la Iglesia de Santa María y el Castillo-Faro. Además, participa en festivales locales que celebran la cultura vasca.</p>
@@ -177,7 +177,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Gastronomía -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/gastronomia.jpg" class="card-img-top" alt="Gastronomía en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/gastronomia.jpg" class="card-img-top" alt="Gastronomía en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Gastronomía</h5>
                     <p class="card-text">Disfruta de la rica gastronomía de Castro Urdiales. Desde mariscos frescos hasta pintxos tradicionales, los restaurantes y bares del puerto te ofrecen una experiencia culinaria única.</p>
@@ -188,7 +188,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Rutas en Bicicleta -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/rutas_bicicleta.jpg" class="card-img-top" alt="Rutas en Bicicleta en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/rutas_bicicleta.jpg" class="card-img-top" alt="Rutas en Bicicleta en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Rutas en Bicicleta</h5>
                     <p class="card-text">Castro Urdiales cuenta con diversas rutas ciclistas, ideales para explorar tanto la costa como el interior. Las rutas varían en dificultad, permitiendo a ciclistas de todos los niveles disfrutar del entorno.</p>
@@ -199,7 +199,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Relax en la Playa -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/relax_playa.jpg" class="card-img-top" alt="Relax en la Playa en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/relax_playa.jpg" class="card-img-top" alt="Relax en la Playa en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Relax en la Playa</h5>
                     <p class="card-text">Relájate en las hermosas playas de Castro Urdiales. Ya sea tomando el sol, nadando en el mar o simplemente disfrutando del paisaje, las playas ofrecen el lugar perfecto para desconectar.</p>
@@ -217,7 +217,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Servicios de Playa -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/servicios_playa.jpg" class="card-img-top" alt="Servicios de Playa en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/servicios_playa.jpg" class="card-img-top" alt="Servicios de Playa en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Servicios de Playa</h5>
                     <p class="card-text">Las playas de Castro Urdiales están equipadas con duchas, baños públicos y zonas de sombrillas y hamacas. Además, cuentan con socorristas para garantizar la seguridad de los bañistas.</p>
@@ -228,7 +228,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Accesibilidad -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/accesibilidad.jpg" class="card-img-top" alt="Accesibilidad en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/accesibilidad.jpg" class="card-img-top" alt="Accesibilidad en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Accesibilidad</h5>
                     <p class="card-text">Castro Urdiales está comprometida con la accesibilidad. Las playas y lugares públicos están adaptados con rampas, pasarelas y sillas anfibias para personas con movilidad reducida.</p>
@@ -239,7 +239,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Aparcamiento -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/aparcamiento.jpg" class="card-img-top" alt="Aparcamiento en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/aparcamiento.jpg" class="card-img-top" alt="Aparcamiento en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Aparcamiento</h5>
                     <p class="card-text">Hay varias zonas de aparcamiento cercanas a las playas y al centro de la ciudad, incluyendo opciones gratuitas y de pago. También hay espacios reservados para personas con discapacidad.</p>
@@ -250,7 +250,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Restauración -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/restauracion.jpg" class="card-img-top" alt="Restauración en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/restauracion.jpg" class="card-img-top" alt="Restauración en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Restauración</h5>
                     <p class="card-text">Castro Urdiales ofrece una amplia variedad de opciones gastronómicas. Desde chiringuitos en la playa hasta restaurantes de alta cocina, hay algo para todos los gustos.</p>
@@ -261,7 +261,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Centros de Salud -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/salud.jpg" class="card-img-top" alt="Centros de Salud en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/salud.jpg" class="card-img-top" alt="Centros de Salud en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Centros de Salud</h5>
                     <p class="card-text">En caso de emergencia, Castro Urdiales cuenta con centros de salud y farmacias bien equipadas. Los servicios médicos están disponibles para cualquier necesidad urgente.</p>
@@ -272,7 +272,7 @@ require "./../../../../bloques/estructura/head.php"; ?>
         <!-- Conexión Wi-Fi -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="http://playas2024.kesug.com/bloques/localidades/castrourdiales/wifi.jpg" class="card-img-top" alt="Conexión Wi-Fi en Castro Urdiales">
+                <img src="http://playas2024.kesug.com/localidades/castrourdiales/wifi.jpg" class="card-img-top" alt="Conexión Wi-Fi en Castro Urdiales">
                 <div class="card-body">
                     <h5 class="card-title">Conexión Wi-Fi</h5>
                     <p class="card-text">En varias zonas de Castro Urdiales, incluyendo el paseo marítimo y ciertas áreas de la playa, se ofrece conexión Wi-Fi gratuita para que puedas estar conectado durante tu visita.</p>

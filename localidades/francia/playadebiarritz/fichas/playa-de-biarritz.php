@@ -14,21 +14,21 @@ $keywords_content = 'Playa de '.$localidad.', surf, País Vasco Francés, turism
 
 $graph_Meta_Tags_property_title = 'Playa de '.$localidad.' - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de '.$localidad.', una de las playas más famosas del País Vasco Francés, conocida por su ambiente vibrante, surf de calidad y exquisita gastronomía.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/' .$carpeta. '/'. $localidad_minuscula .'/fichas/playa-de-'.$localidad_minuscula.'.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.php';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/' .$carpeta. '/'. $localidad_minuscula .'/fichas/playa-de-'.$localidad_minuscula.'.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de '.$localidad.' - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de '.$localidad.', una de las playas más famosas del País Vasco Francés, conocida por su ambiente vibrante, surf de calidad y exquisita gastronomía.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.php?i=1';
+$twiterCards_image = 'http://playas2024.kesug.com/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de '.$localidad.' - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de '.$localidad.', una de las playas más famosas del País Vasco Francés, conocida por su ambiente vibrante, surf de calidad y exquisita gastronomía.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.jpg';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.jpg';
 
 //$href_styles = './../fichas/css/styles.css';
 
@@ -37,7 +37,7 @@ $pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/lo
 // Para el archivo Structured_data_generico.php
 
 $descripcion = 'Descubre la Playa de '.$localidad.', un destino icónico en el País Vasco Francés, famoso por su vibrante ambiente, surf de calidad y una rica oferta gastronómica.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/' .$carpeta. '/playadeplayade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.php';
+$url = 'http://playas2024.kesug.com/localidades/' .$carpeta. '/playadeplayade'.$localidad_minuscula. '/fichas/playa-de-'.$localidad_minuscula.'.php';
 
 $mainEntity_description = 'La Playa de '.$localidad.' es una de las playas más emblemáticas del País Vasco Francés, conocida por su ambiente vibrante, excelentes condiciones para el surf y una rica oferta gastronómica.';
 $mainEntity_addressLocality = $localidad;
@@ -48,7 +48,7 @@ $mainEntity_geo_latitude = 43.4833; // Coordenadas aproximadas
 $mainEntity_geo_longitude = -1.5581; // Coordenadas aproximadas
 
 $mainEntity_image = 'https://example.com/path/to/'.$localidad_minuscula.'-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+$mainEntity_url = 'http://playas2024.kesug.com/localidades/' .$carpeta. '/playade'.$localidad_minuscula. '/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>

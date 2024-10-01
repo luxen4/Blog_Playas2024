@@ -1,9 +1,12 @@
 <?php
 // Definir el array con los elementos proporcionados
-$productos = [
-    'sweatshirts', /* OK */
+$productos = [    
     'sweater_man',
-    'shorts',
+    'sweatshirts',    
+    /*'sneakers',*/
+    'shirts'
+/* ,
+
     'swimsuits_woman',
     'sneakers',
     'sandals_man',
@@ -11,12 +14,12 @@ $productos = [
     'sandals_woman_izda_15',
     'sports_shirts',
     'dress_woman',
-    'shirts_modelo_derecha',  /* OK */
+      /* OK 
     'camiseta_deporte_manga_corta',
     'mochilas',
     'jeans_man',
     'polos_man_frente',
     'sneakers_puma_izda_0',
     'sneakers_izquierda_45',
-    'sneakers_izquierda_0'
+    'sneakers_izquierda_0' */
 ];?>

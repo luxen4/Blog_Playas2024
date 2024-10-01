@@ -10,21 +10,21 @@ $keywords_content = 'Playa de Isla, Cantabria, playa, naturaleza, turismo en Can
 
 $graph_Meta_Tags_property_title = 'Playa de Isla - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadeisla/playa-de-isla.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadeisla/fichas/playa-de-isla.php';
+$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/playa-de-isla.jpg';
+$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/fichas/playa-de-isla.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Isla - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$twiterCards_image = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadeisla/playa-de-isla.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadeisla/fichas/playa-de-isla.php?i=1';
+$twiterCards_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/playa-de-isla.jpg';
+$twiterCards_url = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/fichas/playa-de-isla.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Isla - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadeisla/playa-de-isla.jpg';
+$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/playa-de-isla.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -34,7 +34,7 @@ $localidad = 'Isla';
 $localidad_minuscula = 'isla';
 
 $descripcion = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playadeisla/fichas/playa-de-isla.php';
+$url = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/fichas/playa-de-isla.php';
 
 $mainEntity_description = 'La Playa de Isla es una playa encantadora en Cantabria, conocida por su arena dorada, aguas limpias y un entorno natural pintoresco.';
 $mainEntity_addressLocality = 'Isla';
@@ -45,7 +45,7 @@ $mainEntity_geo_latitude = 43.4598;
 $mainEntity_geo_longitude = -3.6381;
 
 $mainEntity_image = 'https://example.com/path/to/isla-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bloques/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+$mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>

@@ -1,14 +1,6 @@
-<?php /*
-$images = 'images_';
-
-$articulo_2_1 = $articulo . $grupo . "_1";
-$articulo_2_2 = $articulo . $grupo . "_2";
-$articulo_2_3 = $articulo . $grupo . "_3";
-$articulo_2_4 = $articulo . $grupo . "_4";  */
-?>
 <hr>
 <!--<div class="carrusel <?php if (isset($es_segundo_carrusel)) echo 'segundo-carrusel'; ?> <?php if (isset($es_tercer_carrusel)) echo 'tercer-carrusel'; ?>">-->
-    <div style="margin: 2em;" class="container">
+    <div style="margin: 2em;" class="container carrusel_auxiliar1">
         <div class="row">
             <div class="col-xl-2 text-center col-lg-1 col-md-1">
             </div>
@@ -23,15 +15,17 @@ $articulo_2_4 = $articulo . $grupo . "_4";  */
                                     <?php
                                     for ($i = 1; $i <= 4; $i++) {
                                         // Generate variable names dynamically
-                                        $articulo_var = $articulo . $grupo . '_' . $i; // echo($articulo_var);
-                                        $images_articulo_var = 'images_' . $articulo_var;
+                                        $articulo_var = $articulo . $grupo . '_' . $i;      //echo($articulo_var . '<br>');
+                                        $images_articulo_var = 'images_' . $articulo_var;   //echo($images_articulo_var);
 
                                         // Render the HTML
                                         echo '
-                            <div class="col-xl-3 text-center col-lg-3 col-md-3 col-sm-3 col-3"> 
+                            <div class="col-xl-6 text-center col-lg-6 col-md-6 col-sm-6 col-6"> 
+                            <div class="custom-carousel-image-container">
                                 <a id="image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
                                     <img id="image_' . $articulo_var . '" src="' . ${$images_articulo_var}[0]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . ${$images_articulo_var}[0]['alt'] . '">
                                 </a>
+                                </div>
                             </div>';
                                     }
                                     ?>
@@ -39,18 +33,6 @@ $articulo_2_4 = $articulo . $grupo . "_4";  */
                             </div>
                         </div>
                     </div>
-
-
-
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
                 </div>
             </div>
 
@@ -62,66 +44,11 @@ $articulo_2_4 = $articulo . $grupo . "_4";  */
 <!--</div>-->
 <hr>
 
-
-
 <style>
-/* Mostrar el segundo y tercer carrusel en pantallas pequeñas (móviles y tabletas) 
-@media (max-width: 768px) {
-    #informacion_general .segundo-carrusel,
-    #informacion_general .tercer-carrusel {
-        display: block;
-    }
-}*/
-
-/* Ocultar el segundo y tercer carrusel en pantallas grandes (escritorios) 
-@media (min-width: 769px) {
-    #informacion_general .segundo-carrusel,
-    #informacion_general .tercer-carrusel {
-        display: none;
-    }
-}*/
-
-
-    .custom-carousel-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-
-    /* Clase personalizada para las imágenes del carrusel */
-    .custom-carousel-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        /* Ajusta la imagen dentro del contenedor manteniendo la proporción */
-        object-position: top;
-        /* Alinea la imagen desde la parte superior si es necesario */
-        display: block;
-        /* Elimina el espacio inferior en algunos navegadores */
-    }
-
-
-    @media (max-width: 576px) {
-        .custom {
-            /*width: 65%;*/
-            /*margin: 0 auto;*/
-        }
-    }
-
-    a {}
-
-    a img {
-        /*
-        border-left: 1px solid #ccc;
-        border-right: 1px solid #ccc;
-
-        /* Light gray color */
-    }
-
-
-    .custom-carousel-image {
-        transition: transform 0.5s ease;
-    }
-</style>
+.carrusel_auxiliar1 .custom-carousel-image-container {
+    margin: 15px; /* Ajusta el valor según lo que necesites */
+    padding: 1em;
+    border: 1px solid #ccc; /* Color y grosor del borde */
+    border-radius: 10px; /* Radio para bordes redondeados */
+    overflow: hidden; /* Para asegurar que las esquinas redondeadas se mantengan */
+}</style>

@@ -1,7 +1,9 @@
 
-// amazon_sweater_man_images
-    CREATE TABLE IF NOT EXISTS amazon_sweater_man_images (
-        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
+Botas https://www.amazon.es/Bruno-Marc-Philly-3-Combate-Militar/dp/B01HK0TTAE/ref=pd_sim_d_sccl_3_4/259-4022151-6670900?pd_rd_w=m8Ts2&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=74VRHS8HMSF4PTJBTARR&pd_rd_wg=iMxGm&pd_rd_r=d363088d-7fa9-4541-b7fc-b93d5150448d&pd_rd_i=B08KZ9NC95&psc=1
+
+// amazon_vaqueros_hombre_images
+    CREATE TABLE IF NOT EXISTS amazon_vaqueros_hombre_images (
+        amazon_vaqueros_man_images_id INT AUTO_INCREMENT PRIMARY KEY,
         href VARCHAR(255) NOT NULL,
         src VARCHAR(255) NOT NULL,
         alt VARCHAR(255) NOT NULL,
@@ -11,40 +13,62 @@
     );
 
 
-INSERT INTO amazon_sweater_man_images (href, src, alt, marca, precio, direccion) VALUES
+INSERT INTO amazon_vaqueros_hombre_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/4dooR9j',
-'https://images-eu.ssl-images-amazon.com/images/I/71A5yIa-uAL._AC_UL165_SR165,165_.jpg',
-'Leif Nelson Jersey de Punto Grueso Chal Collar de los Hombres de LN-5385',
-'Leif Nelson',
-59.99,
+('https://amzn.to/4duW7fa',
+'https://m.media-amazon.com/images/I/61HBsSNa+XL._AC_SY741_.jpg',
+'GINGTTO Vaqueros Slim para Hombre Elásticos Ajustado Vaqueros Hombres Skinny Denim Jeans Hombres',
+'GINGTTO',
+41.99,
 'frente'),
 
-('https://amzn.to/4eGt0GP',
-'https://images-eu.ssl-images-amazon.com/images/I/71JBxKypw7L._AC_UL165_SR165,165_.jpg',
-'Leif Nelson Jersey de Punto Grueso Chal Collar de los Hombres de LN-5255',
-'Leif Nelson',
-59.99,
+('https://amzn.to/4eJiBtZ',
+'https://images-eu.ssl-images-amazon.com/images/I/719xWuFUdxL._AC_UL165_SR165,165_.jpg',
+'NUSGEAR 2022 Pantalones Vaqueros para Hombre,Pantalones Casuales Moda Deportivos Running Pants Skinny Elásticos Pantalon Fitness Jeans Largos Pantalones Bolsillos Ropa de Hombre',
+'NUSGEAR',
+30.98,
 'frente'),
 
-
-
-
-
-
-('https://amzn.to/4gNuWzi',
-'https://images-eu.ssl-images-amazon.com/images/I/918DRLWExeL._AC_UL165_SR165,165_.jpg',
-'Leif Nelson Hombres Chaqueta de Punto con Cuello Chal LN-5165',
-'Leif Nelson',
-74.99,
+('https://amzn.to/3Y7LlXQ',
+'https://images-eu.ssl-images-amazon.com/images/I/61LHSTM-WtL._AC_UL165_SR165,165_.jpg',
+'MaNMaNing Vaqueros_ para Hombre 501 Fit Ripped Jeans Pantalones Casuales Rectos de Tiro Medio Delgados para Hombres Pantalones de Hombre',
+'MaNMaNing',
+24.99,
 'frente'),
 
+('https://amzn.to/4eNAF6o',
+'https://images-eu.ssl-images-amazon.com/images/I/61x6V7T0PML._AC_UL165_SR165,165_.jpg',
+'Loalirando Vaqueros Rasgados de Hombre Jeans Rotos Slim Fit Pantalones Skinny de Denim Pantalones Hombre Casual de Mezclilla Pantalón Largo Hombre Vaqueros Ajustados',
+'Loalirando',
+27.99,
+'frente'),
 
-('https://amzn.to/3Y3Duud',
-'https://images-eu.ssl-images-amazon.com/images/I/71VWKfFzPDL._AC_UL165_SR165,165_.jpg',
-'Leif Nelson Los Hombres de Jersey de Punto Grueso de Cuello Alto LN-7025',
-'Leif Nelson',
-59.99,
+('https://amzn.to/4gPJw9h',
+'https://images-eu.ssl-images-amazon.com/images/I/81l7s9hMdUS._AC_UL165_SR165,165_.jpg',
+'RED BRIDGE Vaqueros para Hombre Jeans Denim Pants Estilo Destroyed',
+'RED BRIDGE',
+59.90,
+'derecha'),
+
+('https://amzn.to/3Nef1w0',
+'https://images-eu.ssl-images-amazon.com/images/I/81YK4ydYHqL._AC_UL165_SR165,165_.jpg',
+'Redbridge Vaqueros de Hombres Denim Ice Destruida Pantalones Moda Jeans',
+'RED BRIDGE',
+59.90,
+'derecha'),
+
+('https://amzn.to/4eME4SL',
+'https://images-eu.ssl-images-amazon.com/images/I/71z5+-nqkQL._AC_UL165_SR165,165_.jpg',
+'Pantalones vaqueros para hombre Merish Destroyed 2081-1001, corte ajustado',
+'MERISH',
+39.90,
+'frente'),
+
+('https://amzn.to/4dugppi',
+'https://images-eu.ssl-images-amazon.com/images/I/71TwUoI5aPS._AC_UL165_SR165,165_.jpg',
+'JACK & JONES Vaqueros Skinny para Hombre',
+'JACK & JONES',
+49.95,
 'frente')
 ;
 
@@ -54,63 +78,24 @@ https://amzn.to/3YLgp0q
 
 
 
-// amazon_polos_man_images
-    CREATE TABLE IF NOT EXISTS amazon_camiseta_deporte_manga_corta_images (
-        amazon_sandals_woman_images_id INT AUTO_INCREMENT PRIMARY KEY,
-        href VARCHAR(255) NOT NULL,
-        src VARCHAR(255) NOT NULL,
-        alt VARCHAR(255) NOT NULL,
-        marca VARCHAR(32) NOT NULL,
-        precio DECIMAL (10,2),
-        direccion VARCHAR (255) NOT NULL
-    );
-
-
-INSERT INTO amazon_camiseta_deporte_manga_corta_images (href, src, alt, marca, precio, direccion) VALUES
-
-('https://amzn.to/3YJtK9x',
-'https://m.media-amazon.com/images/I/61acAPwkqfL._AC_SX679_.jpg',
-'Camiseta de Compresión para Hombre Camisa Deportiva de Manga Corta Secado Rápido para Ejercicio Correr Gimnasio marca Sunxia',
-'Sunxia',
-19.49,
-'izquierda'),
-
-
-('https://amzn.to/3WJ8bDq',
-'https://m.media-amazon.com/images/I/61EcVMCCTJL._AC_SX679_.jpg',
-'Camiseta de Compresión Hombre Manga Corta Camisetas de Fitness Secado Rápido para Correr Ejercicio Gimnasio marca Yishengwan',
-'Yishengwan',
-17.99,
-'izquierda'),
-
-
-('https://amzn.to/3yHY2Pd',
-'https://m.media-amazon.com/images/I/61fbNLawg4S._AC_SX679_.jpg',
-'Camiseta de Compresión para Hombre Camiseta de Manga Corta para Deportistas Correr Gimnasio marca AMZSPORT',
-'AMZSPORT',
-18.98,
-'izquierda'),
-
-
-('https://amzn.to/3X3QFes',
-'https://m.media-amazon.com/images/I/51KGTBpJoOL._AC_SX679_.jpg',
-'Camisas de compresión de manga corta para hombre para Hombre marca QINFEN YUNDOU',
-'QINFEN YUNDOU',
-13.89,
-'izquierda')
-;
 
 
 
 
+Pantalones
+('https://amzn.to/3zLl747',
+'https://images-eu.ssl-images-amazon.com/images/I/61zV+iGAb5L._AC_UL165_SR165,165_.jpg',
+'Leif Nelson LN8071 - Pantalones vaqueros para hombre tipo jogger, chinos, cargo',
+'Leif Nelson',
+54.99,
+'derecha'),
 
-
-
-
-
-
-
-
+('https://amzn.to/3XSCfgt',
+'https://images-eu.ssl-images-amazon.com/images/I/61NO8SLaUlL._AC_UL165_SR165,165_.jpg',
+'Indicode Hombres William Cargo Pants | Pantalón de algodón con 7 Bolsillos Incluido cinturón',
+'Indicode',
+35.67,
+'frente')
 
 
 
@@ -153,13 +138,8 @@ Preparar cada pagina con un mismo tipo de carrusel de anuncios para simplicidad.
 
 
 CONTROL DE PÁGINAS
-
-                // Contenido ChatGpt    // Head        // Footer   // Barra de Navegación  // Subida al Hosting    // Pinterest    // Carruseles   // Sitemap  // Structured_data.php
-
 -Cantabria
-    Somo            OK
-    Noja            OK
-    Berria          OK
+    Somo, Noja, Berria          OK
     Sardinero/Cantabria FALTAN sustituir LAS IMAGENES
     Laredo              FALTAN LAS IMAGENES
 

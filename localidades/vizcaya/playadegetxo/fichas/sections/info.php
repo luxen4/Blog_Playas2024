@@ -97,52 +97,54 @@
 
 
 
+<?php // Carrusel de 3 Imágenes //
+$lugar = 'playadegetxo';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/localidades/vizcaya/'.$lugar.'/img'; ?>
+
 
 <?php
 $imagenes = [
     [
-        'src' => './../img/playa-de-Arrigunaga-Getxo-Bizkaia-Pais-Vasco.jpg',
+        'src' => $ruta .'/playa-de-Arrigunaga-Getxo-Bizcaia-Pais-Vasco.jpg',
         'alt' => 'Vista de la playa de Arrigunaga en Getxo, Bizkaia',
-        'figcaption' => 'Vista de la playa de Arrigunaga en Getxo, Bizkaia. Fuente:',
-        'href' => '',
-        'titulo_href' => ''
+        'figcaption' => 'Vista de la playa de Arrigunaga en Getxo.',
+        'href' => 'https://turismo.euskadi.eus/es/playas-embalses-rios/playa-de-arrigunaga/aa30-12375/es/',
+        'titulo_href' => 'turismo.euskadi.eus'
     ],
     [
-        'src' => './../img/playa-de-Las-Arenas-Getxo-Bizkaia-Pais-Vasco.png',
+        'src' => $ruta . '/playa-de-Las-Arenas-Getxo-Bizcaia-Pais-Vasco.png',
         'alt' => 'Playa y muelle de la Playa de Las Arenas en Getxo, Bizkaia.',
         'figcaption' => 'Playa de Las Arenas en Getxo, Bizkaia. Fuente:',
         'href' => 'https://www.turisbox.com/lugares/?p=15189',
         'titulo_href' => 'www.turisbox.com'
     ],
     [
-        'src' => './../img/playa-de-arrigunaga-Getxo-Bizkaia-Pais-Vasco_2.jpg',
-        'alt' => 'Vista panorámica de la Playa de Getxo en Bizkaia',
-        'figcaption' => 'Vista panorámica  la Playa de Arrigunaga en Getxo en Bizkaia. Fuente:',
-        'href' => 'https://www.tripadvisor.es/Attraction_Review-g943866-d12256873-Reviews-Playa_de_Arrigunaga-Getxo_Province_of_Vizcaya_Basque_Country.html',
-        'titulo_href' => 'www.tripadvisor.es'
+        'src' => $ruta . '/playa-de-arrigunaga-Getxo-Bizcaia-Pais-Vasco_2.jpg',
+        'alt' => 'Vista panorámica de la Playa de Arrigunaga en Getxo, Bizkaia',
+        'figcaption' => 'Vista panorámica la Playa de Arrigunaga',
+        'href' => 'https://www.surfmarket.org/gl/ondas/europa/euskadi/algorta-arrigunaga',
+        'titulo_href' => 'surfmarket.org'
     ],
     [
-        'src' => './../img/playa-Ereaga-Getxo-Bizkaia-Pais-Vasco.jpg',
-        'alt' => 'playa-Ereaga-Getxo-Bizkaia-Pais-Vasco.',
-        'figcaption' => 'Playa de Ereaga en Getxo, Bizkaia.',
-        'href' => 'https://etheriamagazine.com/2021/06/14/12-planes-en-getxo-con-amigas-para-disfrutar-al-estilo-vasco/',
-        'titulo_href' => 'etheriamagazine.com'
+        'src' => $ruta . '/olas-surf-playa-Arrigunaga-Getxo-Bizcaia-País-Vasco.jpg',
+        'alt' => 'Olas y Surf en la playa de Arrigunaga en Getxo, Bizkaia, Pais Vasco.',
+        'figcaption' => 'Olas y Surf en la playa de Arrigunaga.',
+        'href' => 'https://www.youtube.com/watch?app=desktop&v=e_3l03ZB9Aw',
+        'titulo_href' => 'youtube.com'
     ],
-
-
     [
-        'src' => './../img/atardecer-playa-getxo-bizkaia.jpg',
+        'src' => $ruta . '/atardecer-playa-Getxo-Bizkaia-País-Vasco.jpeg',
         'alt' => 'Atardecer en la Playa de Getxo, Bizkaia',
         'figcaption' => 'Atardecer en la Playa de Getxo. Fuente:',
-        'href' => '',
-        'titulo_href' => ''
+        'href' => 'https://www.lavanguardia.com/participacion/las-fotos-de-los-lectores/20200124/473087667505/atardecer-getxo-bilbao.html',
+        'titulo_href' => 'lavanguardia.com'
     ],
     [
-        'src' => './../img/actividades-playa-getxo-bizkaia.jpg',
+        'src' => $ruta . '/playa-Ereaga-Getxo-Bizcaia-Pais-Vasco.jpg',
         'alt' => 'Actividades en la Playa de Getxo, Bizkaia.',
         'figcaption' => 'Actividades en la Playa de Getxo, Bizkaia. Fuente:',
-        'href' => '',
-        'titulo_href' => ''
+        'href' => 'https://turismo.euskadi.eus/es/agenda/punta-galea-challenge/aa30-evento/es/a',
+        'titulo_href' => 'turismo.euskadi.eus'
     ]
 ]; 
 ?>

@@ -82,8 +82,8 @@
                             <button class="arrow-button">
                                 &rarr; <!-- Flecha hacia la derecha -->
                             </button>
-                        </div>
-                    </div><hr>
+                        </div><hr>
+                    </div>
                     ';
                     ?>
                 </div>

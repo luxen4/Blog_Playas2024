@@ -52,7 +52,8 @@ $mainEntity_url = 'http://playas2024.kesug.com/localidades/bizkaia/playa-de-' . 
 require "./../../../../bloques/estructura/head.php"; ?>
 
 <body>
-    <?php $page = 'playade'.$localidad_minuscula;?>    
+    <?php $page = 'playade'.$localidad_minuscula;?>
+    <?php require "./sections/info.php"; ?>    
     <?php require "./../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 

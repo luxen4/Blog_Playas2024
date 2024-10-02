@@ -1,55 +1,70 @@
 <?php $li_encabezado = '
-   <p class="text-center">Descubre la Playa de Laredo, "La Salvé". Con más de 4 kilómetros de arena dorada, es ideal para disfrutar del sol y el mar. Su paseo marítimo está repleto de bares y restaurantes que ofrecen deliciosa gastronomía local.</p>
-   <p class="text-center">Perfecta para familias y surfistas, la playa cuenta con servicios como duchas, socorristas y zonas de juegos. Su proximidad a áreas protegidas y rutas de senderismo permite explorar el hermoso paisaje costero. Ya sea para relajarte o practicar deportes acuáticos, Laredo tiene algo para todos.</p>
+   <p class="">Descubre la Playa de Laredo, "La Salvé". Con más de 4 kilómetros de arena dorada, es ideal para disfrutar del sol y el mar. Su paseo marítimo está repleto de bares y restaurantes que ofrecen deliciosa gastronomía local.</p>
+   <p class="">Perfecta para familias y surfistas, la playa cuenta con servicios como duchas, socorristas y zonas de juegos. Su proximidad a áreas protegidas y rutas de senderismo permite explorar el hermoso paisaje costero. Ya sea para relajarte o practicar deportes acuáticos, Laredo tiene algo para todos.</p>
 '; ?>
 
 <?php $li_descripcion_detallada = '
-<h2 class="section-header text-center">Información General de la Playa de Laredo</h2>
+<h2 class="section-header">Información General de la Playa de Laredo</h2>
 
-<p>La Playa de Laredo ("La Salvé") en Cantabria es una amplia playa de más de 4 kilómetros de arena dorada, perfecta para actividades recreativas.</p>
+<ul>
+    <li class="my-4"><strong>Nombre:</strong> Playa de Laredo ("La Salvé")</li>
+    <li class="my-4"><strong>Ubicación:</strong> Cantabria</li>
+    <li class="my-4"><strong>Longitud:</strong> Más de 4 kilómetros de arena dorada</li>
+    <li class="my-4"><strong>Actividades:</strong> Ideal para actividades recreativas</li>
+</ul>
 
-<h3>Entorno Natural</h3>
-<p>Rodeada de acantilados y cerca del Parque Natural de las Marismas de Santoña, es ideal para senderismo y disfrutar de vistas panorámicas.</p>
+<h4>Entorno Natural</h4>
+<ul>
+    <li class="my-4">Rodeada de acantilados</li>
+    <li class="my-4">Cerca del Parque Natural de las Marismas de Santoña</li>
+    <li class="my-4">Ideal para senderismo y disfrutar de vistas panorámicas</li>
+</ul>
 
-<h3>Gastronomía</h3>
-<p>El paseo marítimo y el centro de Laredo ofrecen una variedad de pescados, mariscos frescos y pintxos locales.</p>
+<h4>Gastronomía</h4>
+<ul>
+    <li class="my-4">Variedad de pescados y mariscos frescos</li>
+    <li class="my-4">Pintxos locales en el paseo marítimo y el centro de Laredo</li>
+</ul>
 
-<h3>Servicios y Experiencia</h3>
-<p>La playa es apta para familias y surfistas, con servicios completos y vistas al Mar Cantábrico. Laredo también cuenta con restaurantes y tiendas.</p>
+<h4>Servicios y Experiencia</h4>
+<ul>
+    <li class="my-4">Apta para familias y surfistas</li>
+    <li class="my-4">Servicios completos disponibles</li>
+    <li class="my-4">Vistas al Mar Cantábrico</li>
+    <li class="my-4">Restaurantes y tiendas en Laredo</li>
+</ul>
 '; ?>
 
 <?php $li_descripcion_detallada2 = '
-<h3>Historia y Cultura</h3>
-<p>Laredo tiene una rica historia marinera y su casco antiguo, con calles empedradas, refleja su encanto histórico.</p>
-<div class="info-box">
-    <ul class="section-content">
-        <li class="">Conocida como "La Salvé".</li>
-        <li class="">Más de 4 km de arena dorada.</li>
-        <li class="">Ideal para familias y actividades costeras.</li>
-        <li class="">Paseo marítimo con bares y restaurantes.</li>
-        <li class="">Cercana a zonas verdes y senderos.</li>
-    </ul>
-</div>
 
-<h3 class="section-header">Características</h3>
+
+'; ?>
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características</h4>
 <div class="info-box">
     <ul>
-        <li class="">Arena fina y dorada</li>
-        <li class="">Longitud: 4 km</li>
-        <li class="">Mar tranquilo, ideal para familias</li>
-        <li class="">Paseo marítimo amplio</li>
-        <li class="">Servicios: duchas, aseos, socorristas</li>
-        <li class="">Accesible para personas con movilidad reducida</li>
+        <li class="my-4">Arena fina y dorada.</li>
+        <li class="my-4">Longitud: 4 km.</li>
+        <li class="my-4">Mar tranquilo, ideal para familias.</li>
+        <li class="my-4">Paseo marítimo amplio.</li>
+        <li class="my-4">Servicios: duchas, aseos, socorristas.</li>
+        <li class="my-4">Accesible para personas con movilidad reducida.</li>
     </ul>
 </div>
+'; ?>
 
-<h2>Eventos y Festividades de Laredo</h2>
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de Laredo</h4>
 <ul>
     <li class="my-4"><strong>Batalla de Flores:</strong> <br>Desfile de carrozas decoradas con flores naturales a finales de agosto.</li>
     <li class="my-4"><strong>Fiesta de la Virgen del Carmen:</strong> <br>Celebración marítima con procesiones en la playa.</li>
     <li class="my-4"><strong>Carrera de Caballos:</strong><br> Espectacular carrera en la playa durante el verano.</li>
 </ul>
 '; ?>
+
+
 
 <?php $li_descripcion_detallada3 = '
 <h2>Consejos para los Visitantes</h2>
@@ -70,7 +85,7 @@
         <li class="my-4"><strong>En autobús:</strong> <br>Laredo está bien conectado mediante autobuses desde Santander y otras localidades cercanas. Consulta los horarios y rutas de la empresa de autobuses ALSA.</li>
         <li class="my-4"><strong>A pie o en bicicleta:</strong> <br>Laredo y sus alrededores cuentan con caminos escénicos y carriles bici que facilitan el acceso a la playa. Es una opción ideal para disfrutar del paisaje costero y el aire libre.</li>
     </ul>
-    <h3>Mapa de la Playa de Laredo</h3>
+    <h4>Mapa de la Playa de Laredo</h4>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40565.11672853867!2d-3.460160016630694!3d43.440613724309284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd47a13bde0cfb93%3A0x6ddc0a1fcb063d5!2sPlaya%20de%20Laredo!5e0!3m2!1ses!2ses!4v1694374365441!5m2!1ses!2ses"
         width="100%"

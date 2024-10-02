@@ -14,6 +14,21 @@ if ($page == 'home'){
     require './../../../../products_amazon/sql_generica.php';
 }
 
+
+$articulo = 'vaqueros_hombre';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = "WHERE direccion LIKE 'frente'";
+if ($page == 'home'){ 
+    $require = 'products_amazon/conexion.php';
+    require 'products_amazon/sql_generica.php';
+}else{
+    $require = './../../../../products_amazon/conexion.php';
+    require './../../../../products_amazon/sql_generica.php';
+}
+
+
 $articulo = 'shirts';
 $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
@@ -26,6 +41,13 @@ if ($page == 'home'){
     $require = './../../../../products_amazon/conexion.php';
     require './../../../../products_amazon/sql_generica.php';
 }
+
+
+
+
+
+
+
 
 
 /*

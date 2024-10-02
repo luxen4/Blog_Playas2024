@@ -1,22 +1,26 @@
-<?php $li_encabezado = '
-    <p class="text-center">Descubre la Playa de Noja, una joya de la costa cantábrica. Con su amplia franja de arena dorada, aguas tranquilas y un entorno natural impresionante, es el lugar perfecto para disfrutar de la playa, practicar deportes acuáticos y relajarse. Su paseo marítimo está lleno de bares y restaurantes que ofrecen la deliciosa gastronomía local, creando una experiencia inolvidable para todos los visitantes.</p>
-'; ?>
+<?php 
+$li_encabezado = '
+    <p class="text-center">Descubre la Playa de Noja, una joya de la costa cantábrica. 
+        <br>Con su amplia franja de arena dorada, aguas tranquilas y un entorno natural impresionante, es el lugar perfecto para disfrutar de la playa, practicar deportes acuáticos y relajarse. 
+        <br>Su paseo marítimo está lleno de bares y restaurantes que ofrecen la deliciosa gastronomía local, creando una experiencia inolvidable para todos los visitantes.
+        <br>Noja es el destino perfecto para disfrutar del mar, deportes y la naturaleza.
+    </p>'; 
+?>
 
-<?php $li_descripcion_detallada = '
-<h2 class="section-header ">Playa de Noja: Un Paraíso en Cantabria</h2>
-<p class="section-content">La Playa de Noja, en la costa de Cantabria, combina belleza natural y comodidad. Con su amplia arena dorada y aguas cristalinas, es ideal para descansar y practicar deportes acuáticos. Rodeada de dunas y marismas, es un refugio de biodiversidad perfecto para los amantes de la naturaleza.</p>
-<p class="section-content">Noja ofrece servicios como restaurantes y tiendas cercanas, y un paseo marítimo para disfrutar del entorno. En verano, se celebran mercadillos locales.</p>
+<?php 
+$li_descripcion_detallada = '
+    <p class="section-content">La Playa de Noja, en la costa de Cantabria, combina belleza natural y comodidad. Con su amplia arena dorada y aguas cristalinas, es ideal para descansar y practicar deportes acuáticos. Rodeada de dunas y marismas, es un refugio de biodiversidad perfecto para los amantes de la naturaleza.</p>
+    <p class="section-content">Noja ofrece servicios como restaurantes y tiendas cercanas, y un paseo marítimo para disfrutar del entorno. En verano, se celebran mercadillos locales.</p>
 
-<h3>Seguridad y Accesibilidad</h3>
-<ul>
-    <li class="my-4"><strong>Seguridad:</strong> <br>Socorristas en temporada alta.</li>
-    <li class="my-4"><strong>Accesibilidad:</strong> <br>Rampas y sillas anfibias para personas con movilidad reducida.</li>
-</ul>
+    <h3>Seguridad y Accesibilidad</h3>
+    <ul>
+        <li class="my-4"><strong>Seguridad:</strong> <br>Socorristas en temporada alta.</li>
+        <li class="my-4"><strong>Accesibilidad:</strong> <br>Rampas y sillas anfibias para personas con movilidad reducida.</li>
+    </ul>
 
-<p class="section-content">Noja es el destino perfecto para disfrutar del mar, deportes y la naturaleza.</p>
 
-'
-; ?>
+';
+?>
 
 
 <?php $li_mapa_ubicacion = '
@@ -48,7 +52,6 @@
 '; ?>
 
 <?php $li_mas_info = '
-    <p>Para más información sobre la Playa de Noja, puedes contactarnos a través de los siguientes medios:</p>
     <ul>
         <li class="my-4"><strong>Teléfono:</strong> <br>+34 942 630 306</li>
         <li class="my-4"><strong>Email:</strong> <br>turismo@nojaescapada.com</li>
@@ -56,7 +59,6 @@
             <a href="https://www.nojaturismo.com/"><strong>Web</strong></a>
         </li>
     </ul>
-
 '; ?>
 
 
@@ -73,7 +75,7 @@
 
 <?php // Carrusel de 3 Imágenes //
 $lugar = 'playadenoja';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/'.$region.'/'.$lugar.'/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/localidades/'.$region.'/'.$lugar.'/img';
 
 
 $imagenes = [
@@ -102,9 +104,9 @@ $imagenes = [
         [
             'src' => $ruta .'/vista-playa-noja.jpg',
             'alt' => 'Vista aerea de la Playa de Noja',
-            'figcaption' => 'Vista aerea de la Playa de Noja. Fuente:',
-            'href' => '',
-            'titulo_href' => ''
+            'figcaption' => 'Vista aerea de la Playa de Noja.',
+            'href' => 'https://www.cantabriarural.com/playas/playas-de-noja-playa-de-ris.html',
+            'titulo_href' => 'cantabriarural.com'
         ],
         [
             'src' => $ruta . '/atardecer-playa-Noja-Cantabria.jpg',

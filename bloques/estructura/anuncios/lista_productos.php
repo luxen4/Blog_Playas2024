@@ -3,10 +3,10 @@
 $productos = [    
     'sweater_man',
     'sweatshirts',    
-    /*'sneakers',*/
+    'vaqueros_hombre',  
     'shirts'
 /* ,
-
+    'sneakers',
     'swimsuits_woman',
     'sneakers',
     'sandals_man',

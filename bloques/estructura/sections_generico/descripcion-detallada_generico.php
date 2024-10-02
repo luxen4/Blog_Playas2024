@@ -7,7 +7,7 @@
     $articulo = $productos[array_rand($productos)];
     array_push($articulosMostrados, $articulo);
 
-    if($anuncios='si'){include "./../../../../bloques/estructura/carrusel_auxiliar.php";
+    if($anuncios='si'){//include "./../../../../bloques/estructura/carrusel_auxiliar.php";
 }
        
     ?>
@@ -29,9 +29,9 @@ if (isset($li_descripcion_detallada2)) {
 
                 // Seleccionar el archivo basado en el número aleatorio
                 if ($numeroAleatorio === 1) {
-                    include "./../../../../bloques/estructura/carrusel_auxiliar.php";
+                    //include "./../../../../bloques/estructura/carrusel_auxiliar.php";
                 } else {
-                    include "./../../../../bloques/estructura/carrusel_auxiliar2.php";
+                    //include "./../../../../bloques/estructura/carrusel_auxiliar2.php";
                 }
             }
         }
@@ -50,11 +50,10 @@ if (isset($li_descripcion_detallada2)) {
             // Comprobar si el artículo ya existe en $articulosMostrados
             if (!in_array($articulo, $articulosMostrados)) {
                 if ($anuncios == 'si') {
-                    include "./../../../../bloques/estructura/carrusel_auxiliar.php";
+                    //include "./../../../../bloques/estructura/carrusel_auxiliar.php";
                 }
             }
         } while (in_array($articulo, $articulosMostrados)); // Continuar hasta que se encuentre un artículo nuevo
-
     }
     ?>
 </section>

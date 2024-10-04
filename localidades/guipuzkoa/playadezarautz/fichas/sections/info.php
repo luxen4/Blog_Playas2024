@@ -1,5 +1,4 @@
 <?php $li_encabezado = '
-    <h1 class="text-center">Playa de Zarautz</h1>
     <p class="text-center">Explora la Playa de Zarautz, una de las playas más extensas y populares del País Vasco. Conocida por su arena dorada, olas perfectas para el surf y un vibrante paseo marítimo, es el lugar ideal para disfrutar de deportes acuáticos, paseos relajantes y la rica gastronomía local.</p>
 '; ?>
 
@@ -21,10 +20,10 @@
 <?php $li_mapa_ubicacion = '
 <p>La Playa de Zarautz está a unos 20 minutos de San Sebastián y es accesible en coche, autobús o tren. También es posible llegar a pie o en bicicleta.</p>
 <ul>
-    <li><strong>En coche:</strong> A 20 minutos de San Sebastián por la AP-8, con zonas de aparcamiento cercanas.</li>
-    <li><strong>En autobús:</strong> Hay autobuses regulares desde San Sebastián y otras localidades cercanas.</li>
-    <li><strong>En tren:</strong> Euskotren conecta San Sebastián con Zarautz, con varias paradas a lo largo de la costa.</li>
-    <li><strong>A pie o en bicicleta:</strong> Zarautz cuenta con rutas peatonales y carriles bici que facilitan el acceso.</li>
+    <li class="my-4"><strong>En coche:</strong><br> A 20 minutos de San Sebastián por la AP-8, con zonas de aparcamiento cercanas.</li>
+    <li class="my-4"><strong>En autobús:</strong><br> Hay autobuses regulares desde San Sebastián y otras localidades cercanas.</li>
+    <li class="my-4"><strong>En tren:</strong><br> Euskotren conecta San Sebastián con Zarautz, con varias paradas a lo largo de la costa.</li>
+    <li class="my-4"><strong>A pie o en bicicleta:</strong><br> Zarautz cuenta con rutas peatonales y carriles bici que facilitan el acceso.</li>
 </ul>
 <h3>Mapa de la Playa de Zarautz</h3>
 <iframe
@@ -35,10 +34,10 @@
 
 <?php $li_actividades_recomendadas = '
     <ul class="list-unstyled">
-        <li><strong>Surf:</strong> Aprovecha las excelentes olas para practicar surf en uno de los destinos más populares del País Vasco.</li>
-        <li><strong>Senderismo:</strong> Explora los hermosos senderos que rodean la playa y disfruta de vistas panorámicas del océano.</li>
-        <li><strong>Gastronomía Local:</strong> Disfruta de tapas y platos locales en los bares y restaurantes del paseo marítimo.</li>
-        <li><strong>Eventos Culturales:</strong> Participa en eventos y festivales locales que se celebran a lo largo del año.</li>
+        <li class="my-4"><strong>Surf:</strong><br> Aprovecha las excelentes olas para practicar surf en uno de los destinos más populares del País Vasco.</li>
+        <li class="my-4"><strong>Senderismo:</strong><br> Explora los hermosos senderos que rodean la playa y disfruta de vistas panorámicas del océano.</li>
+        <li class="my-4"><strong>Gastronomía Local:</strong><br> Disfruta de tapas y platos locales en los bares y restaurantes del paseo marítimo.</li>
+        <li class="my-4"><strong>Eventos Culturales:</strong><br> Participa en eventos y festivales locales que se celebran a lo largo del año.</li>
     </ul>   
 '; ?>
 
@@ -55,13 +54,12 @@
 '; ?>
 
 <?php $li_mas_info = '
-    <h2>Más Info...</h2>
     <p>Para más información sobre la Playa de Zarautz, puedes contactarnos a través de los siguientes medios:</p>
     <ul>
-        <li><strong>Teléfono:</strong> +34 943 830 990</li>
-        <li><strong>Email:</strong> turismo@zarautz.eus</li>
-        <li><strong>Oficina de Turismo:</strong> Calle Nagusia, 29, 20800 Zarautz, Gipuzkoa
-            <a href="https://www.turismozarautz.eus/es/oficina-de-turismo"><strong>Web</strong></a>
+        <li class="my-4"><strong>Teléfono:</strong><br> +34 943 830 990</li>
+        <li class="my-4"><strong>Email:</strong><br> turismo@zarautz.eus</li>
+        <li class="my-4"><strong>Oficina de Turismo:</strong><br> Calle Nagusia, 29, 20800 Zarautz, Gipuzkoa
+            <a href="https://www.turismozarautz.eus/es/oficina-de-turismo"><strong>Web</strong><br></a>
         </li>
     </ul>
 '; ?>
@@ -69,10 +67,10 @@
 
 <?php $li_services = '
     <ul class="list-unstyled">
-        <li><strong>Alquiler de Equipos de Surf:</strong> Disponibilidad de tablas y trajes de neopreno para alquilar.</li>
-        <li><strong>Chiringuitos y Restaurantes:</strong> Variedad de opciones gastronómicas cerca de la playa.</li>
-        <li><strong>Servicios de Seguridad:</strong> Presencia de socorristas y servicios de primeros auxilios.</li>
-        <li><strong>Áreas de Picnic:</strong> Espacios designados para disfrutar de comidas al aire libre.</li>
+        <li class="my-4"><strong>Alquiler de Equipos de Surf:</strong><br> Disponibilidad de tablas y trajes de neopreno para alquilar.</li>
+        <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong><br> Variedad de opciones gastronómicas cerca de la playa.</li>
+        <li class="my-4"><strong>Servicios de Seguridad:</strong><br> Presencia de socorristas y servicios de primeros auxilios.</li>
+        <li class="my-4"><strong>Áreas de Picnic:</strong><br> Espacios designados para disfrutar de comidas al aire libre.</li>
     </ul>
 '; ?>
 

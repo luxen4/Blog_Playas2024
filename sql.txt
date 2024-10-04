@@ -1,8 +1,15 @@
 
 Botas https://www.amazon.es/Bruno-Marc-Philly-3-Combate-Militar/dp/B01HK0TTAE/ref=pd_sim_d_sccl_3_4/259-4022151-6670900?pd_rd_w=m8Ts2&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=74VRHS8HMSF4PTJBTARR&pd_rd_wg=iMxGm&pd_rd_r=d363088d-7fa9-4541-b7fc-b93d5150448d&pd_rd_i=B08KZ9NC95&psc=1
 
-// amazon_vaqueros_hombre_images
-    CREATE TABLE IF NOT EXISTS amazon_vaqueros_hombre_images (
+
+Meter esta chaqueta
+https://www.amazon.es/Vancavoo-Chaqueta-Cortavientos-M%C3%BAltiples-Bolsillos/dp/B0CCRNYJS5/ref=pd_sim_d_sccl_3_7/258-4163010-1230836?pd_rd_w=jNN5N&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=B8K8VXRCT3C4TB7GPD1S&pd_rd_wg=fbxM5&pd_rd_r=57bbdb91-6f4e-4aac-b7f5-3a3e4a277a2f&pd_rd_i=B0CDGY7VMC&psc=1
+
+
+
+
+// amazon_botas_hombre_images
+    CREATE TABLE IF NOT EXISTS amazon_botas_hombre_images (
         amazon_vaqueros_man_images_id INT AUTO_INCREMENT PRIMARY KEY,
         href VARCHAR(255) NOT NULL,
         src VARCHAR(255) NOT NULL,
@@ -13,63 +20,72 @@ Botas https://www.amazon.es/Bruno-Marc-Philly-3-Combate-Militar/dp/B01HK0TTAE/re
     );
 
 
-INSERT INTO amazon_vaqueros_hombre_images (href, src, alt, marca, precio, direccion) VALUES
+INSERT INTO amazon_botas_hombre_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/4duW7fa',
-'https://m.media-amazon.com/images/I/61HBsSNa+XL._AC_SY741_.jpg',
-'GINGTTO Vaqueros Slim para Hombre Elásticos Ajustado Vaqueros Hombres Skinny Denim Jeans Hombres',
-'GINGTTO',
-41.99,
-'frente'),
+('https://amzn.to/4eQMubL',
+'https://m.media-amazon.com/images/I/711msX3ifwL._AC_UL165_SR165,165_.jpg',
+'Bruno Marc Botas de Combate Militar para Hombres Botines de Moto Tactical para Hombre',
+'Bruno Marc',
+49.99,
+'izquierda'),
 
-('https://amzn.to/4eJiBtZ',
-'https://images-eu.ssl-images-amazon.com/images/I/719xWuFUdxL._AC_UL165_SR165,165_.jpg',
-'NUSGEAR 2022 Pantalones Vaqueros para Hombre,Pantalones Casuales Moda Deportivos Running Pants Skinny Elásticos Pantalon Fitness Jeans Largos Pantalones Bolsillos Ropa de Hombre',
-'NUSGEAR',
-30.98,
-'frente'),
+('https://amzn.to/3Y9Jqls',
+'https://m.media-amazon.com/images/I/61GxK6SdScL._AC_UL165_SR165,165_.jpg',
+'Bruno Marc Botas de Nieve Hombre Antideslizante Invierno Botines Calientes Trekking Aire Libre Zapatos Repelente al Agua',
+'Bruno Marc',
+49.99,
+'izquierda'),
 
-('https://amzn.to/3Y7LlXQ',
-'https://images-eu.ssl-images-amazon.com/images/I/61LHSTM-WtL._AC_UL165_SR165,165_.jpg',
-'MaNMaNing Vaqueros_ para Hombre 501 Fit Ripped Jeans Pantalones Casuales Rectos de Tiro Medio Delgados para Hombres Pantalones de Hombre',
-'MaNMaNing',
-24.99,
-'frente'),
+('https://amzn.to/3ZStO7w',
+'https://m.media-amazon.com/images/I/71nbffum4RL._AC_UL165_SR165,165_.jpg',
+'Bruno Marc Botas de Nieve Hombre Antideslizante Invierno Botines Calientes Trekking Aire Libre Zapatos Repelente al Agua',
+'Bruno Marc',
+49.99,
+'izquierda'),
 
-('https://amzn.to/4eNAF6o',
-'https://images-eu.ssl-images-amazon.com/images/I/61x6V7T0PML._AC_UL165_SR165,165_.jpg',
-'Loalirando Vaqueros Rasgados de Hombre Jeans Rotos Slim Fit Pantalones Skinny de Denim Pantalones Hombre Casual de Mezclilla Pantalón Largo Hombre Vaqueros Ajustados',
-'Loalirando',
-27.99,
-'frente'),
 
-('https://amzn.to/4gPJw9h',
-'https://images-eu.ssl-images-amazon.com/images/I/81l7s9hMdUS._AC_UL165_SR165,165_.jpg',
-'RED BRIDGE Vaqueros para Hombre Jeans Denim Pants Estilo Destroyed',
-'RED BRIDGE',
-59.90,
-'derecha'),
 
-('https://amzn.to/3Nef1w0',
-'https://images-eu.ssl-images-amazon.com/images/I/81YK4ydYHqL._AC_UL165_SR165,165_.jpg',
-'Redbridge Vaqueros de Hombres Denim Ice Destruida Pantalones Moda Jeans',
-'RED BRIDGE',
-59.90,
-'derecha'),
+('https://amzn.to/3ZPTAce',
+'https://m.media-amazon.com/images/I/71NYSHGB07L._AC_UL165_SR165,165_.jpg',
+'Botas de Hombre Mujer Cálido Piel Botines de Nieve Antideslizante Invierno Impermeables Trekking Aire Libre Zapatos',
+'Eagsouni',
+49.99,
+'izquierda'),
 
-('https://amzn.to/4eME4SL',
-'https://images-eu.ssl-images-amazon.com/images/I/71z5+-nqkQL._AC_UL165_SR165,165_.jpg',
-'Pantalones vaqueros para hombre Merish Destroyed 2081-1001, corte ajustado',
-'MERISH',
-39.90,
-'frente'),
 
-('https://amzn.to/4dugppi',
-'https://images-eu.ssl-images-amazon.com/images/I/71TwUoI5aPS._AC_UL165_SR165,165_.jpg',
-'JACK & JONES Vaqueros Skinny para Hombre',
-'JACK & JONES',
-49.95,
-'frente')
+('https://amzn.to/4eTNVq9',
+'https://m.media-amazon.com/images/I/81+TVkWFJML._AC_UL165_SR165,165_.jpg',
+'Mishansha Botas para Invierno - Calentitas Cómodas Antideslizantes, Unisex-adulto',
+'Mishansha',
+29.99,
+'izquierda'),
+
+
+
+
+('https://amzn.to/47VPVM5',
+'https://m.media-amazon.com/images/I/71lywsYaVQL._AC_UL165_SR165,165_.jpg',
+'Gaatpot Hombre Botas de Nieve Cálidas y Cómodas Zapatos de Invierno Fur Forro Aire Libre Zapatillas de Deporte Botas de Nieve Senderismo',
+'Gaatpot',
+35.99,
+'izquierda'),
+
+
+
+('https://amzn.to/3BxM0ZX',
+'https://m.media-amazon.com/images/I/81djPx3glAL._AC_UL165_SR165,165_.jpg',
+'Mishansha Zapatos de Invierno Hombre Botas de Nieve Mujer 36-48',
+'Mishansha',
+49.99,
+'izquierda'),
+
+
+('https://amzn.to/3YaJbXp',
+'https://images-eu.ssl-images-amazon.com/images/I/51-Jw1t+TOL._AC_UL165_SR165,165_.jpg',
+'ZHNSHM Botas de nieve para hombres botas de invierno antideslizantes con forro de piel botas de invierno con forro cálido zapatos de senderismo al aire libre',
+'ZHNSHM',
+42.99,
+'izquierda')
 ;
 
 https://m.media-amazon.com/images/I/61pzGgZqoLL._AC_SX679_.jpg
@@ -204,6 +220,7 @@ bfsgEjznrBWCKzj
 movil
 312px x 756px
 
-
+Ejemplo de página:
+https://dosmochilasymedia.com/que-ver-en-el-pirineo-frances/
 
 

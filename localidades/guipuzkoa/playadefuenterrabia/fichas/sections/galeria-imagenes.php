@@ -86,7 +86,7 @@ $lugar = 'playadezarautz';
 $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' . $lugar . '/img';
 $imges_name = ['/atardecerzarautzsurfistas.jpg', '/playadezarautzdiasoleado.jpg', '/paseomaritimozarautz.jpg'];
 $alt = ["Vista panorámica de la Playa de Zarautz al atardecer, con surfistas disfrutando de las olas.", "Playa de Zarautz en un día soleado, con su extenso paseo marítimo y montañas al fondo.", "Paseo marítimo de Zarautz con palmeras y restaurantes, ideal para caminar y disfrutar del mar."];
-require './../../../../../bloques/estructura/carruselimagenes/carruselgenerico.php'; ?>
+require './../../../../../bloques/estructura/carruseles/carruselimagenes/carruselgenerico.php'; ?>
 
 <?php // Galeria 3 imagenes //
 $lugar = 'playadezarautz';

@@ -34,7 +34,7 @@ $lugar = 'playadenoja';
 $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/localidades/'.$region.'/'.$lugar.'/img';
 $imges_name = ['/playa-de-trengandin.jpg', '/vista-aerea-playa-noja.jpg', '/rocas-playa-noja.jpg'];
 $alt = ["Vista de la Playa Trengandin", "Vista aerea de la Playa de Noja", "Rocas en la Playa de Noja"];
-require './../../../../../bloques/estructura/carruselimagenes/carruselgenerico.php'; ?>
+require './../../../../../bloques/estructura/carruseles/carruselimagenes/carruselgenerico.php'; ?>
 
 
 <?php // Galeria 3 imagenes

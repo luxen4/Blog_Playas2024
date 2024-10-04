@@ -1,23 +1,31 @@
 <h2 id="cantabria">Cantabria</h2>
 <?php
-$region = 'cantabria';
-
-/*
-$carpeta = 'castrourdiales';
-$localidad_nombre = 'Castro Urdiales';
-$localidad = 'Castro Urdiales';
-$archivo_name = 'castrourdiales';
-$presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
-                        cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
-                        en un importante puerto y centro comercial debido a su estratégica ubicación costera.'; ?>
-
-
-<?php include 'localidades/index.php'; */?>
+$region = 'cantabria';?>
 
 <details>
   <summary>Desplegar</summary>
 
-<?php
+  <?php
+$carpeta = 'playadeostende';
+$localidad_nombre = 'Playa de Ostende';
+$localidad = 'Playa de Ostende';
+$archivo_name = 'playa-de-ostende';
+$presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. 
+Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
+include 'localidades/index.php'; ?>
+
+<?php /*
+$carpeta = 'castrourdiales';
+$localidad_nombre = 'Castro Urdiales';
+$localidad = 'Castro Urdiales';
+$archivo_name = 'playa-de-castrourdiales';
+$presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
+                  cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
+                  en un importante puerto y centro comercial debido a su estratégica ubicación costera.'; 
+include 'localidades/index.php';*/
+
+
+
 $carpeta = 'playadesomo';
 $localidad_nombre = 'Playa de Somo';
 $localidad = 'Playa de Somo';

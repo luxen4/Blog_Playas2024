@@ -11,14 +11,23 @@
         <priority>1.0</priority>
     </url>-->
 
+
+
+
     <url>
-        <loc>http://playas2024.kesug.com/localidades/cantabria/playadesomo/fichas/playa-de-somo.php</loc>
+        <loc>http://playas2024.kesug.com/localidades/cantabria/playadeostende/fichas/playa-de-ostende.php</loc>
         <lastmod>2024-09-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
 
+    <url>
+        <loc>http://playas2024.kesug.com/localidades/cantabria/playadesomo/fichas/playa-de-somo.php</loc>
+        <lastmod>2024-09-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
     <url>
         <loc>http://playas2024.kesug.com/localidades/cantabria/playadenoja/fichas/playa-de-noja.php</loc>

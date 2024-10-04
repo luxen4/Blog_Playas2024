@@ -14,7 +14,7 @@ if ($stmt->rowCount() > 0) {
     $posicion = 1;
 
     while ($row = $stmt->fetch()) {
-        $product = ["href" => $row["href"], "src" => $row["src"], "alt" => $row["alt"], "precio" => $row["precio"]]; 
+        $product = ["href" => $row["href"], "src" => $row["src"], "alt" => $row["alt"], "marca" => $row["marca"], "precio" => $row["precio"]]; 
         //echo ($product["href"] . " " . $product["src"] . " " . $product["alt"] . "<br>");
 
         ${$var_base . $posicion}[] = $product;

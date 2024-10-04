@@ -52,9 +52,6 @@ $mainEntity_url = 'http://playas2024.kesug.com/localidades/euskadi/playade' . $l
 
 require "./../../../../bloques/estructura/head.php"; ?>
 
-<body>
-    <?php $page = 'playade'.$localidad_minuscula;?>    
-    <?php require "./../../../../bloques/estructura/body_generico.php"; ?>
-</body>
+<?php require_once "./../../../../bloques/estructura/body.php"; ?>
 
 </html>

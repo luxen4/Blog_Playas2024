@@ -1,4 +1,5 @@
 <?php
+
 $servername = $_SERVER['SERVER_NAME'];
 $require = './../../../../products_amazon/conexion.php';
 
@@ -7,42 +8,48 @@ $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
 $table = 'amazon_'.$articulo.'_images';
 $where = 'where direccion = "frente"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    require './../../../../products_amazon/sql_generica.php';
-}
+require 'distincion_pagina.php';
+
+$articulo = 'sweatshirts';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'where direccion = "frente"';
+require 'distincion_pagina.php';
+
+
+$articulo = 'botas_hombre';
+$grupo = '_2';
+$var_base = 'images_'.$articulo.'_2_';
+$table = 'amazon_'.$articulo.'_images';
+$where = 'WHERE direccion = "izquierda"';
+require 'distincion_pagina.php';
 
 
 $articulo = 'vaqueros_hombre';
 $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
 $table = 'amazon_'.$articulo.'_images';
-$where = "WHERE direccion LIKE 'frente'";
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    $require = './../../../../products_amazon/conexion.php';
-    require './../../../../products_amazon/sql_generica.php';
-}
+$where = 'WHERE direccion = "frente"';
+require 'distincion_pagina.php';
 
 
+
+
+
+/*
 $articulo = 'shirts';
 $grupo = '_2';
 $var_base = 'images_'.$articulo.'_2_';
 $table = 'amazon_'.$articulo.'_images';
-$where = 'where direccion = "izquierda"';
+$where = 'WHERE direccion = "izquierda"';
 if ($page == 'home'){ 
     $require = 'products_amazon/conexion.php';
     require 'products_amazon/sql_generica.php';
 }else{
     $require = './../../../../products_amazon/conexion.php';
     require './../../../../products_amazon/sql_generica.php';
-}
-
-
+}*/
 
 
 
@@ -86,18 +93,7 @@ if ($page == 'home'){
 
 
 
-$articulo = 'sweatshirts';
-$grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table = 'amazon_'.$articulo.'_images';
-$where = 'where direccion = "frente"';
-if ($page == 'home'){ 
-    $require = 'products_amazon/conexion.php';
-    require 'products_amazon/sql_generica.php';
-}else{
-    $require = './../../../../products_amazon/conexion.php';
-    require './../../../../products_amazon/sql_generica.php';
-}
+
 
 /*
 $articulo = 'shirts';

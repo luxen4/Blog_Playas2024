@@ -1,18 +1,14 @@
 <?php $li_encabezado = '
    <p class="">Descubre la Playa de Laredo, "La Salvé". Con más de 4 kilómetros de arena dorada, es ideal para disfrutar del sol y el mar. Su paseo marítimo está repleto de bares y restaurantes que ofrecen deliciosa gastronomía local.</p>
-   <p class="">Perfecta para familias y surfistas, la playa cuenta con servicios como duchas, socorristas y zonas de juegos. Su proximidad a áreas protegidas y rutas de senderismo permite explorar el hermoso paisaje costero. Ya sea para relajarte o practicar deportes acuáticos, Laredo tiene algo para todos.</p>
 '; ?>
 
-<?php $li_descripcion_detallada = '
-<h2 class="section-header">Información General de la Playa de Laredo</h2>
+<?php $li_descripcion_detallada = '   
+<p class="">Perfecta para familias y surfistas, la playa cuenta con servicios como duchas, socorristas y zonas de juegos. Su proximidad a áreas protegidas y rutas de senderismo permite explorar el hermoso paisaje costero. Ya sea para relajarte o practicar deportes acuáticos, Laredo tiene algo para todos.</p>
 
-<ul>
-    <li class="my-4"><strong>Nombre:</strong> Playa de Laredo ("La Salvé")</li>
-    <li class="my-4"><strong>Ubicación:</strong> Cantabria</li>
-    <li class="my-4"><strong>Longitud:</strong> Más de 4 kilómetros de arena dorada</li>
-    <li class="my-4"><strong>Actividades:</strong> Ideal para actividades recreativas</li>
-</ul>
 
+'; ?>
+
+<?php $li_descripcion_detallada2 = '
 <h4>Entorno Natural</h4>
 <ul>
     <li class="my-4">Rodeada de acantilados</li>
@@ -26,42 +22,8 @@
     <li class="my-4">Pintxos locales en el paseo marítimo y el centro de Laredo</li>
 </ul>
 
-<h4>Servicios y Experiencia</h4>
-<ul>
-    <li class="my-4">Apta para familias y surfistas</li>
-    <li class="my-4">Servicios completos disponibles</li>
-    <li class="my-4">Vistas al Mar Cantábrico</li>
-    <li class="my-4">Restaurantes y tiendas en Laredo</li>
-</ul>
-'; ?>
-
-<?php $li_descripcion_detallada2 = '
 
 
-'; ?>
-
-
-<?php $caja_caracteristicas = '
-<h4 class="section-header">Características</h4>
-<div class="info-box">
-    <ul>
-        <li class="my-4">Arena fina y dorada.</li>
-        <li class="my-4">Longitud: 4 km.</li>
-        <li class="my-4">Mar tranquilo, ideal para familias.</li>
-        <li class="my-4">Paseo marítimo amplio.</li>
-        <li class="my-4">Servicios: duchas, aseos, socorristas.</li>
-        <li class="my-4">Accesible para personas con movilidad reducida.</li>
-    </ul>
-</div>
-'; ?>
-
-<?php $caja_eventosYfestividades = '
-<h4>Eventos y Festividades de Laredo</h4>
-<ul>
-    <li class="my-4"><strong>Batalla de Flores:</strong> <br>Desfile de carrozas decoradas con flores naturales a finales de agosto.</li>
-    <li class="my-4"><strong>Fiesta de la Virgen del Carmen:</strong> <br>Celebración marítima con procesiones en la playa.</li>
-    <li class="my-4"><strong>Carrera de Caballos:</strong><br> Espectacular carrera en la playa durante el verano.</li>
-</ul>
 '; ?>
 
 
@@ -75,6 +37,36 @@
     <li class="my-4"><strong>Explora Laredo:</strong><br> Visita el casco antiguo, "La Puebla Vieja", lleno de historia.</li>
 </ul>
 '; ?>
+
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada.</li>
+        <li>Longitud: 4 km.</li>
+        <li>Mar tranquilo, ideal para familias.</li>
+        <li>Paseo marítimo amplio.</li>
+        <li>Servicios: duchas, aseos, socorristas.</li>
+        <li>Accesible para personas con movilidad reducida.</li>
+    </ul>
+    <p><strong>Nombre:</strong> Playa de Orio</p>
+    <p><strong>Ubicación:</strong> País Vasco</p>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de Laredo</h4>
+<ul>
+    <li class="my-4"><strong>Batalla de Flores:</strong> <br>Desfile de carrozas decoradas con flores naturales a finales de agosto.</li>
+    <li class="my-4"><strong>Fiesta de la Virgen del Carmen:</strong> <br>Celebración marítima con procesiones en la playa.</li>
+    <li class="my-4"><strong>Carrera de Caballos:</strong><br> Espectacular carrera en la playa durante el verano.</li>
+</ul>
+'; ?>
+
+
 
 
 

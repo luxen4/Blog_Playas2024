@@ -1,5 +1,4 @@
 <?php $li_encabezado = '
-<h1 class="">Playa de Biarritz</h1>
 <p class="">La Playa de Biarritz, situada en la impresionante costa vasca, es un destino vibrante y popular tanto para surfistas como para familias que buscan un lugar para relajarse. Con su amplia franja de arena dorada y aguas ideales para diversas actividades acuáticas, Biarritz ofrece un entorno perfecto para disfrutar de un día al aire libre. Además, su proximidad a excelentes restaurantes que ofrecen una rica variedad de mariscos y especialidades locales, junto con un entorno natural cautivador, hacen de la Playa de Biarritz un lugar inmejorable para vivir una experiencia completa junto al mar.</p>'; ?>
 
 <?php $li_descripcion_detallada = '

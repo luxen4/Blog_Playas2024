@@ -4,7 +4,7 @@ $productos = [
     'sweater_man',
     'sweatshirts',    
     'vaqueros_hombre',  
-    'shirts'
+    'botas_hombre'
 /* ,
     'sneakers',
     'swimsuits_woman',

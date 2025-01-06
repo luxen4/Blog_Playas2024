@@ -1,6 +1,22 @@
-<?php $li_encabezado = '
-    <p class="">Descubre la Playa de Somo, un destino espectacular en la costa de Cantabria. Con su extenso arenal dorado y vistas impresionantes hacia la bahía de Santander, Somo es ideal para los amantes del surf, el descanso junto al mar y los paseos por la costa. Su entorno natural, combinado con una variedad de bares y restaurantes en el paseo marítimo, asegura una experiencia inolvidable para aquellos que buscan belleza, tranquilidad y aventura en la costa cantábrica.</p>
-'; ?>
+<?php 
+$id = 'id="encabezado"';
+$localidad = 'Somo'; // Cambiado para reflejar la nueva localidad
+$region = 'Cantabria'; // Puedes ajustar la región según sea necesario
+$li_encabezado = '
+<header ' . $id . ' style="margin: 2em;" class="">
+    <h2 style="text-align: center;" class="mb-0">Playa de ' . $localidad . '</h2>
+    <p style="text-align: center;">Tu destino perfecto en ' . $region . '</p>
+
+    <p class="text-center">Descubre la Playa de Somo, un tesoro en la costa de Cantabria. 
+        <br>Con su extensa franja de arena dorada y aguas tranquilas, es el lugar ideal para disfrutar del sol, practicar deportes acuáticos y relajarse en un entorno natural impresionante. 
+        <br>El paseo marítimo está repleto de bares y restaurantes que ofrecen la exquisita gastronomía local, convirtiendo tu visita en una experiencia inolvidable. 
+        <br>La Playa de Somo es el destino perfecto para quienes buscan disfrutar del mar, la gastronomía y la tranquilidad de la naturaleza.
+    </p>
+</header>
+';
+?>
+<?php $li_encabezado2 = ' '; ?>
+<?php $li_encabezado3 = ' '; ?>
 
 <?php $li_descripcion_detallada = '
 <h2 class="section-header">Información General</h2>
@@ -79,6 +95,7 @@
 
 <?php $li_mas_info = '
     <div class="info-box">
+        <h2 class="section-header">Más Info...</h2>  
         <p>Para más información sobre la Playa de Somo, puedes contactarnos a través de los siguientes medios:</p>
         <ul>
             <li class="my-4"><strong>Teléfono:</strong> <br>+34 942 51 12 34</li>

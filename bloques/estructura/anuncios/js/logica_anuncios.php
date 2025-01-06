@@ -6,7 +6,11 @@ $categories = [
     "sweater_man" => 2,
     "sweatshirts" => 2,
     "vaqueros_hombre" => 2,  
-    "botas_hombre" => 2
+    "botas_hombre" => 2,
+    "chaquetas_hombre" => 2,
+    'estilo_man' => 2,
+    'shorts' => 2,
+    'sneakers' => 2
 ];
 
 // Función para generar las constantes de imagen en JavaScript

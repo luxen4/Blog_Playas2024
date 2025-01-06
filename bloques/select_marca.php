@@ -14,7 +14,8 @@ if ($conn->connect_error) {
 }
 
 // Consulta para obtener los nombres de las tablas
-$sql = "SELECT table_name FROM information_schema.tables WHERE table_schema = '$database'";
+$sql = "SELECT nombre FROM marca";
+//echo($sql); //die;
 $result = $conn->query($sql);
 
 // Verificar si se obtuvieron resultados
@@ -24,16 +25,16 @@ $conn->close();
 ?>
 
 <div class="form-group">
-    <label for="categoria">Categoria:</label>
+    <label for="marca">Marca:</label>
     <div style="display: flex;">
-        <select style="width: 70%;" name="datos[categoria]" id="categoria" class="form-control">
+        <select style="width: 70%;" name="datos[marca]" id="marca" class="form-control">
             <?php
             // Generar dinámicamente las opciones del select
             if ($result->num_rows > 0) {
                 // Mostrar los nombres de las tablas
                 while ($row = $result->fetch_assoc()) {
                     // Corregido: Generar opciones dinámicamente para el select
-                    echo '<option value="' . htmlspecialchars($row["table_name"], ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($row["table_name"], ENT_QUOTES, 'UTF-8') . '</option>';
+                    echo '<option value="' . htmlspecialchars($row["nombre"], ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($row["nombre"], ENT_QUOTES, 'UTF-8') . '</option>';
                 }
             } else {
                 echo "No se encontraron tablas.";
@@ -44,10 +45,10 @@ $conn->close();
 
 
         <div style="margin-left: 1em; width: 70%;">
-            <input type="text" name="datos[nueva_categoria]" id="categoria" class="form-control" placeholder="Nueva Categoria..." maxlength="100">
+            <input type="text" name="datos[nueva_marca]" id="marca" class="form-control" placeholder="Nueva marca..." maxlength="100">
         </div>
         <div style="margin-left: 1em;">
-            <input type="submit" name="nueva_categoria" value="Crear Categoría" class="btn btn-primary">
+            <input type="submit" name="nueva_marca" value="Crear Marca" class="btn btn-primary">
         </div>
     </div>
 </div>

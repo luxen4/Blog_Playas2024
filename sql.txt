@@ -1,15 +1,72 @@
+Deivit Watios
+https://www.youtube.com/watch?v=X-nkbMAuzgE&list=PL5Y4zcdPeMQ_7th2r63B1y8CakE6PBLOm&index=23
 
-Botas https://www.amazon.es/Bruno-Marc-Philly-3-Combate-Militar/dp/B01HK0TTAE/ref=pd_sim_d_sccl_3_4/259-4022151-6670900?pd_rd_w=m8Ts2&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=74VRHS8HMSF4PTJBTARR&pd_rd_wg=iMxGm&pd_rd_r=d363088d-7fa9-4541-b7fc-b93d5150448d&pd_rd_i=B08KZ9NC95&psc=1
+
+Botas
+https://www.amazon.es/Bruno-Marc-Philly-3-Combate-Militar/dp/B01HK0TTAE/ref=pd_sim_d_sccl_3_4/259-4022151-6670900?pd_rd_w=m8Ts2&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=74VRHS8HMSF4PTJBTARR&pd_rd_wg=iMxGm&pd_rd_r=d363088d-7fa9-4541-b7fc-b93d5150448d&pd_rd_i=B08KZ9NC95&psc=1
 
 
-Meter esta chaqueta
+Meter este conjunto:
+
+chaqueta
 https://www.amazon.es/Vancavoo-Chaqueta-Cortavientos-M%C3%BAltiples-Bolsillos/dp/B0CCRNYJS5/ref=pd_sim_d_sccl_3_7/258-4163010-1230836?pd_rd_w=jNN5N&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=B8K8VXRCT3C4TB7GPD1S&pd_rd_wg=fbxM5&pd_rd_r=57bbdb91-6f4e-4aac-b7f5-3a3e4a277a2f&pd_rd_i=B0CDGY7VMC&psc=1
 
+Jeans
+https://www.amazon.es/MUSTANG-Oregon-Vaqueros-estrechos-hombre/dp/B07X9QNW7F/ref=sl_ob_desktop_dp_1_1_v2?_encoding=UTF8&pd_rd_w=P59SY&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=NAYVHDRE9YQMYVZEN1KB&pd_rd_wg=85uP0&pd_rd_r=f8d2102e-8bef-4f5e-92bf-ce0e29eadc48&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d
+
+Jersey
+https://www.amazon.es/Jack-Jones-Jersey-Punto-Dahlia/dp/B0B8CYVD6M/ref=sl_ob_desktop_dp_1_2_v2?_encoding=UTF8&pd_rd_w=P59SY&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=NAYVHDRE9YQMYVZEN1KB&pd_rd_wg=85uP0&pd_rd_r=f8d2102e-8bef-4f5e-92bf-ce0e29eadc48&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d
+
+Zapatilla baja
+https://www.amazon.es/Skechers-Delson-Axton-Zapatillas-Cordones-Hombre/dp/B07GPQRW6J/ref=sl_ob_desktop_dp_1_3_v2?_encoding=UTF8&pd_rd_w=P59SY&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=NAYVHDRE9YQMYVZEN1KB&pd_rd_wg=85uP0&pd_rd_r=f8d2102e-8bef-4f5e-92bf-ce0e29eadc48&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d
+//////
 
 
 
-// amazon_botas_hombre_images
-    CREATE TABLE IF NOT EXISTS amazon_botas_hombre_images (
+Chaqueta
+https://www.amazon.es/HOOD-CREW-Chaquetas-algod%C3%B3n-militar/dp/B0CCHZ34ZC/ref=pd_sim_d_sccl_4_1/258-4163010-1230836?pd_rd_w=dtkoI&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=2FWQ2DWH3WBJDQE3D1RZ&pd_rd_wg=ndV9i&pd_rd_r=3b65de9d-cc52-4bfc-a442-d520114de78a&pd_rd_i=B0CCHWTYM8&th=1&psc=1
+
+Jeans Pepe
+https://www.amazon.es/Pepe-Jeans-Regular-Vaqueros-Denim-ug4/dp/B0BKQKXJLS/ref=sl_ob_desktop_dp_0_1_v2?_encoding=UTF8&pd_rd_w=2WxaL&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=89WV15T1FXMAYTCET7AB&pd_rd_wg=N5Cvw&pd_rd_r=ae8e357b-c901-4e5e-a8d9-69e6a2123480
+
+Jersey
+https://www.amazon.es/Calvin-Klein-Hombre-Redondo-Comfort/dp/B0CDCT1DST/ref=sl_ob_desktop_dp_0_2_v2?_encoding=UTF8&pd_rd_w=2WxaL&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=89WV15T1FXMAYTCET7AB&pd_rd_wg=N5Cvw&pd_rd_r=ae8e357b-c901-4e5e-a8d9-69e6a2123480
+
+Zapatillas
+https://www.amazon.es/DC-Shoes-Kalis-Zapatillas-Hombre/dp/B0B4T5BLKP/ref=sl_ob_desktop_dp_0_3_v2?_encoding=UTF8&pd_rd_w=2WxaL&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=89WV15T1FXMAYTCET7AB&pd_rd_wg=N5Cvw&pd_rd_r=ae8e357b-c901-4e5e-a8d9-69e6a2123480
+///
+
+
+
+Chaqueta
+https://www.amazon.es/FLAVOR-Chaqueta-aut%C3%A9ntico-capucha-desmontable/dp/B0792T26DS/ref=pd_sim_d_sccl_4_7/258-4163010-1230836?pd_rd_w=QCjso&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=89WV15T1FXMAYTCET7AB&pd_rd_wg=N5Cvw&pd_rd_r=ae8e357b-c901-4e5e-a8d9-69e6a2123480&pd_rd_i=B07J6S5C6B&psc=1
+
+Jeans
+https://www.amazon.es/G-STAR-RAW-Vaqueros-Regular-51003-c911-d588/dp/B0C5Y2X94S/ref=sl_ob_desktop_dp_0_1_v2?_encoding=UTF8&pd_rd_w=Af0Xn&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=HJ0383084N3W07T7T4R9&pd_rd_wg=gkQtm&pd_rd_r=88e9356c-7807-474c-ae2c-c03908d56737
+
+Camiseta
+https://www.amazon.es/BOSS-Thinking-Camiseta-Green368-Hombre/dp/B0C3JF6814/ref=sl_ob_desktop_dp_0_2_v2?_encoding=UTF8&pd_rd_w=Af0Xn&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=HJ0383084N3W07T7T4R9&pd_rd_wg=gkQtm&pd_rd_r=88e9356c-7807-474c-ae2c-c03908d56737
+
+Zapatillas
+https://www.amazon.es/BOSS-Jonah_Runn_knsd-Correr-Hombre-White120/dp/B0C8TQ866V/ref=sl_ob_desktop_dp_0_3_v2?_encoding=UTF8&pd_rd_w=Af0Xn&content-id=amzn1.sym.07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_p=07b85458-ffbf-4d91-9e83-0966844b0d1d&pf_rd_r=HJ0383084N3W07T7T4R9&pd_rd_wg=gkQtm&pd_rd_r=88e9356c-7807-474c-ae2c-c03908d56737&th=1&psc=1
+
+Este estilo para conjunto
+https://amzn.to/47VPVM5
+
+https://amzn.to/3YdbCUw
+
+
+
+CREATE TABLE marca (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL UNIQUE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+
+// amazon_estilo_man_images
+    CREATE TABLE IF NOT EXISTS amazon_estilo_man_images (
         amazon_vaqueros_man_images_id INT AUTO_INCREMENT PRIMARY KEY,
         href VARCHAR(255) NOT NULL,
         src VARCHAR(255) NOT NULL,
@@ -20,73 +77,38 @@ https://www.amazon.es/Vancavoo-Chaqueta-Cortavientos-M%C3%BAltiples-Bolsillos/dp
     );
 
 
-INSERT INTO amazon_botas_hombre_images (href, src, alt, marca, precio, direccion) VALUES
+INSERT INTO amazon_estilo_man_images (href, src, alt, marca, precio, direccion) VALUES
 
-('https://amzn.to/4eQMubL',
-'https://m.media-amazon.com/images/I/711msX3ifwL._AC_UL165_SR165,165_.jpg',
-'Bruno Marc Botas de Combate Militar para Hombres Botines de Moto Tactical para Hombre',
-'Bruno Marc',
-49.99,
+('https://amzn.to/3TWnnME',
+'https://m.media-amazon.com/images/I/61tTOT2wzrL._AC_SY741_.jpg',
+'Chaquetas de algodón militar para hombres Ropa de camping a prueba de viento al aire libre',
+'HOOD CREW',
+69.99,
+'frente'),
+
+('https://amzn.to/3YcV7rR',
+'https://m.media-amazon.com/images/I/81-hy-Ycu3L._AC_SX569_.jpg',
+'Jeans Hombre',
+'Pepe Jeans Hatch',
+43.08,
+'frente'),
+
+('https://amzn.to/3Ydxgbe',
+'https://m.media-amazon.com/images/I/61WGMd0IAML._AC_SX679_.jpg',
+'Jersey para Hombre Cuello Redondo Tour Comfort Golf Suéter',
+'Calvin Klein',
+43.85,
 'izquierda'),
 
-('https://amzn.to/3Y9Jqls',
-'https://m.media-amazon.com/images/I/61GxK6SdScL._AC_UL165_SR165,165_.jpg',
-'Bruno Marc Botas de Nieve Hombre Antideslizante Invierno Botines Calientes Trekking Aire Libre Zapatos Repelente al Agua',
-'Bruno Marc',
-49.99,
-'izquierda'),
-
-('https://amzn.to/3ZStO7w',
-'https://m.media-amazon.com/images/I/71nbffum4RL._AC_UL165_SR165,165_.jpg',
-'Bruno Marc Botas de Nieve Hombre Antideslizante Invierno Botines Calientes Trekking Aire Libre Zapatos Repelente al Agua',
-'Bruno Marc',
-49.99,
-'izquierda'),
-
-
-
-('https://amzn.to/3ZPTAce',
-'https://m.media-amazon.com/images/I/71NYSHGB07L._AC_UL165_SR165,165_.jpg',
-'Botas de Hombre Mujer Cálido Piel Botines de Nieve Antideslizante Invierno Impermeables Trekking Aire Libre Zapatos',
-'Eagsouni',
-49.99,
-'izquierda'),
-
-
-('https://amzn.to/4eTNVq9',
-'https://m.media-amazon.com/images/I/81+TVkWFJML._AC_UL165_SR165,165_.jpg',
-'Mishansha Botas para Invierno - Calentitas Cómodas Antideslizantes, Unisex-adulto',
-'Mishansha',
-29.99,
-'izquierda'),
-
-
-
-
-('https://amzn.to/47VPVM5',
-'https://m.media-amazon.com/images/I/71lywsYaVQL._AC_UL165_SR165,165_.jpg',
-'Gaatpot Hombre Botas de Nieve Cálidas y Cómodas Zapatos de Invierno Fur Forro Aire Libre Zapatillas de Deporte Botas de Nieve Senderismo',
-'Gaatpot',
-35.99,
-'izquierda'),
-
-
-
-('https://amzn.to/3BxM0ZX',
-'https://m.media-amazon.com/images/I/81djPx3glAL._AC_UL165_SR165,165_.jpg',
-'Mishansha Zapatos de Invierno Hombre Botas de Nieve Mujer 36-48',
-'Mishansha',
-49.99,
-'izquierda'),
-
-
-('https://amzn.to/3YaJbXp',
-'https://images-eu.ssl-images-amazon.com/images/I/51-Jw1t+TOL._AC_UL165_SR165,165_.jpg',
-'ZHNSHM Botas de nieve para hombres botas de invierno antideslizantes con forro de piel botas de invierno con forro cálido zapatos de senderismo al aire libre',
-'ZHNSHM',
-42.99,
-'izquierda')
+('https://amzn.to/3Nf2ZTl',
+'https://m.media-amazon.com/images/I/61iv7mKUDLL._AC_SY675_.jpg',
+'Zapatillas para Hombre',
+'DC Shoes Kalis Vulc',
+55.62,
+'derecha')
 ;
+
+
 
 https://m.media-amazon.com/images/I/61pzGgZqoLL._AC_SX679_.jpg
 

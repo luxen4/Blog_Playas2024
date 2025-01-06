@@ -69,7 +69,7 @@
 <body>
     <?php include './crud_productos/index.php'; ?>
 
-    <form action="" method="POST">
+    <form id="miFormulario" action="" method="POST">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-left" style="border: 1px solid black;">
@@ -89,19 +89,23 @@
                         <span class="checkmark"></span>
                     </label>
 
+
+
+                    <?php include './select_marca.php'; ?>
+
                     <?php include './select_categoria.php'; ?>
 
                     <div class="form-group">
                         <label for="href">Href:</label>
-                        <input type="text" name="datos[href]" id="href" class="form-control" placeholder="Ingrese el href" maxlength="50" required>
+                        <input type="text" name="datos[href]" id="href" class="form-control" placeholder="Ingrese el href" maxlength="100">
                     </div>
                     <div class="form-group">
                         <label for="src">Src de la imagen:</label>
-                        <input type="text" name="datos[src]" id="src" class="form-control" placeholder="Ingrese el src de la imagen" maxlength="50" required>
+                        <input type="text" name="datos[src]" id="src" class="form-control" placeholder="Ingrese el src de la imagen" maxlength="100">
                     </div>
                     <div class="form-group">
                         <label for="alt">Alt de la imagen:</label>
-                        <input type="text" name="datos[alt]" id="alt" class="form-control" placeholder="Ingrese el alt de la imagen" maxlength="50" required>
+                        <input type="text" name="datos[alt]" id="alt" class="form-control" placeholder="Ingrese el alt de la imagen" maxlength="200">
                     </div>
                     <div class="form-group">
 
@@ -120,7 +124,7 @@
                         
                             <!--
                             <label for="opcion_direccion">Nueva opción de dirección</label>
-                            <input type="text" name="datos[opcion_direccion]" id="opcion_direccion" class="form-control" placeholder="Ingrese opcion_direccion" maxlength="50" required>
+                            <input type="text" name="datos[opcion_direccion]" id="opcion_direccion" class="form-control" placeholder="Ingrese opcion_direccion" maxlength="50">
                         
                             <input type="submit" value="enviar" class="btn btn-primary">-->
 
@@ -128,28 +132,39 @@
 
                     </div>
 
+
+
+
+
+
+                     <?php /*
                     <div class="form-group">
                         <label for="opciones_marca">Marca:</label>
                         <select name="datos[marca]" id="opciones_marca" class="form-control">
-                            <option value="rebook">Rebook</option>
-                            <option value="nike">Nike</option>
-                            <option value="jordan">Jordan</option>
-                            <option value="underarmour">UNDER ARMOUR</option>
+                            <option value="Rebook">Rebook</option>
+                            <option value="Nike">Nike</option>
+                            <option value="Jordan">Jordan</option>
+                            <option value="Underarmour">UNDER ARMOUR</option>
+                            <option value="MERCIYD">MERCIYD</option>
                         </select>
-                    </div>
+                    </div> */ ?>
+
 
                     <div class="form-group">
                         <label for="precio">Precio:</label>
-                        <input type="number" name="datos[precio]" id="precio" class="form-control" placeholder="Ingrese el precio" step="0.01" required>
+                        <input type="number" name="datos[precio]" id="precio" class="form-control" placeholder="Ingrese el precio" step="0.01">
                     </div>
-
+ 
 
                     <div class="text-center">
-                        <input type="submit" name="nuevaAgenciaViajes" value="Crear" class="btn btn-primary">
+                        <input type="submit" name="nuevo_articulo" value="Crear Anuncio" class="btn btn-primary">
                         <input type="reset" value="Limpiar" class="btn btn-secondary">
                     </div>
                 </div>
             </div>
+
+
+            <?php /*
             <div class="row mt-4">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
                     <img src="./../web/img/sneakers_derecha0grados.jpg" alt="Sneakers Derecha 0º" class="img-fluid">
@@ -171,11 +186,12 @@
                     <label for="estaseguro">
                         <input id="estaseguro" type="checkbox" name="datos[estaseguro]"> Estoy seguro de eliminar los datos de la Agencia de Buses.</label>
                 </div>
-            </div>
+            </div> */?>
 
         </div>
 
     </form>
+    <div id="mensaje"></div>
 </body>
 
 </html>

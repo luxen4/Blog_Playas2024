@@ -2,39 +2,40 @@
 
 $servername = $_SERVER['SERVER_NAME'];
 $require = './../../../../products_amazon/conexion.php';
-
-$articulo = 'sweater_man';
 $grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table = 'amazon_'.$articulo.'_images';
-$where = 'where direccion = "frente"';
+
+$direccion='"frente"';
+$articulo = 'sweater_man';
 require 'distincion_pagina.php';
 
 $articulo = 'sweatshirts';
-$grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table = 'amazon_'.$articulo.'_images';
-$where = 'where direccion = "frente"';
-require 'distincion_pagina.php';
-
-
-$articulo = 'botas_hombre';
-$grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table = 'amazon_'.$articulo.'_images';
-$where = 'WHERE direccion = "izquierda"';
 require 'distincion_pagina.php';
 
 
 $articulo = 'vaqueros_hombre';
-$grupo = '_2';
-$var_base = 'images_'.$articulo.'_2_';
-$table = 'amazon_'.$articulo.'_images';
-$where = 'WHERE direccion = "frente"';
 require 'distincion_pagina.php';
 
 
+$articulo = 'chaquetas_hombre';
+require 'distincion_pagina.php';
 
+
+$articulo = 'estilo_man';
+require 'distincion_pagina.php';
+
+
+$direccion='"izquierda"';
+$articulo = 'botas_hombre';
+require 'distincion_pagina.php';
+
+$direccion='"izquierda_15"';
+$articulo = 'sneakers';
+require 'distincion_pagina.php';
+
+
+$direccion='"frente"';
+$articulo = 'shorts';
+require 'distincion_pagina.php';
 
 
 /*
@@ -75,11 +76,7 @@ if ($page == 'home'){
 
 
 /*
-$articulo = 'sneakers';
-$grupo = '_2';
-$var_base = 'images_sneakers_2_';
-$table = 'amazon_sneakers_images';
-$where = 'where direccion = "izquierda_45"';
+
 
 
 if ($page == 'home'){ 

@@ -33,6 +33,10 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#masinfo">Más Info</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./../../../../bloques/amazon_interfaz_enlaces.php">Interfaz</a>
+                </li>
             </ul>
         </div>
     </nav>

@@ -19,6 +19,8 @@
 
 
 
+
+
 <?php $li_mapa_ubicacion = '
     <p>La Playa de San Juan de Luz es de fácil acceso tanto en coche como en transporte público.</p>
     <ul>
@@ -76,57 +78,34 @@
 <?php $li_services = '
     <ul class="list-unstyled">
         <li class="my-4"><strong>Alquiler de Equipos de Surf:</strong><br> Disponibilidad de tablas y trajes de neopreno para alquilar en varios puntos cerca de la playa.</li>
-        <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong><br> Disfruta de una variedad de opciones gastronómicas a lo largo del paseo marítimo, con platos locales y cocina internacional.</li>
-        <li class="my-4"><strong>Servicios de Seguridad:</strong><br> La playa cuenta con socorristas y servicios de primeros auxilios para garantizar una estancia segura.</li>
-        <li class="my-4"><strong>Áreas de Picnic:</strong><br> Espacios acondicionados para disfrutar de comidas al aire libre con vistas al mar.</li>
-        <li class="my-4"><strong>Instalaciones para Familias:</strong><br> Zonas de juegos infantiles y áreas familiares, asegurando diversión y seguridad para los más pequeños.</li>
-        <li class="my-4"><strong>Accesibilidad:</strong><br> La playa está adaptada para personas con movilidad reducida, con rampas y accesos adecuados.</li>
-        <li class="my-4"><strong>Alquiler de sombrillas y tumbonas:</strong><br> Disfruta de un día de sol con todas las comodidades.</li>
-        <li class="my-4"><strong>Escuelas de surf:</strong><br> Aprende a surfear o mejora tus habilidades con instructores locales.</li>
-        <li class="my-4"><strong>Senderismo y paseos:</strong><br> Explora los senderos costeros que ofrecen vistas impresionantes de la bahía.</li>
-        <li class="my-4"><strong>Parking cercano:</strong><br> Acceso fácil y cómodo con parking cercano disponible.</li>
-        <li class="my-4"><strong>Actividades acuáticas:</strong><br> Disfruta de actividades como el paddle surf, kayak, y más.</li>
-        <li class="my-4"><strong>Alquiler de bicicletas:</strong><br> Recorre la ciudad y sus alrededores en bicicleta con opciones de alquiler cercanas.</li>
-    </ul>
+        <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong><br> Variedad de opciones gastronómicas a lo largo del paseo marítimo.</li>
+        <li class="my-4"><strong>Servicios de Seguridad:</strong><br> Socorristas y servicios de primeros auxilios para garantizar una estancia segura.</li>
+        <li class="my-4"><strong>Áreas de Picnic:</strong><br> Espacios acondicionados para disfrutar de comidas al aire libre.</li>
+        <li class="my-4"><strong>Instalaciones para Familias:</strong><br> Zonas de juegos infantiles y áreas familiares.</li>
+        <li class="my-4"><strong>Accesibilidad:</strong><br> Adaptada para personas con movilidad reducida, con rampas y accesos adecuados.</li>
 '; ?>
 
 <?php $li_services2 = '
-        <li class="my-4">
-            <strong>Zonas de Juegos:</strong><br> Para las familias, la playa ofrece áreas de juegos infantiles bien equipadas. Estas zonas son seguras y están ubicadas cerca de los servicios básicos como baños y duchas.
-        </li>
+        <li class="my-4"><strong>Alquiler de sombrillas y tumbonas:</strong><br> Disfruta de un día de sol con todas las comodidades.</li>
+        <li class="my-4"><strong>Escuelas de surf:</strong><br> Aprende a surfear o mejora tus habilidades con instructores locales.</li>
+        <li class="my-4"><strong>Senderismo y paseos:</strong><br> Explora los senderos costeros con vistas impresionantes de la bahía.</li>
+        <li class="my-4"><strong>Parking cercano:</strong><br> Acceso fácil y cómodo con parking cercano disponible.</li>
+        <li class="my-4"><strong>Actividades acuáticas:</strong><br> Disfruta de actividades como el paddle surf, kayak, y más.</li>
+        <li class="my-4"><strong>Alquiler de bicicletas:</strong><br> Recorre la ciudad y sus alrededores en bicicleta con opciones de alquiler cercanas.</li>
+        <li class="my-4"><strong>Zonas de Juegos:</strong><br> Áreas de juegos infantiles bien equipadas cerca de los servicios básicos.</li>
 
-        <li class="my-4">
-            <strong>Zonas Deportivas:</strong><br> Además del surf, la Playa de Hendaya cuenta con instalaciones para practicar voleibol de playa y fútbol. También se organizan torneos y eventos deportivos durante la temporada alta.
-        </li>
-
-        <li class="my-4">
-            <strong>Seguridad y Salvamento:</strong><br> Durante la temporada alta, la playa está vigilada por socorristas, lo que garantiza un entorno seguro para nadar y disfrutar del mar.
-        </li>
-
-        <li class="my-4">
-            <strong>Accesibilidad:</strong><br> La playa está equipada con accesos para personas con movilidad reducida, incluyendo rampas y sillas anfibias, lo que la convierte en un destino inclusivo.
-        </li>
 '
 
 ; ?>
 
 
 <?php $li_services3 = '
-        <li class="my-4">
-        <strong>Paseo Marítimo:</strong><br> El hermoso paseo marítimo que rodea la playa es ideal para caminar, correr o simplemente disfrutar de las vistas. A lo largo del paseo, encontrarás bancos y zonas sombreadas, perfectas para relajarse.
-        </li>
-
-        <li class="my-4">
-            <strong>Mercadillos y Ferias:</strong><br> Durante el verano, se organizan mercadillos y ferias a lo largo del paseo, donde se pueden encontrar artesanías locales, productos frescos y recuerdos.
-        </li>
-
-        <li class="my-4">
-            <strong>Excursiones y Rutas:</strong><br> La Playa de Hendaya es también el punto de partida ideal para explorar la región. Hay varias rutas de senderismo cercanas que ofrecen vistas espectaculares de la costa y las montañas circundantes. Además, es posible realizar excursiones en barco para explorar la bahía y la costa cercana.
-        </li>
-
-        <li class="my-4">
-            <strong>Aparcamiento:</strong><br> La playa dispone de varios aparcamientos cercanos, algunos de ellos gratuitos y otros de pago, que facilitan el acceso a los visitantes.
-        </li>
+        <li class="my-4"><strong>Zonas Deportivas:</strong><br> Instalaciones para practicar deportes como voleibol y fútbol en la playa.</li>
+        <li class="my-4"><strong>Seguridad y Salvamento:</strong><br> Socorristas vigilando la playa, garantizando un entorno seguro para nadar.</li>
+        <li class="my-4"><strong>Mercadillos y Ferias:</strong><br> Mercadillos y ferias en verano con artesanías locales y productos frescos.</li>
+        <li class="my-4"><strong>Paseo Marítimo:</strong><br> Ideal para caminar, correr o disfrutar de vistas mientras te relajas en bancos sombreados.</li>
+        <li class="my-4"><strong>Excursiones y Rutas:</strong><br> Senderismo y excursiones en barco para explorar la costa y la bahía.</li>
+        <li class="my-4"><strong>Aparcamiento:</strong><br> Aparcamientos cercanos, algunos gratuitos y otros de pago.</li>
     </ul>
 '; ?>
 

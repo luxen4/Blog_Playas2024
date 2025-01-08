@@ -1,3 +1,4 @@
+<?php //$grupo = '_2';?>
 <!--<div class="carrusel <?php if (isset($es_segundo_carrusel)) echo 'segundo-carrusel'; ?> <?php if (isset($es_tercer_carrusel)) echo 'tercer-carrusel'; ?>">-->
 <div style="" class="container carrusel_auxiliar1">
 

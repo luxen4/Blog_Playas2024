@@ -25,15 +25,15 @@ function mostrar($productos, $articulosMostrados, $anuncios ){
     array_push($articulosMostrados, $articulo);
 
     if($anuncios='si'){
-        include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
+        //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
     }
-       
+      
     ?>
 <?php
     if (isset($li_descripcion_detallada2)) {
         $es_segundo_carrusel = ''; 
         echo($li_descripcion_detallada2);
-
+        
 
         do {
             // Seleccionar un artículo aleatorio
@@ -49,9 +49,9 @@ function mostrar($productos, $articulosMostrados, $anuncios ){
                     $numeroAleatorio = 1;
                     // Seleccionar el archivo basado en el número aleatorio
                     if ($numeroAleatorio === 1) {
-                        include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
+                        //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
                     } else {
-                        include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar2.php";
+                        //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar2.php";
                     }
                 }
             }

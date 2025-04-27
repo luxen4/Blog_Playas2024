@@ -42,8 +42,8 @@ $mainEntity_addressLocality = 'Berria';
 $mainEntity_addressRegion = 'Cantabria';
 $mainEntity_addressCountry = 'España';
 
-$mainEntity_geo_latitude = 43.4630; // Coordenadas aproximadas
-$mainEntity_geo_longitude = -3.4341; // Coordenadas aproximadas
+$mainEntity_geo_latitude = 43.4630;     // Coordenadas aproximadas
+$mainEntity_geo_longitude = -3.4341;    // Coordenadas aproximadas
 
 $mainEntity_image = 'https://example.com/path/to/berria-image.jpg';
 $mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';

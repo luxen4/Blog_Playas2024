@@ -79,5 +79,12 @@
         ?>
     }
 
+
+
+
+
     setInterval(changeImages, 4000);
+
+
+
 </script>

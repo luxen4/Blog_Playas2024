@@ -22,8 +22,6 @@
     <li class="my-4">Pintxos locales en el paseo marítimo y el centro de Laredo</li>
 </ul>
 
-
-
 '; ?>
 
 

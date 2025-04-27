@@ -1,5 +1,5 @@
 <?php // $articulosMostrados=[]; 
-
+/*
 require './../../../../bloques/estructura/anuncios/lista_productos.php';
 
 
@@ -22,7 +22,7 @@ $articulo='';?>
             } elseif ($numeroAleatorio === 3) {
                 include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar3.php";
             } elseif ($numeroAleatorio === 4) {
-                include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar_estilo.php";
+                //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar_estilo.php";
             }
         }
     }
@@ -74,5 +74,5 @@ $articulo='';?>
                 }
             } 
     }
-    //print_r($articulosMostrados);
+    //print_r($articulosMostrados);*/
     ?>

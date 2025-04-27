@@ -1,5 +1,4 @@
-<?php //$grupo = '_2';?>
-<!--<div class="carrusel <?php if (isset($es_segundo_carrusel)) echo 'segundo-carrusel'; ?> <?php if (isset($es_tercer_carrusel)) echo 'tercer-carrusel'; ?>">-->
+<?php //$grupo = '_2'; ?>
 <div style="" class="container carrusel_auxiliar1">
 
     <div class="row" style="max-width: 1300px; margin:auto;">
@@ -12,15 +11,17 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container">
-                            <div class="row" style="">
+                            <div class="row">
                                 <?php
                                 for ($i = 1; $i <= 4; $i++) {
-                                    // Generate variable names dynamically
-                                    $articulo_var = $articulo . $grupo . '_' . $i;      //echo($articulo_var . '<br>');
-                                    $images_articulo_var = 'images_' . $articulo_var;   //echo($images_articulo_var);
+                                    // Crear el nombre dinámico de la variable, usando $articulo y $grupo
+                                    $articulo_var = $articulo . $grupo . '_' . $i;  
+                                    $images_articulo_var = 'images_' . $articulo_var;   // Formato de la variable con los productos de imágenes
 
-                                    // Render the HTML
-                                    echo '
+                                    // Verificamos si la variable existe para evitar errores
+                                    if (isset(${$images_articulo_var}[0])) {
+                                        // Imprimir el HTML dinámico para cada imagen
+                                        echo '
                                             <div class="col-xl-3 text-center col-lg-6 col-md-6 col-sm-6 col-6"> 
                                                 <div class="custom-carousel-image-container">
                                                     <a id="image-link_' . $articulo_var . '" href="' . ${$images_articulo_var}[0]['href'] . '">
@@ -28,17 +29,16 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            ';
+                                        ';
+                                    }
                                 }
                                 ?>
                             </div>
-                            <div class=" text-left">
+                            <div class="text-left">
                                 <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
                                 <?php /*
                                 <div>
-                                    <!-- Aquí puedes agregar lo que quieras a la derecha de la imagen de Amazon -->
                                     <p style="margin: 0;">Texto o elemento adicional</p>
-                                    <!-- Por ejemplo, un enlace -->
                                     <a href="https://www.ejemplo.com" style="text-decoration: none; color: blue;">Visitar Ejemplo</a>
                                 </div> */?>
                             </div>
@@ -52,8 +52,6 @@
         </div>
     </div>
 </div>
-<!--</div>-->
-
 
 <style>
     .carrusel_auxiliar1 {
@@ -63,39 +61,44 @@
 
     .carrusel_auxiliar1 .custom-carousel-image-container {
         border: 1px solid #ccc;
-        /* Color y grosor del borde */
         border-radius: 2px;
-        /* Radio para bordes redondeados */
         overflow: hidden;
-        /* Para asegurar que las esquinas redondeadas se mantengan */
         margin: 0.05em;
-        /* Sin margen entre las imágenes */
         padding: 0;
-        /* Sin padding */
     }
 
     .carrusel_auxiliar1 .row {
         margin-left: 0;
-        /* Quitar margen izquierdo */
         margin-right: 0;
-        /* Quitar margen derecho */
     }
 
-    /* Eliminar padding en columnas */
     .carrusel_auxiliar1 .col-xl-6,
     .carrusel_auxiliar1 .col-lg-6,
     .carrusel_auxiliar1 .col-md-6,
     .carrusel_auxiliar1 .col-sm-6,
     .carrusel_auxiliar1 .col-6 {
         padding-left: 0;
-        /* Sin padding izquierdo */
         padding-right: 0;
-        /* Sin padding derecho */
     }
-
 
     .text-publicidad {
         text-align: left;
         color: lightgray;
+    }
+
+    .carousel-item {
+        transition: transform 1s ease-in-out;
+    }
+
+    /* Ajustes para imágenes en pantallas pequeñas */
+    @media (max-width: 768px) {
+        .carousel-inner .carousel-item {
+            text-align: center;
+        }
+
+        .custom-carousel-image-container img {
+            width: 90%;
+            margin: 0 auto;
+        }
     }
 </style>

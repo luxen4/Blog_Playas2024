@@ -1,20 +1,22 @@
-<?php $articulosMostrados=[]; 
-require './../../../../bloques/estructura/anuncios/lista_productos.php';
-
+<?php 
+ // Seleccionar un artículo aleatorio    
+ // Comprobar si el artículo ya existe en $articulosMostrados
 function mostrar($productos, $articulosMostrados, $anuncios ){
     do {
-        // Seleccionar un artículo aleatorio
-        $articulo = $productos[array_rand($productos)];
-        
-        // Comprobar si el artículo ya existe en $articulosMostrados
+        $articulo = $productos[array_rand($productos)];                                  
         if (!in_array($articulo, $articulosMostrados)) {
             if ($anuncios == 'si') {
-                include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
+                //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
             }
         }
     } while (in_array($articulo, $articulosMostrados)); // Continuar hasta que se encuentre un artículo nuevo
 }
 
+
+$articulosMostrados=[]; 
+//require './../../../../bloques/estructura/anuncios/lista_productos.php';
+// Leer aqui el csv
+require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_chaquetas_hombre.php'; 
 ?>
 
 <!-- información_general -->
@@ -26,41 +28,17 @@ function mostrar($productos, $articulosMostrados, $anuncios ){
 
     if($anuncios='si'){
         //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
+                            // Leer aqui el csv
+                            require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_botas_hombre.php'; 
     }
       
     ?>
 <?php
-    if (isset($li_descripcion_detallada2)) {
-        $es_segundo_carrusel = ''; 
-        echo($li_descripcion_detallada2);
-        
 
-        do {
-            // Seleccionar un artículo aleatorio
-            $articulo = $productos[array_rand($productos)];
-            
-            
-            // Comprobar si el artículo ya existe en $articulosMostrados
-            if (!in_array($articulo, $articulosMostrados)) {
-                //array_push($articulosMostrados, $articulo);
-                if ($anuncios == 'si') {
+require 'descripcion_Detallada2.php';
 
-                    $numeroAleatorio = rand(1, 2); // O usa mt_rand(1, 2);
-                    $numeroAleatorio = 1;
-                    // Seleccionar el archivo basado en el número aleatorio
-                    if ($numeroAleatorio === 1) {
-                        //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
-                    } else {
-                        //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar2.php";
-                    }
-                }
-            }
-            
-        } while (in_array($articulo, $articulosMostrados)); // Continuar hasta que se encuentre un artículo nuevo
-        array_push($articulosMostrados, $articulo);
-    }?>
 
-    <?php
+
     if (isset($li_descripcion_detallada3)) {
         echo($li_descripcion_detallada3);
         //mostrar($productos, $articulosMostrados, $anuncios);
@@ -72,7 +50,13 @@ function mostrar($productos, $articulosMostrados, $anuncios ){
             if (!in_array($articulo, $articulosMostrados)) {
                 //array_push($articulosMostrados, $articulo);
                 if ($anuncios == 'si') {
-                    include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
+
+                    // Si lee de base de datos come más recursos
+                    //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
+
+                    // Leer aqui el csv
+                    require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; 
+
                 }
             }
         } while (in_array($articulo, $articulosMostrados)); // Continuar hasta que se encuentre un artículo nuevo*/

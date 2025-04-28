@@ -20,22 +20,17 @@
         <p class="section-content">Rodeada de acantilados y zonas verdes como el Parque de Mataleñas, la playa ofrece rutas de senderismo y vistas panorámicas, además de estar cerca del Parque Natural de las Dunas de Liencres.</p>
     </div>
 
+
+'
+; ?>
+
+<?php $li_descripcion_detallada2 = '
     <h2 class="section-header ">Gastronomía</h2>
     <div class="info-box">
         <p>Santander, especialmente el Sardinero, es un excelente destino gastronómico, con pescados, mariscos frescos y pintxos locales.</p>
     </div>
 
-    <h2 class="section-header ">Características</h2>
-    <div class="info-box">
-        <ul>
-            <li>Arena fina y dorada</li>
-            <li>Longitud: 1.5 km</li>
-            <li>Mar tranquilo, ideal para familias y surfistas</li>
-            <li>Paseo marítimo animado</li>
-            <li>Servicios: duchas, aseos, socorristas</li>
-            <li>Accesible para personas con movilidad reducida</li>
-        </ul>
-    </div>
+
 
     <h2>Datos de Interés</h2>
     <p>La Playa del Sardinero es perfecta para disfrutar de un día de ocio, con servicios completos y un ambiente vibrante.</p>
@@ -43,7 +38,12 @@
     <h2>Historia y Cultura</h2>
     <p>Desde el siglo XIX, la Playa del Sardinero ha sido un destino popular, reflejando el carácter histórico de Santander, con edificios emblemáticos como el Gran Casino.</p>
 
-    <h2>Eventos y Festividades</h2>
+    
+'; ?>
+
+
+<?php $li_descripcion_detallada3 = '
+<h2>Eventos y Festividades</h2>
     <ul>
         <li class="my-4"><strong>Festival Internacional de Santander:</strong><br> Eventos culturales y musicales en verano.</li>
         <li class="my-4"><strong>Semana Grande de Santander:</strong><br> Fiesta principal en agosto con conciertos y actividades.</li>
@@ -73,15 +73,6 @@
         <p>La Playa del Sardinero y Santander ofrecen una vibrante agenda de eventos durante todo el año. En verano, el festival más destacado es el Festival Internacional de Santander, que trae a la ciudad artistas de renombre en música, danza y teatro. La Regata de la Copa del Rey, una competencia náutica de prestigio, también tiene lugar en el Sardinero, atrayendo a los mejores regatistas internacionales. Además, la Semana Grande de Santander, celebrada en septiembre, es una fiesta que llena la ciudad de vida con conciertos, eventos culturales y actividades para todos los públicos.</p>
     </div>
 </section>
-'
-; ?>
-
-<?php $li_descripcion_detallada2 = '
-'; ?>
-
-
-<?php $li_descripcion_detallada3 = '
-
 '; ?>
 
 
@@ -110,6 +101,12 @@
             <li class="my-4"><strong>Surf y Deportes Acuáticos:</strong><br> La Playa del Sardinero es ideal para el surf y otros deportes acuáticos, como el paddle surf y el kayak. Existen escuelas y centros de alquiler de equipos para todos los niveles.</li>
             <li class="my-4"><strong>Excursiones en Barco:</strong><br> Desde el puerto cercano, se pueden realizar excursiones en barco para explorar la costa de Santander y las hermosas islas cercanas, como la Isla de Mouro.</li>
             <li class="my-4"><strong>Vela y Windsurf:</strong><br> Las condiciones de viento en la playa y sus alrededores son perfectas para la práctica de la vela y el windsurf. Hay clubes y escuelas que ofrecen cursos y alquiler de equipos.</li>
+
+'; ?>
+
+
+
+<?php $li_actividades_recomendadas2 = '
             <li class="my-4"><strong>Senderismo y Rutas de Naturaleza:</strong><br> Explora las rutas de senderismo cercanas, como el Parque de Mataleñas y el Parque Natural de las Dunas de Liencres, que ofrecen vistas panorámicas y paisajes impresionantes.</li>
             <li class="my-4"><strong>Paseos en Bicicleta:</strong><br> Disfruta de paseos en bicicleta por el paseo marítimo y los senderos cercanos, que proporcionan un recorrido escénico a lo largo de la costa.</li>
             <li class="my-4"><strong>Paseo Marítimo:</strong><br> El animado paseo marítimo de la Playa del Sardinero es perfecto para caminar, correr o simplemente relajarse mientras disfrutas de las vistas al mar y la arquitectura costera.</li>
@@ -117,6 +114,10 @@
         </ul>
     </div>
 '; ?>
+
+
+
+
 
 <?php $li_mas_info = '
     <div class="info-box">
@@ -152,6 +153,17 @@
             <li class="my-4">
                 <strong>Accesibilidad:</strong><br> La playa está adaptada para personas con movilidad reducida, con rampas de acceso y sillas anfibias disponibles para garantizar que todos puedan disfrutar del mar de manera segura y cómoda.
             </li>
+           
+'; ?>
+
+
+
+
+
+
+
+<?php $li_services2 = '
+
             <li class="my-4">
                 <strong>Paseo Marítimo:</strong><br> El paseo marítimo del Sardinero es uno de los más bellos de Santander, ideal para pasear, correr o simplemente disfrutar de las vistas. A lo largo del paseo, se pueden encontrar jardines, bancos y zonas de sombra para descansar.
             </li>
@@ -167,6 +179,37 @@
 
 
 
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa del Sardinero</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada.</li>
+        <li>Longitud: 1.5 km.</li>
+        <li>Mar tranquilo, ideal para familias y surfistas.</li>
+        <li>Paseo marítimo animado.</li>
+        <li>Servicios: duchas, aseos, socorristas.</li>
+        <li>Accesible para personas con movilidad reducida.</li>
+        <li>Anchura: hasta 100 metros en marea baja.</li>
+        <li>Mar con oleaje moderado, ideal para el surf y deportes acuáticos.</li>
+        <li>Entorno natural flanqueado por acantilados y zonas de vegetación.</li>
+        <li>Servicios adicionales: pasarelas, chiringuitos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Accesibilidad: fácil acceso con aparcamiento cercano y transporte público.</li>
+        <li>Actividades: surf, paddle surf, pesca, senderismo y paseos por el litoral.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa del Sardinero</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de Nuestra Señora del Carmen:</strong><br> Procesión marítima y festejos en honor a la patrona de los pescadores, celebrada el 16 de julio.</li>
+    <li class="my-4"><strong>Fiesta de San Juan:</strong><br> En junio, se celebran hogueras en la playa con música, bailes y actividades para todos los públicos.</li>
+    <li class="my-4"><strong>Campeonatos de Surf del Sardinero:</strong><br> Evento anual de surf con competiciones nacionales e internacionales durante el mes de agosto.</li>
+    <li class="my-4"><strong>Mercado de Artesanía del Sardinero:</strong><br> Durante el verano, se celebran mercadillos de artesanía, productos locales y gastronomía en las cercanías de la playa.</li>
+</ul>
+'; ?>
 
 
 <?php

@@ -12,9 +12,7 @@
     <p class="section-content">La playa cuenta con un vibrante paseo marítimo repleto de restaurantes y bares donde puedes saborear delicias locales y disfrutar de vistas panorámicas del océano. Hendaya también ofrece una rica oferta de actividades, desde eventos culturales y deportivos hasta excursiones en barco y rutas de senderismo en sus alrededores. Con su encantador entorno costero y una variedad de opciones para el ocio, la Playa de Hendaya es el lugar perfecto para disfrutar de un día junto al mar.</p>
 ';?>
 
-<?php $li_descripcion_detallada30 = '
 
-'; ?>
 
 
 
@@ -55,15 +53,14 @@
 '; ?>
 
 
-<?php $li_actividades_recomendadas30 = '
 
+<?php $li_actividades_recomendadas3 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Deportes Acuáticos:</strong><br> Además del surf, Hendaya ofrece otras actividades acuáticas como el paddle surf, kayak y windsurf. Disfruta de las aguas del mar Cantábrico practicando estos emocionantes deportes.</li>
+        <li class="my-4"><strong>Visita al Puerto:</strong><br> Explora el puerto pesquero de Hendaya, donde podrás ver la actividad pesquera local y disfrutar de un ambiente tranquilo y pintoresco.</li>
+        <li class="my-4"><strong>Relajación en la Playa:</strong><br> Si buscas un día de descanso, puedes simplemente relajarte en la playa, disfrutar del sol y dar un paseo por la orilla mientras disfrutas de la tranquilidad del lugar.</li>
+    </ul>
 '; ?>
-
-<?php $li_actividades_recomendadas40 = '
-
-'; ?>
-
-
 
 
 
@@ -79,7 +76,6 @@
     </ul>
 '; ?>
 
-
 <?php $li_services = '
     <ul class="list-unstyled">
         <li class="my-4">
@@ -89,10 +85,11 @@
         <li class="my-4">
             <strong>Alquiler de Equipos:</strong><br> Hay varios puntos de alquiler de equipos deportivos a lo largo de la playa, donde puedes rentar tablas de surf, paddle surf, kayaks y bicicletas. También se ofrecen clases para principiantes y avanzados en surf y otros deportes acuáticos.
         </li>
-
+    </ul>
 '; ?>
 
 <?php $li_services2 = '
+    <ul class="list-unstyled">
         <li class="my-4">
             <strong>Zonas de Juegos:</strong><br> Para las familias, la playa ofrece áreas de juegos infantiles bien equipadas. Estas zonas son seguras y están ubicadas cerca de los servicios básicos como baños y duchas.
         </li>
@@ -108,14 +105,13 @@
         <li class="my-4">
             <strong>Accesibilidad:</strong><br> La playa está equipada con accesos para personas con movilidad reducida, incluyendo rampas y sillas anfibias, lo que la convierte en un destino inclusivo.
         </li>
-'
-
-; ?>
-
+    </ul>
+'; ?>
 
 <?php $li_services3 = '
+    <ul class="list-unstyled">
         <li class="my-4">
-        <strong>Paseo Marítimo:</strong><br> El hermoso paseo marítimo que rodea la playa es ideal para caminar, correr o simplemente disfrutar de las vistas. A lo largo del paseo, encontrarás bancos y zonas sombreadas, perfectas para relajarse.
+            <strong>Paseo Marítimo:</strong><br> El hermoso paseo marítimo que rodea la playa es ideal para caminar, correr o simplemente disfrutar de las vistas. A lo largo del paseo, encontrarás bancos y zonas sombreadas, perfectas para relajarse.
         </li>
 
         <li class="my-4">
@@ -133,8 +129,32 @@
 '; ?>
 
 
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Hendaya</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada, ideal para disfrutar de un día al sol o dar largos paseos por la orilla.</li>
+        <li>Longitud: aproximadamente 3 km, una de las playas más grandes de la zona.</li>
+        <li>Anchura amplia, especialmente en marea baja, lo que permite practicar una gran variedad de deportes y actividades.</li>
+        <li>Mar tranquilo, ideal para familias, pero también para aquellos que disfrutan de los deportes acuáticos.</li>
+        <li>Entorno natural espectacular, con vistas a las montañas y al mar Cantábrico, creando una atmósfera relajante.</li>
+        <li>Servicios: duchas, aseos, socorristas en temporada alta, y bares/restaurantes con especialidades locales.</li>
+        <li>Acceso adaptado para personas con movilidad reducida, incluyendo rampas y pasarelas accesibles.</li>
+        <li>Accesibilidad: fácil acceso desde el centro de Hendaya, tanto a pie como en coche, con aparcamiento cercano disponible.</li>
+        <li>Actividades: surf, senderismo, paseos en bicicleta, pesca y exploración de la bahía de Txingudi.</li>
+    </ul>
+</div>
+'; ?>
 
-
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Hendaya</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de la Virgen de las Nieves:</strong><br> Celebrada en agosto, con procesiones, música y actividades tradicionales para toda la familia.</li>
+    <li class="my-4"><strong>Campeonato de Surf de Hendaya:</strong><br> Un evento que atrae a surfistas locales e internacionales, con competiciones y exhibiciones de deportes acuáticos.</li>
+    <li class="my-4"><strong>Festival de Música de Hendaya:</strong><br> Conciertos de música en vivo durante los meses de verano, con artistas locales e internacionales.</li>
+    <li class="my-4"><strong>Mercadillo de Hendaya:</strong><br> Feria de artesanía y productos locales que se celebra durante el verano, ofreciendo un ambiente festivo con productos de la zona.</li>
+</ul>
+'; ?>
 
 
 <?php $lugar = 'francia/playadehendaya'; 

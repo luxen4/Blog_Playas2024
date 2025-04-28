@@ -10,11 +10,13 @@
 
 
 <?php $li_descripcion_detallada2 = '
-
-';?>
+    <p class="section-content">La Playa de Laga forma parte de la Reserva de la Biosfera de Urdaibai, un entorno protegido que destaca por su riqueza ecológica y biodiversidad. Desde la playa, se puede contemplar el majestuoso Cabo de Ogoño, un imponente acantilado que domina el paisaje y ofrece rutas de senderismo con vistas espectaculares al Cantábrico.</p>
+    <p class="section-content">El acceso a la playa es sencillo, con un amplio aparcamiento cercano y opciones de transporte público en temporada alta. Los servicios disponibles en Laga garantizan una experiencia cómoda: socorristas, duchas, chiringuitos y zonas habilitadas para la práctica de deportes acuáticos como el surf y el bodyboard.</p>
+'; ?>
 
 <?php $li_descripcion_detallada3 = '
-
+    <p class="section-content">Durante los meses de verano, la Playa de Laga acoge eventos deportivos locales y actividades relacionadas con la cultura vasca, como talleres y exhibiciones de deporte rural. El ambiente que se respira es familiar y relajado, ideal tanto para quienes buscan aventura como para los que prefieren disfrutar de la tranquilidad.</p>
+    <p class="section-content">Ya sea para pasar un día de sol y mar, practicar surf en uno de los enclaves más apreciados del País Vasco o explorar la naturaleza de Urdaibai, la Playa de Laga ofrece una experiencia inolvidable en un entorno único y preservado.</p>
 '; ?>
 
 <?php $li_mapa_ubicacion = '
@@ -35,17 +37,17 @@
     <ul class="list-unstyled">
         <li class="my-4"><strong>Surf:</strong><br> Aprovecha las excelentes olas para practicar surf en la Playa de Laga, conocida por sus condiciones ideales para el deporte.</li>
         <li class="my-4"><strong>Senderismo:</strong><br> Recorre los pintorescos senderos que rodean la playa y disfruta de vistas impresionantes del paisaje costero y la naturaleza circundante.</li>
-        <li class="my-4"><strong>Gastronomía Local:</strong><br> Saborea mariscos frescos y platos tradicionales en los encantadores restaurantes y bares cerca de la playa.</li>
+
+'; ?>
+
+<?php $li_actividades_recomendadas2 = '        <li class="my-4"><strong>Gastronomía Local:</strong><br> Saborea mariscos frescos y platos tradicionales en los encantadores restaurantes y bares cerca de la playa.</li>
         <li class="my-4"><strong>Eventos Culturales:</strong><br> Participa en eventos y festivales locales que se celebran a lo largo del año.</li>
-        <li class="my-4"><strong>Observación de la Naturaleza:</strong><br> Explora la fauna y flora local en las áreas naturales cercanas a la playa, ideales para los amantes de la naturaleza.</li>
+
+'; ?>
+
+
+<?php $li_actividades_recomendadas3 = '        <li class="my-4"><strong>Observación de la Naturaleza:</strong><br> Explora la fauna y flora local en las áreas naturales cercanas a la playa, ideales para los amantes de la naturaleza.</li>
     </ul>
-'; ?>
-
-<?php $li_actividades_recomendadas2 = '
-'; ?>
-
-
-<?php $li_actividades_recomendadas3 = '
 '; ?>
 
 <?php $li_actividades_recomendadas4 = '
@@ -73,6 +75,60 @@
         </ul>
     </div>
 '; ?>
+
+<?php $li_services2 = '
+    <div class="info-box">
+        <ul class="list-unstyled">
+            <li class="my-4"><strong>Duchas y Vestuarios:</strong><br> Instalaciones disponibles para el aseo y cambio de ropa tras una jornada de playa o surf.</li>
+            <li class="my-4"><strong>Alquiler de Sombrillas:</strong><br> Servicio de alquiler de sombrillas para mayor comodidad durante el día.</li>
+            <li class="my-4"><strong>Accesos Adaptados:</strong><br> Rutas habilitadas para facilitar el acceso a personas con movilidad reducida.</li>
+            <li class="my-4"><strong>Zona de Picnic:</strong><br> Espacios naturales cercanos ideales para comidas al aire libre.</li>
+        </ul>
+    </div>
+'; ?>
+
+<?php $li_services3 = '
+    <div class="info-box">
+        <ul class="list-unstyled">
+            <li class="my-4"><strong>Escuela de Surf:</strong><br> Clases y cursos para todos los niveles, impartidos por monitores certificados.</li>
+            <li class="my-4"><strong>Parking Cercano:</strong><br> Amplio aparcamiento a pocos minutos caminando de la playa (de pago en temporada alta).</li>
+            <li class="my-4"><strong>Información Turística:</strong><br> Puntos informativos sobre la Reserva de Urdaibai y actividades en el entorno.</li>
+            <li class="my-4"><strong>Eventos y Actividades Culturales:</strong><br> Talleres, competiciones deportivas y eventos culturales durante el verano.</li>
+        </ul>
+    </div>
+'; ?>
+
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Laga</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada, de origen natural.</li>
+        <li>Longitud: aproximadamente 574 metros.</li>
+        <li>Anchura: variable, amplia en marea baja, ideal para actividades deportivas.</li>
+        <li>Mar con oleaje moderado a fuerte, perfecto para surfistas de todos los niveles.</li>
+        <li>Entorno natural espectacular, rodeado de acantilados y vistas al Cabo de Ogoño.</li>
+        <li>Servicios: duchas, aseos, socorristas, chiringuitos y zonas de sombra natural.</li>
+        <li>Acceso adaptado para personas con movilidad reducida (aunque limitado en algunas zonas).</li>
+        <li>Accesibilidad: acceso en coche con aparcamiento de pago cercano, también se puede llegar en autobús en temporada alta.</li>
+        <li>Actividades: surf, bodyboard, senderismo por el entorno de Urdaibai, paseos por la costa y fotografía de naturaleza.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Laga</h4>
+<ul>
+    <li class="my-4"><strong>Campeonatos locales de Surf:</strong><br> Pruebas deportivas de surf y bodyboard, especialmente en verano, dirigidas tanto a jóvenes promesas como a surfistas experimentados.</li>
+    <li class="my-4"><strong>Fiesta de San Pedro en Ibarrangelu:</strong><br> A finales de junio, celebraciones tradicionales con música, danzas vascas y romerías cercanas a la playa.</li>
+    <li class="my-4"><strong>Fiestas de San Juan:</strong><br> Hogueras y celebraciones en la noche del 23 al 24 de junio, en varios puntos del entorno, con participación de los visitantes de Laga.</li>
+    <li class="my-4"><strong>Actividades de verano en Urdaibai:</strong><br> Talleres de educación ambiental, rutas guiadas y actividades deportivas organizadas en el entorno natural de la Reserva.</li>
+</ul>
+'; ?>
+
+
 
 <?php // Carrusel de 3 Imágenes //
 $lugar = 'playadelaga';

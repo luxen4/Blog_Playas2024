@@ -46,10 +46,19 @@ $li_descripcion_detallada = '
     <ul class="list-unstyled">
         <li class="my-4"><strong>Deportes Acuáticos:</strong> <br>La Playa de Noja es un lugar popular para practicar surf, windsurf, y paddle surf. También se organizan cursos y clases para principiantes.</li>
         <li class="my-4"><strong>Senderismo:</strong> <br>Los alrededores de la playa ofrecen rutas de senderismo con vistas espectaculares, ideales para los amantes de la naturaleza y el aire libre.</li>
+
+'; ?>
+
+
+
+
+<?php $li_actividades_recomendadas2 = '
         <li class="my-4"><strong>Zonas Deportivas:</strong> <br>La playa cuenta con áreas designadas para jugar voleibol de playa y fútbol.</li>
         <li class="my-4"><strong>Excursiones:</strong> <br>Desde Noja, se pueden organizar excursiones en barco para explorar la costa cantábrica y sus acantilados.</li>
     </ul>
 '; ?>
+
+
 
 <?php $li_mas_info = '
     <ul>
@@ -66,10 +75,47 @@ $li_descripcion_detallada = '
     <ul class="list-unstyled">
         <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong> <br>A lo largo del paseo marítimo, encontrarás varios chiringuitos y restaurantes que ofrecen platos locales y bebidas refrescantes. Es un lugar perfecto para disfrutar de la gastronomía cántabra mientras se contempla el mar.</li>
         <li class="my-4"><strong>Alquiler de Equipos:</strong> <br>La playa cuenta con puntos de alquiler donde puedes rentar sombrillas, tumbonas, y equipos para deportes acuáticos como tablas de surf, paddle surf y kayaks.</li>
+
+'; ?>
+
+<?php $li_services2 = '
         <li class="my-4"><strong>Duchas y Baños Públicos:</strong> <br>La playa está equipada con duchas y baños públicos distribuidos a lo largo de la misma, lo que facilita la comodidad de los visitantes.</li>
         <li class="my-4"><strong>Aparcamiento:</strong> <br>Existen varias zonas de aparcamiento cercanas, algunas gratuitas y otras de pago, para facilitar el acceso a la playa.</li>
     </ul>
 '; ?>
+
+
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y blanca.</li>
+        <li>Longitud: aproximadamente 1,200 metros (Playa de Ris) y 800 metros (Playa de Trengandín).</li>
+        <li>Mar con zonas tranquilas y otras con oleaje, ideal para surf.</li>
+        <li>Amplio entorno natural con dunas y zonas rocosas.</li>
+        <li>Servicios: duchas, aseos, socorristas, pasarelas, chiringuitos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Actividades: surf, paddle surf, pesca y paseos por el litoral.</li>
+    </ul>
+</div>
+'; ?>
+
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de Noja</h4>
+<ul>
+    <li class="my-4"><strong>Fiestas de San Emeterio y San Celedonio:</strong><br> Celebradas en agosto, con procesiones, conciertos, y eventos populares.</li>
+    <li class="my-4"><strong>Fiesta de la Virgen del Carmen:</strong><br> Procesión marítima y festejos en honor a la patrona de los pescadores, el 16 de julio.</li>
+    <li class="my-4"><strong>Festival Internacional de Folklore:</strong><br> En julio, con danzas y músicas tradicionales de diferentes países.</li>
+    <li class="my-4"><strong>Mercado Medieval de Noja:</strong><br> En agosto, con artesanos, música en vivo y actividades para toda la familia.</li>
+</ul>
+'; ?>
+
+
+
 
 
 

@@ -10,14 +10,16 @@
 
 
 <?php $li_descripcion_detallada2 = '    
+    <p class="section-content">La Playa de San Juan de Luz se encuentra en un entorno natural privilegiado, rodeada por montañas verdes y una vista impresionante del mar Cantábrico. Gracias a su bahía resguardada, la playa está protegida de los vientos fuertes, lo que la convierte en un lugar ideal para nadar tranquilamente y para los más pequeños. Además, sus aguas limpias y cristalinas son perfectas para realizar deportes acuáticos como el paddle surf, el kayak o incluso el windsurf.</p>
+    <p class="section-content">Además de disfrutar del mar, puedes explorar las hermosas calles del casco antiguo, lleno de historia, arquitectura tradicional vasca y tiendas con encanto. A pocos minutos de la playa, puedes descubrir la rica tradición pesquera de la región y disfrutar de los platos locales como el pescado fresco y los mariscos que se ofrecen en los restaurantes con vistas al mar.</p>
 ';?>
 
-<?php $li_descripcion_detallada30 = '
+<?php $li_descripcion_detallada3 = '    
+    <p class="section-content">San Juan de Luz es también el punto de partida ideal para explorar la región del País Vasco Francés. Desde aquí, puedes realizar rutas de senderismo por los acantilados cercanos, explorar el puerto pesquero o hacer excursiones en barco para avistar delfines y disfrutar de las vistas panorámicas de la costa. La localidad cuenta con una rica herencia cultural, como su famosa iglesia de San Juan Bautista y el legado del corsario Rédouté, que da un toque histórico a la ciudad.</p>
+    <p class="section-content">No solo es el lugar perfecto para disfrutar del sol y el mar, sino también para sumergirse en una variedad de actividades y tradiciones locales. Durante todo el año, San Juan de Luz ofrece eventos como conciertos, festivales de jazz y competiciones deportivas que hacen de este lugar un destino vibrante y lleno de vida. Ya sea que busques relajación o aventura, la Playa de San Juan de Luz tiene algo para todos.</p>
+';
 
-'; ?>
-
-
-
+?>
 
 
 
@@ -49,19 +51,31 @@
     </ul>
 '; ?>
 
-
 <?php $li_actividades_recomendadas2 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Pesca:</strong><br> Disfruta de un día de pesca desde la playa o desde el puerto cercano. La zona es ideal para la pesca deportiva, tanto en mar abierto como en los tranquilos alrededores del puerto.</li>
+        <li class="my-4"><strong>Alquiler de Equipos:</strong><br> Si te gustan los deportes acuáticos, puedes alquilar equipos para paddle surf, kayak y más. San Juan de Luz tiene varias tiendas y centros especializados que te ofrecen todo lo necesario para practicar deportes acuáticos.</li>
+        <li class="my-4"><strong>Visitas Culturales:</strong><br> Visita la Iglesia de San Juan Bautista, una de las edificaciones más emblemáticas de la ciudad, o explora el casco antiguo, lleno de encantadoras calles peatonales y tiendas con productos locales.</li>
+    </ul>
+'; ?>
 
+<?php $li_actividades_recomendadas3 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Golf:</strong><br> Si eres aficionado al golf, San Juan de Luz ofrece varios campos de golf cercanos donde puedes disfrutar de un día practicando tu swing con vistas al mar.</li>
+        <li class="my-4"><strong>Rutas en Bicicleta:</strong><br> Las rutas de bicicleta a lo largo de la costa permiten explorar el paisaje vasco-francés de manera activa, disfrutando de hermosas vistas y aire fresco.</li>
+        <li class="my-4"><strong>Spas y Bienestar:</strong><br> Relájate en uno de los spas locales para disfrutar de un día de bienestar y tratamientos de belleza, perfectos para descansar después de un día de actividades al aire libre.</li>
+    </ul>
+'; ?>
+
+<?php $li_actividades_recomendadas4 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Turismo Náutico:</strong><br> Además de las excursiones en barco, San Juan de Luz ofrece la oportunidad de practicar deportes náuticos como el windsurf, vela y más, con varios centros de actividades acuáticas disponibles.</li>
+        <li class="my-4"><strong>Observación de Aves:</strong><br> La zona es perfecta para los amantes de la naturaleza. Realiza rutas para observar aves en los parques naturales cercanos y en la costa.</li>
+        <li class="my-4"><strong>Centro Histórico:</strong><br> No te pierdas un recorrido por el centro histórico de San Juan de Luz, con su arquitectura típica, mercados y la tradicional pesca artesanal. Un lugar perfecto para conocer más sobre la historia de esta pintoresca ciudad.</li>
+    </ul>
 '; ?>
 
 
-<?php $li_actividades_recomendadas30 = '
-
-'; ?>
-
-<?php $li_actividades_recomendadas40 = '
-
-'; ?>
 
 <?php $li_mas_info = '
     <p>Para más información sobre la Playa de San Juan de Luz, puedes contactarnos a través de los siguientes medios:</p>
@@ -110,7 +124,32 @@
 '; ?>
 
 
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de San Juan de Luz</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena dorada y fina, ideal para disfrutar de un día de sol o dar paseos tranquilos por la orilla.</li>
+        <li>Longitud: aproximadamente 2 km, una playa pequeña pero muy pintoresca en el corazón de la ciudad.</li>
+        <li>Anchura moderada, especialmente durante la marea baja, permitiendo a los visitantes disfrutar de las actividades en la arena.</li>
+        <li>Mar tranquilo, perfecto para bañistas de todas las edades y también para quienes practican deportes acuáticos.</li>
+        <li>Entorno natural y urbano impresionante, con vistas al puerto pesquero y a las montañas cercanas.</li>
+        <li>Servicios: duchas, aseos, socorristas durante la temporada alta, y una amplia variedad de bares y restaurantes cercanos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas accesibles.</li>
+        <li>Accesibilidad: fácil acceso desde el centro del pueblo, con opciones de transporte público y aparcamiento cercano.</li>
+        <li>Actividades: surf, senderismo por los alrededores, paseos por el puerto, visitas al casco antiguo y actividades acuáticas.</li>
+    </ul>
+</div>
+'; ?>
 
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de San Juan de Luz</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de la Virgen de la Asunción:</strong><br> Celebrada en agosto, con procesiones, música tradicional y eventos religiosos en honor a la patrona de la ciudad.</li>
+    <li class="my-4"><strong>Campeonato de Surf de San Juan de Luz:</strong><br> Un evento anual que atrae a surfistas internacionales, con competiciones y exhibiciones en la playa.</li>
+    <li class="my-4"><strong>Festival de Música de San Juan de Luz:</strong><br> Conciertos de música clásica y contemporánea que se celebran durante el verano en el centro de la ciudad.</li>
+    <li class="my-4"><strong>Mercadillo de San Juan de Luz:</strong><br> Feria de artesanía y productos locales durante el verano, ofreciendo productos de la región y recuerdos para los visitantes.</li>
+</ul>
+'; ?>
 
 
 

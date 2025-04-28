@@ -21,7 +21,11 @@
             <h4><strong>Tradición:</strong></h4>
             Getaria es conocida por su rica tradición pesquera y su hermoso puerto, lo que la convierte en un lugar ideal para disfrutar de la costa vasca.
         </li>
-        
+    </ul>
+'; ?>
+
+<?php $li_descripcion_detallada2 = '
+    <ul class="section-content">
         <li class="my-4">
             <h4><strong>Historia:</strong></h4>
             <ul>
@@ -37,7 +41,11 @@
                 <li class="my-4">Prueba el <strong>txakoli</strong> (vino blanco local) y el <strong>rodaballo a la brasa</strong> en los restaurantes a lo largo del puerto.</li>
             </ul>
         </li>
-        
+    </ul>
+'; ?>
+
+<?php $li_descripcion_detallada3 = '
+    <ul class="section-content">
         <li class="my-4">
             <h4><strong>Actividades y Eventos:</strong></h4>
             La playa y la localidad de Getaria ofrecen una variedad de actividades recreativas y eventos culturales durante todo el año:
@@ -59,13 +67,6 @@
 '; ?>
 
 
-<?php $li_descripcion_detallada2 = '    
-';?>
-
-<?php $li_descripcion_detallada30 = '
-'; ?>
-
-
 
 
 <?php $li_mapa_ubicacion = '
@@ -79,29 +80,23 @@
 
 
 <?php $li_actividades_recomendadas = '
-    <ul class="list-unstyled">
-        <li class="my-4"><strong>Surf:</strong><br> Las olas de Getaria son ideales tanto para principiantes como para surfistas más experimentados. Se ofrecen clases de surf para todos los niveles.</li>
-        <li class="my-4"><strong>Natación:</strong><br> Las aguas tranquilas y seguras son perfectas para nadar y disfrutar en familia.</li>
-        <li class="my-4"><strong>Senderismo:</strong><br> Rutas de senderismo cercanas permiten explorar los alrededores, con impresionantes vistas de la costa y el mar Cantábrico.</li>
-        <li class="my-4"><strong>Paseos en barco:</strong><br> Excursiones en barco están disponibles desde el puerto de Getaria, ofreciendo una perspectiva única de la costa.</li>
-        <li class="my-4"><strong>Pesca:</strong><br> Getaria es un lugar conocido por su pesca, tanto desde la playa como en alta mar.</li>
-        <li class="my-4"><strong>Deportes acuáticos:</strong><br> Además del surf, se pueden practicar paddle surf y kayak.</li>
-    </ul>
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Surf:</strong><br> Las suaves olas de la playa de Getaria son perfectas tanto para surfistas novatos como experimentados. Varias escuelas de surf ofrecen clases y alquiler de material para todos los niveles.</li>
+    <li class="my-4"><strong>Natación:</strong><br> Las aguas protegidas de la playa permiten disfrutar de agradables baños, ideales para familias con niños pequeños debido a su seguridad y limpieza.</li>
+    <li class="my-4"><strong>Senderismo:</strong><br> Aprovecha los numerosos senderos que parten desde Getaria, como la subida al monte San Antón, conocido como el "Ratón de Getaria", con vistas panorámicas inigualables del Cantábrico.</li>
+</ul>
 '; ?>
-
 
 <?php $li_actividades_recomendadas2 = '
-
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Paseos en barco:</strong><br> Desde el puerto de Getaria parten excursiones marítimas que recorren la costa guipuzcoana, mostrando su belleza natural desde el mar.</li>
+    <li class="my-4"><strong>Pesca recreativa:</strong><br> La tradición pesquera de Getaria sigue viva; puedes disfrutar de jornadas de pesca deportiva, tanto en barco como desde la costa.</li>
+    <li class="my-4"><strong>Deportes acuáticos:</strong><br> Además del surf, la playa ofrece alquiler de kayaks y tablas de paddle surf, ideales para explorar las tranquilas aguas del litoral de Getaria.</li>
+</ul>
 '; ?>
 
 
-<?php $li_actividades_recomendadas30 = '
 
-'; ?>
-
-<?php $li_actividades_recomendadas40 = '
-
-'; ?>
 
 
 
@@ -117,16 +112,60 @@
 
 
 <?php $li_services = '
-        <ul class="list-unstyled">
-            <li class="my-4"><strong>Socorristas:</strong><br> Servicio de socorristas durante la temporada de verano para garantizar la seguridad de los bañistas.</li>
-            <li class="my-4"><strong>Duchas y baños:</strong><br> Duchas de agua dulce y baños públicos están disponibles para mayor comodidad.</li>
-            <li class="my-4"><strong>Aparcamiento:</strong><br> Aparcamiento cercano con plazas limitadas, ideal para quienes llegan en coche.</li>
-            <li class="my-4"><strong>Accesibilidad:</strong><br> Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas.</li>
-            <li class="my-4"><strong>Chiringuitos:</strong><br> Varias opciones de chiringuitos a lo largo de la playa donde disfrutar de bebidas, snacks y platos típicos de la zona.</li>
-            <li class="my-4"><strong>Alquiler de equipos:</strong><br> Posibilidad de alquilar equipos de surf, sombrillas y hamacas para disfrutar al máximo de la playa.</li>
-        </ul>
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Socorristas:</strong><br> Servicio de socorristas durante la temporada de verano para garantizar la seguridad de los bañistas.</li>
+        <li class="my-4"><strong>Duchas y baños:</strong><br> Duchas de agua dulce y baños públicos están disponibles para mayor comodidad.</li>
+        <li class="my-4"><strong>Aparcamiento:</strong><br> Aparcamiento cercano con plazas limitadas, ideal para quienes llegan en coche.</li>
+    </ul>
 '; ?>
 
+<?php $li_services2 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Accesibilidad:</strong><br> Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas.</li>
+        <li class="my-4"><strong>Chiringuitos:</strong><br> Varias opciones de chiringuitos a lo largo de la playa donde disfrutar de bebidas, snacks y platos típicos de la zona.</li>
+        <li class="my-4"><strong>Alquiler de equipos:</strong><br> Posibilidad de alquilar equipos de surf, sombrillas y hamacas para disfrutar al máximo de la playa.</li>
+    </ul>
+'; ?>
+
+
+<?php $li_services3 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Alquiler de Equipos Acuáticos:</strong><br> Se ofrece alquiler de tablas de surf, kayaks y otros equipos para actividades acuáticas.</li>
+        <li class="my-4"><strong>Restauración y Snacks:</strong><br> Además de los chiringuitos, se pueden encontrar opciones para comer al aire libre, desde snacks rápidos hasta platos más elaborados de la gastronomía local.</li>
+        <li class="my-4"><strong>Zona de Relax:</strong><br> Espacios de descanso con hamacas y sombrillas disponibles para alquilar, ideales para relajarse frente al mar.</li>
+    </ul>
+'; ?>
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Getaria</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena dorada y fina, ideal para disfrutar del sol y la tranquilidad.</li>
+        <li>Longitud: aproximadamente 700 metros, una playa amplia y accesible para todas las edades.</li>
+        <li>Anchura variable, especialmente en marea baja, lo que permite disfrutar de actividades acuáticas y juegos en la arena.</li>
+        <li>Mar tranquilo y aguas poco profundas, perfecto para nadadores y familias con niños pequeños.</li>
+        <li>Entorno natural pintoresco, con vistas al puerto pesquero y al monte San Antón, conocido como "El Ratón de Getaria".</li>
+        <li>Servicios: duchas, aseos, socorristas en temporada alta, y bares/restaurantes cercanos para disfrutar de la gastronomía local.</li>
+        <li>Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas en la playa.</li>
+        <li>Accesibilidad: fácil acceso tanto a pie desde el centro del pueblo como en coche, con aparcamientos disponibles cerca de la playa.</li>
+        <li>Actividades: natación, surf, paseos en barco, pesca y actividades recreativas en la zona del puerto.</li>
+    </ul>
+</div>
+'; ?>
+
+
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Getaria</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de la Virgen de Getaria:</strong><br> Una celebración religiosa y cultural que tiene lugar en el mes de agosto, con procesiones, música y fuegos artificiales.</li>
+    <li class="my-4"><strong>Festival de Surf de Getaria:</strong><br> Un evento anual que reúne a surfistas de todas partes, con competiciones de surf y actividades para los amantes de los deportes acuáticos.</li>
+    <li class="my-4"><strong>Conciertos al Aire Libre:</strong><br> Durante los meses de verano, se realizan conciertos y actividades musicales en la playa y el paseo marítimo.</li>
+    <li class="my-4"><strong>Fiesta del Txakoli:</strong><br> Una festividad dedicada al vino local, el txakoli, con degustaciones, música y gastronomía típica en la playa y alrededores.</li>
+</ul>
+'; ?>
 
 <?php
 $imagenes = [

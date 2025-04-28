@@ -5,17 +5,29 @@
 
 <?php $li_descripcion_detallada = '
     <h2 class="section-header text-center">Información General</h2>
-    <p class="section-content">La Playa de Getxo, situada en la costa de Bizkaia, es una de las playas más destacadas del País Vasco. Con su arena dorada y su extensa franja de arena, ofrece un ambiente vibrante y acogedor tanto para locales como para visitantes. Getxo es conocida por sus amplias instalaciones y su excelente ubicación, que la convierte en un destino popular para aquellos que buscan disfrutar del sol y de actividades al aire libre.</p>
-    <p class="section-content">Además de su playa, Getxo cuenta con un paseo marítimo animado lleno de bares, restaurantes y tiendas donde puedes disfrutar de la gastronomía local y hacer compras. La playa también está cerca de diversas zonas culturales y de ocio, ofreciendo una experiencia completa para todos los gustos. Con su impresionante paisaje costero y su vida social activa, la Playa de Getxo es el lugar ideal para pasar un día relajante junto al mar.</p>
+        <p class="section-content">La Playa de Getxo, situada en la costa de Bizkaia, es una de las playas más destacadas del País Vasco. Con su arena dorada y su extensa franja de arena, ofrece un ambiente vibrante y acogedor tanto para locales como para visitantes. Getxo es conocida por sus amplias instalaciones y su excelente ubicación, que la convierte en un destino popular para aquellos que buscan disfrutar del sol y de actividades al aire libre.</p>
+        <p class="section-content">Además de su playa, Getxo cuenta con un paseo marítimo animado lleno de bares, restaurantes y tiendas donde puedes disfrutar de la gastronomía local y hacer compras. La playa también está cerca de diversas zonas culturales y de ocio, ofreciendo una experiencia completa para todos los gustos. Con su impresionante paisaje costero y su vida social activa, la Playa de Getxo es el lugar ideal para pasar un día relajante junto al mar.</p>
 
-    <h2 class="section-header text-center">Entorno Natural</h2>
-    <p class="section-content">Getxo no solo ofrece una hermosa playa, sino que también está rodeada de un entorno natural espectacular. Los acantilados de La Galea y los parques cercanos ofrecen oportunidades para paseos escénicos, senderismo y fotografía. Además, el Puerto Viejo de Algorta es un lugar pintoresco lleno de historia y encanto, ideal para explorar y disfrutar de la cultura local. Estos espacios naturales y culturales enriquecen la experiencia de visitar la Playa de Getxo, haciendo de ella un destino completo y fascinante.</p>
+        <h2 class="section-header text-center">Entorno Natural</h2>
+        <p class="section-content">Getxo no solo ofrece una hermosa playa, sino que también está rodeada de un entorno natural espectacular. Los acantilados de La Galea y los parques cercanos ofrecen oportunidades para paseos escénicos, senderismo y fotografía. Además, el Puerto Viejo de Algorta es un lugar pintoresco lleno de historia y encanto, ideal para explorar y disfrutar de la cultura local. Estos espacios naturales y culturales enriquecen la experiencia de visitar la Playa de Getxo, haciendo de ella un destino completo y fascinante.</p>
+'
+; ?>
 
+
+
+
+
+
+<?php $li_descripcion_detallada2 = '
     <h2>Gastronomía</h2>
     <div class="gastronomy">
         <p>La oferta gastronómica en Getxo es diversa y de alta calidad. Desde los chiringuitos en la playa hasta los restaurantes del puerto, podrás degustar platos típicos vascos como el <strong>bacalao a la vizcaína</strong> y el <strong>marmitako</strong>. No olvides probar el famoso <strong>txakoli</strong>, un vino blanco local que complementa perfectamente cualquier comida junto al mar.</p>
     </div>
+'
+; ?>
 
+
+<?php $li_descripcion_detallada3 = '
         <h2 class="section-header text-center">Eventos Destacados</h2>
     <p>Getxo acoge varios eventos a lo largo del año que atraen tanto a locales como a turistas:</p>
         <ul>
@@ -23,22 +35,12 @@
             <li><span class="highlight">Semana Grande de Getxo:</span> Una semana de celebraciones en agosto con conciertos, fuegos artificiales y actividades culturales.</li>
             <li><span class="highlight">Concurso de Pintxos:</span> Un evento gastronómico donde los bares y restaurantes de Getxo compiten por el mejor pintxo.</li>
         </ul>
-'
-; ?>
-
-<?php $li_descripcion_detallada2 = '
-
-'; ?>
-
-
-<?php $li_descripcion_detallada3 = '
-
 '; ?>
 
 
 
 <?php $li_mapa_ubicacion = '
-    <h2>Cómo Llegar</h2>
+
     <p>La Playa de Getxo es de fácil acceso tanto en coche como en transporte público.</p>
     <ul>
         <li><strong>En coche:</strong> Desde Bilbao, la Playa de Getxo se encuentra a unos 20 minutos en coche por la carretera BI-637. Hay varias opciones de aparcamiento cerca de la playa, incluyendo zonas gratuitas y de pago.</li>
@@ -58,12 +60,15 @@
 '; ?>
 
 <?php $li_actividades_recomendadas = '
-    <h2>Actividades</h2>
     <div class="activities">
         <ul>
             <li><span class="highlight">Surf:</span> La Playa de Getxo es un lugar popular para los surfistas de todos los niveles, con olas que desafían a los más experimentados.</li>
             <li><span class="highlight">Natación:</span> Las aguas tranquilas en ciertas zonas de la playa son ideales para nadar y disfrutar en familia.</li>
             <li><span class="highlight">Senderismo:</span> Explora los senderos que rodean la playa, con vistas impresionantes de la costa y el mar Cantábrico.</li>
+
+'; ?>
+
+<?php $li_actividades_recomendadas2 = '
             <li><span class="highlight">Paseos en barco:</span> Embarca en un paseo en barco desde el puerto de Getxo para explorar la costa desde el mar.</li>
             <li><span class="highlight">Deportes acuáticos:</span> Además del surf, se pueden practicar paddle surf, kayak y windsurf.</li>
             <li><span class="highlight">Pesca:</span> La pesca es una actividad popular en Getxo, tanto desde la costa como en alta mar.</li>
@@ -71,8 +76,13 @@
     </div>
 '; ?>
 
+
+
+
+
+
 <?php $li_mas_info = '
-    <h2>Más Info...</h2>
+
     <p>Para más información sobre la Playa de Getxo, puedes contactarnos a través de los siguientes medios:</p>
     <ul>
         <li><strong>Teléfono:</strong> +34 944 91 88 00</li>
@@ -89,11 +99,48 @@
             <li><span class="highlight">Socorristas:</span> Servicio de socorristas disponible durante la temporada de verano para garantizar la seguridad de todos los visitantes.</li>
             <li><span class="highlight">Duchas y baños:</span> Instalaciones de duchas de agua dulce y baños públicos accesibles en varios puntos de la playa.</li>
             <li><span class="highlight">Aparcamiento:</span> Amplio aparcamiento disponible cerca de la playa, con opciones de pago y gratuitas.</li>
+
+'; ?>
+
+<?php $li_services2 = '
+        <li><span class="highlight">Aparcamiento:</span> Amplio aparcamiento disponible cerca de la playa, con opciones de pago y gratuitas.</li>
             <li><span class="highlight">Accesibilidad:</span> Acceso habilitado para personas con movilidad reducida, incluyendo rampas y pasarelas.</li>
             <li><span class="highlight">Chiringuitos:</span> Disfruta de la oferta gastronómica en los chiringuitos a lo largo de la playa, con vistas al mar.</li>
             <li><span class="highlight">Alquiler de equipos:</span> Posibilidad de alquilar equipos de surf, sombrillas y hamacas.</li>
         </ul>
 '; ?>
+
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Getxo</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena dorada y compacta, ideal para paseos y deportes de playa.</li>
+        <li>Longitud: Ereaga (880 metros), Las Arenas (240 metros), Arrigunaga (628 metros).</li>
+        <li>Anchura variable, especialmente en marea baja.</li>
+        <li>Mar con oleaje moderado, apto para surf y deportes acuáticos.</li>
+        <li>Entorno urbano con zonas ajardinadas y vistas al Puente Bizkaia (Puente Colgante).</li>
+        <li>Servicios: duchas, aseos, socorristas, pasarelas, alquiler de material deportivo, bares y restaurantes cercanos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Accesibilidad: excelente comunicación en metro, autobús y coche, con aparcamientos próximos.</li>
+        <li>Actividades: surf, paddle surf, piragüismo, vóley playa, y paseos por el paseo marítimo de Getxo.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Getxo</h4>
+<ul>
+    <li class="my-4"><strong>Getxo Surf Open:</strong><br> Competición anual de surf celebrada en Ereaga, con participación nacional e internacional.</li>
+    <li class="my-4"><strong>Fiestas de Nuestra Señora del Carmen:</strong><br> Celebraciones marineras en julio con procesiones marítimas, conciertos y actividades tradicionales.</li>
+    <li class="my-4"><strong>Festival Internacional de Jazz de Getxo:</strong><br> A principios de julio, evento cultural destacado con conciertos al aire libre cerca de la playa.</li>
+    <li class="my-4"><strong>Mercados y ferias de verano:</strong><br> Mercadillos de artesanía, gastronomía y productos locales a lo largo del paseo marítimo durante la temporada estival.</li>
+</ul>
+'; ?>
+
+
 
 
 

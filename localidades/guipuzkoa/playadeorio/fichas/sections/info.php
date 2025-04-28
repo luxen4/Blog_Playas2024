@@ -52,12 +52,24 @@
     </iframe>
 '; ?>
 
-<?php $li_actividades_recomendadas = '
+<?php $li_actividades_recomendadas1 = '
     <ul class="list-unstyled">
         <li><strong>Surf:</strong> Aprovecha las excelentes olas para practicar surf en uno de los destinos más populares del País Vasco.</li>
         <li><strong>Senderismo:</strong> Explora los hermosos senderos que rodean la playa y disfruta de vistas panorámicas del océano.</li>
-        <li><strong>Gastronomía Local:</strong> Disfruta de tapas y platos locales en los bares y restaurantes del paseo marítimo.</li>
-        <li><strong>Eventos Culturales:</strong> Participa en eventos y festivales locales que se celebran a lo largo del año.</li>
+        <li><strong>Pesca:</strong> Si te gusta la pesca, la Playa de Orio ofrece un ambiente perfecto para practicarla, ya sea desde la playa o desde el puerto cercano.</li>
+'; ?>
+
+
+<?php $li_actividades_recomendadas2 = '
+        <li><strong>Gastronomía Local:</strong> Disfruta de tapas y platos locales en los bares y restaurantes del paseo marítimo, como los tradicionales pintxos vascos.</li>
+        <li><strong>Eventos Culturales:</strong> Participa en eventos y festivales locales que se celebran a lo largo del año, como las fiestas en honor a la Virgen de la Guía, patrona del pueblo.</li>
+        <li><strong>Visitas al puerto pesquero:</strong> Explora el puerto y sus alrededores, donde podrás ver la actividad pesquera local y disfrutar de la atmósfera marítima.</li>
+'; ?>
+
+
+<?php $li_actividades_recomendadas3 = '
+        <li><strong>Deportes acuáticos:</strong> Además del surf, se pueden practicar actividades como el paddle surf, kayak y windsurf.</li>
+        <li><strong>Rutas en bicicleta:</strong> Descubre las rutas ciclistas que recorren la costa, perfectas para quienes disfrutan del ejercicio mientras disfrutan de vistas impresionantes.</li>
     </ul>
 '; ?>
 
@@ -74,13 +86,21 @@
 '; ?>
 
 
-<?php $li_services = '
+<?php $li_services1 = '
 <div class="info-box">
     <ul>
         <li class="my-4"><span class="highlight">Socorristas:</span> <br>Servicio de socorrismo disponible durante la temporada alta para garantizar la seguridad de todos los bañistas en la Playa de Orio.</li>
         <li class="my-4"><span class="highlight">Accesibilidad:</span> <br>La playa cuenta con accesos adaptados para personas con movilidad reducida, incluyendo rampas y sillas anfibias.</li>
         <li class="my-4"><span class="highlight">Duchas y baños:</span> <br>Instalaciones de duchas de agua dulce y baños públicos ubicados a lo largo de la Playa de Orio.</li>
         <li class="my-4"><span class="highlight">Aparcamiento:</span> <br>Zona de aparcamiento amplia y gratuita cerca de la playa, con plazas reservadas para personas con discapacidad.</li>
+    </ul>
+</div>
+'; ?>
+
+
+<?php $li_services2 = '
+<div class="info-box">
+    <ul>
         <li class="my-4"><span class="highlight">Alquiler de sombrillas y hamacas:</span> <br>Servicios de alquiler disponibles durante los meses de verano para mayor comodidad de los visitantes en la Playa de Orio.</li>
         <li class="my-4"><span class="highlight">Chiringuitos:</span> <br>Varios chiringuitos a lo largo de la playa que ofrecen una variedad de refrescos, helados y comidas ligeras.</li>
         <li class="my-4"><span class="highlight">Centro de Deportes Náuticos:</span> <br>Alquiler de equipos para practicar surf, paddle surf y otros deportes acuáticos en la Playa de Orio.</li>
@@ -88,7 +108,33 @@
 </div>
 '; ?>
 
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Orio</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena dorada y fina, perfecta para disfrutar de un día de sol y relajación.</li>
+        <li>Longitud: aproximadamente 1,2 km, ideal para pasear y disfrutar de las vistas al mar Cantábrico.</li>
+        <li>Anchura amplia, especialmente en marea baja, lo que permite una gran variedad de actividades en la arena.</li>
+        <li>Mar tranquilo, perfecto para el baño, ideal tanto para familias como para quienes desean practicar deportes acuáticos.</li>
+        <li>Entorno natural impresionante, con los montes cercanos y vistas panorámicas que hacen de la playa un lugar espectacular.</li>
+        <li>Servicios: duchas, aseos, socorristas en temporada alta, y varios bares/restaurantes donde se puede degustar gastronomía local.</li>
+        <li>Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas que facilitan el acceso.</li>
+        <li>Accesibilidad: fácil acceso desde el centro del pueblo, tanto a pie como en coche, con aparcamiento cercano disponible.</li>
+        <li>Actividades: surf, senderismo por los alrededores, paseos por el río Oria y visitas al pintoresco casco antiguo de Orio.</li>
+    </ul>
+</div>
+'; ?>
 
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Orio</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de San Sebastián:</strong><br> Celebrada en enero, con procesiones, danzas tradicionales y música en vivo por todo el pueblo.</li>
+    <li class="my-4"><strong>Campeonato de Surf de Orio:</strong><br> Un evento anual que atrae a surfistas de todas partes, con competiciones y actividades relacionadas con el surf en la playa.</li>
+    <li class="my-4"><strong>Festival de Música de Orio:</strong><br> Durante el verano, se celebran conciertos de diversos géneros musicales, que ofrecen una atmósfera festiva junto al mar.</li>
+    <li class="my-4"><strong>Fiesta del Piquillo:</strong><br> Festival gastronómico en septiembre, que celebra los productos locales, especialmente los pimientos piquillo, acompañados de música y actividades para toda la familia.</li>
+</ul>
+'; ?>
 
 
 

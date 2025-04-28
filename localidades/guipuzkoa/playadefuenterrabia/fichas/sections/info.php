@@ -82,13 +82,27 @@ $li_mapa_ubicacion = '
 ?>
 
 <?php $li_actividades_recomendadas = '
-    <ul class="list-unstyled">
-        <li class="my-4"><strong>Surf:</strong><br>Aprovecha las excelentes olas para practicar surf en uno de los destinos más populares del País Vasco.</li>
-        <li class="my-4"><strong>Senderismo:</strong><br>Explora los hermosos senderos que rodean la playa y disfruta de vistas panorámicas del océano.</li>
-        <li class="my-4"><strong>Gastronomía Local:</strong><br>Disfruta de tapas y platos locales en los bares y restaurantes del paseo marítimo.</li>
-        <li class="my-4"><strong>Eventos Culturales:</strong><br>Participa en eventos y festivales locales que se celebran a lo largo del año.</li>
-    </ul>
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Surf y Paddle Surf:</strong><br>Las aguas de Fuenterrabía ofrecen condiciones ideales para la práctica del surf y paddle surf, perfectas tanto para principiantes como para expertos.</li>
+    <li class="my-4"><strong>Vela y Kayak:</strong><br>Explora la bahía y el mar abierto con actividades de vela y kayak, disponibles mediante escuelas náuticas locales.</li>
+</ul>
 '; ?>
+
+<?php $li_actividades_recomendadas2 = '
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Senderismo y Rutas Costeras:</strong><br>Recorre senderos costeros como el Paseo de Butrón o el Camino de Santiago del Norte, con vistas espectaculares al mar y la montaña.</li>
+    <li class="my-4"><strong>Ciclismo:</strong><br>Disfruta de rutas en bicicleta a lo largo del litoral o hacia el interior, rodeado de naturaleza y aire fresco.</li>
+</ul>
+'; ?>
+
+<?php $li_actividades_recomendadas3 = '
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Gastronomía Local:</strong><br>Degusta pintxos y especialidades vascas en los numerosos bares y restaurantes del casco histórico y del paseo marítimo.</li>
+    <li class="my-4"><strong>Eventos Culturales y Fiestas Locales:</strong><br>Participa en celebraciones tradicionales como las Fiestas Patronales o la famosa Alarde de Hondarribia.</li>
+</ul>
+'; ?>
+
+
 
 <?php $li_mas_info = '
     <ul>
@@ -102,13 +116,66 @@ $li_mapa_ubicacion = '
 
 
 <?php $li_services = '
-    <ul class="list-unstyled">
-        <li class="my-4"><strong>Alquiler de Equipos Acuáticos:</strong><br>Alquila tablas de surf, kayaks y paddleboards para explorar la bahía y sus alrededores.</li>
-        <li class="my-4"><strong>Gastro-Chiringuitos:</strong><br>Disfruta de una deliciosa variedad de platos locales y de autor en modernos chiringuitos y restaurantes con vistas al mar.</li>
-        <li class="my-4"><strong>Seguridad en la Playa:</strong><br>Relájate con tranquilidad gracias a la presencia de socorristas y servicios de emergencia bien equipados.</li>
-        <li class="my-4"><strong>Espacios de Relajación:</strong><br>Zonas acondicionadas con mobiliario cómodo para disfrutar de un picnic o simplemente relajarte frente al mar.</li>
-    </ul>
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Alquiler de Equipos Acuáticos:</strong><br>Disponibilidad de alquiler de tablas de surf, kayaks, paddleboards y otros equipos náuticos para explorar la bahía de Txingudi y la costa.</li>
+    <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong><br>Variada oferta gastronómica a pie de playa, con especialidades en mariscos, pintxos y cocina vasca tradicional.</li>
+</ul>
 '; ?>
+
+<?php $li_services2 = '
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Servicios de Seguridad:</strong><br>Presencia de socorristas durante la temporada alta, además de un puesto de primeros auxilios para garantizar una estancia segura.</li>
+    <li class="my-4"><strong>Zonas de Descanso y Picnic:</strong><br>Áreas habilitadas con mobiliario y sombra natural, ideales para relajarse o disfrutar de un picnic frente al mar.</li>
+</ul>
+'; ?>
+
+
+<?php $li_services3 = '
+<ul class="list-unstyled">
+    <li class="my-4"><strong>Aparcamiento Cercano:</strong><br>Amplias zonas de aparcamiento tanto gratuitas como de pago cerca de la playa, facilitando el acceso para los visitantes.</li>
+    <li class="my-4"><strong>Accesibilidad para Personas con Movilidad Reducida:</strong><br>Pasarelas, rampas y accesos adaptados que permiten un fácil desplazamiento por la playa.</li>
+    <li class="my-4"><strong>Áreas Infantiles:</strong><br>Espacios de juegos seguros para niños, ideales para que los más pequeños también disfruten del día de playa.</li>
+</ul>
+'; ?>
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Fuenterrabía</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena dorada y aguas tranquilas, ideales para el baño y actividades acuáticas familiares.</li>
+        <li>Longitud: aproximadamente 800 metros, ofreciendo un amplio espacio para el disfrute de todos los visitantes.</li>
+        <li>Anchura generosa, especialmente durante la marea baja, perfecta para deportes de playa y relajación.</li>
+        <li>Mar en calma gracias a su ubicación protegida en la bahía, ideal para nadadores de todos los niveles.</li>
+        <li>Entorno pintoresco, con vistas a la bahía de Txingudi y al perfil montañoso de Francia al fondo.</li>
+        <li>Servicios: duchas, aseos, socorristas, áreas de juegos infantiles y alquiler de equipos acuáticos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida, con pasarelas y servicios adecuados.</li>
+        <li>Accesibilidad: fácil acceso tanto en coche como en transporte público, con opciones de aparcamiento próximas.</li>
+        <li>Actividades: kayak, paddle surf, paseos en barco, rutas de senderismo costero y exploración de la villa histórica de Hondarribia.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Fuenterrabía</h4>
+<ul>
+    <li class="my-4"><strong>Alarde de Hondarribia:</strong><br> Tradicional desfile militar y cultural que se celebra cada 8 de septiembre, rememorando la resistencia de la villa.</li>
+    <li class="my-4"><strong>Fiesta de San Pedro:</strong><br> Celebrada a finales de junio, incluye procesiones marítimas y actividades en la playa y el puerto deportivo.</li>
+    <li class="my-4"><strong>Festival de Jazz de Hondarribia:</strong><br> Durante el verano, conciertos al aire libre en la playa y otros espacios del pueblo, con artistas locales e internacionales.</li>
+    <li class="my-4"><strong>Competiciones de Regatas:</strong><br> A lo largo de la temporada estival se organizan regatas de traineras, una de las tradiciones deportivas más importantes del Cantábrico.</li>
+</ul>
+'; ?>
+
+
+
+
+
+
+
+
+
+
 
 <?php
 $imagenes = [

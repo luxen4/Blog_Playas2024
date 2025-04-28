@@ -27,18 +27,13 @@ require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueb
     array_push($articulosMostrados, $articulo);
 
     if($anuncios='si'){
-        //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
-                            // Leer aqui el csv
-                            require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_botas_hombre.php'; 
+        require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_botas_hombre.php'; // Leer csv
     }
       
     ?>
 <?php
 
 require 'descripcion_Detallada2.php';
-
-
-
     if (isset($li_descripcion_detallada3)) {
         echo($li_descripcion_detallada3);
         //mostrar($productos, $articulosMostrados, $anuncios);
@@ -55,7 +50,14 @@ require 'descripcion_Detallada2.php';
                     //include "./../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
 
                     // Leer aqui el csv
-                    require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; 
+                    // require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; 
+                    require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo.php'; 
+                    //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sports_shirts_hombre.php'; 
+
+                    //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_dress_woman.php'; 
+                    //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_jeans_man.php'; 
+                    //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; 
+                    //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; 
 
                 }
             }

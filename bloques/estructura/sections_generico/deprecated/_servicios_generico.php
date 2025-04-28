@@ -6,7 +6,8 @@
             <?= $li_services; ?>
             <?php
             $articulo = $productos[array_rand($productos)];
-            //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
+            //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php"; 
+            require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sports_shirts_hombre.php'; 
             ?>
 
             <?php
@@ -14,6 +15,7 @@
                 $es_segundo_carrusel = '';
                 echo ($li_services2);
                 $articulo = $productos[array_rand($productos)];
+               
                 //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
             }
             ?>

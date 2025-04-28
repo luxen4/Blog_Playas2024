@@ -1,0 +1,93 @@
+<div class="row box_atuendo">
+    <!-- Imagen grande a la izquierda -->
+    <div class="col-xl-6 text-center col-lg-6 col-md-6 col-sm-6 col-6">
+        <div class="custom-carousel-image-container square-container image_izda">
+            <a id="image-link_csv_0_<?php echo $arrayElementos[$numeroAleatorio]["nombre"]; ?>" href="<?php echo $productos[0]['href']; ?>">
+                <img id="image_csv_0_<?php echo $arrayElementos[$numeroAleatorio]["nombre"]; ?>" src="<?php echo $productos[0]['src']; ?>" class="d-block w-100 custom-carousel-image" alt="<?php echo $productos[0]['alt']; ?>">
+            </a>
+        </div>
+
+        <div class="custom-carousel-image-container square-container image_izda">
+            <a id="image-link_csv_1_<?php echo $arrayElementos[$numeroAleatorio]["nombre"]; ?>" href="<?php echo $productos[1]['href']; ?>">
+                <img id="image_csv_1_<?php echo $arrayElementos[$numeroAleatorio]["nombre"]; ?>" src="<?php echo $productos[1]['src']; ?>" class="d-block w-100 custom-carousel-image" alt="<?php echo $productos[0]['alt']; ?>">
+            </a>
+        </div>
+    </div>
+
+
+
+    
+    <!-- Imágenes pequeñas a la derecha -->
+    <div class="col-xl-6 text-center col-lg-6 col-md-6 col-sm-6 col-6">
+        <?php
+        // Recorremos los productos pequeños para generar las imágenes pequeñas
+        for ($i = 2; $i < 5; $i++) {
+            // Generamos dinámicamente los id's basados en el nombre del producto y el índice
+            $nombreElemento = $arrayElementos[$i]["nombre"];
+            echo '
+                <div class="custom-carousel-image-container square-container image_atuendo">
+                    <a id="image-link_csv_' . $i . '_' . $arrayElementos[$numeroAleatorio]["nombre"] . '" href="' . $productos[$i]['href'] . '">
+                        <img id="image_csv_' . $i . '_' . $arrayElementos[$numeroAleatorio]["nombre"] . '" src="' . $productos[$i]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . $productos[$i]['alt'] . '">
+                    </a>
+                </div>
+            ';
+        }
+        ?>
+    </div>
+    <div class="text-left">
+                    <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
+                </div>
+</div>
+
+<style>
+.box_atuendo{
+    border: solid 1px grey; border-radius: 1em; padding: 0.2em; 
+}
+
+
+.image_atuendo {
+        border-radius: 1em !important;
+        padding: 0.5em !important;
+        margin: 1em !important;
+        max-height: 22em !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image_atuendo img {
+        width: 90%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+
+
+@media (max-width: 768px) {
+    .image_atuendo {
+        border-radius: 1em !important;
+        padding: 0.1em !important;
+        margin: 1em !important;
+        max-height: 11em !important;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image_atuendo img {
+        width: 90%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+}
+.image_izda{
+    border-radius: 1em !important; padding: 0.25em !important;  padding: 1em !important; margin-top: 1em !important; margin-left: 1em !important; margin-bottom: 1em !important; 
+
+
+}
+
+</style>

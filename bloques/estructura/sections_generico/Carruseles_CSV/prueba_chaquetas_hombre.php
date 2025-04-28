@@ -1,6 +1,10 @@
 <?php
 require_once "generico_CSV.php";
-$productos = leer_CSV_chaquetas_hombre("chaquetas_hombre"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
+//$productos = leer_CSV_chaquetas_hombre("chaquetas_hombre"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
+
+$productos = leer_CSV("chaquetas_hombre"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
+
+
 
 // Generamos un número aleatorio entre 0 y 7
 $numeroAleatorio = rand(0, 7); 

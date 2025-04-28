@@ -1,6 +1,8 @@
 <?php
 require_once "generico_CSV.php";
-$productos = leer_CSV_botas_hombre($arrayElementos, 0); 
+//$productos = leer_CSV_botas_hombre($arrayElementos, 0); 
+$productos = leer_CSV("botas_hombre"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
+
 ?>
 <?php
 

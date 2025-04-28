@@ -45,6 +45,30 @@ $li_mapa_ubicacion = '
     </ul>
 '; ?>
 
+<?php $li_actividades_recomendadas2 = '
+    <div class="info-box">
+        <p>Además de las actividades mencionadas, en la Playa de Sopelana puedes disfrutar de diversas otras opciones que te permitirán aprovechar al máximo tu visita:</p>
+        <ul class="list-unstyled">
+            <li class="my-4"><strong>Ciclismo:</strong><br> Puedes alquilar bicicletas y recorrer los alrededores de Sopelana y sus rutas costeras, disfrutando del paisaje natural.</li>
+            <li class="my-4"><strong>Pesca:</strong><br> La zona es ideal para quienes disfrutan de la pesca, ya sea en las rocas cercanas o desde la orilla.</li>
+            <li class="my-4"><strong>Yoga y meditación:</strong><br> Durante el amanecer o atardecer, muchos visitan la playa para practicar yoga y meditar, disfrutando del entorno tranquilo y la brisa marina.</li>
+            <li class="my-4"><strong>Exploración de cuevas y formaciones rocosas:</strong><br> La costa de Sopelana tiene formaciones rocosas únicas y cuevas que se pueden explorar durante la marea baja.</li>
+        </ul>
+    </div>
+'; ?>
+
+<?php $li_actividades_recomendadas3 = '
+    <div class="info-box">
+        <p>La playa también ofrece actividades que combinan diversión con aprendizaje, especialmente en los meses más cálidos:</p>
+        <ul class="list-unstyled">
+            <li class="my-4"><strong>Clases de Surf:</strong><br> Si eres nuevo en el surf, muchas escuelas locales ofrecen clases tanto para principiantes como para avanzados.</li>
+            <li class="my-4"><strong>Excursiones en barco:</strong><br> Hay excursiones en barco disponibles que permiten explorar la costa de Sopelana desde el mar, viendo el paisaje desde una perspectiva única.</li>
+            <li class="my-4"><strong>Deportes acuáticos:</strong><br> Otras actividades acuáticas incluyen el bodyboard y el windsurf, que aprovechan las condiciones del mar en Sopelana.</li>
+            <li class="my-4"><strong>Fotografía de paisajes:</strong><br> La playa y sus alrededores ofrecen increíbles oportunidades para los amantes de la fotografía, con vistas panorámicas, atardeceres y la fauna local.</li>
+        </ul>
+    </div>
+'; ?>
+
 <?php $li_mas_info = '
     <ul>
         <li><strong>Teléfono:</strong><br> +34 943 830 990</li>
@@ -67,6 +91,58 @@ $li_mapa_ubicacion = '
         <li class="my-4"><strong>Acceso para discapacitados:</strong><br> La playa cuenta con rampas y accesos adecuados para personas con movilidad reducida.</li>
     </ul>
 '; ?>
+
+<?php $li_services2 = '
+    <div class="info-box">
+        <ul class="list-unstyled">
+            <li class="my-4"><strong>Alquiler de sombrillas y tumbonas:</strong><br> Para mayor comodidad, se pueden alquilar sombrillas y tumbonas durante todo el día.</li>
+            <li class="my-4"><strong>Wi-Fi gratuito:</strong><br> En varias zonas de la playa se ofrece acceso gratuito a internet para que los visitantes puedan estar conectados.</li>
+            <li class="my-4"><strong>Centro de información turística:</strong><br> En los alrededores de la playa, encontrarás un centro donde podrás obtener mapas y detalles sobre actividades en Sopelana.</li>
+            <li class="my-4"><strong>Servicios de primeros auxilios:</strong><br> Durante la temporada alta, hay puestos de primeros auxilios en la playa, con personal capacitado en emergencias.</li>
+        </ul>
+    </div>
+'; ?>
+
+<?php $li_services3 = '
+    <div class="info-box">
+        <ul class="list-unstyled">
+            <li class="my-4"><strong>Área de juegos para niños:</strong><br> Espacios dedicados al entretenimiento de los más pequeños, con juegos y actividades recreativas.</li>
+            <li class="my-4"><strong>Alquiler de bicicletas:</strong><br> En las cercanías de la playa, puedes alquilar bicicletas para explorar los alrededores de Sopelana.</li>
+            <li class="my-4"><strong>Acceso directo desde el metro:</strong><br> La playa está conectada directamente con el metro, lo que facilita su acceso desde Bilbao y otras localidades cercanas.</li>
+            <li class="my-4"><strong>Zona de picnic:</strong><br> Áreas habilitadas para que los visitantes puedan disfrutar de comidas al aire libre con vistas al mar.</li>
+        </ul>
+    </div>
+'; ?>
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Sopelana</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada, con un entorno natural impresionante y rodeada de acantilados.</li>
+        <li>Longitud: aproximadamente 1,000 metros, una de las playas más largas de la costa vizcaína.</li>
+        <li>Anchura: amplia, especialmente en marea baja, lo que la convierte en un lugar ideal para actividades al aire libre.</li>
+        <li>Mar con oleaje moderado a fuerte, lo que la convierte en un destino popular para surfistas de todos los niveles.</li>
+        <li>Entorno natural espectacular, rodeado de impresionantes acantilados y vegetación autóctona.</li>
+        <li>Servicios: duchas, aseos, socorristas, alquiler de tablas de surf, bares y restaurantes cercanos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida mediante pasarelas, aunque el acceso a la arena puede ser algo complicado en algunas zonas.</li>
+        <li>Accesibilidad: fácil acceso en coche con aparcamiento disponible, también es posible llegar en transporte público.</li>
+        <li>Actividades: surf, bodyboard, senderismo por los acantilados, paseos por la costa y fotografía de naturaleza.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Sopelana</h4>
+<ul>
+    <li class="my-4"><strong>Campeonatos de Surf de Sopelana:</strong><br> Competición de surf anual que atrae a surfistas de todo el mundo, celebrada generalmente en agosto.</li>
+    <li class="my-4"><strong>Fiestas de Nuestra Señora de Sopelana:</strong><br> Fiestas patronales que se celebran a finales de julio, con procesiones, música y eventos culturales.</li>
+    <li class="my-4"><strong>Fiesta de San Juan:</strong><br> Celebración con hogueras y fiestas en la noche del 23 al 24 de junio, una tradición en la playa de Sopelana.</li>
+    <li class="my-4"><strong>Conciertos y Eventos Culturales:</strong><br> Durante el verano, Sopelana organiza diversos conciertos y actividades culturales en la playa y alrededores, ideales para disfrutar de la música en vivo al aire libre.</li>
+</ul>
+'; ?>
+
+
 
 
 

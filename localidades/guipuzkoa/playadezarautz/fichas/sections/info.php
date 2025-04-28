@@ -32,46 +32,87 @@
 </iframe>
 '; ?>
 
-<?php $li_actividades_recomendadas = '
+<?php $li_actividades_recomendadas1 = '
     <ul class="list-unstyled">
-        <li class="my-4"><strong>Surf:</strong><br> Aprovecha las excelentes olas para practicar surf en uno de los destinos más populares del País Vasco.</li>
-        <li class="my-4"><strong>Senderismo:</strong><br> Explora los hermosos senderos que rodean la playa y disfruta de vistas panorámicas del océano.</li>
-        <li class="my-4"><strong>Gastronomía Local:</strong><br> Disfruta de tapas y platos locales en los bares y restaurantes del paseo marítimo.</li>
-        <li class="my-4"><strong>Eventos Culturales:</strong><br> Participa en eventos y festivales locales que se celebran a lo largo del año.</li>
-    </ul>   
+        <li><strong>Surf:</strong> Aprovecha las grandes olas para practicar surf en una de las playas más famosas del País Vasco.</li>
+        <li><strong>Senderismo:</strong> Disfruta de los senderos que recorren los acantilados, ofreciendo vistas espectaculares del mar Cantábrico.</li>
+        <li><strong>Pesca:</strong> Si te apasiona la pesca, Zarautz ofrece un ambiente ideal tanto en la playa como en el puerto.</li>
 '; ?>
 
 <?php $li_actividades_recomendadas2 = '
-
+        <li><strong>Gastronomía Local:</strong> Degusta los mejores pintxos vascos y platos de la cocina local en los restaurantes cercanos a la playa.</li>
+        <li><strong>Eventos Culturales:</strong> Participa en festivales, conciertos y eventos locales que se celebran a lo largo del año.</li>
+        <li><strong>Visitas al Puerto de Zarautz:</strong> Explora el puerto pesquero y disfruta de la tradición marítima del lugar.</li>
 '; ?>
-
 
 <?php $li_actividades_recomendadas3 = '
-'; ?>
-
-<?php $li_actividades_recomendadas4 = '
-
+        <li><strong>Deportes acuáticos:</strong> Además del surf, puedes disfrutar de paddle surf, kayak y windsurf en sus aguas tranquilas.</li>
+        <li><strong>Rutas en bicicleta:</strong> Recorridos en bicicleta por la costa y montañas, ideal para los amantes del ciclismo y la naturaleza.</li>
+    </ul>
 '; ?>
 
 <?php $li_mas_info = '
-    <p>Para más información sobre la Playa de Zarautz, puedes contactarnos a través de los siguientes medios:</p>
-    <ul>
-        <li class="my-4"><strong>Teléfono:</strong><br> +34 943 830 990</li>
-        <li class="my-4"><strong>Email:</strong><br> turismo@zarautz.eus</li>
-        <li class="my-4"><strong>Oficina de Turismo:</strong><br> Calle Nagusia, 29, 20800 Zarautz, Gipuzkoa
-            <a href="https://www.turismozarautz.eus/es/oficina-de-turismo"><strong>Web</strong><br></a>
-        </li>
-    </ul>
+    <div class="info-box">
+        <ul>
+            <li class="my-4"><strong>Teléfono:</strong> <br>+34 943 83 40 01</li>
+            <li class="my-4"><strong>Email:</strong> <br>info@zarautz.eus</li>
+            <li class="my-4"><strong>Oficina de Turismo:</strong> <br>Plaza del Castillo, 1, 20800 Zarautz, Gipuzkoa
+                <a href="https://www.zarautz.eus/"><strong>Web</strong></a>
+            </li>
+        </ul>
+    </div>
 '; ?>
 
 
-<?php $li_services = '
-    <ul class="list-unstyled">
-        <li class="my-4"><strong>Alquiler de Equipos de Surf:</strong><br> Disponibilidad de tablas y trajes de neopreno para alquilar.</li>
-        <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong><br> Variedad de opciones gastronómicas cerca de la playa.</li>
-        <li class="my-4"><strong>Servicios de Seguridad:</strong><br> Presencia de socorristas y servicios de primeros auxilios.</li>
-        <li class="my-4"><strong>Áreas de Picnic:</strong><br> Espacios designados para disfrutar de comidas al aire libre.</li>
+<?php $li_services1 = '
+<div class="info-box">
+    <ul>
+        <li class="my-4"><span class="highlight">Socorristas:</span> <br>Servicio de socorrismo disponible durante la temporada alta para garantizar la seguridad de todos los bañistas en la Playa de Zarautz.</li>
+        <li class="my-4"><span class="highlight">Accesibilidad:</span> <br>La playa cuenta con accesos adaptados para personas con movilidad reducida, incluyendo rampas y sillas anfibias.</li>
+        <li class="my-4"><span class="highlight">Duchas y baños:</span> <br>Instalaciones de duchas de agua dulce y baños públicos ubicados a lo largo de la Playa de Zarautz.</li>
+        <li class="my-4"><span class="highlight">Aparcamiento:</span> <br>Zona de aparcamiento amplia y gratuita cerca de la playa, con plazas reservadas para personas con discapacidad.</li>
     </ul>
+</div>
+'; ?>
+
+
+<?php $li_services2 = '
+<div class="info-box">
+    <ul>
+        <li class="my-4"><span class="highlight">Alquiler de sombrillas y hamacas:</span> <br>Servicios de alquiler disponibles durante los meses de verano para mayor comodidad de los visitantes en la Playa de Zarautz.</li>
+        <li class="my-4"><span class="highlight">Chiringuitos:</span> <br>Varios chiringuitos a lo largo de la playa que ofrecen una variedad de refrescos, helados y comidas ligeras.</li>
+        <li class="my-4"><span class="highlight">Centro de Deportes Náuticos:</span> <br>Alquiler de equipos para practicar surf, paddle surf y otros deportes acuáticos en la Playa de Zarautz.</li>
+    </ul>
+</div>
+'; ?>
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Zarautz</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena dorada y extensa, ideal para paseos y tomar el sol.</li>
+        <li>Longitud: aproximadamente 2,5 km, una de las playas más largas de la costa vasca.</li>
+        <li>Anchura amplia, especialmente en marea baja, lo que permite una gran variedad de actividades en la arena.</li>
+        <li>Mar moderadamente tranquilo, perfecto para el baño y también para quienes desean practicar deportes acuáticos.</li>
+        <li>Entorno natural impresionante, rodeado de montañas, acantilados y una gran vista al mar Cantábrico.</li>
+        <li>Servicios: duchas, aseos, socorristas en temporada alta, y bares/restaurantes cercanos donde disfrutar de la gastronomía vasca.</li>
+        <li>Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas que facilitan el acceso.</li>
+        <li>Accesibilidad: fácil acceso desde el centro del pueblo, tanto a pie como en coche, con aparcamiento cercano disponible.</li>
+        <li>Actividades: surf, senderismo, paseos por el río Oria y visitas al casco antiguo de Zarautz.</li>
+    </ul>
+</div>
+'; ?>
+
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Zarautz</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de San Sebastián:</strong><br> Celebrada en enero, con procesiones, danzas tradicionales y música en vivo por todo el pueblo.</li>
+    <li class="my-4"><strong>Campeonato de Surf de Zarautz:</strong><br> Un evento anual que atrae a surfistas de todo el mundo, con competiciones y actividades relacionadas con el surf en la playa.</li>
+    <li class="my-4"><strong>Festival de Jazz de Zarautz:</strong><br> Durante el verano, se celebran conciertos de jazz en la playa y en el centro del pueblo.</li>
+    <li class="my-4"><strong>Fiesta del Txakoli:</strong><br> Festival gastronómico que se celebra en septiembre, con degustaciones de vino txakoli y productos locales, acompañado de música y actividades para toda la familia.</li>
+</ul>
 '; ?>
 
 

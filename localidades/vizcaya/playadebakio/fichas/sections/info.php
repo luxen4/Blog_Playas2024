@@ -86,6 +86,52 @@
     </ul>
 '; ?>
 
+<?php $li_services2 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Duchas, Vestuarios y Aseos:</strong><br> Instalaciones disponibles para mayor comodidad de los visitantes tras disfrutar de la playa.</li>
+        <li class="my-4"><strong>Escuelas de Surf:</strong><br> Varias escuelas ofrecen cursos para principiantes y perfeccionamiento para surfistas más experimentados.</li>
+        <li class="my-4"><strong>Parking Cercano:</strong><br> Amplias zonas de estacionamiento, algunas gratuitas y otras de pago, a pocos minutos caminando de la playa.</li>
+        <li class="my-4"><strong>Parque Infantil:</strong><br> Espacio de juegos para niños en las inmediaciones del paseo marítimo.</li>
+    </ul>
+'; ?>
+
+<?php $li_services3 = '
+    <ul class="list-unstyled">
+        <li class="my-4"><strong>Accesos Adaptados:</strong><br> Rampas y pasarelas que facilitan el acceso a la playa para personas con movilidad reducida.</li>
+        <li class="my-4"><strong>Alquiler de Sombrillas y Hamacas:</strong><br> Servicios disponibles en temporada alta para disfrutar de una estancia más cómoda en la playa.</li>
+        <li class="my-4"><strong>Oficina de Turismo:</strong><br> Punto de información cercano donde obtener mapas, recomendaciones y datos sobre actividades locales y visitas a San Juan de Gaztelugatxe.</li>
+        <li class="my-4"><strong>Eventos y Actividades Culturales:</strong><br> Organización de conciertos, ferias gastronómicas y exhibiciones deportivas en verano.</li>
+    </ul>
+'; ?>
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Bakio</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena dorada y gruesa, de origen natural.</li>
+        <li>Longitud: aproximadamente 1.100 metros, siendo una de las playas más extensas de Bizkaia.</li>
+        <li>Anchura: variable según la marea, ofreciendo amplios espacios en marea baja.</li>
+        <li>Mar con oleaje moderado a fuerte, ideal para la práctica del surf y deportes acuáticos.</li>
+        <li>Entorno natural y urbano, con vistas a San Juan de Gaztelugatxe y zonas verdes cercanas.</li>
+        <li>Servicios: duchas, aseos, socorristas, alquiler de material deportivo, chiringuitos y áreas de restauración.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Accesibilidad: excelente conexión por carretera, transporte público desde Bilbao y amplios aparcamientos en las inmediaciones.</li>
+        <li>Actividades: surf, bodyboard, rutas de senderismo, visitas culturales y paseos marítimos.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Bakio</h4>
+<ul>
+    <li class="my-4"><strong>Bakio Surf Txapelketa:</strong><br> Campeonato local de surf que reúne a surfistas de toda la región en competiciones durante la temporada de verano.</li>
+    <li class="my-4"><strong>Fiesta de San Juan:</strong><br> Celebraciones en la noche del 23 al 24 de junio con hogueras, música y eventos en la playa.</li>
+    <li class="my-4"><strong>Fiestas de Andra Mari:</strong><br> En agosto, fiestas patronales de Bakio con música, danzas tradicionales, fuegos artificiales y actividades culturales junto a la playa.</li>
+    <li class="my-4"><strong>Romería a San Juan de Gaztelugatxe:</strong><br> Tradicional subida a San Juan de Gaztelugatxe, unida a las festividades locales en torno al entorno natural de Bakio.</li>
+</ul>
+'; ?>
 
 
 <?php

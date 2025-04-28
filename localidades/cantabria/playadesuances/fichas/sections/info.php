@@ -7,6 +7,12 @@
     <p class="section-content">La Playa de Suances, ubicada en la costa de Cantabria, es uno de los destinos costeros más populares de la región. Con su amplia franja de arena dorada y sus olas ideales para el surf, esta playa atrae tanto a surfistas como a aquellos que buscan relajarse bajo el sol. El entorno de Suances ofrece un ambiente animado con bares, restaurantes y una vida nocturna vibrante, haciendo de esta playa un lugar perfecto para disfrutar de la naturaleza y la diversión en la costa.</p>
     <p class="section-content">Además de su atractivo natural, Suances cuenta con una rica oferta gastronómica, destacada por sus mariscos y pescados frescos. Es un destino ideal para quienes buscan una experiencia completa, combinando deportes acuáticos, naturaleza y la auténtica cultura cántabra.</p>
 
+   
+'
+; ?>
+
+<?php $li_descripcion_detallada2 = '
+
     <h2 class="section-header ">Actividades Destacadas</h2>
     <div class="info-box">
         <ul>
@@ -19,24 +25,22 @@
         </ul>
     </div>
 
+
+'
+; ?>
+
+
+
+<?php $li_descripcion_detallada3 = '
+
+
+
     <h2 class="section-header ">Gastronomía</h2>
     <div class="info-box">
         <p>Suances ofrece una excelente selección de restaurantes donde podrás disfrutar de la auténtica gastronomía cántabra. Los mariscos y pescados frescos son los protagonistas en la mayoría de los menús, y muchos de estos restaurantes están ubicados junto al mar, ofreciendo una experiencia culinaria inigualable con vistas al océano.</p>
     </div>
 
-    <h2 class="section-header ">Eventos y Fiestas</h2>
-    <div class="info-box">
-        <ul>
-            <li class="my-4"><strong>Fiestas de San Juan (23 de junio):</strong><br> Esta celebración marca el inicio del verano en Suances con grandes hogueras en la playa, música en vivo, y fuegos artificiales que iluminan el cielo nocturno.</li>
-            <li class="my-4"><strong>Festival de Surf de Suances (Julio):</strong><br> Un evento que reúne a surfistas de diferentes niveles para competiciones, exhibiciones, y clases de surf. También incluye actividades paralelas como música, mercadillos y talleres.</li>
-            <li class="my-4"><strong>Fiestas del Carmen (16 de julio):</strong><br> Celebración en honor a la Virgen del Carmen, patrona de los pescadores, con procesiones marítimas en las que las embarcaciones se engalanan para recorrer la costa.</li>
-            <li class="my-4"><strong>Fiestas de Nuestra Señora de Las Lindes y San Roque (15 y 16 de agosto):</strong><br> Las fiestas patronales de Suances combinan actos religiosos con desfiles, conciertos, actividades deportivas y eventos tradicionales, atrayendo a locales y turistas.</li>
-            <li class="my-4"><strong>Conciertos en la Playa (Verano):</strong><br> Durante los meses de julio y agosto, la playa de Suances se convierte en un escenario al aire libre con conciertos gratuitos de bandas locales y nacionales.</li>
-            <li class="my-4"><strong>Mercado Medieval (Agosto):</strong><br> El casco antiguo de Suances se transforma con un mercado medieval que incluye artesanías, música tradicional, y espectáculos en vivo, creando una atmósfera festiva y cultural.</li>
-            <li class="my-4"><strong>Fiesta de la Sidra (Septiembre):</strong><br> Este evento celebra la cultura local con degustaciones de sidra de la región, acompañada de música y danzas tradicionales, una excelente oportunidad para conocer más sobre la gastronomía cántabra.</li>
-            <li class="my-4"><strong>Competiciones de Vela (Verano):</strong><br> Las aguas de Suances son el escenario de varias competiciones de vela durante el verano, que atraen a participantes y espectadores de todo el país.</li>
-        </ul>
-    </div>
+    
 
     <h2 class="section-header ">Entorno Natural</h2>
     <div class="info-box">
@@ -44,6 +48,13 @@
     </div>
 '
 ; ?>
+
+
+
+
+
+
+
 
 
 <?php $li_mapa_ubicacion = '
@@ -74,10 +85,18 @@
         <li class="my-4"><strong>Senderismo costero:</strong><br> Recorre las rutas que bordean el litoral cántabro, con impresionantes vistas al mar Cantábrico y sus acantilados.</li>
         <li class="my-4"><strong>Gastronomía local:</strong><br> Saborea los pescados y mariscos frescos en los restaurantes de Suances, conocidos por su cocina cántabra tradicional.</li>
         <li class="my-4"><strong>Visita cultural:</strong><br> Descubre el encanto del pueblo de Suances, con su puerto pesquero y su arquitectura típica del norte de España.</li>
+
+'; ?>
+
+<?php $li_actividades_recomendadas2 = '
+        <li class="my-4"><strong>Visita cultural:</strong><br> Descubre el encanto del pueblo de Suances, con su puerto pesquero y su arquitectura típica del norte de España.</li>
         <li class="my-4"><strong>Actividades acuáticas:</strong><br> Practica deportes como el surf, paddle surf y kitesurf, muy populares en las aguas de la Playa de Suances.</li>
         <li class="my-4"><strong>Día de playa:</strong><br> Disfruta de un día relajante en la Playa de Suances, perfecta para nadar y tomar el sol, con espacios amplios y un ambiente familiar.</li>
     </ul>
 '; ?>
+
+
+
 
 <?php $li_mas_info = '
     <p>Para más información sobre la Playa de Suances, puedes contactarnos a través de los siguientes medios:</p>
@@ -97,12 +116,50 @@
             <li class="my-4"><span class="highlight">Socorristas:</span> <br>Servicio de vigilancia durante la temporada alta para la seguridad de los bañistas.</li>
             <li class="my-4"><span class="highlight">Accesibilidad:</span> <br>Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas de madera.</li>
             <li class="my-4"><span class="highlight">Duchas y baños:</span> <br>Instalaciones disponibles a lo largo de la playa para comodidad de los visitantes.</li>
+
+'; ?>
+
+
+
+
+
+<?php $li_services2 = '
             <li class="my-4"><span class="highlight">Aparcamiento:</span> <br>Amplias zonas de aparcamiento cerca de la playa, incluyendo espacios reservados para discapacitados.</li>
             <li class="my-4"><span class="highlight">Alquiler de equipos:</span><br> Disponibilidad de alquiler de sombrillas, hamacas y equipos para deportes acuáticos.</li>
             <li class="my-4"><span class="highlight">Chiringuitos:</span><br> Varias opciones de chiringuitos y restaurantes para disfrutar de bebidas y comidas frente al mar.</li>
         </ul>
     </div>
 '; ?>
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Suances</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada.</li>
+        <li>Longitud: aproximadamente 1,200 metros.</li>
+        <li>Anchura: hasta 200 metros en marea baja.</li>
+        <li>Mar con oleaje moderado, ideal para el surf y otros deportes acuáticos.</li>
+        <li>Entorno natural flanqueado por acantilados y colinas verdes.</li>
+        <li>Servicios: duchas, aseos, socorristas, chiringuitos, y pasarelas de acceso.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Accesibilidad: fácil acceso con aparcamiento cercano y buenas conexiones de transporte.</li>
+        <li>Actividades: surf, paddle surf, pesca, senderismo y paseos por el litoral.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de Suances</h4>
+<ul>
+    <li class="my-4"><strong>Fiestas de Nuestra Señora del Carmen:</strong><br> Celebradas en julio, con una tradicional procesión marítima y diversas actividades festivas en la localidad.</li>
+    <li class="my-4"><strong>Fiesta del Marisco:</strong><br> En septiembre, Suances acoge una fiesta gastronómica dedicada al marisco, con degustaciones y actividades culturales.</li>
+    <li class="my-4"><strong>Festival Internacional de Cortometrajes de Suances:</strong><br> En agosto, este festival reúne a cineastas de todo el mundo para presentar sus cortometrajes y documentales.</li>
+    <li class="my-4"><strong>Conciertos de Verano en Suances:</strong><br> Durante los meses de verano, se celebran conciertos al aire libre en diversas plazas y espacios de la localidad, con música en vivo para todos los gustos.</li>
+</ul>
+'; ?>
+
+
 
 <?php
 $imagenes = [

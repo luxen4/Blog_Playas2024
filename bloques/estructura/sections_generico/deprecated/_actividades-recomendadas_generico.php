@@ -1,16 +1,18 @@
 <!-- informacion_general -->
 <section id="actividades"><hr>    
 <h2 class="section-header">Actividades recomendadas en la Playa de <?= $localidad; ?></h2>
-<?= $li_actividades_recomendadas; ?>
+<?= $li_actividades_recomendadas; 
+ require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_dress_woman.php';
+?>
     <?php $articulo = $productos[array_rand($productos)]; //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php"; ?>
 
     <?php
     if(isset($li_actividades_recomendadas2)){
         echo($li_actividades_recomendadas2); 
         $articulo = $productos[array_rand($productos)]; //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
-
-    }?>
-
+       
+    }
+ ?>
     <?php
     if(isset($li_actividades_recomendadas3)){
         echo($li_actividades_recomendadas3); 

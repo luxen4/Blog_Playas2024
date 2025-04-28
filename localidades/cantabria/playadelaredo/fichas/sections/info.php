@@ -50,8 +50,6 @@
         <li>Servicios: duchas, aseos, socorristas.</li>
         <li>Accesible para personas con movilidad reducida.</li>
     </ul>
-    <p><strong>Nombre:</strong> Playa de Orio</p>
-    <p><strong>Ubicación:</strong> País Vasco</p>
 </div>
 '; ?>
 
@@ -63,6 +61,10 @@
     <li class="my-4"><strong>Carrera de Caballos:</strong><br> Espectacular carrera en la playa durante el verano.</li>
 </ul>
 '; ?>
+
+
+
+
 
 
 
@@ -94,11 +96,18 @@
         <li class="my-4"><strong>Paseos en Barco:</strong><br> Desde el puerto deportivo se pueden realizar excursiones en barco para explorar la costa y las cercanas Rías del Asón y Treto.</li>
         <li class="my-4"><strong>Vela y Windsurf:</strong><br> Las condiciones de viento en la playa son perfectas para la vela y el windsurf.</li>
         <li class="my-4"><strong>Senderismo:</strong><br> Disfruta de rutas de senderismo en el entorno natural, incluyendo el Monte Buciero y otros senderos costeros.</li>
+'; ?>
+
+
+<?php $li_actividades_recomendadas2 = '
+        <li class="my-4"><strong>Senderismo:</strong><br> Disfruta de rutas de senderismo en el entorno natural, incluyendo el Monte Buciero y otros senderos costeros.</li>
         <li class="my-4"><strong>Pesca:</strong><br> La pesca deportiva y desde la orilla son populares en la Playa de Laredo.</li>
         <li class="my-4"><strong>Paseo Marítimo:</strong><br> El paseo marítimo de Laredo es ideal para caminar, correr y disfrutar de las vistas al mar.</li>
     </ul>
 </div>
 '; ?>
+
+
 
 <?php $li_mas_info = '
     <div class="info-box">
@@ -119,6 +128,12 @@
             <li class="my-4"><strong>Puestos de Socorro:</strong><br> La playa cuenta con varios puestos de socorristas distribuidos a lo largo de la costa, garantizando la seguridad de los bañistas.</li>
             <li class="my-4"><strong>Zonas de Aparcamiento:</strong><br> Amplias zonas de aparcamiento cerca de la playa, aunque en temporada alta es recomendable llegar temprano.</li>
             <li class="my-4"><strong>Duchas y Lavapiés:</strong><br> Dispone de duchas y lavapiés públicos para eliminar la arena antes de salir de la playa.</li>
+
+'; ?>
+
+
+
+<?php $li_services2 = '
             <li class="my-4"><strong>Alquiler de Sombrillas y Hamacas:</strong><br> Es posible alquilar sombrillas y hamacas para aquellos que deseen relajarse al sol.</li>
             <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong><br> A lo largo de la playa y el paseo marítimo, hay varios chiringuitos y restaurantes que ofrecen una variedad de platos, desde tapas y mariscos frescos hasta cocina internacional.</li>
             <li class="my-4"><strong>Accesos para Personas con Movilidad Reducida:</strong><br> La playa está adaptada con rampas y accesos especiales para personas con movilidad reducida.</li>
@@ -126,6 +141,7 @@
         </ul>
     </div>
 '; ?>
+
 
 
 <?php

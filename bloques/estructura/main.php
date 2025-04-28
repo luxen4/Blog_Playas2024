@@ -7,7 +7,7 @@ $articulosMostrados = []; ?>
 
         <div id="#" class="col-xl-2 col-lg-10 col-md-12 col-sm-12"></div>
 
-        <div id="#" class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12 content-wrapper">
+        <div id="#" class="col-xl-7 col-lg-10 col-md-12 col-sm-12 col-12 content-wrapper">
             <main>
 
                 
@@ -28,19 +28,20 @@ $articulosMostrados = []; ?>
 
                 
                 
-                <?php 
+                <?php  // 
                 $li_variable = $li_descripcion_detallada;
                 if (isset($descripcion_detallada2)) {
                     $li_variable2 = ' ';
                 }
                 if (isset($descripcion_detallada3)) {
                     $li_variable3 = ' ';
+                   
                 } ?>
                 <?php require './../../../../bloques/estructura/sections_generico/deprecated/_descripcion-detallada_generico.php'; ?>
                 <?php 
                 $li_variable2 = ''; $li_variable3 = '';
-                //require './../../../../bloques/estructura/sections_generico/generico.php'; ?>
-             
+                //require './../../../../bloques/estructura/sections_generico/generico.php'; 
+                 ?>
                 
                 <?php 
                 $li_variable = $li_mapa_ubicacion;
@@ -51,7 +52,9 @@ $articulosMostrados = []; ?>
                     $li_variable3 = ' ';
                 }?>
    
-                <?php  require './../../../../bloques/estructura/sections_generico/deprecated/_actividades-recomendadas_generico.php'; ?>
+                <?php  require './../../../../bloques/estructura/sections_generico/deprecated/_actividades-recomendadas_generico.php'; 
+            
+                ?>
                 <?php 
 
                 require './../../../../bloques/estructura/sections_generico/generico.php'; ?>
@@ -59,9 +62,10 @@ $articulosMostrados = []; ?>
                 
                 <?php 
                 $li_variable = $li_actividades_recomendadas;
-
+                require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; 
                 if (!empty($li_actividades_recomendadas2)) {
                     $li_variable2 = $li_actividades_recomendadas2;
+                 
                 }
 
                 if (!empty($li_actividades_recomendadas3)) {
@@ -84,10 +88,11 @@ $articulosMostrados = []; ?>
                 } ?>
 
                 <?php require './../../../../bloques/estructura/sections_generico/deprecated/_servicios_generico.php'; ?>
+
                 <?php 
                 $li_variable2 = ''; $li_variable3 = '';
-                require './../../../../bloques/estructura/sections_generico/generico.php'; ?>
-
+                require './../../../../bloques/estructura/sections_generico/generico.php'; 
+                require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
 
                 <?php require './../../../../bloques/estructura/sections_generico/galeria-imagenes_generico.php'; ?>
                 <?php 
@@ -105,8 +110,8 @@ $articulosMostrados = []; ?>
                 }?>
                 <?php 
                 
-                require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; ?>
-                
+                require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; 
+                require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_jeans_man.php'; ?>
                 <?php 
                 
                 require './../../../../bloques/estructura/sections_generico/generico.php'; ?>
@@ -114,7 +119,7 @@ $articulosMostrados = []; ?>
             </main>
         </div>
 
-        <div id="#" class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12 content-wrapper"> <!-- Ajustado el tamaño de la columna -->
+        <div id="parte_derecha" class="col-xl-3 col-lg-2 col-md-12 col-sm-12 col-12 content-wrapper"> <!-- Ajustado el tamaño de la columna -->
             <?php if (isset($caja_caracteristicas)) {
                 echo ($caja_caracteristicas);
             } ?>
@@ -123,6 +128,9 @@ $articulosMostrados = []; ?>
                 echo ($caja_eventosYfestividades);
             }  ?>
         </div>
+
+
+
     </div> <!-- Fin del contenedor de fila -->
 </div>
                 
@@ -135,6 +143,15 @@ $articulosMostrados = []; ?>
 
 
 <style>
+
+
+@media (max-width: 767px) {
+    #parte_derecha {
+        display: none !important;
+    }
+}
+
+
     li,
     h1,
     h2,

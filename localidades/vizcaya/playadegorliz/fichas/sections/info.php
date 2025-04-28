@@ -59,12 +59,27 @@
         <li class="my-4"><span class="highlight">Surf:</span> <br>La Playa de Gorliz ofrece buenas condiciones para el surf, atrayendo tanto a principiantes como a surfistas experimentados. Varias escuelas de surf en la zona ofrecen clases y alquiler de equipos.</li>
         <li class="my-4"><span class="highlight">Paddle Surf:</span> <br>Esta playa es ideal para el paddle surf, gracias a sus aguas tranquilas y vistas panorámicas, perfectas para disfrutar del deporte y el paisaje.</li>
         <li class="my-4"><span class="highlight">Senderismo:</span> <br>Explora las rutas de senderismo que rodean la playa, incluyendo caminos que brindan vistas impresionantes del mar y los acantilados cercanos.</li>
+'; ?>
+
+
+
+
+<?php $li_actividades_recomendadas2 = '
         <li class="my-4"><span class="highlight">Observación de Aves:</span> <br>Las áreas naturales circundantes son excelentes para la observación de aves, con diversas especies locales y migratorias que se pueden ver durante todo el año.</li>
         <li class="my-4"><span class="highlight">Pesca:</span> <br>La pesca desde la orilla es popular en Gorliz, con oportunidades para atrapar especies locales en las aguas tranquilas.</li>
         <li class="my-4"><span class="highlight">Paseos en Bicicleta:</span> <br>Disfruta de paseos en bicicleta por las rutas cercanas a la playa, ideales para explorar el entorno natural y apreciar la belleza del paisaje costero.</li>
     </ul>
 </div>
 '; ?>
+
+
+
+
+
+
+
+
+
 
 <?php $li_mas_info = '
 <div class="info-box">
@@ -86,12 +101,47 @@
         <li class="my-4"><span class="highlight">Socorristas:</span> <br>Servicio de socorrismo disponible durante la temporada alta para garantizar la seguridad de todos los bañistas en la Playa de Gorliz.</li>
         <li class="my-4"><span class="highlight">Accesibilidad:</span> <br>La playa cuenta con accesos adaptados para personas con movilidad reducida, incluyendo rampas y sillas anfibias.</li>
         <li class="my-4"><span class="highlight">Duchas y baños:</span> <br>Instalaciones de duchas de agua dulce y baños públicos ubicados a lo largo de la Playa de Gorliz.</li>
+
+'; ?>
+
+
+<?php $li_services2 = '
         <li class="my-4"><span class="highlight">Aparcamiento:</span> <br>Zona de aparcamiento amplia y gratuita cerca de la playa, con plazas reservadas para personas con discapacidad.</li>
         <li class="my-4"><span class="highlight">Alquiler de sombrillas y hamacas:</span> <br>Servicios de alquiler disponibles durante los meses de verano para mayor comodidad de los visitantes en la Playa de Gorliz.</li>
         <li class="my-4"><span class="highlight">Chiringuitos:</span> <br>Varios chiringuitos a lo largo de la playa que ofrecen una variedad de refrescos, helados y comidas ligeras.</li>
         <li class="my-4"><span class="highlight">Centro de Deportes Náuticos:</span> <br>Alquiler de equipos para practicar paddle surf, kayak y otros deportes acuáticos en la Playa de Gorliz.</li>
     </ul>
 </div>
+'; ?>
+
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Gorliz</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y clara, de tonos dorados.</li>
+        <li>Longitud: aproximadamente 842 metros.</li>
+        <li>Anchura: amplia, superando los 100 metros en marea baja.</li>
+        <li>Mar tranquilo, ideal para familias y actividades acuáticas como kayak y paddle surf.</li>
+        <li>Entorno natural rodeado de dunas, pinos y zonas de vegetación protegida.</li>
+        <li>Servicios: duchas, aseos, socorristas, alquiler de sombrillas y hamacas, área de juegos infantiles.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Accesibilidad: excelente acceso en coche, con aparcamiento cercano, y transporte público desde Bilbao.</li>
+        <li>Actividades: kayak, paddle surf, vela ligera, senderismo por el entorno y visitas al Faro de Gorliz.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Gorliz</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de San Pedro:</strong><br> Celebrada en junio, con procesiones, conciertos y actividades tradicionales en Gorliz.</li>
+    <li class="my-4"><strong>Fiesta de Santiago:</strong><br> El 25 de julio, festividad con eventos culturales, fuegos artificiales y romerías.</li>
+    <li class="my-4"><strong>Regatas y competiciones náuticas:</strong><br> Durante el verano, se organizan regatas de traineras y eventos de deportes acuáticos en la bahía.</li>
+    <li class="my-4"><strong>Mercado de Verano:</strong><br> Feria estival de artesanía, gastronomía y productos locales en el paseo marítimo.</li>
+</ul>
 '; ?>
 
 

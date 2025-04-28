@@ -1,18 +1,15 @@
 <?php 
 $id = 'id="encabezado"';
 $localidad = 'Somo'; // Cambiado para reflejar la nueva localidad
-$region = 'Cantabria'; // Puedes ajustar la región según sea necesario
+$region = 'Cantabria'; //class="text-center" Puedes ajustar la región según sea necesario<header ' . $id . ' style="margin: 2em;" class=""></header>    <h2 style="text-align: center;" class="mb-0">Playa de ' . $localidad . '</h2> <p style="text-align: center;">Tu destino perfecto en ' . $region . '</p>
 $li_encabezado = '
-<header ' . $id . ' style="margin: 2em;" class="">
-    <h2 style="text-align: center;" class="mb-0">Playa de ' . $localidad . '</h2>
-    <p style="text-align: center;">Tu destino perfecto en ' . $region . '</p>
 
-    <p class="text-center">Descubre la Playa de Somo, un tesoro en la costa de Cantabria. 
+    <p >Descubre la Playa de Somo, un tesoro en la costa de Cantabria. 
         <br>Con su extensa franja de arena dorada y aguas tranquilas, es el lugar ideal para disfrutar del sol, practicar deportes acuáticos y relajarse en un entorno natural impresionante. 
         <br>El paseo marítimo está repleto de bares y restaurantes que ofrecen la exquisita gastronomía local, convirtiendo tu visita en una experiencia inolvidable. 
         <br>La Playa de Somo es el destino perfecto para quienes buscan disfrutar del mar, la gastronomía y la tranquilidad de la naturaleza.
     </p>
-</header>
+
 ';
 ?>
 <?php $li_encabezado2 = ' '; ?>
@@ -114,11 +111,46 @@ $li_encabezado = '
             <li class="my-4"><span class="highlight">Socorristas:</span> <br>La playa cuenta con un servicio de socorrismo durante la temporada alta para garantizar la seguridad de los bañistas.</li>
             <li class="my-4"><span class="highlight">Accesibilidad:</span> <br>Acceso adaptado para personas con movilidad reducida, incluyendo rampas y pasarelas de madera que facilitan el acceso a la arena y al agua.</li>
             <li class="my-4"><span class="highlight">Duchas y baños:</span> <br>Instalaciones de duchas y baños ubicadas a lo largo de la playa para mayor comodidad de los visitantes.</li>
+
+'; ?>
+
+
+
+
+
+<?php $li_services2 = '
             <li class="my-4"><span class="highlight">Aparcamiento:</span> <br>Amplias zonas de aparcamiento cercanas a la playa, con espacios reservados para personas con discapacidad y aparcamiento para bicicletas.</li>
             <li class="my-4"><span class="highlight">Alquiler de equipos:</span><br> Disponibilidad de alquiler de tablas de surf, sombrillas y hamacas, así como de otros equipos deportivos y de playa.</li>
             <li class="my-4"><span class="highlight">Chiringuitos:</span> <br>Varios chiringuitos a lo largo de la playa ofrecen una variedad de bebidas, snacks y comidas, perfectos para una pausa junto al mar.</li>
         </ul>
     </div>
+'; ?>
+
+
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Somo</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada.</li>
+        <li>Longitud: aproximadamente 2,000 metros.</li>
+        <li>Mar ideal para el surf, con buenas olas y zonas más tranquilas.</li>
+        <li>Entorno natural con vistas a la bahía de Santander y los Picos de Europa.</li>
+        <li>Servicios: duchas, aseos, socorristas, pasarelas, chiringuitos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Actividades: surf, kitesurf, paseos en bicicleta, senderismo y pesca.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de Somo</h4>
+<ul>
+    <li class="my-4"><strong>Fiestas de San Juan:</strong><br> Celebradas a finales de junio, con hogueras en la playa y actividades para todos.</li>
+    <li class="my-4"><strong>Fiesta de la Virgen del Carmen:</strong><br> Procesión marítima en honor a la patrona de los marineros, con festejos en el puerto y la playa, en julio.</li>
+    <li class="my-4"><strong>Campeonatos de Surf:</strong><br> Torneos internacionales de surf, con competiciones durante el verano.</li>
+    <li class="my-4"><strong>Fiesta de la Marisquera:</strong><br> Evento gastronómico que se celebra en agosto, con degustación de mariscos y productos locales.</li>
+</ul>
 '; ?>
 
 

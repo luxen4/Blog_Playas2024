@@ -6,15 +6,17 @@
     <p>La Playa de Muskiz, también conocida como La Arena, es uno de los rincones más encantadores de la costa de Bizkaia. Ubicada en la localidad de Muskiz, esta playa de arena fina dorada y aguas tranquilas es el lugar ideal para quienes buscan relajarse y disfrutar de la naturaleza en un entorno sereno.</p>
     <p>Con una longitud de aproximadamente 900 metros, la Playa de Muskiz ofrece amplios espacios para caminar, tomar el sol y disfrutar de diversas actividades al aire libre. Rodeada de dunas y vegetación autóctona, esta playa es perfecta para familias, parejas y amantes de la tranquilidad.</p>
     <p>Además de su belleza natural, la Playa de Muskiz cuenta con todos los servicios necesarios para una visita cómoda, incluyendo duchas, baños públicos, chiringuitos y acceso para personas con movilidad reducida.</p>
+    <p>La ubicación de la playa también la convierte en un excelente punto de partida para explorar el entorno natural, ya que está cerca de la Reserva de la Biosfera de Urdaibai, un lugar ideal para el senderismo, la observación de aves y otras actividades al aire libre.</p>
 '; ?>
 
 <?php $li_descripcion_detallada2 = '
     <p>La Playa de Muskiz es un destino perfecto para quienes buscan una experiencia de playa tranquila y natural en la costa de Bizkaia. Aquí, podrás disfrutar de un día completo de actividades al aire libre, seguido de una deliciosa comida en uno de los restaurantes locales.</p>
-    <p>Durante la temporada alta, es recomendable llegar temprano para asegurar un buen lugar en la playa y disfrutar de todas las comodidades que ofrece.</p>
+    <p>Durante la temporada alta, es recomendable llegar temprano para asegurar un buen lugar en la playa y disfrutar de todas las comodidades que ofrece. Aunque la playa es muy popular durante los meses de verano, también se puede disfrutar de la tranquilidad de la zona durante la primavera y el otoño, cuando es menos concurrida.</p>
 '; ?>
 
 <?php $li_descripcion_detallada3 = '
     <p>Para llegar a la playa, puedes utilizar el transporte público, ya que cuenta con conexiones de autobús desde el centro de Muskiz y otras localidades cercanas. Si prefieres llegar en coche, la playa ofrece amplias zonas de aparcamiento cercanas.</p>
+    <p>La Playa de Muskiz también es conocida por ser un lugar ideal para paseos tranquilos. Al caminar por la orilla o explorar las dunas circundantes, puedes disfrutar de un entorno natural único, con vistas espectaculares al mar Cantábrico y la costa de Bizkaia.</p>
 '; ?>
 
 
@@ -125,7 +127,32 @@ $li_mapa_ubicacion = '
     </div>
 '; ?>
 
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Muskiz</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada, perfecta para un día de relax o actividades al aire libre.</li>
+        <li>Longitud: aproximadamente 900 metros, un lugar amplio y tranquilo para disfrutar del mar.</li>
+        <li>Anchura: variable, más ancha durante la marea baja, lo que permite diversas actividades en la arena.</li>
+        <li>Mar tranquilo, ideal para el baño y otras actividades acuáticas, como el kayak y el paddle surf.</li>
+        <li>Entorno natural rodeado de dunas, vegetación autóctona y montañas cercanas.</li>
+        <li>Servicios: duchas, aseos, socorristas, alquiler de equipos de playa, bares y restaurantes cercanos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas accesibles.</li>
+        <li>Accesibilidad: fácil acceso en coche, con aparcamiento cercano, y también es posible llegar en transporte público.</li>
+        <li>Actividades: surf, bodyboard, senderismo por el entorno natural, paseos en kayak, fotografía de naturaleza y descanso en familia.</li>
+    </ul>
+</div>
+'; ?>
 
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Muskiz</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de La Arena:</strong><br> Celebración popular en honor a la playa, con eventos deportivos, conciertos y actividades para toda la familia.</li>
+    <li class="my-4"><strong>Campeonatos de Surf:</strong><br> Competiciones de surf locales, en las que participan surfistas de diferentes niveles, generalmente durante el verano.</li>
+    <li class="my-4"><strong>Fiesta de San Juan:</strong><br> En la noche del 23 al 24 de junio, se celebran hogueras en la playa y actividades festivas para dar la bienvenida al verano.</li>
+    <li class="my-4"><strong>Rutas de Senderismo:</strong><br> Durante el verano, se organizan rutas guiadas para descubrir los alrededores de la playa y disfrutar de la naturaleza local.</li>
+</ul>
+'; ?>
 
 
 <?php

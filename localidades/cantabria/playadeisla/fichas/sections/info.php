@@ -8,6 +8,14 @@
     <p class="section-content">Ya sea que busques un día tranquilo, practicar paddle surf o kayak, o simplemente explorar la zona, la Playa de Isla combina belleza y actividades para todos. Un destino imprescindible en Cantabria para unas vacaciones inolvidables.</p>
 '; ?>
 
+
+
+
+
+
+
+
+
 <?php $li_mapa_ubicacion = '
     <p>La Playa de Isla es fácilmente accesible tanto en coche como en transporte público.</p>
     <iframe
@@ -29,10 +37,17 @@
     <ul class="list-unstyled">
         <li class="my-4"><strong>Deportes acuáticos:</strong><br> Aprovecha las excelentes condiciones de la Playa de Isla para practicar surf, paddle surf o kitesurf. Hay escuelas locales que ofrecen clases y alquiler de equipos.</li>
         <li class="my-4"><strong>Senderismo y naturaleza:</strong><br> Disfruta de las rutas de senderismo en los alrededores de Isla, como el camino hacia el Monte Buciero, que ofrece vistas panorámicas del litoral cántabro.</li>
+
+   '; ?>
+
+
+<?php $li_actividades_recomendadas2 = '
         <li class="my-4"><strong>Gastronomía Local:</strong><br> Prueba los deliciosos mariscos y pescados frescos en los restaurantes y bares cercanos a la playa, que destacan por su cocina cántabra tradicional.</li>
         <li class="my-4"><strong>Exploración de la costa:</strong><br> Realiza excursiones en barco para explorar las cuevas marinas y los paisajes costeros únicos de la región. También puedes visitar las playas cercanas para disfrutar de su tranquilidad.</li>
     </ul>
    '; ?>
+
+
 
 <?php $li_mas_info = '
     <ul>
@@ -45,14 +60,43 @@
    '; ?>
 
 
-<?php $li_services = '
-    <li class="my-4"><strong>Alquiler de Barcos y Kayaks:</strong><br> Disponibilidad de embarcaciones y kayaks para explorar la costa y la Isla de San Pedro.</li>
-    <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong> <br>Variedad de bares y restaurantes donde degustar mariscos frescos y cocina local cántabra.</li>
-    <li class="my-4"><strong>Servicios de Seguridad:</strong><br> Presencia de socorristas y puntos de primeros auxilios durante la temporada alta.</li>
-    <li class="my-4"><strong>Zona de Juegos Infantiles:</strong><br> Áreas dedicadas para el entretenimiento de los más pequeños.</li>
+
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada.</li>
+        <li>Longitud: aproximadamente 850 metros.</li>
+        <li>Mar tranquilo y con zonas de rocas y pozas naturales.</li>
+        <li>Entorno natural protegido y vistas a acantilados.</li>
+        <li>Servicios: duchas, aseos, papeleras, vigilancia.</li>
+        <li>Accesible a pie y con zonas de aparcamiento cercanas.</li>
+        <li>Ideal para familias y actividades como snorkel o pesca.</li>
+    </ul>
+</div>
+'; ?>
+
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de Isla</h4>
+<ul>
+    <li class="my-4"><strong>Fiestas de San Julián y Santa Basilisa:</strong><br> Celebradas el 7 y 9 de enero, con actos religiosos y actividades tradicionales.</li>
+    <li class="my-4"><strong>Fiestas de Nuestra Señora del Carmen:</strong><br> Procesión marítima en honor a la patrona de los marineros, el 16 de julio.</li>
+    <li class="my-4"><strong>Semana Cultural de Isla:</strong><br> En verano, incluye conciertos, talleres, exposiciones y eventos para todas las edades.</li>
+</ul>
 '; ?>
 
 
+<?php $li_services = '
+    <ul>
+        <li class="my-4"><strong>Alquiler de Barcos y Kayaks:</strong><br> Disponibilidad de embarcaciones y kayaks para explorar la costa y la Isla de San Pedro.</li>
+        <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong> <br>Variedad de bares y restaurantes donde degustar mariscos frescos y cocina local cántabra.</li>
+'; ?>
+
+<?php $li_services2 = '
+        <li class="my-4"><strong>Servicios de Seguridad:</strong><br> Presencia de socorristas y puntos de primeros auxilios durante la temporada alta.</li>
+        <li class="my-4"><strong>Zona de Juegos Infantiles:</strong><br> Áreas dedicadas para el entretenimiento de los más pequeños.</li>
+    </ul>
+'; ?>
 
 
 

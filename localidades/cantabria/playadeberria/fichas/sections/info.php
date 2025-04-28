@@ -21,16 +21,11 @@
 </div>
 '; ?>
 
-<?php $li_descripcion_detallada3 = '
-<h3>Características Principales</h3>
-<div class="info-box">
-    <p><u><strong>Longitud:</strong></u> 2 kilómetros de arena dorada.</p>
-    <p><u><strong>Anchura:</strong></u> Hasta 150 metros en marea baja.</p>
-    <p><u><strong>Oleaje:</strong></u> Ideal para el surf, de moderado a fuerte.</p>
-    <p><u><strong>Entorno:</strong></u> Flanqueada por los montes Buciero y Brusco.</p>
-    <p><u><strong>Accesibilidad:</strong></u> Fácil acceso con aparcamiento cercano.</p>
-</div>
-'; ?>
+
+
+
+
+
 
 
 <?php $li_mapa_ubicacion = '
@@ -58,12 +53,19 @@
             <li class="my-4"><span class="highlight">Surf:</span> <br>La Playa de Berria es conocida por sus excelentes condiciones para el surf, con olas que atraen tanto a principiantes como a surfistas experimentados. Hay varias escuelas de surf en la zona que ofrecen clases y alquiler de equipos.</li>
             <li class="my-4"><span class="highlight">Kitesurf:</span> <br>La playa también es un lugar popular para el kitesurf, gracias a sus amplios espacios y buenas condiciones de viento.</li>
             <li class="my-4"><span class="highlight">Senderismo:</span> <br>Explora las rutas de senderismo que rodean la playa, incluyendo caminos que ofrecen vistas panorámicas del mar y del paisaje costero.</li>
+'; ?>
+
+
+
+<?php $li_actividades_recomendadas2 = '
             <li class="my-4"><span class="highlight">Observación de Aves:</span> <br>Las áreas naturales cercanas a la playa, como las marismas de Santoña, son ideales para la observación de aves, con una gran variedad de especies locales y migratorias.</li>
             <li class="my-4"><span class="highlight">Pesca:</span> <br>La pesca desde la orilla es una actividad popular en Berria, con oportunidades para capturar especies locales en las tranquilas aguas cercanas.</li>
             <li class="my-4"><span class="highlight">Paseos en Bicicleta:</span> <br>Disfruta de paseos en bicicleta por las rutas cercanas a la playa, ideales para explorar el entorno natural y disfrutar del paisaje costero.</li>
         </ul>
     </div>
 '; ?>
+
+
 
 <?php $li_mas_info = '
     <div class="info-box">
@@ -85,6 +87,11 @@
         <li class="my-4"><span class="highlight">Socorristas:</span> <br>Servicio de socorrismo disponible durante la temporada alta para garantizar la seguridad de todos los bañistas en la Playa de Noja.</li>
         <li class="my-4"><span class="highlight">Accesibilidad:</span> <br>La playa cuenta con accesos adaptados para personas con movilidad reducida, incluyendo rampas y sillas anfibias.</li>
         <li class="my-4"><span class="highlight">Duchas y baños:</span> <br>Instalaciones de duchas de agua dulce y baños públicos ubicados a lo largo de la Playa de Noja.</li>
+
+'; ?>
+
+
+<?php $li_services2 = '
         <li class="my-4"><span class="highlight">Aparcamiento:</span> <br>Zona de aparcamiento amplia y gratuita cerca de la playa, con plazas reservadas para personas con discapacidad.</li>
         <li class="my-4"><span class="highlight">Alquiler de sombrillas y hamacas:</span> <br>Servicios de alquiler disponibles durante los meses de verano para mayor comodidad de los visitantes en la Playa de Noja.</li>
         <li class="my-4"><span class="highlight">Chiringuitos:</span> <br>Varios chiringuitos a lo largo de la playa que ofrecen una variedad de refrescos, helados y comidas ligeras.</li>
@@ -93,8 +100,32 @@
 </div>
 '; ?>
 
+<?php $caja_caracteristicas = '
+<h4 class="section-header">Características de la Playa de Berria</h4>
+<div class="info-box">
+    <ul>
+        <li>Arena fina y dorada.</li>
+        <li>Longitud: 2 kilómetros de arena dorada.</li>
+        <li>Anchura: Hasta 150 metros en marea baja.</li>
+        <li>Mar con oleaje moderado a fuerte, ideal para el surf.</li>
+        <li>Entorno natural flanqueado por los montes Buciero y Brusco.</li>
+        <li>Servicios: duchas, aseos, socorristas, pasarelas, chiringuitos.</li>
+        <li>Acceso adaptado para personas con movilidad reducida.</li>
+        <li>Accesibilidad: fácil acceso con aparcamiento cercano.</li>
+        <li>Actividades: surf, paddle surf, pesca y paseos por el litoral.</li>
+    </ul>
+</div>
+'; ?>
 
-
+<?php $caja_eventosYfestividades = '
+<h4>Eventos y Festividades de la Playa de Berria</h4>
+<ul>
+    <li class="my-4"><strong>Fiesta de la Virgen del Carmen:</strong><br> Procesión marítima y festejos en honor a la patrona de los pescadores, el 16 de julio.</li>
+    <li class="my-4"><strong>Fiesta del Surf de Berria:</strong><br> Evento anual en el que se celebran competiciones de surf, música en vivo y actividades para todos los públicos.</li>
+    <li class="my-4"><strong>Festival de la Montaña Buciero:</strong><br> En el mes de agosto, donde se realizan rutas y eventos al aire libre en los alrededores de la playa, destacando la belleza del entorno natural.</li>
+    <li class="my-4"><strong>Mercado de Artesanía de Berria:</strong><br> Durante el verano, los artesanos locales presentan sus productos en un mercado que se lleva a cabo en las cercanías de la playa.</li>
+</ul>
+'; ?>
 
 
 <?php

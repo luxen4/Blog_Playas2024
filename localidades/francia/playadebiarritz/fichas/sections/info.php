@@ -144,3 +144,7 @@ $imagenes = [
         'titulo_href' => 'Imagen propia'
     ]
 ]; ?>
+
+
+http://playas2024.kesug.com/Blog_Playas2024/localidades/francia/playadehendaya/fichas/playa-de-hendaya.php
+http://playas2024.kesug.com/                localidades/francia/playadehendaya/fichas/playa-de-hendaya.php

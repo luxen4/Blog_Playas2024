@@ -2,18 +2,24 @@
 $id = 'id="encabezado"';
 $localidad = 'Ostende'; // Cambiado para reflejar la nueva localidad
 $region = 'Cantabria'; // Puedes ajustar la región según sea necesario
+
+
+
 $li_encabezado = '
-
-    <p">Descubre la Playa de Ostende, un tesoro en la costa de Cantabria. 
-        <br>Con su extensa franja de arena dorada y aguas tranquilas, es el lugar ideal para disfrutar del sol, practicar deportes acuáticos y relajarse en un entorno natural impresionante. 
-        <br>El paseo marítimo está repleto de bares y restaurantes que ofrecen la exquisita gastronomía local, convirtiendo tu visita en una experiencia inolvidable. 
-        <br>La Playa de Ostende es el destino perfecto para quienes buscan disfrutar del mar, la gastronomía y la tranquilidad de la naturaleza.
-    </p>
-
+    <p><strong>Descubre la <a href="https://turismodecantabria.com/playas/playa-de-ostende-o-urdiales/" target="_blank" title="Visita la Playa de Ostende en Cantabria">Playa de Ostende en Cantabria</a></strong>, uno de los destinos costeros más hermosos del norte de España. 
+    <br>Con su amplia extensión de arena dorada y aguas serenas, esta playa de <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" target="_blank" title="Conoce Castro-Urdiales, Cantabria">Castro-Urdiales</a> es ideal para familias, parejas y amantes de los deportes acuáticos. 
+    <br>Además, su encantador paseo marítimo te permitirá disfrutar de la auténtica <strong>gastronomía cántabra</strong> en restaurantes frente al mar. 
+    <br>Visitar la <strong><a href="https://turismodecantabria.com/playas/playa-de-ostende-o-urdiales/" target="_blank" title="Información sobre la Playa de Ostende">Playa de Ostende en Cantabria</a></strong> es sinónimo de relax, naturaleza y experiencias únicas junto al mar.</p>
 '; 
+
+
+
 ?>
 <?php $li_encabezado2 = ' '; ?>
 <?php $li_encabezado3 = ' '; ?>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
 
 <?php $id = 'id="informacion_general"'; ?>
@@ -30,87 +36,158 @@ $li_encabezado = '
 ';
 ?>
 
-<?php 
-$li_descripcion_detallada2 = '
-    <h3>Relajación y Deporte</h3>
-    <p class="section-content">La Playa de Ostende no solo es un lugar para relajarse, sino también un espacio ideal para actividades al aire libre. Los visitantes pueden disfrutar de una amplia gama de deportes acuáticos como el surf, paddle surf y windsurf, gracias a sus condiciones óptimas de viento y olas. Además, las familias pueden participar en juegos de playa, construir castillos de arena o simplemente disfrutar de un picnic en la orilla.</p>
-    <p class="section-content">A lo largo del año, la playa acoge eventos deportivos y festivales que atraen tanto a turistas como a locales, haciendo de Ostende un lugar vibrante y lleno de vida, perfecto para crear recuerdos inolvidables.</p>
-';
+<?php
+$li_descripcion_detallada = '
+<section ' . $id . ' class=""> 
+    <p class="section-content">
+        <i class="fas fa-sun" style="color: #f39c12;"></i> <strong>Ubicada en Castro-Urdiales</strong>, la <strong>Playa de Ostende</strong> es uno de los principales atractivos turísticos de la costa de <strong>Cantabria</strong>. Su arena fina y dorada, junto con un mar de oleaje suave, la convierten en un lugar perfecto para bañistas, surfistas principiantes y familias con niños.
+    </p>
+    <p class="section-content">
+        <i class="fas fa-tree" style="color: #2ecc71;"></i> Rodeada de paisajes naturales, zonas verdes y un ambiente tranquilo, esta playa cuenta con <strong>servicios de calidad</strong>, incluyendo duchas, zonas de picnic, acceso para personas con movilidad reducida, y un paseo marítimo con tiendas y bares que te permitirán degustar lo mejor del norte.
+    </p>
 
-$li_descripcion_detallada3 = '
-    <h3>Consejos para Visitar</h3>
+    <h3><i class="fas fa-shield-alt" style="color: #3498db;"></i> Seguridad y Accesibilidad</h3>
     <ul>
-        <li class="my-4"><strong>Mejor época para visitar:</strong> <br>Los meses de verano son ideales para disfrutar del sol y las actividades acuáticas, pero la primavera y el otoño también ofrecen un clima agradable y menos aglomeraciones.</li>
-        <li class="my-4"><strong>Equipamiento recomendado:</strong> <br>No olvides llevar protector solar, sombrillas, y suficiente agua para mantenerte hidratado mientras disfrutas del día en la playa.</li>
-        <li class="my-4"><strong>Rutas cercanas:</strong> <br>Si te gusta explorar, hay senderos cercanos que ofrecen impresionantes vistas del litoral y la posibilidad de observar la fauna local.</li>
+        <li class="my-4">
+            <i class="fas fa-life-ring" style="color: #e74c3c;"></i> <strong>Seguridad:</strong> <br>Socorristas disponibles durante toda la temporada estival para garantizar la tranquilidad de los visitantes.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-wheelchair" style="color: #9b59b6;"></i> <strong>Accesibilidad:</strong> <br>Rampas de acceso, pasarelas y sillas anfibias disponibles para personas con movilidad reducida.
+        </li>
     </ul>
 </section>
 ';
+
+$li_descripcion_detallada2 = '
+    <h3><i class="fas fa-sun" style="color: #f39c12;"></i> Relajación y Actividades al Aire Libre</h3>
+    <p class="section-content">
+        Además de tomar el sol o darte un baño refrescante, en la <strong>Playa de Ostende</strong> puedes practicar surf, bodyboard, paddle surf o incluso windsurf. Sus condiciones naturales la hacen perfecta para principiantes y entusiastas del mar.
+    </p>
+    <p class="section-content">
+        Durante todo el año, se celebran <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> <strong>eventos culturales y deportivos</strong> como torneos de vóley playa, ferias artesanales y festivales gastronómicos que dan vida a la localidad.
+    </p>
+';
+
+$li_descripcion_detallada3 = '
+    <h3><i class="fas fa-info-circle" style="color: #2980b9;"></i> Consejos para Planificar tu Visita</h3>
+    <ul>
+        <li class="my-4">
+            <i class="fas fa-calendar-day" style="color: #27ae60;"></i> <strong>¿Cuándo visitar?</strong> <br>De junio a septiembre encontrarás el mejor clima. Sin embargo, primavera y otoño son ideales para quienes buscan <strong>turismo tranquilo en Cantabria</strong>.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-umbrella-beach" style="color: #f39c12;"></i> <strong>Qué llevar:</strong> <br>Protector solar, gafas de sol, toalla, sombrilla y calzado cómodo para caminar por el paseo marítimo o explorar rutas cercanas.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i> <strong>Explora más:</strong> <br>Desde la Playa de Ostende puedes hacer rutas hacia el <strong>Faro de Castro-Urdiales</strong> o visitar el casco antiguo de la ciudad, con su arquitectura medieval y puerto pesquero.
+        </li>
+    </ul>
+';
 ?>
 
-<?php $id = 'id="ubicacion"'; ?>
+
 <?php $li_mapa_ubicacion = '
 <section ' . $id . ' class=""> 
-    <p>La Playa de Ostende es de fácil acceso tanto en coche como en transporte público.</p>
+    <p><strong>¿Cómo llegar a la Playa de Ostende en Cantabria?</strong> Es muy accesible tanto para quienes viajan en coche, como para quienes optan por el transporte público o medios sostenibles como la bicicleta o caminatas costeras.</p>
+
     <ul>
-        <li class="my-4"><strong>En coche:</strong><br> Desde Santander, la Playa de Ostende se encuentra a unos 25 minutos en coche por la autovía A-67. Hay varias zonas de aparcamiento cercanas a la playa, tanto gratuitas como de pago.</li>
-        <li class="my-4"><strong>En autobús:</strong><br> La playa está bien conectada mediante líneas de autobús que operan desde Santander y otras localidades cercanas, con paradas a poca distancia de la playa.</li>
-        <li class="my-4"><strong>A pie o en bicicleta:</strong><br> Ostende cuenta con senderos y carriles bici que permiten disfrutar del paisaje mientras se llega a la playa, ofreciendo una alternativa ecológica y saludable para desplazarse.</li>
+        <li class="my-4"><strong>🚗 En coche:</strong><br>Desde Santander, puedes llegar fácilmente a la <strong>Playa de Ostende</strong> en tan solo 25 minutos a través de la autovía A-67. En las inmediaciones encontrarás varias opciones de aparcamiento gratuito y de pago, ideales para visitantes.</li>
+
+        <li class="my-4"><strong>🚌 En autobús:</strong><br>Numerosas líneas de autobús conectan <strong>Castro-Urdiales</strong> con ciudades cercanas como Santander y Bilbao. Hay paradas cercanas a la playa, lo que facilita el acceso sin necesidad de vehículo propio.</li>
+
+        <li class="my-4"><strong>🚶 A pie o en bicicleta:</strong><br>Si prefieres un medio de transporte saludable y ecológico, la zona cuenta con senderos señalizados y carriles bici que permiten disfrutar del paisaje marítimo en tu camino hacia esta magnífica playa cántabra.</li>
     </ul>
-    <h3>Mapa de la Playa de Ostende</h3>
+
+    <h3>🗺️ Mapa y ubicación de la Playa de Ostende</h3>
+    <p>Consulta la siguiente ubicación exacta para llegar sin complicaciones a esta preciosa playa del norte de España:</p>
+
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5831.651444241797!2d-3.8591253222141294!3d43.45938808069519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd493580c7f8b1cf%3A0x4f643bc98d20e61e!2sPlaya%20de%20Ostende!5e0!3m2!1ses!2ses!4v1692110560672!5m2!1ses!2ses"
         width="100%"
         height="450"
+        style="border:0;"
         allowfullscreen=""
         loading="lazy"
-        aria-hidden="false"
-        tabindex="0">
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mapa Playa de Ostende">
     </iframe>
 </section>
 '; ?>
 
-<?php $li_mapa_ubicacion2 = ' '; ?>
-<?php $li_mapa_ubicacion3 = ' '; ?>
+
 
 
 <?php $id = 'id="actividades"'; ?>
-<?php $li_actividades_recomendadas = '
+
+
+<?php
+$li_actividades_recomendadas = '
+<section id="actividades" class="">
     <div class="info-box">
-    <ul class="list-unstyled">
-        <li class="my-4"><strong>Deportes Acuáticos:</strong> <br>La Playa de Ostende es ideal para practicar surf, windsurf y paddle surf. También se ofrecen clases para principiantes y alquiler de material.</li>
-        <li class="my-4"><strong>Senderismo:</strong> <br>Los alrededores de la playa cuentan con rutas de senderismo que ofrecen vistas panorámicas del mar y la costa, perfectas para los amantes de la naturaleza.</li>
-        <li class="my-4"><strong>Zonas Deportivas:</strong> <br>La playa dispone de áreas designadas para jugar voleibol de playa y otros deportes.</li>
-        <li class="my-4"><strong>Excursiones:</strong> <br>Desde Ostende, se pueden organizar excursiones en barco para explorar la costa y sus alrededores.</li>
-    </ul>
-'; ?>
+        <ul class="list-unstyled">
+            <li class="my-4">
+                <i class="fas fa-water" style="color: #1abc9c;"></i> <strong>Deportes Acuáticos en Cantabria:</strong><br>
+                La Playa de Ostende, situada en la costa de Cantabria, es uno de los mejores lugares para practicar <strong>surf, paddle surf</strong> y <strong>windsurf</strong>. Cuenta con escuelas especializadas, monitores certificados y <strong>alquiler de material deportivo</strong>, ideal para todos los niveles.
+            </li>
+            <li class="my-4">
+                <i class="fas fa-hiking" style="color: #27ae60;"></i> <strong>Senderismo con vistas al Cantábrico:</strong><br>
+                Explora <strong>rutas de senderismo en Ostende</strong>, rodeadas de naturaleza, acantilados y miradores espectaculares. Perfectas para senderistas, fotógrafos y amantes del turismo activo.
+            </li>
+            <li class="my-4">
+                <i class="fas fa-volleyball-ball" style="color: #e67e22;"></i> <strong>Zonas Deportivas junto al mar:</strong><br>
+                La playa ofrece <strong>espacios deportivos al aire libre</strong> para actividades como <strong>voleibol de playa</strong>, ideales para grupos de amigos, familias o visitantes que buscan diversión activa.
+            </li>
+            <li class="my-4">
+                <i class="fas fa-ship" style="color: #3498db;"></i> <strong>Excursiones en barco desde Ostende:</strong><br>
+                Disfruta de <strong>rutas marítimas</strong> por la costa de Cantabria. Visita calas escondidas, acantilados espectaculares y descubre la fauna marina local en un entorno seguro y guiado.
+            </li>
+        </ul>
+    </div>
+</section>
+';
 
+$li_actividades_recomendadas2 = '
+<ul class="list-unstyled">
+    <li class="my-4">
+        <i class="fas fa-water" style="color: #1abc9c;"></i> <strong>Surf y Paddle Surf en Ostende:</strong><br>
+        La Playa de Ostende es ideal para quienes desean iniciarse o perfeccionarse en <strong>deportes acuáticos en Cantabria</strong>. Escuelas locales ofrecen clases, alquiler de equipos y actividades grupales.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-hiking" style="color: #27ae60;"></i> <strong>Senderismo frente al mar:</strong><br>
+        Disfruta de <strong>itinerarios naturales cerca de Ostende</strong>, con recorridos señalizados entre acantilados, pinares y playas vírgenes. Una experiencia única para los amantes del aire libre.
+    </li>
+';
 
-<?php $li_actividades_recomendadas2 = '
-    <ul class="list-unstyled">
-        <li class="my-4"><strong>Deportes Acuáticos:</strong> <br>La Playa de Ostende es ideal para practicar surf, windsurf y paddle surf. También se ofrecen clases para principiantes y alquiler de material.</li>
-        <li class="my-4"><strong>Senderismo:</strong> <br>Los alrededores de la playa cuentan con rutas de senderismo que ofrecen vistas panorámicas del mar y la costa, perfectas para los amantes de la naturaleza.</li>
-'; ?>
-
-<?php $li_actividades_recomendadas3 = '
-       <li class="my-4"><strong>Zonas Deportivas:</strong> <br>La playa dispone de áreas designadas para jugar voleibol de playa y otros deportes.</li>
-       <li class="my-4"><strong>Excursiones:</strong> <br>Desde Ostende, se pueden organizar excursiones en barco para explorar la costa y sus alrededores.</li>
-    </ul>
-</div>
-'; ?>
+$li_actividades_recomendadas3 = '
+    <li class="my-4">
+        <i class="fas fa-volleyball-ball" style="color: #e67e22;"></i> <strong>Voleibol de playa y más:</strong><br>
+        Ostende dispone de <strong>zonas deportivas habilitadas</strong> para practicar deportes como vóley, fútbol o yoga en la arena. Perfecto para combinar ocio y ejercicio al aire libre.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-ship" style="color: #3498db;"></i> <strong>Rutas en barco por la costa cántabra:</strong><br>
+        Embárcate en una excursión guiada desde la Playa de Ostende y conoce desde el mar los <strong>paisajes costeros de Cantabria</strong>, sus formaciones rocosas y rincones secretos.
+    </li>
+</ul>
+';
+?>
 
 
 <?php $id = 'id="masinfo"'; ?>
 <?php $li_mas_info = '
- 
     <ul>
-        <li class="my-4"><strong>Teléfono:</strong> <br>+34 942 203 000</li>
-        <li class="my-4"><strong>Email:</strong> <br>info@castrourdialesturismo.com</li>
-        <li class="my-4"><strong>Oficina de Turismo:</strong> <br>Calle del Mar, 1, 39700 Castro Urdiales, Cantabria
-            <a href="https://turismodecantabria.com/playas/playa-de-ostende-o-urdiales/"><strong>Web</strong></a>
+        <li class="my-4">
+            <i class="fas fa-phone-alt" style="color: #3498db;"></i> <strong>Teléfono:</strong> <br>
+            <a href="tel:+34942203000" title="Llamar al teléfono de la Playa de Ostende">+34 942 203 000</a>
+        </li>
+        <li class="my-4">
+            <i class="fas fa-envelope" style="color: #3498db;"></i> <strong>Email:</strong> <br>
+            <a href="mailto:info@castrourdialesturismo.com" title="Enviar un email a la oficina de turismo">info@castrourdialesturismo.com</a>
+        </li>
+        <li class="my-4">
+            <i class="fas fa-map-marker-alt" style="color: #3498db;"></i> <strong>Oficina de Turismo:</strong> <br>
+            Calle del Mar, 1, 39700 Castro Urdiales, Cantabria
+            <a href="https://turismodecantabria.com/playas/playa-de-ostende-o-urdiales/" target="_blank" title="Más información sobre la Playa de Ostende en la web de Turismo de Cantabria"><strong>Web</strong></a>
         </li>
     </ul>
-
 '; ?>
 
 
@@ -119,53 +196,70 @@ $li_descripcion_detallada3 = '
 
 <?php $id = 'id="servicios"'; ?>
 <?php $li_services = '
+<div class="info-box">
+    <ul class="list-unstyled">
+        <li class="my-4">
+            <i class="fas fa-utensils" style="color: #e67e22;"></i> <strong>Chiringuitos y Restaurantes en el Paseo Marítimo:</strong><br>
+            A lo largo del paseo marítimo de la Playa de Ostende encontrarás <strong>chiringuitos y restaurantes con vistas al mar</strong>, ideales para saborear la <strong>gastronomía típica cántabra</strong>. Platos de marisco fresco, rabas, tapas y sidra local te esperan tras un día de sol y playa.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-suitcase-rolling" style="color: #3498db;"></i> <strong>Alquiler de Equipamiento de Playa:</strong><br>
+            Dispones de <strong>servicios de alquiler de sombrillas, tumbonas y material deportivo</strong> como tablas de surf, paddle surf y kayaks. Todo lo necesario para disfrutar del <strong>ocio acuático en Cantabria</strong>.
+        </li>
+';
 
-    <div class="info-box">
-        <ul class="list-unstyled">
-            <li class="my-4"><strong>Chiringuitos y Restaurantes:</strong> <br>A lo largo del paseo marítimo de la Playa de Ostende, encontrarás una variedad de chiringuitos y restaurantes que ofrecen delicias locales y bebidas refrescantes, ideales para disfrutar de la gastronomía cántabra con vistas al mar.</li>
-            <li class="my-4"><strong>Alquiler de Equipos:</strong> <br>En la playa, hay puntos de alquiler donde puedes rentar sombrillas, tumbonas, así como equipos para deportes acuáticos como tablas de surf, paddle surf y kayaks, perfectos para disfrutar del agua.</li>
-'; ?>
+$li_services2 = '
+        <li class="my-4">
+            <i class="fas fa-shower" style="color: #1abc9c;"></i> <strong>Duchas y Baños Públicos:</strong><br>
+            La Playa de Ostende cuenta con <strong>duchas y aseos públicos distribuidos estratégicamente</strong> por toda la zona de costa. Estos servicios mejoran la comodidad y accesibilidad para todos los visitantes.
+        </li>
+';
 
-<?php $li_services2 = '
-            <li class="my-4"><strong>Duchas y Baños Públicos:</strong> <br>La Playa de Ostende está equipada con duchas y baños públicos, distribuidos a lo largo de la costa, lo que garantiza la comodidad de todos los visitantes.</li>
-'; ?>
-
-<?php $li_services3 = '   
-            <li class="my-4"><strong>Aparcamiento:</strong> <br>Existen diversas zonas de aparcamiento cercanas, algunas de ellas gratuitas y otras de pago, facilitando el acceso a la playa para todos los que la visitan.</li>
-        </ul>
-    </div>'; ?>
-
-
+$li_services3 = '
+        <li class="my-4">
+            <i class="fas fa-parking" style="color: #f39c12;"></i> <strong>Zona de Aparcamiento:</strong><br>
+            Existen <strong>áreas de aparcamiento gratuitas y de pago cerca de la playa</strong>, lo que facilita el acceso para quienes viajan en coche a la Playa de Ostende. También hay aparcamientos adaptados para personas con movilidad reducida.
+        </li>
+    </ul>
+</div>
+';
+?>
 
 <?php $caja_caracteristicas = '
-<h4 class="section-header">Características de la Playa de Ostende</h4>
+<h4 class="section-header"><i class="fas fa-sun" style="color: #f39c12;"></i> Características de la Playa de Ostende</h4>
 <div class="info-box">
     <ul>
-        <li>Arena fina y dorada.</li>
-        <li>Longitud: aproximadamente 1,200 metros.</li>
-        <li>Anchura: hasta 100 metros en marea baja.</li>
-        <li>Mar con oleaje moderado, ideal para el surf y deportes acuáticos.</li>
-        <li>Entorno natural flanqueado por acantilados y zonas de vegetación.</li>
-        <li>Servicios: duchas, aseos, socorristas, pasarelas, chiringuitos.</li>
-        <li>Acceso adaptado para personas con movilidad reducida.</li>
-        <li>Accesibilidad: fácil acceso con aparcamiento cercano y transporte público.</li>
-        <li>Actividades: surf, paddle surf, pesca, senderismo y paseos por el litoral.</li>
+        <li><i class="fas fa-sand" style="color: #e67e22;"></i> Arena fina y dorada.</li>
+        <li><i class="fas fa-ruler-combined" style="color: #3498db;"></i> Longitud: aproximadamente 1,200 metros.</li>
+        <li><i class="fas fa-expand-arrows-alt" style="color: #1abc9c;"></i> Anchura: hasta 100 metros en marea baja.</li>
+        <li><i class="fas fa-water" style="color: #1abc9c;"></i> Mar con oleaje moderado, ideal para el surf y deportes acuáticos.</li>
+        <li><i class="fas fa-tree" style="color: #2ecc71;"></i> Entorno natural flanqueado por acantilados y zonas de vegetación.</li>
+        <li><i class="fas fa-shower" style="color: #1abc9c;"></i> Servicios: duchas, aseos, socorristas, pasarelas, chiringuitos.</li>
+        <li><i class="fas fa-wheelchair" style="color: #e74c3c;"></i> Acceso adaptado para personas con movilidad reducida.</li>
+        <li><i class="fas fa-car" style="color: #f39c12;"></i> Accesibilidad: fácil acceso con aparcamiento cercano y transporte público.</li>
+        <li><i class="fas fa-hiking" style="color: #9b59b6;"></i> Actividades: surf, paddle surf, pesca, senderismo y paseos por el litoral.</li>
     </ul>
 </div>
 '; ?>
+<!-- Lightbox2 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 
 <?php $caja_eventosYfestividades = '
-<h4>Eventos y Festividades de la Playa de Ostende</h4>
+<h4><i class="fas fa-calendar-alt" style="color: #e67e22;"></i> Eventos y Festividades de la Playa de Ostende</h4>
 <ul>
-    <li class="my-4"><strong>Fiesta de Nuestra Señora del Carmen:</strong><br> Procesión marítima y festejos en honor a la patrona de los pescadores, celebrada en julio.</li>
-    <li class="my-4"><strong>Fiesta de San Juan:</strong><br> En junio, se celebran hogueras en la playa con música, bailes y actividades para todos los públicos.</li>
-    <li class="my-4"><strong>Campeonatos de Surf de Ostende:</strong><br> Evento anual de surf con competiciones nacionales e internacionales en el mes de agosto.</li>
-    <li class="my-4"><strong>Mercado de Verano:</strong><br> Durante el verano, se celebran mercadillos de artesanía y productos locales en las cercanías de la playa.</li>
+    <li class="my-4"><i class="fas fa-cross" style="color: #9b59b6;"></i> <strong>Fiesta de Nuestra Señora del Carmen:</strong><br> Procesión marítima y festejos en honor a la patrona de los pescadores, celebrada en julio.</li>
+    <li class="my-4"><i class="fas fa-fire" style="color: #f39c12;"></i> <strong>Fiesta de San Juan:</strong><br> En junio, se celebran hogueras en la playa con música, bailes y actividades para todos los públicos.</li>
+    <li class="my-4"><i class="fas fa-anchor" style="color: #3498db;"></i> <strong>Campeonatos de Surf de Ostende:</strong><br> Evento anual de surf con competiciones nacionales e internacionales en el mes de agosto.</li>
+    <li class="my-4"><i class="fas fa-store" style="color: #2ecc71;"></i> <strong>Mercado de Verano:</strong><br> Durante el verano, se celebran mercadillos de artesanía y productos locales en las cercanías de la playa.</li>
 </ul>
+
+
+
 '; ?>
-
-
-
 
 
 
@@ -175,6 +269,7 @@ $li_descripcion_detallada3 = '
 <?php // Carrusel de 3 Imágenes //
 $lugar = 'playadeostende';
 $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/localidades/'.$region.'/'.$lugar.'/img';
+
 
 $imagenes = [
     [

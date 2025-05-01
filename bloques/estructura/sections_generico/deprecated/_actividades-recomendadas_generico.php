@@ -1,6 +1,6 @@
 <!-- informacion_general -->
 <section id="actividades"><hr>    
-<h2 class="section-header">Actividades recomendadas en la Playa de <?= $localidad; ?></h2>
+<h2 class="section-header mb-4">Actividades recomendadas en la Playa de <?= $localidad; ?></h2>
 <?= $li_actividades_recomendadas; 
  require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_dress_woman.php';
 ?>

@@ -1,6 +1,8 @@
 <!-- Servicios Generico-->
 <section id="servicios"><hr>
-    <h2 class="section-header">Servicios en la Playa de <?= $localidad; ?></h2>
+<h2 class="section-header mb-4">
+    <i class="fas fa-cogs" style="color: #007bff;"></i> Servicios en la Playa de <?= $localidad; ?>
+</h2>
     <div class="info-box">
         <ul class="list-unstyled">
             <?= $li_services; ?>

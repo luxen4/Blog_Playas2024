@@ -23,7 +23,7 @@
     
 
     <?php // include_once './bloques/estructura/barra_navegacion2.php'; ?>
-    <?php include_once './bloques/estructura/anuncios/carga_productos.php'; ?>
+    <?php // NOCONESTO include_once './bloques/estructura/anuncios/carga_productos.php'; ?>
     <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/bloques/estructura/'); ?>
 
     <!-- Header de Introducción -->

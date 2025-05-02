@@ -1,34 +1,15 @@
 <!-- Servicios Generico-->
-<section id="servicios"><hr>
-<h2 class="section-header mb-4">
-    <i class="fas fa-cogs" style="color: #007bff;"></i> Servicios en la Playa de <?= $localidad; ?>
-</h2>
-    <div class="info-box">
-        <ul class="list-unstyled">
-            <?= $li_services; ?>
-            <?php
-            $articulo = $productos[array_rand($productos)];
-            //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php"; 
-            require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sports_shirts_hombre.php'; 
-            ?>
-
-            <?php
-            if (isset($li_services2)) {
-                $es_segundo_carrusel = '';
-                echo ($li_services2);
-                $articulo = $productos[array_rand($productos)];
-               
-                //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
-            }
-            ?>
-
-            <?php
-            if (isset($li_services3)) {
-                echo ($li_services3);
-                $articulo = $productos[array_rand($productos)];
-                //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";
-            }
-            ?>
-        </ul>
-    </div>
+<section id="servicios_playa_de_<?= $localidad; ?>"><hr>
+    <header>
+        <h2 class="section-header mb-4">
+            <i class="fas fa-cogs" style="color: #007bff;"></i> Servicios en la Playa de <?= $localidad; ?> <time datetime="2025-05-02">[Actualizado mayo 2025]</time>
+        </h2>
+    </header>
+        <div class="info-box">
+            <ul class="list-unstyled">
+                <?= $li_services; ?><?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sports_shirts_hombre.php'; ?>
+                <?= $li_services2; ?>
+                <?= $li_services3; ?>
+            </ul>
+        </div>
 </section>

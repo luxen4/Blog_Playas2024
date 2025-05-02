@@ -1,17 +1,26 @@
 <?php 
 $id = 'id="encabezado"';
-$localidad = 'Somo'; // Cambiado para reflejar la nueva localidad
-$region = 'Cantabria'; //class="text-center" Puedes ajustar la región según sea necesario<header ' . $id . ' style="margin: 2em;" class=""></header>    <h2 style="text-align: center;" class="mb-0">Playa de ' . $localidad . '</h2> <p style="text-align: center;">Tu destino perfecto en ' . $region . '</p>
+$localidad = 'Somo'; 
+$region = 'Cantabria'; 
+
 $li_encabezado = '
+<section id="encabezado-playa-somo">
+  <p>
+    <strong>Descubre la Playa de Somo</strong>, una joya del litoral cántabro ubicada en el municipio de Ribamontán al Mar. Con más de 3,6 km de arena dorada y fina, es el destino ideal para quienes buscan <strong>surf, naturaleza y gastronomía local</strong>.
+  </p>
+  <p>
+    Gracias a su orientación al mar abierto, ofrece condiciones óptimas para la práctica del surf durante todo el año :contentReference[oaicite:0]{index=0}. Además, su extenso arenal permite disfrutar de largos paseos y vistas impresionantes de la bahía de Santander :contentReference[oaicite:1]{index=1}.
+  </p>
+  <p>
+    El paseo marítimo de Somo está repleto de bares y restaurantes donde degustar la exquisita gastronomía cántabra, destacando platos como las rabas y las anchoas de Santoña :contentReference[oaicite:2]{index=2}. No te pierdas los atardeceres desde la playa, considerados de los más bellos de Cantabria :contentReference[oaicite:3]{index=3}.
+  </p>
+  <p>
+    Para más información sobre actividades y servicios, visita la <a href="/playas-de-cantabria/" title="Guía de playas en Cantabria">Guía de Playas en Cantabria</a>.
+  </p>
+</section>
+'; ?>
 
-    <p >Descubre la Playa de Somo, un tesoro en la costa de Cantabria. 
-        <br>Con su extensa franja de arena dorada y aguas tranquilas, es el lugar ideal para disfrutar del sol, practicar deportes acuáticos y relajarse en un entorno natural impresionante. 
-        <br>El paseo marítimo está repleto de bares y restaurantes que ofrecen la exquisita gastronomía local, convirtiendo tu visita en una experiencia inolvidable. 
-        <br>La Playa de Somo es el destino perfecto para quienes buscan disfrutar del mar, la gastronomía y la tranquilidad de la naturaleza.
-    </p>
 
-';
-?>
 <meta name="description" content="Descubre la Playa de Ostende en Cantabria: arena dorada, actividades acuáticas, y un entorno natural único. Información y servicios para tu visita." />
 
 
@@ -140,6 +149,7 @@ $li_descripcion_detallada3 = '
     </div>
 '; ?>
 
+
 <?php $li_mas_info = '
     <div class="info-box">
         <p>¿Planeas visitar la <strong>Playa de Somo</strong>? Aquí tienes cómo ponerte en contacto con los responsables turísticos locales para resolver cualquier duda o planificar mejor tu estancia.</p>
@@ -164,23 +174,55 @@ $li_descripcion_detallada3 = '
 
 
 
-<?php $li_services = '
-    <div class="info-box">
-        <p>La <strong>Playa de Somo</strong> está equipada con servicios de alta calidad para asegurar una experiencia cómoda y segura para todos los visitantes:</p>
-        <ul>
-            <li class="my-4">
-                <i class="fas fa-life-ring" style="color:#e74c3c;"></i> <span class="highlight">Socorristas:</span> <br>
-                Servicio activo durante la temporada alta para garantizar la <strong>seguridad de los bañistas</strong>.
-            </li>
-            <li class="my-4">
-                <i class="fas fa-wheelchair" style="color:#9b59b6;"></i> <span class="highlight">Accesibilidad:</span> <br>
-                <strong>Acceso adaptado</strong> con rampas, pasarelas de madera y zonas específicas para personas con movilidad reducida.
-            </li>
-            <li class="my-4">
-                <i class="fas fa-shower" style="color:#1abc9c;"></i> <span class="highlight">Duchas y baños:</span> <br>
-                Instalaciones higiénicas distribuidas a lo largo de la playa para mayor confort.
-            </li>
-'; ?>
+<?php
+$li_services = '
+
+
+
+  <p>La <strong>Playa de Somo</strong>, ubicada en el municipio de <a href="https://es.wikipedia.org/wiki/Ribamont%C3%A1n_al_Mar" target="_blank" rel="noopener">Ribamontán al Mar</a> (Cantabria), es famosa por su arena dorada, sus olas constantes y su entorno natural. Ideal para los amantes del <strong>surf en Cantabria</strong> y quienes buscan relax junto al mar Cantábrico.</p>
+
+  <ul class="list-unstyled">
+
+    <li class="my-4" itemscope itemtype="http://schema.org/SportsActivityLocation">
+      <i class="fas fa-umbrella-beach" style="color: #e67e22;"></i> 
+      <strong itemprop="name">Escuelas de Surf y Alquiler de Equipamiento:</strong><br>
+      <span itemprop="description">La playa alberga escuelas reconocidas como la <a href="https://www.escuelacantabradesurf.com" target="_blank" rel="noopener">Escuela Cántabra de Surf</a>, que ofrecen clases para principiantes y avanzados, así como alquiler de tablas y trajes de neopreno.</span>
+    </li>
+
+    <li class="my-4" itemscope itemtype="http://schema.org/Restaurant">
+      <i class="fas fa-utensils" style="color: #3498db;"></i> 
+      <strong itemprop="name">Restaurantes y Bares en el Paseo Marítimo:</strong><br>
+      <span itemprop="description">Degusta rabas, marisco fresco y sidra en los bares y restaurantes locales a lo largo del paseo marítimo. Consulta recomendaciones en <a href="https://www.turismodecantabria.com" target="_blank" rel="noopener">Turismo de Cantabria</a>.</span>
+    </li>
+';
+
+$li_services2 = '
+    <li class="my-4" itemscope itemtype="http://schema.org/PublicToilet">
+      <i class="fas fa-shower" style="color: #1abc9c;"></i> 
+      <strong itemprop="name">Duchas y Baños Públicos:</strong><br>
+      <span itemprop="description">La Playa de Somo ofrece duchas y aseos públicos distribuidos por el arenal, garantizando mayor confort e higiene para los visitantes.</span>
+    </li>
+
+    <li class="my-4" itemscope itemtype="http://schema.org/ParkingFacility">
+      <i class="fas fa-parking" style="color: #f39c12;"></i> 
+      <strong itemprop="name">Zonas de Aparcamiento:</strong><br>
+      <span itemprop="description">Se dispone de áreas de aparcamiento público cercanas a la playa, con opciones tanto para turismos como autobuses turísticos.</span>
+    </li>
+';
+
+$li_services3 = '
+    <li class="my-4" itemscope itemtype="http://schema.org/Beach">
+      <i class="fas fa-wheelchair" style="color: #9b59b6;"></i> 
+      <strong itemprop="accessibilityFeature">Accesibilidad:</strong><br>
+      <span itemprop="description">La Playa de Somo cuenta con accesos adaptados para personas con movilidad reducida, incluyendo pasarelas y zonas de sombra habilitadas.</span>
+    </li>
+
+  </ul>
+
+  <p>¿Interesado en otras playas con características similares? <a href="/playas-de-cantabria/" title="Guía de playas en Cantabria">Consulta nuestra guía de playas en Cantabria</a>.</p>
+
+';
+?>
 
 
 

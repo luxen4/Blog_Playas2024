@@ -22,8 +22,11 @@
         if(isset($li_actividades_recomendadas4)){
             echo($li_actividades_recomendadas4); 
         }?>
+
+    <?php
+        if(isset($faq)){
+            echo($faq); 
+        }?>
+
+
 </section>
-
-
-
- <?php //$articulo = $productos[array_rand($productos)]; //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php"; ?>

@@ -38,7 +38,7 @@
                     <h6><a href="https://tourisme.biarritz.fr/es">Biarritz</a></h6>
                 </div>
             </div>
-
+<!--
             <div class="d-flex justify-content-center align-items-center vh-5 mt-4">
                 <img src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/Blog_Playas2024/img/yo.png" alt="Auto de viaje" class="img-fluid" style="margin-right: 20px;">
                 <div>
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </footer>
 
 <style>

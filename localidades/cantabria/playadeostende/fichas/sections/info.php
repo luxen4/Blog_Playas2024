@@ -40,31 +40,31 @@ $li_encabezado = '
 $li_descripcion_detallada = '
 <section ' . $id . ' class=""> 
     <p class="section-content">
-        <i class="fas fa-sun" style="color: #f39c12;"></i> <strong>Ubicada en Castro-Urdiales</strong>, la <strong>Playa de Ostende</strong> es uno de los principales atractivos turísticos de la costa de <strong>Cantabria</strong>. Su arena fina y dorada, junto con un mar de oleaje suave, la convierten en un lugar perfecto para bañistas, surfistas principiantes y familias con niños.
+        <i class="fas fa-water" style="color: #3498db;"></i> <strong>Ubicada frente a Santander</strong>, la <strong>Playa de Somo</strong> es una de las playas más famosas de <strong>Cantabria</strong>, conocida por su extenso arenal y sus perfectas condiciones para deportes acuáticos. Con más de 4 kilómetros de arena fina, es ideal para quienes buscan espacio, naturaleza y buenas olas.
     </p>
     <p class="section-content">
-        <i class="fas fa-tree" style="color: #2ecc71;"></i> Rodeada de paisajes naturales, zonas verdes y un ambiente tranquilo, esta playa cuenta con <strong>servicios de calidad</strong>, incluyendo duchas, zonas de picnic, acceso para personas con movilidad reducida, y un paseo marítimo con tiendas y bares que te permitirán degustar lo mejor del norte.
+        <i class="fas fa-tree" style="color: #2ecc71;"></i> Rodeada de dunas protegidas y vegetación autóctona, la Playa de Somo ofrece <strong>infraestructuras modernas</strong> como aparcamiento, duchas, servicios de socorrismo y acceso adaptado para personas con movilidad reducida.
     </p>
 
-    <h3><i class="fas fa-shield-alt" style="color: #3498db;"></i> Seguridad y Accesibilidad</h3>
+    <h3><i class="fas fa-shield-alt" style="color: #2980b9;"></i> Seguridad y Accesibilidad</h3>
     <ul>
         <li class="my-4">
-            <i class="fas fa-life-ring" style="color: #e74c3c;"></i> <strong>Seguridad:</strong> <br>Socorristas disponibles durante toda la temporada estival para garantizar la tranquilidad de los visitantes.
+            <i class="fas fa-life-ring" style="color: #e74c3c;"></i> <strong>Seguridad:</strong> <br>Presencia de socorristas certificados durante la temporada alta. La playa está señalizada y vigilada para tu tranquilidad.
         </li>
         <li class="my-4">
-            <i class="fas fa-wheelchair" style="color: #9b59b6;"></i> <strong>Accesibilidad:</strong> <br>Rampas de acceso, pasarelas y sillas anfibias disponibles para personas con movilidad reducida.
+            <i class="fas fa-wheelchair" style="color: #9b59b6;"></i> <strong>Accesibilidad:</strong> <br>Rampas de acceso, pasarelas de madera y baños adaptados para personas con discapacidad.
         </li>
     </ul>
 </section>
 ';
 
 $li_descripcion_detallada2 = '
-    <h3><i class="fas fa-sun" style="color: #f39c12;"></i> Relajación y Actividades al Aire Libre</h3>
+    <h3><i class="fas fa-sun" style="color: #f1c40f;"></i> Relajación y Deporte al Aire Libre</h3>
     <p class="section-content">
-        Además de tomar el sol o darte un baño refrescante, en la <strong>Playa de Ostende</strong> puedes practicar surf, bodyboard, paddle surf o incluso windsurf. Sus condiciones naturales la hacen perfecta para principiantes y entusiastas del mar.
+        La <strong>Playa de Somo</strong> es reconocida como uno de los <a href="https://www.surfnsomo.com/" target="_blank" rel="noopener noreferrer"><strong>mejores destinos de surf en España</strong></a>. Puedes practicar surf, bodyboard, paddle surf o simplemente relajarte bajo el sol. Hay varias <a href="https://escueladesurf.com/" target="_blank" rel="noopener noreferrer">escuelas de surf</a> en el área que ofrecen clases para todos los niveles.
     </p>
     <p class="section-content">
-        Durante todo el año, se celebran <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> <strong>eventos culturales y deportivos</strong> como torneos de vóley playa, ferias artesanales y festivales gastronómicos que dan vida a la localidad.
+        <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> A lo largo del año, se organizan <strong>eventos deportivos y culturales</strong> como campeonatos de surf, mercados artesanales y conciertos frente al mar.
     </p>
 ';
 
@@ -72,13 +72,13 @@ $li_descripcion_detallada3 = '
     <h3><i class="fas fa-info-circle" style="color: #2980b9;"></i> Consejos para Planificar tu Visita</h3>
     <ul>
         <li class="my-4">
-            <i class="fas fa-calendar-day" style="color: #27ae60;"></i> <strong>¿Cuándo visitar?</strong> <br>De junio a septiembre encontrarás el mejor clima. Sin embargo, primavera y otoño son ideales para quienes buscan <strong>turismo tranquilo en Cantabria</strong>.
+            <i class="fas fa-calendar-day" style="color: #27ae60;"></i> <strong>¿Cuándo visitar?</strong> <br>Entre mayo y septiembre disfrutarás del mejor clima para disfrutar del sol y el mar. En primavera y otoño, Somo se transforma en un paraíso tranquilo para escapadas relajantes.
         </li>
         <li class="my-4">
-            <i class="fas fa-umbrella-beach" style="color: #f39c12;"></i> <strong>Qué llevar:</strong> <br>Protector solar, gafas de sol, toalla, sombrilla y calzado cómodo para caminar por el paseo marítimo o explorar rutas cercanas.
+            <i class="fas fa-umbrella-beach" style="color: #f39c12;"></i> <strong>Qué llevar:</strong> <br>Traje de baño, protector solar, toalla, sombrilla, tabla de surf o bodyboard si tienes, y calzado cómodo para explorar los alrededores.
         </li>
         <li class="my-4">
-            <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i> <strong>Explora más:</strong> <br>Desde la Playa de Ostende puedes hacer rutas hacia el <strong>Faro de Castro-Urdiales</strong> o visitar el casco antiguo de la ciudad, con su arquitectura medieval y puerto pesquero.
+            <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i> <strong>Explora más:</strong> <br>No te pierdas el <a href="https://www.turismodecantabria.com/descubrela/recursos/687-playa-de-loredo" target="_blank" rel="noopener noreferrer">Parque Natural de las Dunas de Liencres</a>, o toma un barco desde el embarcadero para visitar <a href="https://turismo.santander.es/" target="_blank" rel="noopener noreferrer">Santander</a> en menos de 30 minutos.
         </li>
     </ul>
 ';
@@ -241,6 +241,10 @@ $li_services3 = '
     </ul>
 </div>
 '; ?>
+
+
+
+
 <!-- Lightbox2 CSS -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 
@@ -262,8 +266,9 @@ $li_services3 = '
 '; ?>
 
 
-
-
+<?php // Meter de esta manera las carpetas
+// /playa-de-ostende-cantabria/
+?>
 
 
 <?php // Carrusel de 3 Imágenes //

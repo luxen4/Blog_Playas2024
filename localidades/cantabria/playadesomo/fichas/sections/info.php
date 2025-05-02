@@ -14,8 +14,6 @@ $li_encabezado = '
 ?>
 <meta name="description" content="Descubre la Playa de Ostende en Cantabria: arena dorada, actividades acuáticas, y un entorno natural único. Información y servicios para tu visita." />
 
-<?php $li_encabezado2 = ' '; ?>
-<?php $li_encabezado3 = ' '; ?>
 
 <?php 
 $li_descripcion_detallada = '

@@ -2,14 +2,9 @@
 <section id="ubicacion"><hr> 
 
     <div class="info-box">
-        <h2 class="section-header">Cómo llegar a la Playa de <?= $localidad; ?></h2>
+        <h2><i class="fas fa-map-marker-alt" style="color:#e74c3c;"></i> ¿Cómo llegar a la Playa de <?= $localidad; ?> en Castro Urdiales (<?= $region; ?>)?</h2>
         <?= $li_mapa_ubicacion; ?>
     </div>
 
 </section>
 
-<style>
-    #ubicacion li{
-        text-align: left;
-    }
-</style>

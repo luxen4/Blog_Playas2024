@@ -1,8 +1,10 @@
 <!-- Más información -->
 <hr> 
-<section id="masinfo" class="">
-    <h2>Más Info...</h2>
-    <p>Para más información sobre la Playa de <?= $localidad;?>, puedes contactarnos a través de los siguientes medios:</p>
-    <?= $li_mas_info; 
-    $articulo = $productos[array_rand($productos)]; //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";?>
-</section>
+
+<section id="informacion-playa-ostende">
+    <h2 class="section-header"><i class="fas fa-info-circle" style="color: #2980b9;"></i> Más Información sobre la Playa de Ostende</h2>
+    <?= $li_mas_info; ?>
+</section>    
+
+
+<?php //$articulo = $productos[array_rand($productos)]; //include "./../../../../../bloques/estructura/carruseles/carrusel_auxiliar.php";?>

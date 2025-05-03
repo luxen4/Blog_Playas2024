@@ -227,9 +227,7 @@ $li_services3 = '
 
 
 <?php $caja_caracteristicas = '
-<h4 class="section-header">
-    <i class="fas fa-sun" style="color: #f39c12;"></i> Características de la Playa de Ostende, Cantabria
-</h4>
+
 <div class="info-box">
     <ul>
         <li><i class="fas fa-sand" style="color: #e67e22;"></i> <strong>Arena fina y dorada:</strong> Ideal para caminar descalzo y tomar el sol cómodamente en la <strong>Playa de Ostende</strong>, un paraíso para los amantes de la arena.</li>

@@ -23,10 +23,5 @@
             echo($li_actividades_recomendadas4); 
         }?>
 
-    <?php
-        if(isset($faq)){
-            echo($faq); 
-        }?>
-
 
 </section>

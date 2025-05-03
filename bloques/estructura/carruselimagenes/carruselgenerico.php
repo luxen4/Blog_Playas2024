@@ -1,6 +1,6 @@
 <!-- Carrusel Genérico-->
 <section id="galeria" class="container">
-    <h2>Galería de imágenes</h2>
+    <h5>Galería de imágenes</h5>
     <div id="laredoGallery" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <?php

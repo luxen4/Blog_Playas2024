@@ -281,8 +281,7 @@ $li_services3 = '
 
 
 <?php $caja_caracteristicas = '
-<section id="caracteristicas-playa-ostende">
-  <h2 class="section-header"><i class="fas fa-sun" style="color: #f39c12;"></i> Características de la Playa de Ostende en Castro-Urdiales</h2>
+
   <p>La <strong>Playa de Ostende</strong>, situada en el municipio de <strong>Castro-Urdiales</strong> (Cantabria), es uno de los arenales más completos y accesibles del norte de España. A continuación, te detallamos sus principales características:</p>
 
   <ul>
@@ -298,7 +297,7 @@ $li_services3 = '
   </ul>
 
   <p>Consulta también nuestra <a href="/guia-playas-cantabria/" title="Guía completa de playas en Cantabria">guía completa de playas en Cantabria</a> para planificar tu próxima escapada.</p>
-</section>
+
 '; ?>
 
 
@@ -312,8 +311,6 @@ $li_services3 = '
 
 
 <?php $caja_eventosYfestividades = '
-<section id="eventos-festividades-playa-ostende">
-  <h2><i class="fas fa-calendar-alt" style="color: #e67e22;"></i> Eventos y Festividades en la Playa de Ostende, Cantabria</h2>
   <p>Descubre los principales eventos y festividades que se celebran en <strong>Castro-Urdiales</strong>, especialmente en los alrededores de la <strong>Playa de Ostende</strong>.</p>
 
   <ul>
@@ -343,7 +340,7 @@ $li_services3 = '
   </ul>
 
   <p>¿Quieres descubrir más actividades en Cantabria? <a href="/actividades-en-cantabria/" title="Actividades recomendadas en Cantabria">Consulta esta guía de experiencias</a>.</p>
-</section>
+
 '; ?>
 
 

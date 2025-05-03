@@ -1,15 +1,13 @@
 <?php $li_encabezado = '
-    <p class="">La Playa de Suances, situada en la hermosa costa de Cantabria, es un destino vibrante y popular tanto para surfistas como para familias que buscan un lugar para relajarse. Con su amplia franja de arena dorada y aguas ideales para diversas actividades acuáticas, Suances ofrece un entorno perfecto para disfrutar de un día al aire libre. Además, su proximidad a excelentes restaurantes con una rica oferta de mariscos y pescado fresco, junto con un entorno natural impresionante, hacen de la Playa de Suances un lugar inmejorable para vivir una experiencia completa junto al mar.</p>
+    <p><strong>Descubre la <a href="https://turismodecantabria.com/playas/playa-de-la-concha-suances/" target="_blank" title="Visita la Playa de Suances en Cantabria">Playa de Suances</a></strong>, un destino costero en <a href="https://es.wikipedia.org/wiki/Cantabria" target="_blank" title="Cantabria en Wikipedia">Cantabria</a> perfecto para disfrutar del sol, el mar y la naturaleza.</p>
+    <p>Con sus extensas playas de arena fina, aguas cristalinas y vistas impresionantes al Mar Cantábrico, es ideal para familias, surfistas y amantes de la tranquilidad. No te pierdas las rutas costeras y los <a href="https://www.suances.net/es/informacion/playas-de-suances/7" target="_blank" title="Playas de Suances">arenales cercanos</a>.</p>
+    <p>Además, podrás degustar exquisitos <strong>mariscos frescos</strong> en los restaurantes y chiringuitos con vistas al mar.</p>
 '; ?>
 
 <?php $li_descripcion_detallada = '
-    <h2 class="section-header ">Información General de la Playa de Suances</h2>
-    <p class="section-content">La Playa de Suances, ubicada en la costa de Cantabria, es uno de los destinos costeros más populares de la región. Con su amplia franja de arena dorada y sus olas ideales para el surf, esta playa atrae tanto a surfistas como a aquellos que buscan relajarse bajo el sol. El entorno de Suances ofrece un ambiente animado con bares, restaurantes y una vida nocturna vibrante, haciendo de esta playa un lugar perfecto para disfrutar de la naturaleza y la diversión en la costa.</p>
-    <p class="section-content">Además de su atractivo natural, Suances cuenta con una rica oferta gastronómica, destacada por sus mariscos y pescados frescos. Es un destino ideal para quienes buscan una experiencia completa, combinando deportes acuáticos, naturaleza y la auténtica cultura cántabra.</p>
-
-   
-'
-; ?>
+    <p class="section-content">La <strong>Playa de Suances</strong> es una de las más populares de Cantabria, destacando por su belleza natural, limpieza y servicios. Su amplitud y oleaje moderado la hacen segura y cómoda para todos los públicos.</p>
+    <p class="section-content">Ya sea que busques relajarte o practicar actividades como <a href="/surf-en-cantabria/" title="Deportes acuáticos en Cantabria">surf o paddle surf</a>, Suances lo tiene todo. Explora los alrededores y disfruta de la auténtica cocina cántabra en sus restaurantes costeros.</p>
+'; ?>
 
 <?php $li_descripcion_detallada2 = '
 
@@ -32,9 +30,6 @@
 
 
 <?php $li_descripcion_detallada3 = '
-
-
-
     <h2 class="section-header ">Gastronomía</h2>
     <div class="info-box">
         <p>Suances ofrece una excelente selección de restaurantes donde podrás disfrutar de la auténtica gastronomía cántabra. Los mariscos y pescados frescos son los protagonistas en la mayoría de los menús, y muchos de estos restaurantes están ubicados junto al mar, ofreciendo una experiencia culinaria inigualable con vistas al océano.</p>
@@ -58,41 +53,59 @@
 
 
 <?php $li_mapa_ubicacion = '
-    <div class="info-box">
-        <p>La Playa de Suances está a unos 30 minutos en coche de Santander. Puedes llegar fácilmente en transporte público desde la ciudad, con autobuses que conectan Santander con Suances. También hay aparcamiento disponible cerca de la playa para aquellos que viajan en coche.</p>
-       
-        <ul>
-            <li class="my-4"><strong>En coche:</strong><br> Desde Santander, la Playa de Suances se encuentra a unos 30 minutos por la carretera CA-131. Hay varias opciones de aparcamiento cerca de la playa, tanto gratuitas como de pago.</li>
-            <li class="my-4"><strong>En autobús:</strong><br> Suances está bien conectado mediante autobuses desde Santander y otras localidades de Cantabria. Puedes consultar los horarios y rutas en la página de la empresa de autobuses ALSA.</li>
-            <li class="my-4"><strong>A pie o en bicicleta:</strong><br> Suances y sus alrededores cuentan con caminos escénicos ideales para explorar a pie o en bicicleta, permitiendo disfrutar de la belleza del paisaje costero.</li>
-        </ul>
-        
-        <!-- Mapa -->
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2589.234798229893!2d-4.219235184281231!3d43.38630877911854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd484b58435897b7%3A0xa9a6b8a0e3eec3c4!2sPlaya%20de%20Suances!5e0!3m2!1ses!2ses!4v1634126872918!5m2!1ses!2ses"
-            width="100%" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
-        </iframe>
-    </div>
+    <p>La <strong>Playa de Suances</strong> está bien comunicada, con varias opciones para llegar cómodamente.</p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.123456789!2d-4.083333!3d43.433333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd493e123456789%3A0xabcdef123456789!2sPlaya%20de%20Suances!5e0!3m2!1ses!2ses!4v1689456798878!5m2!1ses!2ses"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <ul class="mt-4">
+        <li class="my-4"><i class="fas fa-car" style="color:#3498db;"></i> <strong>En coche:</strong><br> A 30 minutos de Santander por la A-67 y CA-132. Aparcamiento disponible cerca de la playa.</li>
+        <li class="my-4"><i class="fas fa-bus" style="color:#e67e22;"></i> <strong>En autobús:</strong><br> Líneas regulares de ALSA desde Santander y otras localidades. <a href="https://www.alsa.es/" target="_blank">Consulta horarios</a>.</li>
+        <li class="my-4"><i class="fas fa-bicycle" style="color:#2ecc71;"></i> <strong>A pie o en bicicleta:</strong><br> Rutas escénicas permiten disfrutar del paisaje mientras accedes a la playa de forma sostenible.</li>
+    </ul>
 '; ?>
 
 <?php $li_actividades_recomendadas = '
-    <ul class="list-unstyled">
-        <li class="my-4"><strong>Paseos en barco:</strong><br> Explora la costa de Suances desde el mar y descubre la belleza de sus acantilados y playas escondidas.</li>
-        <li class="my-4"><strong>Senderismo costero:</strong><br> Recorre las rutas que bordean el litoral cántabro, con impresionantes vistas al mar Cantábrico y sus acantilados.</li>
-        <li class="my-4"><strong>Gastronomía local:</strong><br> Saborea los pescados y mariscos frescos en los restaurantes de Suances, conocidos por su cocina cántabra tradicional.</li>
-        <li class="my-4"><strong>Visita cultural:</strong><br> Descubre el encanto del pueblo de Suances, con su puerto pesquero y su arquitectura típica del norte de España.</li>
-
+<ul class="list-unstyled">
+    <li class="my-4">
+        <i class="fas fa-ship" style="color: #3498db;"></i>
+        <strong>Paseos en barco:</strong><br>
+        Explora la costa de Suances desde el mar con excursiones que te permitirán descubrir <a href="https://www.suances.es/turismo" target="_blank" title="Turismo en Suances">acantilados, calas y fauna marina</a>.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-hiking" style="color: #27ae60;"></i>
+        <strong>Senderismo costero:</strong><br>
+        Recorre las <a href="https://www.suances.es/turismo" target="_blank" title="Rutas de senderismo en Suances">rutas panorámicas</a> que bordean el litoral cántabro, como la que conecta con Tagle o la Punta del Dichoso.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-utensils" style="color: #e67e22;"></i>
+        <strong>Gastronomía local:</strong><br>
+        Disfruta de mariscos y pescados frescos en los <a href="https://www.tripadvisor.es/Restaurants-g644318-Suances_Cantabria.html" target="_blank" title="Restaurantes en Suances">restaurantes de Suances</a>, famosos por su cocina tradicional cántabra.
+    </li>
 '; ?>
 
 <?php $li_actividades_recomendadas2 = '
-        <li class="my-4"><strong>Visita cultural:</strong><br> Descubre el encanto del pueblo de Suances, con su puerto pesquero y su arquitectura típica del norte de España.</li>
-        <li class="my-4"><strong>Actividades acuáticas:</strong><br> Practica deportes como el surf, paddle surf y kitesurf, muy populares en las aguas de la Playa de Suances.</li>
-        <li class="my-4"><strong>Día de playa:</strong><br> Disfruta de un día relajante en la Playa de Suances, perfecta para nadar y tomar el sol, con espacios amplios y un ambiente familiar.</li>
-    </ul>
+    <li class="my-4">
+        <i class="fas fa-landmark" style="color: #9b59b6;"></i>
+        <strong>Visita cultural:</strong><br>
+        Descubre el casco histórico, el puerto pesquero y monumentos como la Iglesia de Nuestra Señora de las Lindes. Más información en la <a href="https://www.suances.es/turismo" target="_blank" title="Cultura en Suances">web turística oficial</a>.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-water" style="color: #2980b9;"></i>
+        <strong>Actividades acuáticas:</strong><br>
+        La Playa de Los Locos es ideal para <a href="/surf-en-cantabria/" title="Surf en Cantabria">surf</a>, y en la playa de La Concha puedes practicar <a href="/kayak-en-cantabria/" title="Kayak en Cantabria">kayak</a> o <a href="/paddle-surf-en-cantabria/" title="Paddle surf en Cantabria">paddle surf</a>.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-umbrella-beach" style="color: #f39c12;"></i>
+        <strong>Día de playa:</strong><br>
+        Relájate en la amplia <strong>Playa de Suances</strong>, con todos los servicios y un entorno natural privilegiado. Ideal para nadar y tomar el sol en familia.
+    </li>
+</ul>
 '; ?>
 
 
@@ -109,53 +122,92 @@
     </ul>
 '; ?>
 
-
 <?php $li_services = '
-    <div class="info-box">
-        <ul class="list-unstyled">    
-            <li class="my-4"><span class="highlight">Socorristas:</span> <br>Servicio de vigilancia durante la temporada alta para la seguridad de los bañistas.</li>
-            <li class="my-4"><span class="highlight">Accesibilidad:</span> <br>Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas de madera.</li>
-            <li class="my-4"><span class="highlight">Duchas y baños:</span> <br>Instalaciones disponibles a lo largo de la playa para comodidad de los visitantes.</li>
-
+<div class="info-box">
+    <ul class="list-unstyled">    
+        <li class="my-4">
+            <i class="fas fa-life-ring" style="color: #3498db;"></i> 
+            <span class="highlight">Socorristas:</span><br>
+            Servicio de vigilancia durante la temporada alta para garantizar la seguridad de los bañistas.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-wheelchair" style="color: #e67e22;"></i> 
+            <span class="highlight">Accesibilidad:</span><br>
+            Acceso adaptado para personas con movilidad reducida, con rampas y pasarelas de madera.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-shower" style="color: #1abc9c;"></i> 
+            <span class="highlight">Duchas y baños:</span><br>
+            Instalaciones disponibles a lo largo de la playa para la comodidad de los visitantes.
+        </li>
 '; ?>
-
-
-
-
 
 <?php $li_services2 = '
-            <li class="my-4"><span class="highlight">Aparcamiento:</span> <br>Amplias zonas de aparcamiento cerca de la playa, incluyendo espacios reservados para discapacitados.</li>
-            <li class="my-4"><span class="highlight">Alquiler de equipos:</span><br> Disponibilidad de alquiler de sombrillas, hamacas y equipos para deportes acuáticos.</li>
-            <li class="my-4"><span class="highlight">Chiringuitos:</span><br> Varias opciones de chiringuitos y restaurantes para disfrutar de bebidas y comidas frente al mar.</li>
-        </ul>
-    </div>
-'; ?>
-
-
-<?php $caja_caracteristicas = '
-<h4 class="section-header">Características de la Playa de Suances</h4>
-<div class="info-box">
-    <ul>
-        <li>Arena fina y dorada.</li>
-        <li>Longitud: aproximadamente 1,200 metros.</li>
-        <li>Anchura: hasta 200 metros en marea baja.</li>
-        <li>Mar con oleaje moderado, ideal para el surf y otros deportes acuáticos.</li>
-        <li>Entorno natural flanqueado por acantilados y colinas verdes.</li>
-        <li>Servicios: duchas, aseos, socorristas, chiringuitos, y pasarelas de acceso.</li>
-        <li>Acceso adaptado para personas con movilidad reducida.</li>
-        <li>Accesibilidad: fácil acceso con aparcamiento cercano y buenas conexiones de transporte.</li>
-        <li>Actividades: surf, paddle surf, pesca, senderismo y paseos por el litoral.</li>
+        <li class="my-4">
+            <i class="fas fa-parking" style="color: #9b59b6;"></i> 
+            <span class="highlight">Aparcamiento:</span><br>
+            Amplias zonas de aparcamiento cerca de la playa, incluyendo espacios reservados para personas con discapacidad. 
+            Nota: A partir del verano de 2025, se implementará la Ordenanza Reguladora de Aparcamiento (ORA) en 2.800 plazas de primera línea de playa, con una tarifa de 0,65 euros por hora para visitantes durante el verano y Semana Santa. 
+            <a href="https://cadenaser.com/cantabria/2025/04/02/suances-establecera-la-ora-en-2800-plazas-de-aparcamiento-de-primera-linea-de-playa-ser-torrelavega/" title="Información sobre la ORA en Suances" target="_blank" rel="noopener noreferrer">Más información</a>.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-umbrella-beach" style="color: #f39c12;"></i> 
+            <span class="highlight">Alquiler de equipos:</span><br>
+            Disponibilidad de alquiler de sombrillas, hamacas y equipos para deportes acuáticos.
+        </li>
+        <li class="my-4">
+            <i class="fas fa-cocktail" style="color: #e74c3c;"></i> 
+            <span class="highlight">Chiringuitos:</span><br>
+            Varias opciones de chiringuitos y restaurantes para disfrutar de bebidas y comidas frente al mar.
+        </li>
     </ul>
 </div>
 '; ?>
 
+
+<?php $faq = '
+    <dl>
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Qué actividades se pueden realizar en la Playa de Suances?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes disfrutar de <a href="/surf-en-cantabria/" title="Surf en Cantabria">surf</a>, <a href="/kayak-en-cantabria/" title="Kayak en Cantabria">kayak</a>, <a href="/senderismo-en-cantabria/" title="Senderismo en Cantabria">senderismo</a> y <a href="/snorkel-en-cantabria/" title="Snorkel en Cantabria">snorkel</a> en sus aguas cristalinas y entorno natural. :contentReference[oaicite:7]{index=7}</dd>
+
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿La playa es adecuada para familias con niños?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, la Playa de Suances es ideal para familias, ya que cuenta con aguas tranquilas, servicios de vigilancia y zonas de juegos infantiles. :contentReference[oaicite:8]{index=8}</dd>
+
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Existen escuelas de deportes acuáticos en la zona?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, hay varias escuelas que ofrecen clases y alquiler de equipos para surf, kayak y paddle surf. :contentReference[oaicite:9]{index=9}</dd>
+
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde puedo obtener más información turística sobre Suances?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes visitar la <a href="https://www.suances.net/" title="Oficina de Turismo de Suances" target="_blank" rel="noopener noreferrer">Oficina de Turismo de Suances</a> para obtener información detallada sobre actividades, alojamientos y eventos locales. :contentReference[oaicite:10]{index=10}</dd>
+    </dl>
+'; ?>
+
 <?php $caja_eventosYfestividades = '
-<h4>Eventos y Festividades de Suances</h4>
+<h4><i class="fas fa-calendar-alt" style="color: #e67e22;"></i> Eventos y Festividades de Suances</h4>
 <ul>
-    <li class="my-4"><strong>Fiestas de Nuestra Señora del Carmen:</strong><br> Celebradas en julio, con una tradicional procesión marítima y diversas actividades festivas en la localidad.</li>
-    <li class="my-4"><strong>Fiesta del Marisco:</strong><br> En septiembre, Suances acoge una fiesta gastronómica dedicada al marisco, con degustaciones y actividades culturales.</li>
-    <li class="my-4"><strong>Festival Internacional de Cortometrajes de Suances:</strong><br> En agosto, este festival reúne a cineastas de todo el mundo para presentar sus cortometrajes y documentales.</li>
-    <li class="my-4"><strong>Conciertos de Verano en Suances:</strong><br> Durante los meses de verano, se celebran conciertos al aire libre en diversas plazas y espacios de la localidad, con música en vivo para todos los gustos.</li>
+    <li class="my-4">
+        <i class="fas fa-anchor" style="color: #2980b9;"></i> 
+        <strong>Fiestas de Nuestra Señora del Carmen:</strong><br>
+        Celebradas el <time datetime="2025-07-16">16 de julio</time>, incluyen una emotiva procesión marítima por la Ría San Martín y diversas actividades culturales y religiosas. 
+        <a href="https://suances.es/suances-celebra-sus-fiestas-del-carmen-con-un-completo-programa-de-actividades/" title="Fiestas del Carmen en Suances" target="_blank" rel="noopener noreferrer">Más información</a>.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-utensils" style="color: #c0392b;"></i> 
+        <strong>Jornadas del Marisco:</strong><br>
+        En septiembre, Suances celebra estas jornadas gastronómicas donde el marisco es el protagonista, ofreciendo degustaciones y actividades culturales. 
+        <a href="https://turismodecantabria.com/proximamente-evento/jornadas-del-marisco/" title="Jornadas del Marisco en Suances" target="_blank" rel="noopener noreferrer">Más información</a>.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-film" style="color: #8e44ad;"></i> 
+        <strong>Festival Internacional de Cortometrajes de Torrelavega:</strong><br>
+        Aunque se celebra en la cercana localidad de Torrelavega, este festival en agosto atrae a cineastas de todo el mundo y es de interés para los visitantes de Suances. 
+        <a href="https://festhome.com/es/festival/festival-internacional-de-cortometrajes-de-torrelavega" title="Festival Internacional de Cortometrajes de Torrelavega" target="_blank" rel="noopener noreferrer">Más información</a>.
+    </li>
+    <li class="my-4">
+        <i class="fas fa-music" style="color: #27ae60;"></i> 
+        <strong>Festival de Música Villa de Suances:</strong><br>
+        Durante el verano, la Plaza de la Playa de La Concha acoge este festival con actuaciones de bandas locales e invitadas, ofreciendo música en vivo para todos los públicos. 
+        <a href="https://turismodecantabria.com/proximamente-evento/iv-festival-de-musica-villa-de-suances/" title="Festival de Música Villa de Suances" target="_blank" rel="noopener noreferrer">Más información</a>.
+    </li>
 </ul>
 '; ?>
 

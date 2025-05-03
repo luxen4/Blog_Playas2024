@@ -1,9 +1,9 @@
 <!-- Servicios Generico-->
 <section id="servicios"><hr>
     <header>
-        <h2 class="section-header mb-4">
+        <h5 class="section-header mb-4">
             <i class="fas fa-cogs" style="color: #007bff;"></i> Servicios en la Playa de <?= $localidad; ?> <time datetime="2025-05-02">[Actualizado mayo 2025]</time>
-        </h2>
+        </h5>
     </header>
         <div class="info-box">
             <ul class="list-unstyled">

@@ -31,7 +31,7 @@ $li_descripcion_detallada2 = '
 </ul>
 ';
 
- $li_descripcion_detallada3 = '
+$li_descripcion_detallada3 = '
 <h2>Consejos para los Visitantes</h2>
 <ul>
     <li class="my-4">

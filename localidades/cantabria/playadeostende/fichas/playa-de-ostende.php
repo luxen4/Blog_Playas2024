@@ -26,8 +26,6 @@ $pinterest_property_card_title_content = 'Playa de Ostende - Información y Turi
 $pinterest_property_card_description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
 $pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg';
 
-$href_styles = './../fichas/css/styles.css';
-
 
 ////////
 // Para el archivo Structured_data_generico.php

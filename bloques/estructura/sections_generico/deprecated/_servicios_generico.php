@@ -1,5 +1,5 @@
 <!-- Servicios Generico-->
-<section id="servicios_playa_de_<?= $localidad; ?>"><hr>
+<section id="servicios"><hr>
     <header>
         <h2 class="section-header mb-4">
             <i class="fas fa-cogs" style="color: #007bff;"></i> Servicios en la Playa de <?= $localidad; ?> <time datetime="2025-05-02">[Actualizado mayo 2025]</time>

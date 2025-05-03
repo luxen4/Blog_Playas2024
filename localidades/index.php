@@ -4,7 +4,7 @@
         <?php include 'localidades/presentacion.php'; ?>
         <?php
         if ($_SERVER['SERVER_NAME'] == 'localhost') { ?>
-            <a href="<?php $_SERVER['SERVER_NAME']; ?> /Blog_Playas2024/localidades/<?= $region . '/' . $carpeta; ?>/fichas/<?= $archivo_name; ?>.php" target="_blank">Más info</a>
+            <a href="<?php $_SERVER['SERVER_NAME']; ?> /Blog_Playas2024/localidades/<?= $region . '/' . $carpeta; ?>/fichas/<?= $archivo_name; ?>.php">Más info</a>
         <?php
         } else { ?>
             <a href="./localidades/<?= $region . '/' . $carpeta; ?>/fichas/<?= $archivo_name; ?>.php" target="_blank">Más info</a>

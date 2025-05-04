@@ -1,6 +1,6 @@
 <!-- informacion_general -->
 <section id="actividades"><hr>    
-    <h2><i class="fas fa-map-marked-alt" style="color: #2ecc71;"></i> Actividades recomendadas en la Playa de <?= $localidad; ?> (<?= $region; ?>) </h2>
+    <h5><i class="fas fa-map-marked-alt" style="color: #2ecc71;"></i> Actividades recomendadas en la Playa de <?= $localidad; ?> (<?= $region; ?>) </h5>
 
 
     <?= $li_actividades_recomendadas; ?>

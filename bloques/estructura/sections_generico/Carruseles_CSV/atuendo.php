@@ -35,8 +35,9 @@
         ?>
     </div>
     <div class="text-left">
-                    <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
-                </div>
+        <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
+    </div>
+
 </div>
 
 <style>
@@ -47,8 +48,8 @@
 
 .image_atuendo {
         border-radius: 1em !important;
-        padding: 0.5em !important;
-        margin: 1em !important;
+       /* padding: 0.25em !important;*/
+        margin: 0.5em !important;
         max-height: 22em !important;
         overflow: hidden;
         display: flex;
@@ -69,7 +70,7 @@
     .image_atuendo {
         border-radius: 1em !important;
         padding: 0.1em !important;
-        margin: 1em !important;
+        margin: 0.25em !important;
         max-height: 11em !important;
         overflow: hidden;
         display: flex;
@@ -83,11 +84,29 @@
         object-fit: contain;
         display: block;
     }
+    .image_izda {
+    border-radius: 1em !important;
+    padding: 0.3em !important;
+    margin: 0.3em auto !important;
+    min-height: 10.70em !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    
+}
+
+    .image_izda img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+}
+    
 }
 .image_izda{
-    border-radius: 1em !important; padding: 0.25em !important;  padding: 1em !important; margin-top: 1em !important; margin-left: 1em !important; margin-bottom: 1em !important; 
-
-
+    border-radius: 1em !important; padding: 0.25em !important;  padding: 0.25em !important; margin-top: 0.1em !important; margin-left: 0.1em !important; margin-bottom: 0.1em !important; 
 }
 
 </style>

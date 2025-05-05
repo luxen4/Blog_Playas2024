@@ -3,7 +3,7 @@
         <div class="col-xl-2 text-center col-lg-1 col-md-1"></div>
 
         <div class="col-xl-7 text-center col-lg-10 col-md-10 col-sm-12 col-12">
-            <h6 class="text-publicidad">Publicidaddddd</h6>
+            <h6 class="text-publicidad">Publicidad</h6>
 
             <?php 
             // Verificamos el tipo de publicidad

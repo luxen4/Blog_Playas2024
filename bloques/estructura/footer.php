@@ -7,7 +7,7 @@
 
         <div class="row justify-content-center text-center">
             <!-- Cantabria -->
-            <div class="col-lg-3 col-md-6 col-sm-6 mb-4 border-end-light">
+            <div class="col-lg-3 col-md-6 col-sm-6 mb-4 border-start-light border-end-light">
                 <h4>Cantabria</h4>
                 <div class="row justify-content-center">
                     <div class="col-4 ">
@@ -97,7 +97,12 @@
         padding: 20px 0; /* Agregar padding superior e inferior */
     }
 
+    .border-start-light{
+        border-left: 1px solid #ddd;
+    }
+
     .border-end-light {
+
         border-right: 1px solid #ddd;
     }
 

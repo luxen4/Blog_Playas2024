@@ -42,7 +42,7 @@ $mainEntity_addressCountry = 'España';
 $mainEntity_geo_latitude = 43.4693; // Actualiza según la ubicación correcta
 $mainEntity_geo_longitude = -3.5002; // Actualiza según la ubicación correcta
 
-$mainEntity_image = 'https://example.com/path/to/ostende-image.jpg'; // Reemplaza con la imagen correcta
+$mainEntity_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg'; // Reemplaza con la imagen correcta
 $mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 

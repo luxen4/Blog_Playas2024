@@ -15,7 +15,7 @@ $numeroAleatorio = 8;
 
 ?>
 
-<?php require "carrusel_auxiliar1.php"; ?>
+<?php // require "carrusel_auxiliar1.php"; ?>
 
 <div class="container carrusel_auxiliar1">
     <div class="row" style="max-width: 1300px; margin:auto;">

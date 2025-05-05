@@ -1,5 +1,5 @@
-
-
+<!-- Sección de Descripción detallada -->
+<hr> 
 <section id ="informacion_general">
     <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_chaquetas_hombre.php'; ?>
     <h2  class="section-header text-center"></h2>

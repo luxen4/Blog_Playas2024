@@ -35,7 +35,7 @@ $li_encabezado = '
 <?php
 $li_descripcion_detallada = '
 <section id="descripcion-ostende" class="seccion-descripcion container py-4">
-  <h2><i class="fas fa-water" style="color: #3498db;"></i> Descubre la Playa de Ostende en Cantabria</h2>
+  <h5><i class="fas fa-water" style="color: #3498db;"></i> Descubre la Playa de Ostende en Cantabria</h5>
   <p class="section-content">
     La <strong>Playa de Ostende</strong>, ubicada en <strong>Castro-Urdiales</strong>, Cantabria, es un destino ideal para los amantes de la naturaleza, las actividades acuáticas y el sol. Su arena dorada y aguas tranquilas la convierten en un lugar perfecto para disfrutar con familia y amigos.
   </p>
@@ -43,7 +43,7 @@ $li_descripcion_detallada = '
     <i class="fas fa-tree" style="color: #2ecc71;"></i> Con vistas espectaculares al mar Cantábrico, Ostende se encuentra rodeada de hermosos acantilados y vegetación local, lo que crea un ambiente único para quienes buscan relajación o diversión al aire libre.
   </p>
 
-  <h3><i class="fas fa-shield-alt" style="color: #2980b9;"></i> Seguridad y Accesibilidad</h3>
+  <h5><i class="fas fa-shield-alt" style="color: #2980b9;"></i> Seguridad y Accesibilidad</h5>
   <ul>
     <li class="my-4">
       <i class="fas fa-life-ring" style="color: #e74c3c;"></i> <strong>Socorristas profesionales</strong> en temporada alta. La playa está vigilada y bien señalizada para garantizar la seguridad de todos los visitantes.
@@ -57,7 +57,7 @@ $li_descripcion_detallada = '
 
 $li_descripcion_detallada2 = '
 <section id="actividades-ostende" class="container py-4">
-  <h3><i class="fas fa-sun" style="color: #f1c40f;"></i> Actividades y Diversión en la Playa de Ostende</h3>
+  <h5><i class="fas fa-sun" style="color: #f1c40f;"></i> Actividades y Diversión en la Playa de Ostende</h5>
   <p class="section-content">
     La <strong>Playa de Ostende</strong> es famosa por ser uno de los mejores lugares para practicar <strong>deportes acuáticos</strong> en Cantabria. Puedes disfrutar del <strong>surf, paddle surf, windsurf</strong>, o simplemente relajarte y disfrutar de las hermosas vistas al mar.
   </p>
@@ -72,7 +72,7 @@ $li_descripcion_detallada2 = '
 
 $li_descripcion_detallada3 = '
 <section id="consejos-visita-ostende" class="container py-4">
-  <h3><i class="fas fa-info-circle" style="color: #2980b9;"></i> Consejos Útiles para tu Visita a la Playa de Ostende</h3>
+  <h5><i class="fas fa-info-circle" style="color: #2980b9;"></i> Consejos Útiles para tu Visita a la Playa de Ostende</h5>
   <ul>
     <li class="my-4">
       <i class="fas fa-calendar-day" style="color: #27ae60;"></i> <strong>¿Cuándo visitar?</strong><br>
@@ -113,7 +113,7 @@ $li_mapa_ubicacion = '
     </li>
   </ul>
 
-  <h3>🗺️ Ubicación exacta de la Playa de Ostende en el mapa</h3>
+  <h5>🗺️ Ubicación exacta de la Playa de Ostende en el mapa</h5>
   <p>Puedes ver su localización exacta a continuación para planificar tu ruta fácilmente:</p>
 
   <div class="map-responsive">
@@ -176,15 +176,7 @@ $li_actividades_recomendadas2 = '
 
 $li_actividades_recomendadas3 = '
   <section class="faq mt-4">
-    <h3><i class="fas fa-question-circle"></i> Preguntas frecuentes</h3>
-    <dl>
-      <dt>¿Dónde practicar surf en Ostende?</dt>
-      <dd>En la misma playa, hay escuelas con instructores titulados y zonas seguras para principiantes.</dd>
-      <dt>¿Hay rutas de senderismo señalizadas cerca de la playa?</dt>
-      <dd>Sí, destacan el paseo de la Atalaya y los senderos hacia Mioño y Cerdigo.</dd>
-      <dt>¿Se pueden reservar excursiones en barco por internet?</dt>
-      <dd>Sí, puedes hacerlo en agencias locales o a través de plataformas como Civitatis o GetYourGuide.</dd>
-    </dl>
+
     <p class="mt-3">¿Buscas más opciones para tu viaje? <a href="/playas-de-cantabria/" title="Otras playas en Cantabria">Descubre otras playas en Cantabria</a> y organiza tu escapada ideal.</p>
 
 ';
@@ -278,6 +270,34 @@ $li_services3 = '
 </section>
 ';
 ?>
+
+<?php $faq = '
+<dl>
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Qué actividades se pueden disfrutar en la Playa de Ostende?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> En la Playa de Ostende puedes practicar <a href="/surf-en-cantabria/" title="Surf en Cantabria">surf</a>, <a href="/paseos-por-el-paseo-marítimo/" title="Paseos marítimos en Cantabria">paseos junto al mar</a> y <a href="/pesca-en-cantabria/" title="Pesca en Cantabria">pesca deportiva</a>, todo ello rodeado de un paisaje costero espectacular.</dd>
+
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Cuándo es la mejor época para visitar la Playa de Ostende?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> La mejor época para visitarla es entre <time datetime="2025-06">junio</time> y <time datetime="2025-09">septiembre</time>, cuando el clima es más cálido y las condiciones del mar son óptimas para el baño y el surf.</dd>
+
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Es una playa adecuada para familias?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, Ostende es perfecta para familias: cuenta con servicios de socorrismo, duchas, pasarelas de acceso y aguas tranquilas en muchos tramos.</dd>
+
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Hay aparcamiento disponible cerca?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, hay varias zonas de <a href="/aparcamientos-en-castro-urdiales/" title="Dónde aparcar en Castro Urdiales">aparcamiento público</a> cerca de la playa, especialmente en el entorno del paseo marítimo.</dd>
+
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde encontrar más información turística sobre Castro Urdiales?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes consultar la <a href="https://www.castro-urdiales.net/turismo" target="_blank" rel="noopener noreferrer" title="Turismo de Castro Urdiales">web oficial de turismo de Castro Urdiales</a> para conocer alojamientos, rutas y eventos actualizados.</dd>
+
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde practicar surf en Ostende?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> En la misma playa, hay escuelas con instructores titulados y zonas seguras para principiantes.</dd>
+
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Hay rutas de senderismo señalizadas cerca de la playa?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, destacan el paseo de la Atalaya y los senderos hacia Mioño y Cerdigo, con vistas espectaculares al Cantábrico.</dd>
+
+    <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Se pueden reservar excursiones en barco por internet?</dt>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, puedes hacerlo en agencias locales o a través de plataformas como <a href="https://www.civitatis.com/" target="_blank" rel="noopener noreferrer" title="Excursiones con Civitatis">Civitatis</a> o <a href="https://www.getyourguide.es/" target="_blank" rel="noopener noreferrer" title="Excursiones con GetYourGuide">GetYourGuide</a>.</dd>
+</dl>
+'; ?>
 
 
 <?php $caja_caracteristicas = '

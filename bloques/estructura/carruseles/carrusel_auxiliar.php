@@ -54,10 +54,7 @@
 </div>
 
 <style>
-    .carrusel_auxiliar1 {
-        margin-top: 3em;
-        margin-bottom: 3em;
-    }
+
 
     .carrusel_auxiliar1 .custom-carousel-image-container {
         border: 1px solid #ccc;
@@ -72,19 +69,6 @@
         margin-right: 0;
     }
 
-    .carrusel_auxiliar1 .col-xl-6,
-    .carrusel_auxiliar1 .col-lg-6,
-    .carrusel_auxiliar1 .col-md-6,
-    .carrusel_auxiliar1 .col-sm-6,
-    .carrusel_auxiliar1 .col-6 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .text-publicidad {
-        text-align: left;
-        color: lightgray;
-    }
 
     .carousel-item {
         transition: transform 1s ease-in-out;

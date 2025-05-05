@@ -41,10 +41,41 @@
  #left-empty-column h5 {
     color: #1F5B83;
  }
-li a{
 
-/*color: red;*/
-}
+
+    
+    .carrusel_auxiliar1 .custom-carousel-image-container {
+        border: 1px solid #ccc;/* Color y grosor del borde */
+        border-radius: 2px;/* Radio para bordes redondeados */
+        overflow: hidden; /* Para asegurar que las esquinas redondeadas se mantengan */
+        margin: 0.05em;/* Sin margen entre las imágenes */
+        padding: 0;/* Sin padding */
+    }
+
+    .carrusel_auxiliar1 .row {
+        margin-left: 0;
+        /* Quitar margen izquierdo */
+        margin-right: 0;
+        /* Quitar margen derecho */
+    }
+
+    /* Eliminar padding en columnas */
+    .carrusel_auxiliar1 .col-xl-6,
+    .carrusel_auxiliar1 .col-lg-6,
+    .carrusel_auxiliar1 .col-md-6,
+    .carrusel_auxiliar1 .col-sm-6,
+    .carrusel_auxiliar1 .col-6 {
+        padding-left: 0;
+        /* Sin padding izquierdo */
+        padding-right: 0;
+        /* Sin padding derecho */
+    }
+
+
+    .text-publicidad {
+        text-align: left;
+        color: lightgray;
+    }
 
 </style>
 

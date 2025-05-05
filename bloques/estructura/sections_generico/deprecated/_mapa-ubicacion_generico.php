@@ -1,4 +1,5 @@
 <!-- Sección de Acceso y Cómo Llegar -->
+<hr> 
 <section id="ubicacion"><hr> 
 
     <div class="info-box">

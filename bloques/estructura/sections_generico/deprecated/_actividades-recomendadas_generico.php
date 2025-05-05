@@ -1,5 +1,6 @@
-<!-- informacion_general -->
-<section id="actividades"><hr>    
+<!-- Sección de Informacion_general -->
+ <hr>  
+<section id="actividades">  
     <h5><i class="fas fa-map-marked-alt" style="color: #2ecc71;"></i> Actividades recomendadas en la Playa de <?= $localidad; ?> (<?= $region; ?>) </h5>
 
 

@@ -46,11 +46,11 @@ $mainEntity_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeos
 $mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
-require "./../../../../bloques/estructura/head.php"; ?>
+    require "./../../../../bloques/estructura/head.php"; ?>
 
 <body>
     <?php $page = 'playade' . $localidad_minuscula; ?>
-    <?php require "./sections/info.php"; ?>    
+    <?php require "./info.php"; ?>    
     <?php require "./../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 

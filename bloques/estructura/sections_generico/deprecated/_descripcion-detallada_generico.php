@@ -16,5 +16,7 @@
     if (isset($li_descripcion_detallada3)) {
         echo($li_descripcion_detallada3);
         require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo.php'; 
+
+        require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo2.php'; 
     }?>
 </section>       

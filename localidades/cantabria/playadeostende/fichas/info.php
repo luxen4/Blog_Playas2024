@@ -1,4 +1,6 @@
 <?php 
+
+
 $nombre_playa = 'playa-de-ostende';
 $localidad = 'Ostende';  
 $region = 'cantabria';  

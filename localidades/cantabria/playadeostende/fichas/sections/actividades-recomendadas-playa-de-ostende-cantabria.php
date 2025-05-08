@@ -33,15 +33,9 @@ $li_actividades_recomendadas2 = '
 
 $li_actividades_recomendadas3 = '
   <section class="faq mt-4">
-
-    <p class="mt-3">¿Buscas más opciones para tu viaje? <a href="/playas-de-cantabria/" title="Otras playas en Cantabria">Descubre otras playas en Cantabria</a> y organiza tu escapada ideal.</p>
-
-
   <div class="text-center mt-4">
     <h5>¿Quieres descubrir más actividades en Cantabria?</h5>
     <a href="./caracteristicas-playa-de-ostende-cantabria.php" class="btn btn-primary mt-2">Consulta esta guía de experiencias</a>
   </div>
-
-
 ';
 ?>

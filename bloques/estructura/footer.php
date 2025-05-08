@@ -8,7 +8,7 @@
         <div class="row justify-content-center text-center">
             <!-- Cantabria -->
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4 border-start-light border-end-light">
-                <h4>Cantabria</h4>
+                <h6>Cantabria</h6>
                 <div class="row justify-content-center">
                     <div class="col-4 ">
                         <h6><strong><a href="https://turismo.santander.es/oficinas-de-turismo">Santander</a></strong></h6>
@@ -27,7 +27,7 @@
 
             <!-- Vizcaya -->
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4 border-end-light">
-                <h4>Vizcaya</h4>
+                <h6>Vizcaya</h6>
                 <div class="row justify-content-center">
                     <div class="col-4">
                         <h6><strong><a href="https://turismo.euskadi.eus/es/oficinas-turismo/oficina-de-turismo-de-san-sebastian/aa30-12375/es/">San Sebastián</a></strong></h6>
@@ -44,7 +44,7 @@
 
             <!-- Guipúzcoa -->
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4 border-end-light">
-                <h4>Guipúzcoa</h4>
+                <h6>Guipúzcoa</h6>
                 <div class="row justify-content-center">
                     <div class="col-4 ">
                         <h6><strong><a href="https://zumaia.eus/es/turismo/zumaia-turismo/oficina-de-turismo">Zumaia</a></strong></h6>
@@ -61,7 +61,7 @@
 
             <!-- Francia -->
             <div class="col-lg-3 col-md-6 col-sm-6 mb-4 border-end-light">
-                <h4>Francia</h4>
+                <h6>Francia</h6>
                 <div class="row justify-content-center">
                     <div class="col-4 ">
                         <h6><strong><a href="https://www.hendaye-tourisme.fr/es/">Hendaya</a></strong></h6>

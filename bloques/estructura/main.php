@@ -1,157 +1,12 @@
 <!-- Contenido principal -->
-
-
-<style>
-#left-empty-column a.nav-link {
-  color: #333; /* Color inicial del texto */
-  padding: 0.5rem 1rem;
-  display: block;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 4px;
-}
-
-#left-empty-column a.nav-link:hover {
-  background-color: #ffe9b3; /* Color tipo sol suave / arena clara */
-  color: #000; /* Color más oscuro para contraste */
-}
-
-.main-content {
-  margin-left: 220px; /* ajusta según el ancho del sidebar */
-}
-
-
-
-@media (max-width: 1300px) {
-  #left-empty-column, #right-column {
-    display: none;
-  }
-}
-
-#left-empty-column, #right-column{
-    padding: 1rem;
-}
-
-@media (max-width: 1399.98px) {
-  #left-empty-column .nav-link {
-    font-size: 0.75rem; /* Aproximadamente 14px */
-  }
-}
-
- #left-empty-column h5 {
-    color: #1F5B83;
- }
-
-
-    
-    .carrusel_auxiliar1 .custom-carousel-image-container {
-        border: 1px solid #ccc;/* Color y grosor del borde */
-        border-radius: 2px;/* Radio para bordes redondeados */
-        overflow: hidden; /* Para asegurar que las esquinas redondeadas se mantengan */
-        margin: 0.05em;/* Sin margen entre las imágenes */
-        padding: 0;/* Sin padding */
-    }
-
-    .carrusel_auxiliar1 .row {
-        margin-left: 0;
-        /* Quitar margen izquierdo */
-        margin-right: 0;
-        /* Quitar margen derecho */
-    }
-
-    /* Eliminar padding en columnas */
-    .carrusel_auxiliar1 .col-xl-6,
-    .carrusel_auxiliar1 .col-lg-6,
-    .carrusel_auxiliar1 .col-md-6,
-    .carrusel_auxiliar1 .col-sm-6,
-    .carrusel_auxiliar1 .col-6 {
-        padding-left: 0;
-        /* Sin padding izquierdo */
-        padding-right: 0;
-        /* Sin padding derecho */
-    }
-
-
-    .text-publicidad {
-        text-align: left;
-        color: lightgray;
-    }
-
-</style>
-
-
-
-
 <div style="padding: 0px;" class="container">
     <div class="row"> <!-- Añadido el contenedor de fila -->
 
-    <div id="left-empty-column" class="d-none d-lg-block col-xl-3 col-lg-3 col-md-2 col-sm-2 content-wrapper">
+        <div id="left-empty-column" class="d-none d-lg-block col-xl-2 col-lg-3 col-md-2 col-sm-2 content-wrapper">
+            <?php require 'barra_navegacion.php'; ?>
+        </div>
 
-    <nav  aria-label="Navegación lateral de secciones de la playa">
-        <h5 class="text-uppercase fw-bold mb-3">
-            <i class="fas fa-map-signs me-2" style="color: #3498db;"> </i> Navegación
-        </h5>
-        <ul class="navbar-nav mx-auto">
-            <li>
-                <a class="nav-link text-black" href="./../../../../index.php">
-                    <i class="fas fa-globe-europe me-1"></i> Todas Playas por Zonas
-                </a>
-            </li>
-            <li>
-                <a class="nav-link text-black" href="#informacion_general">
-                    <i class="fas fa-info-circle me-1"></i> Información General
-                </a>
-            </li>
-            <li>
-                <a class="nav-link text-black" href="#ubicacion">
-                    <i class="fas fa-map-marker-alt me-1"></i> Ubicación
-                </a>
-            </li>
-            <li>
-                <a class="nav-link text-black" href="#actividades">
-                    <i class="fas fa-swimmer me-1"></i> Actividades
-                </a>
-            </li>
-            <li>
-                <a class="nav-link text-black" href="#servicios">
-                    <i class="fas fa-concierge-bell me-1"></i> Servicios
-                </a>
-            </li>
-            <li>
-                <a class="nav-link text-black" href="#galeria">
-                    <i class="fas fa-images me-1"></i> Galería
-                </a>
-            </li>
-            <li>
-                <a class="nav-link text-black" href="#masinfo">
-                    <i class="fas fa-address-book me-1"></i> Más Información
-                </a>
-            </li>
-            <li>
-                <a class="nav-link text-black" href="./../../../../bloques/amazon_interfaz_enlaces.php">
-                    <i class="fas fa-link me-1"></i> Interfaz
-                </a>
-            </li>
-        </ul>
-</nav>
-<?php //require './../../../../bloques/estructura/sections_generico/deprecated/_preguntas_frecuentes.php'; ?>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div id="central-column" class="col-xl-6 col-lg-9 col-md-12 col-sm-12 col-12 content-wrapper">
+        <div id="central-column" class="col-xl-7 col-lg-9 col-md-12 col-sm-12 col-12 content-wrapper">
             <main>
                 <?php require './../../../../bloques/estructura/sections_generico/deprecated/_encabezado_generico.php'; ?>
                 <?php require './../../../../bloques/estructura/sections_generico/deprecated/_descripcion-detallada_generico.php'; ?>
@@ -176,18 +31,13 @@
         </div>
 
 
-
-
         <div id="right-column" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 content-wrapper"> 
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
-
-
-
-
         </div>
 
-    </div> <!-- Fin del contenedor de fila -->
+
+    </div> 
 </div>
 
 
@@ -259,4 +109,7 @@
     if (!empty($li_mas_info3)) {
         $li_variable3 = $li_mas_info3;
     }*/
+
+    
 ?>
+<?php //require './../../../../bloques/estructura/sections_generico/deprecated/_preguntas_frecuentes.php'; ?>

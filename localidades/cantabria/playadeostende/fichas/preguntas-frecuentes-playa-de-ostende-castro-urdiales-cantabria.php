@@ -63,12 +63,6 @@
       </dl>
     </div>
 
-    <div class="text-center mt-4">
-      <h5>¿Quieres saber más sobre la Playa de Ostende?</h5>
-      <a href="./caracteristicas-playa-de-ostende-cantabria.php" class="btn btn-primary mt-2">
-        <i class="fas fa-arrow-right me-2"></i>Consulta esta guía completa
-      </a>
-    </div>
   </div>
 </section>
 

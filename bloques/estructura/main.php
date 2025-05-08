@@ -134,7 +134,7 @@
             </li>
         </ul>
 </nav>
-<?php require './../../../../bloques/estructura/sections_generico/deprecated/_preguntas_frecuentes.php'; ?>
+<?php //require './../../../../bloques/estructura/sections_generico/deprecated/_preguntas_frecuentes.php'; ?>
 
 
 </div>
@@ -163,6 +163,12 @@
                 <?php require './../../../../bloques/estructura/sections_generico/deprecated/_servicios_generico.php'; ?>
                     <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
                 <?php require './../../../../bloques/estructura/sections_generico/galeria-imagenes_generico.php'; ?>
+                <?php require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
+
+                <?php require './../../../../bloques/estructura/sections_generico/deprecated/_preguntas_frecuentes.php'; ?>
+
+
+
                 <?php require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; ?>
                     <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_jeans_man.php'; ?>
 
@@ -173,8 +179,8 @@
 
 
         <div id="right-column" class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 content-wrapper"> 
-            <?php require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
-            <?php require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
+            <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
+            <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
 
 
 

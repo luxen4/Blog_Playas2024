@@ -1,5 +1,5 @@
 
-<?php $faq = '
+<?php /*$faq = '
 <dl>
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Qué actividades se pueden disfrutar en la Playa de Ostende?</dt>
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> En la Playa de Ostende puedes practicar <a href="/surf-en-cantabria/" title="Surf en Cantabria">surf</a>, <a href="/paseos-por-el-paseo-marítimo/" title="Paseos marítimos en Cantabria">paseos junto al mar</a> y <a href="/pesca-en-cantabria/" title="Pesca en Cantabria">pesca deportiva</a>, todo ello rodeado de un paisaje costero espectacular.</dd>
@@ -25,4 +25,17 @@
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Se pueden reservar excursiones en barco por internet?</dt>
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, puedes hacerlo en agencias locales o a través de plataformas como <a href="https://www.civitatis.com/" target="_blank" rel="noopener noreferrer" title="Excursiones con Civitatis">Civitatis</a> o <a href="https://www.getyourguide.es/" target="_blank" rel="noopener noreferrer" title="Excursiones con GetYourGuide">GetYourGuide</a>.</dd>
 </dl>
-'; ?>
+
+
+
+'; */?>
+
+<?php $faq = '
+<div class="text-center mt-4">
+  <h5>¿Tienes más dudas sobre la Playa de Ostende?</h5>
+  <a href="./preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria.php" class="btn btn-primary mt-2">
+    Consulta todas las preguntas frecuentes
+  </a>
+</div>
+
+';?>

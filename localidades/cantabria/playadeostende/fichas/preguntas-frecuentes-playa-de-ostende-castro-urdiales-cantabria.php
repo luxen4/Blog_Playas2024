@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ - Playa de Ostende</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .faq-section {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    dt {
+      font-weight: bold;
+      margin-top: 20px;
+      color: #2c3e50;
+    }
+    dd {
+      margin-bottom: 20px;
+    }
+    i.fas {
+      margin-right: 8px;
+    }
+    .faq-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<section class="py-5">
+  <div class="container">
+    <header class="faq-header">
+      <h2 class="text-primary">❓ Preguntas Frecuentes - Playa de Ostende</h2>
+      <p class="lead">Información clave para aprovechar tu visita a una de las mejores playas de Castro-Urdiales</p>
+    </header>
+
+    <div class="faq-section">
+      <dl>
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Cómo es la arena de la Playa de Ostende?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Tiene arena fina y dorada, ideal para caminar descalzo o para juegos infantiles.</dd>
+
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Está adaptada para personas con movilidad reducida?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Sí, cuenta con accesos adaptados, pasarelas, baños accesibles y zonas reservadas.</dd>
+
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Qué deportes se pueden practicar en esta playa?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes practicar <a href="/surf-en-cantabria/" title="Surf en Cantabria">surf</a>, paddle surf, pesca recreativa y realizar rutas por el litoral cantábrico.</dd>
+
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Qué servicios hay disponibles?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Dispone de duchas, aseos, vigilancia, chiringuitos, parque infantil y aparcamiento cercano.</dd>
+
+        <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde puedo ver más información sobre esta playa?</dt>
+        <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Visita nuestra <a href="./caracteristicas-playa-de-ostende-cantabria.php" title="Guía Playa de Ostende">guía completa de la Playa de Ostende</a> para conocer todas sus características.</dd>
+      </dl>
+    </div>
+
+    <div class="text-center mt-4">
+      <h5>¿Quieres saber más sobre la Playa de Ostende?</h5>
+      <a href="./caracteristicas-playa-de-ostende-cantabria.php" class="btn btn-primary mt-2">
+        <i class="fas fa-arrow-right me-2"></i>Consulta esta guía completa
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

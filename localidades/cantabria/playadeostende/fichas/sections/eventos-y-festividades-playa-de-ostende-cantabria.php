@@ -27,7 +27,4 @@
       Mercadillos con artesanía local, gastronomía típica cántabra y productos de proximidad, ideales para disfrutar en familia.
     </li>
   </ul>
-
-  <p>¿Quieres descubrir más actividades en Cantabria? <a href="/actividades-en-cantabria/" title="Actividades recomendadas en Cantabria">Consulta esta guía de experiencias</a>.</p>
-
 '; ?>

@@ -1,8 +1,11 @@
 <!-- Preguntas frecuentes -->
 <hr> 
 <section id="preguntas_frecuentes">
+    <?php /*
     <h5 class="section-header"><i class="fas fa-info-circle" style="color: #2980b9;"></i> <?php //"fas fa-question-circle" ?>
-        Preguntas Frecuentes sobre la Playa de <?= $localidad ; ?></h5>
+        Preguntas Frecuentes sobre la Playa de <?= $localidad ; ?></h5> */ ?>
+
+
     <?= $faq; ?>
 </section>   
 

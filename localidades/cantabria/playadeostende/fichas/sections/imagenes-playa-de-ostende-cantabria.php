@@ -1,7 +1,8 @@
 <?php
-$lugar = 'playadeostende'; $lugar2 = 'playa-de-ostende-castro-urdiales-cantabria';
+$lugar = 'playadeostende'; 
+$lugar2 = 'playa-de-ostende-castro-urdiales-cantabria';
 
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/localidades/'.$region.'/'.$lugar.'/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'].'/' . 'localidades/'.$region.'/'.$lugar.'/img';
 $carpeta = './../img/';
 
     $imagenes = [

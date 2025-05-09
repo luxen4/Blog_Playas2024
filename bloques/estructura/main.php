@@ -1,5 +1,5 @@
 <!-- Contenido principal -->
-<div style="padding: 0px;" class="container">
+<div class="container">
     <div class="row"> <!-- Añadido el contenedor de fila -->
 
         <div id="left-empty-column" class="d-none d-lg-block col-xl-2 col-lg-3 col-md-2 col-sm-2 content-wrapper">

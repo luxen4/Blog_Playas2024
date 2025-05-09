@@ -62,4 +62,13 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
 
     <?php include_once 'structured_data_generico.php'; ?>
+
+
+
+
+    <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
+    <script src="https://static.adcash.com/js/aclib.js" async></script>
+    <?php require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
+
+
 </head>

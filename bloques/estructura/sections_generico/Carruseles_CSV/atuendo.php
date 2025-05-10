@@ -37,5 +37,8 @@
     <div class="text-left">
         <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
     </div>
-
+<?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo4.php'; ?>
 </div>
+
+
+

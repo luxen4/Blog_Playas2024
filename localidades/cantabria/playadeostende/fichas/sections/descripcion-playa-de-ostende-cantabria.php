@@ -42,7 +42,7 @@ $li_descripcion_detallada2 = '
     La <strong>Playa de Ostende</strong> es famosa por ser uno de los mejores lugares para practicar <strong>deportes acuáticos</strong> en Cantabria. Puedes disfrutar del <strong>surf, paddle surf, windsurf</strong>, o simplemente relajarte y disfrutar de las hermosas vistas al mar.
   </p>
   <p class="section-content">
-    Además, Ostende cuenta con diversas <a href="https://escuelasurf.com/" target="_blank" rel="noopener noreferrer" title="Escuelas de Surf">escuelas de surf</a> y alquiler de equipos para quienes deseen aprender o mejorar sus habilidades acuáticas.
+    Además, Ostende cuenta con diversas <a href="https://escueladesurfcastro.com/" target="_blank" rel="noopener noreferrer" title="Escuelas de Surf">escuelas de surf</a> y alquiler de equipos para quienes deseen aprender o mejorar sus habilidades acuáticas.
   </p>
   <p class="section-content">
     <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> Durante todo el año, la playa alberga <strong>eventos deportivos</strong>, como torneos de vóley de playa, campeonatos de surf y eventos culturales, lo que la convierte en un lugar vibrante.
@@ -64,7 +64,7 @@ $li_descripcion_detallada3 = '
     </li>
     <li class="my-4">
       <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i> <strong>Lugares cercanos para explorar:</strong><br>
-      No te pierdas el <a href="https://www.turismodecantabria.com/descubrela/recursos/687-playa-de-loredo" target="_blank" rel="noopener noreferrer">Parque Natural de las Dunas de Liencres</a> o disfruta de un paseo por <a href="https://turismo.santander.es/" target="_blank" rel="noopener noreferrer">Santander</a> a menos de 30 minutos en barco.
+      No te pierdas el <a href="https://turismodecantabria.com/disfrutala/naturaleza/parque-natural-de-las-dunas-de-liencres/" target="_blank" rel="noopener noreferrer">Parque Natural de las Dunas de Liencres</a> o disfruta de un paseo por <a href="https://turismo.santander.es/" target="_blank" rel="noopener noreferrer">Santander</a> a menos de 30 minutos en barco.
     </li>
   </ul>
 </section>

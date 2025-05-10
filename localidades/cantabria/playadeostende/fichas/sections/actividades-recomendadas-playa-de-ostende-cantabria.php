@@ -3,7 +3,7 @@
 $li_actividades_recomendadas = '
 <section id="actividades" class="seccion-actividades container">
 
-  <p>Explora las <strong>mejores actividades turísticas y deportivas</strong> que ofrece la Playa de Ostende en <a href="/castro-urdiales/" title="Más sobre Castro Urdiales">Castro Urdiales, Cantabria</a>. Ideal para los amantes del turismo activo y la naturaleza costera.</p>
+  <p>Explora las <strong>mejores actividades turísticas y deportivas</strong> que ofrece la Playa de Ostende en <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales, Cantabria</a>. Ideal para los amantes del turismo activo y la naturaleza costera.</p>
   <div class="info-box">
     <ul class="list-unstyled">
       <li class="my-4">
@@ -14,7 +14,7 @@ $li_actividades_recomendadas = '
       <li class="my-4">
         <i class="fas fa-hiking" style="color: #27ae60;"></i>
         <strong>Senderismo con vistas al Cantábrico:</strong><br>
-        Recorre <strong>rutas de senderismo en Ostende</strong> rodeadas de acantilados, pinares y miradores. Consulta nuestros <a href="/rutas-de-senderismo-ostende/" title="Rutas naturales en Ostende">itinerarios recomendados</a> para todos los niveles.
+        Recorre <strong>rutas de senderismo en Ostende</strong> rodeadas de acantilados, pinares y miradores. Consulta nuestros <a href="https://www.alltrails.com/es/belgium/west-flanders/ostend--2" title="Rutas naturales en Ostende">itinerarios recomendados</a> para todos los niveles.
       </li>';
 
 $li_actividades_recomendadas2 = '

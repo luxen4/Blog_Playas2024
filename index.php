@@ -15,9 +15,6 @@
     <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
     <script src="https://static.adcash.com/js/aclib.js" async></script>
     <?php require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
-
-
-
 </head>
 
 <body>

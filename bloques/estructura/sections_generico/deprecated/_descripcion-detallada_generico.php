@@ -15,10 +15,10 @@
 
     if (isset($li_descripcion_detallada3)) {
         echo($li_descripcion_detallada3);
-        require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo.php'; 
+        //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo.php'; 
 
-        require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo2.php'; 
+        //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo2.php'; 
 
-        require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo3.php'; 
+        //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo4.php'; 
     }?>
 </section>       

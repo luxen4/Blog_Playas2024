@@ -29,11 +29,11 @@ $li_services3 = '
     <li class="my-4">
       <i class="fas fa-parking" style="color: #f39c12;"></i> 
       <strong>Zona de Aparcamiento:</strong><br>
-      Dispones de <strong>aparcamientos gratuitos y de pago</strong> cerca de la playa, incluyendo plazas adaptadas para personas con movilidad reducida y <a href="/como-llegar-playa-ostende/" title="Cómo llegar a la Playa de Ostende">fácil acceso desde el centro de Castro-Urdiales</a>.
+      Dispones de <strong>aparcamientos gratuitos y de pago</strong> cerca de la playa, incluyendo plazas adaptadas para personas con movilidad reducida y <a href="#ubicacion" title="Cómo llegar a la Playa de Ostende">fácil acceso desde el centro de Castro-Urdiales</a>.
     </li>
   </ul>
 
-  <p>¿Buscas otras playas con servicios similares? <a href="/playas-de-cantabria/" title="Guía de playas en Cantabria">Consulta nuestra guía de playas en Cantabria</a>.</p>
+  <p>¿Buscas otras playas con servicios similares? <a href="./../../../../index.php" title="Guía de playas en Cantabria">Consulta nuestra guía de playas en Cantabria</a>.</p>
 </section>
 ';
 ?>

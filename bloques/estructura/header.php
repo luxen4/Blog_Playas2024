@@ -1,4 +1,3 @@
-
 <?php /*
 <div>
     <h1 class="small mb-0 text-uppercase" style="opacity: 0.7;">Los viajes de Adrián</h1>

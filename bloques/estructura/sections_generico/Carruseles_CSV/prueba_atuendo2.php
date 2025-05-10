@@ -4,19 +4,8 @@ require_once "generico_CSV.php";
 $nombreAtuendo = 'atuendo2'; // Nombre del atuendo
 $productos = leer_CSV("atuendo2"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
 
-?>
-<?php
-
-
-
-// Generamos un número aleatorio entre 0 y 7
-$numeroAleatorio = rand(0, 7); 
-$numeroAleatorio = 8; 
-
-
-?>
-
-<?php // require "carrusel_auxiliar1.php"; ?>
+$numeroAleatorio = rand(0, 7); // Generamos un número aleatorio entre 0 y 7 para cambiar las imágenes de en medio
+$numeroAleatorio = 8; ?>
 
 <div class="container carrusel_auxiliar1">
     <div class="row" style="max-width: 1300px; margin:auto;">
@@ -24,68 +13,7 @@ $numeroAleatorio = 8;
 
         <div class="col-xl-6 text-center col-lg-10 col-md-10 col-sm-12 col-12">
             <h6 class="text-publicidad">Publicidad</h6>
-
-            <?php 
-            // Verificamos el tipo de publicidad
-            if ($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "horizontal") {
-                //require 'enHorizontal.php'; // Incluir la vista para publicidad horizontal
-            } else if ($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "vertical"){
-                //require 'enUnoYtres.php'; // Incluir la vista para otro tipo de publicidad
-            } else if($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "atuendo"){ ?>
-                
-                
-                
-                
-                <div class="row box_atuendo">
-                    <!-- Imagen grande a la izquierda -->
-                    <div class="col-xl-12 text-center col-lg-6 col-md-6 col-sm-6 col-6">
-
-                        <div style="display: flex;">
-                            <div class="custom-carousel-image-container square-container ">
-                                <a id="image-link_csv_0_<?php echo $nombreAtuendo; ?>" href="<?php echo $productos[0]['href']; ?>">
-                                    <img id="image_csv_0_<?php echo $nombreAtuendo; ?>" src="<?php echo $productos[0]['src']; ?>" class="d-block w-100 custom-carousel-image" alt="<?php echo $productos[0]['alt']; ?>">
-                                </a>
-                            </div>
-
-                            <div class="custom-carousel-image-container square-container">
-                                <a id="image-link_csv_1_<?php echo $arrayElementos[$numeroAleatorio]["nombre"]; ?>" href="<?php echo $productos[1]['href']; ?>">
-                                    <img id="image_csv_1_<?php echo $arrayElementos[$numeroAleatorio]["nombre"]; ?>" src="<?php echo $productos[1]['src']; ?>" class="d-block w-100 custom-carousel-image" alt="<?php echo $productos[0]['alt']; ?>">
-                                </a>
-                            </div>
-                            <?php
-                            // Recorremos los productos pequeños para generar las imágenes pequeñas
-                            for ($i = 2; $i < 5; $i++) {
-                                // Generamos dinámicamente los id's basados en el nombre del producto y el índice
-                                $nombreElemento = $arrayElementos[$i]["nombre"];
-                                echo '
-                                    <div class="custom-carousel-image-container square-container">
-                                        <a id="image-link_csv_' . $i . '_' . $arrayElementos[$numeroAleatorio]["nombre"] . '" href="' . $productos[$i]['href'] . '">
-                                            <img id="image_csv_' . $i . '_' . $arrayElementos[$numeroAleatorio]["nombre"] . '" src="' . $productos[$i]['src'] . '" class="d-block w-100 custom-carousel-image" alt="' . $productos[$i]['alt'] . '">
-                                        </a>
-                                    </div>
-                                ';
-                            }
-                            ?>
-                        </div>
-                    </div>
-
-
-
-    
-                    <!-- Imágenes pequeñas a la derecha -->
-                    <div class="col-xl-6 text-center col-lg-6 col-md-6 col-sm-6 col-6">
-                       
-                    </div>
-
-
-                    <div class="text-left">
-                        <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
-                    </div>
-
-                </div>
-
-          <?php  }
-            ?>
+                <?php require 'elementos_atuendo_en_linea.php'; ?>
         </div>
 
         <div class="col-xl-3 text-center col-lg-1 col-md-1"></div>
@@ -98,7 +26,7 @@ $numeroAleatorio = 8;
     
 /*
 let currentIndex_atuendo2 = 0; 
-const productos_atuendo2 = <?php echo json_encode($productos); ?>; // Pasamos los productos a JavaScript
+const productos_atuendo2 = <?php // echo json_encode($productos); ?>; // Pasamos los productos a JavaScript
 
 // Inicializamos los arrays para las imágenes y los enlaces
 const imagenesPequenas_atuendo2 = [];

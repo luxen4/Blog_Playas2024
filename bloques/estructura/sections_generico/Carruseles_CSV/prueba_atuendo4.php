@@ -1,22 +1,25 @@
 <?php
 require_once "generico_CSV.php";
 //$productos = leer_CSV_atuendo1($arrayElementos, 7); 
-$nombreAtuendo = 'atuendo3'; // Nombre del atuendo
-$productos = leer_CSV("atuendo3"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
+$nombreAtuendo = 'atuendo4'; // Nombre del atuendo
+$productos = leer_CSV("atuendo4"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
 
 $numeroAleatorio = rand(0, 7); // Generamos un número aleatorio entre 0 y 7
 $numeroAleatorio = 8; ?>
 
-<div style="margin:1em;" class="container carrusel_auxiliar3">
+<div class="container carrusel_auxiliar4">
     <div class="row" style="max-width: 1300px; margin:auto;">
-        <div class="col-xl-3 text-center col-lg-1 col-md-1"></div>
+        
 
-        <div class="col-xl-6 text-center col-lg-10 col-md-10 col-sm-12 col-12">
-            <h6 class="text-publicidad">Publicidad</h6>
+        <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
+            <?php //<h6 class="text-publicidad">Publicidad</h6>?>
+            <div class="text-left">
+                <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
+            </div>
             <?php require 'elementos_atuendo_en_linea.php'; ?>
         </div>
 
-        <div class="col-xl-3 text-center col-lg-1 col-md-1"></div>
+        
     </div>
 </div>
 

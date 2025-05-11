@@ -1,9 +1,6 @@
 <?php 
 
-
 $nombre_playa = 'playa-de-ostende';
-$localidad = 'Ostende';  
-$region = 'cantabria';  
 $carpeta = './sections/'; ?>
 
 <?php require $carpeta . "faq-". $nombre_playa ."-cantabria.php"; ?>

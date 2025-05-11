@@ -32,7 +32,9 @@ $pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidade
 ////////
 // Para el archivo Structured_data_generico.php
 $localidad = 'Somo';
+$nombre_playa_minuscula = 'somo-loredo';
 $localidad_minuscula = 'somo';
+$rutas = 'playa-de-somo-loredo-somo-cantabria.php';
 
 $descripcion = 'Descubre la Playa de Somo, un destino popular por su extenso arenal, perfecto para el surf y paseos por la costa cantábrica, con vistas impresionantes y una rica biodiversidad.';
 $url = 'http://playas2024.kesug.com/localidades/cantabria/playadesomo/fichas/playa-de-somo.php';
@@ -46,13 +48,13 @@ $mainEntity_geo_latitude = 43.4523;
 $mainEntity_geo_longitude = -3.7424;
 
 $mainEntity_image = 'https://example.com/path/to/somo-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+$mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $nombre_playa_minuscula . '/fichas/playa-de-' . $nombre_playa_minuscula . '.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>
 
 <body>
-    <?php $page = 'playade'.$localidad_minuscula;?>
+    <?php $page = 'playade'.$nombre_playa_minuscula;?>
     <?php require "./sections/info.php"; ?>    
     <?php require "./../../../../bloques/estructura/body_generico.php"; ?>
 </body>

@@ -6,7 +6,7 @@ function getAdcashLibTag()
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, 'https://adbpage.com/adblock?v=3');
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    $content = curl_exec($ch);
+    $content = curl_exec($ch); 
     curl_close($ch);
     return $content;
   }

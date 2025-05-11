@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Asegura que el módulo esté activado
+RewriteBase /Blog_Playas2024/
+
+# Reescribe URLs amigables para esa ruta
+RewriteRule ^playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php [L]
+
+# Reescribe URLs amigables para esa ruta
+RewriteRule ^playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/playa-de-somo-loredo-somo-cantabria.php [L]

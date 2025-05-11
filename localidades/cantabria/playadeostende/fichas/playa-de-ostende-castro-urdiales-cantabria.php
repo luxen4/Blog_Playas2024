@@ -29,7 +29,12 @@ $pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidade
 
 ////////
 // Para el archivo Structured_data_generico.php
-$localidad_minuscula = 'ostende';
+
+$nombre_playa_minuscula = 'ostende';
+$localidad_minuscula = 'castro-urdiales';
+$region_minuscula = 'cantabria';
+$rutas = 'playa-de-ostende-castro-urdiales-cantabria.php';
+
 
 $descripcion = 'Descubre la Playa de Ostende, un destino conocido por su amplia extensión de arena dorada, ideal para disfrutar del surf y la naturaleza en la costa cantábrica.';
 $url = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/fichas/playa-de-ostende.php';
@@ -43,13 +48,13 @@ $mainEntity_geo_latitude = 43.4693; // Actualiza según la ubicación correcta
 $mainEntity_geo_longitude = -3.5002; // Actualiza según la ubicación correcta
 
 $mainEntity_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg'; // Reemplaza con la imagen correcta
-$mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+$mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $nombre_playa_minuscula . '/fichas/playa-de-' . $nombre_playa_minuscula . '.php';
 ////////
 
     require "./../../../../bloques/estructura/head.php"; ?>
 
 <body>
-    <?php $page = 'playade' . $localidad_minuscula; ?>
+    <?php $page = 'playade' . $nombre_playa_minuscula; ?>
     <?php require "./info.php"; ?>    
     <?php require "./../../../../bloques/estructura/body_generico.php"; ?>
 </body>

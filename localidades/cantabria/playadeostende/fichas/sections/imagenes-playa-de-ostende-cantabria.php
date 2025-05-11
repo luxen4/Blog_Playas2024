@@ -8,6 +8,7 @@ $carpeta = './../img/';
     $imagenes = [
         [
             'src' => $carpeta . $lugar2.'.jpg',
+            
             'alt' => 'Vista de la Playa de Ostende, Cantabria',
             'figcaption' => 'Vista de la Playa de Ostende.',
             'href' => 'https://supertravelr.com/es/trip/spain/the-most-beautiful-beaches-in-and-around-castro-urdiales-F2DCC7D4F0/',

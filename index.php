@@ -12,9 +12,15 @@
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
 
+
+
+
     <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
     <script src="https://static.adcash.com/js/aclib.js" async></script>
-    <?php require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
+    <?php //require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
+
+
+
 </head>
 
 <body>
@@ -46,7 +52,7 @@
             </p>
         <div class="row">
             <div class="">
-                <?php include 'localidades/cantabria/cantabria.php'; ?>
+                <?php include './localidades/cantabria/cantabria.php'; ?>
 
                   <!-- Contenedor donde se inyectará el anuncio -->
                 <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
@@ -54,13 +60,13 @@
 
             </div>
             <div class="">
-                <?php include 'localidades/vizcaya/vizcaya.php'; ?>
+                <?php include './localidades/vizcaya/vizcaya.php'; ?>
             </div>
             <div class="">
-                <?php include 'localidades/guipuzkoa/guipuzkoa.php'; ?>
+                <?php include './localidades/guipuzkoa/guipuzkoa.php'; ?>
             </div>
             <div class="">
-                <?php include 'localidades/francia/francia.php'; ?>
+                <?php include './localidades/francia/francia.php'; ?>
             </div>
         </div>
     </div>

@@ -38,10 +38,11 @@
                 <i class="fas fa-address-book me-1"></i> Más Información
             </a>
         </li>
+        <?php /*
         <li>
             <a class="nav-link text-black" href="./../../../../bloques/amazon_interfaz_enlaces.php">
                 <i class="fas fa-link me-1"></i> Interfaz
             </a>
-        </li>
+        </li>*/ ?>
     </ul>
 </nav>

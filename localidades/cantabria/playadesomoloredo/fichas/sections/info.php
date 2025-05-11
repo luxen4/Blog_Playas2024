@@ -9,10 +9,10 @@ $li_encabezado = '
     <strong>Descubre la Playa de Somo</strong>, una joya del litoral cántabro ubicada en el municipio de Ribamontán al Mar. Con más de 3,6 km de arena dorada y fina, es el destino ideal para quienes buscan <strong>surf, naturaleza y gastronomía local</strong>.
   </p>
   <p>
-    Gracias a su orientación al mar abierto, ofrece condiciones óptimas para la práctica del surf durante todo el año :contentReference[oaicite:0]{index=0}. Además, su extenso arenal permite disfrutar de largos paseos y vistas impresionantes de la bahía de Santander :contentReference[oaicite:1]{index=1}.
+    Gracias a su orientación al mar abierto, ofrece condiciones óptimas para la práctica del surf durante todo el año. Además, su extenso arenal permite disfrutar de largos paseos y vistas impresionantes de la bahía de Santander.
   </p>
   <p>
-    El paseo marítimo de Somo está repleto de bares y restaurantes donde degustar la exquisita gastronomía cántabra, destacando platos como las rabas y las anchoas de Santoña :contentReference[oaicite:2]{index=2}. No te pierdas los atardeceres desde la playa, considerados de los más bellos de Cantabria :contentReference[oaicite:3]{index=3}.
+    El paseo marítimo de Somo está repleto de bares y restaurantes donde degustar la exquisita gastronomía cántabra, destacando platos como las rabas y las anchoas de Santoña.
   </p>
   <p>
     Para más información sobre actividades y servicios, visita la <a href="/playas-de-cantabria/" title="Guía de playas en Cantabria">Guía de Playas en Cantabria</a>.

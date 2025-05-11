@@ -35,7 +35,7 @@
                                 ?>
                             </div>
                             <div class="text-left">
-                                <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
+                                <img src="./../../../../logo_amazon.png" alt="ddda" style="width: 80px; height: auto; margin-top: 1em;">
                                 <?php /*
                                 <div>
                                     <p style="margin: 0;">Texto o elemento adicional</p>

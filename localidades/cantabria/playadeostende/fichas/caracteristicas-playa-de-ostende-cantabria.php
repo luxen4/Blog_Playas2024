@@ -33,8 +33,6 @@
       margin-top: 30px;
     }
   </style>
-
-
     <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
     <script src="https://static.adcash.com/js/aclib.js" async></script>
     <?php require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
@@ -88,17 +86,4 @@ require "./../../../../bloques/estructura/header.php"; ?>
 <!-- Bootstrap Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>

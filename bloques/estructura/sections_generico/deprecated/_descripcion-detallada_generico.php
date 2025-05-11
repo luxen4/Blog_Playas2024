@@ -5,12 +5,12 @@
     <h2  class="section-header text-center"></h2>
 
     <?= $li_descripcion_detallada; 
-    require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_botas_hombre.php';
+    //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_botas_hombre.php';
     
 
     if (isset($li_descripcion_detallada2)) {
         echo($li_descripcion_detallada2);                   
-        require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php';  
+        //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php';  
     }
 
     if (isset($li_descripcion_detallada3)) {
@@ -19,6 +19,5 @@
 
         //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo2.php'; 
 
-        //require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo4.php'; 
     }?>
 </section>       

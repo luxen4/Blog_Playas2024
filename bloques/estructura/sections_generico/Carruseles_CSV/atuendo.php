@@ -14,9 +14,6 @@
         </div>
     </div>
 
-
-
-    
     <!-- Imágenes pequeñas a la derecha -->
     <div class="col-xl-6 text-center col-lg-6 col-md-6 col-sm-6 col-6">
         <?php
@@ -37,8 +34,4 @@
     <div class="text-left">
         <img src="./../../../../logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
     </div>
-<?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo4.php'; ?>
 </div>
-
-
-

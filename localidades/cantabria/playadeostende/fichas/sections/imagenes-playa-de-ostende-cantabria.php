@@ -2,7 +2,7 @@
 $lugar = 'playadeostende'; 
 $lugar2 = 'playa-de-ostende-castro-urdiales-cantabria';
 
-$ruta = 'http://' . $_SERVER['SERVER_NAME'].'/' . 'localidades/'.$region.'/'.$lugar.'/img';
+//$ruta = 'http://' . $_SERVER['SERVER_NAME'].'/' . 'localidades/'.$region.'/'.$lugar.'/img';
 $carpeta = './../img/';
 
     $imagenes = [

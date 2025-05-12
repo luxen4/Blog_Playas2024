@@ -1,6 +1,6 @@
 <?php
 function generarGaleria($imagenes) {
-    echo '<hr><section id="galeria" class="gallery">';
+    echo '<hr><section id="galeria_imagenes" class="gallery">';
     echo '<h2 class="text-primary"><i class="fas fa-image" style="color: #2980b9;"></i> Galería de Imágenes</h2>';
     echo '<div class="row">';
 

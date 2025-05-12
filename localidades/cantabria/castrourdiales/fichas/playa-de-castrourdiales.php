@@ -46,6 +46,14 @@ $mainEntity_geo_longitude = -3.2125;
 $mainEntity_image = 'https://example.com/path/to/castro-urdiales-image.jpg';
 $mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/castro-urdiales/fichas/castro-urdiales.php';
 ////////
+?>
+
+<?php
+
+
+
+
+
 
 require "./../../../../bloques/estructura/head.php"; ?>
 

@@ -19,7 +19,7 @@ function getAdcashLibTag()
         zoneId: 'f7d43jg7bo',
     });
 
-    //alert("Anuncio de Adcash cargado correctamente.");
+    alert("Anuncio de Adcash cargado correctamente.");
   </script>
   
 

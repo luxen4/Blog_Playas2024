@@ -71,4 +71,20 @@
     <?php require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
 
 
+
+
+<?php /*
+// Lógica PHP para Adcash, sin bloquear si falla
+$ads_ok = false;
+
+try {
+  $ads_ok = @require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php";
+} catch (Exception $e) {
+  // Aquí podrías registrar el error si te interesa
+  $ads_ok = false;
+}*/
+?>
+
+
+
 </head>

@@ -56,7 +56,7 @@ $mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . 
 <body>
     <?php $page = 'playade' . $nombre_playa_minuscula; ?>
     <?php require "./info.php"; ?>    
-    <?php require "./../../../../bloques/estructura/body_generico.php"; ?>
+    <?php  require "./../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 
 </html>

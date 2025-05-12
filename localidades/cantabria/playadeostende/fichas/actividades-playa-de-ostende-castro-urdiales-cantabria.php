@@ -28,14 +28,14 @@
   </style>
   <!-- Adcash (opcional) -->
   <script src="https://static.adcash.com/js/aclib.js" async></script>
-  <?php require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
+  <?php  require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
 </head>
 <body>
   <?php require "./../../../../bloques/estructura/header.php"; ?>
 
-  <?php require "./../../../../localidades/cantabria/playadeostende/fichas/sections/variables/actividades-recomendadas.php"; ?>
+  <?php require "./../../../../localidades/cantabria/playadeostende/fichas/sections/variables/actividades-recomendadas.php"; ?> 
 
-
+ 
 
   <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
   <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_jeans_man.php'; ?>

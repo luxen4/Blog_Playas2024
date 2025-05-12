@@ -9,10 +9,13 @@ $region = 'cantabria';?>
 $carpeta = 'playadeostende';
 $localidad_nombre = 'Playa de Ostende';
 $localidad = 'Playa de Ostende';
+//$archivo_name = './localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php';
 $archivo_name = 'playa-de-ostende-castro-urdiales-cantabria';
+
+
 $presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. 
 Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
-include 'localidades/index.php'; ?>
+include './localidades/index.php'; ?>
 
 <?php /*
 $carpeta = 'castrourdiales';
@@ -31,7 +34,7 @@ $localidad_nombre = 'Playa de Somo';
 $localidad = 'Playa de Somo';
 $archivo_name = 'playa-de-somo-loredo-somo-cantabria';
 $presentacion = 'Somo es una popular localidad costera situada en Cantabria, al norte de España. Conocida por su extensa playa de arena dorada, la Playa de Somo es un destino destacado para los amantes del surf y las actividades acuáticas. Esta playa ofrece un ambiente vibrante y una amplia gama de servicios, incluyendo restaurantes, bares y tiendas. Además de su atractivo costero, Somo cuenta con un entorno natural impresionante, con vistas al Mar Cantábrico y a la ciudad de Santander. Es el lugar perfecto para disfrutar de la playa, el sol y una rica gastronomía basada en productos frescos del mar.';
-include 'localidades/index.php';
+include './localidades/index.php';
 ?>
 
 <?php

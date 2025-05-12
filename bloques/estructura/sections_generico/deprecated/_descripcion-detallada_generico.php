@@ -1,6 +1,6 @@
 <!-- Sección de Descripción detallada -->
 <hr> 
-<section>
+<section id="descripcion_detallada" class="mb-5">
     <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_chaquetas_hombre.php'; ?>
     <h2  class="section-header text-center"></h2>
 

@@ -20,8 +20,8 @@
                     </p>
                   </header>
 
-                  <div class="text-center">C:\xampp\htdocs\Blog_Playas2024\localidades\cantabria\playadeostende\fichas\actividades-playa-de-ostende-castro-urdiales-cantabria.php
-                    <a href="./localidades/cantabria/playadeostende/fichas/actividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                  <div class="text-center">
+                    <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/actividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar actividades
                     </a>
                   </div>
@@ -38,7 +38,7 @@
                   </header>
 
                   <div class="text-center">
-                    <a href="./como-llegar-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                    <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/como-llegar-<?= $rutas;?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar ruta
                     </a>
                   </div>
@@ -58,7 +58,7 @@
                   </header>
 
                   <div class="text-center">
-                    <a href="./servicios-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/servicios-<?= $rutas;?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar servicios
                     </a>
                   </div>
@@ -138,7 +138,7 @@
                   </style>
 
                   <div class="text-center">
-                    <a href="./eventos-festividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/eventos-festividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
                     </a>
                   </div>
@@ -156,7 +156,7 @@
   </header>
 
   <div class="text-center">
-    <a href="./preguntas-frecuentes-<?= $rutas;?>" class="btn btn-primary btn-lg">
+  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/preguntas-frecuentes-<?= $rutas;?>" class="btn btn-primary btn-lg">
       <i class="fas fa-question-circle me-2"></i> Consultar FAQs
     </a>
   </div>

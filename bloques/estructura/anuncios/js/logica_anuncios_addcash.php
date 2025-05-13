@@ -1,6 +1,6 @@
 
 <?php
-
+/*
 function getAdcashLibTag()
   {
     $ch = curl_init();
@@ -12,7 +12,7 @@ function getAdcashLibTag()
   }
 
   echo getAdcashLibTag();
-  ?>
+  
 
   <script type="text/javascript">
     aclib.runAutoTag({
@@ -20,6 +20,6 @@ function getAdcashLibTag()
     });
 
     alert("Anuncio de Adcash cargado correctamente.");
-  </script>
+  </script>*/?>
   
 

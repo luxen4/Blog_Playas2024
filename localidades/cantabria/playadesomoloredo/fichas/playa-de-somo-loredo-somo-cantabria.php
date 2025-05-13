@@ -32,7 +32,7 @@ $pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidade
 ////////
 // Para el archivo Structured_data_generico.php
 $localidad = 'Somo';
-$nombre_playa_minuscula = 'somo-loredo';
+$nombre_playa_minuscula = 'somoloredo';
 $localidad_minuscula = 'somo';
 $rutas = 'playa-de-somo-loredo-somo-cantabria.php';
 

@@ -1,4 +1,6 @@
 <!-- Contenido principal -->
+ <?php define('SECTIONS_PATH_SECTIONS_DEPRECATED', '/Blog_Playas2024/localidades/'.$region. '/playade'.$nombre_playa_minuscula); ?>
+
 <div style="max-width: 1240px;" class="container">
     <div class="row"> <!-- Añadido el contenedor de fila -->
 
@@ -19,15 +21,13 @@
                       Ideal para los amantes del turismo activo y la naturaleza costera.
                     </p>
                   </header>
-
+                  
                   <div class="text-center">
-                    <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/actividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
-                      <i class="fas fa-map-marked-alt me-2"></i> Consultar actividades
+                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/actividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                      <i class="fas fa-map-marked-alt me-2"></i> Consultar actividadesss
                     </a>
                   </div>
                 </div>
-
-
 
                 <div id="como_llegar" class="mt-5">
                   <header class="text-center mb-4">
@@ -38,18 +38,11 @@
                   </header>
 
                   <div class="text-center">
-                    <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/como-llegar-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/como-llegar-' .$rutas; ?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar ruta
                     </a>
                   </div>
                 </div>
-
-
-
-
-
-
-
 
                 <div id="servicios" class="mt-5">
                   <header  class="text-center mb-4">
@@ -58,56 +51,47 @@
                   </header>
 
                   <div class="text-center">
-                  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/servicios-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/servicios-' .$rutas; ?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar servicios
                     </a>
                   </div>
                 </div>
 
-
-
                 <?php require './../../../../bloques/estructura/sections_generico/galeria-imagenes_generico.php'; ?>
 
 
                 <div id="eventos_festividades" class="mt-5">
-                  <header  class="text-center mb-4">
-                    <h2 class="text-primary">🎉 Eventos y Festividades en la Playa de <?= $mainEntity_addressLocality; ?></h2>
-                    <p>Vive las <strong>tradiciones y celebraciones locales</strong> más emblemáticas: hogueras de San Juan, procesiones marineras, mercados de verano y competiciones deportivas frente al mar Cantábrico.</p>
-                  </header>
+                    <header  class="text-center mb-4">
+                        <h2 class="text-primary">🎉 Eventos y Festividades en la Playa de <?= $mainEntity_addressLocality; ?></h2>
+                        <p>Vive las <strong>tradiciones y celebraciones locales</strong> más emblemáticas: hogueras de San Juan, procesiones marineras, mercados de verano y competiciones deportivas frente al mar Cantábrico.</p>
+                    </header>
 
+                    <div class="text-center">
 
-
-
-
-                
-
-                  <div class="text-center">
-                  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/eventos-festividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
-                      <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
-                    </a>
-                  </div>
+                        <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/eventos-festividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                        <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
+                        </a>
+                    </div>
                 </div>
-
-
 
 
                 <div class="text-center mt-4">
 
-<div id="faqs_consejos" class="mt-5">
-  <header  class="text-center mb-4">
-    <h2 class="text-primary">❓ ¿Tienes más dudas sobre la Playa de <?= $mainEntity_addressLocality; ?>?</h2>
-    <p>Resolvemos las <strong>preguntas más frecuentes</strong> sobre accesos, servicios, normativas y recomendaciones para que disfrutes al máximo tu visita a <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales</a>.</p>
-  </header>
+                    <div id="faqs_consejos" class="mt-5">
+                        <header  class="text-center mb-4">
+                            <h2 class="text-primary">❓ ¿Tienes más dudas sobre la Playa de <?= $mainEntity_addressLocality; ?>?</h2>
+                            <p>Resolvemos las <strong>preguntas más frecuentes</strong> sobre accesos, servicios, normativas y recomendaciones para que disfrutes al máximo tu visita a <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales</a>.</p>
+                        </header>
 
-  <div class="text-center">
-  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/preguntas-frecuentes-<?= $rutas;?>" class="btn btn-primary btn-lg">
-      <i class="fas fa-question-circle me-2"></i> Consultar FAQs
-    </a>
-  </div>
-</div>
+                        <div class="text-center">
+                            <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/preguntas-frecuentes-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                            <i class="fas fa-question-circle me-2"></i> Consultar FAQs
+                            </a>
+                        </div>
+                    </div>
 
-                <?php require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; ?>
-
+                    <?php require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; ?>
+                </div>
 
             </main>
         </div>
@@ -118,7 +102,6 @@
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
         </div>
-
 
     </div> 
 </div>

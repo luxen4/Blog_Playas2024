@@ -53,9 +53,10 @@ $mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . 
 
     require "./../../../../bloques/estructura/head.php"; ?>
 
-<body>aaa
+<body>
     <?php $page = 'playade' . $nombre_playa_minuscula; ?>
-    <?php  require "./../../../../localidades/cantabria/playadeostende/fichas/info.php"; ?>
+    <?php  //require "./../../../../localidades/cantabria/playadeostende/fichas/info.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/info.php';?>
     <?php  require "./../../../../bloques/estructura/body_generico.php"; ?>
 </body>
 

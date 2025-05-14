@@ -79,7 +79,64 @@
 
 
 
-                  <style>
+                
+
+                  <div class="text-center">
+                  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/eventos-festividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                      <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
+                    </a>
+                  </div>
+                </div>
+
+
+
+
+                <div class="text-center mt-4">
+
+<div id="faqs_consejos" class="mt-5">
+  <header  class="text-center mb-4">
+    <h2 class="text-primary">❓ ¿Tienes más dudas sobre la Playa de <?= $mainEntity_addressLocality; ?>?</h2>
+    <p>Resolvemos las <strong>preguntas más frecuentes</strong> sobre accesos, servicios, normativas y recomendaciones para que disfrutes al máximo tu visita a <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales</a>.</p>
+  </header>
+
+  <div class="text-center">
+  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/preguntas-frecuentes-<?= $rutas;?>" class="btn btn-primary btn-lg">
+      <i class="fas fa-question-circle me-2"></i> Consultar FAQs
+    </a>
+  </div>
+</div>
+
+                <?php require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; ?>
+
+
+            </main>
+        </div>
+
+
+        <div id="right-column" class="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3 content-wrapper"> 
+            <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo.php'; ?>
+            <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
+            <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
+        </div>
+
+
+    </div> 
+</div>
+
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+
+<style>
                     #descripcion_detallada,
                     #galeria_imagenes,
                     #eventos_festividades,
@@ -136,57 +193,3 @@
                         margin-bottom: 10px;
                     }
                   </style>
-
-                  <div class="text-center">
-                  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/eventos-festividades-<?= $rutas;?>" class="btn btn-primary btn-lg">
-                      <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
-                    </a>
-                  </div>
-                </div>
-
-
-
-
-                <div class="text-center mt-4">
-
-<div id="faqs_consejos" class="mt-5">
-  <header  class="text-center mb-4">
-    <h2 class="text-primary">❓ ¿Tienes más dudas sobre la Playa de <?= $mainEntity_addressLocality; ?>?</h2>
-    <p>Resolvemos las <strong>preguntas más frecuentes</strong> sobre accesos, servicios, normativas y recomendaciones para que disfrutes al máximo tu visita a <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales</a>.</p>
-  </header>
-
-  <div class="text-center">
-  <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/preguntas-frecuentes-<?= $rutas;?>" class="btn btn-primary btn-lg">
-      <i class="fas fa-question-circle me-2"></i> Consultar FAQs
-    </a>
-  </div>
-</div>
-
-                <?php require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; ?>
-
-
-            </main>
-        </div>
-
-
-        <div id="right-column" class="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3 content-wrapper"> 
-            <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo.php'; ?>
-            <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
-            <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
-        </div>
-
-
-    </div> 
-</div>
-
-
-<script>
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
-</script>

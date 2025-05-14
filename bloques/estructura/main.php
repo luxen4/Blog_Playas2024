@@ -1,5 +1,7 @@
 <!-- Contenido principal -->
  <?php define('SECTIONS_PATH_SECTIONS_DEPRECATED', '/Blog_Playas2024/localidades/'.$region. '/playade'.$nombre_playa_minuscula); ?>
+ <?php define('BLOQUES_PATH',  './../../../../bloques/estructura/sections_generico') ?>
+
 
 <div style="max-width: 1240px;" class="container">
     <div class="row"> <!-- Añadido el contenedor de fila -->
@@ -10,8 +12,8 @@
 
         <div id="central-column" class="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 content-wrapper">
             <main>
-                <?php require './../../../../bloques/estructura/sections_generico/deprecated/_encabezado_generico.php'; ?>
-                <?php require './../../../../bloques/estructura/sections_generico/deprecated/_descripcion-detallada_generico.php'; ?>
+                <?php require BLOQUES_PATH . '/deprecated/_encabezado_generico.php'; ?>
+                <?php require BLOQUES_PATH . '/deprecated/_descripcion-detallada_generico.php'; ?>
                 
                 <div id="actividades_recomendadas" class="mt-5">
                   <header  class="text-center mb-4">
@@ -24,10 +26,12 @@
                   
                   <div class="text-center">
                     <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/actividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
-                      <i class="fas fa-map-marked-alt me-2"></i> Consultar actividadesss
+                      <i class="fas fa-map-marked-alt me-2"></i> Consultar actividades
                     </a>
                   </div>
                 </div>
+
+
 
                 <div id="como_llegar" class="mt-5">
                   <header class="text-center mb-4">
@@ -43,7 +47,7 @@
                     </a>
                   </div>
                 </div>
-
+                <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
                 <div id="servicios" class="mt-5">
                   <header  class="text-center mb-4">
                     <h2 class="text-primary">🛟 Servicios en la Playa de <?= $mainEntity_addressLocality; ?></h2>
@@ -57,7 +61,7 @@
                   </div>
                 </div>
 
-                <?php require './../../../../bloques/estructura/sections_generico/galeria-imagenes_generico.php'; ?>
+                <?php require BLOQUES_PATH .'/galeria-imagenes_generico.php'; ?>
 
 
                 <div id="eventos_festividades" class="mt-5">
@@ -90,7 +94,9 @@
                         </div>
                     </div>
 
-                    <?php require './../../../../bloques/estructura/sections_generico/deprecated/_mas-info_generico.php'; ?>
+                    <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; ?>
+
+                    <?php require BLOQUES_PATH .'/deprecated/_mas-info_generico.php'; ?>
                 </div>
 
             </main>
@@ -98,7 +104,7 @@
 
 
         <div id="right-column" class="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3 content-wrapper"> 
-            <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo.php'; ?>
+            <?php require BLOQUES_PATH.'/Carruseles_CSV/prueba_atuendo.php'; ?>
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
         </div>
@@ -132,7 +138,7 @@
                       margin-top: 50px;
                       margin-bottom: 50px;                        
                       margin: 20px 0;
-                        padding: 20px;
+                        /*padding: 20px;*/
                         background-color: #f8f9fa;
                         border-radius: 5px;
                     }

@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="site-verification" content="<?= $site_verification_content; ?>"/>
     <meta name="description" content=<?= $description_content; ?>>
+
     <meta name="keywords" content=<?= $keywords_content; ?>>
     <meta name="robots" content="index, follow">
     <meta name="author" content="Adrián Laya García">
     <meta name="language" content="es">
+
+
+    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/<?= $url_amigable;?>" />
+
+
 
 
     <!-- Open Graph Meta Tags -->

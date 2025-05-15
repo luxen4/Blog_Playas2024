@@ -1,5 +1,5 @@
 <!-- Contenido principal -->
- <?php define('SECTIONS_PATH_SECTIONS_DEPRECATED', '/Blog_Playas2024/localidades/'.$region. '/playade'.$nombre_playa_minuscula); ?>
+ <?php define('SECTIONS_PATH_SECTIONS_DEPRECATED', '/Blog_Playas2024/localidades/'.$region_minuscula. '/playade'.$nombre_playa_minuscula); ?>
  <?php define('BLOQUES_PATH',  './../../../../bloques/estructura/sections_generico') ?>
 
 

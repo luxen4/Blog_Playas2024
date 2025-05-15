@@ -52,16 +52,14 @@ $mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2024/playa-de-ostende-
 ////////
 
     $url_amigable = 'playa-de-ostende-castro-urdiales-cantabria';
-    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/head.php"'; ?>
+    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/head.php'; ?>
 
 <body>
-
-<?php define('SECTIONS_PATH_SECTIONS', $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/'); ?>
-
-    <?php $page = 'playade' . $nombre_playa_minuscula; ?>
-    <?php  //require "./../../../../localidades/cantabria/playadeostende/fichas/info.php"; ?>
-    <?php require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/info.php';?>
-    <?php  require "./../../../../bloques/estructura/body_generico.php"; ?>
+    <?php $page = 'playade'.$nombre_playa_minuscula;?>
+    <?php require "./sections/info.php"; ?>    
+    <?php require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/body_generico.php'; ?>
 </body>
+
+
 
 </html>

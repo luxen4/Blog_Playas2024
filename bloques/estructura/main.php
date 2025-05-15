@@ -104,7 +104,7 @@
 
 
         <div id="right-column" class="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3 content-wrapper"> 
-            <?php require BLOQUES_PATH.'/Carruseles_CSV/prueba_atuendo.php'; ?>
+
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_eventos_festividades_generico.php'; ?>
         </div>

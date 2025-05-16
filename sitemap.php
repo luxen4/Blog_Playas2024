@@ -1,14 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?php
+header("Content-Type: application/xml; charset=UTF-8");
+$baseUrl = "http://playas2024.kesug.com/Blog_Playas2024/";
+$fechaHoy = date("Y-m-d");
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- Cantabria -->
-
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2024/playa-de-ostende-castro-urdiales-cantabria</loc>
-        <lastmod>2025-05-15</lastmod>
+        <loc><?= $baseUrl ?>playa-de-ostende-castro-urdiales-cantabria</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <url>
+        <loc><?= $baseUrl ?>actividades-playa-de-ostende-castro-urdiales-cantabria</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    
+    <url>
+    <loc><?= $baseUrl ?>como-llegar-playa-de-ostende-castro-urdiales-cantabria</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+    <url>
+    <loc><?= $baseUrl ?>servicios-playa-de-ostende-castro-urdiales-cantabria</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+    <loc><?= $baseUrl ?>eventos-festividades-playa-de-ostende-castro-urdiales-cantabria</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+    <loc><?= $baseUrl ?>preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- y más URLs... -->
+
+
 
 
     <url>
@@ -18,12 +62,32 @@
         <priority>1.0</priority>
     </url>
 
+
+
+
+
+
+
+
     <url>
         <loc>http://playas2024.kesug.com/Blog_Playas2024/playa-de-noja-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+
+
+
+
+    <url>
+        <loc>http://playas2024.kesug.com/Blog_Playas2024/actividades-playa-de-noja-cantabria</loc>
+        <lastmod>2025-05-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+
 
 
     <url>
@@ -262,4 +326,22 @@
     
     <!-- Agrega más URLs aquí -->
 
+
 </urlset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

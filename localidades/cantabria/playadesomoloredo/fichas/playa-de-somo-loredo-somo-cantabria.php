@@ -35,7 +35,7 @@ $localidad = 'Somo';
 $nombre_playa_minuscula = 'somoloredo';
 $localidad_minuscula = 'somo';
 $region_minuscula = 'cantabria';
-$rutas = 'playa-de-somo-loredo-somo-cantabria.php';
+$rutas = 'playa-de-somo-loredo-somo-cantabria';
 
 $descripcion = 'Descubre la Playa de Somo, un destino popular por su extenso arenal, perfecto para el surf y paseos por la costa cantábrica, con vistas impresionantes y una rica biodiversidad.';
 $url = 'http://playas2024.kesug.com/localidades/cantabria/playadesomo/fichas/playa-de-somo.php';

@@ -38,14 +38,14 @@ include './localidades/index.php';
 ?>
 
 <?php
-/*
+
 $carpeta = 'playadenoja';
 $localidad_nombre = 'Playa de Noja';
 $localidad = 'Playa de Noja';
-$archivo_name = 'playa-de-noja';
+$archivo_name = 'playa-de-noja-cantabria';
 $presentacion = 'Noja es un encantador municipio costero situado en la región de Cantabria, al norte de España. Conocido por sus hermosas playas de arena fina, como Playa de Ris y Playa de Trengandín, Noja es un popular destino turístico, especialmente en verano. Además de su atractivo natural, la localidad cuenta con un rico patrimonio cultural, que incluye iglesias históricas y palacetes, así como una oferta gastronómica que destaca por los mariscos y pescados frescos. 
                 Es un lugar ideal para disfrutar de la naturaleza, el mar, y la tranquilidad en un entorno pintoresco.';
-include 'localidades/index.php'; */?>
+include './localidades/index.php'; ?>
 
 <?php /*
 $carpeta = 'playadeberria';

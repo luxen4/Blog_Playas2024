@@ -54,3 +54,7 @@
       </ul>
     </div>
   </section>
+
+  <?php define('BLOQUES_PATH',  './../../../../bloques/estructura/sections_generico') ?>
+
+  <?php require BLOQUES_PATH.'/Carruseles_CSV/prueba_atuendo.php'; ?>

@@ -22,7 +22,7 @@ $numeroAleatorio = 8;
         <div class="col-xl-3 text-center col-lg-1 col-md-1"></div>
 
         <div class="col-xl-12 text-center col-lg-10 col-md-10 col-sm-12 col-12">
-            <h6 class="text-publicidad">Publicidad</h6>
+            <?php //<h6 class="text-publicidad">Publicidad</h6>?>
 
             <?php 
             // Verificamos el tipo de publicidad
@@ -31,7 +31,7 @@ $numeroAleatorio = 8;
             } else if ($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "vertical"){
                 require 'enUnoYtres.php'; // Incluir la vista para otro tipo de publicidad
             } else if($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "atuendo"){
-                require 'atuendo.php'; // Incluir la vista para otro tipo de publicidad
+                //require 'atuendo.php'; // Incluir la vista para otro tipo de publicidad
 
             }
             ?>

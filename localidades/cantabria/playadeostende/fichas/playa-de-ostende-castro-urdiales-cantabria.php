@@ -33,7 +33,7 @@ $pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidade
 $nombre_playa_minuscula = 'ostende';
 $localidad_minuscula = 'castro-urdiales';
 $region_minuscula = 'cantabria';
-$rutas = 'playa-de-ostende-castro-urdiales-cantabria.php';
+$rutas = 'playa-de-ostende-castro-urdiales-cantabria';
 
 
 $descripcion = 'Descubre la Playa de Ostende, un destino conocido por su amplia extensión de arena dorada, ideal para disfrutar del surf y la naturaleza en la costa cantábrica.';

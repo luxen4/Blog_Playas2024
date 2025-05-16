@@ -8,5 +8,4 @@
 <?php require SECTIONS_PATH_SECTIONS. 'caracteristicas'.$nombre_playa_region.'.php'; ?>
 <?php require SECTIONS_PATH_SECTIONS. 'services'.$nombre_playa_region.'.php'; ?>
 <?php require SECTIONS_PATH_SECTIONS. 'imagenes'.$nombre_playa_region.'.php'; ?>
-<?php require SECTIONS_PATH_SECTIONS. 'mas-informacion-'.$nombre_playa_region.'.php'; ?><?php define('BLOQUES_PATH',  './../../../../bloques/estructura/sections_generico') ?>
-<?php require BLOQUES_PATH.'/Carruseles_CSV/prueba_atuendo.php'; ?>
+<?php require SECTIONS_PATH_SECTIONS. 'mas-informacion-'.$nombre_playa_region.'.php'; ?>

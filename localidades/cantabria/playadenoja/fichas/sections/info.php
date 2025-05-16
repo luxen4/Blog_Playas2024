@@ -82,55 +82,6 @@ $li_descripcion_detallada3 = '
 '; ?>
 
 
-
-
-
-<?php
-$li_actividades_recomendadas = '
-    <ul class="list-unstyled">
-        <li class="my-4">
-            <i class="fas fa-water" style="color:#3498db;"></i> <strong>Deportes Acuáticos:</strong> <br>
-            Practica <strong>surf, windsurf y paddle surf en Noja</strong>, una de las mejores zonas costeras de Cantabria para estas actividades. Hay <a href="https://surfnoja.com" target="_blank" rel="noopener noreferrer">escuelas de surf locales</a> con clases para todos los niveles.
-        </li>
-        <li class="my-4">
-            <i class="fas fa-hiking" style="color:#27ae60;"></i> <strong>Senderismo con Vistas:</strong> <br>
-            Explora rutas como el <a href="/sendero-trengandín-noja" title="Ruta por la costa de Noja">Sendero de Trengandín</a> o el Parque Natural de las Marismas de Santoña. Perfecto para <strong>excursionistas y amantes de la fotografía</strong>.
-        </li>
-        <li class="my-4">
-            <i class="fas fa-volleyball-ball" style="color:#e67e22;"></i> <strong>Zonas Deportivas:</strong> <br>
-            Disfruta de <strong>voleibol de playa</strong> y fútbol en zonas acondicionadas, especialmente durante <time datetime="2025-07">julio</time> y <time datetime="2025-08">agosto</time>, cuando hay más actividades recreativas.
-        </li>
-        <li class="my-4">
-            <i class="fas fa-ship" style="color:#2980b9;"></i> <strong>Excursiones Costeras:</strong> <br>
-            Realiza excursiones en barco desde Noja para admirar la <strong>costa cantábrica</strong> y sus acantilados. Puedes reservar tours desde el <a href="https://turismonoja.es/" target="_blank" rel="noopener noreferrer">portal oficial de turismo de Noja</a>.
-        </li>
-    </ul>
-';
-?>
-
-<?php
-$li_actividades_recomendadas2 = '
-    <div class="mt-5">
-        <h3><i class="fas fa-question-circle" style="color:#8e44ad;"></i> Preguntas Frecuentes (FAQ)</h3>
-        <dl>
-            <dt><strong>¿Cuál es la mejor época para visitar la Playa de Noja?</strong></dt>
-            <dd><time datetime="2025-06">Junio</time> a <time datetime="2025-09">septiembre</time> son ideales para sol, actividades y ambiente local animado.</dd>
-
-            <dt><strong>¿Hay clases de surf para principiantes?</strong></dt>
-            <dd>Sí, hay <a href="https://surfnoja.com" target="_blank">escuelas de surf en Noja</a> con instructores certificados.</dd>
-
-            <dt><strong>¿Qué hacer si no practico deportes?</strong></dt>
-            <dd>Puedes disfrutar de caminatas, avistamiento de aves en las marismas o simplemente relajarte en la arena.</dd>
-        </dl>
-    </div>
-
-    <p class="section-content mt-4">
-        <a href="/playas-de-cantabria/" title="Otras playas en Cantabria">Descubre más playas en Cantabria</a> y planifica tu ruta costera perfecta.
-    </p>
-
-';
-?>
-
 <?php 
 $li_mapa_ubicacion = '
 

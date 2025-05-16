@@ -1,10 +1,37 @@
+
+<IfModule mod_rewrite.c>
 RewriteEngine On
 
 # Asegura que el módulo esté activado
 RewriteBase /Blog_Playas2024/
 
-# Reescribe URLs amigables para esa ruta
+# Reescribe URLs amigables para esa ruta    #ESTO, DE MODELO
 RewriteRule ^playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php [L]
+RewriteRule ^actividades-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/actividades-playa-de-ostende-castro-urdiales-cantabria.php [L]
+RewriteRule ^como-llegar-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/como-llegar-playa-de-ostende-castro-urdiales-cantabria.php [L]
+RewriteRule ^servicios-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/servicios-playa-de-ostende-castro-urdiales-cantabria.php [L]
+RewriteRule ^eventos-festividades-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/eventos-festividades-playa-de-ostende-castro-urdiales-cantabria.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria.php [L]
 
 # Reescribe URLs amigables para esa ruta
 RewriteRule ^playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/playa-de-somo-loredo-somo-cantabria.php [L]
+RewriteRule ^actividades-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/actividades-playa-de-somo-loredo-somo-cantabria.php [L]
+RewriteRule ^como-llegar-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/como-llegar-playa-de-somo-loredo-somo-cantabria.php [L]
+RewriteRule ^servicios-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/servicios-playa-de-somo-loredo-somo-cantabria.php [L]
+RewriteRule ^eventos-festividades-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/eventos-festividades-playa-de-somo-loredo-somo-cantabria.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/preguntas-frecuentes-playa-de-somo-loredo-somo-cantabria.php [L]
+
+
+
+
+
+# Reescribe URLs amigables para esa ruta
+RewriteRule ^playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/playa-de-noja-cantabria.php [L]
+RewriteRule ^actividades-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/actividades-playa-de-noja-cantabria.php [L]
+RewriteRule ^como-llegar-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/como-llegar-playa-de-noja-cantabria.php [L]
+RewriteRule ^servicios-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/servicios-playa-de-noja-cantabria.php [L]
+RewriteRule ^eventos-festividades-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/eventos-festividades-playa-de-noja-cantabria.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/preguntas-frecuentes-playa-de-noja-cantabria.php [L]
+
+
+</IfModule>

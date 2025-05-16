@@ -32,7 +32,7 @@ $href_styles = './../fichas/css/styles.css';
 ////////
 // Para el archivo Structured_data_generico.php
 $localidad = 'Noja';
-$localidad_minuscula = 'noja';
+$nombre_playa_minuscula='noja' ; $localidad_minuscula = 'noja'; $region_minuscula = 'cantabria'; $rutas = 'playa-de-noja-cantabria';
 
 $descripcion = 'Descubre la Playa de Noja, un destino conocido por su amplia extensión de arena dorada, ideal para disfrutar del surf y la naturaleza en la costa cantábrica.';
 $url = 'http://playas2024.kesug.com/localidades/cantabria/playadenoja/fichas/playa-de-noja.php';
@@ -52,6 +52,7 @@ $mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . 
 require "./../../../../bloques/estructura/head.php"; ?>
 
 <body>
+
     <?php $page = 'playade'.$localidad_minuscula;?>
     <?php require "./sections/info.php"; ?>    
     <?php require "./../../../../bloques/estructura/body_generico.php"; ?>

@@ -1,5 +1,5 @@
 <!-- Contenido principal -->
- <?php define('SECTIONS_PATH_SECTIONS_DEPRECATED', '/Blog_Playas2024/localidades/'.$region_minuscula. '/playade'.$nombre_playa_minuscula); ?>
+ <?php define('SECTIONS_PATH_SECTIONS_DEPRECATED', '/Blog_Playas2024'); ?>
  <?php define('BLOQUES_PATH',  './../../../../bloques/estructura/sections_generico') ?>
 
 
@@ -25,10 +25,12 @@
                   </header>
                   
                   <div class="text-center">
-                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/actividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/actividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar actividades
                     </a>
+
                   </div>
+
                 </div>
 
 
@@ -55,7 +57,7 @@
                   </header>
 
                   <div class="text-center">
-                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/servicios-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                  <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/servicios-' .$rutas; ?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar servicios
                     </a>
                   </div>
@@ -72,7 +74,7 @@
 
                     <div class="text-center">
 
-                        <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/eventos-festividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/eventos-festividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
                         <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
                         </a>
                     </div>
@@ -88,7 +90,7 @@
                         </header>
 
                         <div class="text-center">
-                            <a href="./localidades/<?= $region; ?>/playade<?= $nombre_playa_minuscula; ?>/fichas/preguntas-frecuentes-<?= $rutas;?>" class="btn btn-primary btn-lg">
+                        <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/preguntas-frecuentes-' .$rutas; ?>" class="btn btn-primary btn-lg">
                             <i class="fas fa-question-circle me-2"></i> Consultar FAQs
                             </a>
                         </div>

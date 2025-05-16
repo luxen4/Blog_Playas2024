@@ -3,16 +3,11 @@ require_once "generico_CSV.php";
 //$productos = leer_CSV_jeans_man($arrayElementos, 3); 
 $productos = leer_CSV("jeans_man"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
 
-?>
-<?php
-
-
-
 // Generamos un número aleatorio entre 0 y 7
 $numeroAleatorio = rand(0, 7); 
 $numeroAleatorio = 3; ?>
 
-<?php require "carrusel_auxiliar1.php"; ?>
+<?php //require "carrusel_auxiliar1.php"; ?>
 
 <script>
 

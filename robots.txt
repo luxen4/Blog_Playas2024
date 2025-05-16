@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: http://playas2024.kesug.com/Blog_Playas2024/sitemap.php

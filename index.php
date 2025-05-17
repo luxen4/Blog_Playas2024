@@ -15,25 +15,25 @@
 
 
 
-    <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
-    <script src="https://static.adcash.com/js/aclib.js" async></script>
-    <?php require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
+<!-- Cargar la librería principal de Adcash -->
+<script src="https://static.adcash.com/js/aclib.js" async></script>
 
+<!-- (Opcional) Script adicional desde Adcash si es requerido -->
+<?php require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
 
-<!-- Carga la librería de Adcash -->
-
-
-<?php 
-// Lógica PHP para Adcash, sin bloquear si falla
-$ads_ok = false;
-
-try {
-  //$ads_ok = @require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php";
-} catch (Exception $e) {
-  // Aquí podrías registrar el error si te interesa
-  $ads_ok = false;
-}
-?>
+<!-- Script de configuración -->
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof aclib !== "undefined") {
+            aclib.runAutoTag({
+                zoneId: 'x2xz7dfrur'
+            });
+            console.log('Adcash script loaded successfully!');
+        } else {
+            console.warn('Adcash library (aclib) not loaded.');
+        }
+    });
+</script>
 
 
 
@@ -111,14 +111,7 @@ try {
 <?php require './bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
 
 
-<!-- adcash -->
-<script type="text/javascript">
-    aclib.runAutoTag({
-        zoneId: 'f7d43jg7bo',
-    });
- /*   http://playas2024.kesug.com/
-ID del sitio web: 1533778*/
-</script>
+
 
 
 </body>

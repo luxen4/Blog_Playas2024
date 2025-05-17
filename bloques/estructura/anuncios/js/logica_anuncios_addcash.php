@@ -1,6 +1,6 @@
 
 <?php
-/*
+
 function getAdcashLibTag()
   {
     $ch = curl_init();
@@ -11,15 +11,17 @@ function getAdcashLibTag()
     return $content;
   }
 
-  echo getAdcashLibTag();
+  echo getAdcashLibTag();?>
   
 
   <script type="text/javascript">
     aclib.runAutoTag({
-        zoneId: 'f7d43jg7bo',
+        zoneId: 'x2xz7dfrur',
     });
 
-    alert("Anuncio de Adcash cargado correctamente.");
-  </script>*/?>
+    alert('Adcash script loaded successfully!');
+</script>
+
+
   
 

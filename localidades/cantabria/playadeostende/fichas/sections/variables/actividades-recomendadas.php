@@ -10,11 +10,11 @@
     </p>
 
 
-    <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
 
     <p class="section-content">
       Además, Ostende cuenta con diversas <a href="https://escueladesurfcastro.com/" target="_blank" rel="noopener noreferrer" title="Escuelas de Surf">escuelas de surf</a> y alquiler de equipos para quienes deseen aprender o mejorar sus habilidades acuáticas.
-    </p>
+    </p>    <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
+
     <p class="section-content">
       <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> Durante todo el año, la playa alberga <strong>eventos deportivos</strong>, como torneos de vóley de playa, campeonatos de surf y eventos culturales, lo que la convierte en un lugar vibrante.
     </p>
@@ -41,8 +41,17 @@
         </li>
 
 
-        <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_ho.php'; ?>
+<div class="solo-escritorio">
+    <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; ?>
+</div>
 
+<style>
+  @media (max-width: 768px) {
+    .solo-escritorio {
+        display: none;
+    }
+}
+</style>
 
 
         <li class="my-4">

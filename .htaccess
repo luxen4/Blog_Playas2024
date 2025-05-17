@@ -33,5 +33,5 @@ RewriteRule ^servicios-playa-de-noja-cantabria$ localidades/cantabria/playadenoj
 RewriteRule ^eventos-festividades-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/eventos-festividades-playa-de-noja-cantabria.php [L]
 RewriteRule ^preguntas-frecuentes-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/preguntas-frecuentes-playa-de-noja-cantabria.php [L]
 
-
+como-llegar-playa-de-noja-cantabria
 </IfModule>

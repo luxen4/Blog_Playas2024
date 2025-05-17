@@ -4,7 +4,7 @@
     </h5>
     <ul class="navbar-nav mx-auto">
         <li>
-            <a class="nav-link text-black" href="./../../../../index.php">
+            <a class="nav-link text-black" href='/Blog_Playas2024/index.php'>
                 <i class="fas fa-globe-europe me-1"></i> Todas Playas por Zonas
             </a>
         </li>
@@ -14,7 +14,7 @@
             </a>
         </li>
         <li>
-            <a class="nav-link text-black" href="#ubicacion">
+            <a class="nav-link text-black" href="#como_llegar">
                 <i class="fas fa-map-marker-alt me-1"></i> Ubicación
             </a>
         </li>
@@ -29,12 +29,12 @@
             </a>
         </li>
         <li>
-            <a class="nav-link text-black" href="#galeria">
+            <a class="nav-link text-black" href="#galeria_imagenes">
                 <i class="fas fa-images me-1"></i> Galería
             </a>
         </li>
         <li>
-            <a class="nav-link text-black" href="#masinfo">
+            <a class="nav-link text-black" href="#mas_info">
                 <i class="fas fa-address-book me-1"></i> Más Información
             </a>
         </li>

@@ -78,13 +78,13 @@ try {
 
             </div>
             <div class="">
-                <?php include './localidades/vizcaya/vizcaya.php'; ?>
+                <?php //include './localidades/vizcaya/vizcaya.php'; ?>
             </div>
             <div class="">
-                <?php include './localidades/guipuzkoa/guipuzkoa.php'; ?>
+                <?php //include './localidades/guipuzkoa/guipuzkoa.php'; ?>
             </div>
             <div class="">
-                <?php include './localidades/francia/francia.php'; ?>
+                <?php //include './localidades/francia/francia.php'; ?>
             </div>
         </div>
     </div>

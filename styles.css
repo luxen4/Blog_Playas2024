@@ -245,7 +245,7 @@ main {
     
     .carrusel_auxiliar1 .custom-carousel-image-container {
         border: 1px solid #ccc;/* Color y grosor del borde */
-        border-radius: 2px;/* Radio para bordes redondeados */
+        border-radius: 4px;/* Radio para bordes redondeados */
         overflow: hidden; /* Para asegurar que las esquinas redondeadas se mantengan */
         margin: 0.05em;/* Sin margen entre las imágenes */
         padding: 0;/* Sin padding */
@@ -261,8 +261,7 @@ main {
     .carrusel_auxiliar1 .col-md-6,
     .carrusel_auxiliar1 .col-sm-6,
     .carrusel_auxiliar1 .col-6 {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0.125em; 
     }
 
 
@@ -270,3 +269,12 @@ main {
         text-align: left;
         color: lightgray;
     }
+
+
+
+    body { background-color: #f8f9fa; }
+    .info-box { background: #fff; border-radius: 12px; padding: 0rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .info-box ul { padding-left: 1.2rem; }
+    .info-box li { margin-bottom: 1.5rem; font-size: 1rem; }
+    .info-box i { margin-right: .5rem; }
+    #actividades p { font-size: 1.1rem; }

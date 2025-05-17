@@ -13,9 +13,12 @@
         <div id="central-column" class="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 content-wrapper">
             <main>
                 <?php require BLOQUES_PATH . '/deprecated/_encabezado_generico.php'; ?>
+
+                <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sports_shirts_hombre.php'; ?>
+
                 <?php require BLOQUES_PATH . '/deprecated/_descripcion-detallada_generico.php'; ?>
                 
-                <div id="actividades_recomendadas" class="mt-5">
+                <div id="actividades" class="mt-5">
                   <header  class="text-center mb-4">
                     <h2 class="text-primary">🏄‍♂️ Actividades Recomendadas en la Playa de <?= $mainEntity_addressLocality; ?></h2>
                     <p>Explora las <strong>mejores actividades turísticas y deportivas</strong> que ofrece la Playa de Ostende en 

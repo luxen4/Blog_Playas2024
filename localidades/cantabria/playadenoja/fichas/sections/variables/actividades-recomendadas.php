@@ -15,6 +15,8 @@
     <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> A lo largo del año se organizan <strong>eventos deportivos, talleres y festivales</strong>, atrayendo tanto a familias como a aventureros.
   </p>
 
+  <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
+
   <div class="info-box">
     <ul class="list-unstyled">
       <li>

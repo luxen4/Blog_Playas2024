@@ -1,4 +1,4 @@
-<section id="actividades" class="seccion-actividades container py-5">
+<section id="actividades" class="seccion-actividades container">
     <header class="text-center mb-4">
       <h2 class="text-primary">🏄‍♂️ Actividades Recomendadas en Ostende</h2>
       <p>Explora las <strong>mejores actividades turísticas y deportivas</strong> que ofrece la Playa de Ostende en <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales, Cantabria</a>. Ideal para los amantes del turismo activo y la naturaleza costera.</p>
@@ -8,6 +8,10 @@
     <p class="section-content">
       La <strong>Playa de Ostende</strong> es famosa por ser uno de los mejores lugares para practicar <strong>deportes acuáticos</strong> en Cantabria. Puedes disfrutar del <strong>surf, paddle surf, windsurf</strong>, o simplemente relajarte y disfrutar de las hermosas vistas al mar.
     </p>
+
+
+    <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
+
     <p class="section-content">
       Además, Ostende cuenta con diversas <a href="https://escueladesurfcastro.com/" target="_blank" rel="noopener noreferrer" title="Escuelas de Surf">escuelas de surf</a> y alquiler de equipos para quienes deseen aprender o mejorar sus habilidades acuáticas.
     </p>
@@ -35,6 +39,11 @@
           <time datetime="2025-06">Junio 2025</time> – 
           <time datetime="2025-09">Septiembre 2025</time>.
         </li>
+
+
+        <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_ho.php'; ?>
+
+
 
         <li class="my-4">
           <i class="fas fa-ship" style="color: #3498db;"></i>

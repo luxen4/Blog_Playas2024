@@ -14,7 +14,21 @@ $arrayElementos = array(
 
 
 function leer_CSV($nombre) {
+
     $csv_file = './../../../../bloques/estructura/sections_generico/csv_publicidad_amazon/amazon_' . $nombre . '_images.csv';
+
+    $csv_file = './bloques/estructura/sections_generico/csv_publicidad_amazon/amazon_' . $nombre . '_images.csv';
+
+
+// Detectar si estamos en index.php
+if (basename($_SERVER['PHP_SELF']) === 'index.php') {
+    $csv_file = './bloques/estructura/sections_generico/csv_publicidad_amazon/amazon_' . $nombre . '_images.csv';
+} else {
+    $csv_file = './../../../../bloques/estructura/sections_generico/csv_publicidad_amazon/amazon_' . $nombre . '_images.csv';
+}
+
+
+
     $productos = [];
 
     // Verificar si el archivo CSV existe

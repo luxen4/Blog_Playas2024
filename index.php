@@ -39,12 +39,12 @@
     <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/bloques/estructura/'); ?>
 
     <!-- Header de Introducción -->
-    <header class="bg-primary text-white text-center py-5">
+    <header class="bg-primary text-white text-center py-1">
         <h1 class="display-4">Descubre las Playas del Cantábrico</h1>
     </header>
 
     <div class="container">
-        <p style="text-align: center;">
+        <p style="text-align: left;">
                 Bienvenido a nuestro blog, donde te invitamos a explorar las playas más impresionantes de la costa cantábrica. <br>
                 Desde extensas franjas de arena dorada y aguas cristalinas, hasta rincones tranquilos y vibrantes actividades acuáticas,
                 Aquí encontrarás toda la información que necesitas para planificar tu próxima escapada a la costa norte de España.

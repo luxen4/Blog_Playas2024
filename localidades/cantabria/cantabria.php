@@ -15,7 +15,11 @@ $archivo_name = 'playa-de-ostende-castro-urdiales-cantabria';
 
 $presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. 
 Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
+
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
 include './localidades/index.php'; ?>
+
+
 
 <?php /*
 $carpeta = 'castrourdiales';
@@ -34,6 +38,7 @@ $localidad_nombre = 'Playa de Somo';
 $localidad = 'Playa de Somo';
 $archivo_name = 'playa-de-somo-loredo-somo-cantabria';
 $presentacion = 'Somo es una popular localidad costera situada en Cantabria, al norte de España. Conocida por su extensa playa de arena dorada, la Playa de Somo es un destino destacado para los amantes del surf y las actividades acuáticas. Esta playa ofrece un ambiente vibrante y una amplia gama de servicios, incluyendo restaurantes, bares y tiendas. Además de su atractivo costero, Somo cuenta con un entorno natural impresionante, con vistas al Mar Cantábrico y a la ciudad de Santander. Es el lugar perfecto para disfrutar de la playa, el sol y una rica gastronomía basada en productos frescos del mar.';
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php';
 include './localidades/index.php';
 ?>
 
@@ -45,6 +50,7 @@ $localidad = 'Playa de Noja';
 $archivo_name = 'playa-de-noja-cantabria';
 $presentacion = 'Noja es un encantador municipio costero situado en la región de Cantabria, al norte de España. Conocido por sus hermosas playas de arena fina, como Playa de Ris y Playa de Trengandín, Noja es un popular destino turístico, especialmente en verano. Además de su atractivo natural, la localidad cuenta con un rico patrimonio cultural, que incluye iglesias históricas y palacetes, así como una oferta gastronómica que destaca por los mariscos y pescados frescos. 
                 Es un lugar ideal para disfrutar de la naturaleza, el mar, y la tranquilidad en un entorno pintoresco.';
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php';
 include './localidades/index.php'; ?>
 
 <?php /*

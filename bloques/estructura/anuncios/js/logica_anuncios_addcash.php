@@ -1,6 +1,6 @@
 
 <?php
-
+/*
 function getAdcashLibTag()
 {
     $ch = curl_init();
@@ -11,7 +11,7 @@ function getAdcashLibTag()
     return $content;
 }
 
-echo getAdcashLibTag();
+echo getAdcashLibTag();*/
 ?>
 
 </script>

@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide custom" data-ride="carousel" data-interval="10000">
+<div style="margin: 1em;" id="carouselExampleIndicators" class="carousel slide custom" data-ride="carousel" data-interval="10000">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="container">

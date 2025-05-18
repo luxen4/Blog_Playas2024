@@ -11,11 +11,7 @@
     <meta name="author" content="Adrián Laya García">
     <meta name="language" content="es">
 
-
     <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/<?= $url_amigable;?>" />
-
-
-
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>
@@ -73,27 +69,7 @@
     <?php include_once 'structured_data_generico.php'; ?>
 
 
-
-
     <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
     <script src="https://static.adcash.com/js/aclib.js" async></script>
     <?php require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
-
-
-
-
-<?php /*
-// Lógica PHP para Adcash, sin bloquear si falla
-$ads_ok = false;
-
-try {
-  $ads_ok = @require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php";
-} catch (Exception $e) {
-  // Aquí podrías registrar el error si te interesa
-  $ads_ok = false;
-}*/
-?>
-
-
-
 </head>

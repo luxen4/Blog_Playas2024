@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="site-verification" content="O4CyyseatW1WkLbzw9poeIPyF27Eik_tDlqrO0ank4o"/>
+
+    <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5">
+
     <title>Los Viajes de Adrián</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,25 +18,7 @@
 
 
 
-<!-- Cargar la librería principal de Adcash -->
-<script src="https://static.adcash.com/js/aclib.js" async></script>
 
-<!-- (Opcional) Script adicional desde Adcash si es requerido -->
-<?php require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
-
-<!-- Script de configuración -->
-<script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", function () {
-        if (typeof aclib !== "undefined") {
-            aclib.runAutoTag({
-                zoneId: 'x2xz7dfrur'
-            });
-            console.log('Adcash script loaded successfully!');
-        } else {
-            console.warn('Adcash library (aclib) not loaded.');
-        }
-    });
-</script>
 
 
 
@@ -58,9 +43,6 @@
         <h1 class="display-4">Descubre las Playas del Cantábrico</h1>
     </header>
 
-
-
-    
     <div class="container">
         <p style="text-align: center;">
                 Bienvenido a nuestro blog, donde te invitamos a explorar las playas más impresionantes de la costa cantábrica. <br>
@@ -114,7 +96,31 @@
 
 
 
+
+<!-- (Opcional) Script adicional desde Adcash si es requerido -->
+<?php require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
+<script src="https://static.adcash.com/js/aclib.js" async></script><!-- Cargar la librería oficial de Adcash -->
+
+<!-- Ejecutar Adcash una vez cargado -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Espera a que aclib esté disponible
+        function tryRunAdcash(retries = 5) {
+            if (typeof aclib !== "undefined") {
+                aclib.runAutoTag({
+                    zoneId: 'x2xz7dfrur'
+                });
+                console.log('Adcash script loaded successfully!');
+            } else if (retries > 0) {
+                setTimeout(() => tryRunAdcash(retries - 1), 300); // Reintenta hasta 5 veces
+            } else {
+                console.warn('Adcash library (aclib) not loaded.');
+            }
+        }
+
+        tryRunAdcash();
+    });
+</script>
 </body>
 
 </html>     
-

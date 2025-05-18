@@ -32,8 +32,8 @@
   <!-- Estilos personalizados -->
   <style>
     body { background-color: #f8f9fa; }
-    .info-box { background: #fff; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-    .info-box ul { padding-left: 1.2rem; }
+    .info-box { background: #fff; border-radius: 12px; padding: 0.125rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .info-box ul { padding-left: 0.125rem; }
     .info-box li { margin-bottom: 1.5rem; font-size: 1rem; }
     .info-box i { margin-right: .5rem; }
     .section-header i { margin-right: .5rem; }
@@ -50,7 +50,7 @@
 
 <?php
 $li_mapa_ubicacion = '
-<section id="como-llegar-ostende" class="container py-5">
+<section id="como-llegar-ostende" class="container">
   <header class="text-center mb-4">
     <h2 class="text-danger section-header"><i class="fas fa-map-marked-alt"></i> Cómo llegar a la Playa de Ostende</h2>
     <p class="lead">Planifica tu ruta hacia una de las playas más accesibles de <a href="/castro-urdiales/" style="color:#2980b9;" title="Visita Castro Urdiales">Castro Urdiales</a>, en pleno litoral cántabro.</p>
@@ -76,6 +76,8 @@ $li_mapa_ubicacion = '
     </ul>
   </div>
 
+  
+
   <h5 class="mt-5 mb-3 text-primary"><i class="fas fa-map"></i> Mapa interactivo</h5>
   <div class="map-responsive mb-4">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5831.651444241797!2d-3.8591253222141294!3d43.45938808069519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd493580c7f8b1cf%3A0x4f643bc98d20e61e!2sPlaya%20de%20Ostende!5e0!3m2!1ses!2ses!4v1692110560672!5m2!1ses!2ses" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Playa de Ostende"></iframe>
@@ -95,4 +97,15 @@ echo $li_mapa_ubicacion;
 <?php require "./../../../../bloques/estructura/footer.php"; ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
+
+
+<!-- jQuery (necesario para Bootstrap 4) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Popper.js (necesario para el dropdown y toggler de Bootstrap 4) -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>

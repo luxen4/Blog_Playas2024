@@ -22,6 +22,8 @@
   <meta name="keywords" content="Playa de Ostende, actividades Ostende, surf Cantabria, senderismo Cantábrico, deportes de playa, excursiones barco Cantabria" />
   <meta name="robots" content="index, follow" />
   <meta name="date" content="2025-05-04" />
+
+  
   <!-- Open Graph -->
   <meta property="og:title" content="Actividades en la Playa de Ostende – Castro-Urdiales" />
   <meta property="og:description" content="Explora surf, paddle-surf, senderismo, voleibol de playa y excursiones en barco en Ostende, Castro-Urdiales." />
@@ -41,18 +43,12 @@
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="http://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2024/styles.css">
 
-
 </head>
+
 <body>
   <?php require "./../../../../bloques/estructura/header.php"; ?>
-
   <?php require "./../../../../localidades/cantabria/playadeostende/fichas/sections/variables/actividades-recomendadas.php"; ?> 
-
- 
-
   <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
-
-
   <?php require "./../../../../bloques/estructura/footer.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

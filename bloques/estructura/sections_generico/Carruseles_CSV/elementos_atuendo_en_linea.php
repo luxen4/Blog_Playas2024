@@ -1,4 +1,4 @@
-<div class="row box_atuendo">
+<div style="margin: 1em;" class="row box_atuendo">
   <div class="col-12 text-center">
     <div class="atuendo-flex">
       <!-- Primera imagen centrada -->
@@ -36,35 +36,63 @@
   </div>
 </div>
 <style>
-    .atuendo-flex {
+.atuendo-flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centra todo el contenido horizontalmente */
+  justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
-/* A la primera imagen dale un tamaño mayor si lo deseas */
+.custom-carousel-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Por defecto: escritorio */
 .first-image {
-  flex: 0 0 auto;
-  width: 50%;   /* o el porcentaje que prefieras */
-  display: flex;
-  justify-content: center;
+  width: 18%;
 }
-
-/* El resto un tamaño fijo o menor para no empujar la primera */
 .other-image {
-  flex: 0 0 auto;
-  width: 20%;   /* ajusta según cuántas imágenes pequeñas tengas */
-  display: flex;
-  justify-content: center;
+  width: 12%;
 }
 
-/* Ajustes internos de las imágenes */
 .custom-carousel-image-container img {
   max-height: 100%;
   max-width: 100%;
   object-fit: contain;
   display: block;
+  border-radius: 0.5rem;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .first-image {
+    width: 30%;
+  }
+  .other-image {
+    width: 20%;
+  }
+}
+
+/* Móvil grande */
+@media (max-width: 768px) {
+  .first-image,
+  .other-image {
+    width: 40%;
+  }
+}
+
+/* Móvil pequeño */
+@media (max-width: 480px) {
+  .first-image,
+  .other-image {
+    width: 25%;
+  }
+
+  .atuendo-flex {
+    gap: 0.5rem;
+  }
 }
 </style>

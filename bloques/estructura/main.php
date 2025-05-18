@@ -47,7 +47,7 @@
                   </header>
 
                   <div class="text-center">
-                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/fichas/como-llegar-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/como-llegar-' .$rutas; ?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar ruta
                     </a>
                   </div>

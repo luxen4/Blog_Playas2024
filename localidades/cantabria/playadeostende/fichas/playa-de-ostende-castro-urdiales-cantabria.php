@@ -60,6 +60,4 @@ $mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2024/playa-de-ostende-
     <?php require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/body_generico.php'; ?>
 </body>
 
-
-
 </html>

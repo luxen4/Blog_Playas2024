@@ -25,4 +25,220 @@
     RewriteRule ^servicios-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/servicios-playa-de-noja-cantabria.php [L]
     RewriteRule ^eventos-festividades-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/eventos-festividades-playa-de-noja-cantabria.php [L]
     RewriteRule ^preguntas-frecuentes-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/preguntas-frecuentes-playa-de-noja-cantabria.php [L]
+
+
+    # Berria
+    RewriteRule ^playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/playa-de-berria-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/actividades-playa-de-berria-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/como-llegar-playa-de-berria-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/servicios-playa-de-berria-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/eventos-festividades-playa-de-berria-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/preguntas-frecuentes-playa-de-berria-cantabria.php [L]
+
+    
+    # Laredo
+    RewriteRule ^playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/playa-de-laredo-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/actividades-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/como-llegar-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/servicios-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/eventos-festividades-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/preguntas-frecuentes-playa-de-laredo-cantabria.php [L]
+
+
+    # Isla
+    RewriteRule ^playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/playa-de-isla-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/actividades-playa-de-isla-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/como-llegar-playa-de-isla-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-isla-cantabria$ localidades/cantabria/playadelaredo/fichas/servicios-playa-de-isla-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/eventos-festividades-playa-de-isla-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/preguntas-frecuentes-playa-de-isla-cantabria.php [L]
+
+        
+    # Suances
+    RewriteRule ^playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/playa-de-suances-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/actividades-playa-de-suances-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/como-llegar-playa-de-suances-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/servicios-playa-de-suances-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/eventos-festividades-playa-de-suances-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/preguntas-frecuentes-playa-de-suances-cantabria.php [L]
+
+
+#VIZCAYA
+    # Playa de Gorliz
+    RewriteRule ^playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/actividades-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/como-llegar-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/servicios-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/eventos-festividades-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/preguntas-frecuentes-playa-de-gorliz-vizcaya.php [L]
+
+
+
+    # Playa de Getxo
+    RewriteRule ^playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-getxo-vizcaya$ localidades/getxo/playadegetxo/fichas/actividades-playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/como-llegar-playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/servicios-playa-de-gecho-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/eventos-festividades-playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/preguntas-frecuentes-playa-de-getxo-vizcaya.php [L]
+
+
+
+#Laga
+RewriteRule ^playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/playa-de-laga-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-laga-vizcaya$ localidades/laga/playadelaga/fichas/actividades-playa-de-laga-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/como-llegar-playa-de-laga-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/servicios-playa-de-laga-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/eventos-festividades-playa-de-laga-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/preguntas-frecuentes-playa-de-laga-vizcaya.php [L]
+
+
+
+#Bakio
+RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-bakio-vizcaya$ localidades/bakio/playadebakio/fichas/actividades-playa-de-bakio-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/como-llegar-playa-de-bakio-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/servicios-playa-de-bakio-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/eventos-festividades-playa-de-bakio-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/preguntas-frecuentes-playa-de-bakio-vizcaya.php [L]
+
+
+
+#Lekeitio
+RewriteRule ^playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-lekeitio-vizcaya$ localidades/lekeitio/playadelekeitio/fichas/actividades-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/como-llegar-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/servicios-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/eventos-festividades-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/preguntas-frecuentes-playa-de-lekeitio-vizcaya.php [L]
+
+
+#Sopelana
+RewriteRule ^playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-sopelana-vizcaya$ localidades/sopelana/playadesopelana/fichas/actividades-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/como-llegar-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/servicios-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/eventos-festividades-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/preguntas-frecuentes-playa-de-sopelana-vizcaya.php [L]
+
+
+#Muskiz
+RewriteRule ^playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-muskiz-vizcaya$ localidades/muskiz/playademuskiz/fichas/actividades-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/como-llegar-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/servicios-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/eventos-festividades-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/preguntas-frecuentes-playa-de-muskiz-vizcaya.php [L]
+
+
+#Azkorri
+RewriteRule ^playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-azkorri-vizcaya$ localidades/azkorri/playadeazkorri/fichas/actividades-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/como-llegar-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/servicios-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/eventos-festividades-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/preguntas-frecuentes-playa-de-azkorri-vizcaya.php [L]
+
+
+# Plentzia
+RewriteRule ^playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/playa-de-plentzia-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-plentzia-vizcaya$ localidades/plentzia/playadeplentzia/fichas/actividades-playa-de-plentzia-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/como-llegar-playa-de-plentzia-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/servicios-playa-de-plentzia-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/eventos-festividades-playa-de-plentzia-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/preguntas-frecuentes-playa-de-plentzia-vizcaya.php [L]
+
+
+
+
+#GIPUZKOA
+
+#Deba
+RewriteRule ^playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/playa-de-deba-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-deba-gipuzkoa$ localidades/deba/playadedeba/fichas/actividades-playa-de-deba-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/como-llegar-playa-de-deba-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/servicios-playa-de-deba-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/eventos-festividades-playa-de-deba-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/preguntas-frecuentes-playa-de-deba-gipuzkoa.php [L]
+
+#Fuenterrabia
+RewriteRule ^playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-fuenterrabia-gipuzkoa$ localidades/fuenterrabia/playadefuenterrabia/fichas/actividades-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/como-llegar-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/servicios-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/eventos-festividades-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/preguntas-frecuentes-playa-de-fuenterrabia-gipuzkoa.php [L]
+
+
+# Getaria
+RewriteRule ^playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-getaria-gipuzkoa$ localidades/getaria/playadegetaria/fichas/actividades-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/como-llegar-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/servicios-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/eventos-festividades-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/preguntas-frecuentes-playa-de-getaria-gipuzkoa.php [L]
+
+
+# Orio
+RewriteRule ^playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-orio-gipuzkoa$ localidades/orio/playadeorio/fichas/actividades-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/como-llegar-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/servicios-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/eventos-festividades-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/preguntas-frecuentes-playa-de-orio-gipuzkoa.php [L]
+
+
+#Zarautz
+RewriteRule ^playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-zarautz-gipuzkoa$ localidades/zarautz/playadezarautz/fichas/actividades-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/como-llegar-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/servicios-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/eventos-festividades-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/preguntas-frecuentes-playa-de-zarautz-gipuzkoa.php [L]
+
+
+# Zumaia
+RewriteRule ^playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-zumaia-gipuzkoa$ localidades/zumaia/playadezumaia/fichas/actividades-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/como-llegar-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/servicios-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/eventos-festividades-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/preguntas-frecuentes-playa-de-zumaia-gipuzkoa.php [L]
+
+
+
+
+
+
+
+
+# Hendaya
+RewriteRule ^playa-de-hendaya-francia$ localidades/francia/playadehendaya/fichas/playa-de-hendaya-francia.php [L]
+RewriteRule ^actividades-playa-de-hendaya-francia$ localidades/zumaia/playadehendaya/fichas/actividades-playa-de-hendaya-francia.php [L]
+RewriteRule ^como-llegar-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/como-llegar-playa-de-hendaya-francia.php [L]
+RewriteRule ^servicios-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/servicios-playa-de-hendaya-francia.php [L]
+RewriteRule ^eventos-festividades-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/eventos-festividades-playa-de-hendaya-francia.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/preguntas-frecuentes-playa-de-hendaya-francia.php [L]
+
+
+#San Juan de Luz
+RewriteRule ^playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz-francia.php [L]
+RewriteRule ^actividades-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-san-juan-de-luz-francia.php [L]
+RewriteRule ^como-llegar-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/como-llegar-playa-de-san-juan-de-luz-francia.php [L]
+RewriteRule ^servicios-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/servicios-playa-de-san-juan-de-luz-francia.php [L]
+RewriteRule ^eventos-festividades-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/eventos-festividades-playa-de-san-juan-de-luz-francia.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/preguntas-frecuentes-playa-de-san-juan-de-luz-francia.php [L]
+
+
+# Biarritz
+RewriteRule ^playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/playa-de-biarritz-francia.php [L]
+RewriteRule ^actividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/actividades-playa-de-biarritz-francia.php [L]
+RewriteRule ^como-llegar-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/como-llegar-playa-de-biarritz-francia.php [L]
+RewriteRule ^servicios-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/servicios-playa-de-biarritz-francia.php [L]
+RewriteRule ^eventos-festividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/eventos-festividades-playa-de-biarritz-francia.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/preguntas-frecuentes-playa-de-biarritz-francia.php [L]
+
+
+
+
 </IfModule>

@@ -33,6 +33,7 @@ $pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidade
 // Para el archivo Structured_data_generico.php
 $localidad = 'Suances';
 $localidad_minuscula = 'suances';
+$rutas = 'playa-de-suances-cantabria';
 
 $descripcion = 'Descubre la Playa de Suances, un destino famoso por su extensa playa, excelentes condiciones para el surf y un entorno natural impresionante.';
 $url = 'http://playas2024.kesug.com/localidades/cantabria/playadesuances/fichas/playa-de-suances.php';

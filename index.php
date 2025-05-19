@@ -52,7 +52,7 @@
             </p>
         <div class="row">
             <div class="">
-                <?php include './localidades/cantabria/cantabria.php'; ?>
+                <?php include './localidades/cantabria/sumario-playas-cantabria.php'; ?>
 
                   <!-- Contenedor donde se inyectará el anuncio -->
                 <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
@@ -60,13 +60,13 @@
 
             </div>
             <div class="">
-                <?php //include './localidades/vizcaya/vizcaya.php'; ?>
+                <?php //include './localidades/vizcaya/sumario-playas-vizcaya.php'; ?>
             </div>
             <div class="">
-                <?php //include './localidades/guipuzkoa/guipuzkoa.php'; ?>
+                <?php //include './localidades/gipuzkoa/sumario-playas-gipuzkoa.php'; ?>
             </div>
             <div class="">
-                <?php //include './localidades/francia/francia.php'; ?>
+                <?php include './localidades/francia/sumario-playas-francia.php'; ?>
             </div>
         </div>
     </div>

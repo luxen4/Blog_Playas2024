@@ -33,6 +33,7 @@ $href_styles = './../fichas/css/styles.css';
 // Para el archivo Structured_data_generico.php
 $localidad = 'Berria';
 $localidad_minuscula = 'berria';
+$rutas = 'playa-de-berria-cantabria';
 
 $descripcion = 'Explora la Playa de Berria, un destino famoso por su arenal amplio, excelente para practicar surf y disfrutar de un entorno natural tranquilo.';
 $url = 'http://playas2024.kesug.com/localidades/cantabria/playadeberria/fichas/playa-de-berria.php';

@@ -28,12 +28,12 @@
 
 
     # Berria
-    RewriteRule ^playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/playa-de-berria-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/actividades-playa-de-berria-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/como-llegar-playa-de-berria-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/servicios-playa-de-berria-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/eventos-festividades-playa-de-berria-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-berria-cantabria$ localidades/cantabria/playadeberria/fichas/preguntas-frecuentes-playa-de-berria-cantabria.php [L]
+    RewriteRule ^playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/fichas/playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/actividades-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/como-llegar-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/servicios-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/eventos-festividades-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/preguntas-frecuentes-playa-de-berria-santona-cantabria.php [L]
 
     
     # Laredo

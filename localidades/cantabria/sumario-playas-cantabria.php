@@ -56,7 +56,7 @@ include $targeta; ?>
 $carpeta = 'playadeberria';
 $localidad_nombre = 'Playa de Berria';
 $localidad = 'Playa de Berria';
-$archivo_name = 'berria';
+$archivo_name = 'berria-santona';
 $presentacion = 'La Playa de Berria, ubicada en Santoña, Cantabria, es un hermoso tramo de arena dorada que se extiende por casi 2 kilómetros entre el Monte Buciero y el estuario de Treto. Con sus aguas cristalinas y su entorno natural protegido, es un destino perfecto para quienes buscan disfrutar del surf, paseos relajantes, o simplemente conectar con la naturaleza.<br>Esta playa, de gran valor ecológico, es un paraíso tanto para los amantes del mar como para aquellos que buscan un rincón tranquilo en la costa cantábrica.';
 include $targeta; ?>
 

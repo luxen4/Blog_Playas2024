@@ -1,5 +1,11 @@
 <!-- Contenido principal -->
- <?php define('SECTIONS_PATH_SECTIONS_DEPRECATED', '/Blog_Playas2024'); ?>
+<?php define('SECTIONS_ACTIVIDADES_RECOMENDADAS', '/Blog_Playas2024/localidades/' .$region_minuscula. '/' . $page .'/paginas_secundarias/actividades-' . $rutas. '.php'); ?>
+<?php define('SECTIONS_COMO_LLEGAR', '/Blog_Playas2024/localidades/' .$region_minuscula. '/' . $page .'/paginas_secundarias/como-llegar-' . $rutas. '.php'); ?>
+<?php define('SECTIONS_SERVICIOS', '/Blog_Playas2024/localidades/' .$region_minuscula. '/' . $page .'/paginas_secundarias/servicios-' . $rutas. '.php'); ?>
+<?php define('SECTIONS_EVENTOS_FESTIVIDADES', '/Blog_Playas2024/localidades/' .$region_minuscula. '/' . $page .'/paginas_secundarias/eventos-festividades-' . $rutas. '.php'); ?>
+<?php define('SECTIONS_FAQS', '/Blog_Playas2024/localidades/' .$region_minuscula. '/' . $page .'/paginas_secundarias/preguntas-frecuentes-' . $rutas. '.php'); ?>
+
+
  <?php define('BLOQUES_PATH',  './../../../../bloques/estructura/sections_generico') ?>
 
 
@@ -28,7 +34,9 @@
                   </header>
                   
                   <div class="text-center">
-                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/actividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                    <?php //<a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/actividades-' .$rutas; ?<" class="btn btn-primary btn-lg"> ?>
+
+                    <a href='<?= SECTIONS_ACTIVIDADES_RECOMENDADAS; ?>' target="_blank"  class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar actividades
                     </a>
 
@@ -47,7 +55,7 @@
                   </header>
 
                   <div class="text-center">
-                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/como-llegar-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                    <a href='<?= SECTIONS_COMO_LLEGAR; ?>' target="_blank"  class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar ruta
                     </a>
                   </div>
@@ -60,7 +68,7 @@
                   </header>
 
                   <div class="text-center">
-                  <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/servicios-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                  <a href= "<?= SECTIONS_SERVICIOS; ?>" class="btn btn-primary btn-lg">
                       <i class="fas fa-map-marked-alt me-2"></i> Consultar servicios
                     </a>
                   </div>
@@ -77,7 +85,7 @@
 
                     <div class="text-center">
 
-                    <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/eventos-festividades-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                   <a href= "<?= SECTIONS_EVENTOS_FESTIVIDADES; ?>" class="btn btn-primary btn-lg">
                         <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
                         </a>
                     </div>
@@ -93,7 +101,7 @@
                         </header>
 
                         <div class="text-center">
-                        <a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/preguntas-frecuentes-' .$rutas; ?>" class="btn btn-primary btn-lg">
+                         <a href= "<?= SECTIONS_FAQS; ?>" class="btn btn-primary btn-lg">
                             <i class="fas fa-question-circle me-2"></i> Consultar FAQs
                             </a>
                         </div>

@@ -27,22 +27,6 @@ include $targeta;
 
 <?php 
 
-/*
-$carpeta = 'castrourdiales';
-$localidad_nombre = 'Castro Urdiales';
-$localidad = 'Castro Urdiales';
-$archivo_name = 'playa-de-castrourdiales';
-$presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
-                  cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
-                  en un importante puerto y centro comercial debido a su estratégica ubicación costera.'; 
-include 'localidades/index.php';*/?>
-
-
-
-
-
-<?php
-
 $carpeta = 'playadenoja';
 $localidad_nombre = 'Playa de Noja';
 $localidad = 'Playa de Noja';
@@ -94,12 +78,16 @@ $archivo_name = 'playa-de-sardinero';
 $presentacion = 'La Playa de Santander, ubicada en la ciudad del mismo nombre en Cantabria, es una de las playas urbanas más emblemáticas del norte de España. Con su extensa franja de arena dorada y aguas tranquilas, es el lugar ideal para disfrutar de un día de sol y mar. Además de su belleza natural, ofrece un vibrante paseo marítimo con una variedad de restaurantes, bares y tiendas. Perfecta para familias, bañistas y quienes buscan disfrutar del surf, la Playa de Santander combina el encanto de una playa clásica con la comodidad de la proximidad urbana.';
 include 'localidades/index.php'; */?>
 
-
-
-
-
-
-
+<?php
+/*
+$carpeta = 'castrourdiales';
+$localidad_nombre = 'Castro Urdiales';
+$localidad = 'Castro Urdiales';
+$archivo_name = 'playa-de-castrourdiales';
+$presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
+                  cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
+                  en un importante puerto y centro comercial debido a su estratégica ubicación costera.'; 
+include 'localidades/index.php';*/?>
 
 
 </details>

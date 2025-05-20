@@ -73,7 +73,7 @@
 
     <?php
 // Información básica
-$localidad = 'Ostende';
+$localidad = 'Ostende'; $nombre_playa = 'Ostende'; $carpeta = 'playadeostende';
 $region = 'Cantabria';
 $nombre_playa_minuscula = 'ostende';
 $localidad_minuscula = 'castro-urdiales';
@@ -98,40 +98,15 @@ $mainEntity_geo_longitude = -3.5002;
 $mainEntity_image = 'http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/img/playa-de-ostende-castro-urdiales-cantabria.jpg';
 $mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2024/playa-de-ostende-castro-urdiales-cantabria';
 ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/structured_data_generico.php'; ?>
 
 
-
-
-    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/structured_data_generico.php'; ?>
 </head>
 
 <body>
-  <?php require "./../../../../bloques/estructura/header.php"; ?>
-  <a class="nav-link text-red" href="/Blog_Playas2024/<?= $rutas; ?>">Playa de Ostende</a>
-  <?php require "./../../../../localidades/cantabria/playadeostende/fichas/sections/variables/actividades-recomendadas.php"; ?> 
-  <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
-  <?php require "./../../../../bloques/estructura/footer.php"; ?>
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-SY+bk+n2qDbGN/33JQUyNzbgvFD37UuWWOTzQ65MNdMpPfgqUAA23A7bkK9zEEnr" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<!-- jQuery (necesario para Bootstrap 4) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
-<!-- Popper.js (necesario para el dropdown y toggler de Bootstrap 4) -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
+  <?php require "./../../../../bloques/estructura/actividades_bloque_generico.php"; ?>
+  <?php require "./../../../../bloques/estructura/js_bootstrap/scripts-bootstrap2.php"; ?>
 </body>
-
-
-
-
-
 
 </html>
 

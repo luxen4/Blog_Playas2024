@@ -39,12 +39,13 @@
   <?php require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
 </head>
 <body>
-  <?php $region='cantabria'; 
+  <?php $region='cantabria'; $nombre_playa = 'Somo-Loredo'; $region_minuscula = 'cantabria'; $nombre_playa_minuscula = 'somo-loredo'; $localidad_minuscula='somo';
   $carpeta = 'playadesomoloredo';
   
   ?>
 
   <?php require "./../../../../bloques/estructura/header.php"; ?>
+  <a class="nav-link text-red" href='/Blog_Playas2024/localidades/<?= $region_minuscula ?>/<?= $carpeta; ?>/fichas/playa-de-<?= $nombre_playa_minuscula ."-"  .$localidad_minuscula. "-" .$region_minuscula  ?>.php' target="_blank">Playa de <?= $nombre_playa; ?></a>
 
   <?php require './../../../../localidades/'. $region .'/playadesomoloredo/fichas/sections/variables/actividades-recomendadas-playa-de-somo-loredo-somo-cantabria.php'; ?>
 
@@ -53,7 +54,7 @@
 
   <?php require "./../../../../bloques/estructura/footer.php"; ?>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <?php require "./../../../../bloques/estructura/js_bootstrap/scripts-bootstrap2.php"; ?>
 </body>
 </html>
 

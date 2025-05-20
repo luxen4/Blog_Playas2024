@@ -98,6 +98,7 @@ $mainEntity_geo_longitude = -3.5002;
 $mainEntity_image = 'http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/img/playa-de-ostende-castro-urdiales-cantabria.jpg';
 $mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2024/playa-de-ostende-castro-urdiales-cantabria';
 ?>
+
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/structured_data_generico.php'; ?>
 
 

@@ -2,7 +2,7 @@
 <script type="application/ld+json">
 { 
     "@context": "https://schema.org/",
-    "@type": "WebPage",
+    "@type": "TouristDestination",
     "name": "Playa de <?= $localidad; ?> - Información y Turismo",
     "description": "<?= $descripcion; ?>",
     "url": "<?= $url; ?>",

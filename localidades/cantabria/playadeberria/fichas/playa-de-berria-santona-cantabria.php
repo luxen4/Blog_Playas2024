@@ -26,6 +26,33 @@ $pinterest_property_card_title_content = 'Playa de Berria - Información y Turis
 $pinterest_property_card_description_content = 'Explora la Playa de Berria, un hermoso arenal en Cantabria, ideal para el surf, paseos por la costa y disfrutar del entorno natural.';
 $pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/cantabria/playadeberria/playa-de-berria.jpg';
 
+
+////////
+// Para el archivo Structured_data_generico.php
+
+$nombre_playa_minuscula = 'berria';
+$localidad = 'Berria';
+$localidad_minuscula = 'berria';
+$region_minuscula = 'cantabria';
+$rutas = 'playa-de-berria-santona-cantabria';
+
+
+$descripcion = 'Descubre la Playa de Ostende, un destino conocido por su amplia extensión de arena dorada, ideal para disfrutar del surf y la naturaleza en la costa cantábrica.';
+$url = 'http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/playa-de-ostende.php';
+
+$mainEntity_description = 'La Playa de Ostende es famosa por su hermosa arena dorada y sus excelentes condiciones para deportes acuáticos como el surf.';
+$mainEntity_addressLocality = 'Ostende';
+$mainEntity_addressRegion = 'Cantabria';
+$mainEntity_addressCountry = 'España';
+
+$mainEntity_geo_latitude = 43.4693; // Actualiza según la ubicación correcta
+$mainEntity_geo_longitude = -3.5002; // Actualiza según la ubicación correcta
+
+$mainEntity_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg'; // Reemplaza con la imagen correcta
+$mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2024/playa-de-ostende-castro-urdiales-cantabria';
+////////
+
+
 $href_styles = './../fichas/css/styles.css';
 
 
@@ -33,6 +60,7 @@ $href_styles = './../fichas/css/styles.css';
 // Para el archivo Structured_data_generico.php
 $localidad = 'Berria';
 $localidad_minuscula = 'berria';
+$region_minuscula = 'cantabria';
 $rutas = 'playa-de-berria-santona-cantabria';
 
 $descripcion = 'Explora la Playa de Berria, un destino famoso por su arenal amplio, excelente para practicar surf y disfrutar de un entorno natural tranquilo.';

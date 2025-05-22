@@ -29,11 +29,34 @@
     <meta name="twitter:image" content="<?= $twiterCards_image; ?>">
     <meta name="twitter:url" content="<?= $twiterCards_url; ?>">
 
-    <!-- Pinterest -->
+
+     <!-- Pinterest: Open Graph será la base -->
     <meta property="pinterest:card" content="<?= $pinterest_property_card_card_content; ?>">
     <meta property="pinterest:title" content="<?= $pinterest_property_card_title_content; ?>">
     <meta property="pinterest:description" content="<?= $pinterest_property_card_description_content; ?>">
     <meta property="pinterest:image" content="<?= $pinterest_property_card_image_content; ?>">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="<?= $pinterest_property_card_title_content; ?>">
+    <meta property="og:description" content="<?= $pinterest_property_card_description_content; ?>">
+    <meta property="og:image" content="<?= $pinterest_property_card_image_content; ?>">
+    <meta property="og:url" content="<?= $pinterest_property_card_image_content; ?>">
+    <meta property="og:site_name" content="Playas 2024 – Guía Costera de España" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:image:alt" content="<?= $pinterest_property_card_description_content; ?>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Playas 2024 – Guía Costera de España" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
+    <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
+    <meta property="article:author" content="https://www.facebook.com/tu-pagina-o-autor" />
+    <meta property="article:section" content="Turismo y Actividades" />
+    <meta property="article:tag" content="surf, playa de <?= $localidad; ?>, turismo <? $region;?>" />
+    <meta property="article:tag" content="playa de <?= $localidad; ?>, actividades playa de <?= $localidad; ?>, turismo en <?= $localidad; ?>" />
+    <!-- Pinterest-specific (aunque no oficial, ayuda al crawler) -->
+    <meta name="pinterest-rich-pin" content="true" />
+
+
 
 
     <!-- Sitemap Link -->

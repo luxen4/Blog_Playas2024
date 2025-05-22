@@ -2,57 +2,37 @@
 <html lang="es">
 
 <?php
-$localidad = 'Ostende';
-$region = 'Cantabria';
+$_COOKIE['idioma'] = 'es';
+ define('PATH_RAIZ',  'https://playas2024.kesug.com/Blog_Playas2024/');
+
+// Variables para la página de la Playa de Ostende
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+
+
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Ostende si se utiliza para verificación
 $description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
 $keywords_content = 'Playa de Ostende, surf, naturaleza, Costa Cantábrica, turismo en Cantabria, Ostende';
 
-$graph_Meta_Tags_property_title = 'Playa de Ostende - Información y Turismo';
-$graph_Meta_Tags_property_description = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/fichas/playa-de-ostende.php';
-$graph_Meta_Tags_property_type = 'website';
-
-$twiterCards_card = 'summary_large_image';
-$twiterCards_site = '@laya_garcia';
-$twiterCards_title = 'Playa de Ostende - Información y Turismo';
-$twiterCards_descripcion = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
-$twiterCards_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/playa-de-ostende.php?i=1';
-
-$pinterest_property_card_card_content = 'summary_large_image';
-$pinterest_property_card_title_content = 'Playa de Ostende - Información y Turismo';
-$pinterest_property_card_description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg';
 
 
-////////
-// Para el archivo Structured_data_generico.php
+// Variables de etiquetas meta
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/meta_tags.php';
 
-$nombre_playa_minuscula = 'ostende';
-$localidad_minuscula = 'castro-urdiales';
-$region_minuscula = 'cantabria';
-$rutas = 'playa-de-ostende-castro-urdiales-cantabria';
+// Variables Twitter
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/tweeter.php';
+
+// Variables Pinterest
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/pinterest.php';
+
+// Variables para el archivo Structured_data_generico.php
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/data-generico.php';
 
 
-$descripcion = 'Descubre la Playa de Ostende, un destino conocido por su amplia extensión de arena dorada, ideal para disfrutar del surf y la naturaleza en la costa cantábrica.';
-$url = 'http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/playa-de-ostende.php';
+// Imagen representativa y URL canónica
 
-$mainEntity_description = 'La Playa de Ostende es famosa por su hermosa arena dorada y sus excelentes condiciones para deportes acuáticos como el surf.';
-$mainEntity_addressLocality = 'Ostende';
-$mainEntity_addressRegion = 'Cantabria';
-$mainEntity_addressCountry = 'España';
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/structure-data-schema-org.php';
 
-$mainEntity_geo_latitude = 43.4693; // Actualiza según la ubicación correcta
-$mainEntity_geo_longitude = -3.5002; // Actualiza según la ubicación correcta
-
-$mainEntity_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeostende/playa-de-ostende.jpg'; // Reemplaza con la imagen correcta
-$mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2024/playa-de-ostende-castro-urdiales-cantabria';
-////////
-
-    $url_amigable = 'playa-de-ostende-castro-urdiales-cantabria';
-    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/head.php'; ?>
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/head.php'; ?>
 
 <body>
     <?php $page = 'playade'.$nombre_playa_minuscula;?>

@@ -24,88 +24,84 @@
 
                 <?php require BLOQUES_PATH . '/deprecated/_descripcion-detallada_generico.php'; ?>
                 
-                <div id="actividades" class="mt-5">
-                  <header  class="text-center mb-4">
-                    <h2 class="text-primary">🏄‍♂️ Actividades Recomendadas en la Playa de <?= $mainEntity_addressLocality; ?></h2>
-                    <p>Explora las <strong>mejores actividades turísticas y deportivas</strong> que ofrece la Playa de Ostende en 
-                      <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" target="_blank" rel="noopener" title="Más sobre Castro Urdiales">Castro Urdiales, Cantabria</a>. 
-                      Ideal para los amantes del turismo activo y la naturaleza costera.
-                    </p>
-                  </header>
-                  
-                  <div class="text-center">
-                    <?php //<a href= "<?= SECTIONS_PATH_SECTIONS_DEPRECATED . '/actividades-' .$rutas; ?<" class="btn btn-primary btn-lg"> ?>
-
-                    <a href='<?= SECTIONS_ACTIVIDADES_RECOMENDADAS; ?>' target="_blank"  class="btn btn-primary btn-lg">
-                      <i class="fas fa-map-marked-alt me-2"></i> Consultar actividades
-                    </a>
-
-                  </div>
-
-                </div>
+<div id="actividades" class="mt-5">
+  <header class="mb-3">
+    <h4 class="text-primary text-left">🏄‍♂️ Actividades Recomendadas en la Playa de <?= $mainEntity_addressLocality; ?></h4>
+    <p>
+      Explora las <strong>mejores actividades turísticas y deportivas</strong> que ofrece la Playa de <?= $nombre_playa; ?> en 
+      <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" target="_blank" rel="noopener" title="Más sobre Castro Urdiales">Castro Urdiales, Cantabria</a>,
+      ideal para los amantes del turismo activo y la naturaleza costera.
+      <a href="<?= SECTIONS_ACTIVIDADES_RECOMENDADAS; ?>" target="_blank" class="btn btn-sm btn-outline-primary ms-2">
+        <i class="fas fa-map-marked-alt me-1"></i> Ver actividades
+      </a>
+    </p>
+  </header>
+</div>
 
 
 
-                <div id="como_llegar" class="mt-5">
-                  <header class="text-center mb-4">
-                    <h2 class="text-primary">📍 Cómo llegar a la Playa de <?= $mainEntity_addressLocality; ?></h2>
-                    <p>Consulta rutas, accesos y opciones de transporte para llegar cómodamente a la <strong>Playa de <?= $mainEntity_addressLocality; ?></strong> en 
-                      <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" target="_blank" rel="noopener" title="Más sobre Castro Urdiales">Castro Urdiales</a>, una de las joyas de la costa cántabra.
-                    </p>
-                  </header>
 
-                  <div class="text-center">
-                    <a href='<?= SECTIONS_COMO_LLEGAR; ?>' target="_blank"  class="btn btn-primary btn-lg">
-                      <i class="fas fa-map-marked-alt me-2"></i> Consultar ruta
-                    </a>
-                  </div>
-                </div>
+
+                
+<div id="como_llegar" class="mt-5">
+  <header class="mb-3">
+    <h2 class="text-primary text-left">📍 Cómo llegar a la Playa de <?= $mainEntity_addressLocality; ?></h2>
+    <p>
+      Consulta rutas, accesos y opciones de transporte para llegar cómodamente a la <strong>Playa de <?= $mainEntity_addressLocality; ?></strong> en 
+      <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" target="_blank" rel="noopener" title="Más sobre Castro Urdiales">Castro Urdiales</a>, una de las joyas de la costa cántabra.
+      <a href="<?= SECTIONS_COMO_LLEGAR; ?>" target="_blank" class="btn btn-sm btn-outline-primary ms-2">
+        <i class="fas fa-map-marked-alt me-1"></i> Consultar ruta
+      </a>
+    </p>
+  </header>
+</div>
+
+
                 <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
-                <div id="servicios" class="mt-5">
-                  <header  class="text-center mb-4">
-                    <h2 class="text-primary">🛟 Servicios en la Playa de <?= $mainEntity_addressLocality; ?></h2>
-                    <p>Descubre todos los <strong>servicios disponibles</strong> para tu comodidad: duchas, alquiler de equipamiento, restaurantes, aparcamiento y más. ¡Todo lo que necesitas para un día perfecto junto al mar!</p>
-                  </header>
-
-                  <div class="text-center">
-                  <a href= "<?= SECTIONS_SERVICIOS; ?>" class="btn btn-primary btn-lg">
-                      <i class="fas fa-map-marked-alt me-2"></i> Consultar servicios
-                    </a>
-                  </div>
-                </div>
+               
+<div id="servicios" class="mt-5">
+  <header class="mb-3">
+    <h2 class="text-primary text-left">🛟 Servicios en la Playa de <?= $mainEntity_addressLocality; ?></h2>
+    <p>
+      Descubre todos los <strong>servicios disponibles</strong> para tu comodidad: duchas, alquiler de equipamiento, restaurantes, aparcamiento y más.
+      ¡Todo lo que necesitas para un día perfecto junto al mar!
+      <a href="<?= SECTIONS_SERVICIOS; ?>" class="btn btn-sm btn-outline-primary ms-2" target="_blank">
+        <i class="fas fa-map-marked-alt me-1"></i> Consultar servicios
+      </a>
+    </p>
+  </header>
+</div>
 
                 <?php require BLOQUES_PATH .'/galeria-imagenes_generico.php'; ?>
 
 
-                <div id="eventos_festividades" class="mt-5">
-                    <header  class="text-center mb-4">
-                        <h2 class="text-primary">🎉 Eventos y Festividades en la Playa de <?= $mainEntity_addressLocality; ?></h2>
-                        <p>Vive las <strong>tradiciones y celebraciones locales</strong> más emblemáticas: hogueras de San Juan, procesiones marineras, mercados de verano y competiciones deportivas frente al mar Cantábrico.</p>
-                    </header>
-
-                    <div class="text-center">
-
-                   <a href= "<?= SECTIONS_EVENTOS_FESTIVIDADES; ?>" class="btn btn-primary btn-lg">
-                        <i class="fas fa-map-marked-alt me-2"></i> Consultar eventos
-                        </a>
-                    </div>
-                </div>
+<div id="eventos_festividades" class="mt-5">
+  <header class="mb-3">
+    <h2 class="text-primary text-left">🎉 Eventos y Festividades en la Playa de <?= $mainEntity_addressLocality; ?></h2>
+    <p>
+      Vive las <strong>tradiciones y celebraciones locales</strong> más emblemáticas: hogueras de San Juan, procesiones marineras, mercados de verano y competiciones deportivas frente al mar Cantábrico.
+      <a href="<?= SECTIONS_EVENTOS_FESTIVIDADES; ?>" class="btn btn-sm btn-outline-primary ms-2" target="_blank">
+        <i class="fas fa-map-marked-alt me-1"></i> Consultar eventos
+      </a>
+    </p>
+  </header>
+</div>
 
 
                 <div class="text-center mt-4">
 
-                    <div id="faqs_consejos" class="mt-5">
-                        <header  class="text-center mb-4">
-                            <h2 class="text-primary">❓ ¿Tienes más dudas sobre la Playa de <?= $mainEntity_addressLocality; ?>?</h2>
-                            <p>Resolvemos las <strong>preguntas más frecuentes</strong> sobre accesos, servicios, normativas y recomendaciones para que disfrutes al máximo tu visita a <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales</a>.</p>
-                        </header>
-
-                        <div class="text-center">
-                         <a href= "<?= SECTIONS_FAQS; ?>" class="btn btn-primary btn-lg">
-                            <i class="fas fa-question-circle me-2"></i> Consultar FAQs
-                            </a>
-                        </div>
-                    </div>
+<div id="faqs_consejos" class="mt-5">
+  <header class="mb-3">
+    <h2 class="text-primary text-left">❓ ¿Tienes más dudas sobre la Playa de <?= $mainEntity_addressLocality; ?>?</h2>
+    <p>
+      Resolvemos las <strong>preguntas más frecuentes</strong> sobre accesos, servicios, normativas y recomendaciones para que disfrutes al máximo tu visita a 
+      <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales</a>.
+      <a href="<?= SECTIONS_FAQS; ?>" class="btn btn-sm btn-outline-primary ms-2" target="_blank">
+        <i class="fas fa-question-circle me-1"></i> Consultar FAQs
+      </a>
+    </p>
+  </header>
+</div>
 
                     <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; ?>
 

@@ -1,6 +1,7 @@
 
 <?php
 // Datos estructurados Schema.org (mainEntity)
+//define('PATH_RAIZ',  'https://playas2024.kesug.com/Blog_Playas2024/');
 $mainEntity_description = 'La Playa de Ostende es famosa por su hermosa arena dorada y sus excelentes condiciones para deportes acuáticos como el surf.';
 $mainEntity_addressLocality = $nombre_playa;
 $mainEntity_addressRegion = $region;
@@ -12,5 +13,5 @@ $mainEntity_geo_longitude = -3.5002;
 
 // Imagen representativa y URL canónica
 $mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/{$carpeta}/img/{$rutas}.jpg";
-$mainEntity_url = PATH_RAIZ . "actividades-{$rutas}";
+$mainEntity_url = PATH_RAIZ . "{$rutas}";
 ?>

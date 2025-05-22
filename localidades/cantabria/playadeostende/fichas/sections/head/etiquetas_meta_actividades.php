@@ -25,7 +25,7 @@
   <meta property="og:locale" content="es_ES" />
 
 
- <?php /*<!-- Open Graph (Facebook / Meta) -->
+ <?php /*<!-- Open Graph (Facebook / Meta) -->*/?>
   <meta property="og:title" content="Actividades en la Playa de Ostende – Castro-Urdiales" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Ostende: surf, caminatas, naturaleza y más planes en Castro Urdiales." />
   <meta property="og:type" content="article" />

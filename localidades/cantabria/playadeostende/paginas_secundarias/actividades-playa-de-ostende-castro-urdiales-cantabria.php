@@ -25,7 +25,7 @@
 <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/actividades-<?= $rutas; ?>" />
 
 
-<?php require "./../../../../localidades/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta.php"; ?>
+<?php require "./../../../../localidades/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta_actividades.php"; ?>
 <?php require "./../../../../bloques/estructura/link_paginas_secundariass_head_actividades.php"; ?>
 
 

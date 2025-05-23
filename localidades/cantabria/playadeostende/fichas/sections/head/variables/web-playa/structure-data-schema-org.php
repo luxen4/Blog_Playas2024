@@ -14,4 +14,4 @@ $mainEntity_geo_longitude = -3.5002;
 // Imagen representativa y URL canónica
 $mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/{$carpeta}/img/{$rutas}.jpg";
 $mainEntity_url = PATH_RAIZ . "{$rutas}";
-?>
+?> 

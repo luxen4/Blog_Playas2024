@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>Actividades en la Playa de Ostende – Castro-Urdiales</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUa6mY5yY35Y9peR+kyZQF8pZ6Vn3ciZpqCXUw3nFZ+IOB4yM1Klmhkt1P3U"
+        crossorigin="anonymous">
+
   <?php
   $localidad = 'Ostende';
   $nombre_playa = 'Ostende';
@@ -16,17 +21,19 @@
   $rutas = 'playa-de-ostende-castro-urdiales-cantabria';
   $hoy = date('Y-m-d');
   
-  define('PATH_RAIZ',  'https://playas2024.kesug.com/Blog_Playas2024/') 
+define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024');
+define('PATH_RAIZ_BLOQUES_ESTRUCTURA', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024/bloques/estructura');
+define('PATH_RAIZ_LOCALIDADES', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024/localidades');
   
   ?>
 
 
 <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/?>
-<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/actividades-<?= $rutas; ?>" />
+<link rel="canonical" href= "<?= PATH_RAIZ; ?>/actividades-<?= $rutas; ?>" />
 
 
-<?php require "./../../../../localidades/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta_actividades.php"; ?>
-<?php require "./../../../../bloques/estructura/link_paginas_secundariass_head_actividades.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta_actividades.php"; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
 
 
 <?php
@@ -40,15 +47,24 @@ $url = "https://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minusc
  ?>
 
 <?php 
-require "./../../../../localidades/{$region_minuscula}/{$carpeta}/fichas/sections/head/structure_data_schema_org.php";
-include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/structured_data_generico.php'; 
+require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$carpeta}/fichas/sections/head/variables/web-playa/structure-data-schema-org.php";
+include_once  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/structured_data_generico.php"; 
 ?>
 
 </head>
 
 <body>
-  <?php require "./../../../../bloques/estructura/actividades_bloque_generico.php"; ?>
-  <?php require "./../../../../bloques/estructura/js_bootstrap/scripts-bootstrap2.php"; ?>
+  <?php require  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/actividades_bloque_generico.php"; ?>
+  <?php require  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap2.php"; ?>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ENjdO4Dr2bkBIFxQpeo5F2bSpV8CkR0VZ3HSMa7PR9U8D7V7B2E5uVOlmXJURyJA"
+          crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

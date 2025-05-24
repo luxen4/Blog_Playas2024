@@ -1,7 +1,7 @@
 
 <?php
 // Datos estructurados Schema.org (mainEntity)
-//define('PATH_RAIZ',  'https://playas2024.kesug.com/Blog_Playas2024/');
+
 $mainEntity_description = 'La Playa de Ostende es famosa por su hermosa arena dorada y sus excelentes condiciones para deportes acuáticos como el surf.';
 $mainEntity_addressLocality = $nombre_playa;
 $mainEntity_addressRegion = $region;

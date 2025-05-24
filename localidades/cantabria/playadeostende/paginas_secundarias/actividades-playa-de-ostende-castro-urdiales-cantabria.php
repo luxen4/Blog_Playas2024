@@ -11,20 +11,14 @@
         crossorigin="anonymous">
 
   <?php
-  $localidad = 'Ostende';
-  $nombre_playa = 'Ostende';
-  $carpeta = 'playadeostende';
-  $region = 'Cantabria';
-  $nombre_playa_minuscula = 'ostende';
-  $localidad_minuscula = 'castro-urdiales';
-  $region_minuscula = 'cantabria';
-  $rutas = 'playa-de-ostende-castro-urdiales-cantabria';
-  $hoy = date('Y-m-d');
+
+  // Variables para la página de la Playa de Ostende
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+
   
-define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024/bloques/estructura');
-define('PATH_RAIZ_LOCALIDADES', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024/localidades');
-  
+
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php';
+
   ?>
 
 
@@ -79,3 +73,5 @@ include_once  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/structured_data_generico.php";
     .section-header i { margin-right: .5rem; }
     .map-responsive iframe { border: 0; width: 100%; height: 450px; border-radius: 10px; }
   </style>
+
+C:\xampp\htdocs\Blog_Playas2024\localidades\cantabria\playadeostende\paginas_secundarias\actividades-playa-de-ostende-castro-urdiales-cantabria.php

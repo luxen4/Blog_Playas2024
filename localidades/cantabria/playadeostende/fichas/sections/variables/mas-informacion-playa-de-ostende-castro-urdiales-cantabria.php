@@ -25,7 +25,7 @@ $li_mas_info = '
     </li>
   </ul>
 
-  <p>También puedes consultar nuestra <a href="#como_llegar" title="Cómo llegar a la Playa de Ostende">guía para llegar a la Playa de Ostende</a> o descubrir <a href="./../../../../Blog_Playas2024/index.php" title="Playas recomendadas en Cantabria">otras playas de Cantabria</a>.</p>
+  <p>También puedes consultar nuestra <a href="#como_llegar" title="Cómo llegar a la Playa de Ostende">guía para llegar a la Playa de Ostende</a> o descubrir <a href="/Blog_Playas2024/index.php" title="Playas recomendadas en Cantabria">otras playas de Cantabria</a>.</p>
 
 ';
 ?>

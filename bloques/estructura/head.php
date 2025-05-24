@@ -1,3 +1,5 @@
+
+<?php $url_amigable= $rutas; ?>
 <head>
     <title>Playa de <?= $localidad; ?> - <?= $localidad; ?>, España</title>
 
@@ -11,7 +13,8 @@
     <meta name="author" content="Adrián Laya García">
     <meta name="language" content="es">
 
-    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/<?= $url_amigable;?>" />
+    <?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/<?= $url_amigable;?>" />*/?>
+    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>
@@ -19,6 +22,7 @@
     <meta property="og:image" content="<?= $graph_Meta_Tags_property_image; ?>">
     <meta property="og:url" content="<?= $graph_Meta_Tags_property_url; ?>">
     <meta property="og:type" content="<?= $graph_Meta_Tags_property_type; ?>">
+
 
 
     <!-- Twitter Cards -->

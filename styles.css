@@ -286,3 +286,62 @@ main {
             max-width: 1540px;
         }
     }
+
+
+
+    
+  #descripcion_detallada,
+  #galeria_imagenes,
+  #eventos_festividades,
+  #actividades_recomendadas, 
+  #como_llegar,
+  #servicios,
+  #faqs_consejos,
+  #mas_info
+  {
+    margin-top: 50px;
+    margin-bottom: 50px;                        
+    margin: 20px 0;
+      /*padding: 20px;*/
+      background-color: #f8f9fa;
+      border-radius: 5px;
+  }
+                
+  #descripcion_detallada h2,
+  #galeria_imagenes h2,
+  #eventos_festividades h2,
+  #actividades_recomendadas h2,
+  #como_llegar h2,
+  #mas_info h2,
+  #faqs_consejos h2,
+  
+  #servicios h2{
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+  }
+
+  #descripcion_detallada ul,
+  #galeria_imagenes ul,
+  #eventos_festividades ul ,
+  #actividades_recomendadas ul,
+  #como_llegar ul,
+  #faqs_consejos ul,
+    #mas_info ul, 
+    #servicios
+    
+
+  {
+      list-style-type: none;
+      padding-left: 0;
+  }
+
+  #descripcion_detallada li,
+  #galeria_imagenes li,
+  #eventos_festividades li ,
+  #actividades_recomendadas li,
+  #como_llegar li,
+  #faqs_consejos li,
+  #mas_info li,
+  #servicios li{
+      margin-bottom: 10px;
+  }

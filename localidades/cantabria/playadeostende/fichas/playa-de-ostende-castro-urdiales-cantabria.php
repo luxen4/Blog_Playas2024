@@ -12,7 +12,7 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate d
 $description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
 $keywords_content = 'Playa de Ostende, surf, naturaleza, Costa Cantábrica, turismo en Cantabria, Ostende';
 
-
+//echo(PATH_RAIZ_WEB_PLAYA);
 require PATH_RAIZ_WEB_PLAYA. "/meta_tags.php";      // Variables de etiquetas meta
 require PATH_RAIZ_WEB_PLAYA. "/tweeter.php";        // Variables Twitter
 require PATH_RAIZ_WEB_PLAYA. "/pinterest.php";      // Variables Pinterest

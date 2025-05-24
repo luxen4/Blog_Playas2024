@@ -81,6 +81,81 @@
 </head>
 
 <body>
+
+
+<script>
+  // Array con URLs de las imágenes que quieres mostrar
+  const imagenes = [
+    'http://localhost/Blog_Playas2024/localidades/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
+    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
+    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
+  ];
+
+  let indice = 0;
+
+  function mostrarPopup() {
+    const imagenUrl = imagenes[indice];
+    indice = (indice + 1) % imagenes.length;
+
+    // Crear un div para el popup
+    const popup = document.createElement('div');
+    popup.style.position = 'fixed';
+    popup.style.top = '50%';
+    popup.style.left = '50%';
+    popup.style.transform = 'translate(-50%, -50%)';
+    popup.style.backgroundColor = 'rgba(0,0,0,0.8)';
+    popup.style.padding = '10px';
+    popup.style.borderRadius = '8px';
+    popup.style.zIndex = '9999';
+    popup.style.textAlign = 'center';
+
+    // Crear imagen dentro del popup
+    const img = document.createElement('img');
+    img.src = imagenUrl;
+    img.style.maxWidth = '300px';
+    img.style.maxHeight = '200px';
+    img.style.display = 'block';
+    img.style.marginBottom = '10px';
+
+    // Botón para cerrar el popup
+    const btnCerrar = document.createElement('button');
+    btnCerrar.textContent = 'Cerrar';
+    btnCerrar.style.padding = '5px 10px';
+    btnCerrar.style.cursor = 'pointer';
+    btnCerrar.onclick = () => {
+      document.body.removeChild(popup);
+    };
+
+    popup.appendChild(img);
+    popup.appendChild(btnCerrar);
+    document.body.appendChild(popup);
+  }
+
+  // Mostrar popup cada 5 segundos
+  setInterval(mostrarPopup, 5000);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <?php require "./../../../../bloques/estructura/header.php"; ?>
   <a class="nav-link text-red" href="/Blog_Playas2024/<?= $rutas; ?>">Playa de Berria</a>
   <?php require "./../../../../localidades/cantabria/playadeberria/fichas/sections/variables/actividades-recomendadas.php"; ?> 

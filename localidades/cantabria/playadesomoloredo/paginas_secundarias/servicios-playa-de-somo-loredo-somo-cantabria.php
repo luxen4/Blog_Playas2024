@@ -30,14 +30,12 @@
   <meta name="twitter:description" content="Todo lo que necesitas saber sobre los servicios turísticos en la Playa de Somo-Loredo." />
   <meta name="twitter:image" content="https://www.ejemplo.com/imagenes/somo-servicios.jpg" />
 
-  <style>
-    body { background-color: #f8f9fa; }
-    .info-box { background: #fff; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-    .info-box ul { padding-left: 1.2rem; }
-    .info-box li { margin-bottom: 1.5rem; font-size: 1rem; }
-    .info-box i { margin-right: .5rem; }
-    #servicios p { font-size: 1.1rem; }
-  </style>
+
+
+
+  
+<!-- Estilos personalizados para "servicios en la playa" -->
+<link rel="stylesheet" href="./../../../css/styles.css">
 </head>
 <body>
 

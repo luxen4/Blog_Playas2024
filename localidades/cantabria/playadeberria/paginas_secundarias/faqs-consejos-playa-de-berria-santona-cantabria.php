@@ -46,6 +46,7 @@
 <body>
 <?php require "./../../../../bloques/estructura/header.php"; ?>
 
+
 <section class="py-5">
   <div class="container">
 
@@ -75,6 +76,7 @@
 
     <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_botas_hombre.php'; ?>
 
+
     <!-- Consejos Útiles -->
     <header class="section-header">
       <h2><i class="fas fa-info-circle"></i> Consejos Útiles</h2>
@@ -102,6 +104,12 @@
 
   </div>
 </section>
+
+
+
+
+    
+
 
 <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php';  ?>
 <?php require "./../../../../bloques/estructura/footer.php"; ?>

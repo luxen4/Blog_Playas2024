@@ -1,19 +1,20 @@
-<?php
 
-define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024');
-define('PATH_RAIZ_BLOQUES', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024/bloques');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024/bloques/estructura');
+<?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024'); ?>
+<?php define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura'); ?>
 
-define('PATH_RAIZ_LOCALIDADES', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024/localidades');
-define('PATH_RAIZ_LOCALIDADES_CARPETA', PATH_RAIZ_LOCALIDADES. "/" .$region_minuscula. "/" . $carpeta. "/paginas_secundarias");
+<?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 
 
-define('SECTIONS_PAGINAS_SECUNDARIAS', './../paginas_secundarias/');
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA', PATH_RAIZ_LOCALIDADES. "/" .$region_minuscula. "/" . $carpeta. "/paginas_secundarias"); ?>
 
 
-define('PATH_RAIZ_WEB_PLAYA', PATH_RAIZ_LOCALIDADES . "/{$region}/{$carpeta}/fichas/sections/head/variables/web-playa");
+<?php define('SECTIONS_PAGINAS_SECUNDARIAS', './../paginas_secundarias/'); ?>
 
 
+<?php define('PATH_RAIZ_WEB_PLAYA', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/fichas/sections/head/variables/web-playa"); ?>
 
+<?php define('PATH_RAIZ_LOCALIDADES_MAIN', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/fichas/sections/main"); ?>
 
-define('PATH_BLOQUES_SECTIONS_GENERICO',  PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico');
+<?php define('PATH_BLOQUES_SECTIONS_GENERICO',  PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
+

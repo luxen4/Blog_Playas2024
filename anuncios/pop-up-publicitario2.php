@@ -1,0 +1,127 @@
+<?php
+// Leer CSV y agrupar cada 3 imágenes para alternar en popup
+$filename = PATH_RAIZ. './anuncios/amazon_botas_hombre_images.csv';
+$allImages = [];
+
+if (($handle = fopen($filename, "r")) !== FALSE) {
+    $header = fgetcsv($handle);
+    while (($data = fgetcsv($handle)) !== FALSE) {
+        $row = array_combine($header, $data);
+        $allImages[] = [
+            'src' => $row['src'],
+            'link' => $row['href'],
+            'alt' => $row['alt'] ?? 'Publicidad',
+        ];
+    }
+    fclose($handle);
+}
+
+// Agrupar imágenes de 3 en 3
+$imageSets = array_chunk($allImages, 3);
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Popup Imágenes Alternadas</title>
+    <style>
+        #imagePopup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90vw;
+            max-height: 80vh;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            z-index: 9999;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        #imagePopup img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        #imagePopup .closeBtn {
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            font-size: 28px;
+            cursor: pointer;
+            color: #333;
+            font-weight: bold;
+            user-select: none;
+        }
+        .col-md-4 {
+            width: 30%;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 3.3%;
+        }
+        .col-md-4:last-child {
+            margin-right: 0;
+        }
+        .mb-3 {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Popup Modal -->
+    <div id="imagePopup" aria-modal="true" role="dialog">
+        <span class="closeBtn" title="Cerrar">&times;</span>
+        <div class="container">
+            <div class="row" id="popupImagesContainer"></div>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const imageSets = <?php echo json_encode($imageSets); ?>;
+
+        let currentSet = 0;
+        const popup = document.getElementById('imagePopup');
+        const closeBtn = popup.querySelector('.closeBtn');
+        const container = document.getElementById('popupImagesContainer');
+
+        function showPopup() {
+            container.innerHTML = '';
+
+            imageSets[currentSet].forEach(({ src, link, alt }) => {
+                const col = document.createElement('div');
+                col.className = 'col-md-4 mb-3';
+
+                const anchor = document.createElement('a');
+                anchor.href = link;
+                anchor.target = '_blank';
+
+                const img = document.createElement('img');
+                img.src = src;
+                img.alt = alt || 'Publicidad';
+
+                anchor.appendChild(img);
+                col.appendChild(anchor);
+                container.appendChild(col);
+            });
+
+            popup.style.display = 'block';
+            currentSet = (currentSet + 1) % imageSets.length;
+        }
+
+        closeBtn.onclick = () => {
+            popup.style.display = 'none';
+        };
+
+        showPopup();
+        setInterval(showPopup, 5000);
+    });
+    </script>
+
+</body>
+</html>

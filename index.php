@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,111 +6,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="site-verification" content="O4CyyseatW1WkLbzw9poeIPyF27Eik_tDlqrO0ank4o"/>
-
     <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5">
 
     <title>Los Viajes de Adrián</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
-
-
-
-
-
-    <style>
-        #imagePopup {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            max-width: 90vw;
-            max-height: 80vh;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-            z-index: 9999;
-            padding: 10px;
-        }
-
-        #imagePopup img {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-            display: block;
-        }
-
-        #imagePopup .closeBtn {
-            position: absolute;
-            top: 6px;
-            right: 10px;
-            font-size: 28px;
-            cursor: pointer;
-            color: #333;
-            font-weight: bold;
-            user-select: none;
-        }
-    </style>
-</head>
-
-<body>
-
-    <div id="imagePopup" aria-modal="true" role="dialog">
-        <span class="closeBtn" title="Cerrar">&times;</span>
-        <img src="" alt="Publicidad" id="popupImage" />
-    </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const images = [
-                'https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/img/playa-de-ostende-castro-urdiales-cantabria.jpg',
-                'https://via.placeholder.com/600x400?text=Publicidad+2',
-                'https://via.placeholder.com/600x400?text=Publicidad+3'
-            ];
-
-            let currentImageIndex = 0;
-            const popup = document.getElementById('imagePopup');
-            const popupImage = document.getElementById('popupImage');
-            const closeBtn = popup.querySelector('.closeBtn');
-
-            function showPopup() {
-                popupImage.src = images[currentImageIndex];
-                popup.style.display = 'block';
-
-                currentImageIndex = (currentImageIndex + 1) % images.length;
-            }
-
-            closeBtn.onclick = () => {
-                popup.style.display = 'none';
-            };
-
-            // Mostrar popup por primera vez al cargar la página
-            showPopup();
-
-            // Mostrar popup cada 5 segundos
-            setInterval(showPopup, 5000);
-        });
-    </script>
-
-
-
-
-</head>
-
-<body>
-
-    <?php
-    $page = 'home';    
-    $href_lugar = './';?>
-
     
+    <?php // Variables para la página de actividades, NO TOCAR, ya que hay variables que dan error ?>
+    <?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT']) . '/Blog_Playas2024'); ?>
+    <?php define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); ?>
+    <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura'); ?>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
+
+</head>
+
+<body>
+    <?php //define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024'); ?>
+    <?php //require PATH_RAIZ. "/anuncios/pop-up-publicitario.php"; ?>
+    <?php //require PATH_RAIZ. "/anuncios/pop-up-publicitario2.php"; ?>
+
+
+    <?php //$page = 'home'; $href_lugar = './';?>
 
     <?php // include_once './bloques/estructura/barra_navegacion2.php'; ?>
     <?php // NOCONESTO include_once './bloques/estructura/anuncios/carga_productos.php'; ?>
-    <?php define('BASE_PATH_ESTRUCTURA', __DIR__ . '/bloques/estructura/'); ?>
+    <?php // define('BASE_PATH_ESTRUCTURA', __DIR__ . '/bloques/estructura/'); ?>
 
     <!-- Header de Introducción -->
     <header class="bg-primary text-white text-center py-1">
@@ -155,9 +74,6 @@
 
     <?php //<iframe src="scripts.html"></iframe> ?>
 
-
-
-
 </main>
 
 <!-- Footer -->
@@ -169,16 +85,13 @@
 
 
 
-
-
-
 <!-- (Opcional) Script adicional desde Adcash si es requerido -->
-<?php require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
-<script src="https://static.adcash.com/js/aclib.js" async></script><!-- Cargar la librería oficial de Adcash -->
+<?php /*require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; 
+<script  src="https://static.adcash.com/js/aclib.js" async></script><!-- Cargar la librería oficial de Adcash -->
 
 <!-- Ejecutar Adcash una vez cargado -->
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    /*document.addEventListener("DOMContentLoaded", function () {
         // Espera a que aclib esté disponible
         function tryRunAdcash(retries = 5) {
             if (typeof aclib !== "undefined") {
@@ -194,7 +107,7 @@
         }
 
         tryRunAdcash();
-    });
+    });*/?>
 </script>
 </body>
 

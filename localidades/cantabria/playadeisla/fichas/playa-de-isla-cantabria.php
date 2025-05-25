@@ -1,70 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<?php $_COOKIE['idioma'] = 'es'; ?>
+
 <?php
-$localidad = 'Isla';
-$region = 'Cantabria';
-$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Isla si se utiliza para verificación
-$description_content = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$keywords_content = 'Playa de Isla, Cantabria, playa, naturaleza, turismo en Cantabria, playa en el norte de España';
+// Variables para la página de la Playa de Isla
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php';
 
-$graph_Meta_Tags_property_title = 'Playa de Isla - Información y Turismo';
-$graph_Meta_Tags_property_description = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/playa-de-isla.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/fichas/playa-de-isla.php';
-$graph_Meta_Tags_property_type = 'website';
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Actualiza si tienes un código específico para Isla
+$description_content = 'Descubre la Playa de Isla, una encantadora playa en Cantabria, ideal para disfrutar del mar, el sol y deportes acuáticos en un entorno natural privilegiado.';
+$keywords_content = 'Playa de Isla, surf, naturaleza, Costa Cantábrica, turismo en Cantabria, Playa Isla Cantabria';
 
-$twiterCards_card = 'summary_large_image';
-$twiterCards_site = '@laya_garcia';
-$twiterCards_title = 'Playa de Isla - Información y Turismo';
-$twiterCards_descripcion = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$twiterCards_image = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/playa-de-isla.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/fichas/playa-de-isla.php?i=1';
+//echo(PATH_RAIZ_WEB_PLAYA);
+require PATH_RAIZ_WEB_PLAYA . "/meta_tags.php";      // Variables de etiquetas meta
+require PATH_RAIZ_WEB_PLAYA . "/tweeter.php";        // Variables Twitter
+require PATH_RAIZ_WEB_PLAYA . "/pinterest.php";      // Variables Pinterest
+require PATH_RAIZ_WEB_PLAYA . "/data-generico.php";  // Variables para el archivo Structured_data_generico.php
 
-$pinterest_property_card_card_content = 'summary_large_image';
-$pinterest_property_card_title_content = 'Playa de Isla - Información y Turismo';
-$pinterest_property_card_description_content = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/playa-de-isla.jpg';
+// Imagen representativa y URL canónica
+require PATH_RAIZ_WEB_PLAYA . "/structure-data-schema-org.php";
 
-$href_styles = './../fichas/css/styles.css';
-
-////////
-// Para el archivo Structured_data_generico.php
-$localidad = 'Isla';
-$localidad_minuscula = 'isla';
-
-$descripcion = 'Descubre la Playa de Isla, una hermosa playa en Cantabria, ideal para disfrutar de la arena dorada, el mar y un ambiente relajante en el norte de España.';
-$url = 'http://playas2024.kesug.com/localidades/cantabria/playadeisla/fichas/playa-de-isla.php';
-
-$mainEntity_description = 'La Playa de Isla es una playa encantadora en Cantabria, conocida por su arena dorada, aguas limpias y un entorno natural pintoresco.';
-$mainEntity_addressLocality = 'Isla';
-$mainEntity_addressRegion = 'Cantabria';
-$mainEntity_addressCountry = 'España';
-
-$mainEntity_geo_latitude = 43.4598;
-$mainEntity_geo_longitude = -3.6381;
-
-$mainEntity_image = 'https://example.com/path/to/isla-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/localidades/cantabria/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
-////////
-
-require "./../../../../bloques/estructura/head.php"; ?>
+require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/head.php"; 
+?>
 
 <body>
-    <?php $page = 'playade'.$localidad_minuscula;?>
+    <?php $page = 'playade' . $nombre_playa_minuscula; ?>
     <?php require "./sections/info.php"; ?>    
-    <?php require "./../../../../bloques/estructura/body_generico.php"; ?>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/body_generico.php"; ?>
 </body>
 
 </html>
-
-<!-- Servicios 
-<section id="servicios" class="content-section container my-5">
-    <h2 class="section-header text-center">Servicios en la Playa de Isla</h2>
-    <ul class="list-unstyled">
-        <li><strong>Alquiler de Barcos y Kayaks:</strong> Disponibilidad de embarcaciones y kayaks para explorar la costa y la Isla de San Pedro.</li>
-        <li><strong>Chiringuitos y Restaurantes:</strong> Variedad de bares y restaurantes donde degustar mariscos frescos y cocina local cántabra.</li>
-        <li><strong>Servicios de Seguridad:</strong> Presencia de socorristas y puntos de primeros auxilios durante la temporada alta.</li>
-        <li><strong>Zona de Juegos Infantiles:</strong> Áreas dedicadas para el entretenimiento de los más pequeños.</li>
-    </ul>
-</section>-->

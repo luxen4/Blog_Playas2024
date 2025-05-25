@@ -1,7 +1,6 @@
   <!-- Favicon -->
   <link rel="icon" href="./img/icono-sombrilla.ico" type="image/x-icon">
 
-
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
 

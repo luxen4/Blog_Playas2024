@@ -1,6 +1,20 @@
 <?php
 // Leer CSV y agrupar cada 3 imágenes para alternar en popup
-$filename = PATH_RAIZ. './anuncios/amazon_botas_hombre_images.csv';
+$filename = PATH_RAIZ. './anuncios/amazon_botas_hombre_images.csv'; 
+$filename = PATH_RAIZ. './anuncios/amazon_chaquetas_hombre_images.csv';
+$filename = PATH_RAIZ. './anuncios/amazon_jeans_man_images.csv';
+
+// Definir array con rutas de archivos CSV
+$csv_files = [
+    PATH_RAIZ . './anuncios/amazon_botas_hombre_images.csv',
+    PATH_RAIZ . './anuncios/amazon_chaquetas_hombre_images.csv',
+    PATH_RAIZ . './anuncios/amazon_jeans_man_images.csv'
+];
+
+// Seleccionar uno al azar
+$filename = $csv_files[array_rand($csv_files)];
+
+
 $allImages = [];
 
 if (($handle = fopen($filename, "r")) !== FALSE) {

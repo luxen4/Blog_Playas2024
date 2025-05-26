@@ -6,21 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>FAQ & Consejos – Playa de Ostende</title>
 
-  <?php $region_minuscula = 'cantabria'; $carpeta = 'playadeostende'; ?>
+  <?php $region_minuscula = 'cantabria'; $carpeta = 'playadeostende'; $tema='faqs_consejos';?>
   <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php"; ?>
-
-  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/localizacion-playa.php"; ?>
-
-  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META."/faqs_consejos.php"; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
-
-  <!-- Structured Data -->
-  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_JSON_LD.'/faq_ldjson.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_JSON_LD.'/consejos_ldjson.php'; ?>
-
-  <!-- Estilos personalizados -->
-  <link rel="stylesheet" href="./css/styles.css" />
-
+  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/head_generico.php";?> 
 </head>
 
 <body>

@@ -1,40 +1,59 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "¿Qué opciones de comida hay en la Playa de Ostende?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "En el paseo marítimo encontrarás varios chiringuitos y restaurantes que ofrecen gastronomía cántabra, como marisco fresco, rabas y sidra local."
-      }
+  "@type": "TouristDestination",
+  "name": "Playa de Ostende",
+  "description": "Playa equipada con chiringuitos, alquiler de material deportivo, baños públicos y aparcamiento. Ideal para disfrutar del turismo costero en Castro Urdiales, Cantabria.",
+  "touristType": {
+    "@type": "Audience",
+    "name": ["Turistas", "Familias", "Surfistas", "Viajeros gastronómicos"]
+  },
+  "location": {
+    "@type": "Place",
+    "name": "Playa de Ostende",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Castro Urdiales",
+      "addressRegion": "Cantabria",
+      "addressCountry": "ES"
     },
-    {
-      "@type": "Question",
-      "name": "¿Puedo alquilar equipamiento en la Playa de Ostende?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sí, puedes alquilar sombrillas, tumbonas, tablas de surf, paddle surf y kayaks para disfrutar de actividades acuáticas."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Hay baños y duchas disponibles?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "La playa cuenta con duchas y aseos públicos distribuidos por distintas zonas, lo que mejora la comodidad e higiene de los visitantes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Dónde puedo aparcar cerca de la Playa de Ostende?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hay zonas de aparcamiento gratuitas y de pago cerca de la playa, incluyendo plazas adaptadas para personas con movilidad reducida."
-      }
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.459388,
+      "longitude": -3.859125
     }
+  },
+  "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Chiringuitos y Restaurantes",
+      "description": "Restaurantes frente al mar que ofrecen gastronomía cántabra como mariscos, rabas y sidra.",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Alquiler de equipamiento",
+      "description": "Sombrillas, tumbonas, tablas de surf, paddle surf y kayaks.",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Duchas y Baños Públicos",
+      "description": "Instalaciones higiénicas para mayor comodidad y accesibilidad.",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Aparcamiento cercano",
+      "description": "Zonas gratuitas y de pago, con plazas adaptadas para personas con movilidad reducida.",
+      "value": true
+    }
+  ],
+  "image": [
+    "https://<?= $_SERVER['SERVER_NAME'] ?>/assets/img/servicios/chiringuitos.jpg",
+    "https://<?= $_SERVER['SERVER_NAME'] ?>/assets/img/servicios/alquiler.jpg",
+    "https://<?= $_SERVER['SERVER_NAME'] ?>/assets/img/servicios/duchas.jpg",
+    "https://<?= $_SERVER['SERVER_NAME'] ?>/assets/img/servicios/aparcamiento.jpg"
   ]
 }
 </script>

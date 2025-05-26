@@ -5,28 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Servicios en la Playa de Ostende – Castro-Urdiales</title>
 
-    <?php // Variables para la página de la Playa de Ostende
-  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php'; ?>
-
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta/servicios.php"; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
-
-  <!-- Estilos personalizados -->
-  <link rel="stylesheet" href="./css/styles.css" />
-  
-
-
-
-<!-- Structured Data -->
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/jsonld/servicios_ldjson.php'; ?>
-
+  <?php $region_minuscula = 'cantabria'; $carpeta = 'playadeostende'; $tema='servicios';?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/head_generico.php";?> 
 
 </head>
 <body>
 
   <?php PATH_RAIZ_BLOQUES_ESTRUCTURA."/header.php"; ?>
-
+  <main id="main-content" role="main" class="py-5">
+    <div class="container">
 
   <section id="servicios" class="seccion-servicios container py-5">
     <header class="text-center mb-4">
@@ -64,8 +52,8 @@
       <p>¿Buscas otras playas con servicios similares? <a href="./../../../../index.php" title="Guía de playas en Cantabria">Consulta nuestra guía de playas en Cantabria</a>.</p>
     </div>
   </section>
-  ';
-
+  </div>
+</main>
 <?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_sports_shirts_hombre.php'; ?>
 
 <?php require "./../../../../bloques/estructura/footer.php"; ?>

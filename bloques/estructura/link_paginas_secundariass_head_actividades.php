@@ -23,3 +23,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2024/styles.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-9ndCyUa6mY5yY35Y9peR+kyZQF8pZ6Vn3ciZpqCXUw3nFZ+IOB4yM1Klmhkt1P3U" crossorigin="anonymous">
+
+

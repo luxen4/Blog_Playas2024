@@ -1,4 +1,6 @@
 <section id="actividades" class="seccion-actividades container">
+  <a class="nav-link text-red" href='/Blog_Playas2024/localidades/<?= $region_minuscula ?>/<?= $carpeta; ?>/fichas/playa-de-<?= $nombre_playa_minuscula ."-"  .$localidad_minuscula. "-" .$region_minuscula  ?>.php' target="_blank">Playa de <?= $nombre_playa; ?></a>
+
     <header class="text-center mb-4">
       <h2 class="text-primary">🏄‍♂️ Actividades Recomendadas en Ostende</h2>
       <p>Explora las <strong>mejores actividades turísticas y deportivas</strong> que ofrece la Playa de Ostende en <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" title="Más sobre Castro Urdiales">Castro Urdiales, Cantabria</a>. Ideal para los amantes del turismo activo y la naturaleza costera.</p>
@@ -13,7 +15,7 @@
 
     <p class="section-content">
       Además, Ostende cuenta con diversas <a href="https://escueladesurfcastro.com/" target="_blank" rel="noopener noreferrer" title="Escuelas de Surf">escuelas de surf</a> y alquiler de equipos para quienes deseen aprender o mejorar sus habilidades acuáticas.
-    </p>    <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
+    </p>    <?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_sneakers.php'; ?>
 
     <p class="section-content">
       <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> Durante todo el año, la playa alberga <strong>eventos deportivos</strong>, como torneos de vóley de playa, campeonatos de surf y eventos culturales, lo que la convierte en un lugar vibrante.
@@ -42,7 +44,7 @@
 
 
 <div class="solo-escritorio">
-    <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; ?>
+    <?php PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_shorts_hombre.php'; ?>
 </div>
 
 <style>

@@ -5,40 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cómo llegar a la Playa de Ostende – Castro-Urdiales</title>
 
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <?php // Variables para la página de la Playa de Ostende
+  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php'; ?>
 
-  <!-- SEO Básico -->
-  <meta name="description" content="Guía completa para llegar a la Playa de Ostende en Castro Urdiales: coche, autobús, senderos costeros y mapa interactivo actualizado." />
-  <meta name="keywords" content="Playa de Ostende, cómo llegar, transporte Ostende, aparcamiento, senderos costeros, Castro Urdiales, Cantabria" />
-  <meta name="robots" content="index, follow" />
-  <meta name="date" content="2025-05-11" />
 
-  <!-- Open Graph (SEO Avanzado) -->
-  <meta property="og:title" content="Cómo llegar a la Playa de Ostende – Castro Urdiales" />
-  <meta property="og:description" content="Descubre cómo llegar fácilmente a la Playa de Ostende: en coche, autobús o bicicleta. Incluye mapa interactivo." />
-  <meta property="og:url" content="https://www.ejemplo.com/ostende/como-llegar" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://www.ejemplo.com/imagenes/como-llegar-ostende.jpg" />
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta_como_llegar.php"; ?>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Cómo llegar a la Playa de Ostende – Castro Urdiales" />
-  <meta name="twitter:description" content="Guía con mapa para llegar a la Playa de Ostende: coche, autobús, a pie o bici. Planifica tu visita a Castro-Urdiales." />
-  <meta name="twitter:image" content="https://www.ejemplo.com/imagenes/como-llegar-ostende.jpg" />
+
 
   <!-- Estilos personalizados -->
-  <style>
-    body { background-color: #f8f9fa; }
-    .info-box { background: #fff; border-radius: 12px; padding: 0.125rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-    .info-box ul { padding-left: 0.125rem; }
-    .info-box li { margin-bottom: 1.5rem; font-size: 1rem; }
-    .info-box i { margin-right: .5rem; }
-    .section-header i { margin-right: .5rem; }
-    .map-responsive iframe { border: 0; width: 100%; height: 450px; border-radius: 10px; }
-  </style>
+  <link rel="stylesheet" href="./css/styles.css" />
+
 
   <!-- Adcash (opcional) -->
   <script src="https://static.adcash.com/js/aclib.js" async></script>
@@ -46,10 +25,9 @@
 </head>
 <body>
 
-<?php require "./../../../../bloques/estructura/header.php"; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA."/header.php"; ?>
 
-<?php
-$li_mapa_ubicacion = '
+
 <section id="como-llegar-ostende" class="container">
   <header class="text-center mb-4">
     <h2 class="text-danger section-header"><i class="fas fa-map-marked-alt"></i> Cómo llegar a la Playa de Ostende</h2>
@@ -87,25 +65,12 @@ $li_mapa_ubicacion = '
     ¿Desde otro punto? Usa <a href="https://www.google.com/maps/dir//Playa+de+Ostende" target="_blank" rel="noopener noreferrer" title="Ruta en Google Maps" style="color:#2980b9;">Google Maps</a> para trazar tu ruta personalizada.
   </p>
 </section>
-';
-echo $li_mapa_ubicacion;
-?>
 
 
-<?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_atuendo4.php'; ?>
+<?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_atuendo4.php'; ?>
 
-<?php require "./../../../../bloques/estructura/footer.php"; ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA."/footer.php"; ?>
+<?php require  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap2.php"; ?>
+
 </body>
-
-
-
-<!-- jQuery (necesario para Bootstrap 4) -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
-<!-- Popper.js (necesario para el dropdown y toggler de Bootstrap 4) -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>

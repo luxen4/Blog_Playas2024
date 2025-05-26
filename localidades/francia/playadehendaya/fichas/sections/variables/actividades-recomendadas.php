@@ -1,4 +1,6 @@
+
 <section id="actividades" class="seccion-actividades container">
+  <a class="nav-link text-red" href="/Blog_Playas2024/<?= $rutas; ?>">Playa de Hendaya</a>
   <header class="text-center mb-4">
     <h2 class="text-primary">🏄‍♂️ Actividades Recomendadas en la Playa de Hendaya</h2>
     <p>Explora las <strong>mejores experiencias turísticas y deportivas</strong> que ofrece la Playa de Hendaya, en el suroeste de Francia, junto a la frontera con España. Ideal para los amantes del <strong>océano Atlántico</strong> y el entorno vasco-francés.</p>
@@ -12,8 +14,6 @@
   <p class="section-content">
     En la zona encontrarás varias <a href="https://hendaye.com/fr/ecoles-de-surf/" target="_blank" rel="noopener noreferrer" title="Escuelas de surf en Hendaya">escuelas de surf locales</a>, donde podrás apuntarte a clases o alquilar material.
   </p>    
-
-  <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
 
   <p class="section-content">
     <i class="fas fa-calendar-alt" style="color: #e67e22;"></i> A lo largo del año se organizan <strong>eventos deportivos y culturales</strong>, como torneos de surf, ferias costeras y actividades familiares junto al paseo marítimo.
@@ -33,18 +33,6 @@
         Disfruta de rutas panorámicas hacia el <strong>Monte Larrun</strong> o la <a href="https://www.hendaye-tourisme.fr/decouvrir/cote-basque/la-corniche-basque/" target="_blank" style="color:#2980b9;" title="Cornisa Vasca">Corniche Basque</a>, con vistas espectaculares del mar y acantilados. Recomendado en primavera y verano.
       </li>
 
-      <div class="solo-escritorio">
-        <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php'; ?>
-      </div>
-
-      <style>
-        @media (max-width: 768px) {
-          .solo-escritorio {
-              display: none;
-          }
-        }
-      </style>
-
       <li class="my-4">
         <i class="fas fa-ship" style="color: #3498db;"></i>
         <strong>Paseos en barco por la bahía de Txingudi:</strong><br>
@@ -60,5 +48,29 @@
   </div>
 </section>
 
-<?php define('BLOQUES_PATH',  './../../../../bloques/estructura/sections_generico') ?>
-<?php require BLOQUES_PATH.'/Carruseles_CSV/prueba_atuendo.php'; ?>
+
+
+<?php /*
+<?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_sneakers.php'; ?>
+<?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_atuendo.php'; ?>      
+      <div class="solo-escritorio">
+        <?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_shorts_hombre.php'; ?>
+      </div>*/?>
+
+
+<style>
+@media (max-width: 768px) {
+  .solo-escritorio {
+      display: none;
+  }
+}
+
+.seccion-actividades {
+  max-width: 960px;      /* o 1140px si prefieres más ancho */
+  margin: 0 auto;         /* centrado horizontal */
+  padding-left: 1rem;     /* espacio lateral en móvil */
+  padding-right: 1rem;
+}
+
+
+</style>

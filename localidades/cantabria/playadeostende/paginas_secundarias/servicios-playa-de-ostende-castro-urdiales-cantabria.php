@@ -4,47 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Servicios en la Playa de Ostende – Castro-Urdiales</title>
-  
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-  
-  <!-- SEO -->
-  <meta name="description" content="Explora los servicios turísticos en la Playa de Ostende: restaurantes frente al mar, duchas públicas, alquiler de equipos y zona de aparcamiento." />
-  <meta name="keywords" content="Servicios Playa Ostende, restaurantes Castro Urdiales, duchas Ostende, alquiler surf Cantabria, aparcamiento playa" />
-  <meta name="robots" content="index, follow" />
-  <meta name="date" content="2025-05-11" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Servicios en la Playa de Ostende – Castro-Urdiales" />
-  <meta property="og:description" content="Descubre chiringuitos, alquiler de equipos, duchas y aparcamiento en la Playa de Ostende en Castro-Urdiales." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.ejemplo.com/ostende/servicios" />
-  <meta property="og:image" content="https://www.ejemplo.com/imagenes/ostende-servicios.jpg" />
+    <?php // Variables para la página de la Playa de Ostende
+  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php'; ?>
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Servicios en la Playa de Ostende – Castro-Urdiales" />
-  <meta name="twitter:description" content="Todo lo que necesitas saber sobre los servicios turísticos en la Playa de Ostende." />
-  <meta name="twitter:image" content="https://www.ejemplo.com/imagenes/ostende-servicios.jpg" />
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta/servicios.php"; ?>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
 
-  <style>
-    body { background-color: #f8f9fa; }
-    .info-box { background: #fff; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-    .info-box ul { padding-left: 1.2rem; }
-    .info-box li { margin-bottom: 1.5rem; font-size: 1rem; }
-    .info-box i { margin-right: .5rem; }
-    #servicios p { font-size: 1.1rem; }
-  </style>
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  
+
+
+
+<!-- Structured Data -->
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/jsonld/servicios_ldjson.php'; ?>
+
+
 </head>
 <body>
 
-  <?php require "./../../../../bloques/estructura/header.php"; ?>
+  <?php PATH_RAIZ_BLOQUES_ESTRUCTURA."/header.php"; ?>
 
-  <?php
-  $li_servicios_ostende = '
+
   <section id="servicios" class="seccion-servicios container py-5">
     <header class="text-center mb-4">
       <h2 class="text-success">🌴 Servicios en la Playa de Ostende</h2>
@@ -83,10 +66,12 @@
   </section>
   ';
 
-  echo $li_servicios_ostende;
-  ?>
-<?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_sports_shirts_hombre.php'; ?>
-  <?php require "./../../../../bloques/estructura/footer.php"; ?>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_sports_shirts_hombre.php'; ?>
+
+<?php require "./../../../../bloques/estructura/footer.php"; ?>
+<?php require  PATH_RAIZ. "/anuncios/pop-up-publicitario2.php"; ?>
+<?php require  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap2.php"; ?>
+
+
 </body>
 </html>

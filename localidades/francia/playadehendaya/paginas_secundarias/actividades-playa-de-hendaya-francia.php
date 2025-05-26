@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Actividades en la Playa de Hendaya – País Vasco Francés</title>
 
+
+  <?php 
+  // Variables para la página de Hendaya
+  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/francia/playadehendaya/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php';?>
+
+
+
   <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
@@ -33,7 +41,7 @@
   <meta property="og:title" content="Actividades en la Playa de Hendaya – País Vasco Francés" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Hendaya: surf, senderismo, paseos en barco y más experiencias en la costa vasca de Francia." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2024/actividades-playa-de-hendaya-paisvascofrances" />
+  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2024/actividades-playa-de-hendaya-francia" />
   <meta property="og:image:alt" content="Vista panorámica de la Playa de Hendaya con surfistas y senderos junto al mar" />
   <meta property="og:site_name" content="Playas 2024 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
@@ -50,12 +58,12 @@
 
   <?php
   // Información básica
-  $localidad = 'Hendaya';
+  /*$localidad = 'Hendaya';
   $region = 'País Vasco Francés';
   $nombre_playa_minuscula = 'hendaya';
   $localidad_minuscula = 'hendaya';
-  $region_minuscula = 'paisvascofrances';
-  $rutas = 'playa-de-hendaya-paisvascofrances';
+  $region_minuscula = 'francia';
+  $rutas = 'playa-de-hendaya-francia';*/
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Hendaya, un extenso arenal en el litoral atlántico francés, ideal para el surf, paseos naturales y disfrutar de los Pirineos Atlánticos.';
@@ -129,7 +137,7 @@
 </script>
 
 <?php require "./../../../../bloques/estructura/header.php"; ?>
-<a class="nav-link text-red" href="/Blog_Playas2024/<?= $rutas; ?>">Playa de Hendaya</a>
+
 <?php require "./../../../../localidades/francia/playadehendaya/fichas/sections/variables/actividades-recomendadas.php"; ?> 
 <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
 <?php require "./../../../../bloques/estructura/footer.php"; ?>

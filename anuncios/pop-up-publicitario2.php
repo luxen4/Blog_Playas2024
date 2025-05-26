@@ -3,12 +3,15 @@
 $filename = PATH_RAIZ. './anuncios/amazon_botas_hombre_images.csv'; 
 $filename = PATH_RAIZ. './anuncios/amazon_chaquetas_hombre_images.csv';
 $filename = PATH_RAIZ. './anuncios/amazon_jeans_man_images.csv';
+$filename = PATH_RAIZ. './anuncios/amazon_shorts_hombre_images.csv';
+
 
 // Definir array con rutas de archivos CSV
 $csv_files = [
     PATH_RAIZ . './anuncios/amazon_botas_hombre_images.csv',
     PATH_RAIZ . './anuncios/amazon_chaquetas_hombre_images.csv',
-    PATH_RAIZ . './anuncios/amazon_jeans_man_images.csv'
+    PATH_RAIZ . './anuncios/amazon_jeans_man_images.csv',
+    PATH_RAIZ . './anuncios/amazon_shorts_images.csv'
 ];
 
 // Seleccionar uno al azar
@@ -39,21 +42,38 @@ $imageSets = array_chunk($allImages, 3);
     <meta charset="UTF-8" />
     <title>Popup Imágenes Alternadas</title>
     <style>
-        #imagePopup {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 90vw;
-            max-height: 80vh;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-            z-index: 9999;
-            padding: 20px;
-            overflow-y: auto;
-        }
+#imagePopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45vw; /* Escritorio por defecto */
+    max-height: 80vh;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Clase activa que muestra el popup con efecto fade */
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+    #imagePopup {
+        width: 70vw;
+    }
+}
+
+/* Móviles (pantallas pequeñas) */
+@media (max-width: 768px) {
+    #imagePopup {
+        width: 90vw;
+        padding: 15px;
+    }
+}
 
         #imagePopup img {
             width: 100%;

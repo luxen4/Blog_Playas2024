@@ -8,7 +8,7 @@
 
     $descripcion = 'Descubre la Playa de Noja, un destino ideal en la costa cántabra para disfrutar de paisajes naturales, aguas cristalinas y actividades al aire libre.';
 
-    $url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Noja destaca por su belleza natural, su fina arena dorada y sus condiciones ideales para disfrutar en familia o practicar surf.';
     $mainEntity_addressLocality = $localidad;

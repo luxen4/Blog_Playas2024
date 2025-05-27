@@ -5,5 +5,5 @@ $twiterCards_site = '@laya_garcia';  // Puedes cambiarlo si quieres usar otro us
 $twiterCards_title = 'Playa de Hendaya - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Hendaya en el País Vasco Francés, una extensa playa con arena fina ideal para familias y deportes acuáticos como el surf.';
 $twiterCards_image = "http://playas2024.kesug.com/localidades/{$region}/{$carpeta}/playa-de-hendaya-francia.jpg";
-$twiterCards_url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region}/{$carpeta}/fichas/playa-de-hendaya.php?i=1";
+$twiterCards_url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region}/{$carpeta}/fichas/playa-de-hendaya.php?i=1";
 ?>

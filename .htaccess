@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /Blog_Playas2024/
+    #RewriteBase /Blog_Playas2024/
+    
 
     # Ostende
     RewriteRule ^playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php [L]

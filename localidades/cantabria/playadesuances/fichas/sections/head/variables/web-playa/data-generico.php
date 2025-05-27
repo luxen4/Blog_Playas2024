@@ -1,6 +1,6 @@
 <?php
     $descripcion = 'Descubre la Playa de Suances, un destino emblemático de Cantabria, reconocido por sus olas ideales para surf y su entorno natural privilegiado en la costa cantábrica.';
-    $url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Suances destaca por su arena fina, sus excelentes condiciones para el surf y su ambiente familiar en la costa cantábrica.';
     $mainEntity_addressLocality = $localidad;

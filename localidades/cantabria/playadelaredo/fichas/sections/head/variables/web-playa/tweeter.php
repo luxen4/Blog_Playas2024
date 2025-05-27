@@ -5,5 +5,5 @@ $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Laredo - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Laredo, una extensa playa en Cantabria, ideal para disfrutar en familia y practicar deportes acuáticos.';
 $twiterCards_image = "http://playas2024.kesug.com/localidades/{$region}/{$carpeta}/{$rutas}.jpg";
-$twiterCards_url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region}/{$carpeta}/fichas/{$rutas}.php?i=1";
+$twiterCards_url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region}/{$carpeta}/fichas/{$rutas}.php?i=1";
 ?>

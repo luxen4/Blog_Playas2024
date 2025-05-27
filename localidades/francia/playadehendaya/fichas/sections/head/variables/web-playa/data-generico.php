@@ -8,7 +8,7 @@
 
     $descripcion = 'Descubre la Playa de Hendaya, una extensa playa francesa en el País Vasco, ideal para el surf, el relax y disfrutar del mar en un entorno natural privilegiado.';
 
-    $url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Hendaya es famosa por su gran longitud, arena fina y olas perfectas para el surf, ubicada en un entorno natural muy apreciado por turistas y locales.';
     $mainEntity_addressLocality = $localidad;

@@ -8,7 +8,7 @@
 
     $descripcion = 'Descubre la Playa de Berria, una extensa playa en Santoña con arena fina y un entorno natural protegido, perfecta para el relax y deportes acuáticos.';
 
-    $url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Berria destaca por su larga extensión, su fina arena y su ubicación en un entorno natural protegido, ideal para familias y amantes del surf.';
     $mainEntity_addressLocality = $localidad;

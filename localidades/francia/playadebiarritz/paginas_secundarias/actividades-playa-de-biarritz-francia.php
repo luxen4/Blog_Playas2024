@@ -29,7 +29,7 @@
   <link rel="icon" href='./../Blog_Playas2024/img/icono-sombrilla.ico' type="image/x-icon">
 
   <!-- Open Graph -->
-  <meta property="og:image" content="http://playas2024.kesug.com/Blog_Playas2024/localidades/francia/playadebiarritz/img/playa-de-biarritz.jpg" />
+  <meta property="og:image" content=PATH_RAIZ_LOCALIDADES_CARPETA."/francia/playadebiarritz/img/playa-de-biarritz.jpg" />
   <meta property="og:title" content="Actividades en la Playa de Biarritz – Francia" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Biarritz: surf, paseos por la costa vasca, cultura y experiencias junto al océano Atlántico." />
   <meta property="og:type" content="article" />

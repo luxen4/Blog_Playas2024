@@ -1,6 +1,6 @@
 <?php
     $descripcion = 'Descubre la Playa de Isla, un destino conocido por su encanto natural, perfecta para disfrutar del mar y actividades acuáticas en la costa cantábrica.';
-    $url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Isla destaca por su belleza natural y condiciones ideales para el surf y otros deportes acuáticos.';
     $mainEntity_addressLocality = $localidad;

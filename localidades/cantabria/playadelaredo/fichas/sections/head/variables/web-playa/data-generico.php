@@ -6,7 +6,7 @@
     $carpeta = 'playadelaredo';       // carpeta correspondiente a Laredo
     $rutas = 'index';                 // nombre del archivo sin extensión o según tu estructura
     
-    $url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Laredo es reconocida por su extensa playa de arena fina, ideal para paseos y deportes como el surf.';
     $localidad = 'Laredo';

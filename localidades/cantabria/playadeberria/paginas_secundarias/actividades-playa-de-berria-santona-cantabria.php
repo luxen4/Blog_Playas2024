@@ -29,7 +29,7 @@
   <link rel="icon" href='./../Blog_Playas2024/img/icono-sombrilla.ico' type="image/x-icon">
 
   <!-- Open Graph -->
-  <meta property="og:image" content="http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
+  <meta property="og:image" content=PATH_RAIZ_LOCALIDADES_CARPETA."/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
   <meta property="og:title" content="Actividades en la Playa de Berria – Santoña" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Berria: surf, rutas naturales, paseos marítimos y experiencias en la costa cántabra." />
   <meta property="og:type" content="article" />

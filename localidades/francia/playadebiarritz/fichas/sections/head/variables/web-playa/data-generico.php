@@ -8,7 +8,7 @@
 
     $descripcion = 'Descubre la Playa de Biarritz, una joya de la costa vasco-francesa, famosa por su ambiente elegante, su cultura surfista y su hermoso paisaje costero.';
 
-    $url = "http://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Biarritz combina la belleza del Atlántico con el estilo de vida francés, siendo un destino ideal tanto para los amantes del surf como para quienes buscan relax junto al mar.';
     $mainEntity_addressLocality = $localidad;

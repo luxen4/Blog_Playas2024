@@ -11,7 +11,8 @@
   </head>
 
   <body>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/header.php"; ?>
+    <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/header.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS . "/header/barra_navegacion_paginas_secundarias.php"; ?>
 
       <main id="main-content" role="main" class="py-5">
         <div class="container">

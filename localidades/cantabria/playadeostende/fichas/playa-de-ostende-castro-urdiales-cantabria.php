@@ -3,10 +3,14 @@
 
 <?php $_COOKIE['idioma'] = 'es'; ?>
 
+  <?php // Variables para la página de la Playa de Ostende ?>
+  <?php $region_minuscula = 'cantabria'; $carpeta = 'playadeostende'; $tema='playa-de-ostende';?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/localizacion-playa.php'; ?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php"; ?>
+
+
 <?php
-// Variables para la página de la Playa de Ostende
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php';
+
 
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Ostende si se utiliza para verificación
 $description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';

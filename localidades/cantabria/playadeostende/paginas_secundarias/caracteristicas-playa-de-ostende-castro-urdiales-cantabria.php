@@ -4,35 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Playa de Ostende en Castro-Urdiales</title>
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-  <style>
-    body {
-      background-color: #f8f9fa;
-    }
-    .beach-info {
-      background: #fff;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    }
-    .beach-info ul {
-      padding-left: 1.5rem;
-    }
-    .beach-info li {
-      margin-bottom: 12px;
-      font-size: 1rem;
-    }
-    .beach-info i {
-      margin-right: 8px;
-    }
-    .cta-button {
-      text-align: center;
-      margin-top: 30px;
-    }
-  </style>
+
+      <?php $region_minuscula = 'cantabria'; $carpeta = 'playadeostende'; $tema='actividades';?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/head_generico.php";?> 
+
+
+
     <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
     <script src="https://static.adcash.com/js/aclib.js" async></script>
     <?php require "./../../../../bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
@@ -87,3 +65,36 @@ require "./../../../../bloques/estructura/header.php"; ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .beach-info {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .beach-info ul {
+      padding-left: 1.5rem;
+    }
+    .beach-info li {
+      margin-bottom: 12px;
+      font-size: 1rem;
+    }
+    .beach-info i {
+      margin-right: 8px;
+    }
+    .cta-button {
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>

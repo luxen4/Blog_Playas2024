@@ -13,6 +13,8 @@
 
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS', PATH_RAIZ_LOCALIDADES. "/" .$region_minuscula. "/" . $carpeta. "/paginas_secundarias"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_HEADER', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/header"); ?>
+
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/head/variables/web-playa/"); ?>
 
@@ -30,9 +32,14 @@
 
 <?php define('PATH_RAIZ_WEB_PLAYA', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/fichas/sections/head/variables/web-playa"); ?>
 
-<?php define('PATH_RAIZ_LOCALIDADES_MAIN', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/fichas/sections/main"); ?>
+
 
 <?php define('PATH_BLOQUES_SECTIONS_GENERICO',  PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
+
+
+<?php define('PATH_RAIZ_LOCALIDADES_SECTIONS',  PATH_RAIZ_LOCALIDADES_CARPETA. '/fichas/sections'); ?>
+
+<?php define('PATH_RAIZ_LOCALIDADES_MAIN', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/fichas/sections/main"); ?>
 
 <?php define('PATH_RAIZ_LOCALIDADES_SECTIONS_VARIABLES',  PATH_RAIZ_LOCALIDADES_CARPETA. '/fichas/sections/variables'); ?>

@@ -11,7 +11,7 @@
             <main>
 
               <?php require PATH_BLOQUES_SECTIONS_GENERICO . '/deprecated/_encabezado_generico.php'; ?>
-              <?php require PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV/prueba_sports_shirts_hombre.php'; ?>
+              <?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_sports_shirts_hombre.php'; ?>
               <?php require PATH_BLOQUES_SECTIONS_GENERICO . '/deprecated/_descripcion-detallada_generico.php'; ?>
 
               <?php require PATH_BLOQUES_SECTIONS_GENERICO.'/helpers/render_bloques.php'; ?>
@@ -22,10 +22,10 @@
               <?php require PATH_RAIZ_LOCALIDADES_MAIN.'/bloque_con_boton_eventos_festividades.php'; ?>
 
               <?php require PATH_RAIZ_LOCALIDADES_MAIN.'/bloque_con_boton_faqs_consejos.php'; ?>
-              <?php require PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV/prueba_sneakers.php'; ?>
+              <?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_sneakers.php'; ?>
 
               <?php require PATH_BLOQUES_SECTIONS_GENERICO .'/galeria-imagenes_generico.php'; ?>
-              <?php require PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV/prueba_shorts_hombre.php'; ?>
+              <?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_shorts_hombre.php'; ?>
 
               <?php require PATH_BLOQUES_SECTIONS_GENERICO .'/deprecated/_mas-info_generico.php'; ?>
 

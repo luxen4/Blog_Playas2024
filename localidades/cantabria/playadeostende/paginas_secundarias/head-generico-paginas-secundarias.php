@@ -13,5 +13,5 @@
 <link rel="canonical" href= "<?= PATH_RAIZ.'/'.$tema; ?>-<?= $rutas; ?>" />
 
 <?php 
-    require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA."/structure-data-schema-org.php";
-    include_once  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/structured_data_generico.php"; ?>
+require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA."/structure-data-schema-org.php";
+include_once  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/structured-data-generico.php"; ?>

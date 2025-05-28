@@ -1,0 +1,13 @@
+<?php require PATH_RAIZ_WEB_PLAYA. '/localizacion-playa.php'; ?>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS. "/head-generico.php";?> 
+  </head>
+  <body>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS. "/body-generico.php";?> 
+  </body>
+</html>
+
+<?php //require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_vaqueros_hombre.php'; ?>

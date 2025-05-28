@@ -3,6 +3,8 @@
 <?php define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura'); ?>
 
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/actividades-recomendadas'); ?>
+
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 
 

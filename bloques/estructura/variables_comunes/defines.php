@@ -21,7 +21,7 @@
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/head/variables/web-playa/"); ?>
 
 
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/head/etiquetas_meta/"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas_secundarias/head/etiquetas_meta/"); ?>
 
 
 

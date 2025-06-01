@@ -1,8 +1,8 @@
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_HEADER . "/barra-navegacion-paginas-secundarias.php"; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER . "/barra-navegacion-paginas-secundarias.php"; ?>
 
 <main id="main-content" role="main" class="main-contenido-limitado">
   <div class="container">
-    <?php require PATH_RAIZ_LOCALIDADES_CARPETA_SECTIONS_VARIABLES."/{$tema}.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS."/{$tema}.php"; ?>
     
     <!-- Enlace a la ficha de la playa -->
     <div class="text-center mb-3">

@@ -13,7 +13,7 @@ $description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Canta
 $keywords_content = 'Playa de Ostende, surf, naturaleza, Costa Cantábrica, turismo en Cantabria, Ostende';
 
 
-require PATH_RAIZ_WEB_PLAYA. "/grupo1/index.php"; 
+require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/grupo1/index.php"; 
 
 require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/head-generico-playa.php"; ?>
 

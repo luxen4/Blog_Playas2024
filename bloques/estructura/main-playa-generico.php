@@ -16,12 +16,12 @@
 
               <?php require PATH_BLOQUES_SECTIONS_GENERICO.'/helpers/render_bloques.php'; ?>
 
-              <?php require PATH_RAIZ_LOCALIDADES_MAIN.'/bloque_con_boton_actividades.php'; ?>
-              <?php require PATH_RAIZ_LOCALIDADES_MAIN.'/bloque_con_boton_como_llegar.php'; ?>
-              <?php require PATH_RAIZ_LOCALIDADES_MAIN.'/bloque_con_boton_servicios.php'; ?>
-              <?php require PATH_RAIZ_LOCALIDADES_MAIN.'/bloque_con_boton_eventos_festividades.php'; ?>
+              <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN.'/bloque_con_boton_actividades.php'; ?>
+              <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN.'/bloque_con_boton_como_llegar.php'; ?>
+              <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN.'/bloque_con_boton_servicios.php'; ?>
+              <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN.'/bloque_con_boton_eventos_festividades.php'; ?>
 
-              <?php require PATH_RAIZ_LOCALIDADES_MAIN.'/bloque_con_boton_faqs_consejos.php'; ?>
+              <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN.'/bloque_con_boton_faqs_consejos.php'; ?>
               <?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV.'/prueba_sneakers.php'; ?>
 
               <?php require PATH_BLOQUES_SECTIONS_GENERICO .'/galeria-imagenes_generico.php'; ?>

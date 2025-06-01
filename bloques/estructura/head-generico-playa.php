@@ -14,7 +14,7 @@
     <meta name="language" content="es">
 
     <?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/<?= $url_amigable;?>" />*/?>
-    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php" />
+    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/localidades/<?= $region_minuscula; ?>/<?= $carpeta;?>/fichas/<?= $rutas; ?>.php" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>
@@ -95,7 +95,7 @@
 
 
     <?php //<!-- Structured Data (Schema.org) --> 
-    require PATH_RAIZ_WEB_PLAYA. "/structure-data-schema-org.php"; 
+    require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/structure-data-schema-org.php"; 
     require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/structured-data-generico.php";?>
 
 

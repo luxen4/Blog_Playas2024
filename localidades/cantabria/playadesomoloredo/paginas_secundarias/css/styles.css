@@ -1,0 +1,117 @@
+
+body { background-color: #f8f9fa; }
+.info-box { background: #fff; border-radius: 12px; padding: 0.125rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.info-box ul { padding-left: 0.25rem; }
+.info-box li { margin-bottom: 1.5rem; font-size: 1rem; }
+.info-box i { margin-right: .5rem; }
+.section-header i { margin-right: .5rem; }
+.map-responsive iframe { border: 0; width: 100%; height: 450px; border-radius: 10px; }
+
+
+
+
+    #servicios p { font-size: 1.1rem; }
+
+
+
+#como-llegar-hendaya {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .info-box {
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+
+@media (max-width: 768px) {
+  .solo-escritorio {
+      display: none;
+  }
+}
+
+.seccion-actividades {
+  max-width: 960px;      /* o 1140px si prefieres más ancho */
+  margin: 0 auto;         /* centrado horizontal */
+  padding-left: 1rem;     /* espacio lateral en móvil */
+  padding-right: 1rem;
+}
+
+
+    .event-box { background: #fff; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .event-box ul { padding-left: 1.2rem; }
+    .event-box li { margin-bottom: 1.5rem; font-size: 1rem; }
+    .event-box i { margin-right: .5rem; }
+    time { font-weight: 500; color: #555; }
+
+
+
+    
+    body {
+      background-color: #f8f9fa;
+    }
+    .faq-section, .consejos-section {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+    }
+    dt {
+      font-weight: bold;
+      margin-top: 20px;
+      color: #2c3e50;
+    }
+    dd {
+      margin-bottom: 20px;
+    }
+    i.fas {
+      margin-right: 8px;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #2980b9;
+    }
+    .consejos-section h3 {
+      margin-bottom: 20px;
+      color: #8e44ad;
+    }
+
+        body {
+      background-color: #f8f9fa;
+    }
+    .faq-section, .consejos-section {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+    }
+    dt {
+      font-weight: bold;
+      margin-top: 20px;
+      color: #2c3e50;
+    }
+    dd {
+      margin-bottom: 20px;
+    }
+    i.fas {
+      margin-right: 8px;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #2980b9;
+    }
+    .consejos-section h3 {
+      margin-bottom: 20px;
+      color: #8e44ad;
+    }
+

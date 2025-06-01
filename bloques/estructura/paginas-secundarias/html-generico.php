@@ -3,10 +3,10 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS. "/head-generico.php";?> 
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_PAGINAS_SECUNDARIAS. "/head-generico.php";?> 
   </head>
   <body>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS. "/body-generico.php";?> 
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_PAGINAS_SECUNDARIAS. "/body-generico.php";?> 
   </body>
 </html>
 

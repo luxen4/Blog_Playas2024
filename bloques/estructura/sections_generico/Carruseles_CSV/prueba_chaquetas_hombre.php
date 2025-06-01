@@ -1,18 +1,13 @@
 <?php
 require_once "generico_CSV.php";
-//$productos = leer_CSV_chaquetas_hombre("chaquetas_hombre"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
-
-$productos = leer_CSV("chaquetas_hombre"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes
 
 
-
-// Generamos un número aleatorio entre 0 y 7
-$numeroAleatorio = rand(0, 7); 
-$numeroAleatorio = 1; 
+$productos = leer_CSV("chaquetas_hombre"); 
+$numeroAleatorio = rand(0, 7); $numeroAleatorio = 1; 
 
 ?>
 
-<?php require "carrusel_auxiliar1.php"; ?>
+<?php require PATH_BLOQUES_SECTIONS_CARRUSELES_CSV. "/carrusel_auxiliar1.php"; ?>
 
 
 
@@ -71,3 +66,5 @@ function actualizarCarrusel_chaquetas_hombre() {
 // Ejecutar la función cada 4 segundos para cambiar las imágenes
 setInterval(actualizarCarrusel_chaquetas_hombre, 4000); // Cambiar cada 4 segundos
 </script>
+
+<?php //$productos = leer_CSV_chaquetas_hombre("chaquetas_hombre"); // Llamamos a la función para leer el CSV y obtener los productos correspondientes ?>

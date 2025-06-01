@@ -4,12 +4,18 @@
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA', PATH_RAIZ_LOCALIDADES. "/" .$region_minuscula. "/" . $carpeta); ?>
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias/actividades-recomendadas"); ?>
+
+<?php define('PATH_BLOQUES_SECTIONS_GENERICO',  PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias"); ?>
+
+
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/actividades-recomendadas"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_COMO_LLEGAR', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/como-llegar"); ?>
 
 
 
 
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/actividades-recomendadas'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_PAGINAS_SECUNDARIAS', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/header'); ?>
 
 
@@ -37,14 +43,10 @@
 <?php define('SECTIONS_PATH_SECTIONS', $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/paginas-secundarias/sections/variables/'); ?>
 
 
-<?php define('SECTIONS_PAGINAS_SECUNDARIAS', './../paginas-secundarias/actividades-recomendadas/'); ?>
 
 
 
 
-
-
-<?php define('PATH_BLOQUES_SECTIONS_GENERICO',  PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
 
 
@@ -55,6 +57,8 @@
 <?php define('PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/paginas-principales/main"); ?>
 
 
+<?php define('SECTIONS_PAGINAS_SECUNDARIAS', './paginas-secundarias'); ?>
+<?php define('SECTIONS_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS', PATH_RAIZ_LOCALIDADES_CARPETA. '/paginas-secundarias'); ?>
 
 
 

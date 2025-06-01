@@ -1,4 +1,4 @@
-<section id="actividades" class="seccion-actividades container py-5">
+<section id="actividades-recomendadas" class="seccion-actividades container py-5">
 
   <div class="info-box">
 

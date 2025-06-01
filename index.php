@@ -14,6 +14,7 @@
     <?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT']) . '/Blog_Playas2024'); ?>
     <?php define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); ?>
     <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura'); ?>
+    <?php define('PATH_BLOQUES_SECTIONS_GENERICO',  PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
 
 </head>
@@ -79,36 +80,41 @@
 <!-- Footer -->
 <?php require './bloques/estructura/footer.php'; ?>
 
-
-<?php require './bloques/estructura/anuncios/js/logica_anuncios.php'; ?>
-<?php require './bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
+<?php  require  PATH_RAIZ. "/anuncios/pop-up-publicitario2.php"; ?>
+<?php  require './bloques/estructura/anuncios/js/logica_anuncios.php'; ?>
+<?php  require './bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
 
 
 
 <!-- (Opcional) Script adicional desde Adcash si es requerido -->
-<?php /*require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; 
+<?php 
+/*
+
+require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
+
 <script  src="https://static.adcash.com/js/aclib.js" async></script><!-- Cargar la librería oficial de Adcash -->
 
 <!-- Ejecutar Adcash una vez cargado -->
 <script>
-    /*document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function () {
         // Espera a que aclib esté disponible
         function tryRunAdcash(retries = 5) {
             if (typeof aclib !== "undefined") {
                 aclib.runAutoTag({
                     zoneId: 'x2xz7dfrur'
                 });
-                console.log('Adcash script loaded successfully!');
+                console.log('Adcash script loaded successfully!'); 
             } else if (retries > 0) {
                 setTimeout(() => tryRunAdcash(retries - 1), 300); // Reintenta hasta 5 veces
             } else {
                 console.warn('Adcash library (aclib) not loaded.');
+              
             }
         }
 
         tryRunAdcash();
-    });*/?>
-</script>
+    });
+</script>*/?>
 </body>
 
 </html>     

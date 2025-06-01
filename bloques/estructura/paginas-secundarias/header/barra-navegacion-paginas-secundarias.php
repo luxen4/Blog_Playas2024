@@ -15,8 +15,8 @@
         </div>
 
 
-  <?php define('PATH_HREF_FICHAS', "/Blog_Playas2024/localidades/{$region}/{$carpeta}/fichas"); ?>
-  <?php $archivo_playa = 'playa-de-ostende-castro-urdiales-cantabria.php'; ?>
+  <?php define('PATH_HREF_FICHAS', "/Blog_Playas2024/localidades/{$region}/{$carpeta}"); ?>
+  <?php $archivo_playa = 'index.php'; ?>
 
 
 

@@ -1,6 +1,7 @@
 <?php $region_minuscula='cantabria'; $carpeta='playadeostende'; $tema='servicios'; $title='Servicios'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS. '/html-generico.php'; ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS.'/servicios'); ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_PAGINAS_SECUNDARIAS. '/html-generico.php'; ?>
 
 <?php /*
 <!DOCTYPE html>

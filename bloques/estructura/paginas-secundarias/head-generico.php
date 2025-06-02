@@ -9,13 +9,14 @@
 
 
 <!-- Structured Data -->
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_JSON_LD."{$tema}_ldjson.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA . "/{$tema}_ldjson.php"; ?>
+<?php define('PATH_HREF_RAIZ', "/Blog_Playas2024"); ?>
 
 <!-- Estilos personalizados -->
-<link rel="stylesheet" href="./../../../../styles.css" />
+<link rel="stylesheet" href="<?= PATH_HREF_RAIZ; ?>/styles.css" />
 
 <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/?>
-<link rel="canonical" href= "" />
+<link rel="canonical" href= "<?= PATH_HREF_RAIZ; ?>" />
 
 <?php 
 require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA."/structure-data-schema-org.php";

@@ -4,6 +4,11 @@
     
 
     # Ostende
+RewriteRule ^ruta-costera-ostende$ localidades/cantabria/playadeostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
+    
+
+
+
     RewriteRule ^playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php [L]
     RewriteRule ^actividades-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/actividades-playa-de-ostende-castro-urdiales-cantabria.php [L]
     RewriteRule ^como-llegar-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/como-llegar-playa-de-ostende-castro-urdiales-cantabria.php [L]

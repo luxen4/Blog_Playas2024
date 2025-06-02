@@ -59,7 +59,8 @@
       <li class="my-4">
         <i class="fas fa-ship me-2" style="color: #3498db;"></i>
         <strong>Excursiones en barco por la costa cántabra:</strong><br>
-        Participa en <a href="/excursiones-en-barco-cantabria/" 
+        Participa en 
+        <a href="https://www.yumping.com/paseos-en-barco/cantabria/castro-urdiales?srsltid=AfmBOorNSFSCd_mupOrX7YX9ym0UID1poa9dpmkOwy-p95kEkAeYPNFf" 
            title="Rutas en barco por Cantabria" 
            style="color:#2980b9;" 
            target="_blank" 

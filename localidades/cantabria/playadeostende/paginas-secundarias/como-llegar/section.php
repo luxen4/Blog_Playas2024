@@ -1,4 +1,61 @@
+
+<nav aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="https://playas2024.kesug.com/">
+        <span itemprop="name">Inicio</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/Blog_Playas2024/index.php#cantabria">
+        <span itemprop="name">Cantabria</span>
+      </a>
+      <meta itemprop="position" content="2" />
+    </li>
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/">
+        <span itemprop="name">Castro Urdiales</span>
+      </a>
+      <meta itemprop="position" content="3" />
+    </li>
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">Senderos Costeros Señalizados</span>
+      <meta itemprop="position" content="4" />
+    </li>
+  </ol>
+</nav>
+
+
+
+
+
+
+
+<article itemscope itemtype="https://schema.org/Article">
+  <meta itemprop="author" content="Adrián Laya García" />
+  <meta itemprop="datePublished" content="<?= $hoy;?>" />
+  <meta itemprop="dateModified" content="2025-06-02" />
+  <meta itemprop="inLanguage" content="es-ES" />
+  <meta itemprop="headline" content="Senderos costeros señalizados en Playa de Ostende" />
+  <meta itemprop="mainEntityOfPage" content="https://playas2024.kesug.com/Blog_Playas2024/senderos-costeros-ostende/" />
+  <meta itemprop="image" content="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/castrourdiales/img/senderismo-naturaleza-Castro-Urdiales-Cantabria.jpg" />
+
+  <div itemprop="articleBody">
+
+
+
+
 <section id="como-llegar-ostende" class="container">
+
+
+
+
+
+
 <!-- Cabecera -->
 <header class="text-center mb-4">
   <h1 class="text-success">🗺️ Cómo llegar a la Playa de Ostende</h1>
@@ -21,14 +78,33 @@
                 <i class="fas fa-bus" style="color:#e67e22;"></i>
                 <strong>En autobús:</strong><br>
                 Conexiones regulares con
-                <a href="https://www.bizkaibus.eus/" target="_blank" rel="noopener noreferrer" style="color:#2980b9;" title="Horarios Bizkaibus">Bizkaibus</a>
+                <a href="https://www.bizkaia.eus/es/web/bizkaibus" target="_blank" rel="noopener noreferrer" style="color:#2980b9;" title="Horarios Bizkaibus">Bizkaibus</a>
                 desde Bilbao, Santander y localidades cercanas. La parada <em>“Ostende Playa”</em> se encuentra muy próxima al acceso principal.
             </li>
             <li>
                 <i class="fas fa-bicycle" style="color:#2ecc71;"></i>
                 <strong>A pie o en bicicleta:</strong><br>
                 Disfruta del paseo por los
-                <a href="/ruta-costera-ostende" style="color:#2980b9;" title="Ruta costera">senderos costeros señalizados</a>,
+
+
+
+<?php 
+echo($_SERVER['SERVER_NAME']);
+
+if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
+    <a href="<?= PATH_HREF_RAIZ ?>/ruta-costera-ostende" style="color:#2980b9;" title="Ruta costera">senderos costeros señalizados</a> <?php
+} else { ?>
+    <a href="./../senderos-costeros-senalizzados/index.php" style="color:#2980b9;" title="Ruta costera">senderos costeros señalizados</a><?php
+}
+?>
+
+
+
+
+
+
+
+               ,
                 ideales para caminar o pedalear desde el centro urbano (20 minutos aprox.).
             </li>
         </ul>
@@ -48,6 +124,67 @@
     </p>
 </section>
 
-<style>
 
-  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- tu sección principal aquí -->
+  </div>
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  font-size: 0.95rem;
+}
+.breadcrumb li + li::before {
+  content: "›";
+  padding: 0 0.5em;
+  color: #aaa;
+}</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

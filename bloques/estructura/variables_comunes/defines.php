@@ -20,7 +20,7 @@
 
 
 
-
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/{$tema}/head"); ?>
 
 
 
@@ -34,7 +34,7 @@
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/head/variables/web-playa/"); ?>
 
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias/head/etiquetas_meta/"); ?>
+<?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias/head/etiquetas_meta/"); ?>
 
 
 
@@ -67,4 +67,4 @@
 
 
 
-<?php define('PATH_RAIZ_LOCALIDADES_SECTIONS_VARIABLES',  PATH_RAIZ_LOCALIDADES_CARPETA. '/fichas/sections/variables'); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_SECTIONS_VARIABLES',  PATH_RAIZ_LOCALIDADES_CARPETA. '/paginas-secundarias/sections/variables'); ?>

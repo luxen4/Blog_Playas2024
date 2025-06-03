@@ -1,5 +1,6 @@
 <?php
 // Encabezado para la sección de la Playa de Ostende
+
 $li_encabezado = '
     <p>Uno de los destinos costeros más hermosos del norte de España. 
     <br>Con su amplia extensión de arena dorada y aguas serenas, esta playa de <a href="https://es.wikipedia.org/wiki/Castro-Urdiales" target="_blank" title="Conoce Castro-Urdiales, Cantabria">Castro-Urdiales</a> es ideal para familias, parejas y amantes de los deportes acuáticos. 

@@ -118,3 +118,16 @@ require "./bloques/estructura/anuncios/js/logica_anuncios_addcash.php"; ?>
 </body>
 
 </html>     
+
+<?php /*
+ftpupload.net
+
+FTP USERNAME
+if0_38843592
+
+USERNAME
+if0_38843592 
+
+
+PASSWORD
+5HJqjWqYLP4k  */?>

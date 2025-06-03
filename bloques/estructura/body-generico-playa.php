@@ -3,6 +3,12 @@
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/basico.php"; ?>
 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/header.php"; ?>
+
+
+
+
+
+
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/main-playa-generico.php"; ?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/footer.php"; ?>
 

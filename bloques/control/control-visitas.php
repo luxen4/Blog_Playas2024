@@ -85,7 +85,7 @@ try {
 
 
 
-    echo '✅ Correo enviado correctamente.';
+    //echo '✅ Correo enviado correctamente.';
 } catch (Exception $e) {
     echo "❌ Error al enviar: {$mail->ErrorInfo}";
 }

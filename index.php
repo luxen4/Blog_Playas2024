@@ -86,6 +86,20 @@
 
 
 
+<?php 
+$ruta_archivo_visitas = './bloques/control/visitas.csv';
+require PATH_RAIZ_BLOQUES. "/control/control-visitas.php"; ?>
+
+
+
+
+
+
+
+
+
+
+
 <!-- (Opcional) Script adicional desde Adcash si es requerido -->
 <?php 
 /*

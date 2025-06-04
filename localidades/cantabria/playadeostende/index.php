@@ -26,4 +26,8 @@ require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/head-generico-playa.php"; ?>
         <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/recarga_pagina_amigable.php"; ?>
     </body>
 
+<?php 
+$ruta_archivo_visitas = './../../../bloques/control/visitas.csv';
+require PATH_RAIZ_BLOQUES. "/control/control-visitas.php"; ?>
+
 </html>

@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN . '/breadcrums-paginas-secundarias.php'; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER. '/breadcrums-paginas-secundarias.php'; ?>
 
 <section id="actividades-recomendadas" class="seccion-actividades container py-5">
 

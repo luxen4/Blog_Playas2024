@@ -14,9 +14,14 @@
 
 
 
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/body'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/main'); ?>
+
+
+
 
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_PAGINAS_SECUNDARIAS', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/header'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/body/main/header'); ?>
 
 
 
@@ -54,7 +59,7 @@
 
 <?php //define('PATH_RAIZ_LOCALIDADES_MAIN', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/fichas/sections/main"); ?>
 
-<?php define('PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/paginas-principales/main"); ?>
+<?php define('PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/paginas-principales/body/main"); ?>
 
 
 <?php define('SECTIONS_PAGINAS_SECUNDARIAS', './paginas-secundarias'); ?>

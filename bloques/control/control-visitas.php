@@ -81,12 +81,12 @@ try {
 
     $mail->addAttachment($archivo, 'visitas.csv');
 
-    $mail->send();
+    //$mail->send();
 
 
 
     //echo '✅ Correo enviado correctamente.';
 } catch (Exception $e) {
-    echo "❌ Error al enviar: {$mail->ErrorInfo}";
+    //echo "❌ Error al enviar: {$mail->ErrorInfo}";
 }
 ?>

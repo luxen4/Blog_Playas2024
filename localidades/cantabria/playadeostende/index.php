@@ -20,7 +20,7 @@ require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/head-generico-playa.php"; ?>
     <body>
         <?php $pafge = 'playade'.$nombre_playa_minuscula;?>
         <?php require PATH_RAIZ_LOCALIDADES_SECTIONS."/info.php"; ?>    
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/body-generico-playa.php"; ?>
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY. "/body-generico-playa.php"; ?>
 
 
         <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/recarga_pagina_amigable.php"; ?>

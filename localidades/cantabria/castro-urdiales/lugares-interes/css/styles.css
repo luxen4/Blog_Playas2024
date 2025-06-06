@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}

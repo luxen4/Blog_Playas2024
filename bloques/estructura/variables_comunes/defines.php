@@ -4,6 +4,8 @@
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA', PATH_RAIZ_LOCALIDADES. "/" .$region_minuscula. "/" . $carpeta); ?>
+<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES', PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
+
 
 <?php define('PATH_BLOQUES_SECTIONS_GENERICO',  PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias"); ?>

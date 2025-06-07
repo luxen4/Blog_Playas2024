@@ -29,11 +29,6 @@
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/css/styles.css">
 
-
-
-    <style>
-
-    </style>
 </head>
 
 <body>

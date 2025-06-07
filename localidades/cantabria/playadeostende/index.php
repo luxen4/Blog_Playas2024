@@ -14,11 +14,10 @@
 // Variables para las etiquetas meta y SEO
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Ostende si se utiliza para verificación
 $description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
-$keywords_content = 'Playa de Ostende, surf, naturaleza, Costa Cantábrica, turismo en Cantabria, Ostende';
+$keywords_content = 'Playa de Ostende, surf, naturaleza, Costa Cantábrica, turismo en Cantabria, Ostende'; ?>
 
-
-require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/grupo1/index.php"; 
-require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/head-generico-playa.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/grupo1/index.php"; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/head-generico-playa.php"; ?>
 
     <body>
         <?php $pafge = 'playade'.$nombre_playa_minuscula;?>

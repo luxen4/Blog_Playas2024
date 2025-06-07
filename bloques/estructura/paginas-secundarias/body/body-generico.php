@@ -18,7 +18,7 @@
   </div>
 </main>
 
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA."/footer.php";  ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA."/paginas-generico/footer.php";  ?>
 
 <?php require  PATH_RAIZ. "/anuncios/pop-up-publicitario2.php"; ?>
 

@@ -1,4 +1,5 @@
 
+
 <?php $url_amigable = isset($rutas) ? $rutas : null; ?>
 <head>
     <?php /*<title>Playa de <?= $localidad; ?> - <?= $localidad; ?>, España</title>*/?>
@@ -83,7 +84,7 @@
 
     <!-- Stylesheets --><?php //HAY ARCHIVO PARA LINKAR ?>
 
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/stylesheets.php"; ?>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/styleSheets.php"; ?>
 
     <!--Hoja de estilos-->
     <?php /*<link rel="stylesheet" href="./../../../../styles.css">*/ ?>
@@ -99,5 +100,5 @@
 
     <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
     <script src="https://static.adcash.com/js/aclib.js" async></script>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA."/anuncios/js/logica_anuncios_addcash.php"; ?>
+    <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA."/anuncios/js/logica_anuncios_addcash.php"; ?>
 </head>

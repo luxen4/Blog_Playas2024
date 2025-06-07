@@ -2,12 +2,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title><?= $title; ?> en la Playa de <?= $nombre_playa; ?> – <?= $localidad; ?></title>
 <?php //require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/head-generico-paginas-secundarias.php";?> 
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/head'); ?>
 
 
 
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/localizacion-playa.php";?>  
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META."/etiquetas_meta.php"; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
 
 
 <!-- Structured Data -->

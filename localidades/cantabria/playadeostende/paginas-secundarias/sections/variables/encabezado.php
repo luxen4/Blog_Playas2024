@@ -1,6 +1,6 @@
 <!-- Sección de Encabezado -->
 <header id="informacion_general">
-  <h1 class="mb-0" style="text-align: left;">Playa de <?= $localidad; ?></h1>
+  <h1 class="mb-0" style="text-align: left;">Playa de <?= $nombre_playa; ?> en <?= $localidad; ?></h1>
   <p style="text-align: left;">Tu destino perfecto en <?= $region; ?></p>
 
   <p>

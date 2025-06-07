@@ -1,9 +1,4 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/basico.php"; ?>
-
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/header.php"; ?>
-
 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY. "/main/main-playa-generico.php"; ?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/footer.php"; ?>

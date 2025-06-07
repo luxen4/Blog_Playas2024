@@ -1,7 +1,9 @@
 
 <?php $url_amigable = isset($rutas) ? $rutas : null; ?>
 <head>
-    <title>Playa de <?= $localidad; ?> - <?= $localidad; ?>, España</title>
+    <?php /*<title>Playa de <?= $localidad; ?> - <?= $localidad; ?>, España</title>*/?>
+
+    <title><?= $title; ?></title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

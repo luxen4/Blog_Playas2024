@@ -2,10 +2,14 @@
   <link rel="icon" href="./img/icono-sombrilla.ico" type="image/x-icon">
 
   <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+        rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" 
+        rel="stylesheet">
 
   <!-- Bootstrap 5 (usa solo una versión estable y actual) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +29,5 @@
   <link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2024/styles.css">
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet" integrity="sha384-9ndCyUa6mY5yY35Y9peR+kyZQF8pZ6Vn3ciZpqCXUw3nFZ+IOB4yM1Klmhkt1P3U" crossorigin="anonymous">
-
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-9ndCyUa6mY5yY35Y9peR+kyZQF8pZ6Vn3ciZpqCXUw3nFZ+IOB4yM1Klmhkt1P3U" crossorigin="anonymous">

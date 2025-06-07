@@ -1,17 +1,19 @@
-
-
 <?php
-    $descripcion = 'Descubre la Playa de Ostende, un destino conocido por su amplia extensión de arena dorada, ideal para disfrutar del surf y la naturaleza en la costa cantábrica.';
-    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
+    // Datos principales para Castro Urdiales
+    $descripcion = 'Descubre Castro Urdiales, una histórica villa marinera en Cantabria, con playas como Ostende, Brazomar y El Pedregal, su patrimonio medieval y su rica gastronomía costera.';
+    $url = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/index.php";
 
-    $mainEntity_description = 'La Playa de Ostende es famosa por su hermosa arena dorada y sus excelentes condiciones para deportes acuáticos como el surf.';
-    $mainEntity_addressLocality = $localidad;
-    $mainEntity_addressRegion = $region;
-    $mainEntity_addressCountry = $country;
+    // Schema.org mainEntity (TouristDestination)
+    $mainEntity_description    = 'Castro Urdiales es una villa costera con más de 2000 años de historia, famosa por su conjunto histórico, playas y puerto deportivo.';
+    $mainEntity_addressLocality = 'Castro Urdiales';
+    $mainEntity_addressRegion   = 'Cantabria';
+    $mainEntity_addressCountry  = 'España';
 
-    $mainEntity_geo_latitude = 43.4693; // Actualiza según la ubicación correcta
-    $mainEntity_geo_longitude = -3.5002; // Actualiza según la ubicación correcta
+    // Coordenadas aproximadas del centro de la localidad
+    $mainEntity_geo_latitude  = 43.3833;  
+    $mainEntity_geo_longitude = -3.2167;
 
-    $mainEntity_image = PATH_RAIZ . "localidades/{$region}}/{$carpeta}/{$rutas}.jpg"; // Reemplaza con la imagen correcta
-    $mainEntity_url =  PATH_RAIZ . "{$rutas}";
+    // Imagen representativa y URL canónica
+    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/img/castro-urdiales.jpg";
+    $mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/index.php";
 ?>

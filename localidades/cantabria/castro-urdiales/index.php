@@ -65,6 +65,54 @@
 
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/grupo1/index.php"; ?>
 
+
+
+<!-- Sección Lugares de Interés -->
+<section id="lugares-interes" class="my-5">
+  <header class="text-center mb-4">
+    <h2 class="text-secondary">📍 Lugares de Interés en Castro Urdiales</h2>
+    <p>Descubre los rincones más emblemáticos de la ciudad y su entorno costero.</p>
+  </header>
+  <div class="row row-cols-1 row-cols-md-2 g-3">
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>asador-la-perla.php" class="d-block text-decoration-none text-primary">Asador La Perla</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>castillo-santa-ana.php" class="d-block text-decoration-none text-primary">Castillo de Santa Ana</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>club-nautico.php" class="d-block text-decoration-none text-primary">Club Náutico</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>el-pedregal.php" class="d-block text-decoration-none text-primary">El Pedregal</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>iglesia-santa-maria.php" class="d-block text-decoration-none text-primary">Iglesia de Santa María</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>palacio-ochagaran.php" class="d-block text-decoration-none text-primary">Palacio de Ochagarán</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>parque-amestoy.php" class="d-block text-decoration-none text-primary">Parque Amestoy</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>paseo-maritimo.php" class="d-block text-decoration-none text-primary">Paseo Marítimo</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>playa-ostende.php" class="d-block text-decoration-none text-primary">Playa de Ostende</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>plaza-ayuntamiento.php" class="d-block text-decoration-none text-primary">Plaza del Ayuntamiento</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>puente-medieval.php" class="d-block text-decoration-none text-primary">Puente Medieval</a>
+    </div>
+    <div class="col">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>puerto.php" class="d-block text-decoration-none text-primary">Puerto de Castro Urdiales</a>
+    </div>
+  </div>
+</section>
+
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/head-generico-playa.php"; ?>
 
 

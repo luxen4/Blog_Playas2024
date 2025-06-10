@@ -1,3 +1,15 @@
+    <?php
+    // Rutas base del proyecto
+    define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT']) . '/Blog_Playas2024');
+    define('PATH_RAIZ_ANUNCIOS', PATH_RAIZ. '/anuncios');
+    define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ . '/localidades');
+    define('PATH_RAIZ_BLOQUES', PATH_RAIZ . '/bloques');
+    define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES . '/estructura');
+    define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA . '/paginas-secundarias/head');
+    define('PATH_BLOQUES_SECTIONS_GENERICO', PATH_RAIZ_BLOQUES_ESTRUCTURA . '/sections_generico'); ?>
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,16 +22,8 @@
 
     <title>Los Viajes de Adrián</title>
 
-    <?php
-    // Rutas base del proyecto
-    define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT']) . '/Blog_Playas2024');
-    define('PATH_RAIZ_BLOQUES', PATH_RAIZ . '/bloques');
-    define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES . '/estructura');
-    define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA . '/paginas-secundarias/head');
-    define('PATH_BLOQUES_SECTIONS_GENERICO', PATH_RAIZ_BLOQUES_ESTRUCTURA . '/sections_generico');
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
 
-    require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php";
-    ?>
 </head>
 
 <body>
@@ -39,7 +43,7 @@
 
         <div class="row">
             <div class="col-12">
-                <?php include './localidades/cantabria/sumario-playas-cantabria.php'; ?>
+                <?php include  PATH_RAIZ_LOCALIDADES . '/cantabria/sumario-playas-cantabria.php'; ?>
 
                 <!-- Contenedor para anuncios -->
                 <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
@@ -54,34 +58,22 @@
             </div>
 
             <div class="col-12">
-                <?php include './localidades/francia/sumario-playas-francia.php'; ?>
+                <?php /*include './localidades/francia/sumario-playas-francia.php'; */?>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
     <?php require './bloques/estructura/paginas-generico/footer.php'; ?>
+    
+    <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
 
-    <!-- Scripts -->
-    <?php require PATH_RAIZ . "/anuncios/pop-up-publicitario2.php"; ?>
-    <?php require './bloques/estructura/anuncios/js/logica_anuncios.php'; ?>
-    <?php require './bloques/estructura/js_bootstrap/scripts-bootstrap.php'; ?>
 
-    <!-- Registro de visitas -->
-    <?php
-    $ruta_archivo_visitas = './bloques/control/visitas.csv';
-    require PATH_RAIZ_BLOQUES . "/control/control-visitas.php";
-    ?>
 
-    <!-- Estilo opcional para fondo -->
-    <style>
-        body {
-            background-image: url('./arenaplaya.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    </style>
+    <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>               <?php  //<!-- Registro de visitas --> ?>
+    <?php require PATH_RAIZ_BLOQUES . "/control/control-visitas.php"; ?>
+
+
 </body>
 
 </html>

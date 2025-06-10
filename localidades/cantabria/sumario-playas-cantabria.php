@@ -15,18 +15,19 @@ $presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santande
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
 include $targeta; ?>
 
-<?php
+
+<?php/*
 $carpeta = 'playadesomoloredo';
 $localidad_nombre = 'Playa de Somo';
 $localidad = 'Playa de Somo';
 $archivo_name = 'somo-loredo-somo';
 $presentacion = 'Somo es una popular localidad costera situada en Cantabria, al norte de España. Conocida por su extensa playa de arena dorada, la Playa de Somo es un destino destacado para los amantes del surf y las actividades acuáticas. Esta playa ofrece un ambiente vibrante y una amplia gama de servicios, incluyendo restaurantes, bares y tiendas. Además de su atractivo costero, Somo cuenta con un entorno natural impresionante, con vistas al Mar Cantábrico y a la ciudad de Santander. Es el lugar perfecto para disfrutar de la playa, el sol y una rica gastronomía basada en productos frescos del mar.';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php';
-include $targeta;
+include $targeta;*/
 ?>
 
 <?php 
-
+/*
 $carpeta = 'playadenoja';
 $localidad_nombre = 'Playa de Noja';
 $localidad = 'Playa de Noja';
@@ -34,41 +35,41 @@ $archivo_name = 'noja';
 $presentacion = 'Noja es un encantador municipio costero situado en la región de Cantabria, al norte de España. Conocido por sus hermosas playas de arena fina, como Playa de Ris y Playa de Trengandín, Noja es un popular destino turístico, especialmente en verano. Además de su atractivo natural, la localidad cuenta con un rico patrimonio cultural, que incluye iglesias históricas y palacetes, así como una oferta gastronómica que destaca por los mariscos y pescados frescos. 
                 Es un lugar ideal para disfrutar de la naturaleza, el mar, y la tranquilidad en un entorno pintoresco.';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php';
-include $targeta; ?>
+include $targeta; */?>
 
-<?php 
+<?php /*
 $carpeta = 'playadeberria';
 $localidad_nombre = 'Playa de Berria';
 $localidad = 'Playa de Berria';
 $archivo_name = 'berria-santona';
 $presentacion = 'La Playa de Berria, ubicada en Santoña, Cantabria, es un hermoso tramo de arena dorada que se extiende por casi 2 kilómetros entre el Monte Buciero y el estuario de Treto. Con sus aguas cristalinas y su entorno natural protegido, es un destino perfecto para quienes buscan disfrutar del surf, paseos relajantes, o simplemente conectar con la naturaleza.<br>Esta playa, de gran valor ecológico, es un paraíso tanto para los amantes del mar como para aquellos que buscan un rincón tranquilo en la costa cantábrica.';
-include $targeta; ?>
+include $targeta; */?>
 
 
-<?php 
+<?php /*
 $carpeta = 'playadelaredo';
 $localidad_nombre = 'Playa de Laredo';
 $localidad = 'Playa de Laredo';
 $archivo_name = 'laredo';
 $presentacion = 'La Playa de Laredo, también conocida como La Salvé, es una de las joyas de la costa cántabra. Con sus más de 4 kilómetros de arena fina y dorada, es el destino perfecto para disfrutar del sol, el mar y actividades al aire libre. Esta amplia playa ofrece un entorno ideal tanto para familias como para amantes de los deportes acuáticos, con su mar tranquilo y un paseo marítimo lleno de vida.<br> Ven y descubre por qué la Playa de Laredo es uno de los destinos más apreciados del norte de España.';
-include $targeta; ?>
+include $targeta; */?>
 
-<?php 
+<?php /*
 $carpeta = 'playadeisla';
 $localidad_nombre = 'Playa de Isla';
 $localidad = 'Playa de Isla';
 $archivo_name = 'isla';
 $presentacion = 'La Playa de Isla, ubicada en la encantadora localidad de Isla en Cantabria, es un paraíso natural que combina belleza y tranquilidad. Con su extensa franja de arena dorada y aguas cristalinas, es el lugar ideal para relajarse y disfrutar del sol. Su entorno virgen, rodeado de dunas y vegetación, ofrece un refugio perfecto para quienes buscan escapar del bullicio. Ideal tanto para familias como para los amantes de la naturaleza, la Playa de Isla es un destino que promete unas vacaciones inolvidables.';
-include $targeta; ?>
+include $targeta; */?>
 
 
-<?php 
+<?php /*
 $carpeta = 'playadesuances';
 $localidad_nombre = 'Playa de Suances';
 $localidad = 'Playa de Suances';
 $archivo_name = 'suances';
 $presentacion = 'La Playa de Suances, situada en el corazón de Cantabria, es un rincón costero que combina la belleza natural con un ambiente acogedor.<br> Conocida por su arena dorada y sus aguas limpias, esta playa es un destino perfecto para disfrutar de un día en familia o practicar deportes acuáticos. Rodeada de impresionantes paisajes y con un paseo marítimo lleno de vida, Suances ofrece una experiencia costera única, donde la tranquilidad y la diversión se encuentran a partes iguales.';
-include 'localidades/index.php'; ?>
+include 'localidades/index.php'; */?>
 
 <?php  /*
 $carpeta = 'playadesardinero';

@@ -1,6 +1,7 @@
 
 <?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2024'); ?>
 <?php define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); ?>
+<?php define('PATH_RAIZ_ANUNCIOS', PATH_RAIZ. '/anuncios'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_FOOTER', PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO', PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
@@ -20,7 +21,10 @@
 
 
 
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/body'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
+
+
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/body/main'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/main'); ?>
 
@@ -48,6 +52,11 @@
 
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_HEADER', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/header"); ?>
+
+
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES', PATH_RAIZ_LOCALIDADES_CARPETA. "/head/variables"); ?>
+
+
 
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/head/variables/web-playa/"); ?>

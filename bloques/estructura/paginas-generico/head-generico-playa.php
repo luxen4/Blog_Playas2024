@@ -94,7 +94,7 @@
 
 
     <?php //<!-- Structured Data (Schema.org) --> 
-    require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/structure-data-schema-org.php"; 
+    require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/structure-data-schema-org.php"; 
     require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/structured-data-generico.php";?>
 
 

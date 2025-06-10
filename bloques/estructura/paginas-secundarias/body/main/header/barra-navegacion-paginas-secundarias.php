@@ -2,8 +2,6 @@
 
 <script src="https://cdn.tailwindcss.com"></script>
 
-
-
 <header>
   <!-- Barra de navegación -->
   <nav class="bg-white shadow-md sticky top-0 z-50">
@@ -17,8 +15,6 @@
 
   <?php define('PATH_HREF_FICHAS', "/Blog_Playas2024/localidades/{$region}/{$carpeta}"); ?>
   <?php $archivo_playa = 'index.php'; ?>
-
-
 
         <!-- Ítems de navegación -->
         <div class="hidden md:flex space-x-6">
@@ -55,8 +51,6 @@
       <a href="/cantabria/" class="block py-2 text-gray-700 hover:text-sky-700">Otras playas</a>
     </div>
   </nav>
-
-
 </header>
 
 

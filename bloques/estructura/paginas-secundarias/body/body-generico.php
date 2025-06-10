@@ -1,6 +1,5 @@
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER . "/barra-navegacion-paginas-secundarias.php"; ?>
 
-
 <main id="main-content" role="main" class="main-contenido-limitado">
   <div class="container">
     <?php //require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS."/{$tema}.php"; ?>

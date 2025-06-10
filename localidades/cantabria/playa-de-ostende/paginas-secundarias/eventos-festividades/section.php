@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN . '/breadcrums-playa.php'; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER. '/breadcrums-paginas-secundarias.php'; ?>
 
 <section id="eventos" class="container py-5">
 

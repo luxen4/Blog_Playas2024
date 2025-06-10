@@ -113,7 +113,7 @@ $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales,
 
 
   <?php 
-  $carpeta_playa='playadeostende';
+  //$carpeta_playa='playadeostende';
   define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta_playa}/"); ?>
 
   <div class="row g-2">

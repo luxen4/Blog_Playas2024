@@ -5,8 +5,7 @@
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/head'); ?>
 
 
-
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/localizacion-playa.php";?>  
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/localizacion-playa.php";?>  
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META."/etiquetas_meta.php"; ?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
 
@@ -21,6 +20,4 @@
 <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/?>
 <link rel="canonical" href= "<?= PATH_HREF_RAIZ; ?>" />
 
-<?php 
-require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA."/structure-data-schema-org.php";
-include_once  PATH_RAIZ_BLOQUES_ESTRUCTURA . "/structured-data-generico.php"; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD . "/structured-data-generico.php"; ?>

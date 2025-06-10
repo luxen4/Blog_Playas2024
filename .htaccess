@@ -4,7 +4,7 @@
     
 
     # Ostende
-    RewriteRule ^ruta-costera-ostende$ localidades/cantabria/playadeostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
+    RewriteRule ^ruta-costera-ostende$ localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
 
 

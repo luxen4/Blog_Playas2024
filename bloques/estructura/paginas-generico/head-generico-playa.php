@@ -94,8 +94,7 @@
 
 
     <?php //<!-- Structured Data (Schema.org) --> 
-    require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/structure-data-schema-org.php"; 
-    require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/structured-data-generico.php";?>
+    require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD. "/structured-data-generico.php";?>
 
 
     <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 

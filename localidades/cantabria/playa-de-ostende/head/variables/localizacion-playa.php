@@ -1,19 +1,17 @@
 <?php
 $nombre_playa = 'Ostende'; $nombre_playa_minuscula = 'ostende';
-//$nombre_playa = 'Playa de Ostende'; 
-$carpeta = 'playadeostende';
+$carpeta = 'playa-de-ostende';
 $localidad = 'Castro-Urdiales'; $localidad_minuscula = 'castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = 'cantabria'; $country= 'España';
 $rutas = 'playa-de-ostende-castro-urdiales-cantabria';
 $hoy = date('Y-m-d');
 ?>
 
-<?php $pafge = 'playade'.$nombre_playa_minuscula;?>
+<?php //$pafge = 'playade'.$nombre_playa_minuscula;?>
 <?php $nombre_playa_region = '-playa-de-ostende-castro-urdiales-cantabria'; ?>
 
 
 <?php $title="Playa de {$nombre_playa} - {$localidad}, {$region}"; ?>
-
 
 
 <?php

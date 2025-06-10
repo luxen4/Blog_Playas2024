@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. '/localizacion-playa.php'; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. '/localizacion-playa.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">

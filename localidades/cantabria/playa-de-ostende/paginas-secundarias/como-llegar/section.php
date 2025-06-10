@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN . '/breadcrums-playa.php'; ?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
 
 <article itemscope itemtype="https://schema.org/Article">
   <meta itemprop="author" content="Adrián Laya García" />

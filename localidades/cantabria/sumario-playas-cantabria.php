@@ -6,7 +6,7 @@ $targeta = './localidades/index.php';?>
   <summary>Desplegar</summary>
 
 <?php
-$carpeta = 'playadeostende';
+$carpeta = 'playa-de-ostende';
 $localidad_nombre = 'Playa de Ostende';
 $localidad = 'Playa de Ostende';
 $archivo_name = 'ostende-castro-urdiales';
@@ -16,14 +16,14 @@ $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_snea
 include $targeta; ?>
 
 
-<?php/*
+<?php /*
 $carpeta = 'playadesomoloredo';
 $localidad_nombre = 'Playa de Somo';
 $localidad = 'Playa de Somo';
 $archivo_name = 'somo-loredo-somo';
 $presentacion = 'Somo es una popular localidad costera situada en Cantabria, al norte de España. Conocida por su extensa playa de arena dorada, la Playa de Somo es un destino destacado para los amantes del surf y las actividades acuáticas. Esta playa ofrece un ambiente vibrante y una amplia gama de servicios, incluyendo restaurantes, bares y tiendas. Además de su atractivo costero, Somo cuenta con un entorno natural impresionante, con vistas al Mar Cantábrico y a la ciudad de Santander. Es el lugar perfecto para disfrutar de la playa, el sol y una rica gastronomía basada en productos frescos del mar.';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_shorts_hombre.php';
-include $targeta;*/
+include $targeta; */
 ?>
 
 <?php 

@@ -1,3 +1,4 @@
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER. '/breadcrums-paginas-secundarias.php'; ?>
  <!-- FAQ Section -->
  <section id="faqs" aria-labelledby="faq-heading">
 <!-- Cabecera -->

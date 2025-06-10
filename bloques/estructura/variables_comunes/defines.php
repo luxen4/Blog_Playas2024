@@ -20,13 +20,13 @@
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_COMO_LLEGAR', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/como-llegar"); ?>
 
 
-
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/head'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
 
 
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/body/main'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/main'); ?>
+<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/body/main'); ?>
+<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/main'); ?>
 
 
 
@@ -66,8 +66,7 @@
 
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_JSON_LD', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/jsonld/"); ?>
-
-<?php define('SECTIONS_PATH_SECTIONS', $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeostende/paginas-secundarias/sections/variables/'); ?>
+<?php define('SECTIONS_PATH_SECTIONS', PATH_RAIZ_LOCALIDADES_CARPETA."/paginas-secundarias/sections/variables/"); ?>
 
 
 

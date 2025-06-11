@@ -1,20 +1,15 @@
-<?php
-  $nombre_localidad = "Castro-Urdiales";
-  $region = "Cantabria";
-  $url_wikiloc = "https://es.wikiloc.com/rutas/senderismo/espana/cantabria/castro-urdiales";
-?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='restaurantes';?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Explora las mejores rutas costeras en Castro-Urdiales: senderos junto al mar, miradores naturales, naturaleza y aventura en la costa de Cantabria." />
-  <meta name="keywords" content="rutas costeras Castro-Urdiales, senderismo Cantabria, miradores en Castro, caminos costeros, senderos junto al mar" />
-  <title>Rutas Costeras en <?= $nombre_localidad; ?>: Naturaleza y Mar en <?= $region; ?></title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+ <?php require PATH_RAIZ_LOCALIDADES_OCIO_HEAD. "/etiquetas-meta.php"; ?>
+    <title>Rutas Costeras en <?= $nombre_localidad; ?>: Naturaleza y Mar en <?= $region; ?></title>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_rutas-costeras-head.php"; ?>
 </head>
 
 <body>
@@ -78,7 +73,7 @@
       <p class="mt-4">
         🧭 ¿Ya conoces todo lo que ofrece esta ciudad? Mira nuestra guía completa:
         <br />
-        <a href="/castro-urdiales.php" class="btn btn-primary mt-3">Ver guía de Castro-Urdiales</a>
+        <a href="<?= PATH_HREF_CARPETA; ?>/ocio/pages/guia-completa-castro-urdiales.php" class="btn btn-primary mt-3">Ver guía de Castro-Urdiales</a>
       </p>
     </section>
   </article>
@@ -86,24 +81,7 @@
   <footer class="text-center py-4 bg-light mt-5">
     <small>&copy; <?= date('Y'); ?> Playas2024 | Blog de naturaleza y turismo activo en Cantabria</small>
   </footer>
+      <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_rutas-costeras.php'; // Por estructura, va aquí! ?>
 
-  <!-- Datos estructurados para blogpost -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Rutas Costeras en Castro-Urdiales: Naturaleza y Mar en Cantabria",
-    "description": "Descubre las mejores rutas de senderismo junto al mar en Castro-Urdiales, desde los acantilados de Sonabia hasta el Monte Cueto. Ideal para senderistas y amantes de la fotografía.",
-    "datePublished": "<?= date('Y-m-d'); ?>",
-    "author": {
-      "@type": "Organization",
-      "name": "Playas2024"
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://tusitio.com/blog/rutas-costeras-castro-urdiales"
-    }
-  }
-  </script>
 </body>
 </html>

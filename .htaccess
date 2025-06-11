@@ -7,11 +7,11 @@
     RewriteRule ^ruta-costera-ostende$         localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
     # Barra navegación superior
-    RewriteRule ^restaurantes-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/restaurantes-castro-urdiales.php [L]
-    RewriteRule ^alojamientos-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/alojamientos-castro-urdiales.php [L]
-    RewriteRule ^rutas-costeras-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/rutas-costeras-castro-urdiales.php [L]
-    RewriteRule ^eventos-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/eventos-castro-urdiales.php [L]
-    RewriteRule ^blog-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/blog-castro-urdiales.php [L]
+    RewriteRule ^restaurantes-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/restaurantes-castro-urdiales.php [L]
+    RewriteRule ^alojamientos-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/alojamientos-castro-urdiales.php [L]
+    RewriteRule ^rutas-costeras-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/rutas-costeras-castro-urdiales.php [L]
+    RewriteRule ^eventos-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/eventos-castro-urdiales.php [L]
+    RewriteRule ^blog-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/blog-castro-urdiales.php [L]
 
     RewriteRule ^playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php [L]
     RewriteRule ^actividades-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/actividades-playa-de-ostende-castro-urdiales-cantabria.php [L]

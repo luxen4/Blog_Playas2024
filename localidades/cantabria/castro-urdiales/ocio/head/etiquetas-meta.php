@@ -1,6 +1,6 @@
 
 
-<meta charset="<?= $charset; ?>">
+    <meta charset="<?= $charset; ?>">
     <meta name="viewport" content="<?= $vieport_content; ?>">
     <meta name="site-verification" content="<?= $site_verification_content; ?>"/>
     <meta name="description" content="<?= $description_content; ?>" />
@@ -10,7 +10,7 @@
     <meta name="language" content="<?= $languaje_content; ?>">
 
     <?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/<?= $url_amigable;?>" />*/?>
-    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/localidades/<?= $region_minuscula; ?>/<?= $carpeta;?>/fichas/<?= $rutas; ?>.php" />
+    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2024/localidades/<?= $region_minuscula; ?>/<?= $carpeta;?>/index.php" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>

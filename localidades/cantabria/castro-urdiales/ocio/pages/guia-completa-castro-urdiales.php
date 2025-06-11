@@ -1,10 +1,6 @@
-<?php
-  $nombre_localidad = "Castro-Urdiales";
-  $region = "Cantabria";
-  $url_ayuntamiento = "https://www.castro-urdiales.net/";
-  $url_turismo_cantabria = "https://www.turismodecantabria.com";
-  $url_tripadvisor = "https://www.tripadvisor.es/Tourism-g776865-Castro_Urdiales_Cantabria-Vacations.html";
-?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='eventos';?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -30,6 +26,13 @@
       color: #7f8c8d;
     }
   </style>
+
+
+
+
+
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_guia-completa-head.php"; ?>
+
 </head>
 <body>
   <main class="container py-5">
@@ -118,7 +121,7 @@
       <a href="<?= $url_ayuntamiento; ?>" target="_blank" class="btn btn-success btn-lg me-2 external" rel="noopener noreferrer">
         <i class="fas fa-info-circle"></i> Más información oficial
       </a>
-      <a href="<?= $url_tripadvisor; ?>" target="_blank" class="btn btn-primary btn-lg external" rel="noopener noreferrer">
+      <a href="<?= $url_tripadvisorVacations; ?>" target="_blank" class="btn btn-primary btn-lg external" rel="noopener noreferrer">
         <i class="fab fa-tripadvisor"></i> Opiniones y rankings
       </a>
     </section>

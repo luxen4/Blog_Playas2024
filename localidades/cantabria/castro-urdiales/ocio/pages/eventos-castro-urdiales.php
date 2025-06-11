@@ -1,21 +1,15 @@
-<?php
-  $nombre_localidad = "Castro-Urdiales";
-  $region = "Cantabria";
-  $url_ayuntamiento = "https://www.castro-urdiales.net/";
-?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='eventos';?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Conoce los mejores eventos y fiestas en Castro-Urdiales. Programación cultural, festividades locales, conciertos, ferias y tradiciones en la costa de Cantabria." />
-  <meta name="keywords" content="eventos en Castro-Urdiales, fiestas en Cantabria, conciertos, actividades culturales, semana grande Castro, calendario festivo" />
-  <title>Eventos y Fiestas en <?= $nombre_localidad; ?> | Agenda Cultural en <?= $region; ?></title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-</head>
+  <head>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_HEAD. "/etiquetas-meta.php"; ?>
+    <title>🎉Eventos y Fiestas en <?= $nombre_localidad; ?> | Agenda Cultural en <?= $region; ?></title>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_eventos-head.php"; ?>
+  </head>
 
 <body>
   <article class="container py-5">
@@ -83,23 +77,7 @@
     <small>&copy; <?= date('Y'); ?> Playas2024 | Blog de eventos, cultura y tradiciones cántabras</small>
   </footer>
 
-  <!-- Datos estructurados para blogpost sobre eventos -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Eventos y Fiestas en Castro-Urdiales | Agenda Cultural en Cantabria",
-    "description": "Conoce las mejores fiestas y eventos de Castro-Urdiales: Pasión Viviente, Semana Grande, Carnaval, conciertos y más. Vive la tradición y cultura de esta villa marinera.",
-    "datePublished": "<?= date('Y-m-d'); ?>",
-    "author": {
-      "@type": "Organization",
-      "name": "Playas2024"
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://tusitio.com/blog/eventos-castro-urdiales"
-    }
-  }
-  </script>
+  <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_eventos.php'; // Por estructura, va aquí! ?>
+
 </body>
 </html>

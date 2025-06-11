@@ -1,23 +1,19 @@
-<?php
-  $nombre_localidad = "Castro-Urdiales";  $carpeta = 'castro-urdiales';  $region = "Cantabria"; $region_minuscula = strtolower($region);
-  $url_ayuntamiento = "https://www.castro-urdiales.net/";
-?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='blog';?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+
 
 <?php 
 define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/"); ?>
 
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Descubre los eventos más populares en Castro-Urdiales: Pasión Viviente, Semana Grande, fiestas marineras, conciertos, ferias y mucho más. Vive la cultura y tradición de Cantabria." />
-  <meta name="keywords" content="eventos Castro-Urdiales, fiestas populares Cantabria, Semana Grande, Pasión Viviente, actividades culturales, agenda Castro Urdiales" />
-  <title>🎉 Blog: Eventos en Castro-Urdiales | Fiestas y Agenda Cultural en <?= $region; ?></title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
+  <head>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_HEAD. "/etiquetas-meta.php"; ?>
+    <title>🎉 Blog: Eventos en Castro-Urdiales | Fiestas y Agenda Cultural en <?= $region; ?></title>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_blog-head.php"; ?>
+  </head>
 
 <body>
   <article class="container py-5">
@@ -92,33 +88,7 @@ define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2024/localidades/{$region_minusc
     <small>&copy; <?= date('Y'); ?> Playas2024 | Blog de experiencias, cultura y turismo en Cantabria</small>
   </footer>
 
-  <!-- Datos estructurados tipo BlogPosting -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Eventos y Fiestas en Castro-Urdiales | Blog de Cultura en Cantabria",
-    "alternativeHeadline": "Qué hacer en Castro-Urdiales: agenda y celebraciones destacadas",
-    "description": "Explora los eventos más importantes de Castro-Urdiales: Semana Santa, Semana Grande, Día del Carmen, Carnaval y más. Una guía cultural completa.",
-    "author": {
-      "@type": "Organization",
-      "name": "Playas2024"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Playas2024",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://tusitio.com/logo.png"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://tusitio.com/blog/eventos-castro-urdiales"
-    },
-    "datePublished": "<?= date('Y-m-d'); ?>",
-    "dateModified": "<?= date('Y-m-d'); ?>"
-  }
-  </script>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_blog.php'; // Por estructura, va aquí! ?>
+
 </body>
 </html>

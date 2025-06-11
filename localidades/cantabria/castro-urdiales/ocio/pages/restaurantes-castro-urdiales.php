@@ -1,20 +1,13 @@
-<?php
-  $nombre_localidad = "Castro-Urdiales";
-  $region = "Cantabria";
-  $url_tripadvisor = "https://www.tripadvisor.es/Restaurants-g776865-Castro_Urdiales_Cantabria.html";
-?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='restaurantes';?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Descubre los mejores restaurantes en Castro-Urdiales. Gastronomía cántabra, mariscos, pintxos, comida tradicional y opciones modernas con encanto." />
-  <meta name="keywords" content="restaurantes en Castro-Urdiales, dónde comer en Castro-Urdiales, gastronomía cántabra, mariscos Cantabria, pintxos Castro" />
-  <title>Restaurantes en <?= $nombre_localidad; ?> | Dónde Comer en <?= $region; ?></title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_HEAD. "/etiquetas-meta.php"; ?>
+    <title>🎉Eventos y Fiestas en <?= $nombre_localidad; ?> | Agenda Cultural en <?= $region; ?></title>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_restaurantes-head.php"; ?>
 </head>
 
 <body>
@@ -116,51 +109,7 @@
     <small>&copy; <?= date('Y'); ?> Playas2024 | Información sobre turismo en la costa de Cantabria</small>
   </footer>
 
-  <!-- Datos estructurados Schema.org -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Restaurantes recomendados en Castro-Urdiales",
-    "itemListElement": [
-      {
-        "@type": "Restaurant",
-        "name": "Restaurante Miramar",
-        "servesCuisine": ["Mariscos", "Cocina cántabra"],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Castro-Urdiales",
-          "addressRegion": "Cantabria",
-          "addressCountry": "ES"
-        },
-        "url": "https://restaurante-mira-mar.com"
-      },
-      {
-        "@type": "Restaurant",
-        "name": "La Arboleda",
-        "servesCuisine": ["Tradicional", "Casera"],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Castro-Urdiales",
-          "addressRegion": "Cantabria",
-          "addressCountry": "ES"
-        },
-        "url": "https://laarboleda-castro.com"
-      },
-      {
-        "@type": "Restaurant",
-        "name": "El Puerto",
-        "servesCuisine": ["Cocina moderna", "Local"],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Castro-Urdiales",
-          "addressRegion": "Cantabria",
-          "addressCountry": "ES"
-        },
-        "url": "https://restauranteelpuerto.es"
-      }
-    ]
-  }
-  </script>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_restaurantes.php'; // Por estructura, va aquí! ?>
+
 </body>
 </html>

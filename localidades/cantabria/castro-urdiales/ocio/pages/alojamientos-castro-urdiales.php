@@ -1,6 +1,5 @@
-<?php $region = "Cantabria"; $region_minuscula = 'cantabria'; $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/head/variables/data-generico.php"; ?>
-<?php $url_tripadvisor = "https://www.tripadvisor.es/Hotels-g776865-Castro_Urdiales_Cantabria-Hotels.html"; ?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='alojamientos';?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 
 <!DOCTYPE html>
@@ -9,6 +8,7 @@
     <?php require PATH_RAIZ_LOCALIDADES_CARPETA. "/ocio/head/etiquetas-meta.php"; ?>
     <title>Alojamientos en <?= $nombre_localidad; ?> | Dónde Dormir en <?= $region; ?></title>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_alojamientos-head.php"; ?>
   </head>
 
   <body>
@@ -104,7 +104,7 @@
       <small>&copy; <?= date('Y'); ?> Playas2024 | Alojamientos y turismo en la costa de Cantabria</small>
     </footer>
 
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO . '/schema-org.php'; // Por estructura, va aquí! ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_alojamientos.php'; // Por estructura, va aquí! ?>
 
   </body>
 </html>

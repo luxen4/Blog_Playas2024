@@ -15,14 +15,10 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-
-
-
-
 </head>
 
 <body>
-<main class="container py-5">
+  <main class="container py-5">
     <header class="mb-5 text-center">
       <h1 class="text-success"><i class="fas fa-utensils"></i> Restaurantes en <?= $nombre_localidad; ?></h1>
       <p class="lead">Guía para disfrutar de la gastronomía local en la costa de <?= $region; ?></p>
@@ -62,8 +58,6 @@
         <a href="https://www.google.com/search?q=El+Cierzo+Castro-Urdiales" target="_blank">El Cierzo</a> apuestan por menús saludables, vegetarianos y creativos.
       </p>
     </section>
-
-    <?php //<img src="/imagenes/restaurante-miramar.webp" alt="Restaurante Miramar en Castro-Urdiales, especializado en mariscos" width="600" height="400" loading="lazy" class="d-block mx-auto mb-5">//?>
 
     <section class="mb-5">
       <h2 class="text-success"><i class="fas fa-star" style="color:#e74c3c;"></i> Recomendaciones destacadas</h2>
@@ -122,9 +116,8 @@
     <small>&copy; <?= date('Y'); ?> Playas2024 | Información sobre turismo en la costa de Cantabria</small>
   </footer>
 
-
-    <!-- Datos estructurados Schema.org -->
-    <script type="application/ld+json">
+  <!-- Datos estructurados Schema.org -->
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ItemList",

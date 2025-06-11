@@ -38,14 +38,77 @@ if (($handle = fopen($filename, "r")) !== FALSE) {
 }
 
 // Agrupar imágenes de 3 en 3
-$imageSets = array_chunk($allImages, 3);
+$imageSets = array_chunk($allImages, 4);
 ?>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8" />
-    <title>Popup Imágenes Alternadas</title>
-    <style>
+
+
+
+
+
+
+
+
+
+<?php /*
+// Rutas CSV
+$csv_files = [
+    PATH_RAIZ . '/anuncios/amazon_botas_hombre_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_chaquetas_hombre_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_dress_woman_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_jeans_man_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_shorts_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_sneakers_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_sports_shirts_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_vaqueros_hombre_images.csv'
+];
+
+$allImages = [];
+
+// Leer todos los CSVs
+foreach ($csv_files as $filename) {
+    if (($handle = fopen($filename, "r")) !== FALSE) {
+        $header = fgetcsv($handle);
+        while (($data = fgetcsv($handle)) !== FALSE) {
+            $row = array_combine($header, $data);
+            $allImages[] = [
+                'src' => $row['src'],
+                'link' => $row['href'],
+                'alt' => $row['alt'] ?? 'Publicidad',
+            ];
+        }
+        fclose($handle);
+    }
+}
+
+// Mezclar todas las imágenes
+shuffle($allImages);
+
+// Agrupar de 4 en 4 (o cambia a 3 si prefieres)
+$imageSets = array_chunk($allImages, 4); */
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
 #imagePopup {
     display: none;
     position: fixed;
@@ -133,7 +196,7 @@ $imageSets = array_chunk($allImages, 3);
 
             imageSets[currentSet].forEach(({ src, link, alt }) => {
                 const col = document.createElement('div');
-                col.className = 'col-md-4 mb-3';
+                col.className = 'col-md-3 mb-3';
 
                 const anchor = document.createElement('a');
                 anchor.href = link;
@@ -160,6 +223,3 @@ $imageSets = array_chunk($allImages, 3);
         setInterval(showPopup, 5000);
     });
     </script>
-
-</body>
-</html>

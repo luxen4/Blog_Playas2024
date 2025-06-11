@@ -1,4 +1,6 @@
+# start of file
 User-agent: *
-Disallow:
+Disallow: /downloads/
 
-Sitemap: http://playas2024.kesug.com/Blog_Playas2024/sitemap.php
+Sitemap: https://playas2024.kesug.com/Blog_Playas2024/sitemap.php
+# sitemap: http://playas2024.kesug.com/Blog_Playas2024/sitemap.php

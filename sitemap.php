@@ -85,7 +85,8 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-
+    
+</urlset>
 
 <?php /*
 
@@ -359,12 +360,12 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     </url>
     
     <!-- Agrega más URLs aquí -->
-
-
-</urlset>
-
-
 */?>
+
+
+
+
+
 
 
 

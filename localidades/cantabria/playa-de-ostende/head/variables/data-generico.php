@@ -1,4 +1,6 @@
 
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA . '/localizacion-localidad.php';?>
+
 <?php // meta-tags
 // Variables de configuración para la Playa de Ostende
 $graph_Meta_Tags_property_title = 'Playa de Ostende - Información y Turismo';

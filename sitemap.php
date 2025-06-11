@@ -50,10 +50,44 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <priority>1.0</priority>
     </url>
 
-    <!-- y más URLs... -->
+    <!-- Barra de navegación -->
+    <url>
+    <loc><?= $baseUrl ?>restaurantes-castro-urdiales</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+    <loc><?= $baseUrl ?>alojamientos-castro-urdiales</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+    <loc><?= $baseUrl ?>rutas-costeras-castro-urdiales</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+    <loc><?= $baseUrl ?>eventos-castro-urdiales</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+    <loc><?= $baseUrl ?>blog-castro-urdiales</loc>
+    <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
 
-
+<?php /*
 
     <url>
         <loc>http://playas2024.kesug.com/Blog_Playas2024/playa-de-somo-loredo-somo-cantabria</loc>
@@ -330,7 +364,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 </urlset>
 
 
-
+*/?>
 
 
 

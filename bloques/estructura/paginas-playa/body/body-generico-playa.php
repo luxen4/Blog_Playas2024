@@ -1,10 +1,11 @@
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2024"); ?> 
+<?php define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA',  "/Blog_Playas2024/localidades/cantabria/castro-urdiales/"); ?>
 
 <?php
 function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#2980b9') {
     $href = ($_SERVER['SERVER_NAME'] == 'localhost')
         ? PATH_HREF_RAIZ . '/' . ltrim($slug, '/')
-        : PATH_HREF_RAIZ_LOCALIDAD . rtrim($slug, '/') . '.php';
+        : PATH_HREF_RAIZ_LOCALIDAD_PLAYA .'ocio/'. rtrim($slug, '/') . '.php';
 
     $tituloAttr = $titulo ? ' title="' . htmlspecialchars($titulo) . '"' : '';
     $iconoHTML = $icono ? $icono . ' ' : '';

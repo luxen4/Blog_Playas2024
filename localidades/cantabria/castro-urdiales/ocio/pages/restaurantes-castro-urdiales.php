@@ -16,15 +16,34 @@
       <h1 class="text-success"><i class="fas fa-utensils"></i> Restaurantes en <?= $nombre_localidad; ?></h1>
       <p class="lead">Guía para disfrutar de la gastronomía local en la costa de <?= $region; ?></p>
     </header>
+<section class="mb-5">
+  <h2 class="h4 text-primary"><i class="fas fa-fish"></i> Mariscos y pescado fresco</h2>
+  <p>
+    Al ser un puerto pesquero, <strong><?= $nombre_localidad; ?></strong> destaca por su oferta de mariscos frescos y pescado del día. Lugares como el 
+    <a href="https://bajamarrestaurant.es/" target="_blank" rel="noopener noreferrer">Restaurante Bajamar</a> o 
+    <a href="https://www.tripadvisor.es/LocationPhotoDirectLink-g776898-d3187091-i429406629-Restaurante_La_Arboleda-Castro_Urdiales_Cantabria.html" target="_blank" rel="noopener noreferrer">La Arboleda</a> ofrecen platos como lubina a la espalda, marmita de bonito y rabas de calamar.
+  </p>
 
-    <section class="mb-5">
-      <h2 class="h4 text-primary"><i class="fas fa-fish"></i> Mariscos y pescado fresco</h2>
-      <p>
-        Al ser un puerto pesquero, <strong><?= $nombre_localidad; ?></strong> destaca por su oferta de mariscos frescos y pescado del día. Lugares como el 
-        <a href="https://restaurante-mira-mar.com" target="_blank" rel="noopener noreferrer">Restaurante Miramar</a> o 
-        <a href="https://www.google.com/search?q=La+Arboleda+Castro-Urdiales" target="_blank" rel="noopener noreferrer">La Arboleda</a> ofrecen platos como lubina a la espalda, marmita de bonito y rabas de calamar.
-      </p>
-    </section>
+  <div class="flex flex-wrap justify-center gap-6 mt-4">
+    <div class="w-40">
+      <img src="<?= PATH_HREF_CARPETA ?>/ocio/pages/imagenes/comedor-bajamar-castro-urdiales.jpg" alt="Restaurante Bajamar en Castro-Urdiales" class="rounded-xl shadow-md w-full">
+      <p class="mt-2 text-xs text-center text-gray-600">Restaurante Bajamar</p>
+    </div>
+    <div class="w-40">
+      <img src="<?= PATH_HREF_CARPETA ?>/ocio/pages/imagenes/la-arboleda-castro-urdiales.png" alt="Restaurante La Arboleda en Castro-Urdiales" class="rounded-xl shadow-md w-full">
+      <p class="mt-2 text-xs text-center text-gray-600">La Arboleda</p>
+    </div>
+  </div>
+
+  <div class="text-right mt-4">
+    <a href="https://www.viajeroscallejeros.com/donde-comer-en-castro-urdiales/" target="_blank" rel="noopener noreferrer" class="text-sm text-blue-700 hover:underline">
+      Ver más sitios donde comer en Castro-Urdiales →
+    </a>
+  </div>
+</section>
+
+
+
 
     <section class="mb-5">
       <h2 class="h4 text-primary"><i class="fas fa-drumstick-bite"></i> Cocina tradicional cántabra</h2>
@@ -52,31 +71,35 @@
       </p>
     </section>
 
-    <section class="mb-5">
-      <h2 class="text-success"><i class="fas fa-star" style="color:#e74c3c;"></i> Recomendaciones destacadas</h2>
-      <ul class="list-unstyled">
-        <li class="mb-3">
-          <strong>🍽️ Restaurante Miramar</strong><br>
-          Especializado en mariscos frescos con vistas al mar. 
-          <a href="https://restaurante-mira-mar.com" target="_blank">Visitar web</a>
-        </li>
-        <li class="mb-3">
-          <strong>🥘 La Arboleda</strong><br>
-          Cocina tradicional y ambiente familiar. 
-          <a href="https://laarboleda-castro.com" target="_blank">Ver más</a>
-        </li>
-        <li class="mb-3">
-          <strong>🍷 El Puerto</strong><br>
-          Cocina moderna en el paseo marítimo. 
-          <a href="https://restauranteelpuerto.es" target="_blank">Sitio oficial</a>
-        </li>
-      </ul>
-    </section>
+<section class="mb-5">
+  <h2 class="text-success"><i class="fas fa-star" style="color:#e74c3c;"></i> Recomendaciones destacadas</h2>
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      <strong>🍽️ Restaurante Bajamar</strong><br>
+      Cocina marinera contemporánea con productos frescos del Cantábrico. 
+      <a href="https://bajamarrestaurant.es" target="_blank" rel="noopener noreferrer">Visitar web</a>
+    </li>
+    <li class="mb-3">
+      <strong>🥘 La Arboleda</strong><br>
+      Cocina tradicional y ambiente familiar. 
+      <a href="https://www.tripadvisor.es/LocationPhotoDirectLink-g776898-d3187091-i429406629-Restaurante_La_Arboleda-Castro_Urdiales_Cantabria.html" target="_blank" rel="noopener noreferrer">Ver más</a>
+    </li>
+    <li class="mb-3">
+      <strong>🍷 El Puerto</strong><br>
+      Cocina moderna en el paseo marítimo. 
+      <a href="https://www.asadorelpuerto.com/" target="_blank" rel="noopener noreferrer">Sitio oficial</a>
+    </li>
+  </ul>
+</section>
+
 
     <section class="mb-5">
       <h2 class="text-info"><i class="fas fa-map-marker-alt" style="color:#3498db;"></i> ¿Dónde comer?</h2>
       <p>
-        Los restaurantes más destacados están junto al <a href="/playa-de-ostende.php">Paseo Marítimo</a>, la <a href="/plaza-ayuntamiento.php">Plaza del Ayuntamiento</a> o el <a href="/puerto.php">Puerto pesquero</a>.
+        Los restaurantes más destacados están junto al 
+        <a href="/playa-de-ostende.php">Paseo Marítimo</a>, la 
+        <a href="/plaza-ayuntamiento.php">Plaza del Ayuntamiento
+        </a> o el <a href="/puerto.php">Puerto pesquero</a>.
       </p>
     </section>
 

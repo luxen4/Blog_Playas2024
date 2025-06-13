@@ -26,16 +26,15 @@
     </section>
 
     <section class="mb-5">
-      <h2 class="h4 text-primary"><i class="fas fa-water"></i> Acantilados de Sonabia</h2>
-      <p>
-        Uno de los caminos más espectaculares parte desde la <a href="/playa-de-sonabia.php">Playa de Sonabia</a>, donde los acantilados y el sonido del oleaje ofrecen una experiencia inolvidable. Este tramo, que bordea zonas de especial protección natural, es perfecto para avistamiento de aves y fotografía de paisaje. Se recomienda calzado adecuado y protección solar.
+      <h2 class="h4 text-primary"><i class="fas fa-water"></i> Acantilados de Sonabia</h2><p>
+        Uno de los caminos más espectaculares parte desde la <a href="<?= PATH_HREF_CARPETA ?>\ocio\pages\playa-de-sonabia.php">Playa de Sonabia</a>, donde los acantilados y el sonido del oleaje ofrecen una experiencia inolvidable. Este tramo, que bordea zonas de especial protección natural, es perfecto para avistamiento de aves y fotografía de paisaje. Se recomienda calzado adecuado y protección solar.
       </p>
     </section>
 
     <section class="mb-5">
       <h2 class="h4 text-primary"><i class="fas fa-walking"></i> De Castro a Mioño por la costa</h2>
       <p>
-        Una ruta suave y accesible que conecta el centro histórico con Mioño. Ideal para familias, este recorrido pasa por zonas verdes, pasarelas de madera y ofrece panorámicas del litoral. No te pierdas el <a href="/puerto.php">puerto pesquero</a> al inicio y los restos de la <strong>mina de Dícido</strong> al final.
+        Una ruta suave y accesible que conecta el centro histórico con Mioño. Ideal para familias, este recorrido pasa por zonas verdes, pasarelas de madera y ofrece panorámicas del litoral. No te pierdas el <a href="<?= PATH_HREF_CARPETA ?>/ocio/pages/puerto-pesquero-mina-dicido.php">puerto pesquero</a> al inicio y los restos de la <strong>mina de Dícido</strong> al final.
       </p>
     </section>
 
@@ -49,14 +48,14 @@
     <section class="mb-5">
       <h3 class="h5 text-info"><i class="fas fa-map-signs"></i> Senderos señalizados y rutas oficiales</h3>
       <p>
-        El Ayuntamiento ha trabajado en señalizar varios <a href="/senderos-costeros-senalizados.php">senderos oficiales</a> que puedes seguir con total seguridad. Están bien documentados e incluyen puntos de interés como miradores, áreas de descanso y paneles interpretativos.
+        El Ayuntamiento ha trabajado en señalizar varios <a href="<?= PATH_HREF_CARPETA ?>/ocio/pages/senderos-costeros-rutas-oficiales-castro-urdiales.php">senderos oficiales</a> que puedes seguir con total seguridad. Están bien documentados e incluyen puntos de interés como miradores, áreas de descanso y paneles interpretativos.
       </p>
     </section>
 
     <section class="mb-5">
       <h3 class="h5 text-warning"><i class="fas fa-camera-retro"></i> Miradores y fotografía</h3>
       <p>
-        Algunos de los lugares más fotogénicos son el <a href="/mirador-cotolino.php">Mirador de Cotolino</a>, los acantilados de Islares o el entorno del Castillo-Faro. Si te gusta capturar atardeceres, estos rincones te regalarán luces únicas frente al Cantábrico.
+        Algunos de los lugares más fotogénicos son el <a href="<?= PATH_HREF_CARPETA ?>/ocio/pages/mirador-de-catolino-castro-urdiales.php">Mirador de Cotolino</a>, los acantilados de Islares o el entorno del Castillo-Faro. Si te gusta capturar atardeceres, estos rincones te regalarán luces únicas frente al Cantábrico.
       </p>
     </section>
 

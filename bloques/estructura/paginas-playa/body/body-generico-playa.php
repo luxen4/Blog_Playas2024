@@ -5,7 +5,7 @@
 function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#2980b9') {
     $href = ($_SERVER['SERVER_NAME'] == 'localhost')
         ? PATH_HREF_RAIZ . '/' . ltrim($slug, '/')
-        : PATH_HREF_RAIZ_LOCALIDAD_PLAYA .'ocio/'. rtrim($slug, '/') . '.php';
+        : PATH_HREF_RAIZ_LOCALIDAD_PLAYA .'ocio/pages/'. rtrim($slug, '/') . '.php';
 
     $tituloAttr = $titulo ? ' title="' . htmlspecialchars($titulo) . '"' : '';
     $iconoHTML = $icono ? $icono . ' ' : '';

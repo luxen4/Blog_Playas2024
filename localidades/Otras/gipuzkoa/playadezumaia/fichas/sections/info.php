@@ -169,7 +169,7 @@ $imagenes = [
         'src' => './../img/vista-aerea-playa-Zumaia-País-Vasco-2.jpg',
         'alt' => 'Vista aerea de la playa de Zumaia en Guipuzkoa, País Vasco.',
         'figcaption' => 'Vista aerea de la playa de Zumaia en Guipuzkoa.',
-        'href' => 'https://www.idealista.com/news/vacacional/destinos-turisticos/2024/08/23/819268-que-ver-en-zumaia-el-pueblo-del-flysch-que-fue-escenario-de-juego-de',
+        'href' => 'https://www.idealista.com/news/vacacional/destinos-turisticos/2025/08/23/819268-que-ver-en-zumaia-el-pueblo-del-flysch-que-fue-escenario-de-juego-de',
         'titulo_href' => 'idealista.com'
     ]
 ]; ?>

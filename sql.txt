@@ -211,7 +211,7 @@ Santander
 
 
 
-16/08/2024
+16/08/2025
     - Ver cual es donde funcionan los anuncios y trasladar a las demás que funcionen.
     - Hacer las targetas de pinterest de la que funcionen los anuncios.
     - Styles comunes 

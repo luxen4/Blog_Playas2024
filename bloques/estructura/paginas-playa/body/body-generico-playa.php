@@ -1,5 +1,5 @@
-<?php define('PATH_HREF_RAIZ', "/Blog_Playas2024"); ?> 
-<?php define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA',  "/Blog_Playas2024/localidades/cantabria/castro-urdiales/"); ?>
+<?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?> 
+<?php define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA',  "/Blog_Playas2025/localidades/cantabria/castro-urdiales/"); ?>
 
 <?php
 function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#2980b9') {
@@ -26,7 +26,7 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
 
 <header class="header-principal shadow-sm border-bottom mb-4">
         <nav class="container navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand fw-bold" href="/">Playas 2024</a>
+          <a class="navbar-brand fw-bold" href="/">Playas 2025</a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Menú">
             <span class="navbar-toggler-icon"></span>

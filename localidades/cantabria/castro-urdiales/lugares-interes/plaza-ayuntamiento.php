@@ -62,7 +62,7 @@
 
     <p>La <strong>Plaza del Ayuntamiento</strong> es sin duda un lugar imprescindible para visitar en Castro Urdiales, ofreciendo una mezcla perfecta de historia, cultura y entretenimiento en un entorno encantador.</p>
 
-    <a href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
+    <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
   </div>
 
   <footer class="text-center">

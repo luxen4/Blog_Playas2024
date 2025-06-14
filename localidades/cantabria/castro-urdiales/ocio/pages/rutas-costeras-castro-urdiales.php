@@ -1,5 +1,8 @@
-<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='restaurantes';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='restaurantes'; 
+
+?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -48,14 +51,14 @@
     <section class="mb-5">
       <h3 class="h5 text-info"><i class="fas fa-map-signs"></i> Senderos señalizados y rutas oficiales</h3>
       <p>
-        El Ayuntamiento ha trabajado en señalizar varios <a href="<?= PATH_HREF_CARPETA ?>/ocio/pages/senderos-costeros-rutas-oficiales-castro-urdiales.php">senderos oficiales</a> que puedes seguir con total seguridad. Están bien documentados e incluyen puntos de interés como miradores, áreas de descanso y paneles interpretativos.
+        El Ayuntamiento ha trabajado en señalizar varios <a href="<?= PATH_HREF_CARPETA_LUGARES_INTERES_LUGAR; ?>/senderos-costeros-rutas-oficiales/index.php">senderos oficiales</a> que puedes seguir con total seguridad. Están bien documentados e incluyen puntos de interés como miradores, áreas de descanso y paneles interpretativos.
       </p>
     </section>
 
     <section class="mb-5">
       <h3 class="h5 text-warning"><i class="fas fa-camera-retro"></i> Miradores y fotografía</h3>
       <p>
-        Algunos de los lugares más fotogénicos son el <a href="<?= PATH_HREF_CARPETA ?>/ocio/pages/mirador-de-catolino-castro-urdiales.php">Mirador de Cotolino</a>, los acantilados de Islares o el entorno del Castillo-Faro. Si te gusta capturar atardeceres, estos rincones te regalarán luces únicas frente al Cantábrico.
+        Algunos de los lugares más fotogénicos son el <a href="<?= PATH_HREF_CARPETA_LUGARES_INTERES_LUGAR; ?>/mirador-de-cotolino/index.php">Mirador de Cotolino</a>, los acantilados de Islares o el entorno del Castillo-Faro. Si te gusta capturar atardeceres, estos rincones te regalarán luces únicas frente al Cantábrico.
       </p>
     </section>
 
@@ -78,7 +81,7 @@
   </article>
 
   <footer class="text-center py-4 bg-light mt-5">
-    <small>&copy; <?= date('Y'); ?> Playas2024 | Blog de naturaleza y turismo activo en Cantabria</small>
+    <small>&copy; <?= date('Y'); ?> Playas2025 | Blog de naturaleza y turismo activo en Cantabria</small>
   </footer>
       <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_rutas-costeras.php'; // Por estructura, va aquí! ?>
 

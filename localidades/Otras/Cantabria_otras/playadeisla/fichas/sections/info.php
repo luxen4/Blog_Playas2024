@@ -127,19 +127,19 @@
       <i class="fas fa-music" style="color: #9b59b6;"></i>
       <strong>Semana Cultural de Isla</strong><br>
       <time datetime="2025-08-10">Agosto</time><br>
-      Una semana repleta de conciertos, talleres, exposiciones y eventos para todas las edades. Consulta el programa completo en <a href="https://farodelcaballo.es/programa-fiestas-de-isla/" target="_blank" title="Programa Fiestas de Isla 2024">Faro del Caballo</a>.
+      Una semana repleta de conciertos, talleres, exposiciones y eventos para todas las edades. Consulta el programa completo en <a href="https://farodelcaballo.es/programa-fiestas-de-isla/" target="_blank" title="Programa Fiestas de Isla 2025">Faro del Caballo</a>.
     </li>
     <li class="my-4">
       <i class="fas fa-wine-glass-alt" style="color: #c0392b;"></i>
       <strong>Jornadas Gastronómicas del Pimiento de Isla</strong><br>
       <time datetime="2025-09-06">Del 6 al 22 de septiembre</time><br>
-      Los restaurantes locales ofrecen menús especiales centrados en el pimiento de Isla y otros productos de la tierra. Más detalles en el <a href="https://www.ayuntamientoarnuero.org/programa-actividades-de-ocio-y-cultura-verano-2024/" target="_blank" title="Programa de actividades de ocio y cultura verano 2024">Ayuntamiento de Arnuero</a>.
+      Los restaurantes locales ofrecen menús especiales centrados en el pimiento de Isla y otros productos de la tierra. Más detalles en el <a href="https://www.ayuntamientoarnuero.org/programa-actividades-de-ocio-y-cultura-verano-2025/" target="_blank" title="Programa de actividades de ocio y cultura verano 2025">Ayuntamiento de Arnuero</a>.
     </li>
     <li class="my-4">
       <i class="fas fa-fish" style="color: #16a085;"></i>
       <strong>Jornadas de la Langosta</strong><br>
       <time datetime="2025-10-18">Del 18 de octubre al 17 de noviembre</time><br>
-      Celebradas en el Hotel-Restaurante Astuy, estas jornadas ofrecen menús especiales de langosta y actividades relacionadas con la economía circular. Más información en <a href="https://cadenaser.com/cantabria/2024/10/11/la-langosta-de-isla-se-incorpora-a-la-economia-circular-radio-santander/" target="_blank" title="La langosta de Isla se incorpora a la economía circular">Cadena SER</a>.
+      Celebradas en el Hotel-Restaurante Astuy, estas jornadas ofrecen menús especiales de langosta y actividades relacionadas con la economía circular. Más información en <a href="https://cadenaser.com/cantabria/2025/10/11/la-langosta-de-isla-se-incorpora-a-la-economia-circular-radio-santander/" target="_blank" title="La langosta de Isla se incorpora a la economía circular">Cadena SER</a>.
     </li>
   </ul>
 </div>

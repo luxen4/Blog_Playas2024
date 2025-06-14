@@ -19,7 +19,7 @@
 <!-- Fuentes y estilos -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2024/styles.css">
+<link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2025/styles.css">
 
 
 
@@ -34,7 +34,7 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
 
 <!-- Sitemap Link -->
-<link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.php">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2025.kesug.com/sitemap.php">
 
 
 <?php /*

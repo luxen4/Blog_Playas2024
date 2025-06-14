@@ -183,7 +183,7 @@ $imagenes = [
         'src' => './../img/playa-Hondarribia-Guipuzkoa-País-Vasco.jpg',
         'alt' => 'Playa de Fuenterrabia.',
         'figcaption' => 'Vista panorámica de la Playa de Fuenterrabia.',
-        'href' => 'https://cadenaser.com/euskadi/2024/09/26/cristina-laborda-por-fin-hay-un-consejero-que-reconoce-que-la-comarca-del-bidasoa-requiere-urgencia-en-sanidad-radio-irun/',
+        'href' => 'https://cadenaser.com/euskadi/2025/09/26/cristina-laborda-por-fin-hay-un-consejero-que-reconoce-que-la-comarca-del-bidasoa-requiere-urgencia-en-sanidad-radio-irun/',
         'titulo_href' => 'cadenaser.com/euskadi'
     ],
     [

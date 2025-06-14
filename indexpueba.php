@@ -51,7 +51,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const images = [
-                'https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeostende/img/playa-de-ostende-castro-urdiales-cantabria.jpg',
+                'https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeostende/img/playa-de-ostende-castro-urdiales-cantabria.jpg',
                 'https://via.placeholder.com/600x400?text=Publicidad+2',
                 'https://via.placeholder.com/600x400?text=Publicidad+3'
             ];

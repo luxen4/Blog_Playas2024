@@ -1,4 +1,4 @@
-<?php require_once rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/defines-ocio.php"; ?>
+<?php require_once rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/defines-ocio.php"; ?>
 
 <?php
 $charset = 'UTF-8';
@@ -32,7 +32,7 @@ $pinterest_property_card_image_content = "https://tusitio.com/imagenes/eventos-c
 <?php
 $twiterCards_card = "summary_large_image";
 $twiterCards_site = "@TuCuentaTwitter";
-$twiterCards_title = "Eventos en Castro-Urdiales | Agenda 2024";
+$twiterCards_title = "Eventos en Castro-Urdiales | Agenda 2025";
 $twiterCards_descripcion = "Infórmate de los próximos eventos en Castro-Urdiales: fiestas patronales, conciertos, mercados y planes para disfrutar del ocio en la costa.";
 $twiterCards_image = "https://tusitio.com/imagenes/eventos-castro-twitter.jpg";
 $twiterCards_url = "https://tusitio.com/eventos-en-castro-urdiales.php";

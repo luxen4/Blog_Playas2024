@@ -26,17 +26,17 @@
   <meta name="date" content="2025-05-18" />
 
   <!-- Favicon -->
-  <link rel="icon" href='./../Blog_Playas2024/img/icono-sombrilla.ico' type="image/x-icon">
+  <link rel="icon" href='./../Blog_Playas2025/img/icono-sombrilla.ico' type="image/x-icon">
 
   <!-- Open Graph -->
   <meta property="og:image" content=PATH_RAIZ_LOCALIDADES_CARPETA."/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
   <meta property="og:title" content="Actividades en la Playa de Berria – Santoña" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Berria: surf, rutas naturales, paseos marítimos y experiencias en la costa cántabra." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2024/actividades-playa-de-berria-santona-cantabria" />
-  <meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
+  <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-berria-santona-cantabria" />
+  <meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
   <meta property="og:image:alt" content="Vista de la Playa de Berria, ideal para surf y naturaleza en la costa de Santoña" />
-  <meta property="og:site_name" content="Playas 2024 – Guía Costera de España" />
+  <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
 
   <!-- Adcash (opcional) -->
@@ -47,7 +47,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="http://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2024/styles.css">
+  <link rel="stylesheet" href="http://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2025/styles.css">
 
   <?php
   // Información básica
@@ -60,7 +60,7 @@
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Berria, uno de los destinos más naturales y salvajes de la costa cántabra, ideal para deportes acuáticos y rutas por el Monte Buciero.';
-  $url = 'http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeberria/fichas/playa-de-berria.php';
+  $url = 'http://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/fichas/playa-de-berria.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Berria es conocida por sus olas perfectas para el surf y sus rutas naturales por el Monte Buciero en Santoña.';
@@ -73,11 +73,11 @@
   $mainEntity_geo_longitude = -3.4431;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = 'http://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg';
-  $mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2024/playa-de-berria-santona-cantabria';
+  $mainEntity_image = 'http://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg';
+  $mainEntity_url = 'http://playas2025.kesug.com/Blog_Playas2025/playa-de-berria-santona-cantabria';
   ?>
 
-  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/structured_data_generico.php'; ?>
+  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2025/bloques/estructura/structured_data_generico.php'; ?>
 </head>
 
 <body>
@@ -86,9 +86,9 @@
 <script>
   // Array con URLs de las imágenes que quieres mostrar
   const imagenes = [
-    'http://localhost/Blog_Playas2024/localidades/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
-    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
-    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
+    'http://localhost/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
+    'https://playas2025.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
+    'https://playas2025.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
   ];
 
   let indice = 0;
@@ -157,7 +157,7 @@
 
 
   <?php require "./../../../../bloques/estructura/header.php"; ?>
-  <a class="nav-link text-red" href="/Blog_Playas2024/<?= $rutas; ?>">Playa de Berria</a>
+  <a class="nav-link text-red" href="/Blog_Playas2025/<?= $rutas; ?>">Playa de Berria</a>
   <?php require "./../../../../localidades/cantabria/playadeberria/fichas/sections/variables/actividades-recomendadas.php"; ?> 
   <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
   <?php require "./../../../../bloques/estructura/footer.php"; ?>

@@ -1,7 +1,7 @@
 <nav aria-label="Breadcrumb">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="https://playas2024.kesug.com/">
+      <a itemprop="item" href="https://playas2025.kesug.com/">
         <span itemprop="name">Inicio</span>
       </a>
       <meta itemprop="position" content="1" />
@@ -15,7 +15,7 @@
     </li>
 
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/">
+      <a itemprop="item" href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/">
         <span itemprop="name"><?= $localidad; ?></span>
       </a>
       <meta itemprop="position" content="3" />

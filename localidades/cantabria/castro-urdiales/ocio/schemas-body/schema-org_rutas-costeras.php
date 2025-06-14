@@ -10,7 +10,7 @@
     "datePublished": "<?= date('Y-m-d'); ?>",
     "author": {
       "@type": "Organization",
-      "name": "Playas2024"
+      "name": "Playas2025"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",

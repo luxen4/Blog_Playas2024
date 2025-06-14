@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['SERVER_NAME'] == "localhost") {
     $host = "localhost";
-    $dbname = "blogplayas2024_db";
+    $dbname = "blogplayas2025_db";
     $username = "root";
     $contrasena = "";
 

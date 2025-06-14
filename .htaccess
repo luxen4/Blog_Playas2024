@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    #RewriteBase /Blog_Playas2024/
+    #RewriteBase /Blog_Playas2025/
     
 
     # Ostende

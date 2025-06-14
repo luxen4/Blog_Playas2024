@@ -1,5 +1,5 @@
 <?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='eventos';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -27,7 +27,7 @@
     <section class="mb-5">
       <h2 class="h4 text-primary"><i class="fas fa-fish"></i> Canto de la Salve Marinera (julio)</h2>
       <p>
-        Un emotivo homenaje a los marineros de la villa. Se celebra el 15 de julio en el <a href="/puerto.php">puerto pesquero</a>, con embarcaciones engalanadas, música coral y un ambiente solemne y mágico. Es uno de los actos más representativos del alma marinera de Castro.
+        Un emotivo homenaje a los marineros de la villa. Se celebra el 15 de julio en el <a href="<?= PATH_HREF_CARPETA ?>/ocio/pages/puerto-pesquero-mina-dicido.php">puerto pesquero</a>, con embarcaciones engalanadas, música coral y un ambiente solemne y mágico. Es uno de los actos más representativos del alma marinera de Castro.
       </p>
     </section>
 
@@ -74,7 +74,7 @@
   </article>
 
   <footer class="text-center py-4 bg-light mt-5">
-    <small>&copy; <?= date('Y'); ?> Playas2024 | Blog de eventos, cultura y tradiciones cántabras</small>
+    <small>&copy; <?= date('Y'); ?> Playas2025 | Blog de eventos, cultura y tradiciones cántabras</small>
   </footer>
 
   <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_eventos.php'; // Por estructura, va aquí! ?>

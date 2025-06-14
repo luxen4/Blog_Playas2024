@@ -54,7 +54,7 @@
 
     <p>El Palacio Ocharan es un símbolo de la riqueza cultural e histórica de la ciudad. Su silueta imponente y su elegante diseño lo convierten en un <strong>referente imprescindible</strong> para quienes visitan Castro Urdiales.</p>
 
-   <a href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
+   <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
   </div>
 
   <footer class="text-center">

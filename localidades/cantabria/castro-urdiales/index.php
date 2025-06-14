@@ -4,7 +4,7 @@
 <?php 
 // Variables para la página de la Playa de Ostende ?>
 <?php $region_minuscula = 'cantabria'; $carpeta = 'castro-urdiales'; $tema='Información Castro-Urdiales'; $title='Castro Urdiales – Guía Turística y Playas';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php"; ?>   
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>   
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA . '/localizacion-localidad.php'; ?>
 
 
@@ -96,7 +96,7 @@ $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales,
         <?= $li_mapa_ubicacion ?>
         <?= $li_mas_info ?>
 
-        <a href="/Blog_Playas2024/index.php#<?= $region_minuscula; ?>" class="btn btn-outline-primary mt-3">← Home</a>
+        <a href="/Blog_Playas2025/index.php#<?= $region_minuscula; ?>" class="btn btn-outline-primary mt-3">← Home</a>
    
       </div>
 
@@ -114,7 +114,7 @@ $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales,
 
   <?php 
   //$carpeta_playa='playadeostende';
-  define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta_playa}/"); ?>
+  define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/"); ?>
 
   <div class="row g-2">
     <div class="col-12">

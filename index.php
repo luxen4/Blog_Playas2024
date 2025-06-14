@@ -1,14 +1,13 @@
     <?php
     // Rutas base del proyecto
-    define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT']) . '/Blog_Playas2024');
+    define('NOMBRE_PROYECTO', '/Blog_Playas2025');
+    define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT']). NOMBRE_PROYECTO);
     define('PATH_RAIZ_ANUNCIOS', PATH_RAIZ. '/anuncios');
     define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ . '/localidades');
     define('PATH_RAIZ_BLOQUES', PATH_RAIZ . '/bloques');
     define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES . '/estructura');
     define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA . '/paginas-secundarias/head');
     define('PATH_BLOQUES_SECTIONS_GENERICO', PATH_RAIZ_BLOQUES_ESTRUCTURA . '/sections_generico'); ?>
-
-
 
 <!DOCTYPE html>
 <html lang="es">
@@ -92,7 +91,7 @@ if0_38843592
 PASSWORD
 5HJqjWqYLP4k  
 
-http://playas2024.kesug.com/Blog_Playas2024/*/
+http://playas2025.kesug.com/Blog_Playas2025/*/
 
 ?>
 

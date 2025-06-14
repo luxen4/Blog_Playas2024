@@ -243,13 +243,13 @@ $faq = '
 
 <?php // Carrusel de 3 Imágenes //
 $lugar = 'playadeazkorri';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/localidades/'.$region.'/'.$lugar.'/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/'.$region.'/'.$lugar.'/img';
 $imagenes = [
     [
         'src' => $ruta . './../img/playa-azkorri-o-gorrondatxe-ciudad-getxo-vizcaya-pais-vasco-espana.jpg',
         'alt' => 'Vista de la Playa de Azkorri, Bizkaia',
         'figcaption' => 'Vista panorámica de la Playa de Azkorri.',
-        'href' => 'https://www.lasexta.com/viajestic/curioso/mejores-playas-pais-vasco-segun-national-geographic-kilometros-arena-fina-espectaculares-acantilados_20240711668faedbc53ff800017c97fc.html',
+        'href' => 'https://www.lasexta.com/viajestic/curioso/mejores-playas-pais-vasco-segun-national-geographic-kilometros-arena-fina-espectaculares-acantilados_20250711668faedbc53ff800017c97fc.html',
         'titulo_href' => 'lasexta.com'
     ],
     [

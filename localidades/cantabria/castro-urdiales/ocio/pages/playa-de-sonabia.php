@@ -1,4 +1,4 @@
-<?php define('PATH_HREF_CARPETA', "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}");?>
+<?php define('PATH_HREF_CARPETA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}");?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -69,7 +69,7 @@
     </main>
 
     <footer class="bg-blue-100 text-center p-4 mt-12 text-sm text-blue-800">
-      &copy; 2025 Blog Playas 2024 - Adrián Laya García
+      &copy; 2025 Blog Playas 2025 - Adrián Laya García
     </footer>
   </body>
 </html>

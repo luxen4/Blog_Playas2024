@@ -1,9 +1,8 @@
 <?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='blog';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 
-<?php 
-define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/"); ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -85,7 +84,7 @@ define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2024/localidades/{$region_minusc
   </article>
 
   <footer class="text-center py-4 bg-light mt-5">
-    <small>&copy; <?= date('Y'); ?> Playas2024 | Blog de experiencias, cultura y turismo en Cantabria</small>
+    <small>&copy; <?= date('Y'); ?> Playas2025 | Blog de experiencias, cultura y turismo en Cantabria</small>
   </footer>
 
     <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_blog.php'; // Por estructura, va aquí! ?>

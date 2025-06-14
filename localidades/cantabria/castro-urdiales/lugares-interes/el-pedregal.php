@@ -51,7 +51,7 @@
 
     <p>Más allá de su valor natural, <strong>El Pedregal</strong> es un símbolo del vínculo entre los habitantes de Castro Urdiales y el entorno marino. Es un punto de encuentro con la historia, el paisaje y la cultura local.</p>
 
-    <a href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
+    <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
    </div>
 
   <footer class="text-center">

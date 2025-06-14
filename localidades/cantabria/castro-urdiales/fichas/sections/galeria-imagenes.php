@@ -1,13 +1,13 @@
 <?php // Carrusel de 3 Imágenes //
 $lugar = 'playadelaredo';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' .$region.'/'.$lugar. '/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/bloques/localidades/' .$region.'/'.$lugar. '/img';
 $imges_name = ['/vista-aerea-playa-de-laredo.jpg', '/paseomaritimoplayadelaredo.jpg', '/atardecerenplayadelaredo.jpg'];
 $alt = ["Vista aérea de la Playa de Laredo", "Paseo marítimo en la Playa de Laredo", "Atardecer en la Playa de Laredo"];
 require './../../../../../bloques/estructura/carruseles/carruselimagenes/carruselgenerico.php'; ?>
 
         <?php // Galeria 3 imagenes //
         $lugar = 'playadelaredo';
-        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/bloques/localidades/' .$region.'/'.$lugar. '/img';
+        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/bloques/localidades/' .$region.'/'.$lugar. '/img';
         $imges_name = ['/actividadesenlaplayadelaredo.jpg', '/olasenlaplayadelaredo.jpg', '/puertodeportivodelaredo.jpg'];
         $alt = ["Actividades en la Playa de Laredo", "Olas en la Playa de Laredo", "Puerto deportivo en la Playa de Laredo"];
         require './../../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; ?>

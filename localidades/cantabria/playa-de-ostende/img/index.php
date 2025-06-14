@@ -3,11 +3,11 @@ $lugar = 'playadeostende';
 $nombre_playa_region = 'playa-de-ostende-castro-urdiales-cantabria';
 
 
-define('IMG_PATH', '/Blog_Playas2024/localidades/'.$region_minuscula.'/'.$carpeta.'/img'); 
+define('IMG_PATH', '/Blog_Playas2025/localidades/'.$region_minuscula. '/playa-de-ostende/img'); 
 
     $imagenes = [
         [
-            'src' => IMG_PATH . '/playa-de-ostende-castro-urdiales-cantabria.jpg',
+            'src' =>  IMG_PATH . '/familias-disfrutando-'.$nombre_playa_region.'.jpg',
             
             'alt' => 'Vista de la Playa de Ostende, Cantabria',
             'figcaption' => 'Vista de la Playa de Ostende.',
@@ -15,7 +15,7 @@ define('IMG_PATH', '/Blog_Playas2024/localidades/'.$region_minuscula.'/'.$carpet
             'titulo_href' => 'supertravelr.com'
         ],
         [
-            'src' =>  IMG_PATH . '/atardecer-' .$nombre_playa_region. '.jpg',
+            'src' =>  IMG_PATH . '/atardecer-'.$nombre_playa_region.'.jpg',
             'alt' => 'Atardecer en la Playa de Ostende, Cantabria',
             'figcaption' => 'Atardecer en la Playa de Ostende.',
             'href' => 'https://www.flickr.com/photos/145357737@N03/52025865058',

@@ -5,8 +5,8 @@
 
 <?php
 // Variables para la página de la Playa de Noja
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeberria/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2025/localidades/cantabria/playadeberria/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php';
 
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Cambiar si se necesita una verificación específica para Noja
 $description_content = 'Descubre la Playa de Noja, un hermoso arenal cántabro perfecto para disfrutar del mar, el surf y el encanto natural del norte de España.';

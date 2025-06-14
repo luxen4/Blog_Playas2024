@@ -64,7 +64,7 @@
 
     <p><strong>El Paseo Marítimo</strong> de Castro Urdiales es, sin duda, un lugar imprescindible para quienes visitan la ciudad, ofreciendo una combinación perfecta de belleza natural, actividades al aire libre y una atmósfera encantadora.</p>
 
-    <a href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
+    <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
    </div>
 
   <footer class="text-center">

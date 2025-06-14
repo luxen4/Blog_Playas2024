@@ -20,15 +20,15 @@
 <meta property="article:tag" content="surf, playa Isla, turismo Cantabria" />    
 
 <?php /*<!-- Open Graph (Facebook) -->*/?>
-<meta property="og:site_name" content="Playas 2024 – Guía Costera de España" />
+<meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
 <meta property="og:locale" content="es_ES" />
 
 <?php /*<!-- Open Graph (Facebook / Meta) -->*/?>
 <meta property="og:title" content="Actividades en la Playa de Isla – Cantabria" />
 <meta property="og:description" content="Descubre qué hacer en la Playa de Isla: surf, caminatas, naturaleza y más planes en Cantabria." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2024/actividades-<?= $rutas; ?>" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/<?= $carpeta; ?>/img/<?= $rutas; ?>.jpg" />
+<meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-<?= $rutas; ?>" />
+<meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $carpeta; ?>/img/<?= $rutas; ?>.jpg" />
 <meta property="og:image:alt" content="Vista de la Playa de Isla, perfecta para deportes acuáticos y paseos en la costa cántabra" />
 <meta property="og:locale" content="es_ES" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -41,6 +41,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Actividades en la Playa de Isla – Cantabria" />
 <meta name="twitter:description" content="Descubre qué hacer en la Playa de Isla: surf, caminatas, naturaleza y más planes en Cantabria." />
-<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/<?= $carpeta; ?>/img/<?= $rutas; ?>.jpg" />
+<meta name="twitter:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $carpeta; ?>/img/<?= $rutas; ?>.jpg" />
 <meta name="twitter:image:alt" content="Vista de la Playa de Isla desde la arena con actividades deportivas" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

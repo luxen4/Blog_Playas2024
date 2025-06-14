@@ -12,7 +12,7 @@
 
 <!-- Structured Data -->
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA . "/{$tema}_ldjson.php"; ?>
-<?php define('PATH_HREF_RAIZ', "/Blog_Playas2024"); ?>
+<?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 
 <!-- Estilos personalizados -->
 <link rel="stylesheet" href="<?= PATH_HREF_RAIZ; ?>/styles.css" />

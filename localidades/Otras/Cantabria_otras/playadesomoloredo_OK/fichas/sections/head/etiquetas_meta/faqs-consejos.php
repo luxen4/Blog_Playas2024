@@ -8,5 +8,5 @@
 <meta property="og:title" content="Preguntas Frecuentes sobre la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta property="og:description" content="Respuestas claras sobre accesos, aparcamiento, servicios y mascotas en la Playa de Somo y Loredo." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/<?= $carpeta ?>/faqs.php" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/<?= $carpeta ?>/img/<?= $rutas ?>-faqs.jpg" />
+<meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $carpeta ?>/faqs.php" />
+<meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $carpeta ?>/img/<?= $rutas ?>-faqs.jpg" />

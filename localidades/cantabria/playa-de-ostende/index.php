@@ -1,12 +1,12 @@
 
 <?php // Variables para la página de la Playa de Ostende ?>
 <?php $region_minuscula = 'cantabria'; $carpeta = 'playa-de-ostende'; $tema='playa-de-ostende'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/previo.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/previo.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-          <title>Playas de Castro-Urdiales | Guía 2024</title>
+          <title>Playas de Castro-Urdiales | Guía 2025</title>
     </head>
 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head-generico-playa.php"; ?>

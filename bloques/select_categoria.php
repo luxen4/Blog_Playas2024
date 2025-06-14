@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = ""; // Cambia esto si tu usuario de MySQL tiene una contraseña
-$database = "blogplayas2024_db";
+$database = "blogplayas2025_db";
 
 // Crear la conexión
 $conn = new mysqli($servername, $username, $password, $database);

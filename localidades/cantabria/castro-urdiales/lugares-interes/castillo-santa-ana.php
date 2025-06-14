@@ -71,7 +71,7 @@
     <p class="mt-4">El Castillo de Santa Ana es una visita imprescindible para cualquier persona interesada en la historia, 
     la arquitectura y las impresionantes vistas del mar Cantábrico.</p>
 
-    <a href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
+    <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
   </div>
 
   <footer class="text-center">

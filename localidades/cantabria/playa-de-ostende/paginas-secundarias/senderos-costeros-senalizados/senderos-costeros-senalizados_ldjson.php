@@ -4,11 +4,11 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://playas2024.kesug.com/Blog_Playas2024/senderos-costeros-senalizados"
+    "@id": "https://playas2025.kesug.com/Blog_Playas2025/senderos-costeros-senalizados"
   },
   "headline": "Senderos Costeros Señalizados en la Playa de Ostende – Castro-Urdiales",
   "description": "Descubre las rutas panorámicas y senderos señalizados desde la Playa de Ostende. Caminos accesibles con vistas al Cantábrico, ideales para todos los niveles.",
-  "image": "https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/ostende/img/senderos-costeros-senalizados.jpg",
+  "image": "https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/ostende/img/senderos-costeros-senalizados.jpg",
   "author": {
     "@type": "Person",
     "name": "Adrián Laya García",
@@ -16,10 +16,10 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Playas 2024 – Guía Costera de España",
+    "name": "Playas 2025 – Guía Costera de España",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://playas2024.kesug.com/assets/logo-playas2024.png"
+      "url": "https://playas2025.kesug.com/assets/logo-playas2025.png"
     }
   },
   "datePublished": "<?= date('Y-m-d') ?>T08:00:00+01:00",
@@ -37,25 +37,25 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Inicio",
-      "item": "https://playas2024.kesug.com"
+      "item": "https://playas2025.kesug.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Cantabria",
-      "item": "https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/"
+      "item": "https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Castro-Urdiales",
-      "item": "https://playas2024.kesug.com/Blog_Playas2024/localidades/cantabria/castro-urdiales/"
+      "item": "https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/castro-urdiales/"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Senderos Costeros",
-      "item": "https://playas2024.kesug.com/Blog_Playas2024/senderos-costeros-ostende"
+      "item": "https://playas2025.kesug.com/Blog_Playas2025/senderos-costeros-ostende"
     }
   ]
 }

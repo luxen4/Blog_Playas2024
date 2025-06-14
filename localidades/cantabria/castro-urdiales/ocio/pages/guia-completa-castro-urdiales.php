@@ -1,5 +1,5 @@
 <?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='eventos';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 
 <!DOCTYPE html>
@@ -128,7 +128,7 @@
   </main>
 
   <footer class="text-center py-4 bg-light">
-    <small>&copy; <?= date('Y'); ?> Playas2024 | Guía turística de <?= $nombre_localidad; ?> y la costa de <?= $region; ?></small>
+    <small>&copy; <?= date('Y'); ?> Playas2025 | Guía turística de <?= $nombre_localidad; ?> y la costa de <?= $region; ?></small>
   </footer>
 
   <!-- Datos estructurados para Guía turística -->

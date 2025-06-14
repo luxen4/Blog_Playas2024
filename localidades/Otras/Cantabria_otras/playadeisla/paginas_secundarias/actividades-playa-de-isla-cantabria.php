@@ -10,8 +10,8 @@
 
     <?php 
     // Variables para la página de la Playa de Isla
-    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/localidades/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php'; 
+    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2025/localidades/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php'; 
     ?>
 
     <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/?>
@@ -22,7 +22,7 @@
 
     <?php 
     // Descripción general y URL
-    $url = "https://playas2024.kesug.com/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/fichas/{$rutas}.php";
+    $url = "https://playas2025.kesug.com/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/fichas/{$rutas}.php";
     ?>
 
     <?php 

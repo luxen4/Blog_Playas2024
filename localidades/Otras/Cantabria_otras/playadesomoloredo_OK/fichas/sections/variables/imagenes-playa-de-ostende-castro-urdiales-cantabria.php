@@ -3,7 +3,7 @@ $lugar = 'playadeostende';
 $nombre_playa_region = 'playa-de-ostende-castro-urdiales-cantabria';
 
 
-define('IMG_PATH', '/Blog_Playas2024/localidades/cantabria/playadeostende/img/'); 
+define('IMG_PATH', '/Blog_Playas2025/localidades/cantabria/playadeostende/img/'); 
 
 
     $imagenes = [

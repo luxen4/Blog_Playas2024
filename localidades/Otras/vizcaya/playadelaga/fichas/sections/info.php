@@ -273,7 +273,7 @@ $faq = '
 
 <?php // Carrusel de 3 Imágenes //
 $lugar = 'playadelaga';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2024/localidades/vizcaya/'.$lugar.'/img'; ?>
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/vizcaya/'.$lugar.'/img'; ?>
 
 
 <?php
@@ -318,7 +318,7 @@ $imagenes = [
         'src' => $ruta .'/familias-disfrutando-playa-Laga-Vizcaya-País-Vasco.jpg',
         'alt' => 'Familias disfrutando en la Playa de Laga, Vizcaya, País Vasco',
         'figcaption' => 'Familias disfrutando en la Playa de Laga.',
-        'href' => 'https://cronicavasca.elespanol.com/sociedad/20240816/la-playa-sorprendente-de-euskadi-remanso-verano/878662145_0.html',
+        'href' => 'https://cronicavasca.elespanol.com/sociedad/20250816/la-playa-sorprendente-de-euskadi-remanso-verano/878662145_0.html',
         'titulo_href' => 'cronicavasca.elespanol.com'
     ]
 ]; ?>

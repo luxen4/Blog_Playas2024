@@ -45,7 +45,7 @@
       <p class="text-center text-muted mt-3">Imágenes de la Iglesia de Santa María de la Asunción en Castro Urdiales</p>
     </div>
 
-   <a href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
+   <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
    </div>
 
   <footer class="text-center">

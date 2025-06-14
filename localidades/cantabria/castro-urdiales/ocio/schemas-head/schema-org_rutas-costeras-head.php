@@ -13,7 +13,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Blog Playas 2024",
+    "name": "Blog Playas 2025",
     "logo": {
       "@type": "ImageObject",
       "url": "https://tusitio.com/imagenes/logo.png"
@@ -23,7 +23,7 @@
     "@type": "WebPage",
     "@id": "https://tusitio.com/rutas-costeras-en-castro-urdiales.php"
   },
-  "datePublished": "2024-07-01",
-  "dateModified": "2024-07-01"
+  "datePublished": "2025-07-01",
+  "dateModified": "2025-07-01"
 }
 </script>

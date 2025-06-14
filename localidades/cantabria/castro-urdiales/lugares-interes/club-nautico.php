@@ -71,7 +71,7 @@
 
     <p class="mt-4">El Club Náutico de Castro Urdiales es un lugar ideal para los amantes del mar y las actividades náuticas, ofreciendo un entorno único y servicios de primera calidad.</p>
 
-     <a href="/Blog_Playas2024/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
+     <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
   </div>
 
   <footer class="text-center">

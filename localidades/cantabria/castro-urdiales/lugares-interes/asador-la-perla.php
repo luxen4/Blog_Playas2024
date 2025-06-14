@@ -11,7 +11,7 @@
     <?php $region_minuscula = 'cantabria';
     $carpeta = 'castro-urdiales';
     $tema = 'asdor-la-perla'; ?>
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/bloques/estructura/variables_comunes/defines.php"; ?>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
     <?php //require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/localizacion-playa.php"; 
     ?>
 

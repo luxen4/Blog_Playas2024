@@ -8,11 +8,11 @@
     "description": "Explora los eventos más importantes de Castro-Urdiales: Semana Santa, Semana Grande, Día del Carmen, Carnaval y más. Una guía cultural completa.",
     "author": {
       "@type": "Organization",
-      "name": "Playas2024"
+      "name": "Playas2025"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Playas2024",
+      "name": "Playas2025",
       "logo": {
         "@type": "ImageObject",
         "url": "https://tusitio.com/logo.png"

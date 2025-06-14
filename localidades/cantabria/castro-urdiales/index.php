@@ -1,148 +1,142 @@
-<!DOCTYPE html>
-<html lang="es">
 
-<?php 
-// Variables para la página de la Playa de Ostende ?>
-<?php $region_minuscula = 'cantabria'; $carpeta = 'castro-urdiales'; $tema='Información Castro-Urdiales'; $title='Castro Urdiales – Guía Turística y Playas';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>   
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA . '/localizacion-localidad.php'; ?>
 
 
 <?php
-// Variables para las etiquetas meta y SEO
-$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Ostende si se utiliza para verificación
+$carpeta_playa = 'castro-urdiales';
+$region_minuscula = 'cantabria';
+$carpeta = 'castro-urdiales';
+$tema = 'Información Castro-Urdiales';
+$title = 'Castro Urdiales – Guía Turística y Playas';
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
 $description_content = 'Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía, rutas de senderismo y eventos culturales en la Costa Cantábrica.';
-$keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales'; ?>
+$keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales';
+?>
 
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/grupo1/index.php"; ?>  
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/paginas-generico/head-generico-playa.php"; ?>
+<?php 
+$name_blog = 'Blog Playas 2025';
+$author_content = 'Adrián Laya García';
+$color_page='blue';
+$tema_footer='- Castro-Urdiales Turismo -'; ?>
+
+<?php
+require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php";
+require PATH_RAIZ_LOCALIDADES_CARPETA . '/localizacion-localidad.php';
+require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA . "/grupo1/index.php";
+require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/paginas-generico/head-generico-playa.php";
+?>
 
 
 
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
 <body>
-  <div class="container py-5">
+<div class="container-xxl py-5">
+  <div class="row">
+    <!-- Contenido principal (más ancho) -->
+    <div class="col-lg-10 col-xl-10">
 
-    <div class="row">
-      <!-- Columna izquierda -->
-      <div class="col-2">
-        <!-- Puedes dejarla vacía o añadir navegación -->
-      </div>
+        <!-- Migas de pan -->
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
 
-      <!-- Columna principal -->
-      <div class="col-7">
-      <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN . '/breadcrums-playa.php'; ?>
 
-      <h1 class="text-primary mb-4">Castro-Urdiales</h1>
+<!-- Título principal decorado -->
+<header class="mb-10">
+  <div class="bg-gradient-to-r from-<?= $color_page; ?>-600 via-sky-500 to-cyan-400 text-white text-center p-8 rounded-lg shadow-lg">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-3 flex justify-center items-center gap-3">
+      <i class="fas fa-map-marked-alt"></i> Castro-Urdiales
+    </h1>
+    <p class="text-lg md:text-xl font-medium">Historia, playas y paisajes que enamoran en la costa de <?= $region_minuscula; ?>.</p>
+  </div>
+</header>
+
+        <!-- Info principal -->
         <?php require './fichas/sections/info.php' ?>
-
         <?= $li_encabezado ?>
         <hr>
         <?= $li_descripcion_detallada ?>
         <?= $li_descripcion_detallada2 ?>
         <?= $li_descripcion_detallada3 ?>
-        <p style="margin-bottom: 10px;">
-          Si visitas Castro Urdiales, no te pierdas algunos de sus rincones más emblemáticos. Desde monumentos históricos hasta espacios naturales y gastronómicos, aquí tienes una selección de lugares que merece la pena descubrir:
-        </p>
 
+        <div class="alert alert-info mt-4" role="alert">
+          Si visitas Castro Urdiales, no te pierdas sus rincones más emblemáticos. Desde monumentos históricos hasta espacios naturales y gastronómicos:
+        </div>
 
-        <!-- Sección Lugares de Interés -->
-<section id="lugares-interes" class="my-5">
-  <header class="text-center mb-4">
-    <h2 class="text-secondary">📍 Lugares de Interés en Castro Urdiales</h2>
-    <p>Descubre los rincones más emblemáticos de la ciudad y su entorno costero.</p>
-  </header>
-  <div class="row row-cols-1 row-cols-md-2 g-3">
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/asador-la-perla.php" class="d-block text-decoration-none text-primary">Asador La Perla</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/castillo-santa-ana.php" class="d-block text-decoration-none text-primary">Castillo de Santa Ana</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/club-nautico.php" class="d-block text-decoration-none text-primary">Club Náutico</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/el-pedregal.php" class="d-block text-decoration-none text-primary">El Pedregal</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/iglesia-santa-maria.php" class="d-block text-decoration-none text-primary">Iglesia de Santa María</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/palacio-ochagaran.php" class="d-block text-decoration-none text-primary">Palacio de Ochagarán</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/parque-amestoy.php" class="d-block text-decoration-none text-primary">Parque Amestoy</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/paseo-maritimo.php" class="d-block text-decoration-none text-primary">Paseo Marítimo</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/playa-ostende.php" class="d-block text-decoration-none text-primary">Playa de Ostende</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/plaza-ayuntamiento.php" class="d-block text-decoration-none text-primary">Plaza del Ayuntamiento</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/puente-medieval.php" class="d-block text-decoration-none text-primary">Puente Medieval</a>
-    </div>
-    <div class="col">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/puerto.php" class="d-block text-decoration-none text-primary">Puerto de Castro Urdiales</a>
-    </div>
-  </div>
-</section>
-
+          <!-- Sección Lugares de Interés -->
+          <section id="lugares-interes" class="my-10">
+            <div class="text-center mb-6">
+              <h2 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-2">📍 Lugares de Interés en Castro Urdiales</h2>
+                  <p class="text-gray-600">Descubre los rincones más icónicos de la ciudad.</p>
+            </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <?php
+            $lugares = [
+              'Asador La Perla' => 'asador-la-perla.php',
+              'Castillo de Santa Ana' => 'castillo-santa-ana.php',
+              'Club Náutico' => 'club-nautico.php',
+              'El Pedregal' => 'el-pedregal.php',
+              'Iglesia de Santa María' => 'iglesia-santa-maria.php',
+              'Palacio de Ochagarán' => 'palacio-ochagaran.php',
+              'Parque Amestoy' => 'parque-amestoy.php',
+              'Paseo Marítimo' => 'paseo-maritimo.php',
+              'Playa de Ostende' => 'playa-ostende.php',
+              'Plaza del Ayuntamiento' => 'plaza-ayuntamiento.php',
+              'Puente Medieval' => 'puente-medieval.php',
+              'Puerto de Castro Urdiales' => 'puerto.php'
+            ];
+            foreach ($lugares as $nombre => $ruta) {
+              echo '<div class="col"><a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '" class="btn btn-outline-secondary w-100 text-start px-3 py-2">' . $nombre . '</a></div>';
+            }
+            ?>
+          </div>
+        </section>
 
         <?= $caja_eventosYfestividades ?>
         <?= $li_mapa_ubicacion ?>
         <?= $li_mas_info ?>
 
-        <a href="/Blog_Playas2025/index.php#<?= $region_minuscula; ?>" class="btn btn-outline-primary mt-3">← Home</a>
-   
+        <!-- Botón Home -->
+        <div class="text-center mt-5">
+          <a href="/Blog_Playas2025/index.php#<?= $region_minuscula; ?>" class="btn btn-outline-primary">← Volver al Inicio</a>
+        </div>
       </div>
 
-        <!-- Columna lateral derecha -->
-        <div class="col-3">
-            <?php //$caja_caracteristicas ?>
+<!-- Columna derecha más estrecha -->
+<div class="col-lg-2 col-xl-2">
+        <!-- Sección Playas -->
+        <section id="playas" class="bg-light rounded shadow-sm p-3 mt-4">
+          <header class="text-center mb-3">
+            <h5 class="text-secondary">🏖️ Playas de <br><strong>Castro Urdiales</strong></h5>
+            <p class="small text-muted">Disfruta del Cantábrico en sus mejores rincones.</p>
+          </header>
 
-            <!-- Sección Playas --><section id="playas" class="my-5">
-  <header class="text-center mb-4">
-    <h5 class="text-secondary">🏖️ Playas de <br>Castro Urdiales</h5>
-    <p>Relájate y disfruta del mar Cantábrico en las playas más destacadas de la ciudad.</p>
-  </header>
-
-
-
-  <?php 
-  //$carpeta_playa='playadeostende';
-  define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/"); ?>
-
-  <div class="row g-2">
-    <div class="col-12">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_PLAYA ?>index.php" class="btn btn-outline-primary w-100 py-2">Playa de Ostende</a>
-    </div>
-    <div class="col-12">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_PLAYA ?>playa-brazomar.php" class="btn btn-outline-primary w-100 py-2">Playa de Brazomar</a>
-    </div>
-    <div class="col-12">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_PLAYA ?>el-pedregal.php" class="btn btn-outline-primary w-100 py-2">El Pedregal</a>
+          <?php
+          $carpeta_playa = 'playa-de-ostende';
+          define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
+          $playas = [
+            'Playa de Ostende' => 'index.php',
+            'Playa de Brazomar' => 'playa-brazomar.php',
+            'El Pedregal' => 'el-pedregal.php'
+          ];
+          foreach ($playas as $nombre => $ruta) {
+            echo '<div class="mb-2"><a href="' . PATH_HREF_RAIZ_LOCALIDAD_PLAYA . $ruta . '" class="btn btn-outline-primary w-100 py-2">' . $nombre . '</a></div>';
+          }
+          ?>
+        </section>
+      </div>
     </div>
   </div>
-</section>
-
-        </div>      
-      
 
 
- 
-    </div>
 
-  </div>
 
-  <footer class="text-center bg-light py-4">
-    <p>&copy; <?= date('Y') ?> Castro Urdiales Turismo</p>
-  </footer>
 
-  <!-- Bootstrap JS (opcional para funcionalidades como collapses, modals, etc.) -->
+
+<footer class="bg-<?= $color_page; ?>-100 text-center py-6 mt-12 text-sm text-<?= $color_page; ?>-800 shadow-inner">
+  <p class="font-semibold text-lg"><?= $tema_footer; ?></p>
+  <p>&copy; <?= $name_blog; ?> – <?= $author_content; ?></p>
+</footer>
+
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

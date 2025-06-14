@@ -1,35 +1,45 @@
-<?php $region = "Cantabria"; $region_minuscula = strtolower($region); 
-$carpeta = 'castro-urdiales';  
-$nombre_localidad = "Castro-Urdiales"; 
-$tema='senderos-costeros-rutas-oficiales'; 
+<?php
+$region = "Cantabria";
+$region_minuscula = strtolower($region);
+$carpeta_lugar = 'ocio';
+$tema_footer = 'Rutas Costeras en Castro-Urdiales';
+$name_blog = 'Playas2025';
+$color_page = 'orange';
+$author_content = 'Playas2025 Team';
 
+$carpeta = 'castro-urdiales';
+$nombre_sub_carpeta = 'lugares-interes';
+$nombre_localidad = "Castro-Urdiales";
+$tema = 'senderos-costeros-rutas-oficiales';
 
-?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
-<?php 
+require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/head/variables/data-generico_rutas-costeras.php";
 
+define('PATH_RAIZ_LOCALIDADES_CARPETA_OCIO_HEAD', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/head");
+define('PATH_RAIZ_LOCALIDADES_CARPETA_OCIO_PAGES_BODY', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/body");
 define('PATH_HREF_CARPETA_LOCALIDADES_REGION', "/Blog_Playas2025/localidades/{$region_minuscula}");
-   
-define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/lugares-interes");?>
-       
+define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/lugares-interes");
+?>
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-
- <?php require PATH_RAIZ_LOCALIDADES_OCIO_HEAD. "/etiquetas-meta.php"; ?>
-    <title>Rutas Costeras en <?= $nombre_localidad; ?>: Naturaleza y Mar en <?= $region; ?></title>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_rutas-costeras-head.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_OCIO_HEAD . "/etiquetas-meta.php"; ?>
+  <title>Rutas Costeras en <?= $nombre_localidad; ?>: Naturaleza y Mar en <?= $region; ?></title>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_rutas-costeras-head.php"; ?>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
   <article class="container py-5">
-    <header class="mb-5 text-center">
-      <h1 class="text-success"><i class="fas fa-route"></i> Rutas Costeras en <?= $nombre_localidad; ?></h1>
-      <p class="lead">Una escapada perfecta entre acantilados, senderos y miradores naturales en la costa de <?= $region; ?></p>
-    </header>
+<header class="mb-10 text-center">
+  <h1 class="text-5xl font-bold text-orange-600 mb-4">
+    <i class="fas fa-route mr-2"></i> Rutas Costeras en <?= $nombre_localidad; ?>
+  </h1>
+  <p class="lead text-lg text-gray-700">
+    Una escapada perfecta entre acantilados, senderos y miradores naturales en la costa de <?= $region; ?>
+  </p>
+</header>
 
     <section class="mb-4">
       <p>
@@ -38,8 +48,10 @@ define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$regi
     </section>
 
     <section class="mb-5">
-      <h2 class="h4 text-primary"><i class="fas fa-water"></i> Acantilados de Sonabia</h2><p>
-        Uno de los caminos más espectaculares parte desde la <a href="<?= PATH_HREF_CARPETA_LOCALIDADES_REGION ?>\playa-de-sonabia\index.php">Playa de Sonabia</a>, donde los acantilados y el sonido del oleaje ofrecen una experiencia inolvidable. Este tramo, que bordea zonas de especial protección natural, es perfecto para avistamiento de aves y fotografía de paisaje. Se recomienda calzado adecuado y protección solar.
+      <h2 class="h4 text-primary"><i class="fas fa-water"></i> Acantilados de Sonabia</h2>
+      <p>
+        Uno de los caminos más espectaculares parte desde la <a href="<?= PATH_HREF_CARPETA_LOCALIDADES_REGION ?>/playa-de-sonabia/index.php">Playa de Sonabia</a>, donde los acantilados y el sonido del oleaje ofrecen una experiencia inolvidable.
+        Este tramo, que bordea zonas de especial protección natural, es perfecto para avistamiento de aves y fotografía de paisaje. Se recomienda calzado adecuado y protección solar.
       </p>
     </section>
 
@@ -56,7 +68,7 @@ define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$regi
         Para quienes buscan una experiencia más deportiva, el ascenso al Monte Cueto brinda un recorrido desafiante, pero con recompensas visuales excepcionales. Desde lo alto se domina toda la bahía de Castro-Urdiales y parte de la costa oriental de Cantabria.
       </p>
     </section>
- 
+
     <section class="mb-5">
       <h3 class="h5 text-info"><i class="fas fa-map-signs"></i> Senderos señalizados y rutas oficiales</h3>
       <p>
@@ -70,7 +82,62 @@ define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$regi
         Algunos de los lugares más fotogénicos son el <a href="<?= PATH_HREF_CARPETA_LUGARES_INTERES; ?>/mirador-de-cotolino/index.php">Mirador de Cotolino</a>, los acantilados de Islares o el entorno del Castillo-Faro. Si te gusta capturar atardeceres, estos rincones te regalarán luces únicas frente al Cantábrico.
       </p>
     </section>
-
+    <section class="mb-5">
+      <h2 class="h5 text-success"><i class="fas fa-map"></i> Listado de rutas costeras oficiales</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover align-middle">
+          <thead class="table-success">
+            <tr>
+              <th>Ruta</th>
+              <th>Distancia</th>
+              <th>Dificultad</th>
+              <th>Duración aproximada</th>
+              <th>Inicio - Fin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Sendero de los Acantilados de Sonabia</strong></td>
+              <td>4,5 km (ida)</td>
+              <td>Moderada</td>
+              <td>1h 30min</td>
+              <td>Playa de Sonabia – Punta Sonabia</td>
+            </tr>
+            <tr>
+              <td><strong>Ruta Castro - Mioño por la costa</strong></td>
+              <td>3,2 km</td>
+              <td>Fácil</td>
+              <td>50 min</td>
+              <td>Iglesia de Santa María – Mina de Dícido</td>
+            </tr>
+            <tr>
+              <td><strong>Ascenso al Monte Cueto</strong></td>
+              <td>6 km (circular)</td>
+              <td>Alta</td>
+              <td>2h 15min</td>
+              <td>Bº de Campijo – Cima – Retorno</td>
+            </tr>
+            <tr>
+              <td><strong>Paseo de Ostende y Mirador de Cotolino</strong></td>
+              <td>2,8 km</td>
+              <td>Fácil</td>
+              <td>45 min</td>
+              <td>Playa de Ostende – Mirador de Cotolino</td>
+            </tr>
+            <tr>
+              <td><strong>Ruta por Islares y los acantilados del Cerdigo</strong></td>
+              <td>5 km</td>
+              <td>Moderada</td>
+              <td>1h 40min</td>
+              <td>Islares – Punta Rebuzno</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-3">
+        Todas las rutas están señalizadas y cuentan con puntos de interés natural o patrimonial. Recuerda llevar agua, protección solar y consultar el tiempo antes de salir.
+      </p>
+    </section>
     <section class="mt-5 text-center">
       <h3 class="mb-3">🌿 ¿Quieres más rutas?</h3>
       <p>
@@ -89,70 +156,9 @@ define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$regi
     </section>
 
 
-<section class="mb-5">
-  <h2 class="h5 text-success"><i class="fas fa-map"></i> Listado de rutas costeras oficiales</h2>
-  <div class="table-responsive">
-    <table class="table table-bordered table-striped table-hover align-middle">
-      <thead class="table-success">
-        <tr>
-          <th>Ruta</th>
-          <th>Distancia</th>
-          <th>Dificultad</th>
-          <th>Duración aproximada</th>
-          <th>Inicio - Fin</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Sendero de los Acantilados de Sonabia</strong></td>
-          <td>4,5 km (ida)</td>
-          <td>Moderada</td>
-          <td>1h 30min</td>
-          <td>Playa de Sonabia – Punta Sonabia</td>
-        </tr>
-        <tr>
-          <td><strong>Ruta Castro - Mioño por la costa</strong></td>
-          <td>3,2 km</td>
-          <td>Fácil</td>
-          <td>50 min</td>
-          <td>Iglesia de Santa María – Mina de Dícido</td>
-        </tr>
-        <tr>
-          <td><strong>Ascenso al Monte Cueto</strong></td>
-          <td>6 km (circular)</td>
-          <td>Alta</td>
-          <td>2h 15min</td>
-          <td>Bº de Campijo – Cima – Retorno</td>
-        </tr>
-        <tr>
-          <td><strong>Paseo de Ostende y Mirador de Cotolino</strong></td>
-          <td>2,8 km</td>
-          <td>Fácil</td>
-          <td>45 min</td>
-          <td>Playa de Ostende – Mirador de Cotolino</td>
-        </tr>
-        <tr>
-          <td><strong>Ruta por Islares y los acantilados del Cerdigo</strong></td>
-          <td>5 km</td>
-          <td>Moderada</td>
-          <td>1h 40min</td>
-          <td>Islares – Punta Rebuzno</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="mt-3">
-    Todas las rutas están señalizadas y cuentan con puntos de interés natural o patrimonial. Recuerda llevar agua, protección solar y consultar el tiempo antes de salir.
-  </p>
-</section>
-
-
   </article>
 
-  <footer class="text-center py-4 bg-light mt-5">
-    <small>&copy; <?= date('Y'); ?> Playas2025 | Blog de naturaleza y turismo activo en Cantabria</small>
-  </footer>
-      <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_rutas-costeras.php'; // Por estructura, va aquí! ?>
-
+  <?php require PATH_RAIZ_LOCALIDADES_CARPETA_OCIO_PAGES_BODY . '/footer-generico.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_rutas-costeras.php'; ?>
 </body>
 </html>

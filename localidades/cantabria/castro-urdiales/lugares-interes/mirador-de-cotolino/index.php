@@ -11,7 +11,6 @@ $tema_footer='Mirador de Cotolino - Castro-Urdiales'; ?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <?php //require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/{$nombre_sub_carpeta}/previo.php"; ?>
     <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD. '/head-generico.php'; ?>
   </head>
 
@@ -77,8 +76,7 @@ $tema_footer='Mirador de Cotolino - Castro-Urdiales'; ?>
     </main>
 
       <?php require PATH_RAIZ_CARPETA_LOCALIDADES_LUGARES_INTERES. '/footer-generico.php' ?>
-
-    <?php require PATH_RAIZ_CARPETA_LUGARES_SCHEMAS. '/schemas-body.php' ?>
+      <?php require PATH_RAIZ_CARPETA_LUGARES_SCHEMAS. '/schemas-body.php' ?>
 
   </body>
 </html>

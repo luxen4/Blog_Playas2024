@@ -1,8 +1,17 @@
-<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='restaurantes'; 
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); 
+$carpeta = 'castro-urdiales';  
+$nombre_localidad = "Castro-Urdiales"; 
+$tema='senderos-costeros-rutas-oficiales'; 
+
 
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+<?php 
 
+define('PATH_HREF_CARPETA_LOCALIDADES_REGION', "/Blog_Playas2025/localidades/{$region_minuscula}");
+   
+define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/lugares-interes");?>
+       
 
 <!DOCTYPE html>
 <html lang="es">
@@ -30,7 +39,7 @@
 
     <section class="mb-5">
       <h2 class="h4 text-primary"><i class="fas fa-water"></i> Acantilados de Sonabia</h2><p>
-        Uno de los caminos más espectaculares parte desde la <a href="<?= PATH_HREF_CARPETA ?>\ocio\pages\playa-de-sonabia.php">Playa de Sonabia</a>, donde los acantilados y el sonido del oleaje ofrecen una experiencia inolvidable. Este tramo, que bordea zonas de especial protección natural, es perfecto para avistamiento de aves y fotografía de paisaje. Se recomienda calzado adecuado y protección solar.
+        Uno de los caminos más espectaculares parte desde la <a href="<?= PATH_HREF_CARPETA_LOCALIDADES_REGION ?>\playa-de-sonabia\index.php">Playa de Sonabia</a>, donde los acantilados y el sonido del oleaje ofrecen una experiencia inolvidable. Este tramo, que bordea zonas de especial protección natural, es perfecto para avistamiento de aves y fotografía de paisaje. Se recomienda calzado adecuado y protección solar.
       </p>
     </section>
 
@@ -47,18 +56,18 @@
         Para quienes buscan una experiencia más deportiva, el ascenso al Monte Cueto brinda un recorrido desafiante, pero con recompensas visuales excepcionales. Desde lo alto se domina toda la bahía de Castro-Urdiales y parte de la costa oriental de Cantabria.
       </p>
     </section>
-
+ 
     <section class="mb-5">
       <h3 class="h5 text-info"><i class="fas fa-map-signs"></i> Senderos señalizados y rutas oficiales</h3>
       <p>
-        El Ayuntamiento ha trabajado en señalizar varios <a href="<?= PATH_HREF_CARPETA_LUGARES_INTERES_LUGAR; ?>/senderos-costeros-rutas-oficiales/index.php">senderos oficiales</a> que puedes seguir con total seguridad. Están bien documentados e incluyen puntos de interés como miradores, áreas de descanso y paneles interpretativos.
+        El Ayuntamiento ha trabajado en señalizar varios <a href="<?= PATH_HREF_CARPETA_LUGARES_INTERES; ?>/senderos-costeros-rutas-oficiales/index.php">senderos oficiales</a> que puedes seguir con total seguridad. Están bien documentados e incluyen puntos de interés como miradores, áreas de descanso y paneles interpretativos.
       </p>
     </section>
 
     <section class="mb-5">
       <h3 class="h5 text-warning"><i class="fas fa-camera-retro"></i> Miradores y fotografía</h3>
       <p>
-        Algunos de los lugares más fotogénicos son el <a href="<?= PATH_HREF_CARPETA_LUGARES_INTERES_LUGAR; ?>/mirador-de-cotolino/index.php">Mirador de Cotolino</a>, los acantilados de Islares o el entorno del Castillo-Faro. Si te gusta capturar atardeceres, estos rincones te regalarán luces únicas frente al Cantábrico.
+        Algunos de los lugares más fotogénicos son el <a href="<?= PATH_HREF_CARPETA_LUGARES_INTERES; ?>/mirador-de-cotolino/index.php">Mirador de Cotolino</a>, los acantilados de Islares o el entorno del Castillo-Faro. Si te gusta capturar atardeceres, estos rincones te regalarán luces únicas frente al Cantábrico.
       </p>
     </section>
 
@@ -78,6 +87,66 @@
         <a href="<?= PATH_HREF_CARPETA; ?>/ocio/pages/guia-completa-castro-urdiales.php" class="btn btn-primary mt-3">Ver guía de Castro-Urdiales</a>
       </p>
     </section>
+
+
+<section class="mb-5">
+  <h2 class="h5 text-success"><i class="fas fa-map"></i> Listado de rutas costeras oficiales</h2>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover align-middle">
+      <thead class="table-success">
+        <tr>
+          <th>Ruta</th>
+          <th>Distancia</th>
+          <th>Dificultad</th>
+          <th>Duración aproximada</th>
+          <th>Inicio - Fin</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sendero de los Acantilados de Sonabia</strong></td>
+          <td>4,5 km (ida)</td>
+          <td>Moderada</td>
+          <td>1h 30min</td>
+          <td>Playa de Sonabia – Punta Sonabia</td>
+        </tr>
+        <tr>
+          <td><strong>Ruta Castro - Mioño por la costa</strong></td>
+          <td>3,2 km</td>
+          <td>Fácil</td>
+          <td>50 min</td>
+          <td>Iglesia de Santa María – Mina de Dícido</td>
+        </tr>
+        <tr>
+          <td><strong>Ascenso al Monte Cueto</strong></td>
+          <td>6 km (circular)</td>
+          <td>Alta</td>
+          <td>2h 15min</td>
+          <td>Bº de Campijo – Cima – Retorno</td>
+        </tr>
+        <tr>
+          <td><strong>Paseo de Ostende y Mirador de Cotolino</strong></td>
+          <td>2,8 km</td>
+          <td>Fácil</td>
+          <td>45 min</td>
+          <td>Playa de Ostende – Mirador de Cotolino</td>
+        </tr>
+        <tr>
+          <td><strong>Ruta por Islares y los acantilados del Cerdigo</strong></td>
+          <td>5 km</td>
+          <td>Moderada</td>
+          <td>1h 40min</td>
+          <td>Islares – Punta Rebuzno</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="mt-3">
+    Todas las rutas están señalizadas y cuentan con puntos de interés natural o patrimonial. Recuerda llevar agua, protección solar y consultar el tiempo antes de salir.
+  </p>
+</section>
+
+
   </article>
 
   <footer class="text-center py-4 bg-light mt-5">

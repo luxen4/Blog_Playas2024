@@ -10,6 +10,3 @@
 
 <?php define('PATH_HREF_CARPETA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}");?>
 
-<?php 
-
-define('PATH_HREF_CARPETA_LUGARES_INTERES_LUGAR', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/lugares-interes/{$lugar}");?>

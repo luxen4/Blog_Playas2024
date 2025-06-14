@@ -76,10 +76,7 @@ $tema_footer='Mirador de Cotolino - Castro-Urdiales'; ?>
       </section>
     </main>
 
-
-    <footer class="bg-<?= $color_page; ?>-100 text-center p-4 mt-12 text-sm text-<?= $color_page; ?>-800">
-      <?php require PATH_RAIZ_CARPETA_LUGARES_CARPETA_LUGAR_BODY. '/footer-generico.php' ?>
-    </footer>
+      <?php require PATH_RAIZ_CARPETA_LOCALIDADES_LUGARES_INTERES. '/footer-generico.php' ?>
 
     <?php require PATH_RAIZ_CARPETA_LUGARES_SCHEMAS. '/schemas-body.php' ?>
 

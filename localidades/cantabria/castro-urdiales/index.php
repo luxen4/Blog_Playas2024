@@ -4,14 +4,12 @@ $localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); $
 $region = 'Cantabria'; $region_minuscula = strtolower($region); $country= 'España';
 $tema = 'Información Castro-Urdiales';
 $title = 'Castro Urdiales – Guía Turística y Playas';
+
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
 $description_content = 'Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía, rutas de senderismo y eventos culturales en la Costa Cantábrica.';
 $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales';
 
 $rutas = 'castro-urdiales-cantabria';
-//$hoy = date('Y-m-d');
-
-
 $color_page = 'blue';
 $tema_footer = '- Castro-Urdiales Turismo -'; 
 ?>
@@ -30,20 +28,6 @@ $tema_footer = '- Castro-Urdiales Turismo -';
     
     <title><?= $title; ?></title>
 
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          brand: '#1e40af', red: 'red',
-        }
-      }
-    }
-  }
-</script>
 
   </head>
 

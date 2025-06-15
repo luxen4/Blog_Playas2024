@@ -1,90 +1,163 @@
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/castro-urdiales/lugares-interes/localidad.php"; ?>
+<?php 
+$tema = 'asador-la-perla'; 
+
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Este es solo un ejemplo, cámbialo con el correcto si es necesario
+$description_content = 'Disfruta de una experiencia culinaria única en el Asador La Perla, un restaurante emblemático de Castro Urdiales, Cantabria, especializado en carnes y pescados a la parrilla.'; 
+$keywords_content = 'Asador La Perla, Castro Urdiales, restaurante en Cantabria, parrillada, cocina tradicional, mariscos, carnes a la parrilla, gastronomía cántabra';
+
+
+$rutas = 'asador-la-perla-castro-urdiales-cantabria';
+$color_page = 'blue';
+$tema_footer = '- Asador La Perla -';  
+?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/meta_tags.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/data-generico.php";  ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD. "/etiquetas-meta.php";?>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/links.php"; ?>
     <title>Asador La Perla - Castro Urdiales</title>
-
-    <?php // Variables para la página de la Playa de Ostende 
-    ?>
-    <?php $region_minuscula = 'cantabria';
-    $carpeta = 'castro-urdiales';
-    $tema = 'asdor-la-perla'; ?>
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
-    <?php //require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/localizacion-playa.php"; 
-    ?>
-
-    <?php
-    // Variables para las etiquetas meta y SEO
-    $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Asegúrate de que este código es correcto para Ostende si se utiliza para verificación
-    $description_content = 'Descubre la Playa de Ostende, un hermoso arenal en Cantabria, perfecto para relajarse, practicar deportes acuáticos y disfrutar de la naturaleza.';
-    $keywords_content = 'Playa de Ostende, surf, naturaleza, Costa Cantábrica, turismo en Cantabria, Ostende';
-
-
-    //require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA. "/grupo1/index.php"; 
-
-    require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/stylesheets.php"; ?>
 
     <!--Hoja de estilos-->
     <link rel="stylesheet" href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>/css/styles.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Asador La Perla",
+  "description": "Disfruta de una experiencia culinaria única en el Asador La Perla, un restaurante emblemático de Castro Urdiales, Cantabria, especializado en carnes y pescados a la parrilla.",
+  "image": "https://tusitio.com/imagenes/asador-la-perla-castro.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Castro-Urdiales",
+    "addressRegion": "Cantabria",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.3815,
+    "longitude": -3.2190
+  },
+  "url": "https://tusitio.com/asador-la-perla-castro-urdiales.php",
+  "telephone": "+34 942 87 23 45", 
+  "priceRange": "€€", 
+  "cuisine": "Spanish, Grilled Meat, Seafood",
+  "servesCuisine": "Grilled Meat, Seafood",
+  "menu": "https://tusitio.com/menu-asador-la-perla.php"
+}
+</script>
+
 
 </head>
 
-<body>
-    <div class="container py-5">
-        <h1 class="mb-4 text-primary">Asador La Perla</h1>
+<body class="bg-orange-50">
 
-        <p><strong>Asador La Perla</strong> es un restaurante emblemático en Castro Urdiales. Conocido por su ambiente acogedor y su excelente cocina, este asador es una parada obligatoria para quienes visitan la región.</p>
+<!-- Header Section -->
+<header class="mb-1">
+    <div class="bg-gradient-to-r from-<?= $color_page; ?>-600 via-sky-100 to-<?= $color_page; ?>-400 text-white text-center p-8 rounded-lg shadow-lg">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-3 flex justify-center items-center gap-3">
+            <i class="fas fa-map-marked-alt"></i> Asador La Perla
+        </h1>
+        <p class="text-lg md:text-xl">En el corazón de Castro Urdiales, <?= $region; ?>.</p>
+    </div>
+</header>
 
-        <p>Se encuentra en una ubicación privilegiada, ofreciendo vistas espectaculares al mar y fácil acceso desde el centro de la ciudad.</p>
+    <!-- Main Content Section (Centered) -->
+    <div class="container py-5 mx-auto max-w-7xl">
+        <div class="col-12 col-md-10 mx-auto">
 
-        <p>Es famoso por sus platos a la parrilla, especialmente sus carnes y pescados frescos. Algunos de los platos más destacados incluyen <strong>Chuletas de cordero, Solomillo de ternera, Merluza a la brasa</strong> y <strong>Parrillada de mariscos</strong>.</p>
+            <p><strong>Asador La Perla</strong> es un restaurante emblemático en Castro Urdiales. Conocido por su ambiente acogedor y su excelente cocina, este asador es una parada obligatoria para quienes visitan la región.</p>
 
-        <p>Ofrece un ambiente cálido y tradicional, con una decoración que refleja el carácter y la cultura de la región.<br>
-            Su acogedor interior y su terraza con vistas al mar lo convierten en un lugar perfecto para disfrutar de una comida en cualquier época del año.</p>
+            <p>Se encuentra en una ubicación privilegiada, ofreciendo vistas espectaculares al mar y fácil acceso desde el centro de la ciudad.</p>
 
-        <div class="row my-4">
-            <div class="col-md-4">
+            <p>Es famoso por sus platos a la parrilla, especialmente sus carnes y pescados frescos. Algunos de los platos más destacados incluyen <strong>Chuletas de cordero, Solomillo de ternera, Merluza a la brasa</strong> y <strong>Parrillada de mariscos</strong>.</p>
 
+            <p>Ofrece un ambiente cálido y tradicional, con una decoración que refleja el carácter y la cultura de la región.<br>
+                Su acogedor interior y su terraza con vistas al mar lo convierten en un lugar perfecto para disfrutar de una comida en cualquier época del año.</p>
 
-
-                <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/asadorlaperla1.jpg" alt="Imagen del Asador La Perla" class="gallery-img">
+            <div class="row my-4">
+                <div class="col-md-4">
+                    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/asadorlaperla1.jpg" alt="Imagen del Asador La Perla" class="gallery-img">
+                </div>
+                <div class="col-md-4">
+                    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/contribution_gallery.jpg" alt="Plato de sardinas en el asador La Perla" class="gallery-img">
+                </div>
+                <div class="col-md-4">
+                    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/parrillas-asador-la-perla.jpg" alt="Parrillada en el restaurante" class="gallery-img">
+                </div>
+                <p class="text-center text-muted">Algunas de las imágenes del Asador La Perla</p>
             </div>
-            <div class="col-md-4">
-                <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/contribution_gallery.jpg" alt="Plato de sardinas en el asador La Perla" class="gallery-img">
-            </div>
-            <div class="col-md-4">
-                <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/parrillas2-kJFE-U806794120254DD-624x422@El Correo.jpg" alt="Parrillada en el restaurante" class="gallery-img">
-            </div>
-            <p class="text-center text-muted">Algunas de las imágenes del Asador La Perla</p>
+
+            <p>Entre los servicios que ofrece se incluyen:
+                <strong>Reservas previas, Menú del día y a la carta, Opciones para eventos y celebraciones, Atención personalizada.</strong>
+            </p>
+
+            <h5 class="mt-4">🕒 Horario</h5>
+            <ul>
+                <li>Lunes a Viernes: 13:00 - 16:00 y 20:00 - 23:00</li>
+                <li>Sábados y Domingos: 13:00 - 23:00 (horario continuo)</li>
+            </ul>
+
+            <p class="mt-4">Si buscas una experiencia culinaria memorable en Castro Urdiales, el Asador La Perla es el lugar ideal. ¡No te lo pierdas!</p>
+
+            <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
         </div>
-
-        <p>Entre los servicios que ofrece se incluyen:
-            <strong>Reservas previas, Menú del día y a la carta, Opciones para eventos y celebraciones, Atención personalizada.</strong>
-        </p>
-
-        <h5 class="mt-4">🕒 Horario</h5>
-        <ul>
-            <li>Lunes a Viernes: 13:00 - 16:00 y 20:00 - 23:00</li>
-            <li>Sábados y Domingos: 13:00 - 23:00 (horario continuo)</li>
-        </ul>
-
-        <p class="mt-4">Si buscas una experiencia culinaria memorable en Castro Urdiales, el Asador La Perla es el lugar ideal. ¡No te lo pierdas!</p>
-
-
-
-        <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
     </div>
 
-    <footer class="text-center">
-        <p>&copy; <?= date('Y') ?> Castro Urdiales Turismo - Asador La Perla</p>
+    <!-- Footer -->
+    <footer class="bg-<?= $color_page; ?>-100 text-center py-6 mt-12 text-sm text-<?= $color_page; ?>-800 shadow-inner">
+        <p class="font-semibold text-lg"><?= $tema_footer; ?></p>
+        <p>&copy; <?= NAME_BLOG; ?> – <?= AUTHOR; ?></p>
     </footer>
-
-
 
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/anuncios/js/logica_anuncios.php"; ?>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Asador La Perla",
+  "description": "Disfruta de una experiencia culinaria única en el Asador La Perla, un restaurante emblemático de Castro Urdiales, Cantabria, especializado en carnes y pescados a la parrilla.",
+  "image": "https://tusitio.com/imagenes/asador-la-perla.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Castro-Urdiales",
+    "addressRegion": "Cantabria",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.4072,
+    "longitude": -3.2089
+  },
+  "url": "https://tusitio.com/asador-la-perla-castro-urdiales.php",
+  "telephone": "+34 123 456 789",
+  "openingHours": [
+    "Mo-Fr 13:00-16:00",
+    "Mo-Fr 20:00-23:00",
+    "Sa-Su 13:00-23:00"
+  ],
+  "menu": "https://tusitio.com/menu-asador-la-perla.php",
+  "priceRange": "€€€",
+  "sameAs": [
+    "https://www.facebook.com/AsadorLaPerla",
+    "https://www.instagram.com/AsadorLaPerla"
+  ]
+}
+</script>
+
+
 
 
 

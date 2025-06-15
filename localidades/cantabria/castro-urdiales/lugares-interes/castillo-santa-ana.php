@@ -1,3 +1,19 @@
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/castro-urdiales/lugares-interes/localidad.php"; ?>
+
+<?php 
+$tema = 'castillo-santa-ana'; 
+
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Este es solo un ejemplo, cámbialo con el correcto si es necesario
+$description_content = 'Visita el Castillo de Santa Ana en Castro Urdiales, un imponente monumento histórico que ofrece vistas espectaculares al mar Cantábrico y la costa de Cantabria.'; 
+$keywords_content = 'Castillo de Santa Ana, Castro Urdiales, monumento histórico, turismo en Cantabria, costa de Cantabria, vistas al mar, fortaleza medieval, historia de Castro Urdiales';
+
+$rutas = 'castillo-santa-ana-castro-urdiales-cantabria';
+$color_page = 'green'; // Color más relacionado con el patrimonio y la naturaleza
+$tema_footer = '- Castillo de Santa Ana -';  
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

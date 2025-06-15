@@ -4,14 +4,12 @@
 <!-- Favicon -->
 <link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" type="image/x-icon">
 
-<?php /* <!-- Si usas un formato PNG o SVG --> <link rel="icon" href="path/to/icono-sombrilla.png" type="image/png"> <link rel="icon" href="path/to/icono-sombrilla.svg" type="image/svg+xml"> */ ?>
-
 <!-- Alternate Languages -->
 <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
 <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
 
 <!-- Stylesheets -->
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/styleSheets.php"; ?>
-
-<!--Hoja de estilos-->
-<?php /*<link rel="stylesheet" href="./../../../../styles.css">*/ ?>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">

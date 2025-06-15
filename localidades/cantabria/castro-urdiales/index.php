@@ -24,21 +24,14 @@ $tema_footer = '- Castro-Urdiales Turismo -';
 
   <head>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD. "/etiquetas-meta.php";?>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/links.php"; ?>
-    
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
     <title><?= $title; ?></title>
-
-
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/scripts-generico.php"; ?>
   </head>
 
   <body>
-    <div class="bg-brand text-white p-4">
-  Fondo con el color personalizado "brand"
-</div>
 
-    <div class="bg-red text-white p-4">
-  Fondo con el color personalizado "brand"
-</div>
+
 
 
     <div class="container-xxl py-5">
@@ -139,6 +132,12 @@ $tema_footer = '- Castro-Urdiales Turismo -';
 </footer>
 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/anuncios-add-cash.php"; ?>
+
+
+
+
+
+
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
 </body>
 </html>

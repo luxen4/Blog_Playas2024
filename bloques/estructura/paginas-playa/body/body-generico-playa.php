@@ -1,6 +1,3 @@
-<?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?> 
-<?php define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA',  "/Blog_Playas2025/localidades/cantabria/castro-urdiales/"); ?>
-
 <?php
 function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#2980b9') {
     $href = ($_SERVER['SERVER_NAME'] == 'localhost')
@@ -17,7 +14,6 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
             ';
 }
 ?>
-
    
    <!-- Header de Introducción --> 
     <?php /*<header class="bg-primary text-white text-center py-1">

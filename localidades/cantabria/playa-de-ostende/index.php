@@ -1,29 +1,35 @@
 
 <?php // Variables para la página de la Playa de Ostende ?>
-<?php $region_minuscula = 'cantabria'; $carpeta = 'playa-de-ostende'; $tema='playa-de-ostende'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/previo.php"; ?>
+<?php $region_minuscula = 'cantabria'; $carpeta = 'playa-de-ostende'; $tema='playa-de-ostende'; $title = 'Playa de Ostende – Castro-Urdiales';?>
+
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/localizacion-playa.php"; ?>
+
+
+
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/meta-tags.php";      // Variables de etiquetas metarequire PATH_RAIZ_BLOQUES_ESTRUCTURA . "/paginas-generico/etiquetas-meta.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/data-generico.php";  // Variables para el archivo Structured_data_generico.php //<!-- Structured Data (Schema.org) -->    ?>
+
+
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-          <title>Playas de Castro-Urdiales | Guía 2025</title>
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD. "/etiquetas-meta.php";?>
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
+        <title><?= $title; ?></title>
     </head>
 
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head-generico-playa.php"; ?>
-
     <body>
-
         <?php require PATH_RAIZ_LOCALIDADES_CARPETA. '/img/index.php'; ?>
-
-
         <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. "/body-generico-playa.php"; ?>
-
- 
         <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/recarga_pagina_amigable.php"; ?>
+
+        <?php require PATH_RAIZ_BLOQUES. "/control/control-visitas.php"; ?>
     </body>
 
-<?php /* $ruta_archivo_visitas = './../../../bloques/control/visitas.csv'; */?>
-<?php require PATH_RAIZ_BLOQUES. "/control/control-visitas.php"; ?>
+
 
 </html>
 

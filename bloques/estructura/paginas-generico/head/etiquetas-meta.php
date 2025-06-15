@@ -9,8 +9,14 @@
     <meta name="author" content="Adrián Laya García">
     <meta name="language" content="es">
 
-    <?php /*<link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/<?= $url_amigable;?>" />*/?>
-    <link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $carpeta;?>/fichas/<?= $rutas; ?>.php" />
+
+    <!-- Verificación Google Search Console -->
+    <meta name="google-site-verification" content="O4CyyseatW1WkLbzw9poeIPyF27Eik_tDlqrO0ank4o" />
+    <?php /* para verificar https://search.google.com/search-console/welcome?utm_source=wmx&utm_medium=deprecation-pane&utm_content=home#utm_source=es-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0*/ ?> 
+
+    <!-- Verificación Seobility -->
+    <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" /> 
+
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>

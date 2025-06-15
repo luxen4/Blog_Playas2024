@@ -1,0 +1,45 @@
+
+<?php
+// Variables de configuración para Pinterest – Castro Urdiales
+$pinterest_property_card_card_content        = 'summary_large_image';
+$pinterest_property_card_title_content       = 'Castro Urdiales – Guía Turística y Playas';
+$pinterest_property_card_description_content = 'Descubre Castro Urdiales, una histórica villa marinera en Cantabria, con playas como Ostende, Brazomar y El Pedregal, su patrimonio medieval y gastronomía costera.';
+$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/castro-urdiales.jpg';
+?>
+
+<?php
+// Variables de configuración para Twitter Cards – Castro Urdiales
+$twitterCards_card        = 'summary_large_image';
+$twitterCards_site        = '@laya_garcia';
+$twitterCards_title       = 'Castro Urdiales – Guía Turística y Playas';
+$twitterCards_description = 'Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía y rutas de senderismo en la Costa Cantábrica.';
+$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/castro-urdiales.jpg';
+$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/castro-urdiales/index.php';
+?>
+
+
+<?php
+// Variables de configuración para Castro Urdiales
+$graph_Meta_Tags_property_title       = 'Castro Urdiales – Guía Turística y Playas';
+$graph_Meta_Tags_property_description = 'Explora Castro Urdiales: historia, playas como Ostende, Brazomar y El Pedregal, gastronomía y rutas de senderismo en la Costa Cantábrica.';
+$graph_Meta_Tags_property_image       = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/img/castro-urdiales.jpg";
+$graph_Meta_Tags_property_url         = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/index.php";
+$graph_Meta_Tags_property_type        = 'website';
+?>
+
+<?php
+$graph_Meta_Tags_property_site_name     = 'Blog Playas 2025';
+$graph_Meta_Tags_property_locale        = 'es_ES';
+$graph_Meta_Tags_property_image_alt     = 'Vista panorámica del puerto y la iglesia de Castro Urdiales';
+$graph_Meta_Tags_property_image_width   = '1200'; // estándar para OG
+$graph_Meta_Tags_property_image_height  = '630';  // estándar para OG
+$graph_Meta_Tags_property_author        = 'Adrián Laya García';
+$graph_Meta_Tags_property_updated_time  = date('c'); // Fecha actual en formato ISO 8601
+$graph_Meta_Tags_property_published_time = '2025-05-10T08:00:00+02:00'; // Fecha estimada de publicación
+$graph_Meta_Tags_property_section       = 'Turismo y Playas';
+$graph_Meta_Tags_property_tag           = 'Castro Urdiales';
+$graph_Meta_Tags_property_tag2          = 'Playas Cantabria';
+$graph_Meta_Tags_property_tag3          = 'Turismo Costa Cantábrica';
+?>
+
+

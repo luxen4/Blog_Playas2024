@@ -1,12 +1,4 @@
-
-
-<?php $url_amigable = isset($rutas) ? $rutas : null; ?>
-<head>
-    <?php /*<title>Playa de <?= $localidad; ?> - <?= $localidad; ?>, España</title>*/?>
-
-    <title><?= $title; ?></title>
-
-
+<?php //$url_amigable = isset($rutas) ? $rutas : null; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="site-verification" content="<?= $site_verification_content; ?>"/>
@@ -27,16 +19,26 @@
     <meta property="og:url" content="<?= $graph_Meta_Tags_property_url; ?>">
     <meta property="og:type" content="<?= $graph_Meta_Tags_property_type; ?>">
 
+    <meta property="og:site_name" content="<?= $graph_Meta_Tags_property_site_name; ?>">
+    <meta property="og:locale" content="<?= $graph_Meta_Tags_property_locale; ?>">
+    <meta property="og:image:alt" content="<?= $graph_Meta_Tags_property_image_alt; ?>">
+    <meta property="og:image:width" content="<?= $graph_Meta_Tags_property_image_width; ?>">
+    <meta property="og:image:height" content="<?= $graph_Meta_Tags_property_image_height; ?>">
+    <meta property="og:author" content="<?= $graph_Meta_Tags_property_author; ?>">
+    <meta property="og:updated_time" content="<?= $graph_Meta_Tags_property_updated_time; ?>">  
+    <meta property="og:published_time" content="<?= $graph_Meta_Tags_property_published_time; ?>">
+    <meta property="og:section" content="<?= $graph_Meta_Tags_property_section; ?>">
+    <meta property="og:tag" content="<?= $graph_Meta_Tags_property_tag; ?>">
+    <meta property="og:tag" content="<?= $graph_Meta_Tags_property_tag2; ?>">
+    <meta property="og:tag" content="<?= $graph_Meta_Tags_property_tag3; ?>">
 
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="<?= $twiterCards_card; ?>">
-    <meta name="twitter:site" content="<?= $twiterCards_site; ?>">
-    <meta name="twitter:title" content="<?= $twiterCards_title; ?>">
-    <meta name="twitter:description" content="<?= $twiterCards_descripcion; ?>">
-    <meta name="twitter:image" content="<?= $twiterCards_image; ?>">
-    <meta name="twitter:url" content="<?= $twiterCards_url; ?>">
-
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="<?= $twitterCards_card; ?>">   
+    <meta name="twitter:site" content="<?= $twitterCards_site; ?>">
+    <meta name="twitter:title" content="<?= $twitterCards_title; ?>">
+    <meta name="twitter:description" content="<?= $twitterCards_description; ?>">
+    <meta name="twitter:image" content="<?= $twitterCards_image; ?>">
+    <meta name="twitter:url" content="<?= $twitterCards_url; ?>">
 
      <!-- Pinterest: Open Graph será la base -->
     <meta property="pinterest:card" content="<?= $pinterest_property_card_card_content; ?>">
@@ -55,50 +57,11 @@
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
     <meta property="og:locale" content="es_ES" />
-    <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
-    <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
+    <meta property="article:published_time" content="<?= HOY; ?>T08:00:00+01:00" />
+    <meta property="article:modified_time" content="<?= HOY; ?>T08:00:00+01:00" />
     <meta property="article:author" content="https://www.facebook.com/tu-pagina-o-autor" />
     <meta property="article:section" content="Turismo y Actividades" />
     <meta property="article:tag" content="surf, playa de <?= $localidad; ?>, turismo <?= $region;?>" />
     <meta property="article:tag" content="playa de <?= $localidad; ?>, actividades playa de <?= $localidad; ?>, turismo en <?= $localidad; ?>" />
-    <!-- Pinterest-specific (aunque no oficial, ayuda al crawler) -->
-    <meta name="pinterest-rich-pin" content="true" />
 
-
-
-
-    <!-- Sitemap Link -->
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2025.kesug.com/sitemap.xml">
-
-    <!-- Favicon -->
-    <link rel="icon" href="./../../../../img/icono-sombrilla.ico" type="image/x-icon">
-
-    <?php /*
-    <!-- Si usas un formato PNG o SVG -->
-    <link rel="icon" href="path/to/icono-sombrilla.png" type="image/png">
-    <link rel="icon" href="path/to/icono-sombrilla.svg" type="image/svg+xml"> */?>
-
-
-    <!-- Alternate Languages -->
-    <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
-    <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
-
-    <!-- Stylesheets --><?php //HAY ARCHIVO PARA LINKAR ?>
-
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/styleSheets.php"; ?>
-
-    <!--Hoja de estilos-->
-    <?php /*<link rel="stylesheet" href="./../../../../styles.css">*/ ?>
-
-    <!-- Ads Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9695238706576343" crossorigin="anonymous"></script>
-
-
-    <?php //<!-- Structured Data (Schema.org) --> 
-    require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD. "/structured-data-generico.php";?>
-
-
-    <?php // Para anuncios de Adcash <!-- Carga la librería de Adcash --> ?> 
-    <script src="https://static.adcash.com/js/aclib.js" async></script>
-    <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA."/anuncios/js/logica_anuncios_addcash.php"; ?>
-</head>
+    <meta name="pinterest-rich-pin" content="true" />    <?php //<!-- Pinterest-specific (aunque no oficial, ayuda al crawler) -->//?>

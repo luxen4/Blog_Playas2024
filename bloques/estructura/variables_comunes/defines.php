@@ -1,4 +1,11 @@
 
+<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
+<?php define('AUTHOR', "Adrián Laya García"); ?>
+<?php define('EMAIL_AUTHOR', "  ");?>
+<?php define('HOY', date('Y-m-d')); ?>
+<?php define('SITE_VERIFICATION_CONTENT', ""); ?>
+
+
 <?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
 <?php define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); ?>
 <?php define('PATH_RAIZ_ANUNCIOS', PATH_RAIZ. '/anuncios'); ?>
@@ -23,12 +30,6 @@
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/head'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
-
-
-<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/body/main'); ?>
-<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PRINCIPALES_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-principales/main'); ?>
-
-
 
 
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_PAGINAS_SECUNDARIAS', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias'); ?>
@@ -57,9 +58,6 @@
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES', PATH_RAIZ_LOCALIDADES_CARPETA. "/head/variables"); ?>
 
 
-
-
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/head/variables/web-playa/"); ?>
 
 <?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias/head/etiquetas_meta/"); ?>
 
@@ -93,3 +91,8 @@
 
 
 <?php define('PATH_RAIZ_LOCALIDADES_SECTIONS_VARIABLES',  PATH_RAIZ_LOCALIDADES_CARPETA. '/paginas-secundarias/sections/variables'); ?>
+
+<?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/bloques/estructura/paginas-generico/head"); ?>
+
+

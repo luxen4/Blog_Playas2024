@@ -39,3 +39,10 @@
 <?php /*<link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2025/styles.css">*/?>
 
 
+
+ <!-- ✅ Carga Tailwind CSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+

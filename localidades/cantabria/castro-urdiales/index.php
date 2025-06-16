@@ -131,13 +131,7 @@ $tema_footer = '- Castro-Urdiales Turismo -';
   <p>&copy; <?= NAME_BLOG; ?> – <?= AUTHOR; ?></p>
 </footer>
 
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/anuncios-add-cash.php"; ?>
-
-
-
-
-
-
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/anuncios-add-cash.php"; ?>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
 </body>
 </html>

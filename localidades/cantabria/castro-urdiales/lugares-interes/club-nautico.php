@@ -1,3 +1,6 @@
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -74,9 +77,9 @@
      <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
   </div>
 
-  <footer class="text-center">
-    <p class="mb-0">&copy; <?= date('Y') ?> Castro Urdiales Turismo - Club Náutico</p>
-  </footer>
+
+
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

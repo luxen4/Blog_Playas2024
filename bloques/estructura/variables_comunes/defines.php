@@ -33,7 +33,7 @@
 
 
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS',       PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES',            PATH_RAIZ_LOCALIDADES_CARPETA. "/head/variables"); ?>

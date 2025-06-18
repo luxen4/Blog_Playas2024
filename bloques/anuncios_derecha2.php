@@ -27,25 +27,23 @@ $images_zapatillas = [
 ]; ?>
 
 
-
-
-
-
-
 <style>
 	.amazon-product {
-		border: 1px solid #ddd;
-		padding: 10px;
-		margin-top: 20px;
+		/*border: 1px solid #ddd;*/
+		/*padding: 10px;*/
+		/*margin-top: 20px;*/
 		max-width: 300px;
 		font-family: Arial, sans-serif;
 	}
-
+	
 	.amazon-product img {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
+  width: 100%;
+  height: 470px; /* altura fija para todas las imágenes */
+  object-fit: cover; /* mantiene proporciones recortando si es necesario */
+  display: block;
+}
+
+
 
 	.amazon-product-title {
 		font-size: 16px;
@@ -73,21 +71,83 @@ $images_zapatillas = [
 		background-color: #E68900;
 	}
 
-</style>
 
-<div class="amazon-product" class="d-block w-100" >
-	<a href="<?= $href; ?>" target="_blank">
-		<img src="<?= $src; ?>" alt="AAA">
-	</a>
-	<div class="amazon-product-title">
-		<a href="<?= $src; ?>" target="_blank"><?= $nombre_producto; ?></a>
-	</div>
-	<div class="amazon-product-price"><?php //$price; ?></div>
-	<div>
-		<a href="https://amzn.to/3yWwF3G" target="_blank">
-			<button>Comprar ahora en Amazon</button>
-		</a>
-	</div>
+</style>
+<?php
+
+
+// Producto 1
+$href = "https://www.amazon.es/Irevial-Cuadros-Franela-Boyfriend-Bolsillo/dp/B09QKHXFX7?tag=adrian8204-21";
+$src = "https://m.media-amazon.com/images/I/71GrO7q8jhL._AC_SX569_.jpg";
+$alt = "Camisa cuadros mujer";
+$nombre = "Irevial Camisa Manga Larga Mujer Oficina Elegante";
+$price = "29.99€";
+$buy_link = "https://amzn.to/3yWwF3G";
+
+// Producto 2
+$src2 = "https://m.media-amazon.com/images/I/71UYnXrB2XL._AC_SX569_.jpg";
+
+
+$productos = [
+    [
+        'href' => $href,
+        'src' => $src,
+        'alt' => $alt,
+        'nombre' => $nombre,
+        'price' => $price,
+        'buy_link' => $buy_link
+    ],
+    [
+        'href' => $href,
+        'src' => $src2,
+        'alt' => $alt,
+        'nombre' => $nombre,
+        'price' => $price,
+        'buy_link' => $buy_link
+    ],
+];
+
+
+?>
+<div id="amazon-carousel" style="max-width: 300px; margin: auto;">
+    <?php foreach ($productos as $index => $prod): ?>
+    <div class="amazon-product" style="display: <?= $index === 0 ? 'block' : 'none' ?>;">
+        <a href="<?= $prod['href'] ?>" target="_blank">
+            <img src="<?= $prod['src'] ?>" alt="<?= htmlspecialchars($prod['alt']) ?>">
+        </a>
+        <div class="amazon-product-title">
+            <a href="<?= $prod['href'] ?>" target="_blank"><?= htmlspecialchars($prod['nombre']) ?></a>
+        </div>
+        <div class="amazon-product-price">
+            <?= htmlspecialchars($prod['price']) ?>
+        </div>
+        <div>
+            <a href="<?= $prod['buy_link'] ?>" target="_blank">
+                <button style="background-color: #FF9900; color: white; padding: 10px; border: none; cursor: pointer; width: 100%; transition: background-color 0.3s ease;"
+                    onmouseover="this.style.backgroundColor='#E68900'" 
+                    onmouseout="this.style.backgroundColor='#FF9900'">
+                    Comprar ahora en Amazon
+                </button>
+            </a>
+        </div>
+    </div>
+    <?php endforeach; ?>
 </div>
+
+
+<script>
+    const productosDivs = document.querySelectorAll('#amazon-carousel .amazon-product');
+    let currentIndex = 0;
+
+    setInterval(() => {
+        // Ocultar el producto actual
+        productosDivs[currentIndex].style.display = 'none';
+        // Siguiente índice (circular)
+        currentIndex = (currentIndex + 1) % productosDivs.length;
+        // Mostrar siguiente producto
+        productosDivs[currentIndex].style.display = 'block';
+    }, 3000); // Cambia cada 3 segundos
+</script>
+
 
 

@@ -19,7 +19,7 @@
 
     <?php
     // Descripción general y URL
-    $url = "https://playas2025.kesug.com/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/fichas/{$rutas}.php";
+    $url = "https://playas2024.kesug.com/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/fichas/{$rutas}.php";
     ?>
 
     <?php 

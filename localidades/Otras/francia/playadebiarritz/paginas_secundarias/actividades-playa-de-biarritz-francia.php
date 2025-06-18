@@ -33,7 +33,7 @@
   <meta property="og:title" content="Actividades en la Playa de Biarritz – Francia" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Biarritz: surf, paseos por la costa vasca, cultura y experiencias junto al océano Atlántico." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-biarritz-francia" />
+  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2025/actividades-playa-de-biarritz-francia" />
   <meta property="og:image:alt" content="Vista de la Playa de Biarritz, destino ideal para surf y turismo costero en Francia" />
   <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
@@ -80,8 +80,8 @@
   // Array con URLs de las imágenes que quieres mostrar
   const imagenes = [
     'http://localhost/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
-    'https://playas2025.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
-    'https://playas2025.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
+    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
+    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
   ];
 
   let indice = 0;

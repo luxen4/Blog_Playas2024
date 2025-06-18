@@ -1,6 +1,11 @@
+
 <?php
+$carpeta_playa='playa-de-ostende';
+define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
 function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#2980b9') {
-    $href = ($_SERVER['SERVER_NAME'] == 'localhost')
+    
+  echo(PATH_HREF_RAIZ_LOCALIDAD_PLAYA .'ocio/pages/'. rtrim($slug, '/') . '.php');
+  $href = ($_SERVER['SERVER_NAME'] == 'localhost')
         ? PATH_HREF_RAIZ . '/' . ltrim($slug, '/')
         : PATH_HREF_RAIZ_LOCALIDAD_PLAYA .'ocio/pages/'. rtrim($slug, '/') . '.php';
 
@@ -30,7 +35,7 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
 
           <div class="collapse navbar-collapse" id="mainNavbar">
             <ul class="navbar-nav ms-auto">
-                <?= generarNavLink('restaurantes-castro-urdiales', 'Restaurantes', '🏨', 'Ver restaurantes en la zona') ?>
+                <?= generarNavLink("restaurantes-castro-urdiales", "Restaurantes", "🏨", "Ver restaurantes en la zona") ?>000
                 <?= generarNavLink('alojamientos-castro-urdiales', 'Alojamientos', '🏨', 'Ver alojamientos en la zona') ?>
                 <?= generarNavLink('rutas-costeras-castro-urdiales', 'Rutas Costeras', '🥾', 'Ver rutas costeras en la zona') ?>
                 <?= generarNavLink('eventos-castro-urdiales', 'Eventos', '🎉', 'Ver eventos en la zona') ?>
@@ -52,6 +57,8 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
 
 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN. "/main-playa-generico.php"; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_FOOTER. "/footer.php"; ?>
+<?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_FOOTER. "/footer.php"; ?>
+
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
 <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>

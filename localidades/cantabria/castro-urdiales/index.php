@@ -125,11 +125,8 @@ $tema_footer = '- Castro-Urdiales Turismo -';
         </div>
       </div>
     </div>
-
-<footer class="bg-<?= $color_page; ?>-100 text-center py-6 mt-12 text-sm text-<?= $color_page; ?>-800 shadow-inner">
-  <p class="font-semibold text-lg"><?= $tema_footer; ?></p>
-  <p>&copy; <?= NAME_BLOG; ?> – <?= AUTHOR; ?></p>
-</footer>
+    
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/anuncios-add-cash.php"; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>

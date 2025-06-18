@@ -23,21 +23,30 @@
 
     <body>
 
-        <!-- Encabezado -->
-        <header class="bg-<?= $color_page; ?>-100 text-center py-1 mt-0.5 text-sm text-<?= $color_page; ?>-800 shadow-inner">
-            <h1 class="display-4">Descubre las Playas del Cantábrico</h1>
-        </header>
+<!-- Encabezado -->
+<header class="bg-<?= $color_page; ?>-100 text-center py-2 mt-1 text-<?= $color_page; ?>-800 shadow-inner">
+  <h1 class="text-xl sm:text-2xl md:text-3xl font-semibold">
+    Descubre las Playas del Cantábrico
+  </h1>
+</header>
 <main class="container my-6">
   <div class="row justify-content-center">
     
-    <!-- Contenido principal col-10 -->
-<div class="col-12 col-md-8">
-      <p style="text-align: left;">
-        Bienvenido a nuestro blog, donde te invitamos a explorar las playas más impresionantes de la costa cantábrica. <br>
-        Desde extensas franjas de arena dorada y aguas cristalinas, hasta rincones tranquilos y vibrantes actividades acuáticas,
-        aquí encontrarás toda la información que necesitas para planificar tu próxima escapada a la costa norte de España.
-        Navega por nuestras guías y descubre la belleza natural y la rica gastronomía de cada destino.
-      </p>
+<!-- Contenido principal col-10 con scroll vertical -->
+
+
+<div class="w-full md:w-8/12 mx-auto max-h-[600px] overflow-y-auto overflow-x-hidden">
+  <section class="bg-white py-8 px-4 md:px-6">
+    <p class="text-left text-gray-800 text-base md:text-lg leading-relaxed md:leading-loose">
+
+
+    Bienvenido a nuestro blog, donde te invitamos a explorar las <span class="font-semibold text-blue-700">playas más impresionantes de la costa cantábrica</span>.<br>
+    Desde extensas franjas de arena dorada y aguas cristalinas, hasta rincones tranquilos y vibrantes actividades acuáticas, aquí encontrarás toda la información que necesitas para planificar tu próxima escapada a la costa norte de España.
+    <br>
+    Navega por nuestras guías y descubre la <span class="font-semibold text-blue-700">belleza natural</span> y la <span class="font-semibold text-blue-700">rica gastronomía</span> de cada destino.
+  </p>
+  </section>
+
 
       <div class="row">
         <div class="col-12">
@@ -62,10 +71,10 @@
     </div>
 
 <!-- Sidebar de anuncios solo visible en MD en adelante -->
-<div class="col-12 col-md-4 d-none d-md-block" style="border: solid 1px black;">
+<div class="col-12 col-md-3 d-none d-md-block" style="border: solid 1px black;">
   <aside class="sticky-top" style="top: 4rem; max-height: calc(100vh - 4rem); overflow-y: auto;">
     <!-- Contenido del sidebar -->
-    <div class="mb-4 px-2">
+    <div class="mb-4">
       <p class="text-sm text-muted">Publicidad</p>
       <div style="width: 100%; text-align: center;">
 
@@ -76,7 +85,24 @@
         $alt = "Camisa cuadros mujer";
         $nombre_producto = "Irevial Camisa Manga Larga Mujer Oficina Elegante";
         $price = "";
-        require PATH_RAIZ_BLOQUES . '/anuncios_derecha.php';
+        //require PATH_RAIZ_BLOQUES . '/anuncios_derecha.php';
+
+
+?>
+  <iframe 
+    src="<?= PATH_HREF_RAIZ_BLOQUES . '/anuncios_derecha2.php' ?>" 
+    width="100%" 
+    height="640px" 
+    scrolling="no" 
+    style="border:1px solid #ccc; overflow:hidden;" 
+    title="Ejemplo" 
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+<?php
         ?>
 
         <!-- Otro anuncio -->

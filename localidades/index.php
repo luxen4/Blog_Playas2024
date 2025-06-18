@@ -1,7 +1,7 @@
 <div class="row">
     <div id="#" class="col-xl-7 text-center col-lg-12 col-md-12 col-sm-12 col-12">
         <?php include 'localidades/presentacion.php'; ?>    
-        <?php require $publicidad; ?>
+        <?php //require $publicidad; ?>
     </div>
 
     <div id="#" class="col-xl-5 text-left col-lg-12 col-md-12 col-sm-12 col-12">
@@ -14,4 +14,12 @@
         </figure>
     </div>
 </div>
+
+<div class="row">
+    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
+        <?php include 'localidades/presentacion.php'; ?>    
+        <?php require $publicidad; ?>
+    </div>
+</div>
+
 <hr>

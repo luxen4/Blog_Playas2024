@@ -1,9 +1,3 @@
-<h2 id="cantabria">Cantabria</h2>
-<?php
-$region = 'cantabria';
-$targeta = './localidades/index.php';?>
-<details>
-  <summary>Desplegar</summary>
 
 <?php
 $carpeta = 'playa-de-ostende';
@@ -13,6 +7,41 @@ $archivo_name = 'ostende-castro-urdiales';
 
 $presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+
+$region = 'cantabria';
+$targeta = './localidades/index.php';?>
+
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-blue-800 mb-6">
+  Cantabria
+</h2>
+<details class="group bg-blue-50 border border-blue-300 rounded-md p-4 w-full mx-auto my-4 shadow-sm">
+  <summary class="cursor-pointer text-blue-800 font-semibold text-lg flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <!-- Icono SEO (lupa o gráfico) -->
+      <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M11 5a7 7 0 017 7c0 1.657-.672 3.157-1.758 4.242l4.536 4.536a1 1 0 01-1.414 1.414l-4.536-4.536A7 7 0 1111 5z" />
+      </svg>
+      <span><?= $localidad_nombre; ?></span>
+    </div>
+    <!-- Flecha -->
+    <svg class="w-5 h-5 text-blue-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </summary>
+
+  <div class="mt-4 text-sm text-blue-900 leading-relaxed">
+
+
+
+
+
+
+
+<?php
+
 include $targeta; ?>
 
 
@@ -90,5 +119,7 @@ $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundaci
                   en un importante puerto y centro comercial debido a su estratégica ubicación costera.'; 
 include 'localidades/index.php';*/?>
 
+
+  </div>
 
 </details>

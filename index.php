@@ -132,15 +132,12 @@
 
   </div>
 </main>
+<?php $region_minuscula = 'cantabria'; $carpeta = 'playa-de-ostende'; $tema='playa-de-ostende'; $title = 'Playa de Ostende – Castro-Urdiales'; 
+$tema_footer='Playas del Cantábrico';
+$name_blog = 'Blog Playas 2025'; $author_content = 'Adrián Laya García'; $color_page = 'orange'; // Color de la página ?>
 
-        <!-- Footer -->
-        <footer class="bg-<?= $color_page; ?>-100 text-center py-2 mt-12 text-sm text-<?= $color_page; ?>-800 shadow-inner">
-            <p class="font-semibold text-lg"><?= $tema_footer; ?></p>
-            <p>&copy; <?= NAME_BLOG; ?> – <?= AUTHOR; ?></p>
-        </footer>
 
-        <?php //require './bloques/estructura/paginas-generico/footer.php'; ?>
-
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php' ?>
 
 
         <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>

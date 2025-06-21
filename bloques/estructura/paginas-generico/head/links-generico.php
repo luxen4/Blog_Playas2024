@@ -19,7 +19,6 @@
 <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
 <link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
 
-
  <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
@@ -28,21 +27,13 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-
 <!-- Font Awesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 
 <!-- Fuentes y estilos -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <?php /*<link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2025/styles.css">*/?>
 
-
-
  <!-- ✅ Carga Tailwind CSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-
-
-

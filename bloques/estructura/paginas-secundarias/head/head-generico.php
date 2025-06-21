@@ -12,7 +12,7 @@
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
 
 <!-- Structured Data -->
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA . "/{$tema}_ldjson.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_TEMA . "/{$tema}_ldjson.php"; ?>
 
 
 <!-- Estilos personalizados -->

@@ -1,7 +1,4 @@
 
-<?php $title='Actividades recomendadas'; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. '/localizacion-playa.php'; ?>
-
 
 <!DOCTYPE html>
 <html lang="es">

@@ -19,10 +19,21 @@
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title><?= $title; ?></title>
   <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
+
+
+
+  <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+
 </head>
 
 <body>
-
+    <!-- Código de AdCash (runAutoTag) -->
+    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+    <script type="text/javascript">
+        aclib.runAutoTag({
+            zoneId: 'mnaewnieki', // Usa el Zone ID real que te ha dado AdCash
+        });
+    </script>
 
 <header class="bg-<?= $color_page; ?>-100 text-center py-4 mt-1 text-<?= $color_page; ?>-800 shadow-inner">
   <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">

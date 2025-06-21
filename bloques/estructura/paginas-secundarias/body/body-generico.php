@@ -8,7 +8,7 @@
       <?php 
       // Carga de contenido principal
       // require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS."/{$tema}.php"; 
-      require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA . "/section.php"; 
+      require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_TEMA . "/section.php"; 
       ?>
 
       <!-- Enlace que cierra la pestaña -->

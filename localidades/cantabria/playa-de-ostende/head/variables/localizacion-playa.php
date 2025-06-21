@@ -5,6 +5,18 @@ $localidad = 'Castro-Urdiales'; $localidad_minuscula = 'castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = 'cantabria'; $country= 'España';
 $rutas = 'playa-de-ostende-castro-urdiales-cantabria';
 $hoy = date('Y-m-d');
+
+
+
+
+
+$region_minuscula='cantabria'; 
+$carpeta='playa-de-ostende'; 
+$name_blog = 'Blog Playas 2025'; 
+$author_content = 'Adrián Laya García'; 
+$tema_footer = 'Playas del Cantábrico';
+
+
 ?>
 
 <?php //$pafge = 'playade'.$nombre_playa_minuscula;?>

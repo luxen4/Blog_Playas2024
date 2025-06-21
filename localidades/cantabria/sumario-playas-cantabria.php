@@ -34,15 +34,11 @@ $targeta = './localidades/index.php';?>
 
   <div class="mt-4 text-sm text-<?= $color_page; ?>-900 leading-relaxed">
 
-
-
-
-
-
-
 <?php
 
 include $targeta; ?>
+
+
 
 
 <?php /*
@@ -123,3 +119,10 @@ include 'localidades/index.php';*/?>
   </div>
 
 </details>
+
+
+<div class="row">
+    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">  
+        <?php require $publicidad; ?>
+    </div>
+</div>

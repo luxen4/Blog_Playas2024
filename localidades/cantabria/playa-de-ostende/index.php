@@ -29,6 +29,8 @@ $title = 'Playa de Ostende – Castro-Urdiales';?>
 
 </html>
 
+
+<?php /*
     <!-- Estilo opcional para fondo -->
     <style>
         body {
@@ -37,4 +39,4 @@ $title = 'Playa de Ostende – Castro-Urdiales';?>
             background-position: center;
             background-repeat: no-repeat;
         }
-    </style>
+    </style> */ ?>

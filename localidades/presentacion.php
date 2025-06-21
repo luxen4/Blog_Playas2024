@@ -1,9 +1,14 @@
 <?php //h3 style="text-align: left;"><?= $localidad; </h3>?>
-<p style="text-align: left;" class="text-justify">
-    <?= $presentacion; ?>       
-    <?php /*<a href="playa-de-<?= $archivo_name . '-' . $region; ?>" target="_blank">Más info</a> */?>
-    <a href='localidades/<?= $region ?>/<?= $carpeta ?>/index.php' target="_blank">Más info</a>
+
+<p class="text-left text-justify text-gray-700 leading-relaxed mb-4">
+    <?= $presentacion; ?>
 </p>
+
+<a href="localidades/<?= $region ?>/<?= $carpeta ?>/index.php" 
+   target="_blank" 
+   class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
+    Más info...
+</a>
 
 
 

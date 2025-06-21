@@ -14,12 +14,4 @@
         </figure>
     </div>
 </div>
-
-<div class="row">
-    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
-        <?php include 'localidades/presentacion.php'; ?>    
-        <?php require $publicidad; ?>
-    </div>
-</div>
-
 <hr>

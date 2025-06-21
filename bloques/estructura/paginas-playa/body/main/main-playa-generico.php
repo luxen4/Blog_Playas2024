@@ -29,9 +29,15 @@
 
               <?php require PATH_RAIZ_LOCALIDADES_SECTIONS_VARIABLES . '/mas-informacion.php'; ?>
 
-            </main>
-        </div>
 
+
+            
+
+
+            </main>
+
+        </div>
+ 
         <div id="right-column" class="col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3 content-wrapper"> 
 
             <?php //require './../../../../bloques/estructura/sections_generico/deprecated/_caracteristicas_generico.php'; ?>
@@ -39,6 +45,7 @@
         </div>
     </div> 
 </div>
+ <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
 
 <script>

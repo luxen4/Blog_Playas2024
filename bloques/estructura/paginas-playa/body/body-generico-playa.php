@@ -20,14 +20,11 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
 }
 ?>
    
-   <!-- Header de Introducción --> 
-    <?php /*<header class="bg-primary text-white text-center py-1">
-        <h1 class="display-4">Descubre las Playas del Cantábrico</h1>
-    </header> */?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY . "/header-generico.php"; ?>
 
 <header class="header-principal shadow-sm border-bottom mb-4">
         <nav class="container navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand fw-bold" href="/">Playas 2025</a>
+          <?php /*<a class="navbar-brand fw-bold" href="/">Playas 2025</a>*/?>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Menú">
             <span class="navbar-toggler-icon"></span>
@@ -59,6 +56,6 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN. "/main-playa-generico.php"; ?>
 <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_FOOTER. "/footer.php"; ?>
 
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
+
 
 <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>

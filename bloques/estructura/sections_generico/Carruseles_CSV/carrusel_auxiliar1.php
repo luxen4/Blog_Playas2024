@@ -1,20 +1,19 @@
-<div class="container carrusel_auxiliar1">
-    <div class="row" style="max-width: 1300px; margin:auto;">
-        <div class="col-xl-1 text-center col-lg-1 col-md-1"></div>
+<div class="w-full py-6 carrusel_auxiliar1">
+    <div class="w-full max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <h6 class="text-center text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">
+            — Publicidad —
+        </h6>
 
-        <div class="col-xl-10 text-center col-lg-10 col-md-10 col-sm-12 col-12">
-            <h6 class="text-publicidad">-Publicida-</h6>
-
+        <div class="w-full">
             <?php 
             // Verificamos el tipo de publicidad
             if ($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "horizontal") {
-                require 'enHorizontal.php'; // Incluir la vista para publicidad horizontal
-            } else if ($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "vertical"){
-                require 'enUnoYtres.php'; // Incluir la vista para otro tipo de publicidad
+                require 'enHorizontal.php'; // Vista de publicidad horizontal
+            } else if ($arrayElementos[$numeroAleatorio]["tipoPublicidad"] == "vertical") {
+                require 'enUnoYtres.php'; // Vista de publicidad vertical
             }
             ?>
         </div>
-
-        <div class="col-xl-1 text-center col-lg-1 col-md-1"></div>
     </div>
 </div>

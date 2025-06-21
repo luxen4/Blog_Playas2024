@@ -1,5 +1,5 @@
 <?php $region = "Cantabria"; $region_minuscula = 'cantabria'; $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2024/localidades/{$region_minuscula}/{$carpeta}/ocio/head/variables/data-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/head/variables/data-generico.php"; ?>
 <?php $url_tripadvisor = "https://www.tripadvisor.es/Hotels-g776865-Castro_Urdiales_Cantabria-Hotels.html"; ?>
 
 
@@ -101,7 +101,7 @@
     </main>
 
     <footer class="text-center py-4 bg-light mt-5">
-      <small>&copy; <?= date('Y'); ?> Playas2024 | Alojamientos y turismo en la costa de Cantabria</small>
+      <small>&copy; <?= date('Y'); ?> Playas2025 | Alojamientos y turismo en la costa de Cantabria</small>
     </footer>
 
     <?php require PATH_RAIZ_LOCALIDADES_OCIO . '/schema-org.php'; // Por estructura, va aquí! ?>

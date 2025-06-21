@@ -109,5 +109,5 @@ PASSWORD
 5HJqjWqYLP4k  
 
 http://playas2025.kesug.com/Blog_Playas2025/*/
-    https: //playas2024.kesug.com/Blog_Playas2025/
+    https: //playas2025.kesug.com/Blog_Playas2025/
     ?>

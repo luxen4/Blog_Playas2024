@@ -29,6 +29,9 @@ $twiterCards_image = PATH_RAIZ_LOCALIDADES_CARPETA.'/playa-de-ostende.jpg';
 $twiterCards_url = PATH_RAIZ_LOCALIDADES_CARPETA.'/fichas/playa-de-ostende.php?i=1';
 ?>
 
+
+
+
 <?php
     $descripcion = 'Descubre la Playa de Ostende, un destino conocido por su amplia extensión de arena dorada, ideal para disfrutar del surf y la naturaleza en la costa cantábrica.';
     $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";

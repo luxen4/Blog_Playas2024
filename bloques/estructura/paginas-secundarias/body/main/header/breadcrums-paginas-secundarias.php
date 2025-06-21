@@ -1,7 +1,7 @@
 <nav aria-label="Breadcrumb">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="https://playas2024.kesug.com/">
+      <a itemprop="item" href="https://playas2025.kesug.com/">
         <span itemprop="name">Inicio</span>
       </a>
       <meta itemprop="position" content="1" />

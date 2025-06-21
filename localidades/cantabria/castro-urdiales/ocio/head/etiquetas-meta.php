@@ -9,8 +9,8 @@
     <meta name="author" content="<?= $author_content; ?>">
     <meta name="language" content="<?= $languaje_content; ?>">
 
-    <?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2025/<?= $url_amigable;?>" />*/?>
-    <link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $carpeta;?>/index.php" />
+    <?php /*<link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/<?= $url_amigable;?>" />*/?>
+    <link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $carpeta;?>/index.php" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>

@@ -1,5 +1,9 @@
 
 <?php
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Este es solo un ejemplo, cámbialo con el correcto si es necesario
+
+
+
 // Variables de configuración para Pinterest – Castro Urdiales
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Castro Urdiales – Guía Turística y Playas';

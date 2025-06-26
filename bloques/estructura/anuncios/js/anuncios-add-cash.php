@@ -1,3 +1,4 @@
+<!-- Anuncios AdCash u otros -->
 <?php /* Publicidad add-cash */ ?>
 <?php /* https://adcash.myadcash.com/pub_zones/list/index?zoneId=448466&isAutoTag=1&isAdblockTab=1 */ ?>
 

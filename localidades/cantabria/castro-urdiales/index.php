@@ -73,7 +73,7 @@ $tema_footer = '- Castro-Urdiales Turismo -';
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <?php
           $lugares = [
-            'Asador La Perla' => 'asador-la-perla.php',
+            'Asador La Perla' => 'asador-la-perla',
             'Castillo de Santa Ana' => 'castillo-santa-ana.php',
             'Club Náutico' => 'club-nautico.php',
             'El Pedregal' => 'el-pedregal.php',
@@ -87,7 +87,7 @@ $tema_footer = '- Castro-Urdiales Turismo -';
             'Puerto de Castro Urdiales' => 'puerto.php'
           ];
           foreach ($lugares as $nombre => $ruta) {
-            echo '<div class="col"><a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '" class="btn btn-outline-secondary w-100 text-start px-3 py-2">' . $nombre . '</a></div>';
+            echo '<div class="col"><a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '/index.php" class="btn btn-outline-secondary w-100 text-start px-3 py-2">' . $nombre . '</a></div>';
           }
           ?>
         </div>

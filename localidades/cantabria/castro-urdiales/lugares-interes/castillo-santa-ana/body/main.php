@@ -1,6 +1,7 @@
 <!-- Main Content Section (Centered) Contenido principal --><main class="container mx-auto max-w-7xl px-4 py-12">
-  <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
-    <h1 class="text-3xl md:text-4xl font-bold text-blue-700 mb-6">Castillo de Santa Ana</h1>
+<main class="container py-5 mx-auto max-w-7xl">  
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
+    <h1 class="text-3xl md:text-4xl font-bold text-<?= $color_page; ?>-700 mb-6">Castillo de Santa Ana</h1>
 
     <p class="mb-4 text-gray-700"><strong class="text-gray-900">Castillo de Santa Ana</strong> es una de las construcciones más icónicas de Castro Urdiales, una ciudad costera en la región de Cantabria, España. Este castillo, situado en una posición estratégica, ha sido un punto de defensa importante a lo largo de la historia.</p>
 
@@ -40,15 +41,15 @@
     <p class="mb-6 text-gray-700">Es un símbolo de la rica herencia histórica de Castro Urdiales. Su preservación y restauración permiten a los visitantes conectar con el pasado de la región y apreciar su importancia estratégica y cultural.</p>
 
     <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-blue-700 mb-2">📞 Información de contacto</h5>
+      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h5>
       <ul class="space-y-1">
         <li><strong>Teléfono:</strong> +34 942 85 90 65</li>
-        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-blue-500 hover:underline">www.turismocastrourdiales.net</a></li>
+        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
       </ul>
     </div>
 
     <p class="mb-8 text-gray-700">El Castillo de Santa Ana es una visita imprescindible para cualquier persona interesada en la historia, la arquitectura y las impresionantes vistas del mar Cantábrico.</p>
 
-    <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="inline-block px-6 py-2 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition">← Volver a lugares de interés</a>
+    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
   </div>
 </main>

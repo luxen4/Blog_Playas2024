@@ -61,9 +61,9 @@
 
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
-<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/"); ?>
-<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES',        PATH_HREF_RAIZ_LOCALIDAD. "lugares-interes"); ?>
-<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "lugares-interes/{$lugar_interes}/img"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES',        PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/{$lugar_interes}/img"); ?>
 
 
 

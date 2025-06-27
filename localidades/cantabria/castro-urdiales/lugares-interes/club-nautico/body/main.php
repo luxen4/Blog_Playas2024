@@ -1,33 +1,4 @@
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
-
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Club Náutico - Castro Urdiales</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .gallery-img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      margin-bottom: 15px;
-    }
-    footer {
-      margin-top: 50px;
-      padding: 20px;
-      background-color: #f8f9fa;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container py-5">
+<div class="container py-5">
     <h1 class="text-primary mb-4">Club Náutico</h1>
 
     <p>El <strong>Club Náutico</strong> de Castro Urdiales es una institución emblemática situada en esta pintoresca ciudad costera de Cantabria, España. 
@@ -76,11 +47,3 @@
 
      <a href="/Blog_Playas2025/localidades/cantabria/castro-urdiales/index.php" class="btn btn-outline-primary mt-3">← Volver a lugares de interés</a>
   </div>
-
-
-
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>

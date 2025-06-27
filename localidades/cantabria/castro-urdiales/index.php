@@ -74,16 +74,16 @@ $tema_footer = '- Castro-Urdiales Turismo -';
           <?php
           $lugares = [
             'Asador La Perla' => 'asador-la-perla',
-            'Castillo de Santa Ana' => 'castillo-santa-ana.php',
-            'Club Náutico' => 'club-nautico.php',
-            'El Pedregal' => 'el-pedregal.php',
-            'Iglesia de Santa María' => 'iglesia-santa-maria.php',
-            'Palacio de Ochagarán' => 'palacio-ochagaran.php',
-            'Parque Amestoy' => 'parque-amestoy.php',
-            'Paseo Marítimo' => 'paseo-maritimo.php',
-            'Playa de Ostende' => 'playa-ostende.php',
-            'Plaza del Ayuntamiento' => 'plaza-ayuntamiento.php',
-            'Puente Medieval' => 'puente-medieval.php',
+            'Castillo de Santa Ana' => 'castillo-santa-ana',
+            'Club Náutico' => 'club-nautico',
+            'El Pedregal' => 'el-pedregal',
+            'Iglesia de Santa María' => 'iglesia-santa-maria',
+            'Palacio de Ochagarán' => 'palacio-ochagaran',
+            'Parque Amestoy' => 'parque-amestoy',
+            'Paseo Marítimo' => 'paseo-maritimo',
+            'Playa de Ostende' => 'playa-ostende',
+            'Plaza del Ayuntamiento' => 'plaza-ayuntamiento',
+            'Puente Medieval' => 'puente-medieval',
             'Puerto de Castro Urdiales' => 'puerto.php'
           ];
           foreach ($lugares as $nombre => $ruta) {
@@ -122,8 +122,8 @@ $tema_footer = '- Castro-Urdiales Turismo -';
           $carpeta_playa = 'playa-de-ostende';
           define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
           $playas = [
-            'Playa de Ostende' => 'index.php',
-            'Playa de Brazomar' => 'playa-brazomar.php',
+            'Playa de Ostende' => 'index',
+            'Playa de Brazomar' => 'playa-brazomar',
             'El Pedregal' => 'el-pedregal.php'
           ];
           foreach ($playas as $nombre => $ruta) {

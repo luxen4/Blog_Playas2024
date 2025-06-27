@@ -10,9 +10,10 @@
             <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
           </div>
 
+          <?php /*
           <div class="bg-white border border-gray-300 rounded-lg shadow-sm p-3">
             <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/anuncios-add-cash.php"; ?>
-          </div>
+          </div> */ ?>
         </div>
 
       </div>

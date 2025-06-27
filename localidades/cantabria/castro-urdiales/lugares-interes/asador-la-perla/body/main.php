@@ -1,5 +1,4 @@
 <!-- Main Content Section (Centered) Contenido principal -->
-
 <main class="container py-5 mx-auto max-w-7xl">
   <div class="col-12 col-md-10 mx-auto">
 
@@ -14,7 +13,7 @@
 
     <div class="row my-4">
       <div class="col-md-4">
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/asadorlaperla1.jpg" alt="Imagen del Asador La Perla" class="gallery-img">
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/asador-la-perla.jpg" alt="Imagen del Asador La Perla" class="gallery-img">
       </div>
       <div class="col-md-4">
         <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/plato-sardinas-asador-la-perla.jpg" alt="Plato de sardinas en el asador La Perla" class="gallery-img">

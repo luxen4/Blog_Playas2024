@@ -54,7 +54,7 @@ function generarNavSecundaria($items = []) {
         $icono = $item['icono'] ?? '';
         $color = $item['color'] ?? '#2980b9';
 
-        $href = PATH_HREF_RAIZ_LOCALIDAD . '/ocio/pages/' . ltrim($slug, '/');
+        $href = PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . ltrim($slug, '/');
         $iconoHTML = $icono ? $icono . ' ' : '';
 
         $html .= '<li><a href="' . htmlspecialchars($href) . '" style="color:' . htmlspecialchars($color) . ';">' . $iconoHTML . htmlspecialchars($texto) . '</a></li>';
@@ -66,7 +66,7 @@ function generarNavSecundaria($items = []) {
 ?>
 
 <?= generarNavSecundaria([
-    ['slug' => 'restaurantes-castro-urdiales.php', 'texto' => 'Restaurantes', 'icono' => '🍽️'],
+    ['slug' => 'restaurantes/index.php', 'texto' => 'Restaurantes', 'icono' => '🍽️'],
     ['slug' => 'alojamientos-castro-urdiales.php', 'texto' => 'Alojamientos', 'icono' => '🏨'],
     ['slug' => 'rutas-costeras-castro-urdiales.php', 'texto' => 'Rutas', 'icono' => '🥾'],
     ['slug' => 'eventos-castro-urdiales.php', 'texto' => 'Eventos', 'icono' => '🎉'],

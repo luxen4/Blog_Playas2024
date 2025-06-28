@@ -1,7 +1,7 @@
 <!-- Main Content Section (Centered) Contenido principal -->
-<main class="container py-5 mx-auto max-w-7xl">  
-  <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
-    <h1 class="text-3xl md:text-4xl font-bold text-<?= $color_page; ?>-700 mb-6">Iglesia de Santa María de la Asunción</h1>
+<main class="container py-1 mx-auto max-w-7xl">  
+  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
+    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Iglesia de Santa María de la Asunción</h1>
 
     <p class="mb-4 text-gray-700"><strong class="text-gray-900">La Iglesia de Santa María de la Asunción</strong> es uno de los monumentos góticos más importantes de Cantabria, y el principal exponente de la arquitectura religiosa en Castro Urdiales.</p>
 

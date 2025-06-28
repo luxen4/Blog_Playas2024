@@ -1,7 +1,7 @@
 <!-- Main Content Section (Centered) Contenido principal -->
-<main class="container py-5 mx-auto max-w-7xl">  
-  <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
-    <h1 class="text-3xl md:text-4xl font-bold text-<?= $color_page; ?>-700 mb-6">Plaza del Ayuntamiento</h1>
+<main class="container py-1 mx-auto max-w-7xl">  
+  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
+    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Plaza del Ayuntamiento</h1>
 
     <p class="mb-4 text-gray-700"><strong class="text-gray-900">La Plaza del Ayuntamiento</strong> es uno de los lugares más emblemáticos de Castro Urdiales. Situada en pleno centro histórico, esta plaza es el corazón de la vida social y cultural del municipio.</p>
 

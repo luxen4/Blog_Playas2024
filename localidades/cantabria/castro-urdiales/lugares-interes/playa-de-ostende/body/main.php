@@ -1,5 +1,5 @@
-<main class="container py-5 mx-auto max-w-7xl">
-  <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
+<main class="container py-1 mx-auto max-w-7xl">
+  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
     <h1 class="text-3xl md:text-4xl font-bold text-blue-700 mb-6">Playa de Ostende</h1>
 
     <p class="mb-4 text-gray-700"><strong class="text-gray-900">Playa de Ostende</strong> se encuentra en Castro Urdiales, una ciudad costera de Cantabria, en el norte de España. Es una de las playas más populares del municipio.</p>

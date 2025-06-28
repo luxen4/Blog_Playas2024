@@ -1,8 +1,8 @@
 <!-- Main Content Section (Centered) Contenido principal -->
-<main class="container mx-auto max-w-7xl px-4 py-12">
-  <main class="container py-5 mx-auto max-w-7xl">  
-    <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
-      <h1 class="text-3xl md:text-4xl font-bold text-<?= $color_page; ?>-700 mb-6">Parque Amestoy</h1>
+<main class="container mx-auto max-w-7xl px-1 py-1">
+  <main class="container py-1 mx-auto max-w-7xl">  
+    <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
+      <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Parque Amestoy</h1>
 
       <p class="mb-4 text-gray-700">
         <strong class="text-gray-900">Parque Amestoy</strong> es un espacio verde emblemático en Castro Urdiales, ideal para el ocio, el descanso y actividades al aire libre. Ubicado en el centro urbano, es un punto de encuentro para familias y visitantes.

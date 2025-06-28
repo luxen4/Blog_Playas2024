@@ -1,12 +1,16 @@
+
 <?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='restaurantes';?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <?php require PATH_RAIZ_LOCALIDADES_OCIO_HEAD. "/etiquetas-meta.php"; ?>
     <title>🎉Eventos y Fiestas en <?= $nombre_localidad; ?> | Agenda Cultural en <?= $region; ?></title>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
     <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_restaurantes-head.php"; ?>
 </head>
 

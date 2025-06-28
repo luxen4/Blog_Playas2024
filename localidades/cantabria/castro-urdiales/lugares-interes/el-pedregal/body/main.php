@@ -1,7 +1,7 @@
 <!-- Main Content Section (Playa El Pedregal) -->
-<main class="container mx-auto max-w-7xl px-4 py-12">
-  <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
-    <h1 class="text-3xl md:text-4xl font-bold text-<?= $color_page; ?>-700 mb-6">Playa El Pedregal</h1>
+<main class="container mx-auto max-w-7xl px-1 py-1">
+  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
+    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Playa El Pedregal</h1>
 
     <p class="mb-4 text-gray-700">
       <strong class="text-gray-900">La Playa El Pedregal</strong> es una pequeña cala de cantos rodados ubicada en Castro Urdiales, Cantabria. Su entorno natural y tranquilo la convierte en un lugar ideal para desconectar del bullicio y disfrutar del mar Cantábrico en un ambiente relajado.

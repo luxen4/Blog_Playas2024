@@ -54,7 +54,7 @@ function generarNavSecundaria($items = []) {
         $icono = $item['icono'] ?? '';
         $color = $item['color'] ?? '#2980b9';
 
-        $href = PATH_HREF_RAIZ_LOCALIDAD . '/' . ltrim($slug, '/');
+        $href = PATH_HREF_RAIZ_LOCALIDAD . '/ocio/pages/' . ltrim($slug, '/');
         $iconoHTML = $icono ? $icono . ' ' : '';
 
         $html .= '<li><a href="' . htmlspecialchars($href) . '" style="color:' . htmlspecialchars($color) . ';">' . $iconoHTML . htmlspecialchars($texto) . '</a></li>';

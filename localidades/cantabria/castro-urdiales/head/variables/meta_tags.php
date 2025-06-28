@@ -2,8 +2,6 @@
 <?php
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Este es solo un ejemplo, cámbialo con el correcto si es necesario
 
-
-
 // Variables de configuración para Pinterest – Castro Urdiales
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Castro Urdiales – Guía Turística y Playas';
@@ -21,7 +19,6 @@ $twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/castro-urdiales.jp
 $twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/castro-urdiales/index.php';
 ?>
 
-
 <?php
 // Variables de configuración para Castro Urdiales
 $graph_Meta_Tags_property_title       = 'Castro Urdiales – Guía Turística y Playas';
@@ -34,7 +31,7 @@ $graph_Meta_Tags_property_type        = 'website';
 <?php
 $graph_Meta_Tags_property_site_name     = 'Blog Playas 2025';
 $graph_Meta_Tags_property_locale        = 'es_ES';
-$graph_Meta_Tags_property_image_alt     = 'Vista panorámica del puerto y la iglesia de Castro Urdiales';
+$graph_Meta_Tags_property_image_alt     = '';
 $graph_Meta_Tags_property_image_width   = '1200'; // estándar para OG
 $graph_Meta_Tags_property_image_height  = '630';  // estándar para OG
 $graph_Meta_Tags_property_author        = 'Adrián Laya García';
@@ -45,5 +42,3 @@ $graph_Meta_Tags_property_tag           = 'Castro Urdiales';
 $graph_Meta_Tags_property_tag2          = 'Playas Cantabria';
 $graph_Meta_Tags_property_tag3          = 'Turismo Costa Cantábrica';
 ?>
-
-

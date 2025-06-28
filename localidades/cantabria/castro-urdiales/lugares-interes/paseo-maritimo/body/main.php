@@ -1,8 +1,8 @@
 <!-- Main Content Section (Centered) Contenido principal -->
-<main class="container mx-auto max-w-7xl px-4 py-12">
-<main class="container py-5 mx-auto max-w-7xl">  
-  <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
-    <h1 class="text-3xl md:text-4xl font-bold text-<?= $color_page; ?>-700 mb-6">Paseo Marítimo</h1>
+<main class="container mx-auto max-w-7xl px-1 py-1">
+<main class="container py-1 mx-auto max-w-7xl">  
+  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
+    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Paseo Marítimo</h1>
 
     <p class="mb-4 text-gray-700"><strong class="text-gray-900">El Paseo Marítimo</strong> de Castro Urdiales es uno de los lugares más visitados y apreciados por locales y turistas. Recorre la costa de la ciudad ofreciendo vistas privilegiadas del mar Cantábrico, el puerto y los monumentos más emblemáticos.</p>
 

@@ -1,0 +1,17 @@
+<?php 
+    $description_content = 'Disfruta del Parque Amestoy en Castro Urdiales, un espacio verde urbano ideal para pasear, relajarse y disfrutar en familia en Cantabria.';
+    $keywords_content = 'Parque Amestoy, Castro Urdiales, espacio verde, parque urbano, Cantabria, zonas ajardinadas, áreas de juegos, naturaleza';
+
+    $lugar_header = 'Parque Amestoy'; 
+    $tema = 'parque-amestoy';
+    $title = 'Parque Amestoy - Castro Urdiales';
+    $rutas = 'parque-amestoy-castro-urdiales-cantabria';
+    $color_page = 'green'; // Puedes usar otro color si quieres diferenciarlo visualmente
+    $tema_footer = '- Parque Amestoy -'; 
+?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/localidad-generico.php"; ?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/meta_tags.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php"; ?>

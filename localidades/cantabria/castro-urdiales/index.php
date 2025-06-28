@@ -1,11 +1,12 @@
 
-<?php
+
+<?php $lugar_interes = 'castro-urdiales';
 $localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); $carpeta = $localidad_minuscula;
 $region = 'Cantabria'; $region_minuscula = strtolower($region); $country= 'España';
 $tema = 'Información Castro-Urdiales';
 $title = 'Castro Urdiales – Guía Turística y Playas';
 
-$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
+//$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
 $description_content = 'Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía, rutas de senderismo y eventos culturales en la Costa Cantábrica.';
 $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales';
 
@@ -17,6 +18,12 @@ $tema_footer = '- Castro-Urdiales Turismo -';
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/meta_tags.php";      // Variables de etiquetas metarequire PATH_RAIZ_BLOQUES_ESTRUCTURA . "/paginas-generico/etiquetas-meta.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/data-generico.php";  // Variables para el archivo Structured_data_generico.php //<!-- Structured Data (Schema.org) -->    ?>
+
+
+
+
+
+
 
 
 <!DOCTYPE html>
@@ -77,14 +84,14 @@ $tema_footer = '- Castro-Urdiales Turismo -';
             'Castillo de Santa Ana' => 'castillo-santa-ana',
             'Club Náutico' => 'club-nautico',
             'El Pedregal' => 'el-pedregal',
-            'Iglesia de Santa María' => 'iglesia-santa-maria',
+            'Iglesia de Santa María' => 'iglesia-santa-maria-de-la-asuncion',
             'Palacio de Ochagarán' => 'palacio-ochagaran',
             'Parque Amestoy' => 'parque-amestoy',
             'Paseo Marítimo' => 'paseo-maritimo',
-            'Playa de Ostende' => 'playa-ostende',
-            'Plaza del Ayuntamiento' => 'plaza-ayuntamiento',
+            'Playa de Ostende' => 'playa-de-ostende',
+            'Plaza del Ayuntamiento' => 'plaza-del-ayuntamiento',
             'Puente Medieval' => 'puente-medieval',
-            'Puerto de Castro Urdiales' => 'puerto.php'
+            'Puerto de Castro Urdiales' => 'puerto'
           ];
           foreach ($lugares as $nombre => $ruta) {
             echo '<div class="col"><a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '/index.php" class="btn btn-outline-secondary w-100 text-start px-3 py-2">' . $nombre . '</a></div>';

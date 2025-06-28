@@ -1,0 +1,39 @@
+<?php
+// Variables para el schema
+$schemaTitle = "Paseo Marítimo - Castro Urdiales";
+$schemaDescription = "Disfruta del Paseo Marítimo de Castro Urdiales, un recorrido costero con vistas espectaculares al mar Cantábrico, ideal para pasear, relajarse y conectar con el encanto marinero de la ciudad.";
+$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/paseo-maritimo"; // Cambia por la URL real
+$schemaImage = "https://www.tu-dominio.com/images/paseo-maritimo-castro-urdiales.jpg"; // Cambia por la URL real de la imagen principal
+$schemaAddress = [
+    "@type" => "PostalAddress",
+    "streetAddress" => "Avenida de la Constitución",
+    "addressLocality" => "Castro Urdiales",
+    "addressRegion" => "Cantabria",
+    "postalCode" => "39700",
+    "addressCountry" => "ES"
+];
+$schemaContact = "+34 942 87 15 25"; // Número genérico o de turismo local
+?>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  "name": "<?= $schemaTitle ?>",
+  "description": "<?= $schemaDescription ?>",
+  "url": "<?= $schemaUrl ?>",
+  "image": "<?= $schemaImage ?>",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "<?= $schemaAddress['streetAddress'] ?>",
+    "addressLocality": "<?= $schemaAddress['addressLocality'] ?>",
+    "addressRegion": "<?= $schemaAddress['addressRegion'] ?>",
+    "postalCode": "<?= $schemaAddress['postalCode'] ?>",
+    "addressCountry": "<?= $schemaAddress['addressCountry'] ?>"
+  },
+  "telephone": "<?= $schemaContact ?>",
+  "sameAs": [
+    "https://www.turismocastrourdiales.net"
+  ]
+}
+</script>

@@ -30,8 +30,13 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/clubnautico1.jpg" alt="Imagen del Club Náutico en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64">
+      <div class="col-span-full">
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/club-nautico-castro-urdiales.jpg" 
+            alt="Imagen del Club Náutico en Castro Urdiales" 
+            class="rounded-lg shadow-sm object-cover w-full h-80 md:h-[28rem]">
+      </div>
     </div>
+
     <p class="text-center text-sm text-gray-500 mb-8">Imagen del Club Náutico en Castro Urdiales</p>
 
     <div class="mb-4 text-gray-700">

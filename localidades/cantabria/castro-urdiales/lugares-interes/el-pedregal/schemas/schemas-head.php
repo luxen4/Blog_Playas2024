@@ -10,7 +10,7 @@
   "touristType": "General",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "<?= $nombre_localidad ?>",
+    "addressLocality": "<?= $localidad_minuscula ?>",
     "addressRegion": "<?= $nombre_region ?>",
     "addressCountry": "España"
   },

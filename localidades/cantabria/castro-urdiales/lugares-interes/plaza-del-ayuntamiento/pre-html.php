@@ -9,9 +9,4 @@
     $color_page = 'green'; // Puedes usar otro color para diferenciarlo visualmente
     $tema_footer = '- Plaza del Ayuntamiento -'; 
 ?>
-
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/localidad-generico.php"; ?>
-
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/meta_tags.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>

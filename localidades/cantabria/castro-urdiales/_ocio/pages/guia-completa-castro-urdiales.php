@@ -1,4 +1,4 @@
-<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='eventos';?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $localidad_minuscula = "Castro-Urdiales"; $tema='eventos';?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 
@@ -37,14 +37,14 @@
 <body>
   <main class="container py-5">
     <header class="mb-5 text-center">
-      <h1 class="display-4 text-primary"><i class="fas fa-map-marker-alt icon-color"></i> Guía completa de <?= $nombre_localidad; ?></h1>
+      <h1 class="display-4 text-primary"><i class="fas fa-map-marker-alt icon-color"></i> Guía completa de <?= $localidad_minuscula; ?></h1>
       <p class="lead text-secondary">Descubre todo sobre esta joya costera de <?= $region; ?>: historia, rutas, gastronomía, eventos y alojamiento.</p>
     </header>
 
     <section id="historia" class="mb-5">
       <h2><i class="fas fa-landmark icon-history"></i> Historia y Patrimonio</h2>
       <p>
-        Fundada en época romana como <em>Flaviobriga</em>, <?= $nombre_localidad; ?> conserva vestigios arqueológicos prehistóricos y romanos, como la <strong>Peña del Cuco</strong>. Su casco histórico medieval está declarado Bien de Interés Cultural, con calles estrechas y arquitectura gótica impresionante.
+        Fundada en época romana como <em>Flaviobriga</em>, <?= $localidad_minuscula; ?> conserva vestigios arqueológicos prehistóricos y romanos, como la <strong>Peña del Cuco</strong>. Su casco histórico medieval está declarado Bien de Interés Cultural, con calles estrechas y arquitectura gótica impresionante.
       </p>
       <ul>
         <li><strong>Iglesia de Santa María de la Asunción:</strong> gótico entre los siglos XIII y XV.</li>
@@ -117,7 +117,7 @@
     </section>
 
     <section class="text-center my-5">
-      <h3>Planifica tu viaje a <?= $nombre_localidad; ?></h3>
+      <h3>Planifica tu viaje a <?= $localidad_minuscula; ?></h3>
       <a href="<?= $url_ayuntamiento; ?>" target="_blank" class="btn btn-success btn-lg me-2 external" rel="noopener noreferrer">
         <i class="fas fa-info-circle"></i> Más información oficial
       </a>
@@ -128,7 +128,7 @@
   </main>
 
   <footer class="text-center py-4 bg-light">
-    <small>&copy; <?= date('Y'); ?> Playas2025 | Guía turística de <?= $nombre_localidad; ?> y la costa de <?= $region; ?></small>
+    <small>&copy; <?= date('Y'); ?> Playas2025 | Guía turística de <?= $localidad_minuscula; ?> y la costa de <?= $region; ?></small>
   </footer>
 
   <!-- Datos estructurados para Guía turística -->
@@ -136,8 +136,8 @@
   {
     "@context": "https://schema.org",
     "@type": "TouristGuide",
-    "name": "Guía completa de <?= $nombre_localidad; ?>",
-    "description": "Guía turística para visitar <?= $nombre_localidad; ?> en <?= $region; ?>. Historia, rutas, gastronomía, eventos y alojamiento.",
+    "name": "Guía completa de <?= $localidad_minuscula; ?>",
+    "description": "Guía turística para visitar <?= $localidad_minuscula; ?> en <?= $region; ?>. Historia, rutas, gastronomía, eventos y alojamiento.",
     "url": "https://tusitio.com/guia-castro-urdiales",
     "hasPart": [
       {
@@ -146,7 +146,7 @@
         "description": "Iglesia gótica del siglo XIII al XV.",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "<?= $nombre_localidad; ?>",
+          "addressLocality": "<?= $localidad_minuscula; ?>",
           "addressRegion": "<?= $region; ?>",
           "addressCountry": "ES"
         }
@@ -157,7 +157,7 @@
         "description": "Fortaleza medieval con faro.",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "<?= $nombre_localidad; ?>",
+          "addressLocality": "<?= $localidad_minuscula; ?>",
           "addressRegion": "<?= $region; ?>",
           "addressCountry": "ES"
         }
@@ -170,7 +170,7 @@
         "startDate": "2025-04-13",
         "location": {
           "@type": "Place",
-          "name": "Casco Antiguo de <?= $nombre_localidad; ?>"
+          "name": "Casco Antiguo de <?= $localidad_minuscula; ?>"
         }
       },
       {
@@ -180,7 +180,7 @@
         "endDate": "2025-07-21",
         "location": {
           "@type": "Place",
-          "name": "<?= $nombre_localidad; ?>"
+          "name": "<?= $localidad_minuscula; ?>"
         }
       }
     ]

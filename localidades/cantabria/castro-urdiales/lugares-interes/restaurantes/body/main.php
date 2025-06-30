@@ -1,9 +1,12 @@
-<main class="container mx-auto max-w-7xl px-4 py-12">
-  <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
+<main class="container mx-auto max-w-7xl px-4 py-1">
+  <div class="bg-white rounded-2xl shadow-md p-1 md:p-2">
     <header class="text-center mb-10">
-      <h1 class="text-3xl md:text-4xl font-bold text-green-700 mb-2"><i class="fas fa-utensils"></i> Restaurantes en <?= $localidad_minuscula; ?></h1>
-      <p class="text-gray-600 text-lg">Guía para disfrutar de la gastronomía local en la costa de <?= $region; ?></p>
+      <h1 class="text-xl md:text-2xl font-semibold text-green-700 mb-2">
+        <i class="fas fa-utensils text-green-600"></i> Restaurantes en <?= $localidad_minuscula; ?>
+      </h1>
+      <p class="text-sm md:text-base text-gray-600">Guía para disfrutar de la gastronomía local en la costa de <?= $region; ?></p>
     </header>
+
 
     <!-- Sección Mariscos -->
     <section class="mb-10">

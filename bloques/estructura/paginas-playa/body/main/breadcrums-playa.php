@@ -67,10 +67,10 @@ function generarNavSecundaria($items = []) {
 
 <?= generarNavSecundaria([
     ['slug' => 'restaurantes/index.php', 'texto' => 'Restaurantes', 'icono' => '🍽️'],
-    ['slug' => 'alojamientos-castro-urdiales.php', 'texto' => 'Alojamientos', 'icono' => '🏨'],
-    ['slug' => 'rutas-costeras-castro-urdiales.php', 'texto' => 'Rutas', 'icono' => '🥾'],
-    ['slug' => 'eventos-castro-urdiales.php', 'texto' => 'Eventos', 'icono' => '🎉'],
-    ['slug' => 'blog-castro-urdiales.php', 'texto' => 'Blog', 'icono' => '📰']
+    ['slug' => 'alojamientos/index.php', 'texto' => 'Alojamientos', 'icono' => '🏨'],
+    ['slug' => 'rutas-costeras/index.php', 'texto' => 'Rutas', 'icono' => '🥾'],
+    ['slug' => 'eventos/index.php', 'texto' => 'Eventos', 'icono' => '🎉'],
+    ['slug' => 'blog/index.php', 'texto' => 'Blog', 'icono' => '📰']
 ]) ?>
 
 

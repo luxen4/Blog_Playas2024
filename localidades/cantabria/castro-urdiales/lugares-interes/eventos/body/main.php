@@ -1,33 +1,23 @@
-<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; $tema='eventos';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
+<main id="main" class="main-contenido">
 
-<!DOCTYPE html>
-<html lang="es">
-
-  <head>
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO_HEAD. "/etiquetas-meta.php"; ?>
-    <title>🎉Eventos y Fiestas en <?= $nombre_localidad; ?> | Agenda Cultural en <?= $region; ?></title>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_eventos-head.php"; ?>
-  </head>
-
-<body>
   <article class="container py-5">
     <header class="mb-5 text-center">
-      <h1 class="text-success"><i class="fas fa-calendar-alt"></i> Eventos y Fiestas en <?= $nombre_localidad; ?></h1>
+      <h1 class="text-success">
+        <i class="fas fa-calendar-alt"></i> Eventos y Fiestas en <?= $localidad_minuscula; ?>
+      </h1>
       <p class="lead">Una guía para vivir las tradiciones, festivales y cultura local en la costa de <?= $region; ?></p>
     </header>
 
     <section class="mb-4">
       <p>
-        <strong><?= $nombre_localidad; ?></strong> no solo es mar y gastronomía. A lo largo del año, su calendario se llena de <strong>fiestas populares, conciertos, ferias y eventos culturales</strong> que atraen tanto a vecinos como a visitantes. Si estás planeando tu viaje, aquí te dejamos las celebraciones más destacadas.
+        <strong><?= $localidad_minuscula; ?></strong> no solo es mar y gastronomía. A lo largo del año, su calendario se llena de <strong>fiestas populares, conciertos, ferias y eventos culturales</strong> que atraen tanto a vecinos como a visitantes. Si estás planeando tu viaje, aquí te dejamos las celebraciones más destacadas.
       </p>
     </section>
 
     <section class="mb-5">
       <h2 class="h4 text-primary"><i class="fas fa-fish"></i> Canto de la Salve Marinera (julio)</h2>
       <p>
-        Un emotivo homenaje a los marineros de la villa. Se celebra el 15 de julio en el <a href="<?= PATH_HREF_CARPETA ?>/ocio/pages/puerto-pesquero-mina-dicido.php">puerto pesquero</a>, con embarcaciones engalanadas, música coral y un ambiente solemne y mágico. Es uno de los actos más representativos del alma marinera de Castro.
+        Un emotivo homenaje a los marineros de la villa. Se celebra el 15 de julio en el <a href="<?php /* PATH_HREF_CARPETA */ ?>/ocio/pages/puerto-pesquero-mina-dicido.php">puerto pesquero</a>, con embarcaciones engalanadas, música coral y un ambiente solemne y mágico. Es uno de los actos más representativos del alma marinera de Castro.
       </p>
     </section>
 
@@ -73,11 +63,4 @@
     </section>
   </article>
 
-  <footer class="text-center py-4 bg-light mt-5">
-    <small>&copy; <?= date('Y'); ?> Playas2025 | Blog de eventos, cultura y tradiciones cántabras</small>
-  </footer>
-
-  <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_eventos.php'; // Por estructura, va aquí! ?>
-
-</body>
-</html>
+</main>

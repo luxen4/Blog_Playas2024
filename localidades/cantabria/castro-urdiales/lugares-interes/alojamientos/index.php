@@ -1,27 +1,33 @@
-<?php $region = "Cantabria"; $region_minuscula = 'cantabria'; $carpeta = 'castro-urdiales';  $nombre_localidad = "Castro-Urdiales"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/head/variables/data-generico.php"; ?>
-<?php $url_tripadvisor = "https://www.tripadvisor.es/Hotels-g776865-Castro_Urdiales_Cantabria-Hotels.html"; ?>
+<?php $lugar_interes = 'alojamientos'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/castro-urdiales/lugares-interes/index-generico.php"; ?>
+
+
+
+
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $localidad_minuscula = "Castro-Urdiales"; $tema='alojamientos';?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <?php require PATH_RAIZ_LOCALIDADES_CARPETA. "/ocio/head/etiquetas-meta.php"; ?>
-    <title>Alojamientos en <?= $nombre_localidad; ?> | Dónde Dormir en <?= $region; ?></title>
+    <title>Alojamientos en <?= $localidad_minuscula; ?> | Dónde Dormir en <?= $region; ?></title>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_alojamientos-head.php"; ?>
   </head>
 
   <body>
     <main class="container py-5">
       <header class="mb-5 text-center">
-        <h1 class="text-success"><i class="fas fa-bed"></i> Alojamientos en <?= $nombre_localidad; ?></h1>
+        <h1 class="text-success"><i class="fas fa-bed"></i> Alojamientos en <?= $localidad_minuscula; ?></h1>
         <p class="lead">Guía de hospedajes para tu estancia en la costa de <?= $region; ?></p>
       </header>
 
       <section class="mb-5">
         <h2 class="h4 text-primary"><i class="fas fa-hotel"></i> Hoteles recomendados</h2>
         <p>
-          En <strong><?= $nombre_localidad; ?></strong> encontrarás hoteles frente al mar y en el centro histórico. Algunos de los más valorados son el 
+          En <strong><?= $localidad_minuscula; ?></strong> encontrarás hoteles frente al mar y en el centro histórico. Algunos de los más valorados son el 
           <a href="https://www.hotel-lasrocas.com" target="_blank" rel="noopener noreferrer">Hotel Las Rocas</a> con vistas a la Playa de Brazomar, y el 
           <a href="https://www.hotelareatlantico.com" target="_blank">Hotel Área Cantábrico</a> junto al paseo marítimo.
         </p>
@@ -104,7 +110,7 @@
       <small>&copy; <?= date('Y'); ?> Playas2025 | Alojamientos y turismo en la costa de Cantabria</small>
     </footer>
 
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO . '/schema-org.php'; // Por estructura, va aquí! ?>
+    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_alojamientos.php'; // Por estructura, va aquí! ?>
 
   </body>
 </html>

@@ -65,11 +65,12 @@
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES',        PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/{$lugar_interes}/img"); ?>
 
+<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/playas/{$lugar_interes}/img"); ?>
+
 
 <?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/lugares-interes");?>
 <?php define('PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/{$lugar_interes}/img"); ?>
           
-
 
 <?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_SECTIONS_VARIABLES', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/variables"); ?>
 <?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META', PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias/head/etiquetas_meta/"); ?>

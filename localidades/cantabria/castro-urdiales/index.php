@@ -129,14 +129,29 @@ $tema_footer = '- Castro-Urdiales Turismo -';
           $carpeta_playa = 'playa-de-ostende';
           define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
           $playas = [
-            'Playa de Ostende' => 'index',
-            'Playa de Brazomar' => 'playa-brazomar',
-            'El Pedregal' => 'el-pedregal.php'
+            'Playa de Ostende' => 'playa-de-ostende',
+            'Playa de Brazomar' => 'playa-de-brazomar',
+            'El Pedregal' => 'playa-de-el-pedregal'
           ];
           foreach ($playas as $nombre => $ruta) {
-            echo '<a href="' . PATH_HREF_RAIZ_LOCALIDAD_PLAYA . $ruta . '" class="block px-4 py-2 bg-blue-50 border border-blue-300 text-blue-700 rounded hover:bg-blue-100 transition">' . $nombre . '</a>';
-          }
-          ?>
+    if ($_SERVER['SERVER_NAME'] == "localhost") {
+        // Cuando estamos en localhost, mostramos este enlace con PATH_HREF_RAIZ y $nombre
+        ?>
+        <a href="<?= PATH_HREF_RAIZ .'/'. $ruta; ?>" class="block px-4 py-2 bg-blue-50 border border-blue-300 text-blue-700 rounded hover:bg-blue-100 transition">
+            <?= htmlspecialchars($nombre) ?>
+        </a>
+        <?php
+    } else {
+        // En producción, construimos la URL con PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES y $ruta
+        ?>
+        <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/playas/' . $ruta . '/index.php' ?>" class="block px-4 py-2 bg-blue-50 border border-blue-300 text-blue-700 rounded hover:bg-blue-100 transition">
+            <?= htmlspecialchars($nombre) ?>
+        </a>
+        <?php
+    }
+}?>
+
+
         </div>
       </section>
 

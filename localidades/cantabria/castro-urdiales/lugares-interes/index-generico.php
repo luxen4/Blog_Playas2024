@@ -2,8 +2,6 @@
   $region = 'Cantabria'; $region_minuscula = strtolower($region);
   $localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); ?>
 
-
-
 <?php // require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$lugar_interes}/pre-html.php"; ?>
 
 
@@ -28,7 +26,6 @@ try {
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -36,7 +33,7 @@ try {
     <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/head-generico.php"; ?>
   </head>
 
-  <body class="bg-<?= $color_page; ?>-100">
+<body class="bg-<?= $color_page; ?>-100">
     <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/body/header-generico.php"; ?>
     <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/body/post-header-generico.php"; ?>
 
@@ -46,37 +43,25 @@ try {
     <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/{$lugar_interes}/schemas/schemas-body.php"; ?>
 
 
-<?php
-$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/{$lugar_interes}/schemas/schemas-body.php"; 
-$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/{$lugar_interes}/schemas/schemas-body.php"; 
+    <?php
+    $pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/{$lugar_interes}/schemas/schemas-body.php"; 
+    $pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/{$lugar_interes}/schemas/schemas-body.php"; 
 
-try {
-    if (file_exists($pathConPlayas)) {
-        require $pathConPlayas;
-    } elseif (file_exists($pathSinPlayas)) {
-        require $pathSinPlayas;
-    } else {
-        throw new Exception("Archivo pre-html.php no encontrado en ninguna ruta.");
+    try {
+        if (file_exists($pathConPlayas)) {
+            require $pathConPlayas;
+        } elseif (file_exists($pathSinPlayas)) {
+            require $pathSinPlayas;
+        } else {
+            throw new Exception("Archivo pre-html.php no encontrado en ninguna ruta.");
+        }
+    } catch (Exception $e) {
+        // Aquí puedes manejar el error: mostrar mensaje, log, redirección, etc.
+        echo "<p style='color:red;'>Error: " . htmlspecialchars($e->getMessage()) . "</p>";
+        // Opcional: log error
+        error_log($e->getMessage());
     }
-} catch (Exception $e) {
-    // Aquí puedes manejar el error: mostrar mensaje, log, redirección, etc.
-    echo "<p style='color:red;'>Error: " . htmlspecialchars($e->getMessage()) . "</p>";
-    // Opcional: log error
-    error_log($e->getMessage());
-}
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
+    ?>
+</body>
 
 </html>

@@ -10,7 +10,7 @@ $title = 'Castro Urdiales – Guía Turística y Playas';
 $description_content = 'Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía, rutas de senderismo y eventos culturales en la Costa Cantábrica.';
 $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales';
 
-$rutas = 'castro-urdiales-cantabria';
+$rutas = 'cantabria';
 $color_page = 'blue';
 $tema_footer = '- Castro-Urdiales Turismo -'; 
 ?>
@@ -80,22 +80,40 @@ $tema_footer = '- Castro-Urdiales Turismo -';
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <?php
           $lugares = [
-            'Asador La Perla' => 'asador-la-perla',
-            'Castillo de Santa Ana' => 'castillo-santa-ana',
-            'Club Náutico' => 'club-nautico',
-            'El Pedregal' => 'el-pedregal',
-            'Iglesia de Santa María' => 'iglesia-santa-maria-de-la-asuncion',
-            'Palacio de Ochagarán' => 'palacio-ochagaran',
-            'Parque Amestoy' => 'parque-amestoy',
-            'Paseo Marítimo' => 'paseo-maritimo',
-            'Playa de Ostende' => 'playa-de-ostende',
-            'Plaza del Ayuntamiento' => 'plaza-del-ayuntamiento',
-            'Puente Medieval' => 'puente-medieval',
-            'Puerto de Castro Urdiales' => 'puerto'
+            'Asador La Perla' => 'asador-la-perla-'.$localidad_minuscula,
+            'Castillo de Santa Ana' => 'castillo-santa-ana-'.$localidad_minuscula,
+            'Club Náutico' => 'club-nautico-'.$localidad_minuscula,
+            'El Pedregal' => 'el-pedregal-'.$localidad_minuscula,
+            'Iglesia de Santa María' => 'iglesia-santa-maria-de-la-asuncion-'.$localidad_minuscula,
+            'Palacio de Ocharán' => 'palacio-ocharan-'.$localidad_minuscula,
+            'Parque Amestoy' => 'parque-amestoy-'.$localidad_minuscula,
+            'Paseo Marítimo' => 'paseo-maritimo-'.$localidad_minuscula,
+            'Playa de Ostende' => 'playa-de-ostende'.$localidad_minuscula,
+            'Plaza del Ayuntamiento' => 'plaza-del-ayuntamiento-'.$localidad_minuscula,
+            'Puente Medieval' => 'puente-medieval-'.$localidad_minuscula,
+            'Puerto de Castro Urdiales' => 'puerto-pesquero-'.$localidad_minuscula
           ];
+
           foreach ($lugares as $nombre => $ruta) {
-            echo '<div class="col"><a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '/index.php" class="btn btn-outline-secondary w-100 text-start px-3 py-2">' . $nombre . '</a></div>';
+              if ($_SERVER['SERVER_NAME'] === 'localhost') {
+                  // Ruta para entorno local
+                  echo '<div class="col">
+                          <a href="' . PATH_HREF_RAIZ . '/' . $ruta . '" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
+                          . $nombre .
+                          '</a>
+                        </div>';
+              } else {
+                  // Ruta para entorno de producción (con subcarpeta lugares-interes)
+                  echo '<div class="col">
+                          <a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '/index.php" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
+                          . $nombre .
+                          '</a>
+                        </div>';
+              }
           }
+
+
+
           ?>
         </div>
       </section>
@@ -127,10 +145,10 @@ $tema_footer = '- Castro-Urdiales Turismo -';
         <div class="space-y-2">
           <?php
           $carpeta_playa = 'playa-de-ostende';
-          define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
+          define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA'.$localidad_minuscula, "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
           $playas = [
-            'Playa de Ostende' => 'playa-de-ostende',
-            'Playa de Brazomar' => 'playa-de-brazomar',
+            'Playa de Ostende' => 'playa-de-ostende'.$localidad_minuscula,
+            'Playa de Brazomar' => 'playa-de-brazomar'.$localidad_minuscula,
             'El Pedregal' => 'playa-de-el-pedregal'
           ];
           foreach ($playas as $nombre => $ruta) {

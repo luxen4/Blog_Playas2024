@@ -7,7 +7,7 @@
       <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>club-nautico.php">Club Náutico</a>
       <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>el-pedregal.php">El Pedregal</a>
       <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>iglesia-santa-maria.php">Iglesia de Santa María</a>
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>palacio-ochagaran.php">Palacio de Ochagarán</a>
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>palacio-ocharan.php">Palacio de ocharan</a>
       <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>parque-amestoy.php">Parque Amestoy</a>
       <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>paseo-maritimo.php">Paseo Marítimo</a>
       <a href="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES ?>playa-ostende.php">Playa de Ostende</a>

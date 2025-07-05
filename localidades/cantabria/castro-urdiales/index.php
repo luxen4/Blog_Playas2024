@@ -80,25 +80,25 @@ $tema_footer = '- Castro-Urdiales Turismo -';
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <?php
           $lugares = [
-            'Asador La Perla' => 'asador-la-perla-'.$localidad_minuscula,
-            'Castillo de Santa Ana' => 'castillo-santa-ana-'.$localidad_minuscula,
-            'Club Náutico' => 'club-nautico-'.$localidad_minuscula,
-            'El Pedregal' => 'el-pedregal-'.$localidad_minuscula,
-            'Iglesia de Santa María' => 'iglesia-santa-maria-de-la-asuncion-'.$localidad_minuscula,
-            'Palacio de Ocharán' => 'palacio-ocharan-'.$localidad_minuscula,
-            'Parque Amestoy' => 'parque-amestoy-'.$localidad_minuscula,
-            'Paseo Marítimo' => 'paseo-maritimo-'.$localidad_minuscula,
-            'Playa de Ostende' => 'playa-de-ostende-'.$localidad_minuscula,
-            'Plaza del Ayuntamiento' => 'plaza-del-ayuntamiento-'.$localidad_minuscula,
-            'Puente Medieval' => 'puente-medieval-'.$localidad_minuscula,
-            'Puerto de Castro Urdiales' => 'puerto-pesquero-'.$localidad_minuscula
+            'Asador La Perla' => 'asador-la-perla',
+            'Castillo de Santa Ana' => 'castillo-santa-ana',
+            'Club Náutico' => 'club-nautico',
+            'El Pedregal' => 'el-pedregal',
+            'Iglesia de Santa María' => 'iglesia-santa-maria-de-la-asuncion',
+            'Palacio de Ocharán' => 'palacio-ocharan',
+            'Parque Amestoy' => 'parque-amestoy',
+            'Paseo Marítimo' => 'paseo-maritimo',
+            'Playa de Ostende' => 'playa-de-ostende',
+            'Plaza del Ayuntamiento' => 'plaza-del-ayuntamiento',
+            'Puente Medieval' => 'puente-medieval',
+            'Puerto de Castro Urdiales' => 'puerto-pesquero'
           ];
 
           foreach ($lugares as $nombre => $ruta) {
               if ($_SERVER['SERVER_NAME'] === 'localhost') {
                   // Ruta para entorno local
                   echo '<div class="col">
-                          <a href="' . PATH_HREF_RAIZ . '/' . $ruta . '" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
+                          <a href="' . PATH_HREF_RAIZ . '/' . $ruta .'-' . $localidad_minuscula.    '" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
                           . $nombre .
                           '</a>
                         </div>';
@@ -145,10 +145,10 @@ $tema_footer = '- Castro-Urdiales Turismo -';
         <div class="space-y-2">
           <?php
           $carpeta_playa = 'playa-de-ostende';
-          define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA'.$localidad_minuscula, "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
+          define('PATH_HREF_RAIZ_LOCALIDAD_PLAY', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
           $playas = [
-            'Playa de Ostende' => 'playa-de-ostende-'.$localidad_minuscula,
-            'Playa de Brazomar' => 'playa-de-brazomar-'.$localidad_minuscula,
+            'Playa de Ostende' => 'playa-de-ostende',
+            'Playa de Brazomar' => 'playa-de-brazomar',
             'El Pedregal' => 'playa-de-el-pedregal-'.$localidad_minuscula
           ];
           foreach ($playas as $nombre => $ruta) {

@@ -1,72 +1,73 @@
-<main class="container mx-auto max-w-7xl px-1 py-1">
-  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
-    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Club Náutico</h1>
+<main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/SportsClub">
+  <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemprop="description">
 
-    <p class="mb-4 text-gray-700">
-      El <strong class="text-gray-900">Club Náutico</strong> de Castro Urdiales es una institución emblemática situada en esta pintoresca ciudad costera de Cantabria, España. 
-      Fundado en el siglo XX, este club es un centro de actividades marítimas y recreativas, proporcionando instalaciones y servicios de alta calidad para sus socios y visitantes.
-    </p>
+    <header>
+      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-4" itemprop="name">Club Náutico de Castro Urdiales</h1>
+      <p class="text-sm text-gray-500">
+        <i class="fas fa-map-marker-alt text-red-500"></i> Avenida de la Constitución, s/n · 39700 · Castro Urdiales, Cantabria, España
+      </p>
+    </header>
 
-    <p class="mb-4 text-gray-700">
-      <strong class="text-gray-900">Ubicación:</strong><br>
-      Avenida de la Constitución, s/n<br>
-      39700 Castro Urdiales, Cantabria, España
-    </p>
+    <section class="mb-6 text-gray-700">
+      <p><strong class="text-gray-900">El Club Náutico de Castro Urdiales</strong> es una institución marítima emblemática en Cantabria, fundada en el siglo XX. Es un centro de referencia para actividades náuticas, recreativas y deportivas.</p>
+      <p class="mt-3">Ubicado frente al mar, ofrece instalaciones modernas y servicios de alta calidad para socios y visitantes.</p>
+    </section>
 
-    <p class="mb-4 text-gray-700">
-      El club nació con el objetivo de promover las actividades náuticas y recreativas. 
-      Con el paso del tiempo, ha ampliado sus instalaciones y servicios, consolidándose como uno de los principales referentes náuticos de la región.
-    </p>
-
-    <div class="mb-4 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">🚢 Instalaciones</h5>
-      <ul class="list-disc list-inside space-y-1">
-        <li><strong>Pantalanes y Muelles:</strong> Zonas equipadas para embarcaciones de distintos tamaños.</li>
-        <li><strong>Escuela de Vela:</strong> Formación para niños, jóvenes y adultos.</li>
-        <li><strong>Restaurante y Bar:</strong> Vistas al mar y carta variada.</li>
-        <li><strong>Salas de Reuniones:</strong> Espacios para eventos sociales o de empresa.</li>
-        <li><strong>Zona de Deportes:</strong> Para actividades acuáticas y otras disciplinas.</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
+        <i class="fas fa-ship text-<?= $color_page; ?>-500 mr-2"></i>Instalaciones</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Pantalanes y muelles</strong> para barcos de diferentes tamaños</li>
+        <li><strong>Escuela de vela</strong> para niños, jóvenes y adultos</li>
+        <li><strong>Restaurante y bar</strong> con vistas al Cantábrico</li>
+        <li><strong>Salas de reuniones</strong> para eventos corporativos o sociales</li>
+        <li><strong>Zona de deportes</strong> para actividades acuáticas complementarias</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <div class="col-span-full">
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/club-nautico-castro-urdiales.jpg" 
-            alt="Imagen del Club Náutico en Castro Urdiales" 
-            class="rounded-lg shadow-sm object-cover w-full h-80 md:h-[28rem]">
-      </div>
-    </div>
-
-    <p class="text-center text-sm text-gray-500 mb-8">Imagen del Club Náutico en Castro Urdiales</p>
-
-    <div class="mb-4 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">🎯 Actividades</h5>
-      <ul class="list-disc list-inside space-y-1">
-        <li><strong>Regatas:</strong> Competencias de vela y otras disciplinas náuticas.</li>
-        <li><strong>Cursos y Talleres:</strong> Navegación, seguridad y formación técnica.</li>
-        <li><strong>Eventos Sociales:</strong> Cenas, fiestas y encuentros exclusivos para socios.</li>
-        <li><strong>Actividades Recreativas:</strong> Pesca deportiva, excursiones en barco y más.</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
+        <i class="fas fa-bullseye text-<?= $color_page; ?>-500 mr-2"></i>Actividades</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>⛵ <strong>Regatas</strong> de vela y embarcaciones deportivas</li>
+        <li>📚 <strong>Cursos y talleres</strong> de navegación y seguridad marítima</li>
+        <li>🎉 <strong>Eventos sociales</strong>: cenas, fiestas, encuentros de socios</li>
+        <li>🐟 <strong>Actividades recreativas</strong>: pesca deportiva, salidas en barco</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="mb-4 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">🧾 Membresías</h5>
-      <p>El club ofrece membresías individuales, familiares y temporales. Todas incluyen acceso total a las instalaciones y actividades, así como beneficios exclusivos.</p>
-    </div>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
+        <i class="fas fa-id-card-alt text-<?= $color_page; ?>-500 mr-2"></i>Membresías</h2>
+      <p>El club ofrece membresías <strong>individuales, familiares y temporales</strong> con acceso a todas las instalaciones, actividades exclusivas y beneficios añadidos.</p>
+    </section>
 
-    <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Contacto</h5>
-      <ul class="space-y-1">
-        <li><strong>Teléfono:</strong> +34 942 86 90 00</li>
-        <li><strong>Email:</strong> <a href="mailto:info@nauticocastro.com" class="text-<?= $color_page; ?>-500 hover:underline">info@nauticocastro.com</a></li>
-        <li><strong>Sitio Web:</strong> <a href="https://www.nauticocastro.com" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.nauticocastro.com</a></li>
+    <figure class="my-8">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/club-nautico-castro-urdiales.jpg"
+           alt="Vista general del Club Náutico de Castro Urdiales junto al puerto"
+           class="rounded-lg shadow-sm object-cover w-full h-80 md:h-[28rem]" loading="lazy">
+      <figcaption class="text-sm text-center text-gray-500 mt-2">Club Náutico de Castro Urdiales frente al Cantábrico</figcaption>
+    </figure>
+
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
+        <i class="fas fa-info-circle text-<?= $color_page; ?>-500 mr-2"></i>Contacto</h2>
+      <ul class="space-y-2">
+        <li><strong>📞 Teléfono:</strong> <a href="tel:+34942869000" class="text-<?= $color_page; ?>-600 hover:underline">+34 942 86 90 00</a></li>
+        <li><strong>📧 Email:</strong> <a href="mailto:info@nauticocastro.com" class="text-<?= $color_page; ?>-600 hover:underline">info@nauticocastro.com</a></li>
+        <li><strong>🌐 Web:</strong> <a href="https://www.nauticocastro.com" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-600 hover:underline">nauticocastro.com</a></li>
       </ul>
+    </section>
+
+    <section class="mb-8 text-gray-700">
+      <p>El Club Náutico es el lugar perfecto para quienes aman el mar: deportes, formación y exclusividad en un entorno de primer nivel en Castro Urdiales.</p>
+    </section>
+
+    <div class="text-center mt-8">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">
+        ← Volver a lugares de interés
+      </a>
     </div>
 
-    <p class="mb-8 text-gray-700">
-      El Club Náutico de Castro Urdiales es un lugar ideal para los amantes del mar y las actividades náuticas, ofreciendo un entorno único y servicios de primera calidad.
-    </p>
-
-    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
-  </div>
+  </article>
 </main>

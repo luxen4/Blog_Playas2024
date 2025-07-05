@@ -30,12 +30,12 @@ try {
 <html lang="es">
 
   <head>
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/head-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/_estructura/head/head-generico.php"; ?>
   </head>
 
 <body class="bg-<?= $color_page; ?>-100">
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/body/header-generico.php"; ?>
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/body/post-header-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/_estructura/body/header-generico.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/_estructura/body/post-header-generico.php"; ?>
 
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
     <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/anuncios/js/logica_anuncios.php"; ?>

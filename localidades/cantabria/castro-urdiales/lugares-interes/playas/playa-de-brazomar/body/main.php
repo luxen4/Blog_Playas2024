@@ -35,32 +35,33 @@
     </section>
 
     <section class="my-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-1.jpg"
-             alt="Vista panorámica de la Playa de Brazomar en Castro Urdiales"
-             class="rounded-lg shadow-sm object-cover w-full h-64" itemprop="image">
+          alt="Vista panorámica de la Playa de Brazomar en Castro Urdiales"
+          class="rounded-lg shadow-sm object-cover w-full h-64" itemprop="image">
 
         <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-2.jpg"
-             alt="Orilla y paseo marítimo de la Playa de Brazomar"
-             class="rounded-lg shadow-sm object-cover w-full h-64">
+          alt="Orilla y paseo marítimo de la Playa de Brazomar"
+          class="rounded-lg shadow-sm object-cover w-full h-64">
+
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-3.jpg"
+          alt="Atardecer en la Playa de Brazomar con el sol sobre el mar"
+          class="rounded-lg shadow-sm object-cover w-full h-64">
       </div>
       <p class="text-center text-sm text-gray-500 mt-4">Imágenes de la Playa de Brazomar</p>
     </section>
+
 
     <section class="mb-6 text-gray-700">
       <h3 class="text-xl font-semibold text-blue-800 mb-2">💡 Interés cultural y social</h3>
       <p>Esta playa no solo es un punto turístico, sino también un espacio social clave para los habitantes de Castro Urdiales. Es habitual ver reuniones familiares, eventos locales y actividades organizadas por el ayuntamiento en temporada estival.</p>
     </section>
 
+    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+
     <footer class="mt-8 flex flex-col sm:flex-row sm:justify-between items-center gap-4">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php"
-         class="inline-flex items-center gap-2 px-5 py-2 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition"
-         aria-label="Volver a la lista de lugares de interés">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-        Volver a lugares de interés
-      </a>
+
+      <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
 
       <div class="flex gap-3">
         <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/playa-de-ostende.php" class="text-blue-500 hover:underline text-sm">Playa de Ostende</a>

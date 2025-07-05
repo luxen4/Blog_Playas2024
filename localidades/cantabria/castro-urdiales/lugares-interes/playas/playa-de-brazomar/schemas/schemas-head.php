@@ -8,6 +8,8 @@ $schemaImages = $schemaImages ?? [
 ];
 ?>
 
+<?php $latitude= 43.3842; $longitude= -3.2165; ?>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

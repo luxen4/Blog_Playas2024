@@ -33,8 +33,8 @@
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puente-medieval-1.jpg" alt="Imagen del Puente Medieval" class="rounded-lg shadow-sm object-cover w-full h-64">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puente-medieval-2.jpg" alt="Imagen del Puente Medieval" class="rounded-lg shadow-sm object-cover w-full h-64">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puente-medieval-castro-urdiales-1.jpg" alt="Imagen del Puente Medieval" class="rounded-lg shadow-sm object-cover w-full h-64">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puente-medieval-castro-urdiales-2.png" alt="Imagen del Puente Medieval" class="rounded-lg shadow-sm object-cover w-full h-64">
     </div>
     <p class="text-center text-sm text-gray-500 mb-8">Imágenes del Puente Medieval en Castro Urdiales</p>
 

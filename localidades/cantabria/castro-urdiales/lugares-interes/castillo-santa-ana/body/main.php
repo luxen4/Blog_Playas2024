@@ -1,55 +1,73 @@
-<!-- Main Content Section (Centered) Contenido principal --><main class="container mx-auto max-w-7xl px-1 py-1">
-<main class="container py-1 mx-auto max-w-7xl">  
-<div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
-    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Castillo de Santa Ana</h1>
+<main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/TouristAttraction">
+  <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemprop="description">
+    
+    <header>
+      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-4" itemprop="name">Castillo de Santa Ana en Castro Urdiales</h1>
+      <p class="text-sm text-gray-500"><i class="fas fa-map-marker-alt text-red-500"></i> Monte Santa Ana, s/n · 39700 · Castro Urdiales, Cantabria, España</p>
+    </header>
 
-    <p class="mb-4 text-gray-700"><strong class="text-gray-900">Castillo de Santa Ana</strong> es una de las construcciones más icónicas de Castro Urdiales, una ciudad costera en la región de Cantabria, España. Este castillo, situado en una posición estratégica, ha sido un punto de defensa importante a lo largo de la historia.</p>
+    <section class="mb-6 text-gray-700">
+      <p><strong class="text-gray-900">El Castillo de Santa Ana</strong> es uno de los monumentos más representativos de <strong>Castro Urdiales</strong>, una joya arquitectónica situada sobre un promontorio junto al mar Cantábrico. Esta fortaleza del <strong>siglo XIII</strong> fue clave en la defensa marítima de la villa.</p>
 
-    <p class="mb-4 text-gray-700">Se encuentra en un promontorio rocoso junto al puerto de Castro Urdiales, ofreciendo vistas panorámicas del mar Cantábrico y de la ciudad.</p>
+      <p class="mt-3">Su ubicación privilegiada permite disfrutar de <strong>vistas panorámicas</strong> al puerto y al litoral cantábrico, siendo hoy uno de los <strong>puntos turísticos más visitados</strong> de Cantabria.</p>
+    </section>
 
-    <p class="mb-4 text-gray-700"><strong class="text-gray-900">Dirección:</strong><br>
-      Monte Santa Ana, s/n<br>
-      39700 Castro Urdiales, Cantabria, España</p>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3"><i class="fas fa-university text-<?= $color_page; ?>-500 mr-2"></i>Historia del castillo</h2>
+      <p>Construido entre los siglos XIII y XIV, fue parte esencial del sistema defensivo de la villa. A lo largo del tiempo, ha cumplido funciones militares y de vigilancia. Su estructura ha sido restaurada y adaptada para usos culturales.</p>
+    </section>
 
-    <p class="mb-4 text-gray-700">Construido entre los siglos XIII y XIV, el Castillo de Santa Ana formaba parte del sistema defensivo de la ciudad. Ha sido utilizado para diversos fines militares y ha sido testigo de numerosos acontecimientos históricos. Actualmente, el castillo ha sido restaurado y es un importante atractivo turístico.</p>
-
-    <div class="mb-4 text-gray-700">
-      <p class="font-semibold text-gray-900 mb-2">Elementos destacados:</p>
-      <ul class="list-disc list-inside space-y-1">
-        <li><strong>Torreón:</strong> Punto de vigilancia y defensa.</li>
-        <li><strong>Murallas:</strong> Defensa sólida contra invasores.</li>
-        <li><strong>Faro:</strong> Añadido en el siglo XIX, aún activo y muy característico.</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3"><i class="fas fa-crown text-<?= $color_page; ?>-500 mr-2"></i>Elementos destacados</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Torreón:</strong> Punto de observación y defensa costera.</li>
+        <li><strong>Murallas:</strong> Estructura defensiva de gruesos muros de piedra.</li>
+        <li><strong>Faro:</strong> Instalado en el siglo XIX y aún operativo, es uno de los pocos <strong>faros integrados en un castillo</strong> en España.</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="mb-4 text-gray-700">
-      <p class="font-semibold text-gray-900 mb-2">Actividades y servicios:</p>
-      <ul class="list-disc list-inside space-y-1">
-        <li>Visitas guiadas</li>
-        <li>Exposiciones permanentes y temporales</li>
-        <li>Miradores con vistas al mar</li>
-        <li>Eventos culturales como recreaciones históricas y conciertos</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3"><i class="fas fa-binoculars text-<?= $color_page; ?>-500 mr-2"></i>Actividades y servicios</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>👣 Visitas guiadas diarias</li>
+        <li>🖼️ Exposiciones permanentes y temporales</li>
+        <li>🌅 Miradores con vistas al mar y al casco antiguo</li>
+        <li>🎭 Eventos culturales: conciertos, teatro y recreaciones históricas</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/castillo-de-santa-ana-1.jpg" alt="Imagen del Castillo de Santa Ana" class="rounded-lg shadow-sm object-cover w-full h-64">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/castillo-de-santa-ana-2.png" alt="Imagen del Castillo de Santa Ana" class="rounded-lg shadow-sm object-cover w-full h-64">
-    </div>
-    <p class="text-center text-sm text-gray-500 mb-8">Imágenes del Castillo de Santa Ana en Castro Urdiales</p>
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+      <figure>
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/castillo-de-santa-ana-1.jpg" alt="Vista exterior del Castillo de Santa Ana en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+        <figcaption class="text-sm text-center text-gray-500 mt-2">Fachada del castillo desde el acceso principal</figcaption>
+      </figure>
+      <figure>
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/castillo-de-santa-ana-2.png" alt="Faro dentro del Castillo de Santa Ana en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+        <figcaption class="text-sm text-center text-gray-500 mt-2">Faro del siglo XIX dentro del recinto</figcaption>
+      </figure>
+    </section>
 
-    <p class="mb-6 text-gray-700">Es un símbolo de la rica herencia histórica de Castro Urdiales. Su preservación y restauración permiten a los visitantes conectar con el pasado de la región y apreciar su importancia estratégica y cultural.</p>
+    <section class="mb-6 text-gray-700">
+      <p>Este castillo es una pieza clave del patrimonio de Castro Urdiales. Con su restauración, se ha convertido en un espacio de encuentro entre la historia y la cultura contemporánea.</p>
+    </section>
 
-    <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h5>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3"><i class="fas fa-info-circle text-<?= $color_page; ?>-500 mr-2"></i>📞 Información de contacto</h2>
       <ul class="space-y-1">
-        <li><strong>Teléfono:</strong> +34 942 85 90 65</li>
-        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
+        <li><strong>Teléfono:</strong> <a href="tel:+34942859065" class="text-<?= $color_page; ?>-600 hover:underline">+34 942 85 90 65</a></li>
+        <li><strong>Web oficial:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-600 hover:underline">www.turismocastrourdiales.net</a></li>
       </ul>
+    </section>
+
+    <section class="mb-8 text-gray-700">
+      <p>El <strong>Castillo de Santa Ana</strong> es una visita imprescindible para los amantes de la historia, la arquitectura medieval y los paisajes costeros del norte de España.</p>
+    </section>
+
+    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+
+
+    <div class="text-center mt-8">
+      <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
     </div>
-
-    <p class="mb-8 text-gray-700">El Castillo de Santa Ana es una visita imprescindible para cualquier persona interesada en la historia, la arquitectura y las impresionantes vistas del mar Cantábrico.</p>
-
-    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
-  </div>
+  </article>
 </main>

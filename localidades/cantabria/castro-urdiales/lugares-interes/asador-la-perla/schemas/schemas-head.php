@@ -1,3 +1,6 @@
+  
+  <?php $latitude= 43.3815; $longitude= -3.2190; ?>
+  
   <script type="application/ld+json">
   {
   "@context": "https://schema.org",

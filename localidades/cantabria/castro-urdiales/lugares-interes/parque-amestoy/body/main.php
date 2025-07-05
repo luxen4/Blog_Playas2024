@@ -1,69 +1,76 @@
-<!-- Main Content Section (Centered) Contenido principal -->
+<!-- Main Content Section: Parque Amestoy - Castro Urdiales -->
 <main class="container mx-auto max-w-7xl px-1 py-1">
-  <main class="container py-1 mx-auto max-w-7xl">  
-    <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
-      <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Parque Amestoy</h1>
+  <section class="bg-white rounded-2xl shadow-md p-4 md:p-6">
+    
+    <h1 class="text-2xl md:text-3xl font-bold text-<?= $color_page; ?>-700 mb-6">
+      🌳 Parque Amestoy en Castro Urdiales: naturaleza, ocio y familia
+    </h1>
 
-      <p class="mb-4 text-gray-700">
-        <strong class="text-gray-900">Parque Amestoy</strong> es un espacio verde emblemático en Castro Urdiales, ideal para el ocio, el descanso y actividades al aire libre. Ubicado en el centro urbano, es un punto de encuentro para familias y visitantes.
-      </p>
+    <p class="mb-4 text-gray-700">
+      El <strong class="text-gray-900">Parque Amestoy</strong> es uno de los espacios verdes más representativos de <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>" title="Más lugares de interés en Castro Urdiales" class="text-<?= $color_page; ?>-600 hover:underline">Castro Urdiales</a>, Cantabria. Ubicado en pleno centro urbano, este parque es un lugar ideal para pasear, relajarse y disfrutar de la naturaleza en familia.
+    </p>
 
-      <p class="mb-4 text-gray-700">
-        El parque ofrece amplias zonas ajardinadas, áreas de juegos infantiles, y caminos para pasear disfrutando del entorno natural y la tranquilidad.
-      </p>
+    <p class="mb-4 text-gray-700">
+      Con amplias zonas ajardinadas, áreas infantiles y caminos arbolados, el parque ofrece un entorno acogedor tanto para residentes como visitantes. Es un punto neurálgico en la vida social y cultural de la ciudad.
+    </p>
 
-      <p class="mb-4 text-gray-700">
-        <strong class="text-gray-900">Dirección:</strong><br>
-        Calle Amestoy, s/n<br>
-        39700 Castro Urdiales, Cantabria, España
-      </p>
+    <address class="not-italic mb-4 text-gray-700">
+      <strong class="text-gray-900">📍 Dirección:</strong><br>
+      Calle Amestoy, s/n<br>
+      39700 Castro Urdiales, Cantabria, España
+    </address>
 
-      <p class="mb-4 text-gray-700">
-        Es un lugar perfecto para relajarse, practicar deporte o simplemente pasear y disfrutar del ambiente familiar que lo caracteriza.
-      </p>
+    <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-3">✨ Características principales</h2>
+    <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
+      <li>🌿 Zonas verdes y jardines ornamentales</li>
+      <li>🎠 Área infantil con columpios y juegos</li>
+      <li>🏀 Espacios para deporte y actividades al aire libre</li>
+      <li>🚶 Paseos pavimentados accesibles</li>
+    </ul>
 
-      <div class="mb-4 text-gray-700">
-        <p class="font-semibold text-gray-900 mb-2">Elementos destacados:</p>
-        <ul class="list-disc list-inside space-y-1">
-          <li>Zonas de césped y jardines cuidados.</li>
-          <li>Área infantil con juegos para niños.</li>
-          <li>Pistas deportivas y espacios para actividades al aire libre.</li>
-        </ul>
-      </div>
+    <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-3">🎯 Servicios y actividades</h2>
+    <ul class="list-disc list-inside space-y-1 text-gray-700 mb-6">
+      <li>🚶‍♂️ Paseos urbanos y senderismo suave</li>
+      <li>🎭 Eventos culturales, fiestas locales y mercadillos</li>
+      <li>🍽️ Áreas para picnic y descanso</li>
+      <li>👨‍👩‍👧‍👦 Actividades familiares y educativas</li>
+    </ul>
 
-      <div class="mb-4 text-gray-700">
-        <p class="font-semibold text-gray-900 mb-2">Servicios y actividades:</p>
-        <ul class="list-disc list-inside space-y-1">
-          <li>Paseos y senderismo urbano.</li>
-          <li>Eventos comunitarios y culturales.</li>
-          <li>Áreas para picnic y descanso.</li>
-          <li>Actividades para niños y familias.</li>
-        </ul>
-      </div>
+    <figure class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 my-8">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/parque-amestoy-1.jpg"
+           alt="Vista panorámica del Parque Amestoy con zonas verdes y caminos" 
+           class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/parque-amestoy-2.jpg"
+           alt="Área infantil con columpios en el Parque Amestoy" 
+           class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/parque-amestoy-3.jpg"
+           alt="Paseo arbolado del Parque Amestoy en Castro Urdiales" 
+           class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+    </figure>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/parque-amestoy-1.jpg" alt="Imagen del Parque Amestoy" class="rounded-lg shadow-sm object-cover w-full h-64">
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/parque-amestoy-2.jpg" alt="Imagen del Parque Amestoy" class="rounded-lg shadow-sm object-cover w-full h-64">
-      </div>
-      <p class="text-center text-sm text-gray-500 mb-8">Imágenes del Parque Amestoy en Castro Urdiales</p>
+    <p class="text-center text-sm text-gray-500 mb-8">Fotografías del Parque Amestoy en Castro Urdiales</p>
 
-      <p class="mb-6 text-gray-700">
-        El Parque Amestoy es un pulmón verde en el corazón de Castro Urdiales, ofreciendo un espacio de conexión con la naturaleza y con la comunidad local.
-      </p>
+    <p class="mb-6 text-gray-700">
+      El <strong>Parque Amestoy</strong> es el corazón verde de la ciudad. Su ubicación estratégica y sus múltiples zonas de uso lo convierten en una parada obligatoria para quienes visitan <a href="https://www.turismocastrourdiales.net" title="Turismo en Castro Urdiales" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-500 hover:underline">Castro Urdiales</a>.
+    </p>
 
-      <div class="mb-6 text-gray-700">
-        <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h5>
-        <ul class="space-y-1">
-          <li><strong>Teléfono:</strong> +34 942 85 90 65</li>
-          <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
-        </ul>
-      </div>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h2>
+      <ul class="space-y-1">
+        <li><strong>Teléfono:</strong> <a href="tel:+34942859065" class="text-<?= $color_page; ?>-500 hover:underline">+34 942 85 90 65</a></li>
+        <li><strong>Web turística oficial:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
+      </ul>
+    </section>
 
-      <p class="mb-8 text-gray-700">
-        Una visita obligada para quienes buscan un espacio abierto, seguro y acogedor en pleno Castro Urdiales.
-      </p>
+    <p class="mb-8 text-gray-700">
+      Si buscas un espacio tranquilo y familiar en el centro de <strong>Castro Urdiales</strong>, el Parque Amestoy es tu mejor opción. ¡No olvides llevar tu cámara y disfrutar del ambiente local!
+    </p>
 
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
-    </div>
-  </main>
+    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php"
+       class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition"
+       title="Volver a lugares de interés">
+      ← Volver a lugares de interés
+    </a>
+
+  </section>
 </main>

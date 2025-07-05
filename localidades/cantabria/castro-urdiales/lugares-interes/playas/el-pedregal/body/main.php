@@ -1,56 +1,59 @@
-<!-- Main Content Section (Playa El Pedregal) -->
-<main class="container mx-auto max-w-7xl px-1 py-1">
-  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
-    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Playa El Pedregal</h1>
+<main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/Beach">
+  <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemprop="description">
 
-    <p class="mb-4 text-gray-700">
-      <strong class="text-gray-900">La Playa El Pedregal</strong> es una pequeña cala de cantos rodados ubicada en Castro Urdiales, Cantabria. Su entorno natural y tranquilo la convierte en un lugar ideal para desconectar del bullicio y disfrutar del mar Cantábrico en un ambiente relajado.
-    </p>
+    <header>
+      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-4" itemprop="name">Playa El Pedregal</h1>
+      <p class="text-sm text-gray-500">
+        <i class="fas fa-map-marker-alt text-blue-500"></i> Barrio de Brazomar, 39700 Castro Urdiales, Cantabria, España
+      </p>
+    </header>
 
-    <p class="mb-4 text-gray-700">
-      Aunque no es una playa de arena, su belleza reside en el contraste de las rocas, el sonido del oleaje y la vista del horizonte. Es perfecta para quienes buscan un rincón más íntimo y menos concurrido.
-    </p>
+    <section class="mb-6 text-gray-700">
+      <p><strong class="text-gray-900">La Playa El Pedregal</strong> es una cala tranquila de cantos rodados situada en Castro Urdiales, ideal para quienes buscan paz, naturaleza y vistas únicas del mar Cantábrico.</p>
+      <p class="mt-3">Aunque no es una playa de arena, su encanto reside en su carácter salvaje, las rocas que dibujan la costa y el sonido del oleaje. Es perfecta para desconectar, leer o practicar fotografía de paisaje.</p>
+    </section>
 
-    <p class="mb-4 text-gray-700">
-      <strong class="text-gray-900">Ubicación:</strong><br>
-      Barrio de Brazomar<br>
-      39700 Castro Urdiales, Cantabria, España
-    </p>
-
-    <div class="mb-4 text-gray-700">
-      <p class="font-semibold text-gray-900 mb-2">Características destacadas:</p>
-      <ul class="list-disc list-inside space-y-1">
-        <li><strong>Tipo de playa:</strong> Cantos rodados y rocas</li>
-        <li><strong>Ambiente:</strong> Tranquilo y natural</li>
-        <li><strong>Accesibilidad:</strong> A pie, con senderos costeros cercanos</li>
-        <li><strong>Ideal para:</strong> Relajación, fotografía, pesca recreativa</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">🏖️ Características principales</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Tipo:</strong> Playa de cantos rodados y fondo rocoso</li>
+        <li><strong>Ambiente:</strong> Natural, silencioso, sin aglomeraciones</li>
+        <li><strong>Acceso:</strong> A pie desde el paseo marítimo</li>
+        <li><strong>Perfecta para:</strong> Relajación, fotografía, pesca recreativa</li>
+        <li><strong>Servicios:</strong> No dispone de servicios turísticos</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-el-pedregal-castro-urdiales-1.jpg" alt="Vista general de la Playa El Pedregal" class="rounded-lg shadow-sm object-cover w-full h-72">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-el-pedregal-castro-urdiales-2.jpg" alt="Detalle de las rocas en la Playa El Pedregal" class="rounded-lg shadow-sm object-cover w-full h-72">
-    </div>
+    <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-el-pedregal-castro-urdiales-1.jpg"
+           alt="Vista panorámica de la Playa El Pedregal en Castro Urdiales"
+           class="rounded-lg shadow-sm object-cover w-full h-72" loading="lazy">
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-el-pedregal-castro-urdiales-2.jpg"
+           alt="Detalle de los cantos rodados en Playa El Pedregal"
+           class="rounded-lg shadow-sm object-cover w-full h-72" loading="lazy">
+    </figure>
 
-    <p class="text-center text-sm text-gray-500 mb-8">Imágenes de la Playa El Pedregal en Castro Urdiales</p>
+    <p class="text-center text-sm text-gray-500 mb-8">Imágenes de la Playa El Pedregal, en la costa de Cantabria</p>
 
-    <p class="mb-6 text-gray-700">
-      Esta playa es perfecta para quienes valoran la serenidad y el contacto directo con la naturaleza. Aunque no cuenta con servicios turísticos, su autenticidad la convierte en uno de los rincones más especiales del litoral cántabro.
-    </p>
-
-    <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📍 Cómo llegar</h5>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">📍 Cómo llegar</h2>
       <ul class="space-y-1">
-        <li><strong>A pie:</strong> Desde el centro de Castro Urdiales por el paseo marítimo hacia Brazomar</li>
-        <li><strong>En coche:</strong> Aparcamiento cercano en zonas residenciales</li>
-        <li><strong>Coordenadas GPS:</strong> 43.3865, -3.2161</li>
+        <li><strong>A pie:</strong> Desde el centro por el paseo marítimo hacia Brazomar</li>
+        <li><strong>En coche:</strong> Aparcamientos disponibles en calles cercanas</li>
+        <li><strong>Coordenadas GPS:</strong> <a href="https://www.google.com/maps?q=43.3865,-3.2161" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-500 hover:underline">43.3865, -3.2161</a></li>
       </ul>
-    </div>
+    </section>
 
-    <p class="mb-8 text-gray-700">
-      La Playa El Pedregal es un lugar ideal para quienes buscan naturaleza sin artificios, y una conexión auténtica con la costa cántabra.
-    </p>
+    <section class="mb-6 text-gray-700">
+      <h3 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-2">🌊 Una experiencia auténtica</h3>
+      <p>La Playa El Pedregal es ideal para quienes valoran el contacto directo con la naturaleza y prefieren calas apartadas. A pesar de no contar con servicios turísticos, su belleza serena la convierte en uno de los secretos mejor guardados de la costa de Castro Urdiales.</p>
+    </section>
 
-    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
-  </div>
+    <footer class="text-center mt-8">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php"
+         class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">
+        ← Volver a lugares de interés
+      </a>
+    </footer>
+  </article>
 </main>

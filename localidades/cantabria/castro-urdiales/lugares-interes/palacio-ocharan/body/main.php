@@ -1,55 +1,64 @@
-<!-- Main Content Section (Centered) Contenido principal -->
-<main class="container mx-auto max-w-7xl px-1 py-1">
-<main class="container py-1 mx-auto max-w-7xl">  
-  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
-    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Palacio ocharan</h1>
+<!-- Contenido principal del Palacio Ocharan - Optimizado SEO -->
+<main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/TouristAttraction">
 
-    <p class="mb-4 text-gray-700"><strong class="text-gray-900">Palacio ocharan</strong> es un emblemático edificio señorial de Castro Urdiales, ubicado en el centro histórico de la ciudad. Este palacio refleja la arquitectura tradicional cántabra y es un símbolo del patrimonio civil local.</p>
+  <article class="bg-white rounded-2xl shadow-md p-6" itemprop="description">
+    <header>
+      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-4" itemprop="name">Palacio Ocharan en Castro Urdiales</h1>
+      <p class="text-sm text-gray-500 mb-4"><i class="fas fa-map-marker-alt text-red-500"></i> Calle San Juan, 1, 39700 Castro Urdiales, Cantabria, España</p>
+    </header>
 
-    <p class="mb-4 text-gray-700">Situado cerca del puerto y la plaza principal, el Palacio ocharan destaca por su fachada con escudos heráldicos y su impresionante estructura, que transporta a los visitantes a épocas pasadas.</p>
+    <section class="mb-6 text-gray-700 leading-relaxed">
+      <p><strong class="text-gray-900">El Palacio Ocharan</strong> es un monumento histórico situado en el <strong>centro de Castro Urdiales</strong>, junto al puerto y la plaza mayor. Este palacio señorial refleja el esplendor de la <em>arquitectura tradicional cántabra</em>, siendo un referente del <strong>patrimonio histórico y cultural</strong> de Cantabria.</p>
+      
+      <p class="mt-4">Construido en el <strong>siglo XVII</strong>, ha sido residencia de familias nobiliarias y actualmente acoge <strong>exposiciones culturales</strong>, <strong>visitas guiadas</strong> y eventos patrimoniales.</p>
+    </section>
 
-    <p class="mb-4 text-gray-700"><strong class="text-gray-900">Dirección:</strong><br>
-      Calle San Juan, 1<br>
-      39700 Castro Urdiales, Cantabria, España</p>
-
-    <p class="mb-4 text-gray-700">Construido en el siglo XVII, este palacio ha sido residencia de importantes familias nobiliarias de la región y actualmente se utiliza para eventos culturales y exposiciones temporales que enriquecen la vida cultural de Castro Urdiales.</p>
-
-    <div class="mb-4 text-gray-700">
-      <p class="font-semibold text-gray-900 mb-2">Elementos destacados:</p>
-      <ul class="list-disc list-inside space-y-1">
-        <li><strong>Fachada principal:</strong> Decorada con escudos y elementos heráldicos.</li>
-        <li><strong>Patio interior:</strong> Espacio típico de la arquitectura señorial.</li>
-        <li><strong>Detalles arquitectónicos:</strong> Ventanas con molduras y balcones de hierro forjado.</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3"><i class="fas fa-landmark text-<?= $color_page; ?>-500 mr-2"></i>Características arquitectónicas destacadas</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Fachada principal:</strong> Decorada con escudos heráldicos tallados en piedra.</li>
+        <li><strong>Patio interior:</strong> Elemento típico de la arquitectura nobiliaria cántabra.</li>
+        <li><strong>Ventanas y balcones:</strong> Molduras ornamentales y barandillas de hierro forjado.</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="mb-4 text-gray-700">
-      <p class="font-semibold text-gray-900 mb-2">Actividades y servicios:</p>
-      <ul class="list-disc list-inside space-y-1">
-        <li>Visitas guiadas bajo solicitud</li>
-        <li>Exposiciones temporales</li>
-        <li>Eventos culturales y presentaciones</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3"><i class="fas fa-calendar-alt text-<?= $color_page; ?>-500 mr-2"></i>Actividades y servicios disponibles</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>👣 Visitas guiadas (bajo solicitud)</li>
+        <li>🖼️ Exposiciones temporales de arte y cultura</li>
+        <li>🎭 Eventos culturales, presentaciones y actos públicos</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/Palacio_Ocharan_Castro_Urdiales.jpg" alt="Imagen del Palacio ocharan" class="rounded-lg shadow-sm object-cover w-full h-64">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/Castillo_Ocharan_Castro_Urdiales.jpg" alt="Imagen del Palacio ocharan" class="rounded-lg shadow-sm object-cover w-full h-64">
-    </div>
-    <p class="text-center text-sm text-gray-500 mb-8">Imágenes del Palacio ocharan en Castro Urdiales</p>
+    <section class="my-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <figure>
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/Palacio_Ocharan_Castro_Urdiales.jpg" alt="Fachada del Palacio Ocharan en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+        <figcaption class="text-sm text-center text-gray-500 mt-2">Vista frontal del Palacio Ocharan</figcaption>
+      </figure>
+      <figure>
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/Castillo_Ocharan_Castro_Urdiales.jpg" alt="Castillo anexo al Palacio Ocharan en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+        <figcaption class="text-sm text-center text-gray-500 mt-2">Castillo Ocharan, parte del conjunto arquitectónico</figcaption>
+      </figure>
+    </section>
 
-    <p class="mb-6 text-gray-700">El Palacio ocharan representa la riqueza histórica y cultural de Castro Urdiales, siendo una parada esencial para los amantes de la arquitectura y la historia local.</p>
+    <section class="mb-6 text-gray-700">
+      <p>El Palacio Ocharan es una parada obligatoria para los amantes de la historia, el arte y la arquitectura. Representa la riqueza del <strong>legado civil cántabro</strong> y la vida cultural de Castro Urdiales.</p>
+    </section>
 
-    <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h5>
-      <ul class="space-y-1">
-        <li><strong>Teléfono:</strong> +34 942 85 90 65</li>
-        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3"><i class="fas fa-info-circle text-<?= $color_page; ?>-500 mr-2"></i>Información de contacto</h2>
+      <ul class="space-y-2">
+        <li><strong>📞 Teléfono:</strong> <a href="tel:+34942859065" class="text-<?= $color_page; ?>-600 hover:underline">+34 942 85 90 65</a></li>
+        <li><strong>🌐 Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-600 hover:underline">www.turismocastrourdiales.net</a></li>
       </ul>
+    </section>
+
+    <div class="text-center mt-8">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">
+        ← Volver a lugares de interés
+      </a>
     </div>
+  </article>
 
-    <p class="mb-8 text-gray-700">Visitar el Palacio ocharan es sumergirse en la historia señorial de Castro Urdiales y disfrutar de su arquitectura tradicional cántabra.</p>
-
-    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
-  </div>
 </main>

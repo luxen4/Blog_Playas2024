@@ -1,55 +1,75 @@
-<!-- Main Content Section (Centered) Contenido principal -->
-<main class="container py-1 mx-auto max-w-7xl">  
-  <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
-    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Iglesia de Santa María de la Asunción</h1>
+<main class="container py-1 mx-auto max-w-7xl">
+  <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemscope itemtype="https://schema.org/Church">
 
-    <p class="mb-4 text-gray-700"><strong class="text-gray-900">La Iglesia de Santa María de la Asunción</strong> es uno de los monumentos góticos más importantes de Cantabria, y el principal exponente de la arquitectura religiosa en Castro Urdiales.</p>
+    <header>
+      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-4" itemprop="name">Iglesia de Santa María de la Asunción</h1>
+      <p class="text-sm text-gray-500">
+        <i class="fas fa-map-marker-alt text-blue-500"></i> Calle Santa María, s/n – 39700 Castro Urdiales, Cantabria
+      </p>
+    </header>
 
-    <p class="mb-4 text-gray-700">Situada sobre un promontorio rocoso con vistas al mar Cantábrico, junto al Castillo de Santa Ana, esta iglesia fue construida entre los siglos XIII y XV y está declarada Bien de Interés Cultural.</p>
+    <section class="mb-6 text-gray-700" itemprop="description">
+      <p><strong class="text-gray-900">La Iglesia de Santa María de la Asunción</strong> es una joya del gótico en Cantabria y el templo más representativo de Castro Urdiales. Su construcción entre los siglos XIII y XV la convierte en uno de los grandes testimonios medievales del norte de España.</p>
+      <p class="mt-3">Ubicada en un enclave privilegiado junto al mar Cantábrico, destaca por su arquitectura gótica francesa, sus muros de sillería, arbotantes, gárgolas, y una girola espectacular con vidrieras que iluminan su interior.</p>
+    </section>
 
-    <p class="mb-4 text-gray-700"><strong class="text-gray-900">Dirección:</strong><br>
-      Calle Santa María, s/n<br>
-      39700 Castro Urdiales, Cantabria, España</p>
-
-    <p class="mb-4 text-gray-700">El templo destaca por su estilo gótico francés, sus altos muros de piedra, sus vidrieras y sus bóvedas de crucería. Su aspecto exterior recuerda a una catedral fortificada, y en su interior alberga importantes obras de arte sacro.</p>
-
-    <div class="mb-4 text-gray-700">
-      <p class="font-semibold text-gray-900 mb-2">Elementos destacados:</p>
-      <ul class="list-disc list-inside space-y-1">
-        <li><strong>Ábside y girola:</strong> Bellamente decorados con tracería gótica.</li>
-        <li><strong>Puerta del Perdón:</strong> Entrada lateral con arcos ojivales.</li>
-        <li><strong>Retablos y esculturas:</strong> Arte sacro de distintas épocas.</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">✨ Elementos arquitectónicos destacados</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li><strong>Ábside y girola:</strong> Decoración gótica con gran riqueza escultórica.</li>
+        <li><strong>Puerta del Perdón:</strong> Acceso lateral con arcos ojivales y capiteles labrados.</li>
+        <li><strong>Retablos:</strong> Obras barrocas y renacentistas conservadas en perfecto estado.</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="mb-4 text-gray-700">
-      <p class="font-semibold text-gray-900 mb-2">Actividades y servicios:</p>
-      <ul class="list-disc list-inside space-y-1">
-        <li>Visitas culturales y religiosas</li>
-        <li>Celebraciones litúrgicas</li>
-        <li>Conciertos de música sacra</li>
-        <li>Acceso a la explanada con vistas al mar</li>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">🕍 Actividades y servicios disponibles</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Visitas turísticas guiadas y libres</li>
+        <li>Celebraciones religiosas (misas, bodas, bautizos)</li>
+        <li>Conciertos de órgano y música sacra</li>
+        <li>Acceso a la explanada con vistas panorámicas al mar</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/iglesia-santa-maria-asuncion-1.jpg" alt="Imagen de la Iglesia de Santa María de la Asunción" class="rounded-lg shadow-sm object-cover w-full h-64">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/iglesia-santa-maria-asuncion-2.jpg" alt="Interior de la Iglesia de Santa María de la Asunción" class="rounded-lg shadow-sm object-cover w-full h-64">
-    </div>
+<figure class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 my-8">
+  <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/iglesia-santa-maria-de-la-asuncion-castro-urdiales-1.jpg"
+       alt="Vista exterior de la Iglesia de Santa María de la Asunción en Castro Urdiales"
+       class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+
+  <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/iglesia-santa-maria-de-la-asuncion-castro-urdiales-2.jpg"
+       alt="Interior gótico de la Iglesia de Santa María de la Asunción"
+       class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+
+  <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/iglesia-santa-maria-de-la-asuncion-castro-urdiales-3.jpg"
+       alt="Detalle arquitectónico de la Iglesia de Santa María de la Asunción"
+       class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+</figure>
+
+
     <p class="text-center text-sm text-gray-500 mb-8">Imágenes de la Iglesia de Santa María de la Asunción en Castro Urdiales</p>
 
-    <p class="mb-6 text-gray-700">Es un lugar imprescindible para los amantes de la historia, el arte y la arquitectura religiosa. Su entorno junto al mar y su monumentalidad la convierten en uno de los principales atractivos de la villa.</p>
-
-    <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h5>
+    <section class="mb-6 text-gray-700">
+      <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h2>
       <ul class="space-y-1">
         <li><strong>Teléfono:</strong> +34 942 86 97 11</li>
-        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
+        <li><strong>Sitio web:</strong>
+          <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener" class="text-<?= $color_page; ?>-500 hover:underline">
+            www.turismocastrourdiales.net
+          </a>
+        </li>
       </ul>
-    </div>
+    </section>
 
-    <p class="mb-8 text-gray-700">La Iglesia de Santa María de la Asunción es testigo del pasado medieval de Castro Urdiales y un lugar que no puedes dejar de visitar.</p>
+    <section class="mb-8 text-gray-700">
+      <p>Este templo es una visita imprescindible para quienes desean admirar el arte gótico en un entorno costero único. Su monumentalidad, historia y ubicación la convierten en uno de los grandes tesoros patrimoniales de Cantabria.</p>
+    </section>
 
-    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
-  </div>
+    <footer class="text-center mt-6">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php"
+         class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">
+        ← Volver a lugares de interés
+      </a>
+    </footer>
+  </article>
 </main>

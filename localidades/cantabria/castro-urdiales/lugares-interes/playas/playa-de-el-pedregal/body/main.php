@@ -43,8 +43,8 @@
     </section>
 
     <section class="my-8 grid grid-cols-1 md:grid-cols-2 gap-6" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/playa-el-pedregal-castro-urdiales-1.jpg" alt="Vista general de la Playa El Pedregal" class="rounded-lg shadow-md object-cover w-full h-72" itemprop="url" />
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/playa-el-pedregal-castro-urdiales-2.jpg" alt="Detalle de las rocas en la Playa El Pedregal" class="rounded-lg shadow-md object-cover w-full h-72" />
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/playa-el-pedregal-castro-urdiales-1.webp" alt="Vista general de la Playa El Pedregal" class="rounded-lg shadow-md object-cover w-full h-72" itemprop="url" loading="lazy" />
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/playa-el-pedregal-castro-urdiales-2.webp" alt="Detalle de las rocas en la Playa El Pedregal" class="rounded-lg shadow-md object-cover w-full h-72" loading="lazy" />
       <meta itemprop="width" content="1200" />
       <meta itemprop="height" content="800" />
     </section>
@@ -71,25 +71,10 @@
       </ul>
     </section>
 
-    <section class="mb-8 text-gray-700">
-      <p>
-        La Playa El Pedregal es un lugar ideal para quienes buscan naturaleza sin artificios, y una conexión auténtica con la costa cántabra.
-      </p>
-    </section>
 
-    <footer class="flex flex-col sm:flex-row sm:justify-between items-center gap-4">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>/index.php" class="inline-flex items-center gap-2 px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition" aria-label="Volver a lugares de interés">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-        </svg>
-        Volver a lugares de interés
-      </a>
+    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN. '/enlace-google-maps.php'; ?>
 
-      <nav class="flex gap-6 text-sm">
-        <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>/playa-de-brazomar.php" class="text-<?= $color_page; ?>-600 hover:underline" aria-label="Playa de Brazomar">Playa de Brazomar</a>
-        <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>/playa-de-ostende.php" class="text-<?= $color_page; ?>-600 hover:underline" aria-label="Playa de Ostende">Playa de Ostende</a>
-        <a href="<?= PATH_HREF_RAIZ .'/puerto-pesquero-castro-urdiales'; ?>" class="text-<?= $color_page; ?>-600 hover:underline" aria-label="Puerto Pesquero">Puerto Pesquero</a>
-      </nav>
-    </footer>
+    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN. '/enlace-lugares-interes.php'; ?>
+
   </article>
 </main>

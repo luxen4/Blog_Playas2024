@@ -9,6 +9,8 @@ $rutas = 'playa-de-el-pedregal-castro-urdiales-cantabria';
 $color_page = 'stone'; // color para Tailwind, adapta si quieres
 $tema_footer = '- Playa de El Pedregal -';
 
+$latitude=43.3865; $longitude=-3.2161;
+
 // JSON-LD básico para head (resumen del lugar)
 $schemaBasic = [
   "@context" => "https://schema.org",

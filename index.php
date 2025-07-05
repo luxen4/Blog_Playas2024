@@ -1,13 +1,15 @@
 <?php 
-  $title = 'Playas del Cantabrico';
+  $title = 'Playas del Cantabrico'; $lugar_interes= 'playas-cantabrico';
   $region_minuscula = '';
   $carpeta = 'home';
   $tema_footer = 'Playas del Cantábrico';
   $tema = $tema_footer;
   $color_page = 'orange';
+
   $name_blog = 'Blog Playas 2025'; 
   $author_content = 'Adrián Laya García'; 
 ?>
+
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_HOME_HEAD_VARIABLES . "/meta-tags.php"; ?>
@@ -19,8 +21,6 @@
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title><?= $title; ?></title>
   <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
-
-
 
   <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 
@@ -67,8 +67,6 @@
             </section>
           </section>
 
-          
-
           <div class="row">
             <div class="col-12">
               <?php include PATH_RAIZ_LOCALIDADES . '/cantabria/sumario-playas-cantabria.php'; ?>
@@ -90,12 +88,13 @@
       <div class="col-12 col-md-3 d-none d-md-block">
         <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
       </div>
-    </div> <!-- Cierre de .row justify-content-center -->
+    </div> 
   </main>
 
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
-  <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
+  <?php // require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
+  <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
   <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>
   <?php require PATH_RAIZ_BLOQUES . "/control/control-visitas.php"; ?>
 
@@ -105,20 +104,28 @@
 </html>
 
 
+<?php 
+/*
+  ftpupload.net
 
-    <?php /*
-ftpupload.net
+  FTP USERNAME
+  if0_38843592
 
-FTP USERNAME
-if0_38843592
-
-USERNAME
-if0_38843592 
+  USERNAME
+  if0_38843592 
 
 
-PASSWORD
-5HJqjWqYLP4k  
+  PASSWORD
+  5HJqjWqYLP4k  
 
-http://playas2025.kesug.com/Blog_Playas2025/*/
-    https: //playas2025.kesug.com/Blog_Playas2025/
-    ?>
+  http://playas2025.kesug.com/Blog_Playas2025/
+  https: //playas2025.kesug.com/Blog_Playas2025/
+  
+
+
+
+https://chatgpt.com/?model=auto
+
+
+*/    
+?>

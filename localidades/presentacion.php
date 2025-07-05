@@ -4,12 +4,8 @@
     <?= $presentacion; ?>
 </p>
 
-<a href="localidades/<?= $region ?>/<?= $carpeta ?>/index.php" 
+<a href="<?= PATH_HREF_RAIZ_LOCALIDAD_CANTABRIA_CASTRO_URDIALES_PLAYAS_PLAYA_DE_OSTENDE ?>/index.php" 
    target="_blank" 
    class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
     Más info...
 </a>
-
-
-
-

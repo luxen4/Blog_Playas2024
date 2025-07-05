@@ -8,7 +8,7 @@
         <figure style="text-align: center;">
             <?php /*<a href="playa-de-<?= $archivo_name . '-' . $region; ?>" target="_blank">*/ ?>
             <a href='localidades/<?= $region ?>/<?= $carpeta ?>/fichas/playa-de-<?= $archivo_name ."-".$region;  ?>.php' target="_blank">
-                <img src="localidades/<?= $region . '/' . $carpeta; ?>/img/playa-de-<?= $archivo_name .'-' .$region ; ?>.jpg" alt="Imagen de <?= $localidad_nombre; ?>" class="img-fluid">
+                <img src="localidades/<?= $region . '/' .$localidad_minuscula. '/lugares-interes/playas/' .$carpeta ?>/img/playa-de-<?= $archivo_name .'-' .$region ; ?>-1.jpg" alt="Imagen de <?= $localidad_nombre; ?>" class="img-fluid">
             </a>
             <figcaption>Vista de la <?= $localidad_nombre; ?></figcaption>
         </figure>

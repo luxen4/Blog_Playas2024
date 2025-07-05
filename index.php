@@ -1,6 +1,6 @@
 <?php 
   $title = 'Playas del Cantabrico'; $lugar_interes= 'playas-cantabrico';
-  $region_minuscula = '';
+  $region_minuscula = 'cantabria';
   $carpeta = 'home';
   $tema_footer = 'Playas del Cantábrico';
   $tema = $tema_footer;
@@ -69,7 +69,7 @@
 
           <div class="row">
             <div class="col-12">
-              <?php include PATH_RAIZ_LOCALIDADES . '/cantabria/sumario-playas-cantabria.php'; ?>
+              <?php include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-cantabria.php'; ?>
               <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
             </div>
             <div class="col-12">

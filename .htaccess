@@ -46,7 +46,6 @@
 
 
 
-
     # Somo
     RewriteRule ^playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/playa-de-somo-loredo-somo-cantabria.php [L]
     RewriteRule ^actividades-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/actividades-playa-de-somo-loredo-somo-cantabria.php [L]

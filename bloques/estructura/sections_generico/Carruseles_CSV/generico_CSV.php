@@ -1,3 +1,4 @@
+
 <?php // Crear un array vacío
 $arrayElementos = array(
     array("nombre" => "botas_hombre", "tipoPublicidad" => "horizontal"),

@@ -1,3 +1,5 @@
+<?php $latitude= 43.38738;  $longitude= -3.22463; ?>
+
 <?php
 // Variables para el schema
 $schemaTitle = "Playa de Ostende - Castro Urdiales";
@@ -32,8 +34,8 @@ $schemaAddress = [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.3879,
-    "longitude": -3.2131
+    "latitude": <?= $latitude ?>,
+    "longitude": <?= $longitude ?>
   },
   "sameAs": [
     "https://www.turismocastrourdiales.net"

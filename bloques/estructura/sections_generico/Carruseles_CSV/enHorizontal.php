@@ -1,4 +1,4 @@
-<div class="w-full my-2 py-2 px-4 rounded-lg" id="carouselExampleIndicators">
+<div class="w-full my-2 py-2 px-1 rounded-lg" id="carouselExampleIndicators">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="max-w-screen-xl mx-auto">

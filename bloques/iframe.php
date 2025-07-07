@@ -34,8 +34,8 @@ foreach ($archivos as $clave => $archivo) {
     &times;
   </button>
 
-  <div class="row border border-gray-200 rounded shadow-sm p-3 bg-white">
-    <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
+  <div class="row border border-gray-200 rounded shadow-sm p-1 bg-white" >
+    <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12" style="padding: 0px;">
       <?php foreach ($publicidadPaths as $clave => $ruta): ?>
         <div class="bloque-anuncio" data-clave="<?= $clave ?>" style="display: none;">
           <?php require $ruta; ?>

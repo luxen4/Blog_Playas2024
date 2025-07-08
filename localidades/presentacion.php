@@ -9,3 +9,11 @@
    class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
     Más info...
 </a>
+
+<a href="<?= $ruta_playa; ?>/index.php" 
+   target="_blank" 
+   class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
+    Más info...
+</a>
+
+

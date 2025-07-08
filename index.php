@@ -6,7 +6,7 @@
   $tema = $tema_footer;
   $color_page = 'orange';
 
-  $name_blog = 'Blog Playas 2025'; 
+  //$name_blog = 'Blog Playas 2025'; 
   $author_content = 'Adrián Laya García'; 
 ?>
 
@@ -69,7 +69,7 @@
 
           <div class="row">
             <div class="col-12">
-              <?php include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-cantabria.php'; ?>
+              <?php //include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-cantabria.php'; ?>
               <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
             </div>
             <div class="col-12">
@@ -79,7 +79,9 @@
               <?php //include './localidades/gipuzkoa/sumario-playas-gipuzkoa.php'; ?>
             </div>
             <div class="col-12">
-              <?php /*include './localidades/francia/sumario-playas-francia.php'; */ ?>
+              <?php 
+              $region='Francia'; $region_minuscula = strtolower($localidad);
+              include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-francia.php'; ?>
             </div>
           </div>
         </div>

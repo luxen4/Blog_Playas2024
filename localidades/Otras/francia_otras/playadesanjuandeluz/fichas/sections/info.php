@@ -160,42 +160,42 @@ $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/' . 
 
     $imagenes = [
         [
-            'src' => $ruta . '/vista-aerea-playa-San-Juan-de-Luz.jpg',
+            'src' => $ruta . '/vista-aerea-playa-saint-jean-de-luz.jpg',
             'alt' => 'Vista aérea de la Playa de San Juan de Luz.',
             'figcaption' => 'Vista aérea de la Playa de San Juan de Luz.',
             'href' => 'https://www.elmundo.es/metropoli/otros-planes/2017/09/12/59b79510e2704ec51c8b45cc.html',
             'titulo_href' => 'elmundo.es'
         ],
         [
-            'src' => $ruta . '/surfistas-playa-San-Juan-de-Luz.jpg',
+            'src' => $ruta . '/surfistas-playa-saint-jean-de-luz.jpg',
             'alt' => 'Surf en Playa de San Juan de Luz',
             'figcaption' => 'Surf en la Playa de San Juan de Luz.',
             'href' => 'https://www.saint-jean-de-luz.com/es/actividades-y-ocio/',
             'titulo_href' => 'saint-jean-de-luz.com'
         ],
         [
-            'src' => $ruta .'/vista-general-casetas-playa-San-Juan-de-Luz.jpg',
+            'src' => $ruta .'/vista-general-casetas-playa-saint-jean-de-luz.jpg',
             'alt' => 'Vista general de las casetas de la playa de San Juan de Luz en Francia',
             'figcaption' => 'Vista general de las casetas de la playa de San Juan de Luz',
-            'href' => 'https://www.sistersandthecity.com/48-horas-en-san-juan-de-luz/',
+            'href' => 'https://www.sistersandthecity.com/48-horas-en-saint-jean-de-luz/',
             'titulo_href' => 'sistersandthecity.com'
         ],
         [
-            'src' => $ruta .'/senderismo-San-Juan-de-Luz-Francia.jpg',
+            'src' => $ruta .'/senderismo-saint-jean-de-luz-Francia.jpg',
             'alt' => 'Senderismo cerca de Playa de San Juan de Luz en Francia.',
             'figcaption' => 'Senderismo cerca de la Playa de San Juan de Luz.',
             'href' => 'https://es.wikiloc.com/rutas/senderismo/francia/aquitaine-limousin-poitou-charentes/hendaye',
             'titulo_href' => 'es.wikiloc.com'
         ],
         [
-            'src' => $ruta . '/vistas-paseo-maritimo-San-Juan-de-Luz-Francia.jpg',
+            'src' => $ruta . '/vistas-paseo-maritimo-saint-jean-de-luz-Francia.jpg',
             'alt' => 'Vista paseo maritimo de San Juan de Luz en Francia.',
             'figcaption' => 'Vista paseo maritimo de San Juan de Luz.',
             'href' => 'https://mairiefontenay95.fr/playa+en+hendaya',
             'titulo_href' => 'mairiefontenay95.fr'
         ],
         [
-            'src' => $ruta .'/paseos-barco-San-Juan-de-Luz-Francia.png',
+            'src' => $ruta .'/paseos-barco-saint-jean-de-luz-Francia.png',
             'alt' => 'Paseos en barco en la playa de San Juan de Luz, Francia.',
             'figcaption' => 'Paseos en barco en la playa de San Juan de Luz.',
             'href' => 'https://www.losviajeros.com/Fotos.php?pl=64742',

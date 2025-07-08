@@ -258,12 +258,12 @@ RewriteRule ^preguntas-frecuentes-playa-de-hendaya-francia$ localidades/gipuzkoa
 
 
 #San Juan de Luz
-RewriteRule ^playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-san-juan-de-luz-francia.php [L]
-RewriteRule ^actividades-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-san-juan-de-luz-francia.php [L]
-RewriteRule ^como-llegar-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/como-llegar-playa-de-san-juan-de-luz-francia.php [L]
-RewriteRule ^servicios-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/servicios-playa-de-san-juan-de-luz-francia.php [L]
-RewriteRule ^eventos-festividades-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/eventos-festividades-playa-de-san-juan-de-luz-francia.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-san-juan-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/preguntas-frecuentes-playa-de-san-juan-de-luz-francia.php [L]
+RewriteRule ^playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz-francia.php [L]
+RewriteRule ^actividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-saint-jean-de-luz-francia.php [L]
+RewriteRule ^como-llegar-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/como-llegar-playa-de-saint-jean-de-luz-francia.php [L]
+RewriteRule ^servicios-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/servicios-playa-de-saint-jean-de-luz-francia.php [L]
+RewriteRule ^eventos-festividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/eventos-festividades-playa-de-saint-jean-de-luz-francia.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/preguntas-frecuentes-playa-de-saint-jean-de-luz-francia.php [L]
 
 
 # Biarritz

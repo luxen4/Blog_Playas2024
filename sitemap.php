@@ -286,7 +286,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     </url>
 
     <url>
-        <loc>http://playas2025.kesug.com/Blog_Playas2025/playa-de-san-juan-de-luz-francia</loc>
+        <loc>http://playas2025.kesug.com/Blog_Playas2025/playa-de-saint-jean-de-luz-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

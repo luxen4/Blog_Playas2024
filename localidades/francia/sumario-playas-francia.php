@@ -16,7 +16,7 @@
     $localidad_nombre = 'Playa de San Juan de Luz';
     $localidad = 'Playa de San Juan de Luz';
 
-    $archivo_name = 'san-juan-de-luz';
+    $archivo_name = 'saint-jean-de-luz';
     $presentacion = 'La Playa de San Juan de Luz, situada en la encantadora localidad costera del País Vasco francés, es un auténtico tesoro para quienes buscan disfrutar del mar en un entorno pintoresco. Con su arena dorada y aguas tranquilas, esta playa es ideal tanto para relajarse como para practicar deportes acuáticos. Además, su proximidad al casco histórico de la ciudad permite a los visitantes explorar las callejuelas llenas de historia, degustar la gastronomía local y disfrutar de la hospitalidad vasca en un entorno único y acogedor.';
     include $targeta; ?>
 

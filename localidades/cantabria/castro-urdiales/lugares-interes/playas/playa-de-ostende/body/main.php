@@ -14,7 +14,7 @@
     Con una extensión de aproximadamente <span class="font-medium">900 metros de longitud</span> y <span class="font-medium">40 metros de ancho</span>, la Playa de Ostende es ideal para disfrutar del baño, tomar el sol y practicar diversas actividades acuáticas.
   </p>
 
-  <?php $publicidad = PATH_RAIZ_BLOQUES_ESTRUCTURA_SECTIONS_GENERICO_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
+  <?php $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
 
   <section aria-label="Publicidad relacionada" class="mb-8">
     <div class="border border-gray-200 rounded shadow-sm bg-white p-4">
@@ -166,9 +166,12 @@
     </ul>
   </section>
 
+
+
+
     <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN_ANUNCIOS . '/anuncios-fade-in.php'; ?>
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
 
   </section>
 

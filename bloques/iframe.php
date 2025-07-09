@@ -3,7 +3,7 @@ A
 <?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
 <?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_SECTIONS_GENERICO_CARRUSELES_CSV', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/sections_generico/Carruseles_CSV"); ?>
+<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA_SECTIONS_GENERICO_CARRUSELES_CSV', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/sections_generico/Carruseles_CSV"); ?>
 
 
 

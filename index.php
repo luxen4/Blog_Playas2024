@@ -1,12 +1,13 @@
 <?php 
   $title = 'Playas del Cantabrico'; $lugar_interes= 'playas-cantabrico';
   $region_minuscula = 'cantabria';
-  $carpeta = 'home';
+  $carpeta = '';
   $tema_footer = 'Playas del Cantábrico';
   $tema = $tema_footer;
   $color_page = 'orange';
 
-  //$name_blog = 'Blog Playas 2025'; 
+  $localidad_minuscula='';
+
   $author_content = 'Adrián Laya García'; 
 ?>
 
@@ -17,6 +18,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+
+
+
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title><?= $title; ?></title>
@@ -69,7 +74,7 @@
 
           <div class="row">
             <div class="col-12">
-              <?php //include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-cantabria.php'; ?>
+              <?php include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-cantabria.php'; ?>
               <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
             </div>
             <div class="col-12">
@@ -80,8 +85,8 @@
             </div>
             <div class="col-12">
               <?php 
-              $region='Francia'; $region_minuscula = strtolower($localidad);
-              include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-francia.php'; ?>
+              //$region='Francia'; $region_minuscula = strtolower($localidad);
+              //include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-francia.php'; ?>
             </div>
           </div>
         </div>

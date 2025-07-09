@@ -1,6 +1,6 @@
 <?php
   $region = 'Cantabria'; $region_minuscula = strtolower($region);
-  $localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); ?>
+  $localidad = 'Sonabia'; $localidad_minuscula = strtolower($localidad); ?>
 
 <?php // require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$lugar_interes}/pre-html.php"; ?>
 

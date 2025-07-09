@@ -10,37 +10,48 @@ $archivo_name = 'ostende-castro-urdiales';
 $presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
 
-$region = 'cantabria'; 
-$targeta = './localidades/index.php';?>
+$region = 'cantabria'; ?>
 
 
-<!-- Tailwind CSS -->
-<script src="https://cdn.tailwindcss.com"></script>
+
+<?php $targeta = PATH_RAIZ_LOCALIDADES.'/index.php';?>
+
+
 <h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6">
   Cantabria
 </h2>
-<details class="group bg-<?= $color_page; ?>-50 border border-<?= $color_page; ?>-300 rounded-md p-4 w-full mx-auto my-4 shadow-sm">
-  <summary class="cursor-pointer text-<?= $color_page; ?>-800 font-semibold text-lg flex items-center justify-between">
-    <div class="flex items-center gap-2">
-      <!-- Icono SEO (lupa o gráfico) -->
-      <svg class="w-6 h-6 text-<?= $color_page; ?>-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M11 5a7 7 0 017 7c0 1.657-.672 3.157-1.758 4.242l4.536 4.536a1 1 0 01-1.414 1.414l-4.536-4.536A7 7 0 1111 5z" />
-      </svg>
-      <span><?= $localidad_nombre; ?></span>
-    </div>
-    <!-- Flecha -->
-    <svg class="w-5 h-5 text-<?= $color_page; ?>-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-    </svg>
-  </summary>
 
-  <div class="mt-4 text-sm text-<?= $color_page; ?>-900 leading-relaxed">
+<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
+
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
 
 <?php
+$carpeta = 'playa-de-sonabia';
+$localidad_nombre = 'Playa de Sonabia';
+$localidad = 'Sonabia';
+$localidad_minuscula = strtolower($localidad);  // "sonabia"
+$region = 'Cantabria';
+$region_minuscula = 'cantabria';
+$archivo_name = 'sonabia-cantabria';
 
-include $targeta; ?>
+$presentacion = 'La Playa de Sonabia, situada en el extremo oriental de Cantabria junto al límite con el País Vasco, es una playa virgen de arena fina y dorada rodeada de acantilados y zonas verdes. Perfecta para quienes buscan tranquilidad y un paisaje natural impresionante, ofrece excelentes oportunidades para el baño en aguas cristalinas y para el senderismo por los acantilados cercanos. Con accesos peatonales y aparcamiento limitado, su encanto radica en su entorno prácticamente intacto y en las vistas al Mar Cantábrico.';
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+
+?>
+
+<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
+
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
 
 
+
+
+
+<div class="row">
+    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">  
+        <?php require $publicidad; ?>
+    </div>
+</div>
 
 
 <?php /*
@@ -118,13 +129,5 @@ $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundaci
 include 'localidades/index.php';*/?>
 
 
-  </div>
-
-</details>
 
 
-<div class="row">
-    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">  
-        <?php require $publicidad; ?>
-    </div>
-</div>

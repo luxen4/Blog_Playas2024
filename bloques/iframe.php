@@ -3,7 +3,7 @@ A
 <?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
 <?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
-<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA_SECTIONS_GENERICO_CARRUSELES_CSV', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/sections_generico/Carruseles_CSV"); ?>
+<?php //define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/sections_generico/Carruseles_CSV"); ?>
 
 
 
@@ -21,7 +21,7 @@ $archivos = [
 // Cargar rutas absolutas
 $publicidadPaths = [];
 foreach ($archivos as $clave => $archivo) {
-  $publicidadPaths[$clave] = PATH_RAIZ_BLOQUES_ESTRUCTURA_SECTIONS_GENERICO_CARRUSELES_CSV . $archivo;
+  $publicidadPaths[$clave] = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . $archivo;
 }
 ?>
 

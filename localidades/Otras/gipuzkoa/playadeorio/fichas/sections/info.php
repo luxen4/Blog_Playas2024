@@ -142,42 +142,42 @@
 $imagenes = [
     [
         'src' => './../img/vista-panoramica-playa-Berria-800x533.jpg',
-        'alt' => 'Vista panorámica de la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Vista panorámica de la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Vista panorámica de la Playa de Berria.',
         'href' => 'https://www.cantabriarural.com/playas/playa-de-berria.html',
         'titulo_href' => 'cantabriarural.com'
     ],
     [
         'src' => './../img/dunas-arena-playa-Berria-y-punta-de-El-Brusco.jpg',
-        'alt' => 'Dunas de arena en la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Dunas de arena en la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Dunas de arena en la Playa de Berria, Cantabria.',
         'href' => 'https://elpais.com/elviajero/2021/01/21/actualidad/1611229533_330658.html#',
         'titulo_href' => 'redcantabrarural.com'
     ],
     [
         'src' => './../img/surfistas-en-la-playa-de-Berria.jpg',
-        'alt' => 'Surfistas en la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Surfistas en la Playa de Berria en Santona, Cantabria.',
         'figcaption' => ' Surfistas en la Playa de Berria.',
         'href' => 'https://www.youtube.com/watch?v=2qedUp4dVYM',
         'titulo_href' => 'Youtube'
     ],
     [
         'src' => './../img/atardecer-playa-de-Berria.jpg',
-        'alt' => 'Atardecer en la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Atardecer en la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Atardecer en la Playa de Berria.',
         'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4556139-i336517190-Playa_De_Berria-Santona_Cantabria.html',
         'titulo_href' => 'tripadvisor'
     ],
     [
         'src' => './../img/playa-de-berria-santona.jpg',
-        'alt' => 'Vista de la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Vista de la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Playa de Berria.',
         'href' => 'https://turismodecantabria.com',
         'titulo_href' => 'Turismo de Cantabria'
     ],
     [
         'src' => './../img/monte-buciero-cercano-playa-de-Berria.jpg',
-        'alt' => 'Vistas al Monte Buciero cercano a la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Vistas al Monte Buciero cercano a la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Vistas al Monte Buciero cercano a la Playa de Berria.',
         'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4555728-i117278266-Monte_Buciero-Santona_Cantabria.html',
         'titulo_href' => 'Tripadvisor'

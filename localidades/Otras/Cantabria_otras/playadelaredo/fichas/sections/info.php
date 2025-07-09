@@ -20,7 +20,7 @@ $li_descripcion_detallada2 = '
 <h4>Entorno Natural</h4>
 <ul>
     <li><i class="fas fa-mountain" style="color: #27ae60;"></i> Rodeada de acantilados</li>
-    <li><i class="fas fa-leaf" style="color: #2ecc71;"></i> Cerca del Parque Natural de las Marismas de Santoña</li>
+    <li><i class="fas fa-leaf" style="color: #2ecc71;"></i> Cerca del Parque Natural de las Marismas de Santona</li>
     <li><i class="fas fa-hiking" style="color: #8e44ad;"></i> Ideal para senderismo y disfrutar de vistas panorámicas</li>
 </ul>
 
@@ -215,7 +215,7 @@ $caja_caracteristicas = '
         <li class="my-4"><i class="fas fa-sun" style="color: #f39c12;"></i> Arena fina, blanca y dorada, ideal para tomar el sol y disfrutar del paisaje costero.</li>
 <li class="my-4"><i class="fas fa-ruler-combined" style="color: #3498db;"></i> Longitud: <strong>4.250 metros</strong>; anchura media: <strong>120 metros</strong>, siendo una de las playas más extensas del Cantábrico. :contentReference[oaicite:0]{index=0}</li>
 <li class="my-4"><i class="fas fa-water" style="color: #1abc9c;"></i> Aguas con oleaje moderado, adecuadas para <a href="https://www.laredoturismo.es/organiza-tu-viaje/empresas-de-ocio-activo/" target="_blank" rel="noopener noreferrer">surf</a>, <a href="https://www.laredoturismo.es/organiza-tu-viaje/empresas-de-ocio-activo/" target="_blank" rel="noopener noreferrer">windsurf</a> y <a href="https://www.laredoturismo.es/organiza-tu-viaje/empresas-de-ocio-activo/" target="_blank" rel="noopener noreferrer">kitesurf</a>.</li>
-<li class="my-4"><i class="fas fa-tree" style="color: #2ecc71;"></i> Próxima al <a href="https://reddeparquesnacionales.miteco.gob.es/parques/santona/" target="_blank" rel="noopener noreferrer">Parque Natural de las Marismas de Santoña, Victoria y Joyel</a>, ofreciendo un entorno natural privilegiado. :contentReference[oaicite:1]{index=1}</li>
+<li class="my-4"><i class="fas fa-tree" style="color: #2ecc71;"></i> Próxima al <a href="https://reddeparquesnacionales.miteco.gob.es/parques/santona/" target="_blank" rel="noopener noreferrer">Parque Natural de las Marismas de Santona, Victoria y Joyel</a>, ofreciendo un entorno natural privilegiado. :contentReference[oaicite:1]{index=1}</li>
 <li class="my-4"><i class="fas fa-concierge-bell" style="color: #e67e22;"></i> Servicios disponibles: duchas, aseos, socorristas, pasarelas, alquiler de sombrillas y hamacas, zonas deportivas y chiringuitos. :contentReference[oaicite:2]{index=2}</li>
 <li class="my-4"><i class="fas fa-wheelchair" style="color: #9b59b6;"></i> Accesos adaptados para personas con movilidad reducida, incluyendo rampas y plazas de aparcamiento reservadas.</li>
 <li class="my-4"><i class="fas fa-person-hiking" style="color: #8e44ad;"></i> Actividades destacadas: <a href="https://www.laredoturismo.es/organiza-tu-viaje/empresas-de-ocio-activo/" target="_blank" rel="noopener noreferrer">surf</a>, <a href="https://www.laredoturismo.es/destacado/senderismo/" target="_blank" rel="noopener noreferrer">senderismo</a> por rutas locales, <a href="https://www.laredoturismo.es/organiza-tu-viaje/empresas-de-ocio-activo/" target="_blank" rel="noopener noreferrer">pesca deportiva</a> y observación de aves en las marismas cercanas. :contentReference[oaicite:3]{index=3}</li>

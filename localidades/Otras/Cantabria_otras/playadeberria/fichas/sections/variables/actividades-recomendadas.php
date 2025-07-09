@@ -1,7 +1,7 @@
 <section id="actividades" class="seccion-actividades container">
   <header class="text-center mb-4">
     <h2 class="text-primary">🏄‍♂️ Actividades Recomendadas en la Playa de Berria</h2>
-    <p>Descubre las <strong>mejores experiencias turísticas y deportivas</strong> que ofrece la Playa de Berria en <a href="https://es.wikipedia.org/wiki/Santo%C3%B1a" title="Más sobre Santoña">Santoña, Cantabria</a>. Perfecta para quienes disfrutan del <strong>turismo activo</strong> en un entorno natural impresionante.</p>
+    <p>Descubre las <strong>mejores experiencias turísticas y deportivas</strong> que ofrece la Playa de Berria en <a href="https://es.wikipedia.org/wiki/Santo%C3%B1a" title="Más sobre Santona">Santona, Cantabria</a>. Perfecta para quienes disfrutan del <strong>turismo activo</strong> en un entorno natural impresionante.</p>
   </header>
 
   <h5><i class="fas fa-sun" style="color: #f1c40f;"></i> Aventura y Naturaleza en la Playa de Berria</h5>
@@ -30,7 +30,7 @@
       <li class="my-4">
         <i class="fas fa-hiking" style="color: #27ae60;"></i>
         <strong>Senderismo en el Monte Buciero:</strong><br>
-        Explora rutas que recorren el <strong>Monte Buciero</strong>, con impresionantes vistas al mar y al faro del Caballo. Consulta nuestros <a href="https://www.alltrails.com/es/spain/cantabria/santona" target="_blank" rel="noopener" style="color:#2980b9;" title="Rutas desde Santoña">itinerarios recomendados</a>. Mejor época: <time datetime="2025-06">junio</time> – <time datetime="2025-09">septiembre</time>.
+        Explora rutas que recorren el <strong>Monte Buciero</strong>, con impresionantes vistas al mar y al faro del Caballo. Consulta nuestros <a href="https://www.alltrails.com/es/spain/cantabria/santona" target="_blank" rel="noopener" style="color:#2980b9;" title="Rutas desde Santona">itinerarios recomendados</a>. Mejor época: <time datetime="2025-06">junio</time> – <time datetime="2025-09">septiembre</time>.
       </li>
 
       <div class="solo-escritorio">
@@ -47,8 +47,8 @@
 
       <li class="my-4">
         <i class="fas fa-ship" style="color: #3498db;"></i>
-        <strong>Rutas en barco desde Santoña:</strong><br>
-        Descubre la costa oriental de Cantabria con <a href="/excursiones-en-barco-cantabria/" title="Excursiones marítimas" style="color:#2980b9;" target="_blank" rel="noopener">excursiones guiadas</a> por acantilados, playas salvajes y el entorno del Parque Natural de las Marismas de Santoña. Disponible todo el año, especialmente en <time datetime="2025-06">junio</time> – <time datetime="2025-08">agosto</time>.
+        <strong>Rutas en barco desde Santona:</strong><br>
+        Descubre la costa oriental de Cantabria con <a href="/excursiones-en-barco-cantabria/" title="Excursiones marítimas" style="color:#2980b9;" target="_blank" rel="noopener">excursiones guiadas</a> por acantilados, playas salvajes y el entorno del Parque Natural de las Marismas de Santona. Disponible todo el año, especialmente en <time datetime="2025-06">junio</time> – <time datetime="2025-08">agosto</time>.
       </li>
 
       <li class="my-4">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Actividades en la Playa de Berria – Santoña</title>
+  <title>Actividades en la Playa de Berria – Santona</title>
 
   <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
@@ -20,8 +20,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
 
   <!-- Meta SEO -->
-  <meta name="description" content="Explora las actividades turísticas y deportivas en la Playa de Berria, Santoña: surf, senderismo por el Monte Buciero, rutas en barco y más." />
-  <meta name="keywords" content="Playa de Berria, actividades Berria, surf Cantabria, senderismo Buciero, deportes de playa, excursiones barco Santoña" />
+  <meta name="description" content="Explora las actividades turísticas y deportivas en la Playa de Berria, Santona: surf, senderismo por el Monte Buciero, rutas en barco y más." />
+  <meta name="keywords" content="Playa de Berria, actividades Berria, surf Cantabria, senderismo Buciero, deportes de playa, excursiones barco Santona" />
   <meta name="robots" content="index, follow" />
   <meta name="date" content="2025-05-18" />
 
@@ -30,12 +30,12 @@
 
   <!-- Open Graph -->
   <meta property="og:image" content=PATH_RAIZ_LOCALIDADES_CARPETA."/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
-  <meta property="og:title" content="Actividades en la Playa de Berria – Santoña" />
+  <meta property="og:title" content="Actividades en la Playa de Berria – Santona" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Berria: surf, rutas naturales, paseos marítimos y experiencias en la costa cántabra." />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-berria-santona-cantabria" />
   <meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
-  <meta property="og:image:alt" content="Vista de la Playa de Berria, ideal para surf y naturaleza en la costa de Santoña" />
+  <meta property="og:image:alt" content="Vista de la Playa de Berria, ideal para surf y naturaleza en la costa de Santona" />
   <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
 
@@ -63,7 +63,7 @@
   $url = 'http://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/fichas/playa-de-berria.php';
 
   // Datos estructurados Schema.org (mainEntity)
-  $mainEntity_description = 'La Playa de Berria es conocida por sus olas perfectas para el surf y sus rutas naturales por el Monte Buciero en Santoña.';
+  $mainEntity_description = 'La Playa de Berria es conocida por sus olas perfectas para el surf y sus rutas naturales por el Monte Buciero en Santona.';
   $mainEntity_addressLocality = 'Berria';
   $mainEntity_addressRegion = 'Cantabria';
   $mainEntity_addressCountry = 'España';

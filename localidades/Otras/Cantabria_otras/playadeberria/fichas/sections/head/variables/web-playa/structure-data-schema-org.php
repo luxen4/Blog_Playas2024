@@ -2,7 +2,7 @@
 // Datos estructurados Schema.org (mainEntity) para Playa de Berria
 
 $mainEntity_description = 'La Playa de Berria destaca por su extensa arena fina y sus condiciones ideales para familias y deportes acuáticos como el surf.';
-$mainEntity_addressLocality = 'Santoña';
+$mainEntity_addressLocality = 'Santona';
 $mainEntity_addressRegion = 'Cantabria';
 $mainEntity_addressCountry = 'España';
 

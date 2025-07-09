@@ -244,8 +244,8 @@ $imagenes = [
     ],
     [
         'src' => './../img/playa-de-berria-santona.jpg',
-        'alt' => 'Vista de la Playa de Berria, Santoña',
-        'figcaption' => 'Playa de Berria, Santoña. Fuente:',
+        'alt' => 'Vista de la Playa de Berria, Santona',
+        'figcaption' => 'Playa de Berria, Santona. Fuente:',
         'href' => 'https://turismodecantabria.com',
         'titulo_href' => 'Turismo de Cantabria'
     ],

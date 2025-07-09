@@ -95,7 +95,7 @@
         <li class="my-4">
           <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i>
           <strong>Recomendaciones cercanas:</strong><br>
-          Explora las **marismas de Victoria y Joyel**, ideales para senderismo y avistamiento de aves, o visita la cercana villa marinera de **Santoña**, famosa por sus anchoas.
+          Explora las **marismas de Victoria y Joyel**, ideales para senderismo y avistamiento de aves, o visita la cercana villa marinera de **Santona**, famosa por sus anchoas.
         </li>
       </ul>
     </div>

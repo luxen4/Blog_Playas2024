@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FAQ & Consejos – Playa de Berria (Santoña)</title>
+  <title>FAQ & Consejos – Playa de Berria (Santona)</title>
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-  <meta name="description" content="Resuelve tus dudas y descubre los mejores consejos para disfrutar tu visita a la Playa de Berria en Santoña, Cantabria." />
-  <meta name="keywords" content="FAQ Playa de Berria, consejos Berria Santoña, turismo Cantabria, qué llevar playa Berria" />
+  <meta name="description" content="Resuelve tus dudas y descubre los mejores consejos para disfrutar tu visita a la Playa de Berria en Santona, Cantabria." />
+  <meta name="keywords" content="FAQ Playa de Berria, consejos Berria Santona, turismo Cantabria, qué llevar playa Berria" />
   <style>
     body {
       background-color: #f8f9fa;
@@ -53,7 +53,7 @@
     <!-- FAQ -->
     <header class="section-header">
       <h2><i class="fas fa-question-circle"></i> Preguntas Frecuentes</h2>
-      <p class="lead">Información clave para tu visita a la Playa de Berria en Santoña</p>
+      <p class="lead">Información clave para tu visita a la Playa de Berria en Santona</p>
     </header>
     <div class="faq-section">
       <dl>
@@ -97,7 +97,7 @@
         <li class="my-4">
           <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i>
           <strong>¿Qué más visitar?</strong><br>
-          Aprovecha para conocer el <a href="https://www.turismosantona.es/monte-buciero/" target="_blank" rel="noopener noreferrer" title="Ruta Monte Buciero">Monte Buciero</a> o realizar la ruta de los faros alrededor de Santoña.
+          Aprovecha para conocer el <a href="https://www.turismosantona.es/monte-buciero/" target="_blank" rel="noopener noreferrer" title="Ruta Monte Buciero">Monte Buciero</a> o realizar la ruta de los faros alrededor de Santona.
         </li>
       </ul>
     </div>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cómo llegar a la Playa de Berria – Santoña</title>
+  <title>Cómo llegar a la Playa de Berria – Santona</title>
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -11,13 +11,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
 
   <!-- SEO Básico -->
-  <meta name="description" content="Guía completa para llegar a la Playa de Berria en Santoña: coche, transporte público, senderos naturales y mapa interactivo." />
-  <meta name="keywords" content="Playa de Berria, cómo llegar, transporte Santoña, aparcamiento Berria, rutas costeras Cantabria" />
+  <meta name="description" content="Guía completa para llegar a la Playa de Berria en Santona: coche, transporte público, senderos naturales y mapa interactivo." />
+  <meta name="keywords" content="Playa de Berria, cómo llegar, transporte Santona, aparcamiento Berria, rutas costeras Cantabria" />
   <meta name="robots" content="index, follow" />
   <meta name="date" content="2025-05-11" />
 
   <!-- Open Graph (SEO Avanzado) -->
-  <meta property="og:title" content="Cómo llegar a la Playa de Berria – Santoña" />
+  <meta property="og:title" content="Cómo llegar a la Playa de Berria – Santona" />
   <meta property="og:description" content="Descubre cómo llegar a la Playa de Berria: en coche, autobús o caminando. Incluye mapa interactivo actualizado." />
   <meta property="og:url" content="https://www.ejemplo.com/berria/como-llegar" />
   <meta property="og:type" content="website" />
@@ -25,8 +25,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Cómo llegar a la Playa de Berria – Santoña" />
-  <meta name="twitter:description" content="Guía con mapa para llegar a la Playa de Berria: coche, bus o bici. Planifica tu visita a Santoña." />
+  <meta name="twitter:title" content="Cómo llegar a la Playa de Berria – Santona" />
+  <meta name="twitter:description" content="Guía con mapa para llegar a la Playa de Berria: coche, bus o bici. Planifica tu visita a Santona." />
   <meta name="twitter:image" content="https://www.ejemplo.com/imagenes/como-llegar-berria.jpg" />
 
   <!-- Estilos personalizados -->
@@ -53,7 +53,7 @@ $li_mapa_ubicacion = '
 <section id="como-llegar-berria" class="container">
   <header class="text-center mb-4">
     <h2 class="text-danger section-header"><i class="fas fa-map-marked-alt"></i> Cómo llegar a la Playa de Berria</h2>
-    <p class="lead">Todo lo que necesitas saber para acceder a esta espectacular playa entre montañas en <a href="/santona/" style="color:#2980b9;" title="Visita Santoña">Santoña</a>, Cantabria.</p>
+    <p class="lead">Todo lo que necesitas saber para acceder a esta espectacular playa entre montañas en <a href="/santona/" style="color:#2980b9;" title="Visita Santona">Santona</a>, Cantabria.</p>
   </header>
 
   <div class="info-box">
@@ -61,12 +61,12 @@ $li_mapa_ubicacion = '
       <li>
         <i class="fas fa-car" style="color:#3498db;"></i>
         <strong>En coche:</strong><br>
-        Desde <strong>Santander</strong> o <strong>Bilbao</strong>, toma la A-8 hasta la salida a Santoña y sigue las indicaciones hacia Berria. Hay zonas de <em>aparcamiento gratuito</em> junto a la playa.
+        Desde <strong>Santander</strong> o <strong>Bilbao</strong>, toma la A-8 hasta la salida a Santona y sigue las indicaciones hacia Berria. Hay zonas de <em>aparcamiento gratuito</em> junto a la playa.
       </li>
       <li>
         <i class="fas fa-bus" style="color:#e67e22;"></i>
         <strong>En autobús:</strong><br>
-        Líneas regulares desde Santander, Laredo o Bilbao hasta Santoña. Desde allí, puedes caminar unos 25 minutos o tomar taxi/local bus hacia la playa.
+        Líneas regulares desde Santander, Laredo o Bilbao hasta Santona. Desde allí, puedes caminar unos 25 minutos o tomar taxi/local bus hacia la playa.
       </li>
       <li>
         <i class="fas fa-bicycle" style="color:#2ecc71;"></i>

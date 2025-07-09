@@ -28,7 +28,7 @@
       <li class="my-4">
         <i class="fas fa-hiking" style="color: #27ae60;"></i>
         <strong>Senderismo y naturaleza protegida:</strong><br>
-        Explora el <a href="https://www.turismodecantabria.com/disfrutala/20-parque-natural-de-las-marismas-de-santona-victoria-y-joyel" target="_blank" style="color:#2980b9;" title="Parque Natural de las Marismas">Parque Natural de las Marismas de Santoña</a>, con rutas señalizadas, miradores y fauna autóctona. Ideal de <time datetime="2025-03">marzo</time> a <time datetime="2025-10">octubre</time>.
+        Explora el <a href="https://www.turismodecantabria.com/disfrutala/20-parque-natural-de-las-marismas-de-santona-victoria-y-joyel" target="_blank" style="color:#2980b9;" title="Parque Natural de las Marismas">Parque Natural de las Marismas de Santona</a>, con rutas señalizadas, miradores y fauna autóctona. Ideal de <time datetime="2025-03">marzo</time> a <time datetime="2025-10">octubre</time>.
       </li>
 
       <li class="my-4">
@@ -60,7 +60,7 @@ $li_actividades_recomendadas = '
         </li>
         <li class="my-4">
             <i class="fas fa-hiking" style="color:#27ae60;"></i> <strong>Senderismo con Vistas:</strong> <br>
-            Explora rutas como el <a href="/sendero-trengandín-noja" title="Ruta por la costa de Noja">Sendero de Trengandín</a> o el Parque Natural de las Marismas de Santoña. Perfecto para <strong>excursionistas y amantes de la fotografía</strong>.
+            Explora rutas como el <a href="/sendero-trengandín-noja" title="Ruta por la costa de Noja">Sendero de Trengandín</a> o el Parque Natural de las Marismas de Santona. Perfecto para <strong>excursionistas y amantes de la fotografía</strong>.
         </li>
         <li class="my-4">
             <i class="fas fa-volleyball-ball" style="color:#e67e22;"></i> <strong>Zonas Deportivas:</strong> <br>

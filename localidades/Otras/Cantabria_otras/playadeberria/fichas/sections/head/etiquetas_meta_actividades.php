@@ -1,7 +1,7 @@
 <?php /*<!-- Meta SEO -->*/ ?>
 <meta property="article:published_time" content="<?= date('Y-m-d') ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= date('Y-m-d') ?>T08:00:00+01:00" />  
-<meta name="description" content="Descubre las mejores actividades turísticas y deportivas en la Playa de Berria, Santoña: surf, paddle-surf, senderismo, voleibol de playa, excursiones en barco y más." />
+<meta name="description" content="Descubre las mejores actividades turísticas y deportivas en la Playa de Berria, Santona: surf, paddle-surf, senderismo, voleibol de playa, excursiones en barco y más." />
 <meta name="keywords" content="Playa de Berria, actividades Berria, surf Cantabria, senderismo Cantábrico, deportes de playa, excursiones barco Cantabria" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="<?= $hoy ?>" />
@@ -22,8 +22,8 @@
 <meta property="og:locale" content="es_ES" />
 
 <?php /*<!-- Open Graph (Facebook / Meta) -->*/ ?>
-<meta property="og:title" content="Actividades en la Playa de Berria – Santoña" />
-<meta property="og:description" content="Descubre qué hacer en la Playa de Berria: surf, caminatas, naturaleza y más planes en Santoña, Cantabria." />
+<meta property="og:title" content="Actividades en la Playa de Berria – Santona" />
+<meta property="og:description" content="Descubre qué hacer en la Playa de Berria: surf, caminatas, naturaleza y más planes en Santona, Cantabria." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-berria" />
 <meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria.jpg" />
@@ -37,8 +37,8 @@
 
 <?php /*<!-- Twitter Card -->*/ ?>
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Actividades en la Playa de Berria – Santoña" />
-<meta name="twitter:description" content="Descubre qué hacer en la Playa de Berria: surf, caminatas, naturaleza y más planes en Santoña, Cantabria." />
+<meta name="twitter:title" content="Actividades en la Playa de Berria – Santona" />
+<meta name="twitter:description" content="Descubre qué hacer en la Playa de Berria: surf, caminatas, naturaleza y más planes en Santona, Cantabria." />
 <meta name="twitter:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria.jpg" />
 <meta name="twitter:image:alt" content="Vista de la Playa de Berria desde la arena con actividades deportivas" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

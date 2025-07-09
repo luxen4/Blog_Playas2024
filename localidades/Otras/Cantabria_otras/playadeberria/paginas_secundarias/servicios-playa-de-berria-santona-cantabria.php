@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Servicios en la Playa de Berria – Santoña</title>
+  <title>Servicios en la Playa de Berria – Santona</title>
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -12,13 +12,13 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
 
   <!-- SEO -->
-  <meta name="description" content="Conoce todos los servicios que ofrece la Playa de Berria en Santoña: chiringuitos, duchas, surf y zonas de aparcamiento." />
-  <meta name="keywords" content="Servicios Playa Berria, restaurantes Santoña, duchas Berria, surf Cantabria, aparcamiento playa Berria" />
+  <meta name="description" content="Conoce todos los servicios que ofrece la Playa de Berria en Santona: chiringuitos, duchas, surf y zonas de aparcamiento." />
+  <meta name="keywords" content="Servicios Playa Berria, restaurantes Santona, duchas Berria, surf Cantabria, aparcamiento playa Berria" />
   <meta name="robots" content="index, follow" />
   <meta name="date" content="2025-05-11" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Servicios en la Playa de Berria – Santoña" />
+  <meta property="og:title" content="Servicios en la Playa de Berria – Santona" />
   <meta property="og:description" content="Explora los servicios turísticos disponibles en la Playa de Berria: chiringuitos, escuelas de surf, duchas públicas y parking." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.ejemplo.com/berria/servicios" />
@@ -26,7 +26,7 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Servicios en la Playa de Berria – Santoña" />
+  <meta name="twitter:title" content="Servicios en la Playa de Berria – Santona" />
   <meta name="twitter:description" content="Todo sobre los servicios turísticos disponibles en la Playa de Berria, Cantabria." />
   <meta name="twitter:image" content="https://www.ejemplo.com/imagenes/berria-servicios.jpg" />
 
@@ -53,7 +53,7 @@ $li_servicios_berria = '
 <section id="servicios" class="seccion-servicios container py-5">
   <header class="text-center mb-4">
     <h2 class="text-success">🏖️ Servicios en la Playa de Berria</h2>
-    <p>La <strong>Playa de Berria</strong> en <a href="https://es.wikipedia.org/wiki/Santo%C3%B1a" title="Conoce Santoña">Santoña</a> ofrece servicios ideales para disfrutar de un día completo junto al mar.</p>
+    <p>La <strong>Playa de Berria</strong> en <a href="https://es.wikipedia.org/wiki/Santo%C3%B1a" title="Conoce Santona">Santona</a> ofrece servicios ideales para disfrutar de un día completo junto al mar.</p>
   </header>
 
   <div class="info-box">

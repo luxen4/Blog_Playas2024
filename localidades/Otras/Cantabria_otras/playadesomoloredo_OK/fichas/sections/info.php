@@ -12,7 +12,7 @@ $li_encabezado = '
     Gracias a su orientación al mar abierto, ofrece condiciones óptimas para la práctica del surf durante todo el año. Además, su extenso arenal permite disfrutar de largos paseos y vistas impresionantes de la bahía de Santander.
   </p>
   <p>
-    El paseo marítimo de Somo está repleto de bares y restaurantes donde degustar la exquisita gastronomía cántabra, destacando platos como las rabas y las anchoas de Santoña.
+    El paseo marítimo de Somo está repleto de bares y restaurantes donde degustar la exquisita gastronomía cántabra, destacando platos como las rabas y las anchoas de Santona.
   </p>
   <p>
     Para más información sobre actividades y servicios, visita la <a href="/playas-de-cantabria/" title="Guía de playas en Cantabria">Guía de Playas en Cantabria</a>.

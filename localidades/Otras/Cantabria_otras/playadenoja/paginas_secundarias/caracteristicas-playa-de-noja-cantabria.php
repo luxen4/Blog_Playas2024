@@ -57,7 +57,7 @@
         <li><i class="fas fa-ruler-combined" style="color: #3498db;"></i> <strong>Longitud:</strong> más de <time datetime="2025-01-01">1.500 metros</time>.</li>
         <li><i class="fas fa-expand-arrows-alt" style="color: #1abc9c;"></i> <strong>Anchura:</strong> variable según mareas, muy extensa en bajamar.</li>
         <li><i class="fas fa-water" style="color: #1abc9c;"></i> <strong>Oleaje:</strong> moderado, ideal para <a href="/surf-en-cantabria/" title="Surf en Cantabria">surfistas y bañistas</a>.</li>
-        <li><i class="fas fa-leaf" style="color: #2ecc71;"></i> <strong>Entorno natural:</strong> junto al Parque Natural de las Marismas de Santoña, con gran riqueza ecológica.</li>
+        <li><i class="fas fa-leaf" style="color: #2ecc71;"></i> <strong>Entorno natural:</strong> junto al Parque Natural de las Marismas de Santona, con gran riqueza ecológica.</li>
         <li><i class="fas fa-shower" style="color: #1abc9c;"></i> <strong>Servicios:</strong> duchas, socorrismo, aseos, bares y pasarelas accesibles.</li>
         <li><i class="fas fa-wheelchair" style="color: #e74c3c;"></i> <strong>Accesibilidad:</strong> adaptada a personas con movilidad reducida.</li>
         <li><i class="fas fa-car" style="color: #f39c12;"></i> <strong>Transporte:</strong> buena conexión por carretera, autobús y aparcamiento disponible.</li>

@@ -31,7 +31,7 @@ $li_descripcion_detallada2 = '
     <h4 class="mt-4">🍃 Entorno Natural</h4>
     <ul>
         <li class="my-3">⛰️ Rodeada de <strong>montañas y acantilados</strong> ideales para senderismo.</li>
-        <li class="my-3">🌿 Cerca del <a href="https://www.turismodecantabria.com/descubrela/25-parque-natural-de-las-marismas-de-santona-victoria-y-joyel" title="Parque Natural Marismas de Santoña" target="_blank" rel="noopener">Parque Natural de las Marismas</a>.</li>
+        <li class="my-3">🌿 Cerca del <a href="https://www.turismodecantabria.com/descubrela/25-parque-natural-de-las-marismas-de-santona-victoria-y-joyel" title="Parque Natural Marismas de Santona" target="_blank" rel="noopener">Parque Natural de las Marismas</a>.</li>
         <li class="my-3">📸 Vistas panorámicas para fotógrafos y amantes de la naturaleza.</li>
     </ul>
 

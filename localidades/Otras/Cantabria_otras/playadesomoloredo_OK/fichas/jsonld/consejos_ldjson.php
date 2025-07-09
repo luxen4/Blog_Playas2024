@@ -18,7 +18,7 @@
     {
       "@type": "HowToStep",
       "name": "Lugares cercanos para explorar",
-      "text": "Visita el Parque Natural de las Marismas de Santoña, Victoria y Joyel o toma un paseo en barco desde Santander."
+      "text": "Visita el Parque Natural de las Marismas de Santona, Victoria y Joyel o toma un paseo en barco desde Santander."
     }
   ]
 }

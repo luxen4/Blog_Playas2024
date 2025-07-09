@@ -48,7 +48,7 @@
       <li class="my-4">
         <i class="fas fa-ship" style="color: #3498db;"></i>
         <strong>Paseos en barco por la bahía:</strong><br>
-        Realiza <a href="/excursiones-en-barco-cantabria/" title="Excursiones marítimas" style="color:#2980b9;" target="_blank" rel="noopener">excursiones en barco</a> por la bahía de Santoña, con vistas a Laredo, colinas verdes y playas salvajes. Salidas disponibles de <time datetime="2025-06">junio</time> a <time datetime="2025-08">agosto</time>.
+        Realiza <a href="/excursiones-en-barco-cantabria/" title="Excursiones marítimas" style="color:#2980b9;" target="_blank" rel="noopener">excursiones en barco</a> por la bahía de Santona, con vistas a Laredo, colinas verdes y playas salvajes. Salidas disponibles de <time datetime="2025-06">junio</time> a <time datetime="2025-08">agosto</time>.
       </li>
 
       <li class="my-4">

@@ -76,7 +76,7 @@ $li_descripcion_detallada3 = '
         <i class="fas fa-umbrella-beach" style="color: #f39c12;"></i> <strong>Qué llevar:</strong> <br>Traje de baño, protector solar, toalla, sombrilla, tabla de surf o bodyboard si tienes, y calzado cómodo para explorar los alrededores.
     </li>
     <li class="my-4">
-        <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i> <strong>Explora más:</strong> <br>No te pierdas el <a href="https://turismodecantabria.com/municipios/noja/" target="_blank" rel="noopener noreferrer">Parque Natural de las Marismas de Santoña</a>, o visita el <a href="https://www.nojaturismo.com/" target="_blank" rel="noopener noreferrer">Centro de Ocio Playa Dorada</a> para actividades culturales y deportivas.
+        <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i> <strong>Explora más:</strong> <br>No te pierdas el <a href="https://turismodecantabria.com/municipios/noja/" target="_blank" rel="noopener noreferrer">Parque Natural de las Marismas de Santona</a>, o visita el <a href="https://www.nojaturismo.com/" target="_blank" rel="noopener noreferrer">Centro de Ocio Playa Dorada</a> para actividades culturales y deportivas.
     </li>
 </ul>
 '; ?>
@@ -106,7 +106,7 @@ $li_mapa_ubicacion = '
 
         <li class="my-4">
             <i class="fas fa-bicycle" style="color:#f39c12;"></i> <strong>A pie o en bicicleta:</strong> <br>
-            Si eres amante del senderismo o el ciclismo, Noja cuenta con rutas costeras y carriles bici perfectamente señalizados. Puedes llegar a la playa desde localidades cercanas como Noja o incluso desde las marismas de Santoña.
+            Si eres amante del senderismo o el ciclismo, Noja cuenta con rutas costeras y carriles bici perfectamente señalizados. Puedes llegar a la playa desde localidades cercanas como Noja o incluso desde las marismas de Santona.
         </li>
     </ul>
 

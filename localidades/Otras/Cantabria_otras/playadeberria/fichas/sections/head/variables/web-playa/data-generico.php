@@ -1,12 +1,12 @@
 <?php
     $region = 'Cantabria';
-    $localidad = 'Santoña';
+    $localidad = 'Santona';
     $country = 'España';
     $region_minuscula = strtolower($region);
     $carpeta = 'playadeberria'; // nombre de la carpeta para esta playa
     $rutas = 'playa-de-berria-cantabria';
 
-    $descripcion = 'Descubre la Playa de Berria, una extensa playa en Santoña con arena fina y un entorno natural protegido, perfecta para el relax y deportes acuáticos.';
+    $descripcion = 'Descubre la Playa de Berria, una extensa playa en Santona con arena fina y un entorno natural protegido, perfecta para el relax y deportes acuáticos.';
 
     $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/{$rutas}.php";
 

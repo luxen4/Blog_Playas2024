@@ -2,7 +2,7 @@
 
 $seo_avanzado = '
 <meta name="description" content="La Playa de Berria en Cantabria es ideal para disfrutar de deportes acuáticos y su entorno natural único. Descubre las mejores actividades y gastronomía local." />
-<meta name="keywords" content="Playa de Berria, Cantabria, deportes acuáticos, surf, gastronomía, mariscos, senderismo, naturaleza, Santoña" />
+<meta name="keywords" content="Playa de Berria, Cantabria, deportes acuáticos, surf, gastronomía, mariscos, senderismo, naturaleza, Santona" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://www.tusitio.com/playa-de-berria" />
 ';
@@ -31,7 +31,7 @@ $li_encabezado = '
   </p>
   <p>
     <i class="fas fa-map-marker-alt" style="color: #1abc9c;"></i>
-    <strong>Ubicación:</strong> <a href="https://www.google.com/maps/place/Playa+de+Berria,+Cantabria" target="_blank" rel="noopener">Playa de Berria, Santoña, Cantabria</a>
+    <strong>Ubicación:</strong> <a href="https://www.google.com/maps/place/Playa+de+Berria,+Cantabria" target="_blank" rel="noopener">Playa de Berria, Santona, Cantabria</a>
   </p>
   <p>
     <i class="fas fa-link" style="color: #9b59b6;"></i>
@@ -47,7 +47,7 @@ $li_encabezado = '
 $li_descripcion_detallada = '
 <section id="playa-berria" class="section-playa">
     <p class="section-content">
-        <i class="fas fa-water" style="color: #3498db;"></i> <strong>La Playa de Berria</strong>, ubicada en <strong>Santoña, Cantabria</strong>, es una playa de arena dorada de unos <strong>1.200 metros</strong> de longitud, ideal para disfrutar del surf y otras actividades acuáticas. Además, su paisaje de dunas y la cercanía a las marismas de Santoña hacen de este lugar un paraíso natural.
+        <i class="fas fa-water" style="color: #3498db;"></i> <strong>La Playa de Berria</strong>, ubicada en <strong>Santona, Cantabria</strong>, es una playa de arena dorada de unos <strong>1.200 metros</strong> de longitud, ideal para disfrutar del surf y otras actividades acuáticas. Además, su paisaje de dunas y la cercanía a las marismas de Santona hacen de este lugar un paraíso natural.
     </p>
     <p class="section-content">
         <i class="fas fa-tree" style="color: #2ecc71;"></i> La playa cuenta con servicios como aparcamiento, duchas, baños y acceso adaptado para personas con movilidad reducida, asegurando una experiencia cómoda y segura para todos los visitantes.
@@ -72,12 +72,12 @@ $li_descripcion_detallada = '
 <?php $li_descripcion_detallada2 = '
 <h3 class="section-header"><i class="fas fa-leaf" style="color: #27ae60;"></i> Entorno Natural</h3>
 <div class="info-box">
-    <p>La Playa de Berria está rodeada por una impresionante área natural, con dunas, marismas y un ecosistema único, lo que la convierte en un paraíso para los amantes de la naturaleza. Las marismas de <a href="https://www.google.com/maps/place/Marismas+de+Santoña" target="_blank" rel="noopener">Santoña</a>, <a href="https://www.google.com/maps/place/Marismas+de+Victoria" target="_blank" rel="noopener">Victoria</a> y <a href="https://www.google.com/maps/place/Marismas+de+Joyel" target="_blank" rel="noopener">Joyel</a> están cerca, lo que permite disfrutar de caminatas al aire libre mientras se observa la fauna y flora local.</p>
+    <p>La Playa de Berria está rodeada por una impresionante área natural, con dunas, marismas y un ecosistema único, lo que la convierte en un paraíso para los amantes de la naturaleza. Las marismas de <a href="https://www.google.com/maps/place/Marismas+de+Santona" target="_blank" rel="noopener">Santona</a>, <a href="https://www.google.com/maps/place/Marismas+de+Victoria" target="_blank" rel="noopener">Victoria</a> y <a href="https://www.google.com/maps/place/Marismas+de+Joyel" target="_blank" rel="noopener">Joyel</a> están cerca, lo que permite disfrutar de caminatas al aire libre mientras se observa la fauna y flora local.</p>
 </div>
 
 <h3 class="section-header"><i class="fas fa-utensils" style="color: #e67e22;"></i> Gastronomía</h3>
 <div class="info-box">
-    <p>La zona cercana a la Playa de Berria, en <a href="https://www.google.com/maps/place/Santoña" target="_blank" rel="noopener">Santoña</a>, ofrece una gran oferta gastronómica, destacando sus pescados y mariscos frescos. Los restaurantes locales son famosos por sus deliciosos platos de la región, como los pintxos, lo que hace que la experiencia en la playa sea aún más memorable.</p>
+    <p>La zona cercana a la Playa de Berria, en <a href="https://www.google.com/maps/place/Santona" target="_blank" rel="noopener">Santona</a>, ofrece una gran oferta gastronómica, destacando sus pescados y mariscos frescos. Los restaurantes locales son famosos por sus deliciosos platos de la región, como los pintxos, lo que hace que la experiencia en la playa sea aún más memorable.</p>
 </div>
 '; ?>
 
@@ -94,18 +94,18 @@ $li_descripcion_detallada = '
     <ul>
         <li class="my-4">
             <i class="fas fa-car" style="color:#27ae60;"></i> <strong>En coche:</strong><br>
-            Desde Santander, toma la autovía A-8 hasta la salida 182 y continúa por la C-629 en dirección a Santoña. Luego, sigue por la carretera CA-907 hasta llegar a la playa. Hay varios aparcamientos gratuitos disponibles, como el ubicado junto al cementerio y otro en la rotonda próxima a Argoños. También se puede aparcar a lo largo de la carretera paralela a la playa y en calles residenciales cercanas. 
+            Desde Santander, toma la autovía A-8 hasta la salida 182 y continúa por la C-629 en dirección a Santona. Luego, sigue por la carretera CA-907 hasta llegar a la playa. Hay varios aparcamientos gratuitos disponibles, como el ubicado junto al cementerio y otro en la rotonda próxima a Argoños. También se puede aparcar a lo largo de la carretera paralela a la playa y en calles residenciales cercanas. 
             <a href="https://goo.gl/maps/1L6VZCP2F5y" target="_blank" rel="noopener noreferrer">Ver ruta en Google Maps</a>.
         </li>
 
         <li class="my-4">
             <i class="fas fa-bus" style="color:#e67e22;"></i> <strong>En autobús:</strong><br>
-            Existen líneas regulares que conectan Santoña con Santander y otras localidades cercanas. Las paradas más cercanas a la Playa de Berria son "G.Civil (Berria-El Dueso)" y "El Penal Dueso (Berria-El Dueso)", ambas a pocos minutos a pie de la playa. Para obtener información actualizada sobre horarios y rutas, puedes visitar <a href="https://www.transportedecantabria.es/" target="_blank" rel="noopener noreferrer">www.transportedecantabria.es</a>.
+            Existen líneas regulares que conectan Santona con Santander y otras localidades cercanas. Las paradas más cercanas a la Playa de Berria son "G.Civil (Berria-El Dueso)" y "El Penal Dueso (Berria-El Dueso)", ambas a pocos minutos a pie de la playa. Para obtener información actualizada sobre horarios y rutas, puedes visitar <a href="https://www.transportedecantabria.es/" target="_blank" rel="noopener noreferrer">www.transportedecantabria.es</a>.
         </li>
 
         <li class="my-4">
             <i class="fas fa-bicycle" style="color:#f39c12;"></i> <strong>A pie o en bicicleta:</strong><br>
-            Si prefieres una opción más ecológica, puedes llegar a la playa desde el centro de Santoña caminando (aproximadamente 2,5 km) o en bicicleta a través del carril bici, lo que te tomará unos 10 minutos. Esta ruta ofrece vistas panorámicas y es ideal para los amantes del senderismo y el ciclismo.
+            Si prefieres una opción más ecológica, puedes llegar a la playa desde el centro de Santona caminando (aproximadamente 2,5 km) o en bicicleta a través del carril bici, lo que te tomará unos 10 minutos. Esta ruta ofrece vistas panorámicas y es ideal para los amantes del senderismo y el ciclismo.
         </li>
     </ul>
 
@@ -138,11 +138,11 @@ $li_actividades_recomendadas = '
 $li_actividades_recomendadas2 = '
             <li class="my-4">
                 <span class="highlight"><i class="fas fa-binoculars" style="color: #f39c12;"></i> <strong>Observación de Aves:</strong></span> <br>
-                Las áreas naturales cercanas a la playa, como las marismas de Santoña, son ideales para la observación de aves, con una gran variedad de especies locales y migratorias. Más detalles en <a href="https://www.marisma-santona.com/" target="_blank" rel="noopener noreferrer">Marismas de Santoña</a>.
+                Las áreas naturales cercanas a la playa, como las marismas de Santona, son ideales para la observación de aves, con una gran variedad de especies locales y migratorias. Más detalles en <a href="https://www.marisma-santona.com/" target="_blank" rel="noopener noreferrer">Marismas de Santona</a>.
             </li>
             <li class="my-4">
                 <span class="highlight"><i class="fas fa-fish" style="color: #e67e22;"></i> <strong>Pesca:</strong></span> <br>
-                La pesca desde la orilla es una actividad popular en Berria, con oportunidades para capturar especies locales en las tranquilas aguas cercanas. Consulta los permisos de pesca y horarios en <a href="https://www.santona.es/pesca" target="_blank" rel="noopener noreferrer">Santoña Pesca</a>.
+                La pesca desde la orilla es una actividad popular en Berria, con oportunidades para capturar especies locales en las tranquilas aguas cercanas. Consulta los permisos de pesca y horarios en <a href="https://www.santona.es/pesca" target="_blank" rel="noopener noreferrer">Santona Pesca</a>.
             </li>
             <li class="my-4">
                 <span class="highlight"><i class="fas fa-bicycle" style="color: #16a085;"></i> <strong>Paseos en Bicicleta:</strong></span> <br>
@@ -207,7 +207,7 @@ $schema_json = '
 
 <?php $li_mas_info = '
     <div class="info-box">
-        <p>¿Estás organizando tu visita a la <strong>Playa de Berria</strong>? Aquí tienes cómo ponerte en contacto con los responsables de turismo en Santoña para resolver cualquier duda o planificar mejor tu experiencia.</p>
+        <p>¿Estás organizando tu visita a la <strong>Playa de Berria</strong>? Aquí tienes cómo ponerte en contacto con los responsables de turismo en Santona para resolver cualquier duda o planificar mejor tu experiencia.</p>
         <ul>
             <li class="my-4">
                 <i class="fas fa-phone-alt" style="color: #27ae60;"></i> <strong>Teléfono:</strong> <br>
@@ -219,7 +219,7 @@ $schema_json = '
             </li>
             <li class="my-4">
                 <i class="fas fa-map-marker-alt" style="color: #8e44ad;"></i> <strong>Oficina de Turismo:</strong> <br>
-                Paseo Pereda, s/n, 39740 Santoña, Cantabria <br>
+                Paseo Pereda, s/n, 39740 Santona, Cantabria <br>
                 <a href="https://santona.es/portalciudadano/turismo/" target="_blank" rel="noopener noreferrer"><strong>Visita la web oficial</strong></a>
             </li>
         </ul>
@@ -293,7 +293,7 @@ $caja_caracteristicas = '
         <li><i class="fas fa-sun" style="color: #f39c12;"></i> Arena fina y dorada en un entorno virgen, ideal para relajarse bajo el sol del Cantábrico.</li>
         <li><i class="fas fa-ruler-combined" style="color: #3498db;"></i> Longitud: aproximadamente <strong>2 kilómetros</strong>, con una anchura media de 150 metros.</li>
         <li><i class="fas fa-water" style="color: #1abc9c;"></i> Aguas limpias con zonas de oleaje moderado, perfectas para <a href="https://www.berriasurfschool.com/" target="_blank" rel="noopener noreferrer">surf</a> y <a href="https://www.berriasurfschool.com/paddle-surf/" target="_blank" rel="noopener noreferrer">paddle surf</a>.</li>
-        <li><i class="fas fa-tree" style="color: #2ecc71;"></i> Rodeada de dunas protegidas y próxima al <a href="https://reddeparquesnacionales.miteco.gob.es/parques/santona/" target="_blank" rel="noopener noreferrer">Parque Natural de las Marismas de Santoña, Victoria y Joyel</a>.</li>
+        <li><i class="fas fa-tree" style="color: #2ecc71;"></i> Rodeada de dunas protegidas y próxima al <a href="https://reddeparquesnacionales.miteco.gob.es/parques/santona/" target="_blank" rel="noopener noreferrer">Parque Natural de las Marismas de Santona, Victoria y Joyel</a>.</li>
         <li><i class="fas fa-concierge-bell" style="color: #e67e22;"></i> Servicios disponibles: duchas, aseos, socorristas, pasarelas de madera y <a href="https://www.facebook.com/p/ER-CHIRINGO-TITI-CACA-BERRIA-100057187340821/" target="_blank" rel="noopener noreferrer">chiringuitos</a> con ambiente veraniego.</li>
         <li><i class="fas fa-wheelchair" style="color: #9b59b6;"></i> Accesos adaptados para personas con movilidad reducida, incluyendo rampas y plazas de aparcamiento reservadas.</li>
         <li><i class="fas fa-person-hiking" style="color: #8e44ad;"></i> Actividades destacadas: <a href="https://www.berriasurfschool.com/" target="_blank" rel="noopener noreferrer">surf</a>, <a href="https://www.santona.es/rutas" target="_blank" rel="noopener noreferrer">senderismo</a> al <a href="https://farodelcaballo.es/" target="_blank" rel="noopener noreferrer">Faro del Caballo</a>, <a href="https://www.santona.es/pesca" target="_blank" rel="noopener noreferrer">pesca deportiva</a> y observación de aves.</li>
@@ -307,22 +307,22 @@ $caja_caracteristicas = '
 
 <?php
 $caja_eventosYfestividades = '
-<h4>Eventos y Festividades en la Playa de Berria y Santoña</h4>
+<h4>Eventos y Festividades en la Playa de Berria y Santona</h4>
 <ul>
     <li class="my-4">
         <i class="fas fa-fish" style="color: #27ae60;"></i>
         <strong>Festival de la Anchoa y la Conserva:</strong><br>
-        Celebrado en primavera, este evento destaca la tradición conservera de Santoña, con degustaciones, talleres y actividades culturales. <a href="https://www.santona.es/agenda/" target="_blank" rel="noopener noreferrer">Más detalles</a>.
+        Celebrado en primavera, este evento destaca la tradición conservera de Santona, con degustaciones, talleres y actividades culturales. <a href="https://www.santona.es/agenda/" target="_blank" rel="noopener noreferrer">Más detalles</a>.
     </li>
     <li class="my-4">
         <i class="fas fa-anchor" style="color: #2980b9;"></i>
         <strong>Fiestas de la Virgen del Puerto:</strong><br>
-        Del 6 al 14 de septiembre, incluyen procesiones marítimas, conciertos, ferias y fuegos artificiales en honor a la patrona de Santoña. <a href="https://farodelcaballo.es/programa-fiestas-de-santona/" target="_blank" rel="noopener noreferrer">Consulta el programa</a>.
+        Del 6 al 14 de septiembre, incluyen procesiones marítimas, conciertos, ferias y fuegos artificiales en honor a la patrona de Santona. <a href="https://farodelcaballo.es/programa-fiestas-de-santona/" target="_blank" rel="noopener noreferrer">Consulta el programa</a>.
     </li>
     <li class="my-4">
         <i class="fas fa-drum" style="color: #8e44ad;"></i>
         <strong>Gran Marmitada:</strong><br>
-        El 12 de septiembre, se celebra esta fiesta gastronómica con la preparación y degustación de un guiso tradicional de marmita de bonito en la localidad de Santoña. <a href="https://farodelcaballo.es/programa-fiestas-de-santona/" target="_blank" rel="noopener noreferrer">Consulta más</a>.
+        El 12 de septiembre, se celebra esta fiesta gastronómica con la preparación y degustación de un guiso tradicional de marmita de bonito en la localidad de Santona. <a href="https://farodelcaballo.es/programa-fiestas-de-santona/" target="_blank" rel="noopener noreferrer">Consulta más</a>.
     </li>
     <li class="my-4">
         <i class="fas fa-music" style="color: #f39c12;"></i>
@@ -342,42 +342,42 @@ $caja_eventosYfestividades = '
 $imagenes = [
     [
         'src' => './../img/vista-panoramica-playa-Berria-800x533.jpg',
-        'alt' => 'Vista panorámica de la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Vista panorámica de la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Vista panorámica de la Playa de Berria.',
         'href' => 'https://www.cantabriarural.com/playas/playa-de-berria.html',
         'titulo_href' => 'cantabriarural.com'
     ],
     [
         'src' => './../img/dunas-arena-playa-Berria-y-punta-de-El-Brusco.jpg',
-        'alt' => 'Dunas de arena en la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Dunas de arena en la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Dunas de arena en la Playa de Berria, Cantabria.',
         'href' => 'https://elpais.com/elviajero/2021/01/21/actualidad/1611229533_330658.html#',
         'titulo_href' => 'redcantabrarural.com'
     ],
     [
         'src' => './../img/surfistas-en-la-playa-de-Berria.jpg',
-        'alt' => 'Surfistas en la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Surfistas en la Playa de Berria en Santona, Cantabria.',
         'figcaption' => ' Surfistas en la Playa de Berria.',
         'href' => 'https://www.youtube.com/watch?v=2qedUp4dVYM',
         'titulo_href' => 'Youtube'
     ],
     [
         'src' => './../img/atardecer-playa-de-Berria.jpg',
-        'alt' => 'Atardecer en la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Atardecer en la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Atardecer en la Playa de Berria.',
         'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4556139-i336517190-Playa_De_Berria-Santona_Cantabria.html',
         'titulo_href' => 'tripadvisor'
     ],
     [
         'src' => './../img/playa-de-berria-santona.jpg',
-        'alt' => 'Vista de la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Vista de la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Playa de Berria.',
         'href' => 'https://turismodecantabria.com',
         'titulo_href' => 'Turismo de Cantabria'
     ],
     [
         'src' => './../img/monte-buciero-cercano-playa-de-Berria.jpg',
-        'alt' => 'Vistas al Monte Buciero cercano a la Playa de Berria en Santoña, Cantabria.',
+        'alt' => 'Vistas al Monte Buciero cercano a la Playa de Berria en Santona, Cantabria.',
         'figcaption' => 'Vistas al Monte Buciero cercano a la Playa de Berria.',
         'href' => 'https://www.tripadvisor.es/LocationPhotoDirectLink-g608999-d4555728-i117278266-Monte_Buciero-Santona_Cantabria.html',
         'titulo_href' => 'Tripadvisor'

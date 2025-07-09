@@ -44,6 +44,22 @@ $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_snea
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
 
 
+<?php
+$carpeta = 'playa-de-berria';
+$localidad_nombre = 'Playa de Berria';
+$localidad = 'Santona';
+$localidad_minuscula = strtolower($localidad);  // "santona"
+$region = 'Cantabria';
+$region_minuscula = 'cantabria';
+$archivo_name = 'santona-cantabria';
+
+$presentacion = 'La Playa de Berria, ubicada en Santona, Cantabria, es una extensa playa de arena fina que se extiende entre el monte Brusco y el monte Buciero. Con más de 2 km de longitud, es ideal para el baño, el surf y largos paseos junto al mar. Rodeada de naturaleza y zonas protegidas como las marismas de Santona, esta playa combina belleza paisajística con una gran riqueza ecológica. Su fácil acceso y servicios hacen de Berria una de las playas más valoradas del litoral cántabro.';
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+?>
+
+<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
+
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
 
 
 
@@ -80,7 +96,7 @@ $carpeta = 'playadeberria';
 $localidad_nombre = 'Playa de Berria';
 $localidad = 'Playa de Berria';
 $archivo_name = 'berria-santona';
-$presentacion = 'La Playa de Berria, ubicada en Santoña, Cantabria, es un hermoso tramo de arena dorada que se extiende por casi 2 kilómetros entre el Monte Buciero y el estuario de Treto. Con sus aguas cristalinas y su entorno natural protegido, es un destino perfecto para quienes buscan disfrutar del surf, paseos relajantes, o simplemente conectar con la naturaleza.<br>Esta playa, de gran valor ecológico, es un paraíso tanto para los amantes del mar como para aquellos que buscan un rincón tranquilo en la costa cantábrica.';
+$presentacion = 'La Playa de Berria, ubicada en Santona, Cantabria, es un hermoso tramo de arena dorada que se extiende por casi 2 kilómetros entre el Monte Buciero y el estuario de Treto. Con sus aguas cristalinas y su entorno natural protegido, es un destino perfecto para quienes buscan disfrutar del surf, paseos relajantes, o simplemente conectar con la naturaleza.<br>Esta playa, de gran valor ecológico, es un paraíso tanto para los amantes del mar como para aquellos que buscan un rincón tranquilo en la costa cantábrica.';
 include $targeta; */?>
 
 

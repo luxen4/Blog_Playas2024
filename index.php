@@ -81,7 +81,9 @@
               <?php //include './localidades/vizcaya/sumario-playas-vizcaya.php'; ?>
             </div>
             <div class="col-12">
-              <?php //include './localidades/gipuzkoa/sumario-playas-gipuzkoa.php'; ?>
+              <?php 
+                    $region='Gipuzkoa'; $region_minuscula = 'gipuzkoa';
+                    include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-gipuzkoa.php'; ?>
             </div>
             <div class="col-12">
               <?php 

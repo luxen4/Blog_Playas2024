@@ -65,6 +65,29 @@ $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Pla
 
 
 
+
+<?php
+$carpeta = 'playa-de-cuberris';
+$localidad_nombre = 'Playa de Cuberris';
+$localidad = 'Ajo';
+$localidad_minuscula = strtolower($localidad);  // "ajo"
+$region = 'Cantabria';
+$region_minuscula = strtolower($region);        // "cantabria"
+$archivo_name = 'ajo-cantabria';
+
+$presentacion = 'La Playa de Cuberris, situada en Ajo, Cantabria, es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso en coche y a pie, Cuberris ofrece un equilibrio perfecto entre comodidad y naturaleza para quienes desean disfrutar de la costa cántabra en su estado más puro.';
+
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+?>
+
+
+<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
+
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
+
+
+
+
 <div class="row">
     <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">  
         <?php require $publicidad; ?>

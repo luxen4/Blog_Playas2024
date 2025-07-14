@@ -321,7 +321,7 @@ $imagenes = [
     [
         'src' => './../img/vista-aerea-playa-Concha-Suances-Cantabria.jpg',
         'alt' => 'Vista aerea de la Playa de la Concha en Suances en Cantabria',
-        'figcaption' => 'Vista panorámica de la Playa de Gorliz, Bizkaia. Fuente:',
+        'figcaption' => 'Vista panorámica de la Playa de Gorliz, vizkaia. Fuente:',
         'href' => 'https://turismodecantabria.com/playas/playa-de-la-concha-suances/',
         'titulo_href' => 'turismodecantabria.com'
     ],

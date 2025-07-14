@@ -1,7 +1,7 @@
 <?php
 $li_encabezado = '
 <section class="encabezado-playa-laga">
-    <p><strong>Explora la <a href="https://turismo.euskadi.eus/es/playas/playa-de-laga/aa30-12375/es/" target="_blank" title="Visita la Playa de Laga en Euskadi">Playa de Laga</a></strong>, un tesoro natural en la costa de Bizkaia, enclavado en la <a href="/reserva-de-urdaibai/" title="Reserva de la Biosfera de Urdaibai">Reserva de la Biosfera de Urdaibai</a>.</p>
+    <p><strong>Explora la <a href="https://turismo.euskadi.eus/es/playas/playa-de-laga/aa30-12375/es/" target="_blank" title="Visita la Playa de Laga en Euskadi">Playa de Laga</a></strong>, un tesoro natural en la costa de vizkaia, enclavado en la <a href="/reserva-de-urdaibai/" title="Reserva de la Biosfera de Urdaibai">Reserva de la Biosfera de Urdaibai</a>.</p>
     <p>Con su <strong>arena dorada</strong>, <strong>entorno virgen</strong> y vistas al imponente <a href="/cabo-ogono/" title="Cabo Ogoño">Cabo Ogoño</a>, Laga es el lugar perfecto para relajarse, practicar surf o simplemente admirar la belleza del mar Cantábrico.</p>
 </section>
 ';
@@ -11,7 +11,7 @@ $li_encabezado = '
 $li_descripcion_detallada = '
 <section class="descripcion-playa-laga">
     <h2 class="section-title"><i class="fas fa-sun" style="color:#f39c12;"></i> Descubre la Playa de Laga</h2>
-    <p>Ubicada en <strong>Ibarrangelu</strong>, la <a href="/playas-en-bizkaia/" title="Playas de Bizkaia">Playa de Laga</a> es una de las más impresionantes de la costa vasca. Rodeada de naturaleza virgen y acantilados escarpados, su ambiente es tranquilo y alejado del turismo masivo.</p>
+    <p>Ubicada en <strong>Ibarrangelu</strong>, la <a href="/playas-en-vizkaia/" title="Playas de vizkaia">Playa de Laga</a> es una de las más impresionantes de la costa vasca. Rodeada de naturaleza virgen y acantilados escarpados, su ambiente es tranquilo y alejado del turismo masivo.</p>
     <p>Su entorno protegido dentro de la <a href="/reserva-de-urdaibai/" title="Urdaibai">Reserva de Urdaibai</a> la convierte en un espacio ideal para <strong>desconectar del ritmo urbano</strong> y conectar con la naturaleza.</p>
 </section>
 ';
@@ -22,7 +22,7 @@ $li_descripcion_detallada2 = '
 <section class="actividades-en-laga">
     <h2 class="section-header"><i class="fas fa-surfboard" style="color:#3498db;"></i> Qué hacer en la Playa de Laga</h2>
     <ul>
-        <li><i class="fas fa-water" style="color:#3498db;"></i> <strong>Surf y bodyboard:</strong> Laga es uno de los <a href="/surf-en-bizkaia/" title="Surf en Bizkaia">mejores spots de surf</a> del País Vasco.</li>
+        <li><i class="fas fa-water" style="color:#3498db;"></i> <strong>Surf y bodyboard:</strong> Laga es uno de los <a href="/surf-en-vizkaia/" title="Surf en vizkaia">mejores spots de surf</a> del País Vasco.</li>
         <li><i class="fas fa-hiking" style="color:#27ae60;"></i> <strong>Senderismo:</strong> Desde la playa parten rutas hacia el <a href="/cabo-ogono/" title="Rutas por Cabo Ogoño">Cabo Ogoño</a>, con vistas espectaculares del litoral.</li>
         <li><i class="fas fa-binoculars" style="color:#9b59b6;"></i> <strong>Observación de aves:</strong> En el entorno de Urdaibai habita una gran variedad de aves, ideal para los amantes de la naturaleza.</li>
     </ul>
@@ -48,7 +48,7 @@ $li_mapa_ubicacion = '
     <h2 class="section-title"><i class="fas fa-map-marked-alt" style="color:#e74c3c;"></i> Cómo llegar a la Playa de Laga</h2>
     <ul>
         <li><i class="fas fa-car" style="color:#2980b9;"></i> <strong>En coche:</strong> Desde <a href="https://www.google.com/maps/dir/Bilbao,+España/Playa+de+Laga,+Ibarrangelu" target="_blank" style="color:#2980b9;" title="Ruta desde Bilbao a Laga">Bilbao</a>, por la BI-2235 hasta Ibarrangelu (aprox. 50 minutos). Aparcamientos disponibles cerca de la playa.</li>
-        <li><i class="fas fa-bus" style="color:#16a085;"></i> <strong>En autobús:</strong> La empresa <a href="https://www.bizkaia.eus/home2/Busquedas/Busquedas.asp?Idioma=CA&Tem_Codigo=7898" target="_blank" title="Horario Bizkaibus">Bizkaibus</a> conecta Bilbao con Ibarrangelu en temporada alta.</li>
+        <li><i class="fas fa-bus" style="color:#16a085;"></i> <strong>En autobús:</strong> La empresa <a href="https://www.vizkaia.eus/home2/Busquedas/Busquedas.asp?Idioma=CA&Tem_Codigo=7898" target="_blank" title="Horario Bizkaibus">Bizkaibus</a> conecta Bilbao con Ibarrangelu en temporada alta.</li>
         <li><i class="fas fa-walking" style="color:#f39c12;"></i> <strong>A pie o en bici:</strong> Existen rutas naturales y cicloturistas que llegan hasta Laga, recomendadas para disfrutar del paisaje costero.</li>
     </ul>
 
@@ -61,7 +61,7 @@ $li_mapa_ubicacion = '
     <p>Consulta la <a href="https://www.google.com/maps?q=Playa+de+Laga" target="_blank" title="Ver Playa de Laga en Google Maps" style="color:#2980b9;">ubicación exacta en Google Maps</a>.</p>
 
     <meta name="description" content="Accede fácilmente a la Playa de Laga, en la costa vasca. Descubre rutas, transporte público, mapa interactivo y consejos para tu visita en 2025." />
-    <meta name="keywords" content="Playa de Laga, cómo llegar a Laga, surf en Laga, Urdaibai, Cabo Ogoño, playas en Bizkaia" />
+    <meta name="keywords" content="Playa de Laga, cómo llegar a Laga, surf en Laga, Urdaibai, Cabo Ogoño, playas en vizkaia" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 </section>
@@ -89,7 +89,7 @@ $li_actividades_recomendadas2 = '
         </ul>
     </div>
     <meta name="description" content="Descubre las mejores actividades en la Playa de Laga: surf, senderismo, natación y más en plena Reserva de Urdaibai." />
-    <meta name="keywords" content="Playa de Laga, actividades en Laga, surf Laga, senderismo Urdaibai, playa natural Bizkaia" />
+    <meta name="keywords" content="Playa de Laga, actividades en Laga, surf Laga, senderismo Urdaibai, playa natural vizkaia" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 </section>
@@ -178,7 +178,7 @@ $li_mas_info = '
         <ul>
             <li><i class="fas fa-phone-alt" style="color:#2ecc71;"></i> <strong>Teléfono Oficina Turismo Busturialdea:</strong> +34 946 870 402</li>
             <li><i class="fas fa-envelope" style="color:#e74c3c;"></i> <strong>Email:</strong> <a href="mailto:turismo@busturialdea.org" title="Enviar correo a turismo Busturialdea" style="color:#2980b9;">turismo@busturialdea.org</a></li>
-            <li><i class="fas fa-map-marker-alt" style="color:#f39c12;"></i> <strong>Oficina de Turismo:</strong> Avda. Juan Kaltzada, 1, 48360 Mundaka, Bizkaia
+            <li><i class="fas fa-map-marker-alt" style="color:#f39c12;"></i> <strong>Oficina de Turismo:</strong> Avda. Juan Kaltzada, 1, 48360 Mundaka, vizkaia
                 <a href="https://www.busturialdeaurdaibai.com" target="_blank" title="Turismo Urdaibai" style="color:#2980b9;"><strong>Web Oficial</strong></a>
             </li>
         </ul>
@@ -234,7 +234,7 @@ $li_mas_info = '
         </li>
         <li class="my-4">
             <i class="fas fa-leaf" style="color:#27ae60;"></i> <strong>Actividades de Verano en Urdaibai:</strong><br>
-            Talleres medioambientales, rutas interpretativas y actividades al aire libre organizadas por <a href="https://www.bizkaia.eus/leisure" target="_blank" rel="noopener noreferrer" style="color:#2980b9;">centros locales</a> y asociaciones ambientales.
+            Talleres medioambientales, rutas interpretativas y actividades al aire libre organizadas por <a href="https://www.vizkaia.eus/leisure" target="_blank" rel="noopener noreferrer" style="color:#2980b9;">centros locales</a> y asociaciones ambientales.
             <time datetime="2025-07-01">Julio y agosto de 2025</time>
         </li>
     </ul>
@@ -261,7 +261,7 @@ $faq = '
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes llegar en coche (con parking cercano de pago) o mediante <a href="/como-llegar-playa-laga/" title="Cómo llegar a la Playa de Laga">autobús en temporada alta</a> desde Gernika y otras localidades del entorno.</dd>
 
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde obtener más información sobre la zona?</dt>
-    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes consultar la <a href="https://www.bizkaia.eus/home2/Temas/DetalleTema.asp?Tem_Codigo=13167&idioma=CA&dpto_biz=1&codpath=1|299|303|1596|13167" target="_blank" rel="noopener noreferrer" title="Turismo Urdaibai - Bizkaia">Oficina de Turismo de Urdaibai</a> o el <a href="/reserva-biosfera-urdaibai/" title="Reserva de la Biosfera de Urdaibai">sitio oficial de la Reserva</a> para descubrir rutas, actividades y alojamientos.</dd>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes consultar la <a href="https://www.vizkaia.eus/home2/Temas/DetalleTema.asp?Tem_Codigo=13167&idioma=CA&dpto_biz=1&codpath=1|299|303|1596|13167" target="_blank" rel="noopener noreferrer" title="Turismo Urdaibai - vizkaia">Oficina de Turismo de Urdaibai</a> o el <a href="/reserva-biosfera-urdaibai/" title="Reserva de la Biosfera de Urdaibai">sitio oficial de la Reserva</a> para descubrir rutas, actividades y alojamientos.</dd>
 </dl>
 <meta name="description" content="Resuelve tus dudas sobre la Playa de Laga: actividades, surf, accesos, servicios familiares y dónde obtener más información turística." />
 <meta name="keywords" content="FAQ Playa de Laga, preguntas frecuentes Laga, surf en Laga, turismo Urdaibai, cómo llegar a Laga" />

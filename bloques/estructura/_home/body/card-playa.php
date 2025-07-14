@@ -1,5 +1,5 @@
 
-<details class="group bg-<?= $color_page; ?>-50 border border-<?= $color_page; ?>-300 rounded-md p-4 w-full mx-auto my-4 shadow-sm">
+<details class="group bg-<?= $color_page; ?>-50 border border-<?= $color_page; ?>-300 rounded-md p-1 w-full mx-auto my-1 shadow-sm">
   <summary class="cursor-pointer text-<?= $color_page; ?>-800 font-semibold text-lg flex items-center justify-between">
     <div class="flex items-center gap-2">
       <!-- Icono SEO (lupa o gráfico) -->

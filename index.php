@@ -78,7 +78,9 @@
               <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
             </div>
             <div class="col-12">
-              <?php //include './localidades/vizcaya/sumario-playas-vizcaya.php'; ?>
+              <?php 
+                    $region='Vizkaia'; $region_minuscula = 'vizkaia';
+                    include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-vizkaia.php'; ?>
             </div>
             <div class="col-12">
               <?php 
@@ -87,8 +89,8 @@
             </div>
             <div class="col-12">
               <?php 
-              //$region='Francia'; $region_minuscula = strtolower($localidad);
-              //include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-francia.php'; ?>
+                    $region='Francia'; $region_minuscula = strtolower($localidad);
+                    include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-francia.php'; ?>
             </div>
           </div>
         </div>

@@ -1,51 +1,35 @@
-<?php
-$carpeta = 'grande-plage-saint-jean-de-luz';
-$localidad_nombre = 'Grande Plage de Saint-Jean-de-Luz';
-$localidad = 'Saint-Jean-de-Luz';
-$localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "saint-jean-de-luz"
-$region_minuscula = 'francia';
-$archivo_name = 'grande-plage-saint-jean-de-luz';
 
-$presentacion = 'La Grande Plage de Saint-Jean-de-Luz es la playa urbana más emblemática del País Vasco francés. Con su bahía protegida de aguas tranquilas y su amplia franja de arena dorada, ofrece un entorno ideal para familias, baños relajantes y deportes náuticos. Flanqueada por el paseo marítimo Jacques Thibaud y rodeada de la arquitectura tradicional vasca, esta playa combina servicios de calidad (duchas, socorristas, alquiler de sombrillas) con una experiencia costera auténtica. En los chiringuitos cercanos podrás degustar especialidades localesen base a mariscos y la reputación de su ambiente animado la convierte en un destino imprescindible durante el verano.';
-$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_playas.php';
-
-$region='Francia'; $region_minuscula = strtolower($region);?>
-
-
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/{$region_minuscula}/defines-francia.php"; ?>
-
-
-<?php $targeta = PATH_RAIZ_LOCALIDADES. '/index.php'; ?>
-
-<!-- Tailwind CSS -->
-<script src="https://cdn.tailwindcss.com"></script>
-
-<h2 id="<?= $region_minuscula; ?>" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6">
-  <?= $region; ?>
+<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6">
+  Francia
 </h2>
 
-<details class="group bg-<?= $color_page; ?>-50 border border-<?= $color_page; ?>-300 rounded-md p-4 w-full mx-auto my-4 shadow-sm">
-  <summary class="cursor-pointer text-<?= $color_page; ?>-800 font-semibold text-lg flex items-center justify-between">
-    <div class="flex items-center gap-2">
-      <!-- Icono SEO (lupa o gráfico) -->
-      <svg class="w-6 h-6 text-<?= $color_page; ?>-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M11 5a7 7 0 017 7c0 1.657-.672 3.157-1.758 4.242l4.536 4.536a1 1 0 01-1.414 1.414l-4.536-4.536A7 7 0 1111 5z" />
-      </svg>
-      <span><?= $localidad_nombre; /* 'Grande Plage de Saint-Jean-de-Luz' */ ?></span>
+<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
+
+
+<?php
+$carpeta = 'la-grande-plage';
+$localidad_nombre = 'La Grande Plage';
+$localidad = 'Saint-Jean-de-Luz';
+$localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "saint-jean-de-luz"
+$region = 'Nouvelle-Aquitaine';  // Región de Francia
+$region_minuscula = strtolower(str_replace(' ', '-', $region));  // "nouvelle-aquitaine"
+$archivo_name = 'la-grande-plage-saint-jean-de-luz-nouvelle-aquitaine';
+
+$presentacion = '🏖️ La Grande Plage est la plage emblématique de Saint-Jean-de-Luz, connue pour son sable fin, son ambiance familiale et ses activités nautiques. Idéale pour profiter de la côte basque française en toute tranquillité.';
+
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+
+$pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}";
+?>
+
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
+
+
+<div class="row">
+    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">  
+        <?php require $publicidad; ?>
     </div>
-    <!-- Flecha -->
-    <svg class="w-5 h-5 text-<?= $color_page; ?>-600 transition-transform duration-300 group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-    </svg>
-  </summary>
-
-  <div class="mt-4 text-sm text-<?= $color_page; ?>-900 leading-relaxed">
-    <?php include $targeta; ?>
-  </div>
-</details>
-
-
-
+</div>
 
 
 

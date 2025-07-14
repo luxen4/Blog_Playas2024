@@ -1,7 +1,7 @@
 <?php
 $li_encabezado = '
 <section class="encabezado-playa-bakio">
-    <p><strong>Explora la <a href="/playa-de-bakio/" title="Visita la Playa de Bakio">Playa de Bakio</a></strong>, uno de los destinos costeros más emblemáticos de Bizkaia, ideal tanto para surfistas como para familias.</p>
+    <p><strong>Explora la <a href="/playa-de-bakio/" title="Visita la Playa de Bakio">Playa de Bakio</a></strong>, uno de los destinos costeros más emblemáticos de vizkaia, ideal tanto para surfistas como para familias.</p>
     <p>Con su <strong>amplio arenal dorado</strong>, <strong>olas perfectas</strong> y cercanía a <a href="/san-juan-de-gaztelugatxe/" title="Sube a San Juan de Gaztelugatxe">San Juan de Gaztelugatxe</a>, Bakio ofrece una mezcla única de naturaleza, deporte y cultura vasca.</p>
 </section>
 ';
@@ -11,7 +11,7 @@ $li_encabezado = '
 $li_descripcion_detallada = '
 <section class="descripcion-playa-bakio">
     <h2 class="section-title"><i class="fas fa-umbrella-beach" style="color:#f39c12;"></i> Sobre la Playa de Bakio</h2>
-    <p>Ubicada entre acantilados y montañas, la <a href="/playas-bizkaia/" title="Playas en Bizkaia">Playa de Bakio</a> se extiende por más de un kilómetro y es conocida por ser uno de los mejores spots de surf del norte peninsular.</p>
+    <p>Ubicada entre acantilados y montañas, la <a href="/playas-vizkaia/" title="Playas en vizkaia">Playa de Bakio</a> se extiende por más de un kilómetro y es conocida por ser uno de los mejores spots de surf del norte peninsular.</p>
     <p>Cuenta con múltiples servicios, accesos adaptados, zonas verdes y una ubicación privilegiada junto a la <a href="/ruta-san-juan-de-gaztelugatxe/" title="Ruta a San Juan de Gaztelugatxe">ruta de senderismo a Gaztelugatxe</a>, lo que la convierte en un destino versátil y completo.</p>
 </section>
 ';
@@ -48,7 +48,7 @@ $li_mapa_ubicacion = '
     <h2 class="section-title"><i class="fas fa-map-marker-alt" style="color:#e74c3c;"></i> Cómo llegar a la Playa de Akio</h2>
     <ul>
         <li><i class="fas fa-car" style="color:#2980b9;"></i> <strong>En coche:</strong> Desde Bilbao, se accede por la carretera BI-634, con un tramo final de sendero peatonal (15-20 minutos a pie).</li>
-        <li><i class="fas fa-bus" style="color:#16a085;"></i> <strong>En transporte público:</strong> Líneas de <a href="https://www.bizkaia.eus/home2/Busquedas/Busquedas.asp?Idioma=CA&Tem_Codigo=7898" target="_blank" title="Consultar Bizkaibus">Bizkaibus</a> operan hasta el municipio más cercano en temporada alta.</li>
+        <li><i class="fas fa-bus" style="color:#16a085;"></i> <strong>En transporte público:</strong> Líneas de <a href="https://www.vizkaia.eus/home2/Busquedas/Busquedas.asp?Idioma=CA&Tem_Codigo=7898" target="_blank" title="Consultar Bizkaibus">Bizkaibus</a> operan hasta el municipio más cercano en temporada alta.</li>
         <li><i class="fas fa-shoe-prints" style="color:#f39c12;"></i> <strong>Ruta a pie:</strong> Ideal para caminantes, con vistas al mar Cantábrico desde varios puntos del camino.</li>
     </ul>
 
@@ -60,8 +60,8 @@ $li_mapa_ubicacion = '
     </iframe>
     <p>Consulta la <a href="https://www.google.com/maps?q=Playa+de+Akio" target="_blank" title="Ver Playa de Akio en Google Maps" style="color:#2980b9;">ubicación en Google Maps</a>.</p>
 
-    <meta name="description" content="Cómo llegar a la Playa de Akio: acceso, transporte, mapa y consejos para disfrutar de esta playa secreta en Bizkaia en 2025." />
-    <meta name="keywords" content="Playa de Akio, cómo llegar a Akio, playa secreta Bizkaia, naturaleza, rutas costeras" />
+    <meta name="description" content="Cómo llegar a la Playa de Akio: acceso, transporte, mapa y consejos para disfrutar de esta playa secreta en vizkaia en 2025." />
+    <meta name="keywords" content="Playa de Akio, cómo llegar a Akio, playa secreta vizkaia, naturaleza, rutas costeras" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 </section>
@@ -88,7 +88,7 @@ $li_actividades_recomendadas2 = '
         </ul>
     </div>
     <meta name="description" content="Explora las actividades más recomendadas en la Playa de Akio: paseos, fotografía, naturaleza y relax en una cala virgen del País Vasco." />
-    <meta name="keywords" content="Playa de Akio, actividades Akio, relax en Bizkaia, playa virgen, naturaleza en el País Vasco" />
+    <meta name="keywords" content="Playa de Akio, actividades Akio, relax en vizkaia, playa virgen, naturaleza en el País Vasco" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 </section>
@@ -111,13 +111,13 @@ $li_actividades_recomendadas2 = '
     </li>
     <li class="my-4">
         <i class="fas fa-map-marker-alt" style="color:#e74c3c;"></i> <strong>Oficina de Turismo:</strong><br>
-        Calle Ostatua, 1, 48130 Bakio, Bizkaia
+        Calle Ostatua, 1, 48130 Bakio, vizkaia
         <a href="https://www.bakio.eus/es/turismo" target="_blank" title="Visita la web de Turismo Bakio"><strong>Web</strong></a>
     </li>
 </ul>
 
 <meta name="description" content="Información sobre la Playa de Bakio: contacto, oficina de turismo, teléfono y email para resolver todas tus dudas." />
-<meta name="keywords" content="Playa de Bakio, contacto turismo Bakio, oficina de turismo Bakio, información turística, Bakio Bizkaia" />
+<meta name="keywords" content="Playa de Bakio, contacto turismo Bakio, oficina de turismo Bakio, información turística, Bakio vizkaia" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 <meta property="og:title" content="Más Información sobre la Playa de Bakio" />
@@ -191,12 +191,12 @@ $faq = '
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes llegar en coche (con parking cercano de pago) o mediante <a href="/como-llegar-playa-bakio/" title="Cómo llegar a la Playa de Bakio">autobús en temporada alta</a> desde Bilbao y otras localidades del entorno.</dd>
 
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde obtener más información sobre la zona?</dt>
-    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes consultar la <a href="https://www.bizkaia.eus/home2/Temas/DetalleTema.asp?Tem_Codigo=13167&idioma=ES&dpto_biz=1&codpath=1|299|303|1596|13167" target="_blank" rel="noopener noreferrer" title="Turismo Bizkaia">Oficina de Turismo de Bizkaia</a> o el <a href="/reserva-biosfera-bizkaia/" title="Reserva de la Biosfera de Bizkaia">sitio oficial de la Reserva de la Biosfera de Urdaibai</a> para descubrir rutas, actividades y alojamientos.</dd>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Puedes consultar la <a href="https://www.vizkaia.eus/home2/Temas/DetalleTema.asp?Tem_Codigo=13167&idioma=ES&dpto_biz=1&codpath=1|299|303|1596|13167" target="_blank" rel="noopener noreferrer" title="Turismo vizkaia">Oficina de Turismo de vizkaia</a> o el <a href="/reserva-biosfera-vizkaia/" title="Reserva de la Biosfera de vizkaia">sitio oficial de la Reserva de la Biosfera de Urdaibai</a> para descubrir rutas, actividades y alojamientos.</dd>
 </dl>
 
 <!-- SEO avanzando con metadatos -->
 <meta name="description" content="Resuelve tus dudas sobre la Playa de Bakio: actividades, surf, accesos, servicios familiares y dónde obtener más información turística." />
-<meta name="keywords" content="FAQ Playa de Bakio, preguntas frecuentes Bakio, surf en Bakio, turismo Bizkaia, cómo llegar a Bakio" />
+<meta name="keywords" content="FAQ Playa de Bakio, preguntas frecuentes Bakio, surf en Bakio, turismo vizkaia, cómo llegar a Bakio" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 
@@ -223,7 +223,7 @@ $faq = '
 <div class="info-box">
     <ul>
         <li><i class="fas fa-sun" style="color:#f39c12;"></i> <strong>Arena dorada y gruesa:</strong> De origen natural, ideal para paseos y descanso.</li>
-        <li><i class="fas fa-ruler-combined" style="color:#3498db;"></i> <strong>Longitud:</strong> Aproximadamente 1.100 metros, siendo una de las playas más extensas de Bizkaia.</li>
+        <li><i class="fas fa-ruler-combined" style="color:#3498db;"></i> <strong>Longitud:</strong> Aproximadamente 1.100 metros, siendo una de las playas más extensas de vizkaia.</li>
         <li><i class="fas fa-expand-alt" style="color:#2ecc71;"></i> <strong>Anchura:</strong> Variable según la marea, ofreciendo amplios espacios en marea baja.</li>
         <li><i class="fas fa-water" style="color:#1abc9c;"></i> <strong>Mar con oleaje moderado a fuerte:</strong> Ideal para la práctica del surf y deportes acuáticos.</li>
         <li><i class="fas fa-tree" style="color:#27ae60;"></i> <strong>Entorno natural y urbano:</strong> Con vistas a <a href="/san-juan-de-gaztelugatxe/" title="Visita San Juan de Gaztelugatxe">San Juan de Gaztelugatxe</a> y zonas verdes cercanas.</li>
@@ -233,8 +233,8 @@ $faq = '
         <li><i class="fas fa-surfboard" style="color:#1abc9c;"></i> <strong>Actividades:</strong> Surf, bodyboard, rutas de senderismo, visitas culturales y paseos marítimos.</li>
     </ul>
 </div>
-<meta name="description" content="Conoce las características de la Playa de Bakio: arena dorada, oleaje ideal para surf, accesibilidad, actividades y más. Perfecta para disfrutar del verano en Bizkaia." />
-<meta name="keywords" content="Playa de Bakio, características playa Bakio, surf en Bakio, actividades en Bakio, turismo Bizkaia, accesibilidad playa" />
+<meta name="description" content="Conoce las características de la Playa de Bakio: arena dorada, oleaje ideal para surf, accesibilidad, actividades y más. Perfecta para disfrutar del verano en vizkaia." />
+<meta name="keywords" content="Playa de Bakio, características playa Bakio, surf en Bakio, actividades en Bakio, turismo vizkaia, accesibilidad playa" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 ';
@@ -259,28 +259,28 @@ $faq = '
 <?php
 $imagenes = [
     [
-        'src' => './img/vista-panoramica-playa-de-Bakio-Bizkaia.jpg',
+        'src' => './img/vista-panoramica-playa-de-Bakio-vizkaia.jpg',
         'alt' => 'Vista panorámica en la Playa de Bakio en Bizcaya, País Vasco',
         'figcaption' => 'Playa de Bakio.',
-        'href' => 'https://www.deia.eus/bizkaia/2023/05/04/playa-bakio-unica-bizkaia-bandera-6760225.html',
+        'href' => 'https://www.deia.eus/vizkaia/2023/05/04/playa-bakio-unica-vizkaia-bandera-6760225.html',
         'titulo_href' => 'deia.eus'
     ],
     [
-        'src' => './img/surfistas-playa-de-Bakio-Bizkaia.jfif',
+        'src' => './img/surfistas-playa-de-Bakio-vizkaia.jfif',
         'alt' => 'Surf en Playa de Bakio',
         'figcaption' => 'Surf en la Playa de Bakio.',
         'href' => 'https://www.eaj-pnv.eus/es/galeria-imagenes/680/surf-bakio-puerto-classics',
         'titulo_href' => 'eaj-pnv.eus'
     ],
     [
-        'src' => './img/atardecer-playa-Bakio-Bizkaia-País-Vasco.jpg',
+        'src' => './img/atardecer-playa-Bakio-vizkaia-País-Vasco.jpg',
         'alt' => 'Atardecer en Playa de Bakio en Bizcaya, País Vasco',
         'figcaption' => 'Atardecer en la Playa de Bakio.',
         'href' => 'https://www.flickr.com/photos/basajauntxo/7741446988',
         'titulo_href' => 'www.flickr.com'
     ],
     [
-        'src' => './img/senderismo-playa-de-Bakio-Bizkaia.png',
+        'src' => './img/senderismo-playa-de-Bakio-vizkaia.png',
         'alt' => 'Senderismo cerca de Playa de Bakio en Bizcaya, País Vasco',
         'figcaption' => 'Senderismo cerca de la Playa de Bakio.',
         'href' => 'https://arimune.es/ruta-bakio-san-juan-de-gaztelugatxe/',
@@ -290,14 +290,14 @@ $imagenes = [
         'src' => './img/Vista-aérea-Playa_de_Baquio_País_Vasco_España.jpg',
         'alt' => 'Vista aérea de Playa de Bakio en Bizcaya, País Vasco',
         'figcaption' => 'Vista aérea de la Playa de Bakio.',
-        'href' => 'https://turismovasco.com/bizkaia/que-ver-bizkaia/bakio/',
+        'href' => 'https://turismovasco.com/vizkaia/que-ver-vizkaia/bakio/',
         'titulo_href' => 'turismovasco.com'
     ],
     [
-        'src' => './img/familias-disfrutando-Playa-Bakio-Bizkaia.jpg',
+        'src' => './img/familias-disfrutando-Playa-Bakio-vizkaia.jpg',
         'alt' => 'Familias disfrutando en la Playa de Bakio en Bizcaya, País Vasco',
         'figcaption' => 'Familias disfrutando en la Playa de Bakio.',
-        'href' => 'https://www.deia.eus/bizkaia/2023/05/04/playa-bakio-unica-bizkaia-bandera-6760225.html',
+        'href' => 'https://www.deia.eus/vizkaia/2023/05/04/playa-bakio-unica-vizkaia-bandera-6760225.html',
         'titulo_href' => 'www.deia.eus'
     ]
 ];
@@ -311,7 +311,7 @@ php
 Copiar
 Editar
 <meta name="description" content="Descubre la Playa de Bakio, uno de los destinos más emblemáticos de la costa vasca, ideal para disfrutar del mar, surf y paisajes impresionantes.">
-<meta name="keywords" content="Playa de Bakio, surf en Bakio, costa vasca, turismo Bizkaia, playas Bizkaia, San Juan de Gaztelugatxe">
+<meta name="keywords" content="Playa de Bakio, surf en Bakio, costa vasca, turismo vizkaia, playas vizkaia, San Juan de Gaztelugatxe">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Turismo de Bakio">
 <meta property="og:title" content="Playa de Bakio - Un Destino Único en la Costa Vasca">
@@ -328,15 +328,15 @@ php
 Copiar
 Editar
 <meta name="description" content="Información detallada sobre la Playa de Bakio, su ubicación, historia y los servicios disponibles para los visitantes.">
-<meta name="keywords" content="Playa de Bakio, historia de Bakio, playas secretas Bizkaia, reservas naturales Bizkaia, turismo activo">
+<meta name="keywords" content="Playa de Bakio, historia de Bakio, playas secretas vizkaia, reservas naturales vizkaia, turismo activo">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Sobre la Playa de Bakio - Historia y Ubicación">
-<meta property="og:description" content="Conoce todo sobre la Playa de Bakio, desde su ubicación estratégica hasta su entorno natural y la cercanía a la Reserva Natural de Bizkaia.">
+<meta property="og:description" content="Conoce todo sobre la Playa de Bakio, desde su ubicación estratégica hasta su entorno natural y la cercanía a la Reserva Natural de vizkaia.">
 <meta property="og:image" content="/imagenes/acantilados-bakio.jpg">
 <meta property="og:url" content="https://www.ejemplo.com/playa-de-bakio">
 <meta property="og:type" content="website">
 <meta name="twitter:title" content="Sobre la Playa de Bakio - Historia y Ubicación">
-<meta name="twitter:description" content="Descubre más sobre la Playa de Bakio, un lugar único para disfrutar del mar y la naturaleza en Bizkaia.">
+<meta name="twitter:description" content="Descubre más sobre la Playa de Bakio, un lugar único para disfrutar del mar y la naturaleza en vizkaia.">
 <meta name="twitter:image" content="/imagenes/acantilados-bakio.jpg">
 <meta name="twitter:card" content="summary_large_image">
 ✅ Meta para $li_descripcion_detallada2_bakio
@@ -344,7 +344,7 @@ php
 Copiar
 Editar
 <meta name="description" content="Descubre las mejores actividades en la Playa de Bakio, incluyendo surf, senderismo, fotografía y más.">
-<meta name="keywords" content="actividades en Bakio, surf en Bakio, senderismo Bizkaia, fotografía playa, turismo activo, naturaleza Bakio">
+<meta name="keywords" content="actividades en Bakio, surf en Bakio, senderismo vizkaia, fotografía playa, turismo activo, naturaleza Bakio">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Actividades en la Playa de Bakio - Disfruta al Máximo del Mar y la Naturaleza">
 <meta property="og:description" content="Desde el surf hasta el senderismo, Bakio ofrece una variedad de actividades para todos los gustos. Descubre más sobre las opciones disponibles en esta playa vasca.">
@@ -360,10 +360,10 @@ php
 Copiar
 Editar
 <meta name="description" content="Conoce el entorno cultural de Bakio y disfruta de sus fiestas tradicionales, gastronomía y tradiciones vascas.">
-<meta name="keywords" content="entorno cultural Bakio, fiestas en Bakio, gastronomía vasca, sidra vasca, turismo rural Bizkaia, festividades vascas">
+<meta name="keywords" content="entorno cultural Bakio, fiestas en Bakio, gastronomía vasca, sidra vasca, turismo rural vizkaia, festividades vascas">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Entorno Cultural de Bakio - Tradiciones y Gastronomía Local">
-<meta property="og:description" content="Sumérgete en la cultura vasca de Bakio, donde las fiestas tradicionales y la gastronomía local te permitirán disfrutar de la esencia de Bizkaia.">
+<meta property="og:description" content="Sumérgete en la cultura vasca de Bakio, donde las fiestas tradicionales y la gastronomía local te permitirán disfrutar de la esencia de vizkaia.">
 <meta property="og:image" content="/imagenes/cultura-bakio.jpg">
 <meta property="og:url" content="https://www.ejemplo.com/playa-de-bakio">
 <meta property="og:type" content="website">
@@ -400,7 +400,7 @@ Editar
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descubre la Playa de Bakio, uno de los destinos más emblemáticos de la costa vasca, ideal para disfrutar del mar, surf y paisajes impresionantes.">
-    <meta name="keywords" content="Playa de Bakio, surf en Bakio, costa vasca, turismo Bizkaia, playas Bizkaia, San Juan de Gaztelugatxe">
+    <meta name="keywords" content="Playa de Bakio, surf en Bakio, costa vasca, turismo vizkaia, playas vizkaia, San Juan de Gaztelugatxe">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Playa de Bakio - Un Destino Único en la Costa Vasca">
     <meta property="og:description" content="Descubre la Playa de Bakio y disfruta de su arena dorada, olas perfectas para surf y un entorno natural incomparable.">

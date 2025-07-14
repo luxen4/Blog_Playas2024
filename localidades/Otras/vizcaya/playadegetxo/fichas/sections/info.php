@@ -1,7 +1,7 @@
 <?php
 $li_encabezado = '
 <section class="encabezado-playa-getxo">
-    <p><strong>Descubre la <a href="https://www.getxo.eus/web/getxo/turismo" target="_blank" title="Visita la Playa de Getxo en Euskadi">Playa de Getxo</a></strong>, un destino emblemático en la costa de Bizkaia, perfecto para relajarte y practicar deportes acuáticos.</p>
+    <p><strong>Descubre la <a href="https://www.getxo.eus/web/getxo/turismo" target="_blank" title="Visita la Playa de Getxo en Euskadi">Playa de Getxo</a></strong>, un destino emblemático en la costa de vizkaia, perfecto para relajarte y practicar deportes acuáticos.</p>
     <p>Con su <strong>arena dorada</strong> y <strong>amplias instalaciones</strong>, es un lugar ideal para disfrutar del sol, el mar y la rica gastronomía vasca. Además, su vibrante paseo marítimo está lleno de bares y restaurantes, perfectos para completar una jornada perfecta.</p>
 </section>
 ';
@@ -9,8 +9,8 @@ $li_encabezado = '
 <?php
 $li_descripcion_detallada = '
 <section class="descripcion-playa-getxo">
-    <h2 class="section-title"><i class="fas fa-umbrella-beach" style="color:#f39c12;"></i> Playa de Getxo: Un paraíso costero en Bizkaia</h2>
-    <p>La <strong>Playa de Getxo</strong> es una de las más famosas de la costa vasca, ofreciendo una combinación perfecta de relax, deporte y cultura. Con su <a href="/playas-en-bizkaia/" title="Playas de Bizkaia">extensa franja de arena dorada</a>, se convierte en el destino ideal para disfrutar de un día soleado junto al mar.</p>
+    <h2 class="section-title"><i class="fas fa-umbrella-beach" style="color:#f39c12;"></i> Playa de Getxo: Un paraíso costero en vizkaia</h2>
+    <p>La <strong>Playa de Getxo</strong> es una de las más famosas de la costa vasca, ofreciendo una combinación perfecta de relax, deporte y cultura. Con su <a href="/playas-en-vizkaia/" title="Playas de vizkaia">extensa franja de arena dorada</a>, se convierte en el destino ideal para disfrutar de un día soleado junto al mar.</p>
     <p>Además de sus aguas limpias y tranquilas, Getxo cuenta con un ambiente animado gracias a su paseo marítimo, donde puedes disfrutar de <a href="/gastronomia-vasca/" title="Gastronomía vasca">pintxos</a> y platos tradicionales vascos.</p>
     <p>Para los más aventureros, Getxo ofrece varias <a href="/rutas-de-senderismo-pais-vasco/" title="Senderismo en el País Vasco">rutas de senderismo</a> que permiten disfrutar de vistas impresionantes al mar Cantábrico y a los acantilados cercanos.</p>
 </section>
@@ -23,7 +23,7 @@ $li_descripcion_detallada2 = '
     <h2 class="section-header"><i class="fas fa-star" style="color:#e67e22;"></i> Actividades en la Playa de Getxo</h2>
     <div class="info-box">
         <ul>
-            <li><i class="fas fa-water" style="color:#3498db;"></i> <strong>Surf y deportes acuáticos:</strong> Gracias a sus olas, Getxo es ideal para <a href="/surf-en-bizkaia/" title="Surf en Bizkaia">surf</a>, <a href="/kayak-en-bizkaia/" title="Kayak en Bizkaia">kayak</a> y <a href="/paddle-surf-en-bizkaia/" title="Paddle surf en Bizkaia">paddle surf</a>.</li>
+            <li><i class="fas fa-water" style="color:#3498db;"></i> <strong>Surf y deportes acuáticos:</strong> Gracias a sus olas, Getxo es ideal para <a href="/surf-en-vizkaia/" title="Surf en vizkaia">surf</a>, <a href="/kayak-en-vizkaia/" title="Kayak en vizkaia">kayak</a> y <a href="/paddle-surf-en-vizkaia/" title="Paddle surf en vizkaia">paddle surf</a>.</li>
             <li><i class="fas fa-person-swimming" style="color:#27ae60;"></i> <strong>Natación:</strong> Playa ideal para nadadores con aguas tranquilas y socorristas.</li>
             <li><i class="fas fa-hiking" style="color:#f1c40f;"></i> <strong>Senderismo:</strong> Rutas cercanas como la del <a href="https://es.wikiloc.com/rutas/senderismo/sendero-de-los-acantilados-en-getxo-13577940" target="_blank" title="Sendero de los Acantilados de Getxo">Sendero de los Acantilados de Getxo</a> ofrecen vistas espectaculares del mar.</li>
             <li><i class="fas fa-bicycle" style="color:#2ecc71;"></i> <strong>Ciclismo:</strong> Carriles bici a lo largo de la costa, perfectos para recorrer Getxo y sus alrededores.</li>
@@ -45,7 +45,7 @@ $li_descripcion_detallada3 = '
     <h2 class="section-header"><i class="fas fa-tree" style="color:#2ecc71;"></i> Entorno Natural de Getxo</h2>
     <div class="info-box">
         <p>Además de su playa, Getxo está rodeada de un impresionante entorno natural. Los <strong>acantilados de La Galea</strong> ofrecen vistas panorámicas del mar Cantábrico y son perfectos para los amantes de la fotografía y el senderismo.</p>
-        <p>Los parques cercanos, como el <a href="/parques-en-getxo/" title="Parques en Getxo">Parque de los Lathies</a> y el <a href="/parques-en-bizkaia/" title="Parques en Bizkaia">Parque de los Acantilados</a>, son ideales para paseos tranquilos y disfrutar de la naturaleza.</p>
+        <p>Los parques cercanos, como el <a href="/parques-en-getxo/" title="Parques en Getxo">Parque de los Lathies</a> y el <a href="/parques-en-vizkaia/" title="Parques en vizkaia">Parque de los Acantilados</a>, son ideales para paseos tranquilos y disfrutar de la naturaleza.</p>
     </div>
 </section>
 ';
@@ -76,7 +76,7 @@ $li_mapa_ubicacion = '
     </iframe>
     <p>También puedes utilizar el siguiente enlace para <a href="https://www.google.com/maps?q=Playa+de+Getxo" target="_blank" title="Ver Playa de Getxo en Google Maps" style="color:#2980b9;">ver la Playa de Getxo en Google Maps</a> y obtener direcciones personalizadas según tu ubicación.</p>
 
-    <meta name="description" content="Cómo llegar a la Playa de Getxo en Bizkaia. Opciones de acceso en coche, metro, a pie y en bicicleta. Disfruta de este hermoso destino costero." />
+    <meta name="description" content="Cómo llegar a la Playa de Getxo en vizkaia. Opciones de acceso en coche, metro, a pie y en bicicleta. Disfruta de este hermoso destino costero." />
     <meta name="keywords" content="Playa de Getxo, cómo llegar a la Playa de Getxo, acceso a la Playa de Getxo, transporte público Getxo, ruta en coche Getxo" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
@@ -124,7 +124,7 @@ $li_mas_info = '
         <ul>
             <li><i class="fas fa-phone-alt" style="color:#2ecc71;"></i> <strong>Teléfono:</strong> +34 944 91 88 00</li>
             <li><i class="fas fa-envelope" style="color:#e74c3c;"></i> <strong>Email:</strong> <a href="mailto:turismo@getxo.eus" title="Enviar un correo a Turismo Getxo" style="color:#2980b9;">turismo@getxo.eus</a></li>
-            <li><i class="fas fa-map-marker-alt" style="color:#f39c12;"></i> <strong>Oficina de Turismo:</strong> Plaza Estación, 1, 48930 Getxo, Bizkaia
+            <li><i class="fas fa-map-marker-alt" style="color:#f39c12;"></i> <strong>Oficina de Turismo:</strong> Plaza Estación, 1, 48930 Getxo, vizkaia
                 <a href="https://www.getxo.eus/es/turismo" target="_blank" title="Visitar la web de Turismo Getxo" style="color:#2980b9;"><strong>Web</strong></a>
             </li>
         </ul>
@@ -174,7 +174,7 @@ $caja_caracteristicas = '
             <li><i class="fas fa-ruler-combined" style="color:#3498db;"></i> Longitud: Ereaga (880 metros), Las Arenas (240 metros), Arrigunaga (628 metros).</li>
             <li><i class="fas fa-expand-arrows-alt" style="color:#2ecc71;"></i> Anchura variable, especialmente en marea baja.</li>
             <li><i class="fas fa-water" style="color:#1abc9c;"></i> Mar con oleaje moderado, apto para surf y deportes acuáticos.</li>
-            <li><i class="fas fa-city" style="color:#9b59b6;"></i> Entorno urbano con zonas ajardinadas y vistas al <a href="https://es.wikipedia.org/wiki/Puente_de_Bizkaia" target="_blank" title="Puente Bizkaia">Puente Bizkaia (Puente Colgante)</a>.</li>
+            <li><i class="fas fa-city" style="color:#9b59b6;"></i> Entorno urbano con zonas ajardinadas y vistas al <a href="https://es.wikipedia.org/wiki/Puente_de_vizkaia" target="_blank" title="Puente vizkaia">Puente vizkaia (Puente Colgante)</a>.</li>
             <li><i class="fas fa-concierge-bell" style="color:#e67e22;"></i> Servicios: duchas, aseos, socorristas, pasarelas, alquiler de material deportivo, bares y restaurantes cercanos.</li>
             <li><i class="fas fa-wheelchair" style="color:#9b59b6;"></i> Acceso adaptado para personas con movilidad reducida.</li>
             <li><i class="fas fa-directions" style="color:#e74c3c;"></i> Accesibilidad: excelente comunicación en metro, autobús y coche, con aparcamientos próximos.</li>
@@ -240,43 +240,43 @@ $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/vizc
 $imagenes = [
     [
         'src' => $ruta .'/playa-de-Arrigunaga-Getxo-Bizcaia-Pais-Vasco.jpg',
-        'alt' => 'Vista de la playa de Arrigunaga en Getxo, Bizkaia',
+        'alt' => 'Vista de la playa de Arrigunaga en Getxo, vizkaia',
         'figcaption' => 'Vista de la playa de Arrigunaga en Getxo.',
         'href' => 'https://turismo.euskadi.eus/es/playas-embalses-rios/playa-de-arrigunaga/aa30-12375/es/',
         'titulo_href' => 'turismo.euskadi.eus'
     ],
     [
         'src' => $ruta . '/playa-de-Las-Arenas-Getxo-Bizcaia-Pais-Vasco.png',
-        'alt' => 'Playa y muelle de la Playa de Las Arenas en Getxo, Bizkaia.',
-        'figcaption' => 'Playa de Las Arenas en Getxo, Bizkaia. Fuente:',
+        'alt' => 'Playa y muelle de la Playa de Las Arenas en Getxo, vizkaia.',
+        'figcaption' => 'Playa de Las Arenas en Getxo, vizkaia. Fuente:',
         'href' => 'https://www.turisbox.com/lugares/?p=15189',
         'titulo_href' => 'www.turisbox.com'
     ],
     [
         'src' => $ruta . '/playa-de-arrigunaga-Getxo-Bizcaia-Pais-Vasco_2.jpg',
-        'alt' => 'Vista panorámica de la Playa de Arrigunaga en Getxo, Bizkaia',
+        'alt' => 'Vista panorámica de la Playa de Arrigunaga en Getxo, vizkaia',
         'figcaption' => 'Vista panorámica la Playa de Arrigunaga',
         'href' => 'https://www.surfmarket.org/gl/ondas/europa/euskadi/algorta-arrigunaga',
         'titulo_href' => 'surfmarket.org'
     ],
     [
         'src' => $ruta . '/olas-surf-playa-Arrigunaga-Getxo-Bizcaia-País-Vasco.jpg',
-        'alt' => 'Olas y Surf en la playa de Arrigunaga en Getxo, Bizkaia, Pais Vasco.',
+        'alt' => 'Olas y Surf en la playa de Arrigunaga en Getxo, vizkaia, Pais Vasco.',
         'figcaption' => 'Olas y Surf en la playa de Arrigunaga.',
         'href' => 'https://www.youtube.com/watch?app=desktop&v=e_3l03ZB9Aw',
         'titulo_href' => 'youtube.com'
     ],
     [
-        'src' => $ruta . '/atardecer-playa-Getxo-Bizkaia-País-Vasco.jpeg',
-        'alt' => 'Atardecer en la Playa de Getxo, Bizkaia',
+        'src' => $ruta . '/atardecer-playa-Getxo-vizkaia-País-Vasco.jpeg',
+        'alt' => 'Atardecer en la Playa de Getxo, vizkaia',
         'figcaption' => 'Atardecer en la Playa de Getxo. Fuente:',
         'href' => 'https://www.lavanguardia.com/participacion/las-fotos-de-los-lectores/20200124/473087667505/atardecer-getxo-bilbao.html',
         'titulo_href' => 'lavanguardia.com'
     ],
     [
         'src' => $ruta . '/playa-Ereaga-Getxo-Bizcaia-Pais-Vasco.jpg',
-        'alt' => 'Actividades en la Playa de Getxo, Bizkaia.',
-        'figcaption' => 'Actividades en la Playa de Getxo, Bizkaia. Fuente:',
+        'alt' => 'Actividades en la Playa de Getxo, vizkaia.',
+        'figcaption' => 'Actividades en la Playa de Getxo, vizkaia. Fuente:',
         'href' => 'https://turismo.euskadi.eus/es/agenda/punta-galea-challenge/aa30-evento/es/a',
         'titulo_href' => 'turismo.euskadi.eus'
     ]

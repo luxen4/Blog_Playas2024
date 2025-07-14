@@ -35,7 +35,7 @@
             <i class="fas fa-bus" style="color:#e67e22;"></i>
             <strong>En autobús:</strong><br>
             Conexiones regulares con
-            <a href="https://www.bizkaia.eus/es/web/bizkaibus" target="_blank" rel="noopener noreferrer" style="color:#2980b9;" title="Horarios Bizkaibus">Bizkaibus</a>
+            <a href="https://www.vizkaia.eus/es/web/bizkaibus" target="_blank" rel="noopener noreferrer" style="color:#2980b9;" title="Horarios Bizkaibus">Bizkaibus</a>
             desde Bilbao, Santander y localidades cercanas. La parada <em>“Ostende Playa”</em> se encuentra muy próxima al acceso principal.
           </li>
           <li>

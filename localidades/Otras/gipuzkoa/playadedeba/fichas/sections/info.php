@@ -163,7 +163,7 @@ $imagenes = [
         'src' => './img/vista-aerea-playa-de-Deba-Guipuzkoa.jpg',
         'alt' => 'Vista aérea de Playa de Deba',
         'figcaption' => 'Vista aérea de la Playa de Deba.',
-        'href' => 'https://www.deia.eus/rutas-y-naturaleza/2021/11/18/deba-tesoro-muga-bizkaia-1785288.html',
+        'href' => 'https://www.deia.eus/rutas-y-naturaleza/2021/11/18/deba-tesoro-muga-vizkaia-1785288.html',
         'titulo_href' => 'deia.eus'
     ],
     [

@@ -39,7 +39,7 @@ $url = 'http://playas2025.kesug.com/localidades/vizcaya/playadeazkorri/fichas/pl
 
 $mainEntity_description = 'La Playa de Azkorri es un lugar único en la costa de Vizcaya, con su arena oscura, impresionantes acantilados, y excelentes condiciones para el surf.';
 $mainEntity_addressLocality = 'Azkorri';
-$mainEntity_addressRegion = 'Bizkaia';
+$mainEntity_addressRegion = 'vizkaia';
 $mainEntity_addressCountry = 'España';
 
 $mainEntity_geo_latitude = 43.3746;

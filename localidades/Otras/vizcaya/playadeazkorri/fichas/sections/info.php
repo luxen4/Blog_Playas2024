@@ -87,7 +87,7 @@ $li_mas_info = '
     <ul>
         <li class="my-4"><strong>Teléfono:</strong> <br>+34 943 862 158 <i class="fas fa-phone-alt" style="color: #2ecc71;"></i></li>
         <li class="my-4"><strong>Email:</strong> <br><a href="mailto:info@azkorriturismo.com">info@azkorriturismo.com</a> <i class="fas fa-envelope" style="color: #3498db;"></i></li>
-        <li class="my-4"><strong>Oficina de Turismo:</strong> <br>Calle del Mar, s/n, 48992 Getxo, Bizkaia <i class="fas fa-map-marker-alt" style="color: #e74c3c;"></i><br>
+        <li class="my-4"><strong>Oficina de Turismo:</strong> <br>Calle del Mar, s/n, 48992 Getxo, vizkaia <i class="fas fa-map-marker-alt" style="color: #e74c3c;"></i><br>
             <a href="https://www.azkorriturismo.com/" target="_blank" rel="noopener noreferrer"><strong>Visitar Web de la Oficina de Turismo</strong></a> <i class="fas fa-external-link-alt" style="color: #9b59b6;"></i>
         </li>
     </ul>
@@ -216,7 +216,7 @@ $faq = '
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> La Playa de Aizkorri es accesible en coche, con estacionamiento disponible cerca de la playa. Además, puedes llegar en transporte público, ya que la playa está bien conectada con las principales rutas de autobús. <i class="fas fa-car" style="color: #e74c3c;"></i></dd>
 
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde puedo obtener más información sobre la Playa de Aizkorri?</dt>
-    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Aizkorri y sus alrededores, visita la <a href="https://www.turismoaizkorri.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Aizkorri">Oficina de Turismo de Aizkorri</a> o la <a href="https://www.bizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Bizkaia">Oficina de Turismo de Bizkaia</a> para conocer actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Aizkorri y sus alrededores, visita la <a href="https://www.turismoaizkorri.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Aizkorri">Oficina de Turismo de Aizkorri</a> o la <a href="https://www.vizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de vizkaia">Oficina de Turismo de vizkaia</a> para conocer actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
 </dl>
 
 <!-- SEO avanzado con metadatos -->
@@ -247,14 +247,14 @@ $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/'.$r
 $imagenes = [
     [
         'src' => $ruta . './../img/playa-azkorri-o-gorrondatxe-ciudad-getxo-vizcaya-pais-vasco-espana.jpg',
-        'alt' => 'Vista de la Playa de Azkorri, Bizkaia',
+        'alt' => 'Vista de la Playa de Azkorri, vizkaia',
         'figcaption' => 'Vista panorámica de la Playa de Azkorri.',
         'href' => 'https://www.lasexta.com/viajestic/curioso/mejores-playas-pais-vasco-segun-national-geographic-kilometros-arena-fina-espectaculares-acantilados_20250711668faedbc53ff800017c97fc.html',
         'titulo_href' => 'lasexta.com'
     ],
     [
         'src' => $ruta . '/./../img/atardecer-playa-Gorrondatxe-Azkorri-Bizcaia-País-Vasco.jpg',
-        'alt' => 'Atardecer en la Playa de Azkorri, Bizkaia',
+        'alt' => 'Atardecer en la Playa de Azkorri, vizkaia',
         'figcaption' => 'Espectacular atardecer en la Playa de Azkorri.',
         'href' => 'https://turismo.euskadi.eus/es/playas-embalses-rios/playa-de-gorrondatxe-aizkorri/aa30-12375/es/',
         'titulo_href' => 'turismo.euskadi.eus'
@@ -265,14 +265,14 @@ $imagenes = [
 
 
     [
-        'src' => $ruta . './../img/surfistas-disfrutando-olas-playa-Gorrondatxe-Azkorri-Bizkaia-País-Vasco.jpg',
-        'alt' => 'Surf en la Playa de Azkorri, Bizkaia',
+        'src' => $ruta . './../img/surfistas-disfrutando-olas-playa-Gorrondatxe-Azkorri-vizkaia-País-Vasco.jpg',
+        'alt' => 'Surf en la Playa de Azkorri, vizkaia',
         'figcaption' => 'Surfistas disfrutando en la Playa de Azkorri.',
         'href' => 'https://www.turismovasco.com/deportes/azkorri-surf',
         'titulo_href' => 'turismovasco.com'
     ],
     [
-        'src' => $ruta . './../img/familias-disfrutando-playa-Gorrondatxe-Azkorri-Bizkaia-País-Vasco.jpg',
+        'src' => $ruta . './../img/familias-disfrutando-playa-Gorrondatxe-Azkorri-vizkaia-País-Vasco.jpg',
         'alt' => 'Familias disfrutando en la Playa de Azkorri',
         'figcaption' => 'Momentos familiares en la Playa de Azkorri.',
         'href' => 'https://www.viajaravasco.com/familias-azkorri',
@@ -282,17 +282,17 @@ $imagenes = [
 
 
     [
-        'src' => $ruta . './../img/paseo-maritimo-playa-azkorri-Bizkaia-País-Vasco.jpg',
-        'alt' => 'Paseo marítimo de Azkorri, Bizkaia',
+        'src' => $ruta . './../img/paseo-maritimo-playa-azkorri-vizkaia-País-Vasco.jpg',
+        'alt' => 'Paseo marítimo de Azkorri, vizkaia',
         'figcaption' => 'Paseo marítimo en Azkorri.',
-        'href' => 'https://turismovasco.com/bizkaia/que-ver-bizkaia/playa-de-azkorri/',
+        'href' => 'https://turismovasco.com/vizkaia/que-ver-vizkaia/playa-de-azkorri/',
         'titulo_href' => 'turismovasco.com'
     ],
     [
-        'src' => $ruta . './../img/rocas-playa-de-Azkorri-getxo-flysch-Bizkaia-País-Vasco.jpg',
-        'alt' => 'Formaciones rocosas en la Playa de Azkorri, Bizkaia',
+        'src' => $ruta . './../img/rocas-playa-de-Azkorri-getxo-flysch-vizkaia-País-Vasco.jpg',
+        'alt' => 'Formaciones rocosas en la Playa de Azkorri, vizkaia',
         'figcaption' => 'Impresionantes rocas en la Playa de Azkorri.',
-        'href' => 'https://turismovasco.com/bizkaia/que-ver-bizkaia/playa-de-azkorri/',
+        'href' => 'https://turismovasco.com/vizkaia/que-ver-vizkaia/playa-de-azkorri/',
         'titulo_href' => 'turismovasco.com'
     ]
 ];

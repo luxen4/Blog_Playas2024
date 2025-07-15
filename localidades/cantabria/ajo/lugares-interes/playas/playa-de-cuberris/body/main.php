@@ -106,10 +106,10 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-cantabria-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-cantabria-1.jpg"
          alt="Playa de Cuberris desde el mirador de Ajo"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-cantabria-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-cantabria-2.jpg"
          alt="Oleaje en la Playa de Cuberris, ideal para surf"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>
@@ -149,7 +149,7 @@
     </ul>
   </section>
 
-  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
 </main>

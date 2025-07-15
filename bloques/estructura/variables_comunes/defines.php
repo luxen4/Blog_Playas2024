@@ -44,6 +44,11 @@
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
               
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_SCHEMAS',             PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/schemas"); ?>
+
+<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_SCHEMAS_PLAYAS_NOMBRE_PLAYA',      PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/{$lugar_interes}/schemas"); ?>
+
+
+
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS',       PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES',            PATH_RAIZ_LOCALIDADES_CARPETA. "/head/variables"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_JSON_LD',                   PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/jsonld/"); ?>
@@ -86,7 +91,10 @@
 
 <?php define('SECTIONS_PAGINAS_SECUNDARIAS', './paginas-secundarias'); ?>
 
-  <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes/_estructura/body/main"); ?>
+
+  <?php //define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes/_estructura/body/main"); ?>
+
+  <?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
 
 
 

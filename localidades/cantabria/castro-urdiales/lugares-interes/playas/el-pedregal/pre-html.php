@@ -9,8 +9,7 @@
     $color_page = 'teal'; // Puedes cambiarlo si quieres otro color representativo
     $tema_footer = '- Playa El Pedregal -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
 <?php /*
 🎨 Colores principales de Tailwind (para $color_page)
 Color	Descripción	Ejemplo visual aproximado

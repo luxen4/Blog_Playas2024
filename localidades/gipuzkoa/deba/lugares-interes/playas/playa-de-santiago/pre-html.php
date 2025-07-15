@@ -9,5 +9,4 @@
     $color_page     = 'teal'; // Cambia el color acorde al diseño que prefieras
     $tema_footer    = '- Playa de Santiago -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] 
-    . "/Blog_Playas2025/localidades/gipuzkoa/deba/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>

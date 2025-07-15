@@ -9,5 +9,4 @@
     $color_page     = 'blue'; // O el color que encaje con la identidad visual del lugar
     $tema_footer    = '- La Grande Plage -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] 
-    . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>

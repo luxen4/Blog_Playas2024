@@ -4,7 +4,7 @@ $li_encabezado = '
 ';
 
 $li_descripcion_detallada = '
-    <p class="section-content">La Playa de Sopelana, situada en el municipio de Sopelana, en la provincia de vizkaia, es uno de los rincones más emblemáticos del País Vasco. Esta playa se distingue por su gran tamaño y sus espectaculares acantilados que la rodean, creando un entorno natural único. La arena dorada y fina de Sopelana es ideal para disfrutar de un día de sol, caminar por la orilla o practicar deportes acuáticos. <i class="fas fa-surfboard" style="color:#1abc9c;"></i></p>
+    <p class="section-content">La Playa de Sopelana, situada en el municipio de Sopelana, en la provincia de bizkaia, es uno de los rincones más emblemáticos del País Vasco. Esta playa se distingue por su gran tamaño y sus espectaculares acantilados que la rodean, creando un entorno natural único. La arena dorada y fina de Sopelana es ideal para disfrutar de un día de sol, caminar por la orilla o practicar deportes acuáticos. <i class="fas fa-surfboard" style="color:#1abc9c;"></i></p>
     
     <p class="section-content">Una de las características más destacadas de Sopelana es su fama como lugar de encuentro para surfistas. Las olas constantes y la calidad de su agua convierten a esta playa en un punto de referencia para los amantes del surf, tanto principiantes como expertos. <i class="fas fa-water" style="color:#3498db;"></i></p>
     
@@ -15,7 +15,7 @@ $li_descripcion_detallada = '
     <p class="section-content">En cuanto a accesibilidad, la playa está bien equipada con servicios como duchas, baños y zonas de descanso. Además, Sopelana está perfectamente conectada con el resto de la región, ya sea en coche, transporte público o incluso a pie o en bicicleta. <i class="fas fa-bicycle" style="color:#9b59b6;"></i></p>
 
     <meta name="description" content="La Playa de Sopelana es el destino ideal para surfistas, senderistas y amantes de la naturaleza, con su arena dorada, acantilados impresionantes y una rica oferta gastronómica en el País Vasco." />
-    <meta name="keywords" content="Playa de Sopelana, surf Sopelana, acantilados Sopelana, turismo Sopelana, senderismo en Sopelana, gastronomía vasca, playa vizkaia" />
+    <meta name="keywords" content="Playa de Sopelana, surf Sopelana, acantilados Sopelana, turismo Sopelana, senderismo en Sopelana, gastronomía vasca, playa bizkaia" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 ';
@@ -55,7 +55,7 @@ $li_mapa_ubicacion = '
 <ul>
     <li class="my-4"><i class="fas fa-car" style="color:#e67e22;"></i> <strong>En coche:</strong><br> Sopelana está a solo 20 minutos de Bilbao, tomando la carretera <strong>A-8</strong> en dirección a Donostia. Hay varios aparcamientos cerca de la playa, tanto gratuitos como de pago.</li>
     <li class="my-4"><i class="fas fa-bus" style="color:#3498db;"></i> <strong>En autobús:</strong><br> La playa está bien conectada por el servicio de autobuses <a href="https://www.bizkaibus.eus/" target="_blank" title="Consulta los horarios de Bizkaibus">Bizkaibus</a>, con salidas regulares desde Bilbao y otras localidades cercanas.</li>
-    <li class="my-4"><i class="fas fa-train" style="color:#27ae60;"></i> <strong>En tren:</strong><br> Sopelana también tiene una estación de tren que conecta con Bilbao y otras ciudades de vizkaia. Desde la estación, la playa se encuentra a solo 10 minutos a pie.</li>
+    <li class="my-4"><i class="fas fa-train" style="color:#27ae60;"></i> <strong>En tren:</strong><br> Sopelana también tiene una estación de tren que conecta con Bilbao y otras ciudades de bizkaia. Desde la estación, la playa se encuentra a solo 10 minutos a pie.</li>
 </ul>
 <h3>Mapa de la Playa de Sopelana</h3>
 <iframe
@@ -100,7 +100,7 @@ $li_mas_info = '
     <ul>
         <li><i class="fas fa-phone-alt" style="color:#f39c12;"></i> <strong>Teléfono:</strong><br> <a href="tel:+34946341234">+34 946 341 234</a></li>
         <li><i class="fas fa-envelope" style="color:#3498db;"></i> <strong>Email:</strong><br> <a href="mailto:turismo@sopelana.eus">turismo@sopelana.eus</a></li>
-        <li><i class="fas fa-globe" style="color:#1abc9c;"></i> <strong>Oficina de Turismo:</strong><br> Calle Olegario, 20, 48600 Sopelana, vizkaia 
+        <li><i class="fas fa-globe" style="color:#1abc9c;"></i> <strong>Oficina de Turismo:</strong><br> Calle Olegario, 20, 48600 Sopelana, bizkaia 
             <a href="https://www.turismosopelana.eus" target="_blank"><strong>Visita nuestra página web</strong></a>
         </li>
     </ul>
@@ -118,7 +118,7 @@ $li_mas_info = '
 
 <?php
 $li_services = '
-    <p><i class="fas fa-sun" style="color:#f39c12;"></i> La Playa de Sopelana-vizkaia es uno de los destinos más populares en la costa vasca, conocida por sus impresionantes vistas y variedad de servicios.</p>
+    <p><i class="fas fa-sun" style="color:#f39c12;"></i> La Playa de Sopelana-bizkaia es uno de los destinos más populares en la costa vasca, conocida por sus impresionantes vistas y variedad de servicios.</p>
     <ul>
         <li class="my-4"><i class="fas fa-life-ring" style="color:#e74c3c;"></i> <strong>Socorristas:</strong><br> Durante la temporada alta, un equipo de socorristas asegura la seguridad de los bañistas.</li>
         <li class="my-4"><i class="fas fa-shower" style="color:#3498db;"></i> <strong>Duchas y vestuarios:</strong><br> Instalaciones disponibles para ducharse y cambiarse después de un día de sol.</li>
@@ -247,7 +247,7 @@ $faq = '
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> La Playa de Sopelana es accesible en coche, con aparcamiento cercano. También puedes llegar en transporte público, ya que la playa está conectada con el metro de Bilbao, lo que facilita su acceso. <i class="fas fa-car" style="color: #e74c3c;"></i></dd>
 
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde puedo obtener más información sobre la Playa de Sopelana?</dt>
-    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Sopelana y sus alrededores, visita la <a href="https://www.turismozarautz.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Sopelana">Oficina de Turismo de Sopelana</a> o la <a href="https://www.vizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de vizkaia">Oficina de Turismo de vizkaia</a> para conocer actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Sopelana y sus alrededores, visita la <a href="https://www.turismozarautz.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Sopelana">Oficina de Turismo de Sopelana</a> o la <a href="https://www.bizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de bizkaia">Oficina de Turismo de bizkaia</a> para conocer actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
 </dl>
 
 <!-- SEO avanzado con metadatos -->
@@ -277,46 +277,46 @@ $faq = '
 <?php
 $imagenes = [
     [
-        'src' => './../img/playa-atxabiribil-Sopelana-vizkaia-Pais-Vasco.jpg',
-        'alt' => 'Vista de la playa de Atxaribil en Sopelana, vizkaia, País Vasco',
-        'figcaption' => 'Vista de la playa de Atxaribil en Sopelana-vizkaia, vizkaia. Fuente:',
+        'src' => './../img/playa-atxabiribil-Sopelana-bizkaia-Pais-Vasco.jpg',
+        'alt' => 'Vista de la playa de Atxaribil en Sopelana, bizkaia, País Vasco',
+        'figcaption' => 'Vista de la playa de Atxaribil en Sopelana-bizkaia, bizkaia. Fuente:',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/atardecer-playa-Sopelana-vizkaia-Pais-Vasco.jpg',
-        'alt' => 'Atardecer en la Playa de Sopelana, vizkaia, País Vasco.',
-        'figcaption' => 'Atardecer en la Playa de Sopelana-vizkaia, vizkaia.',
+        'src' => './../img/atardecer-playa-Sopelana-bizkaia-Pais-Vasco.jpg',
+        'alt' => 'Atardecer en la Playa de Sopelana, bizkaia, País Vasco.',
+        'figcaption' => 'Atardecer en la Playa de Sopelana-bizkaia, bizkaia.',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/surfistas-playa-Sopenana-vizkaia-Pais-Vasco.jpg',
-        'alt' => 'Surfistas en la Playa de Sopelana en vizkaia',
-        'figcaption' => 'Surfistas en la Playa de Sopelana-vizkaia en vizkaia. Fuente:',
+        'src' => './../img/surfistas-playa-Sopenana-bizkaia-Pais-Vasco.jpg',
+        'alt' => 'Surfistas en la Playa de Sopelana en bizkaia',
+        'figcaption' => 'Surfistas en la Playa de Sopelana-bizkaia en bizkaia. Fuente:',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/vista-aerea-playa-Sopelana-vizkaia-Pais-Vasco.jpg',
-        'alt' => 'Vista aerea de la Playa de Sopelana en vizkaia, Pais-Vasco.',
-        'figcaption' => 'Vista aerea de la Playa de Sopelana-vizkaia, vizkaia.',
+        'src' => './../img/vista-aerea-playa-Sopelana-bizkaia-Pais-Vasco.jpg',
+        'alt' => 'Vista aerea de la Playa de Sopelana en bizkaia, Pais-Vasco.',
+        'figcaption' => 'Vista aerea de la Playa de Sopelana-bizkaia, bizkaia.',
         'href' => '',
         'titulo_href' => ''
     ],
 
 
     [
-        'src' => './../img/familias-turistas-playa-Sopelana-vizkaia-Pais-Vasco.jpg',
-        'alt' => 'Familias disfrutando en la Playa de Sopelana en vizkaia, País Vasco.',
-        'figcaption' => 'Familias disfrutando en la Playa de Sopelana-vizkaia en vizkaia.',
+        'src' => './../img/familias-turistas-playa-Sopelana-bizkaia-Pais-Vasco.jpg',
+        'alt' => 'Familias disfrutando en la Playa de Sopelana en bizkaia, País Vasco.',
+        'figcaption' => 'Familias disfrutando en la Playa de Sopelana-bizkaia en bizkaia.',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/rocas-playa-Sopelana-vizkaia-Pais-Vasco.jpg',
-        'alt' => 'Rocas en la Playa de Sopelana, vizkaia, País Vasco.',
-        'figcaption' => 'Rocas en la Playa de Sopelana-vizkaia, vizkaia.',
+        'src' => './../img/rocas-playa-Sopelana-bizkaia-Pais-Vasco.jpg',
+        'alt' => 'Rocas en la Playa de Sopelana, bizkaia, País Vasco.',
+        'figcaption' => 'Rocas en la Playa de Sopelana-bizkaia, bizkaia.',
         'href' => '',
         'titulo_href' => ''
     ]

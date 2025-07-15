@@ -1,9 +1,9 @@
 <?php $li_encabezado = '
-<p class="" style="text-align: center;">Descubre la tranquilidad y belleza natural de la costa de vizkaia en la Playa de Muskiz.</p>
+<p class="" style="text-align: center;">Descubre la tranquilidad y belleza natural de la costa de bizkaia en la Playa de Muskiz.</p>
 '; ?>
 
 <?php $li_descripcion_detallada = '
-    <p>La Playa de Muskiz, también conocida como La Arena, es uno de los rincones más encantadores de la costa de vizkaia. Esta playa de arena dorada y fina, con aguas tranquilas, se convierte en el destino perfecto para quienes buscan relajarse y disfrutar de un entorno natural único.</p>
+    <p>La Playa de Muskiz, también conocida como La Arena, es uno de los rincones más encantadores de la costa de bizkaia. Esta playa de arena dorada y fina, con aguas tranquilas, se convierte en el destino perfecto para quienes buscan relajarse y disfrutar de un entorno natural único.</p>
     <p>Con una longitud aproximada de 900 metros, la Playa de Muskiz ofrece amplios espacios donde puedes caminar, tomar el sol, y disfrutar de diversas actividades al aire libre, como paseos por la costa y observación de aves. Rodeada de dunas y vegetación autóctona, es ideal tanto para familias como para aquellos que buscan un lugar tranquilo lejos de las aglomeraciones.</p>
     <p>Además de su belleza natural, la playa cuenta con servicios esenciales como duchas, baños públicos, chiringuitos, y acceso adaptado para personas con movilidad reducida. Todo esto convierte a la Playa de Muskiz en un destino perfecto para pasar el día con total comodidad.</p>
     <p>La ubicación privilegiada de la playa también la convierte en un excelente punto de partida para explorar la Reserva de la Biosfera de Urdaibai, uno de los parajes naturales más importantes de la región. Es el lugar ideal para disfrutar de actividades como el <a href="/senderismo-urdaibai/" title="Senderismo en Urdaibai">senderismo</a>, la observación de aves o simplemente para perderse en su paisaje.</p>
@@ -17,7 +17,7 @@
 <?php $li_descripcion_detallada3 = '
     <p>La Playa de Muskiz es fácilmente accesible gracias a sus múltiples opciones de transporte. Si viajas en coche, encontrarás amplias zonas de aparcamiento cercanas, aunque es recomendable llegar temprano durante los días más soleados.</p>
     <p>Si prefieres el transporte público, hay conexiones de autobús desde el centro de Muskiz y otras localidades cercanas, así como la línea de tren de Renfe Cercanías (C2), que tiene una parada en Muskiz. Desde allí, puedes caminar unos 20 minutos hasta la playa o tomar un autobús local.</p>
-    <p>La playa es también conocida por sus tranquilos paseos a lo largo de la orilla, donde puedes disfrutar de vistas espectaculares del mar Cantábrico y la costa de vizkaia. Las dunas cercanas ofrecen el escenario perfecto para capturar fotos únicas o simplemente disfrutar de la naturaleza.</p>
+    <p>La playa es también conocida por sus tranquilos paseos a lo largo de la orilla, donde puedes disfrutar de vistas espectaculares del mar Cantábrico y la costa de bizkaia. Las dunas cercanas ofrecen el escenario perfecto para capturar fotos únicas o simplemente disfrutar de la naturaleza.</p>
 '; ?>
 
 <?php 
@@ -43,21 +43,21 @@ $li_mapa_ubicacion = '
 
 <?php /*
 <!-- SEO avanzado con metadatos -->
-<meta name="description" content="Descubre la Playa de Muskiz en vizkaia: un lugar tranquilo para disfrutar del mar Cantábrico, practicar deportes acuáticos, caminar por sus dunas y explorar la naturaleza circundante. Servicios completos, fácil acceso y entorno único." />
-<meta name="keywords" content="Playa de Muskiz, Playa de La Arena, turismo en Muskiz, playa en vizkaia, actividades playa, cómo llegar a la Playa de Muskiz, senderismo Urdaibai, observación de aves, deportes acuáticos Muskiz, gastronomía local" />
+<meta name="description" content="Descubre la Playa de Muskiz en bizkaia: un lugar tranquilo para disfrutar del mar Cantábrico, practicar deportes acuáticos, caminar por sus dunas y explorar la naturaleza circundante. Servicios completos, fácil acceso y entorno único." />
+<meta name="keywords" content="Playa de Muskiz, Playa de La Arena, turismo en Muskiz, playa en bizkaia, actividades playa, cómo llegar a la Playa de Muskiz, senderismo Urdaibai, observación de aves, deportes acuáticos Muskiz, gastronomía local" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 <meta name="author" content="Turismo Muskiz" />
 
 <!-- Open Graph y Twitter Card -->
-<meta property="og:title" content="Playa de Muskiz - Un Paraíso Natural en la Costa de vizkaia" />
+<meta property="og:title" content="Playa de Muskiz - Un Paraíso Natural en la Costa de bizkaia" />
 <meta property="og:description" content="Descubre todo sobre la Playa de Muskiz, un destino ideal para disfrutar del mar Cantábrico, practicar deportes acuáticos, hacer senderismo y mucho más." />
 <meta property="og:image" content="https://www.ejemplo.com/imagenes/playa-muskiz.jpg" />
 <meta property="og:url" content="https://www.ejemplo.com/playa-de-muskiz" />
 <meta property="og:type" content="website" />
 
-<meta name="twitter:title" content="Playa de Muskiz - Un Paraíso Natural en la Costa de vizkaia" />
-<meta name="twitter:description" content="La Playa de Muskiz en vizkaia es el lugar perfecto para relajarte, disfrutar de actividades acuáticas y explorar la naturaleza. Ven a conocer este destino único." />
+<meta name="twitter:title" content="Playa de Muskiz - Un Paraíso Natural en la Costa de bizkaia" />
+<meta name="twitter:description" content="La Playa de Muskiz en bizkaia es el lugar perfecto para relajarte, disfrutar de actividades acuáticas y explorar la naturaleza. Ven a conocer este destino único." />
 <meta name="twitter:image" content="https://www.ejemplo.com/imagenes/playa-muskiz.jpg" />
 <meta name="twitter:card" content="summary_large_image" />*/ ?>
 <?php
@@ -69,7 +69,7 @@ $li_actividades_recomendadas = '
     <li class="my-4"><i class="fas fa-landmark" style="color:#f39c12;"></i> <strong>Visitas culturales:</strong><br> La zona de Muskiz tiene una rica historia. Visita su patrimonio cultural, como el casco antiguo o la cercana <a href="https://www.turismourdaibai.eus" target="_blank" title="Urdaibai Biosphere Reserve">Reserva de la Biosfera de Urdaibai</a>, un lugar declarado Patrimonio de la Humanidad por la UNESCO.</li>
 </ul>
 <meta name="description" content="Actividades recomendadas en la Playa de Muskiz: surf, senderismo, gastronomía vasca y turismo cultural en un entorno único." />
-<meta name="keywords" content="surf en Muskiz, actividades en Muskiz, turismo en vizkaia, gastronomía vasca, senderismo Urdaibai, visitas culturales Muskiz" />
+<meta name="keywords" content="surf en Muskiz, actividades en Muskiz, turismo en bizkaia, gastronomía vasca, senderismo Urdaibai, visitas culturales Muskiz" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 ';
@@ -84,7 +84,7 @@ $li_actividades_recomendadas2 = '
     <li class="my-4"><i class="fas fa-sun" style="color:#f39c12;"></i> <strong>Relajación en la playa:</strong><br> Si lo tuyo es disfrutar de un día de descanso bajo el sol, la Playa de Muskiz es perfecta para tomar el sol, nadar y disfrutar de las vistas tranquilas del mar.</li>
 </ul>
 <meta name="description" content="Actividades recomendadas en la Playa de Muskiz: kayak, fotografía, observación de aves y relax en la playa, todo en un entorno natural inigualable." />
-<meta name="keywords" content="kayak en Muskiz, actividades en Muskiz, fotografía playa Muskiz, observación de aves en vizkaia, relax en la playa" />
+<meta name="keywords" content="kayak en Muskiz, actividades en Muskiz, fotografía playa Muskiz, observación de aves en bizkaia, relax en la playa" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 ';
@@ -95,7 +95,7 @@ $li_mas_info = '
     <ul>
         <li><i class="fas fa-phone-alt" style="color:#f39c12;"></i> <strong>Teléfono:</strong><br> <a href="tel:+34943830990">+34 943 830 990</a></li>
         <li><i class="fas fa-envelope" style="color:#3498db;"></i> <strong>Email:</strong><br> <a href="mailto:turismo@muskiz.eus">turismo@muskiz.eus</a></li>
-        <li><i class="fas fa-globe" style="color:#1abc9c;"></i> <strong>Oficina de Turismo:</strong><br> Calle Mayor, 5, 48550 Muskiz, vizkaia <a href="https://www.muskiz.eus/turismo" target="_blank"><strong>Visita nuestra página web</strong></a></li>
+        <li><i class="fas fa-globe" style="color:#1abc9c;"></i> <strong>Oficina de Turismo:</strong><br> Calle Mayor, 5, 48550 Muskiz, bizkaia <a href="https://www.muskiz.eus/turismo" target="_blank"><strong>Visita nuestra página web</strong></a></li>
     </ul>
     <meta name="description" content="Información de contacto para la oficina de turismo de Muskiz y servicios para los turistas." />
     <meta name="keywords" content="turismo Muskiz, oficina de turismo Muskiz, contacto Muskiz, actividades en Muskiz" />
@@ -192,7 +192,7 @@ $faq = '
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> La Playa de Muskiz es fácilmente accesible en coche, con aparcamiento cercano. También puedes llegar en transporte público, ya que está bien conectada con autobuses desde diferentes puntos de la región. <i class="fas fa-car" style="color: #e74c3c;"></i></dd>
 
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde puedo obtener más información sobre la Playa de Muskiz?</dt>
-    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Muskiz y sus alrededores, visita la <a href="https://www.turismomuskiz.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Muskiz">Oficina de Turismo de Muskiz</a> o la <a href="https://www.vizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de vizkaia">Oficina de Turismo de vizkaia</a> para conocer actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Muskiz y sus alrededores, visita la <a href="https://www.turismomuskiz.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Muskiz">Oficina de Turismo de Muskiz</a> o la <a href="https://www.bizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de bizkaia">Oficina de Turismo de bizkaia</a> para conocer actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
 </dl>
 
 <!-- SEO avanzado con metadatos -->
@@ -270,22 +270,22 @@ $faq = '
 $imagenes = [
     [
         'src' => './../img/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada_1.jfif',
-        'alt' => 'Vista de la playa de Muskiz en vizkaia, País Vasco',
-        'figcaption' => 'Vista de la playa de Muskiz en vizkaia.',
+        'alt' => 'Vista de la playa de Muskiz en bizkaia, País Vasco',
+        'figcaption' => 'Vista de la playa de Muskiz en bizkaia.',
         'href' => ' ',
         'titulo_href' => 'Imagen propia'
     ],
     [
         'src' => './../img/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada_2.jfif',
-        'alt' => 'Vista de la playa de Muskiz en vizkaia, País Vasco.',
-        'figcaption' => 'Vista de la playa de Muskiz en vizkaia.',
+        'alt' => 'Vista de la playa de Muskiz en bizkaia, País Vasco.',
+        'figcaption' => 'Vista de la playa de Muskiz en bizkaia.',
         'href' => ' ',
         'titulo_href' => 'Imagen propia'
     ],
     [
         'src' => './../img/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada-3.jfif',
-        'alt' => 'Vista de la playa de Muskiz en vizkaia, País Vasco',
-        'figcaption' => 'Vista de la playa de Muskiz en vizkaia.',
+        'alt' => 'Vista de la playa de Muskiz en bizkaia, País Vasco',
+        'figcaption' => 'Vista de la playa de Muskiz en bizkaia.',
         'href' => ' ',
         'titulo_href' => 'Imagen propia'
     ],
@@ -293,22 +293,22 @@ $imagenes = [
 
     [
         'src' => './../img/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada-4.jfif',
-        'alt' => 'playa-Ereaga-Getxo-vizkaia-Pais-Vasco.',
-        'figcaption' => 'Playa de Ereaga en Getxo, vizkaia.',
+        'alt' => 'playa-Ereaga-Getxo-bizkaia-Pais-Vasco.',
+        'figcaption' => 'Playa de Ereaga en Getxo, bizkaia.',
         'href' => 'https://etheriamagazine.com/2021/06/14/12-planes-en-getxo-con-amigas-para-disfrutar-al-estilo-vasco/',
         'titulo_href' => 'etheriamagazine.com'
     ],
     [
-        'src' => './../img/atardecer-playa-Muskiz-vizkaia-País-Vasco.jpg',
-        'alt' => 'Atardecer en la Playa de Muskiz, vizkaia, País Vasco.',
-        'figcaption' => 'Atardecer en la Playa de Muskiz en vizkaia.',
+        'src' => './../img/atardecer-playa-Muskiz-bizkaia-País-Vasco.jpg',
+        'alt' => 'Atardecer en la Playa de Muskiz, bizkaia, País Vasco.',
+        'figcaption' => 'Atardecer en la Playa de Muskiz en bizkaia.',
         'href' => 'https://www.flickr.com/photos/54989697@N02/52262909725',
         'titulo_href' => 'www.flickr.com'
     ],
     [
-        'src' => './../img/piragua-en-Muskiz-vizkaia-País-Vasco.webp',
-        'alt' => 'Piragüas en la playa de Muskiz en vizkaia, País Vasco.',
-        'figcaption' => 'Piragüas en la playa de Muskiz en vizkaia.',
+        'src' => './../img/piragua-en-Muskiz-bizkaia-País-Vasco.webp',
+        'alt' => 'Piragüas en la playa de Muskiz en bizkaia, País Vasco.',
+        'figcaption' => 'Piragüas en la playa de Muskiz en bizkaia.',
         'href' => 'https://www.minube.com/rincon/piragua-en-muskiz-a117382',
         'titulo_href' => 'www.minube.com'
     ]

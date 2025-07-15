@@ -104,7 +104,7 @@
     <ul>
         <li class="my-4"><strong>Teléfono:</strong><br><br> +34 946 844 017</li>
         <li class="my-4"><strong>Email:</strong><br><br> turismo@lekeitio.eus</li>
-        <li class="my-4"><strong>Oficina de Turismo:</strong><br><br> Plaza Independencia, 1, 48280 Lekeitio, vizkaia
+        <li class="my-4"><strong>Oficina de Turismo:</strong><br><br> Plaza Independencia, 1, 48280 Lekeitio, bizkaia
             <a href="https://www.lekeitio.eus/es/turismo"><strong>Web</strong><br><br></a>
         </li>
     </ul>

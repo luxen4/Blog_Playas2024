@@ -1,7 +1,7 @@
 <?php
 $li_encabezado = '
 <section class="encabezado-playa-gorliz">
-    <p><strong>Explora la <a href="https://turismo.euskadi.eus/es/playas/playa-de-gorliz/aa30-12375/es/" target="_blank" title="Visita la Playa de Gorliz en Euskadi">Playa de Gorliz</a></strong>, un tesoro natural en <a href="https://es.wikipedia.org/wiki/G%C3%B3rliz" target="_blank" title="Gorliz en Wikipedia">Gorliz, vizkaia</a>, ideal para familias, surfistas y amantes del mar.</p>
+    <p><strong>Explora la <a href="https://turismo.euskadi.eus/es/playas/playa-de-gorliz/aa30-12375/es/" target="_blank" title="Visita la Playa de Gorliz en Euskadi">Playa de Gorliz</a></strong>, un tesoro natural en <a href="https://es.wikipedia.org/wiki/G%C3%B3rliz" target="_blank" title="Gorliz en Wikipedia">Gorliz, bizkaia</a>, ideal para familias, surfistas y amantes del mar.</p>
     <p>Con más de <strong>800 metros de arena dorada</strong>, aguas tranquilas y un entorno natural protegido, es una de las <strong>playas más valoradas de la costa vasca</strong>. Accesible, limpia y con todos los servicios.</p>
     <p>Disfruta también de la <a href="/gastronomia-vasca/" title="Cocina vasca junto al mar">gastronomía vasca</a> en los restaurantes cercanos, donde los <strong>pescados y mariscos frescos</strong> son los reyes del menú.</p>
 </section>
@@ -54,7 +54,7 @@ $li_actividades_recomendadas = '
     <li class="my-4">
         <i class="fas fa-ship" style="color: #3498db;"></i>
         <strong>Paseos en barco:</strong><br>
-        Navega por la costa vizcaína desde el cercano puerto de Plentzia y descubre <a href="https://www.vizkaia.eus/home2/Temas/DetalleTema.asp?Tem_Codigo=9815&idioma=CA" target="_blank" title="Paseos marítimos en la costa vasca">acantilados, playas escondidas y naturaleza marina</a>.
+        Navega por la costa vizcaína desde el cercano puerto de Plentzia y descubre <a href="https://www.bizkaia.eus/home2/Temas/DetalleTema.asp?Tem_Codigo=9815&idioma=CA" target="_blank" title="Paseos marítimos en la costa vasca">acantilados, playas escondidas y naturaleza marina</a>.
     </li>
     <li class="my-4">
         <i class="fas fa-hiking" style="color: #27ae60;"></i>
@@ -133,7 +133,7 @@ $li_mapa_ubicacion = '
             "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Gorliz",
-                "addressRegion": "vizkaia",
+                "addressRegion": "bizkaia",
                 "addressCountry": "Spain"
             },
             "geo": {
@@ -194,7 +194,7 @@ $li_mas_info = '
             <i class="fas fa-map-marker-alt" style="color: #27ae60;"></i> 
             <strong>Ubicación:</strong><br> 
             <a href="https://goo.gl/maps/xyz123gorliz" target="_blank" rel="noopener noreferrer" title="Ver ubicación en Google Maps" aria-label="Ver oficina de turismo en Google Maps">
-                Oficina de Turismo de Gorliz, C/ La Playa, 2, 48620 Gorliz, vizkaia
+                Oficina de Turismo de Gorliz, C/ La Playa, 2, 48620 Gorliz, bizkaia
             </a>
         </li>
         <li class="my-4">
@@ -330,44 +330,44 @@ $faq = '
 $imagenes = [
     [
         'src' => './../img/vista-general-playa-Gorliz-Vizcaya.jpg',
-        'alt' => 'Vista panorámica de la Playa de Gorliz en vizkaia, País Vasco.',
+        'alt' => 'Vista panorámica de la Playa de Gorliz en bizkaia, País Vasco.',
         'figcaption' => 'Vista panorámica de la Playa de Gorliz.',
-        'href' => 'https://turismovasco.com/vizkaia/que-ver-vizkaia/gorliz/',
+        'href' => 'https://turismovasco.com/bizkaia/que-ver-bizkaia/gorliz/',
         'titulo_href' => 'turismovasco.com'
     ],
     [
         'src' => './../img/dia-soleado-playa-Gorliz-Bizcaia-Pais-Vasco.jpg',
-        'alt' => 'Dia soleado en la playa de Gorliz en vizkaia, País Vasco.',
+        'alt' => 'Dia soleado en la playa de Gorliz en bizkaia, País Vasco.',
         'figcaption' => 'Dia soleado en la playa de Gorliz.',
         'href' => 'https://www.hotelpaisvasco.com/que-visitar-en-el-pais-vasco-gorliz/',
         'titulo_href' => 'hotelpaisvasco.com'
     ],
     [
-        'src' => './../img/panoramica-playa-Gorliz-vizkaia.jpeg',
-        'alt' => 'Vista panoramica de la playa de Gorliz en vizkaia, País Vasco.',
+        'src' => './../img/panoramica-playa-Gorliz-bizkaia.jpeg',
+        'alt' => 'Vista panoramica de la playa de Gorliz en bizkaia, País Vasco.',
         'figcaption' => 'Vista panoramica de la playa de Gorliz.',
         'href' => 'https://accesible.visitbiscay.eus/es/ruta/ruta-por-la-bahia-de-gorliz',
         'titulo_href' => 'accesible.visitbiscay.eus'
     ],
     [
         'src' => './../img/familias-disfrutando-playa-Gorliz-Bizcaia.jpg',
-        'alt' => 'Familias disfrutando en la Playa de Gorliz en vizkaia, País Vasco.',
+        'alt' => 'Familias disfrutando en la Playa de Gorliz en bizkaia, País Vasco.',
         'figcaption' => 'Familias disfrutando en la Playa de Gorliz.',
         'href' => 'https://www.deia.eus/que-mundo/2015/07/22/playa-gorliz-seduce-fronteras-vizcainas-5113180.html',
         'titulo_href' => 'deia.eus'
     ],
     [
-        'src' => './../img/atardecer-playa-Gorliz-vizkaia.jpg',
-        'alt' => 'Atardecer en la Playa de Gorliz en vizkaia, País Vasco.',
+        'src' => './../img/atardecer-playa-Gorliz-bizkaia.jpg',
+        'alt' => 'Atardecer en la Playa de Gorliz en bizkaia, País Vasco.',
         'figcaption' => 'Atardecer en la Playa de Gorliz.',
         'href' => 'https://turismo.euskadi.eus/es/localidades/gorliz/aa30-12375/es/',
         'titulo_href' => 'turismo.euskadi.eus'
     ],
     [
-        'src' => './../img/actividades-playa-Gorliz-vizkaia.jpg',
-        'alt' => 'Actividades en la Playa de Gorliz en vizkaia, País Vasco.',
+        'src' => './../img/actividades-playa-Gorliz-bizkaia.jpg',
+        'alt' => 'Actividades en la Playa de Gorliz en bizkaia, País Vasco.',
         'figcaption' => 'Actividades en la Playa de Gorliz.',
-        'href' => 'https://www.deia.eus/vizkaia/2022/06/30/parque-flotante-gorliz-5758586.html',
+        'href' => 'https://www.deia.eus/bizkaia/2022/06/30/parque-flotante-gorliz-5758586.html',
         'titulo_href' => 'deia.eus'
     ]
 ]; ?>

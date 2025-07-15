@@ -79,8 +79,8 @@
             </div>
             <div class="col-12">
               <?php 
-                    $region='Vizkaia'; $region_minuscula = 'vizkaia';
-                    include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-vizkaia.php'; ?>
+                    $region='Bizkaia'; $region_minuscula = 'bizkaia';
+                    include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-bizkaia.php'; ?>
             </div>
             <div class="col-12">
               <?php 

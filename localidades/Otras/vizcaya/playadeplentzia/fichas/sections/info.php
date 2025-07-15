@@ -5,7 +5,7 @@ $li_encabezado = '
 
 // Descripción detallada de la Playa de Plentzia
 $li_descripcion_detallada = '
-<p class="section-content">La Playa de Plentzia, situada en la costa de vizkaia, es una de las joyas de la región. La playa se extiende a lo largo de una gran bahía, rodeada de un entorno natural espectacular que combina las aguas del mar Cantábrico con las montañas que se alzan cerca. Su arena dorada y sus aguas tranquilas la convierten en un lugar ideal para disfrutar en familia, practicar deportes acuáticos o simplemente relajarse bajo el sol. <i class="fas fa-beach-umbrella" style="color:#f39c12;"></i></p>
+<p class="section-content">La Playa de Plentzia, situada en la costa de bizkaia, es una de las joyas de la región. La playa se extiende a lo largo de una gran bahía, rodeada de un entorno natural espectacular que combina las aguas del mar Cantábrico con las montañas que se alzan cerca. Su arena dorada y sus aguas tranquilas la convierten en un lugar ideal para disfrutar en familia, practicar deportes acuáticos o simplemente relajarse bajo el sol. <i class="fas fa-beach-umbrella" style="color:#f39c12;"></i></p>
 
 <p class="section-content">Esta playa es también un excelente destino para los amantes del surf, ya que sus olas constantes y variadas ofrecen la posibilidad de disfrutar tanto a los principiantes como a los más experimentados. Durante todo el año, se realizan competiciones de surf y eventos relacionados con deportes acuáticos, atrayendo a entusiastas de todo el mundo. <i class="fas fa-surfboard" style="color:#1abc9c;"></i></p>
 
@@ -16,7 +16,7 @@ $li_descripcion_detallada = '
 <p class="section-content">La playa está muy bien equipada, con duchas, baños y áreas de descanso para asegurar una experiencia cómoda. Su accesibilidad es excelente, ya que se puede llegar fácilmente en coche, transporte público o incluso a pie. <i class="fas fa-bicycle" style="color:#9b59b6;"></i></p>
 
 <meta name="description" content="La Playa de Plentzia, un paraíso para surfistas y turistas, ofrece actividades acuáticas, senderismo, una rica gastronomía y un entorno natural impresionante. Ideal para familias y aventureros." />
-<meta name="keywords" content="Playa de Plentzia, surf en Plentzia, turismo en Plentzia, senderismo en Plentzia, actividades acuáticas, gastronomía vasca, playa vizkaia" />
+<meta name="keywords" content="Playa de Plentzia, surf en Plentzia, turismo en Plentzia, senderismo en Plentzia, actividades acuáticas, gastronomía vasca, playa bizkaia" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 ';
@@ -60,7 +60,7 @@ $li_mapa_ubicacion = '
     
     <li class="my-4"><i class="fas fa-bus" style="color:#3498db;"></i> <strong>En autobús:</strong><br> La playa está perfectamente conectada por el servicio de autobuses <a href="https://www.bizkaibus.eus/" target="_blank" title="Consulta los horarios de Bizkaibus">Bizkaibus</a>, con salidas regulares desde Bilbao y otras localidades cercanas. Un transporte ecológico y cómodo para aquellos que prefieren no conducir. <i class="fas fa-bus-alt" style="color:#2ecc71;"></i></li>
     
-    <li class="my-4"><i class="fas fa-train" style="color:#27ae60;"></i> <strong>En tren:</strong><br> Plentzia también dispone de estación de tren, con conexiones directas a Bilbao y otras ciudades de vizkaia. Desde la estación de tren, la playa está a solo 10 minutos a pie, lo que la convierte en una opción cómoda para los viajeros que prefieren el transporte público. <i class="fas fa-route" style="color:#34495e;"></i></li>
+    <li class="my-4"><i class="fas fa-train" style="color:#27ae60;"></i> <strong>En tren:</strong><br> Plentzia también dispone de estación de tren, con conexiones directas a Bilbao y otras ciudades de bizkaia. Desde la estación de tren, la playa está a solo 10 minutos a pie, lo que la convierte en una opción cómoda para los viajeros que prefieren el transporte público. <i class="fas fa-route" style="color:#34495e;"></i></li>
 </ul>
 
 <h3>Mapa de la Playa de Plentzia</h3>
@@ -74,7 +74,7 @@ $li_mapa_ubicacion = '
 <p><strong>Fecha de actualización:</strong> Mayo 2025</p>
 
 <meta name="description" content="La Playa de Plentzia, un destino ideal para los amantes de la naturaleza, deportes acuáticos y la gastronomía vasca. Accesible en coche, autobús o tren desde Bilbao. Ideal para familias, surfistas y excursionistas." />
-<meta name="keywords" content="Playa de Plentzia, cómo llegar a Plentzia, transporte público Plentzia, surf en Plentzia, turismo en Plentzia, actividades en Plentzia, playas vizkaia, Plentzia en tren" />
+<meta name="keywords" content="Playa de Plentzia, cómo llegar a Plentzia, transporte público Plentzia, surf en Plentzia, turismo en Plentzia, actividades en Plentzia, playas bizkaia, Plentzia en tren" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="2025-05-04" />
 ';
@@ -137,11 +137,11 @@ $li_mas_info = '
     <ul class="list-unstyled">
         <li><i class="fas fa-phone-alt" style="color:#f39c12;"></i> <strong>Teléfono:</strong> +34 943 860 007. Estamos disponibles para ayudarte con cualquier consulta relacionada con la playa o la localidad. <i class="fas fa-headset" style="color:#2ecc71;"></i></li>
         <li><i class="fas fa-envelope" style="color:#3498db;"></i> <strong>Email:</strong> <a href="mailto:info@plentzia.eus" title="Enviar un correo electrónico">info@plentzia.eus</a>. Nuestro equipo está listo para responder tus dudas y proporcionarte toda la información que necesites. <i class="fas fa-paper-plane" style="color:#e74c3c;"></i></li>
-        <li><i class="fas fa-map-marker-alt" style="color:#27ae60;"></i> <strong>Oficina de Turismo:</strong> Visítanos en la Plaza de Santiago, 1, 20750 Plentzia, vizkaia, donde podrás obtener folletos, mapas y recomendaciones locales. <a href="https://www.plentzia.eus/turismo" target="_blank" title="Visita la Oficina de Turismo de Plentzia"><strong>Visita nuestra web</strong></a> para más información. <i class="fas fa-building" style="color:#9b59b6;"></i></li>
+        <li><i class="fas fa-map-marker-alt" style="color:#27ae60;"></i> <strong>Oficina de Turismo:</strong> Visítanos en la Plaza de Santiago, 1, 20750 Plentzia, bizkaia, donde podrás obtener folletos, mapas y recomendaciones locales. <a href="https://www.plentzia.eus/turismo" target="_blank" title="Visita la Oficina de Turismo de Plentzia"><strong>Visita nuestra web</strong></a> para más información. <i class="fas fa-building" style="color:#9b59b6;"></i></li>
     </ul>
 
     <meta name="description" content="Para más información sobre la Playa de Plentzia, contacta por teléfono, correo electrónico o visítanos en la Oficina de Turismo ubicada en el centro de Plentzia." />
-    <meta name="keywords" content="Playa de Plentzia, oficina de turismo Plentzia, información sobre Plentzia, contacto Plentzia, playa Plentzia vizkaia" />
+    <meta name="keywords" content="Playa de Plentzia, oficina de turismo Plentzia, información sobre Plentzia, contacto Plentzia, playa Plentzia bizkaia" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 ';
@@ -246,7 +246,7 @@ $faq = '
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> La Playa de Plentzia es de fácil acceso en coche, con un aparcamiento cercano. También puedes llegar en transporte público, ya que la estación de tren de Plentzia está muy cerca de la playa, facilitando el acceso para los visitantes. <i class="fas fa-car" style="color: #e74c3c;"></i></dd>
 
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde puedo obtener más información sobre la Playa de Plentzia?</dt>
-    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Plentzia, puedes visitar la <a href="https://www.plentzia.eus/turismo" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Plentzia">Oficina de Turismo de Plentzia</a> o consultar la página oficial del <a href="https://www.vizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de vizkaia">Turismo de vizkaia</a> para conocer actividades, alojamiento y más detalles. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre la Playa de Plentzia, puedes visitar la <a href="https://www.plentzia.eus/turismo" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Plentzia">Oficina de Turismo de Plentzia</a> o consultar la página oficial del <a href="https://www.bizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de bizkaia">Turismo de bizkaia</a> para conocer actividades, alojamiento y más detalles. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
 </dl>
 
 <!-- SEO avanzado con metadatos -->
@@ -281,45 +281,45 @@ $faq = '
 $imagenes = [
     [
         'src' => './../img/panoramica-playa-Plentzia-País-Vasco.jpg',
-        'alt' => 'Vista panorámica de la playa de Plentzia en vizkaia',
-        'figcaption' => 'Vista panorámica de la playa de Plentzia en vizkaia',
+        'alt' => 'Vista panorámica de la playa de Plentzia en bizkaia',
+        'figcaption' => 'Vista panorámica de la playa de Plentzia en bizkaia',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/paseo-maritimo-playa-Plentzia-vizkaia-País-Vasco.jpg',
-        'alt' => 'Paseo Marítimo en la Playa de Plentzia en vizkaia, País Vasco.',
-        'figcaption' => 'Paseo Marítimo en la Playa de Plentzia en vizkaia.',
+        'src' => './../img/paseo-maritimo-playa-Plentzia-bizkaia-País-Vasco.jpg',
+        'alt' => 'Paseo Marítimo en la Playa de Plentzia en bizkaia, País Vasco.',
+        'figcaption' => 'Paseo Marítimo en la Playa de Plentzia en bizkaia.',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/familias-disfrutando-playa-Plentzia-vizkaia-País-Vasco.jpg',
-        'alt' => 'Familias disfrutando en la Playa de Plentzia en vizkaia',
+        'src' => './../img/familias-disfrutando-playa-Plentzia-bizkaia-País-Vasco.jpg',
+        'alt' => 'Familias disfrutando en la Playa de Plentzia en bizkaia',
         'figcaption' => 'Familias disfrutando en la Playa de Plentzia.',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/puente-nuevo-playa-Plentzia-vizkaia-País-Vasco.jpg',
-        'alt' => 'Puente Nuevo en la Playa de Plentzia, vizkaia, Pais-Vasco.',
-        'figcaption' => 'Puente Nuevo en la Playa de Plentzia, vizkaia.',
+        'src' => './../img/puente-nuevo-playa-Plentzia-bizkaia-País-Vasco.jpg',
+        'alt' => 'Puente Nuevo en la Playa de Plentzia, bizkaia, Pais-Vasco.',
+        'figcaption' => 'Puente Nuevo en la Playa de Plentzia, bizkaia.',
         'href' => '',
         'titulo_href' => ''
     ],
 
 
     [
-        'src' => './../img/atardecer-playa-Plentzia-vizkaia-País-Vasco.jpg',
-        'alt' => 'Atardecer en la Playa de Plentzia, vizkaia',
+        'src' => './../img/atardecer-playa-Plentzia-bizkaia-País-Vasco.jpg',
+        'alt' => 'Atardecer en la Playa de Plentzia, bizkaia',
         'figcaption' => 'Atardecer en la Playa de Plentzia. Fuente:',
         'href' => '',
         'titulo_href' => ''
     ],
     [
-        'src' => './../img/vista-aerea-playa-Plentzia-vizkaia-País-Vasco.jpg',
-        'alt' => 'Vista Aerea de la Playa de Plentzia en vizkaia.',
-        'figcaption' => 'Vista Aerea de la Playa de Plentzia en vizkaia.',
+        'src' => './../img/vista-aerea-playa-Plentzia-bizkaia-País-Vasco.jpg',
+        'alt' => 'Vista Aerea de la Playa de Plentzia en bizkaia.',
+        'figcaption' => 'Vista Aerea de la Playa de Plentzia en bizkaia.',
         'href' => '',
         'titulo_href' => ''
     ]

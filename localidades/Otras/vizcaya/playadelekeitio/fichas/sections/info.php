@@ -4,7 +4,7 @@ $li_encabezado = '
 ';
 
 $li_descripcion_detallada = '
-    <p class="section-content">La Playa de Lekeitio, ubicada en la provincia de vizkaia, es una joya de la costa vasca. Esta playa se caracteriza por su preciosa bahía en forma de concha, rodeada por impresionantes acantilados y un ambiente sereno que la convierte en uno de los destinos más recomendados para los amantes del mar. Su arena dorada y fina es ideal para tomar el sol, pasear por la orilla o simplemente relajarse escuchando el sonido de las olas. <i class="fas fa-beach-umbrella" style="color:#27ae60;"></i></p>
+    <p class="section-content">La Playa de Lekeitio, ubicada en la provincia de bizkaia, es una joya de la costa vasca. Esta playa se caracteriza por su preciosa bahía en forma de concha, rodeada por impresionantes acantilados y un ambiente sereno que la convierte en uno de los destinos más recomendados para los amantes del mar. Su arena dorada y fina es ideal para tomar el sol, pasear por la orilla o simplemente relajarse escuchando el sonido de las olas. <i class="fas fa-beach-umbrella" style="color:#27ae60;"></i></p>
     
     <p class="section-content">Una de las características más distintivas de la Playa de Lekeitio es la Isla de San Nicolás, un pequeño islote al que se puede acceder a pie durante la marea baja. Esta isla es famosa por su belleza natural, y es un lugar ideal para realizar fotografías y disfrutar de vistas panorámicas de la costa vasca. <i class="fas fa-camera" style="color:#9b59b6;"></i></p>
     
@@ -12,8 +12,8 @@ $li_descripcion_detallada = '
     
     <p class="section-content">Con actividades para todos los gustos, desde deportes acuáticos como el kayak y el paddle surf, hasta senderismo por los hermosos alrededores, Lekeitio se convierte en el destino ideal para aquellos que buscan combinar naturaleza, historia y una excelente gastronomía. Si lo que buscas es desconectar y vivir una experiencia auténtica en el corazón del País Vasco, la Playa de Lekeitio es el lugar perfecto. <i class="fas fa-hiking" style="color:#34495e;"></i></p>
     
-    <meta name="description" content="La Playa de Lekeitio, una de las joyas costeras de vizkaia, ofrece un entorno tranquilo y relajante, con arena dorada, acceso a la Isla de San Nicolás y una rica oferta cultural y gastronómica." />
-    <meta name="keywords" content="Playa de Lekeitio, Isla San Nicolás, playa vasca, mariscos frescos, senderismo Lekeitio, kayak en Lekeitio, turismo en Lekeitio, costa vasca, playas vizkaia" />
+    <meta name="description" content="La Playa de Lekeitio, una de las joyas costeras de bizkaia, ofrece un entorno tranquilo y relajante, con arena dorada, acceso a la Isla de San Nicolás y una rica oferta cultural y gastronómica." />
+    <meta name="keywords" content="Playa de Lekeitio, Isla San Nicolás, playa vasca, mariscos frescos, senderismo Lekeitio, kayak en Lekeitio, turismo en Lekeitio, costa vasca, playas bizkaia" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 ';
@@ -36,7 +36,7 @@ $li_descripcion_detallada3 = '
     <p class="section-content">A lo largo del año, Lekeitio alberga una serie de festividades que celebran la rica cultura vasca, como las Fiestas de la Virgen de la Asunción, donde el pueblo se llena de música, danzas tradicionales y actividades para toda la familia. Además, el ambiente relajado y pintoresco del pueblo hace que sea un lugar perfecto para disfrutar de una tarde tranquila junto al mar o explorar sus alrededores en bicicleta o a pie. <i class="fas fa-music" style="color:#9b59b6;"></i></p>
     
     <meta name="description" content="Disfruta de la Playa de Lekeitio con sus servicios adaptados, festividades tradicionales y la belleza de su entorno natural. Un lugar accesible para todos." />
-    <meta name="keywords" content="playa adaptada Lekeitio, festividades Lekeitio, Virgen de la Asunción, accesibilidad playa, actividades familiares Lekeitio, turismo accesible en vizkaia" />
+    <meta name="keywords" content="playa adaptada Lekeitio, festividades Lekeitio, Virgen de la Asunción, accesibilidad playa, actividades familiares Lekeitio, turismo accesible en bizkaia" />
     <meta name="robots" content="index, follow" />
     <meta name="date" content="2025-05-04" />
 ';
@@ -50,7 +50,7 @@ $li_mapa_ubicacion = '
 <p>La Playa de Lekeitio es fácilmente accesible tanto en coche como en transporte público.</p>
 <ul>
     <li class="my-4"><i class="fas fa-car" style="color:#e67e22;"></i> <strong>En coche:</strong><br> Desde Bilbao, la Playa de Lekeitio se encuentra a aproximadamente una hora y cuarto por la carretera <strong>BI-633</strong>. Hay varias opciones de aparcamiento cerca del puerto y de la playa, tanto gratuitas como de pago.</li>
-    <li class="my-4"><i class="fas fa-bus" style="color:#3498db;"></i> <strong>En autobús:</strong><br> Lekeitio está bien conectado mediante autobuses desde Bilbao y otras localidades de vizkaia. Puedes consultar los horarios y rutas de la empresa de autobuses <a href="https://www.bizkaibus.eus/" target="_blank" title="Consulta los horarios de Bizkaibus">Bizkaibus</a>.</li>
+    <li class="my-4"><i class="fas fa-bus" style="color:#3498db;"></i> <strong>En autobús:</strong><br> Lekeitio está bien conectado mediante autobuses desde Bilbao y otras localidades de bizkaia. Puedes consultar los horarios y rutas de la empresa de autobuses <a href="https://www.bizkaibus.eus/" target="_blank" title="Consulta los horarios de Bizkaibus">Bizkaibus</a>.</li>
     <li class="my-4"><i class="fas fa-walking" style="color:#27ae60;"></i> <strong>A pie o en bicicleta:</strong><br> Lekeitio y sus alrededores cuentan con caminos escénicos que permiten llegar a la playa caminando o en bicicleta, ideales para disfrutar de la naturaleza y las vistas costeras.</li>
 </ul>
 <h3>Mapa de la Playa de Lekeitio</h3>
@@ -116,7 +116,7 @@ $li_mas_info = '
 <ul>
     <li class="my-4"><i class="fas fa-phone" style="color:#3498db;"></i> <strong>Teléfono:</strong><br> +34 946 844 017</li>
     <li class="my-4"><i class="fas fa-envelope" style="color:#e74c3c;"></i> <strong>Email:</strong><br> <a href="mailto:turismo@lekeitio.eus" title="Envíanos un correo electrónico">turismo@lekeitio.eus</a></li>
-    <li class="my-4"><i class="fas fa-map-marker-alt" style="color:#2ecc71;"></i> <strong>Oficina de Turismo:</strong><br> Plaza Independencia, 1, 48280 Lekeitio, vizkaia
+    <li class="my-4"><i class="fas fa-map-marker-alt" style="color:#2ecc71;"></i> <strong>Oficina de Turismo:</strong><br> Plaza Independencia, 1, 48280 Lekeitio, bizkaia
         <a href="https://www.lekeitio.eus/es/turismo" target="_blank" rel="noopener noreferrer" title="Visita la Oficina de Turismo de Lekeitio"><strong>Web</strong></a>
     </li>
 </ul>
@@ -217,7 +217,7 @@ $faq = '
     <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> La Playa de Lekeitio es fácilmente accesible en coche desde el centro de la localidad. Además, hay conexiones en autobús desde otras ciudades cercanas como Bilbao. Si prefieres, puedes llegar en tren y disfrutar de un recorrido pintoresco. <i class="fas fa-car" style="color: #e74c3c;"></i></dd>
 
     <dt><i class="fas fa-question-circle" style="color: #3498db;"></i> ¿Dónde puedo obtener más información sobre la Playa de Lekeitio?</dt>
-    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre Lekeitio y sus alrededores, puedes visitar la <a href="https://www.lekeitio.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Lekeitio">Oficina de Turismo de Lekeitio</a> o la <a href="https://www.vizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de vizkaia">Oficina de Turismo de vizkaia</a> para más detalles sobre actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
+    <dd><i class="fas fa-check-circle" style="color: #2ecc71;"></i> Para más información sobre Lekeitio y sus alrededores, puedes visitar la <a href="https://www.lekeitio.eus/" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de Lekeitio">Oficina de Turismo de Lekeitio</a> o la <a href="https://www.bizkaia.eus" target="_blank" rel="noopener noreferrer" title="Oficina de Turismo de bizkaia">Oficina de Turismo de bizkaia</a> para más detalles sobre actividades, rutas y alojamiento. <i class="fas fa-info-circle" style="color: #2980b9;"></i></dd>
 </dl>
 
 <!-- SEO avanzado con metadatos -->
@@ -270,7 +270,7 @@ $imagenes = [
         'src' => './../img/malecon-Lekeitio.jpg',
         'alt' => 'Malecón en la Playa de Lekeitio en Bizcaia, País Vasco',
         'figcaption' => 'Malecón en la Playa de Lekeitio.',
-        'href' => 'https://www.deia.eus/vizkaia/2015/07/10/reformado-malecon-pone-servicio-puerto-5115703.html',
+        'href' => 'https://www.deia.eus/bizkaia/2015/07/10/reformado-malecon-pone-servicio-puerto-5115703.html',
         'titulo_href' => 'deia.eus'
     ],
     [

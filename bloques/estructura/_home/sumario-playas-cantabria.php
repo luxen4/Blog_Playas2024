@@ -4,13 +4,13 @@ $carpeta = 'playa-de-ostende';
 $localidad_nombre = 'Playa de Ostende';
 $localidad = 'Playa de Ostende'; 
 $localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); 
-$region_minuscula = 'cantabria';
+$region = 'cantabria'; $region_minuscula = 'cantabria';
 $archivo_name = 'ostende-castro-urdiales';
 
 $presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
-$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
 
-$region = 'cantabria'; ?>
+
 
 
 

@@ -106,10 +106,10 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-la-arena-muskiz-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-la-arena-muskiz-bizkaia-1.jpg"
          alt="Vista aérea de la Playa de La Arena en Muskiz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-la-arena-muskiz-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-la-arena-muskiz-bizkaia-2.jpg"
          alt="Zona de dunas y paseo marítimo en la Playa de La Arena"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

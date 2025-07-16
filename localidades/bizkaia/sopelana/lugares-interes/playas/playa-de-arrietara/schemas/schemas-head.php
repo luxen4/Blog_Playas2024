@@ -1,15 +1,15 @@
 <?php 
-$latitude  = 43.42290;  
-$longitude = -2.65030; 
+$latitude  = 43.42410;  
+$longitude = -2.64800; 
 
 // Variables para el schema – Playa de Laga
 $schemaTitle       = "Playa de Laga - Ibarrangelu";
-$schemaDescription = "Descubre la Playa de Laga en Ibarrangelu, Bizkaia: una playa virgen dentro de la Reserva de la Biosfera de Urdaibai, perfecta para el surf, naturaleza y descanso en un entorno protegido.";
+$schemaDescription = "Disfruta la Playa de Laga en Ibarrangelu, una joya natural dentro de la Reserva de Urdaibai: ideal para el surf, el senderismo y la desconexión en la costa vasca.";
 $schemaUrl         = "https://www.tu-dominio.com/ibarrangelu/lugares-interes/playa-de-laga"; // Sustituye por tu URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-laga.jpg";                   // Sustituye por la imagen real
+$schemaImage       = "https://www.tu-dominio.com/images/playa-de-laga-1.jpg";                 // Sustituye por la imagen real
 $schemaAddress     = [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Barrio Laga, s/n",
+    "streetAddress"   => "Playa de Laga, s/n",
     "addressLocality" => "Ibarrangelu",
     "addressRegion"   => "Bizkaia",
     "postalCode"      => "48311",

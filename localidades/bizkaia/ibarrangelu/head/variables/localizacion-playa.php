@@ -1,16 +1,16 @@
 <?php
-$nombre_playa             = 'Playa de Laga';
-$nombre_playa_minuscula   = 'playa-de-laga';
-$carpeta                  = 'playadelaga';
+$nombre_playa             = 'Laga';
+$nombre_playa_minuscula   = 'laga';
+$carpeta                  = 'playa-de-laga';
 
-$localidad                = 'Laga';
-$localidad_minuscula      = 'laga';
+$localidad                = 'ibarrangelu';
+$localidad_minuscula      = 'ibarrangelu';
 
 $region                   = 'Bizkaia';
 $region_minuscula         = 'bizkaia';
 
 $country                  = 'España';
 
-$rutas                    = 'playa-de-laga-laga';
+$rutas                    = 'ibarrangelu-bizkaia';
 $hoy                      = date('Y-m-d');
 ?>

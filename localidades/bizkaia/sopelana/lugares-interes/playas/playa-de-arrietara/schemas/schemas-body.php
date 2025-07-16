@@ -1,15 +1,15 @@
 <?php
-// Variables reutilizables para Playa de Laga en Ibarrangelu
-$schemaTitle        = $schemaTitle        ?? "Playa de Laga - Ibarrangelu";
-$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Laga en Ibarrangelu, Bizkaia: una playa virgen dentro de la Reserva de Urdaibai, ideal para el surf, el senderismo y disfrutar de la naturaleza del País Vasco.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ibarrangelu/lugares-interes/playa-de-laga";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-laga.jpg";
+// Variables reutilizables para Playa de Arrietara
+$schemaTitle        = $schemaTitle        ?? "Playa de Arrietara - Sopelana";
+$schemaDescription  = $schemaDescription  ?? "Explora la Playa de Arrietara en Sopelana, Bizkaia: un paraíso para surfistas, rodeado de acantilados y con ambiente joven, a pocos minutos de Bilbao.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/sopelana/lugares-interes/playa-de-arrietara";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-arrietara-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Barrio Laga, s/n",
-    "addressLocality" => "Ibarrangelu",
+    "streetAddress"   => "Arrietara, s/n",
+    "addressLocality" => "Sopelana",
     "addressRegion"   => "Bizkaia",
-    "postalCode"      => "48311",
+    "postalCode"      => "48600",
     "addressCountry"  => "ES"
 ];
 ?>
@@ -17,11 +17,15 @@ $schemaAddress      = $schemaAddress      ?? [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Place",
+  "@type": ["Place", "Beach"],
   "name": "<?= $schemaTitle ?>",
   "description": "<?= $schemaDescription ?>",
   "url": "<?= $schemaUrl ?>",
   "image": "<?= $schemaImage ?>",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<?= $schemaUrl ?>"
+  },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "<?= $schemaAddress['streetAddress'] ?>",
@@ -32,38 +36,39 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.4229,
-    "longitude": -2.6503
+    "latitude": 43.3904,
+    "longitude": -2.9813
   },
+  "hasMap": "https://www.google.com/maps?q=43.3904,-2.9813",
   "amenityFeature": [
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Zona de surf",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Escuelas de surf y alquiler de material",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Acceso adaptado y servicios de temporada",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Chiringuitos y restaurantes",
+      "value": true
+    },
     {
       "@type": "LocationFeatureSpecification",
       "name": "Aparcamiento cercano",
       "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Entorno natural protegido (Urdaibai)",
-      "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Ideal para surfistas",
-      "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Zonas de picnic próximas",
-      "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Servicios en temporada (duchas, socorristas)",
-      "value": true
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/ibarrangelu"
+    "https://www.tu-dominio.com/sopelana"
   ]
 }
 </script>

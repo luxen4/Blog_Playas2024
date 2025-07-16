@@ -86,7 +86,7 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-bakio-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-bakio-bizkaia-1.jpg"
          alt="Vista panorámica de la Playa de Bakio"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-bakio-2.jpg"

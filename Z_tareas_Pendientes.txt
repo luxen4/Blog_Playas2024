@@ -1,4 +1,4 @@
-Carrusel con el primer itenm con las camisas mirando a la izda.
+Carrusel con el primer item con las camisas mirando a la izda.
 Preparar todas las imágenes y enlaces para los carruseles, de acuerdo con los productos de cada categoría.
 Preparar ids para las direcciones de las imágenes de cada producto.
 Interfaz que inserte enlaces e imágenes en la base de datos.

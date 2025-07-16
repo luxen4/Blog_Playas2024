@@ -1,3 +1,29 @@
+<?php $targeta = PATH_RAIZ_LOCALIDADES.'/index.php';?>
+
+<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6">
+  Cantabria
+</h2>
+
+
+<?php
+$carpeta = 'playa-de-cuberris';
+$localidad_nombre = 'Playa de Cuberris';
+$localidad = 'Ajo';
+$localidad_minuscula = strtolower($localidad);  // "ajo"
+$region = 'Cantabria';
+$region_minuscula = 'cantabria';
+$archivo_name = 'cuberris-ajo';
+
+$presentacion = 'La Playa de Cuberris, situada en Ajo, Cantabria, es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso en coche y a pie, Cuberris ofrece un equilibrio perfecto entre comodidad y naturaleza para quienes desean disfrutar de la costa cántabra en su estado más puro.';
+
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+?>
+
+
+<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
+
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
+
 
 <?php
 $carpeta = 'playa-de-ostende';
@@ -14,12 +40,7 @@ $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_snea
 
 
 
-<?php $targeta = PATH_RAIZ_LOCALIDADES.'/index.php';?>
 
-
-<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6">
-  Cantabria
-</h2>
 
 <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
 
@@ -32,7 +53,7 @@ $localidad = 'Sonabia';
 $localidad_minuscula = strtolower($localidad);  // "sonabia"
 $region = 'Cantabria';
 $region_minuscula = 'cantabria';
-$archivo_name = 'sonabia-cantabria';
+$archivo_name = 'sonabia-sonabia';
 
 $presentacion = 'La Playa de Sonabia, situada en el extremo oriental de Cantabria junto al límite con el País Vasco, es una playa virgen de arena fina y dorada rodeada de acantilados y zonas verdes. Perfecta para quienes buscan tranquilidad y un paisaje natural impresionante, ofrece excelentes oportunidades para el baño en aguas cristalinas y para el senderismo por los acantilados cercanos. Con accesos peatonales y aparcamiento limitado, su encanto radica en su entorno prácticamente intacto y en las vistas al Mar Cantábrico.';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
@@ -52,7 +73,7 @@ $localidad = 'Santona';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "santona"
 $region = 'Cantabria';
 $region_minuscula = strtolower($region);  // "cantabria"
-$archivo_name = 'santona-cantabria';
+$archivo_name = 'berria-santona';
 
 $presentacion = '🌊 La Playa de Berria, ubicada en Santoña (Cantabria), es una extensa franja de arena dorada entre el monte Brusco y el monte Buciero. Con más de 2 km de longitud, es ideal para el surf, el baño y largos paseos. Rodeada de ecosistemas protegidos como las marismas de Santoña, ofrece una belleza natural incomparable con servicios completos.';
 
@@ -73,7 +94,7 @@ $localidad = 'Ajo';
 $localidad_minuscula = strtolower($localidad);  // "ajo"
 $region = 'Cantabria';
 $region_minuscula = strtolower($region);        // "cantabria"
-$archivo_name = 'ajo-cantabria';
+$archivo_name = 'cuberris-ajo';
 
 $presentacion = 'La Playa de Cuberris, situada en Ajo, Cantabria, es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso en coche y a pie, Cuberris ofrece un equilibrio perfecto entre comodidad y naturaleza para quienes desean disfrutar de la costa cántabra en su estado más puro.';
 

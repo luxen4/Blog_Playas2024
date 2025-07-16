@@ -7,13 +7,13 @@
 
 
 <?php
-$carpeta = 'la-grande-plage';
+$carpeta = 'playa-de-la-grande-plage';
 $localidad_nombre = 'La Grande Plage';
 $localidad = 'Saint-Jean-de-Luz';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "saint-jean-de-luz"
 $region = 'Nouvelle-Aquitaine';  // Región de Francia
 $region_minuscula = strtolower(str_replace(' ', '-', $region));  // "nouvelle-aquitaine"
-$archivo_name = 'la-grande-plage-saint-jean-de-luz-nouvelle-aquitaine';
+$archivo_name = 'la-grande-plage-saint-jean-de-luz';
 
 $presentacion = '🏖️ La Grande Plage est la plage emblématique de Saint-Jean-de-Luz, connue pour son sable fin, son ambiance familiale et ses activités nautiques. Idéale pour profiter de la côte basque française en toute tranquillité.';
 

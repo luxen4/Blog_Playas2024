@@ -5,7 +5,7 @@ $localidad = 'Deba';
 $localidad_minuscula = strtolower($localidad);  // "deba"
 $region = 'gipuzkoa';
 $region_minuscula = strtolower(str_replace(' ', '-', $region));  // "país-vasco"
-$archivo_name = 'deba-pais-vasco';
+$archivo_name = 'santiago-deba';
 
 $presentacion = 'La Playa de Santiago, ubicada en Deba, País Vasco, es una playa de arena fina y aguas limpias, ideal para familias y amantes del surf. Con accesos cómodos y servicios en temporada, esta playa ofrece un entorno natural privilegiado con vistas al mar Cantábrico y senderos costeros para explorar.';
 

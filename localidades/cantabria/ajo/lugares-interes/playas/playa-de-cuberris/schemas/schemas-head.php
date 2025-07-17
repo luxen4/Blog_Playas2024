@@ -1,18 +1,18 @@
 <?php 
-$latitude  = 43.50710;  
-$longitude = -3.62430; 
+$latitude  = 43.52100;  
+$longitude = -3.75900; 
 
 // Variables para el schema – Playa de Cuberris
 $schemaTitle       = "Playa de Cuberris - Ajo";
-$schemaDescription = "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa abierta al mar Cantábrico con olas ideales para el surf, naturaleza salvaje y servicios de temporada.";
-$schemaUrl         = "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-cuberris"; // Sustituye por tu URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-cuberris-1.jpg";         // Sustituye por la imagen real
+$schemaDescription = "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa de arena dorada popular para el surf, rodeada de un entorno natural protegido.";
+$schemaUrl         = "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-cuberris"; // Cambia por la URL real
+$schemaImage       = "https://www.tu-dominio.com/images/playa-de-cuberris-1.jpg";       // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
-    "@type"           => "PostalAddress",
-    "streetAddress"   => "Barrio la Playa, s/n",
+    "@type"         => "PostalAddress",
+    "streetAddress" => "Playa de Cuberris",
     "addressLocality" => "Ajo",
     "addressRegion"   => "Cantabria",
-    "postalCode"      => "39170",
+    "postalCode"      => "39749",
     "addressCountry"  => "ES"
 ];
 ?>

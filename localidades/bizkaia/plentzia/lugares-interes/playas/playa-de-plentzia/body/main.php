@@ -7,7 +7,7 @@
   </h1>
 
   <p class="mb-4 text-sm text-gray-700">
-    La <strong class="text-gray-900">Playa de Plentzia</strong>, ubicada en el municipio de <span class="font-medium">Plentzia</span>, bizkaia, es un arenal muy apreciado por su tranquilidad, aguas seguras y entorno natural. Ideal para familias, cuenta con una ubicación privilegiada junto a la ría.
+    La <strong class="text-gray-900">Playa de Plentzia</strong>, ubicada en el municipio de <span class="font-medium">Plentzia</span>, vizkaia, es un arenal muy apreciado por su tranquilidad, aguas seguras y entorno natural. Ideal para familias, cuenta con una ubicación privilegiada junto a la ría.
   </p>
 
   <p class="mb-6 text-sm text-gray-700">
@@ -70,10 +70,10 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-plentzia-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-plentzia-plentzia-bizkaia-1.jpg"
          alt="Vista general de la Playa de Plentzia"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-plentzia-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/puerto-de-plentzia-bizkaia.jpg"
          alt="Paseo junto a la ría en Plentzia"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>
@@ -81,7 +81,7 @@
   <p class="mb-4 text-sm text-gray-700">Imágenes de la Playa de Plentzia, en la desembocadura de la ría</p>
 
   <p class="mb-4 text-sm text-gray-700">
-    Plentzia es uno de los destinos más accesibles y encantadores de la costa de bizkaia para quienes buscan mar, cultura y tranquilidad.
+    Plentzia es uno de los destinos más accesibles y encantadores de la costa de vizkaia para quienes buscan mar, cultura y tranquilidad.
   </p>
 
   <div class="block lg:hidden">
@@ -113,7 +113,7 @@
     </ul>
   </section>
 
-  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
 </main>

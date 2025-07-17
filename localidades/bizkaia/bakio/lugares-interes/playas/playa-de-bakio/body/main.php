@@ -34,19 +34,19 @@
 
     <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-green-500" ...> <path d="M5 12l5 5L20 7"/></svg>
+        <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg>
         Accesos adaptados para personas con movilidad reducida
       </li>
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-blue-500" ...> <path d="M3 7h18M3 12h18M3 17h18"/></svg>
+        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
         Duchas, aseos, socorristas y papeleras
       </li>
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-yellow-500" ...> <path d="M12 2v20m9-9H3"/></svg>
+        <svg class="w-5 h-5 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a4 4 0 00-8 0v2m-2 0h12v10H7V9z" /></svg>
         Aparcamientos y zonas de picnic cercanas
       </li>
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-indigo-500" ...> <path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2v-5H3v5a2 2 0 002 2z" /></svg>
         Chiringuitos y bares abiertos en verano
       </li>
     </ul>
@@ -63,19 +63,19 @@
 
     <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-blue-500" ...> <path d="M12 2a4 4 0 100 8..." /></svg>
+        <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 10h4.764a2 2 0 011.997 2.237l-.58 5.22a2 2 0 01-1.994 1.763H5.813a2 2 0 01-1.993-1.763l-.58-5.22A2 2 0 014.237 10H9m5 0V7a3 3 0 10-6 0v3m6 0H9" /></svg>
         Surf y cursos de iniciación durante todo el año
       </li>
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-teal-500" ...> <path d="M12 2C6.5 2 2 12..." /></svg>
+        <svg class="w-5 h-5 text-teal-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0v6m0 0H6m6 0h6" /></svg>
         Senderismo hacia San Juan de Gaztelugatxe
       </li>
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-yellow-500" ...> <path d="M17 9V7H7v2..." /></svg>
+        <svg class="w-5 h-5 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12a9 9 0 0118 0 9 9 0 01-18 0zm9 3a3 3 0 100-6 3 3 0 000 6z" /></svg>
         Bronceado y fotografía del paisaje vasco
       </li>
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-pink-500" ...> <path d="M9 12h6..." /></svg>
+        <svg class="w-5 h-5 text-pink-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7l6 6-6 6M9 5h6a2 2 0 012 2v10a2 2 0 01-2 2H9m-6-6h6" /></svg>
         Observación de aves marinas y naturaleza
       </li>
     </ul>
@@ -86,10 +86,10 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-bakio-bakio-bizkaia-1.png"
+    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/playa-de-bakio-bakio-bizkaia-1.png"
          alt="Vista panorámica de la Playa de Bakio"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-bakio-bakio-bizkaia-2.jpg"
+    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/surfistas-playa-de-Bakio-Bizkaio.jfif"
          alt="Surfistas en la Playa de Bakio"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

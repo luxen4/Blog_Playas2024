@@ -1,15 +1,15 @@
 <?php
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
-$schemaTitle        = $schemaTitle        ?? "La Grande Plage - Biarritz";
-$schemaDescription  = $schemaDescription  ?? "Descubre La Grande Plage en Biarritz, una emblemática playa en la costa vasca francesa, perfecta para el surf y el turismo costero.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/biarritz/lugares-interes/la-grande-plage";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/la-grande-plage-1.jpg";
+$schemaTitle        = $schemaTitle        ?? "La Grande Plage - Saint-Jean-de-Luz";
+$schemaDescription  = $schemaDescription  ?? "Descubre La Grande Plage en Saint-Jean-de-Luz, una playa urbana en la costa vasca francesa con aguas tranquilas, ideal para familias y rodeada de encanto arquitectónico.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/saint-jean-de-luz/lugares-interes/la-grande-plage";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/la-grande-plage-saint-jean-de-luz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Promenade de la Grande Plage",
-    "addressLocality" => "Biarritz",
+    "streetAddress"   => "Promenade Jacques Thibaud",
+    "addressLocality" => "Saint-Jean-de-Luz",
     "addressRegion"   => "Nouvelle-Aquitaine",
-    "postalCode"      => "64200",
+    "postalCode"      => "64500",
     "addressCountry"  => "FR"
 ];
 ?>
@@ -32,28 +32,28 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.4856,
-    "longitude": -1.5586
+    "latitude": 43.3881,
+    "longitude": -1.6633
   },
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Playa urbana popular",
+      "name": "Acceso peatonal",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Ideal para surfistas",
+      "name": "Duchas y baños públicos disponibles",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Acceso a servicios turísticos",
+      "name": "Acceso adaptado y vigilancia en temporada",
       "value": true
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://www.tu-dominio.com/saint-jean-de-luz"
   ]
 }
 </script>

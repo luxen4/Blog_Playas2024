@@ -1,9 +1,9 @@
 <?php
-$nombre_playa             = 'Cuberris';
-$nombre_playa_minuscula   = 'cuberris';
-$carpeta                  = 'playa-de-cuberris';
+$nombre_playa             = 'Playa de Cuberris';
+$nombre_playa_minuscula   = 'playa-de-cuberris';
+$carpeta                  = 'playadecuberris';
 
-$localidad                = 'ajo';
+$localidad                = 'Ajo';
 $localidad_minuscula      = 'ajo';
 
 $region                   = 'Cantabria';
@@ -11,6 +11,6 @@ $region_minuscula         = 'cantabria';
 
 $country                  = 'España';
 
-$rutas                    = 'ajo-cantabria';
+$rutas                    = 'playa-de-cuberris-ajo-cantabria';
 $hoy                      = date('Y-m-d');
 ?>

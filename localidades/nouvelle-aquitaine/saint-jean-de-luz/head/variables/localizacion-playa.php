@@ -1,16 +1,16 @@
 <?php
-$nombre_playa             = 'Grande Plage de Saint-Jean-de-Luz';
-$nombre_playa_minuscula   = 'grande-plage-saint-jean-de-luz';
-$carpeta                  = 'grandeplagesaintjeandeluz';
+$nombre_playa             = 'La Grande Plage de Saint-Jean-de-Luz';
+$nombre_playa_minuscula   = 'la-grande-plage-de-saint-jean-de-luz';
+$carpeta                  = 'playa-de-saint-jean-de-luz';
 
 $localidad                = 'Saint-Jean-de-Luz';
 $localidad_minuscula      = 'saint-jean-de-luz';
 
-$region                   = 'Nueva Aquitania';
-$region_minuscula         = 'nueva-aquitania';
+$region                   = 'Nouvelle-Aquitaine';
+$region_minuscula         = 'nouvelle-aquitaine';
 
 $country                  = 'Francia';
 
-$rutas                    = 'grande-plage-saint-jean-de-luz';
+$rutas                    = 'saint-jean-de-luz-nouvelle-aquitaine';
 $hoy                      = date('Y-m-d');
 ?>

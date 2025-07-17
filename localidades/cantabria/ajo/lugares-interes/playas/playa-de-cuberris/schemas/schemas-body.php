@@ -1,15 +1,15 @@
 <?php
-// Variables reutilizables para Playa de Cuberris en Ajo
+// Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de Cuberris - Ajo";
-$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa abierta al mar Cantábrico con olas ideales para el surf, naturaleza salvaje y servicios de temporada.";
+$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa de arena dorada popular para el surf, rodeada de un entorno natural protegido.";
 $schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-cuberris";
 $schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-cuberris-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
-    "@type"           => "PostalAddress",
-    "streetAddress"   => "Barrio la Playa, s/n",
+    "@type"         => "PostalAddress",
+    "streetAddress" => "Playa de Cuberris",
     "addressLocality" => "Ajo",
     "addressRegion"   => "Cantabria",
-    "postalCode"      => "39170",
+    "postalCode"      => "39749",
     "addressCountry"  => "ES"
 ];
 ?>
@@ -32,33 +32,28 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.5071,
-    "longitude": -3.6243
+    "latitude": 43.5210,
+    "longitude": -3.7590
   },
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Aparcamiento cercano",
+      "name": "Acceso peatonal",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Accesible para familias",
+      "name": "Duchas públicas disponibles",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Duchas disponibles (en verano)",
+      "name": "Aparcamiento junto a la playa",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Presencia de socorristas (en temporada)",
-      "value": true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Ideal para surf",
+      "name": "Chiringuito en temporada alta",
       "value": true
     }
   ],

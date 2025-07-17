@@ -90,7 +90,7 @@
             <div class="col-12">
               <?php 
                     $region='Francia'; $region_minuscula = strtolower($localidad);
-                    include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-francia.php'; ?>
+                    include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-nouvelle-aquitaine.php'; ?>
             </div>
           </div>
         </div>

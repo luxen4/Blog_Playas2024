@@ -36,7 +36,7 @@ $localidad = 'Gorliz';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "gorliz"
 $region = 'Bizkaia';  // Usa "Bizkaia" si esa es tu convención oficial
 $region_minuscula = strtolower($region);  // "bizkaia"
-$archivo_name = 'de-astondo-gorliz';
+$archivo_name = 'astondo-gorliz';
 
 $presentacion = '🌿 La Playa de Astondoko, es una playa natural situada junto a Gorliz, bizkaia. Destaca por su entorno salvaje, sus vistas espectaculares y la tranquilidad que ofrece. Es ideal para pasear, desconectar y explorar la costa vasca más auténtica.';
 

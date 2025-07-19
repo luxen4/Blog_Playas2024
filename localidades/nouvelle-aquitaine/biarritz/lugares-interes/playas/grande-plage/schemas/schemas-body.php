@@ -1,16 +1,16 @@
 <?php
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
-$schemaTitle        = $schemaTitle        ?? "Playa de Cuberris - Ajo";
-$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa de arena dorada popular para el surf, rodeada de un entorno natural protegido.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-cuberris";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-cuberris-1.jpg";
+$schemaTitle        = $schemaTitle        ?? "La Grande Plage - Biarritz";
+$schemaDescription  = $schemaDescription  ?? "Descubre La Grande Plage de Biarritz en Nouvelle-Aquitaine, Francia: una emblemática playa urbana de arena dorada, perfecta para el surf, el paseo y la vida costera.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/biarritz/lugares-interes/la-grande-plage";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/la-grande-plage-biarritz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
-    "streetAddress" => "Playa de Cuberris",
-    "addressLocality" => "Ajo",
-    "addressRegion"   => "Cantabria",
-    "postalCode"      => "39749",
-    "addressCountry"  => "ES"
+    "streetAddress" => "La Grande Plage",
+    "addressLocality" => "Biarritz",
+    "addressRegion"   => "Nouvelle-Aquitaine",
+    "postalCode"      => "64200",
+    "addressCountry"  => "FR"
 ];
 ?>
 
@@ -32,33 +32,33 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.5210,
-    "longitude": -3.7590
+    "latitude": 43.4832,
+    "longitude": -1.5616
   },
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Acceso peatonal",
+      "name": "Acceso peatonal y paseo marítimo",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Duchas públicas disponibles",
+      "name": "Duchas y servicios en temporada",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Aparcamiento junto a la playa",
+      "name": "Aparcamiento cercano",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Chiringuito en temporada alta",
+      "name": "Restaurantes y cafeterías",
       "value": true
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/ajo"
+    "https://www.tu-dominio.com/biarritz"
   ]
 }
 </script>

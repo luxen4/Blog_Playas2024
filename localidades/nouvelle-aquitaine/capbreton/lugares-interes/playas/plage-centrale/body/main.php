@@ -103,15 +103,15 @@
 
   <!-- Galería de 4 imágenes -->
   <figure class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-plage-centrale-capbreton-nouvelle-aquitaine-2.jpg"
          alt="Vista panorámica de la Plage Centrale en Capbreton"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-2.jpg"
          alt="Zona de arena y olas en la Plage Centrale"
-         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-3.jpg"
+         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy"><?php /* https://www.tripadvisor.es/Attractions-g641840-Activities-Capbreton_Landes_Nouvelle_Aquitaine.html */?>
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-3.png"
          alt="Paseo marítimo y ambiente surfero en la Plage Centrale"
-         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
+         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy"><?php /* https://www.landesatlantiquesud.com/es/capbreton/le-top-des-incontournables-a-faire/*/ ?> 
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-4.jpg"
          alt="Atardecer sobre la Plage Centrale en Capbreton"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">

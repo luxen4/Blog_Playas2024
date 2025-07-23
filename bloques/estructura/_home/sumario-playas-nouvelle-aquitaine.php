@@ -73,7 +73,7 @@ $localidad = 'Capbreton';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "capbreton"
 $region = 'Nouvelle-Aquitaine';
 $region_minuscula = strtolower(str_replace(' ', '-', $region));       // "nouvelle-aquitaine"
-$archivo_name = 'capbreton-nouvelle-aquitaine';
+$archivo_name = 'plage-centrale-capbreton';
 
 $presentacion = '🏄 La Plage Centrale en Capbreton es una playa urbana muy popular, ideal para surfistas y familias que disfrutan del mar y el ambiente costero en Landes.';
 

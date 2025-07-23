@@ -15,6 +15,7 @@
   </p>
 
   <?php $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
+  <?php //$publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_camisas_hawaianas_man.php'; ?>
 
   <section aria-label="Publicidad relacionada" class="mb-8">
     <div class="border border-gray-200 rounded shadow-sm bg-white p-4">
@@ -102,10 +103,10 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-cantabria-1.jpg"
          alt="Playa de Cuberris desde el mirador"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-cantabria-2.jpg"
          alt="Zona de olas en Playa de Cuberris"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

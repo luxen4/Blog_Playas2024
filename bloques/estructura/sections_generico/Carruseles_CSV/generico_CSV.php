@@ -9,6 +9,7 @@ $arrayElementos = array(
     array("nombre" => "sneakers", "tipoPublicidad" => "horizontal"),
     array("nombre" => "sports_shirts", "tipoPublicidad" => "horizontal"),
     array("nombre" => "vaqueros_hombre", "tipoPublicidad" => "horizontal"),
+    array("nombre" => "camisas_hawaianas_man", "tipoPublicidad" => "horizontal"),
     array("nombre" => "atuendo1", "tipoPublicidad" => "atuendo")
 );
 

@@ -20,12 +20,6 @@ $tema_footer = '- Castro-Urdiales Turismo -';
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/data-generico.php";  // Variables para el archivo Structured_data_generico.php //<!-- Structured Data (Schema.org) -->    ?>
 
 
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,9 +31,6 @@ $tema_footer = '- Castro-Urdiales Turismo -';
   </head>
 
   <body>
-
-
-
 
 <div class="container-xxl py-5">
   <div class="row">
@@ -79,39 +70,39 @@ $tema_footer = '- Castro-Urdiales Turismo -';
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <?php
-          $lugares = [
-            'Asador La Perla' => 'asador-la-perla',
-            'Castillo de Santa Ana' => 'castillo-santa-ana',
-            'Club Náutico' => 'club-nautico',
-            'El Pedregal' => 'el-pedregal',
-            'Iglesia de Santa María' => 'iglesia-santa-maria-de-la-asuncion',
-            'Palacio de Ocharán' => 'palacio-ocharan',
-            'Parque Amestoy' => 'parque-amestoy',
-            'Paseo Marítimo' => 'paseo-maritimo',
-            'Playa de Ostende' => 'playa-de-ostende',
-            'Plaza del Ayuntamiento' => 'plaza-del-ayuntamiento',
-            'Puente Medieval' => 'puente-medieval',
-            'Puerto de Castro Urdiales' => 'puerto-pesquero'
-          ];
+              $lugares = [
+                'Asador La Perla' => 'asador-la-perla',
+                'Castillo de Santa Ana' => 'castillo-santa-ana',
+                'Club Náutico' => 'club-nautico',
+                'El Pedregal' => 'el-pedregal',
+                'Iglesia de Santa María' => 'iglesia-santa-maria-de-la-asuncion',
+                'Palacio de Ocharán' => 'palacio-ocharan',
+                'Parque Amestoy' => 'parque-amestoy',
+                'Paseo Marítimo' => 'paseo-maritimo',
+                'Playa de Ostende' => 'playa-de-ostende',
+                'Plaza del Ayuntamiento' => 'plaza-del-ayuntamiento',
+                'Puente Medieval' => 'puente-medieval',
+                'Puerto de Castro Urdiales' => 'puerto-pesquero'
+              ];
 
-          foreach ($lugares as $nombre => $ruta) {
-              if ($_SERVER['SERVER_NAME'] === 'localhost') {
-                  // Ruta para entorno local
-                  echo '<div class="col">
-                          <a href="' . PATH_HREF_RAIZ . '/' . $ruta .'-' . $localidad_minuscula.    '" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
-                          . $nombre .
-                          '</a>
-                        </div>';
-              } else {
-                  // Ruta para entorno de producción (con subcarpeta lugares-interes)
-                  echo '<div class="col">
-                          <a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '/index.php" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
-                          . $nombre .
-                          '</a>
-                        </div>';
+              foreach ($lugares as $nombre => $ruta) {
+                  if ($_SERVER['SERVER_NAME'] === 'localhost') {
+                      // Ruta para entorno local
+                      echo '<div class="col">
+                              <a href="' . PATH_HREF_RAIZ . '/' . $ruta .'-' . $localidad_minuscula.    '" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
+                              . $nombre .
+                              '</a>
+                            </div>';
+                  } else {
+                      // Ruta para entorno de producción (con subcarpeta lugares-interes)
+                      echo '<div class="col">
+                              <a href="' . PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . $ruta . '/index.php" class="btn btn-outline-secondary w-100 text-start px-3 py-2">'
+                              . $nombre .
+                              '</a>
+                            </div>';
+                  }
               }
-          }
- 
+  
 
 
           ?>

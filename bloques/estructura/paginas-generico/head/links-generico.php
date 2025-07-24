@@ -13,7 +13,10 @@
 <link rel="icon" href="path/to/icono-sombrilla.svg" type="image/svg+xml"> */?>
 
 <?php /*<link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/<?= $url_amigable;?>" />*/?>
-<link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025" />
+<?php /*<link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php" />*/?>
+<link rel="canonical" href="<?= PATH_HREF_RAIZ_LOCALIDADES; ?>/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php" />
+
+
 
 <!-- Alternate Languages -->
 <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">

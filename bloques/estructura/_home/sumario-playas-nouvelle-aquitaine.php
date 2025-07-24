@@ -9,7 +9,7 @@ $localidad = 'Saint Jean de Luz';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "saint-jean-de-luz"
 $region = 'Nouvelle Aquitaine';
 $region_minuscula = strtolower(str_replace(' ', '-', $region));  // "nouvelle-aquitaine"
-$archivo_name = 'saint-jean-de-luz-saint-jean-de-luz';
+$archivo_name = 'grande-plage-saint-jean-de-luz';
 
 $presentacion = '🏖️ La Grande Plage de Saint-Jean-de-Luz, situada en el corazón del casco histórico, ofrece aguas tranquilas gracias a su bahía protegida. Es ideal para familias, baños relajantes y paseos junto al paseo marítimo en un entorno con encanto vasco-francés.';
 
@@ -51,7 +51,7 @@ $localidad = 'Biarritz';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "biarritz"
 $region = 'Nouvelle-Aquitaine';  // nombre oficial en español o francés según prefieras
 $region_minuscula = strtolower(str_replace(' ', '-', $region));       // "nouvelle-aquitaine"
-$archivo_name = 'biarritz-nouvelle-aquitaine';
+$archivo_name = 'grande-plage-biarritz';
 
 $presentacion = '🌊 La Grande Plage en Biarritz es la playa más emblemática de la ciudad, famosa por sus olas para surfear, su amplio paseo marítimo y su animado ambiente durante todo el año.';
 

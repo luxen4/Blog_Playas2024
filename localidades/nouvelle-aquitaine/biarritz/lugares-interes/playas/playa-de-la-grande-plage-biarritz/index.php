@@ -13,7 +13,7 @@
     $keywords_content    = 'La Grande Plage, Biarritz, playas Biarritz, surf Francia, costa atlántica, turismo Biarritz, playa urbana, Nouvelle-Aquitaine';
 
     $lugar_header   = 'La Grande Plage'; 
-    $lugar_interes  = 'grande-plage';
+    $lugar_interes  = 'playa-de-la-grande-plage-biarritz';
     $tema           = $lugar_interes;
     $title          = $lugar_header . ' - ' . $localidad . ', ' . $region;
     $rutas          = $tema . '-' . $localidad_minuscula . '-' . $region_minuscula;

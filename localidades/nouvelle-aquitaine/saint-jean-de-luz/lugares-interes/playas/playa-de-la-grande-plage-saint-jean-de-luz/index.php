@@ -13,7 +13,7 @@
     $keywords_content    = 'La Grande Plage Saint-Jean-de-Luz, playa urbana, turismo vasco francés, costa atlántica, Nouvelle Aquitaine, playas Francia, surf, paseo marítimo';
 
     $lugar_header   = 'La Grande Plage'; 
-    $lugar_interes  = 'grande-plage';
+    $lugar_interes  = 'playa-de-la-grande-plage-saint-jean-de-luz';
     $tema           = $lugar_interes;
     $title          = $lugar_header . ' - ' . $localidad . ', ' . $region;
     $rutas          = $tema . '-' . $localidad_minuscula . '-' . $region_minuscula;
@@ -22,3 +22,5 @@
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>
+
+

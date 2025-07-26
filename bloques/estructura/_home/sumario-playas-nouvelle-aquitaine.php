@@ -3,8 +3,8 @@
   Nouvelle Aquitaine
 </h2>
 <?php
-$carpeta = 'grande-plage';
-$localidad_nombre = 'Grande Plage';
+$carpeta = 'playa-de-la-grande-plage-saint-jean-de-luz';
+$playa_name = 'Grande Plage';
 $localidad = 'Saint Jean de Luz';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "saint-jean-de-luz"
 $region = 'Nouvelle Aquitaine';
@@ -27,7 +27,7 @@ $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS =
 <?php
 /*
 $carpeta = 'playa-de-a-ladeira';  // nombre slug para la playa
-$localidad_nombre = 'Playa de A Ladeira';
+$playa_name = 'Playa de A Ladeira';
 $localidad = 'Baiona';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "baiona"
 $region = 'Nouvelle-Aquitaine';  // nombre oficial en español o francés según prefieras
@@ -45,8 +45,8 @@ require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php';*/
 ?>
 
 <?php
-$carpeta = 'grande-plage';  // nombre slug para la playa
-$localidad_nombre = 'La Grande Plage';
+$carpeta = 'playa-de-la-grande-plage-biarritz';
+$playa_name = 'La Grande Plage';
 $localidad = 'Biarritz';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "biarritz"
 $region = 'Nouvelle-Aquitaine';  // nombre oficial en español o francés según prefieras
@@ -67,13 +67,13 @@ require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php';
 
 
 <?php
-$carpeta = 'plage-centrale';  // slug para la playa
-$localidad_nombre = 'Plage Centrale';
+$carpeta = 'playa-de-la-plage-centrale-capbreton';  // slug para la playa
+$playa_name = 'Plage Centrale';
 $localidad = 'Capbreton';
 $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));  // "capbreton"
 $region = 'Nouvelle-Aquitaine';
 $region_minuscula = strtolower(str_replace(' ', '-', $region));       // "nouvelle-aquitaine"
-$archivo_name = 'plage-centrale-capbreton';
+$archivo_name = 'playa-de-la-plage-centrale-capbreton';
 
 $presentacion = '🏄 La Plage Centrale en Capbreton es una playa urbana muy popular, ideal para surfistas y familias que disfrutan del mar y el ambiente costero en Landes.';
 

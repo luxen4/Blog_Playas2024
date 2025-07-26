@@ -6,7 +6,7 @@
 
 
   <?php
-$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/{$lugar_interes}/schemas/schemas-head.php"; 
+$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/{$lugar_interes}/schemas/schemas-head.php";
 $pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/{$lugar_interes}/schemas/schemas-head.php"; 
 
 try {

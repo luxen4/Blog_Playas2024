@@ -13,7 +13,7 @@
   $keywords_content    = 'Plage Centrale, Capbreton, playas Capbreton, surf Francia, costa atlántica, turismo Capbreton, playa urbana, Nouvelle-Aquitaine';
 
   $lugar_header   = 'Plage Centrale'; 
-  $lugar_interes  = 'plage-centrale';
+  $lugar_interes  = 'playa-de-la-plage-centrale-capbreton';
   $tema           = $lugar_interes;
   $title          = $lugar_header . ' - ' . $localidad . ', ' . $region;
   $rutas          = $tema . '-' . $localidad_minuscula . '-' . $region_minuscula;

@@ -10,7 +10,7 @@
             <a href='localidades/<?= $region_minuscula ?>/<?= $carpeta ?>/fichas/playa-de-<?= $archivo_name ."-".$region;  ?>.php' target="_blank">
                 <img src="localidades/<?= $region_minuscula . '/' .$localidad_minuscula. '/lugares-interes/playas/' .$carpeta ?>/img/playa-de-<?= $archivo_name .'-' .$region_minuscula ; ?>-1.jpg" alt="Imagen de <?= $localidad_nombre; ?>" class="img-fluid">
             </a>
-            <figcaption>Vista de la <?= $localidad_nombre; ?></figcaption>
+            <figcaption>Vista de la <?= $playa_name; ?></figcaption>
         </figure>
     </div>
 </div>

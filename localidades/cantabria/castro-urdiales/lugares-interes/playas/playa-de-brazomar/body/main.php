@@ -57,11 +57,20 @@
       <p>Esta playa no solo es un punto turístico, sino también un espacio social clave para los habitantes de Castro Urdiales. Es habitual ver reuniones familiares, eventos locales y actividades organizadas por el ayuntamiento en temporada estival.</p>
     </section>
 
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+
+
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+  <?php //require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in-parte-abajo.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+
+
+
+
+
 
     <footer class="mt-8 flex flex-col sm:flex-row sm:justify-between items-center gap-4">
 
-      <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
 
       <div class="flex gap-3">
         <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/playa-de-ostende.php" class="text-blue-500 hover:underline text-sm">Playa de Ostende</a>

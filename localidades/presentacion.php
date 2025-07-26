@@ -9,3 +9,11 @@
    class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
     Más info...
 </a>
+
+<a href="<?= PATH_HREF_RAIZ ?>/<?= $carpeta; ?>" 
+   target="_blank" 
+   class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
+    Más info(prueba)...
+</a>
+
+<!--<a href="<?= PATH_HREF_RAIZ ?>/ruta-costera-ostende"-->

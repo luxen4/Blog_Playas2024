@@ -19,8 +19,8 @@ foreach ($claves as $clave) {
   $publicidadPaths[$clave] = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . $archivo;
 }
 ?>
-q
-<div id="bloque-publicidad" class="relative mb-6 mt-6 fade-in">
+
+<div id="bloque-publicidad" class="publicidad-fixed fade-in">
   <button 
     onclick="cerrarPublicidad()"
     class="absolute top-0 right-0 mt-2 mr-2 text-gray-500 hover:text-red-600 text-xl font-bold z-10"
@@ -29,14 +29,12 @@ q
     &times;
   </button>
 
-  <div class="row border border-gray-200 rounded shadow-sm p-1 bg-white" >
-    <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12" style="padding: 0px;">
-      <?php foreach ($publicidadPaths as $clave => $ruta): ?>
-        <div class="bloque-anuncio" data-clave="<?= $clave ?>" style="display: none;">
-          <?php require $ruta; ?>
-        </div>
-      <?php endforeach; ?>
-    </div>
+  <div class="row border border-gray-200 rounded shadow-sm p-2 bg-white flex-container">
+    <?php foreach ($publicidadPaths as $clave => $ruta): ?>
+      <div class="bloque-anuncio" data-clave="<?= $clave ?>" style="display: none;">
+        <?php require $ruta; ?>
+      </div>
+    <?php endforeach; ?>
   </div>
 </div>
 
@@ -72,21 +70,60 @@ q
     contenedor.classList.add('show');
   });
 </script>
-
 <style>
+/* --- Posicionamiento fijo --- */
+.publicidad-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  background: #fff;
+  padding: 0.5rem;
+}
+
+/* --- Animaciones --- */
 .fade-in {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease-in-out, visibility 0.5s;
 }
-
 .fade-in.show {
   opacity: 1;
   visibility: visible;
 }
-
 .fade-in.oculto {
   opacity: 0;
   visibility: hidden;
+}
+
+/* --- Contenedor flexible para mostrar 4 artículos en línea --- */
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Espacio uniforme */
+  width: 100%;
+  gap: 0; /* Sin separación entre bloques */
+}
+
+.flex-container > .bloque-anuncio {
+  flex: 0 0 25%; /* Cada bloque ocupa el 25% del ancho */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Aseguramos que el contenido interno se ajuste */
+.flex-container > .bloque-anuncio img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* En pantallas más grandes (tablet y desktop), mantenemos el mismo layout */
+@media (min-width: 768px) {
+  .flex-container {
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
 }
 </style>

@@ -1,12 +1,12 @@
 <?php
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
-$schemaTitle        = $schemaTitle        ?? "Playa de Cuberris - Ajo";
-$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa de arena dorada popular para el surf, rodeada de un entorno natural protegido.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-cuberris";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-cuberris-1.jpg";
+$schemaTitle        = $schemaTitle        ?? "Playa de Antuerta - Ajo";
+$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Antuerta en Ajo, Cantabria: una playa natural y tranquila, perfecta para los amantes de la naturaleza y el senderismo costero.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-antuerta";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-antuerta-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
-    "streetAddress" => "Playa de Cuberris",
+    "streetAddress" => "Playa de Antuerta",
     "addressLocality" => "Ajo",
     "addressRegion"   => "Cantabria",
     "postalCode"      => "39749",
@@ -32,28 +32,28 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.5210,
-    "longitude": -3.7590
+    "latitude": 43.5105,
+    "longitude": -3.6905
   },
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Acceso peatonal",
+      "name": "Acceso peatonal desde senderos",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Duchas públicas disponibles",
+      "name": "Entorno virgen sin edificaciones",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Aparcamiento junto a la playa",
+      "name": "Aparcamiento cercano en zona alta",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Chiringuito en temporada alta",
+      "name": "Zonas de observación del litoral",
       "value": true
     }
   ],

@@ -1,7 +1,9 @@
 <?php
-function render_playa_card($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name) {
+function render_playa_card($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, ) {
     // Crear la carpeta a partir del nombre de la playa
     $carpeta = strtolower(str_replace(' ', '-', $playa_name));
+
+      //$carpeta = strtolower(str_replace(' ', '-', $carpeta));
 
     // Construir la ruta
     $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}";

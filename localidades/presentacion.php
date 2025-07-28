@@ -10,6 +10,8 @@
     Más info...
 </a>
 
+<?php echo($carpeta); ?>
+
 <a href="<?= PATH_HREF_RAIZ ?>/<?= $carpeta; ?>" 
    target="_blank" 
    class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">

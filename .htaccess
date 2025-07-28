@@ -14,6 +14,9 @@
     RewriteRule ^ruta-costera-ostende$         localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
 
+
+
+
     # Sonabia
     RewriteRule ^playa-de-sonabia$ localidades/cantabria/sonabia/lugares-interes/playas/playa-de-sonabia/index.php [L]
 
@@ -117,6 +120,12 @@
     ### Nouvelle Aquitaine ###
     # Saint Jean de Luz
     RewriteRule ^playa-de-la-grande-plage-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/playas/playa-de-la-grande-plage-saint-jean-de-luz/index.php [L]
+  
+
+
+
+
+
 
     RewriteRule ^playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz-francia.php [L]
     RewriteRule ^actividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-saint-jean-de-luz-francia.php [L]

@@ -106,10 +106,10 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/la-grande-plage-saint-jean-de-luz-nouvelle-aquitaine-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-grande-plage-saint-jean-de-luz-nouvelle-aquitaine-1.jpg"
          alt="Vista panorámica de la Grande Plage de Saint-Jean-de-Luz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/grande-plage-saint-jean-de-luz-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/paseo-maritimo-junto-a-la-grande-plage.jpg"
          alt="Paseo marítimo junto a la Grande Plage"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

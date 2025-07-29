@@ -82,7 +82,7 @@ $src = "https://m.media-amazon.com/images/I/71GrO7q8jhL._AC_SX569_.jpg";
 $alt = "Camisa cuadros mujer";
 $nombre = "Irevial Camisa Manga Larga Mujer Oficina Elegante";
 $price = "29.99€";
-$buy_link = "https://amzn.to/3yWwF3G";
+$buy_link = "https://amzn.to/3U423EJ"; // Enlace de compra modificado 29/07/2025
 
 // Producto 2
 $src2 = "https://m.media-amazon.com/images/I/71UYnXrB2XL._AC_SX569_.jpg";

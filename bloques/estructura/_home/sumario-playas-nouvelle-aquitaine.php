@@ -40,7 +40,7 @@ $presentacion = '🏖️ La Grande Plage de Saint-Jean-de-Luz, situada en el cor
 
 
 
-<?php $localidad = 'Biarritz'; ?>
+<?php $localidad = 'Biarritz'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
 <h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
 
 
@@ -49,20 +49,30 @@ $presentacion = '🏖️ La Grande Plage de Saint-Jean-de-Luz, situada en el cor
 $playa_name = 'La Grande Plage'; $carpeta = 'playa-de-la-grande-plage-biarritz'; $archivo_name = 'grande-plage-biarritz';
 $presentacion = '🌊 La Grande Plage en Biarritz es la playa más emblemática de la ciudad, famosa por sus olas para surfear, su amplio paseo marítimo y su animado ambiente durante todo el año.';
 ?>
-<?php render_playa_card($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name);?>
+<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta);?>
 
 
 
 
-<?php $localidad = 'Capbreton'; ?>
+<?php $localidad = 'Capbreton'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
 <h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
 
 <?php
 $playa_name = 'Plage Centrale'; $carpeta = 'playa-de-la-plage-centrale-capbreton'; $archivo_name = 'playa-de-la-plage-centrale-capbreton';
 $presentacion = '🏄 La Plage Centrale en Capbreton es una playa urbana muy popular, ideal para surfistas y familias que disfrutan del mar y el ambiente costero en Landes.';
 ?>
-<?php render_playa_card($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name);?>
+<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta);?>
 
+
+<?php $localidad = 'Hendaia'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
+<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+
+<?php
+$playa_name = 'Playa de Ondarraitz'; $carpeta = 'playa-de-ondarraitz-hendaia'; $archivo_name = 'playa-de-ondarraitz-hendaia';
+$presentacion = '🌊 La Playa de Ondarraitz en Hendaia, Francia, es una extensa playa de arena fina, perfecta para pasear, practicar surf y disfrutar de un ambiente relajado con vistas a los montes vascos.';
+?>
+
+<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta);?>
 
 
 

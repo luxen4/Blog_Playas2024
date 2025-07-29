@@ -118,12 +118,18 @@
 
 
     ### Nouvelle Aquitaine ###
+
     # Saint Jean de Luz
     RewriteRule ^playa-de-la-grande-plage-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/playas/playa-de-la-grande-plage-saint-jean-de-luz/index.php [L]
-  
 
+    # Biarritz
+    RewriteRule ^playa-de-la-grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
 
+    # Capbreton
+    RewriteRule ^playa-de-la-plage-centrale-capbreton$ localidades/nouvelle-aquitaine/capbreton/lugares-interes/playas/playa-de-la-plage-centrale-capbreton/index.php [L]
 
+    # Hendaia
+    RewriteRule ^playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playas/playa-de-ondarraitz-hendaia/index.php [L]
 
 
 
@@ -135,8 +141,6 @@
     RewriteRule ^preguntas-frecuentes-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/preguntas-frecuentes-playa-de-saint-jean-de-luz-francia.php [L]
 
 
-    # Biarritz
-    RewriteRule ^playa-de-la-grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
 
     RewriteRule ^playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/playa-de-biarritz-francia.php [L]
     RewriteRule ^actividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/actividades-playa-de-biarritz-francia.php [L]
@@ -147,8 +151,6 @@
 
 
 
-    # Capbreton
-    RewriteRule ^playa-de-la-plage-centrale-capbreton$ localidades/nouvelle-aquitaine/capbreton/lugares-interes/playas/playa-de-la-plage-centrale-capbreton/index.php [L]
 
 
 
@@ -211,8 +213,6 @@
     RewriteRule ^servicios-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/servicios-playa-de-noja-cantabria.php [L]
     RewriteRule ^eventos-festividades-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/eventos-festividades-playa-de-noja-cantabria.php [L]
     RewriteRule ^preguntas-frecuentes-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/preguntas-frecuentes-playa-de-noja-cantabria.php [L]
-
-
 
     
     # Laredo

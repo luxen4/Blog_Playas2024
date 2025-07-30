@@ -1,5 +1,8 @@
 Ya actualizados los enlaces
 
 botas_hombre (8 registros, completo)
+camisas_hawaianas_man (12 registros, completo)
+chaquetas_hombre (8 registros, completo)
 sneakers (primeros 8)
 dress_woman
+jeans_man (12 registros, completo)

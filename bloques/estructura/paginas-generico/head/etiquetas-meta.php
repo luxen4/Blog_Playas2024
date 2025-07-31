@@ -22,7 +22,7 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>
     <meta property="og:description" content="<?= $graph_Meta_Tags_property_description; ?>">
-    <meta property="og:image" content="<?= $graph_Meta_Tags_property_image; ?>">
+    <meta property="og:image" content="<?= $graph_Meta_Tags_property_image; ?>"> <?php //echo($graph_Meta_Tags_property_image) ?>
     <meta property="og:url" content="<?= $graph_Meta_Tags_property_url; ?>">
     <meta property="og:type" content="<?= $graph_Meta_Tags_property_type; ?>">
 

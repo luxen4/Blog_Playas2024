@@ -7,4 +7,5 @@ chaquetas_hombre (8 registros, completo)
 dress_woman
 jeans_man (12 registros, completo)
 shorts (8 registros, completo)
-sneakers (primeros 8)
+sneakers (primeros 8 registros cambiados)
+sports_shirts (primeros 8 registros cambiados)

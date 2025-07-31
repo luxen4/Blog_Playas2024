@@ -4,18 +4,16 @@
     <?= $presentacion; ?>
 </p>
 
-<a href="<?= $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS ?>/index.php" 
+ 
+<a 
+<?php if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
+        href="<?= PATH_HREF_RAIZ ?>/<?= $carpeta; ?>"<?php
+    } else { ?>
+        href="<?= $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS ?>/index.php"   <?php 
+    }?>
    target="_blank" 
-   class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
-    Más info...
-</a>
+   class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">Más infoo...</a>
 
-<?php echo($carpeta); ?>
 
-<a href="<?= PATH_HREF_RAIZ ?>/<?= $carpeta; ?>" 
-   target="_blank" 
-   class="inline-block text-blue-600 hover:text-blue-800 font-medium transition duration-200">
-    Más info(prueba)...
-</a>
 
 <!--<a href="<?= PATH_HREF_RAIZ ?>/ruta-costera-ostende"-->

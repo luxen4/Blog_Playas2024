@@ -117,21 +117,21 @@
 
 <?php 
 /*
-  ftpupload.net
+ftpupload.net
 
-  FTP USERNAME
-  if0_38843592
+FTP USERNAME
+if0_38843592
 
-  USERNAME
-  if0_38843592 
+USERNAME
+if0_38843592 
 
 
-  PASSWORD
-  5HJqjWqYLP4k  
+PASSWORD
+5HJqjWqYLP4k  
 
-  http://playas2025.kesug.com/Blog_Playas2025/
-  https: //playas2025.kesug.com/Blog_Playas2025/
-  
+http://playas2025.kesug.com/Blog_Playas2025/
+https: //playas2025.kesug.com/Blog_Playas2025/
+
 
 
 

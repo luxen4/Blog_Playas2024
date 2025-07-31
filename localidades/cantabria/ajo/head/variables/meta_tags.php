@@ -18,7 +18,9 @@ $twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/ajo/inde
 // Open Graph
 $graph_Meta_Tags_property_title        = 'Playa de Cuberris – Ajo, Cantabria';
 $graph_Meta_Tags_property_description  = 'Visita la Playa de Cuberris en Ajo, una playa de arena dorada rodeada de naturaleza, ideal para desconectar y disfrutar del Cantábrico.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/ajo/img/playa-de-cuberris-1.jpg';
+
+$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/lugares-interes/playas/playa-de-cuberris/img/playa-de-cuberris-ajo-cantabria-1.jpg';
+
 $graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/ajo/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
@@ -35,3 +37,7 @@ $graph_Meta_Tags_property_tag          = 'Cuberris';
 $graph_Meta_Tags_property_tag2         = 'Playas Cantabria';
 $graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
 ?>
+
+<?php //echo($graph_Meta_Tags_property_image) ?>
+
+

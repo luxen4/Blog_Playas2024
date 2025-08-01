@@ -34,31 +34,38 @@
     </p>
 
     <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-green-500" ...>
-          <path d="M5 12l5 5L20 7"/>
-        </svg>
-        Acceso directo desde la carretera
-      </li>
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-gray-500" ...>
-          <path d="M3 7h18M3 12h18M3 17h18"/>
-        </svg>
-        Duchas públicas disponibles
-      </li>
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-yellow-500" ...>
-          <path d="M12 2v20m9-9H3"/>
-        </svg>
-        Aparcamiento junto a la playa
-      </li>
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-indigo-500" ...>
-          <path d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-        Chiringuito en temporada alta
-      </li>
-    </ul>
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+    </svg>
+    Acceso directo desde la carretera
+  </li>
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+    Duchas públicas disponibles
+  </li>
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M3 10h18v11a1 1 0 01-1 1H4a1 1 0 01-1-1V10zM16 3H8v7h8V3z"></path>
+    </svg>
+    Aparcamiento junto a la playa
+  </li>
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"></path>
+    </svg>
+    Chiringuito en temporada alta
+  </li>
+</ul>
+
   </section>
 
   <section aria-labelledby="actividades-cuberris" class="mb-8">
@@ -70,32 +77,40 @@
       Esta playa es perfecta para disfrutar del mar y la naturaleza:
     </p>
 
-    <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-blue-500" ...>
-          <path d="M12 2a4 4 0 100 8 4 4 0 000-8zM4 20c1-4 5-6 8-6s7 2 8 6H4z"/>
-        </svg>
-        Surf para todos los niveles
-      </li>
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-teal-500" ...>
-          <path d="M12 2C6.5 2 2 12 2 12s4.5 10 10 10 10-10 10-10S17.5 2 12 2z"/>
-        </svg>
-        Paseos por el entorno natural
-      </li>
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-yellow-500" ...>
-          <path d="M17 9V7H7v2h10zm0 4v-2H7v2h10zm0 4v-2H7v2h10z"/>
-        </svg>
-        Fotografías del litoral cántabro
-      </li>
-      <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-pink-500" ...>
-          <path d="M9 12h6m-3-3v6m-7 4h14a2 2 0 002-2V5a2 2 0-00-2-2H5a2 2 0-00-2 2v14l4-4z"/>
-        </svg>
-        Observación de fauna marina
-      </li>
-    </ul>
+<ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M12 4a4 4 0 100 8 4 4 0 000-8zM4 20c1-4 5-6 8-6s7 2 8 6H4z"></path>
+    </svg>
+    Surf para todos los niveles
+  </li>
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-teal-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M12 2C6.5 2 2 12 2 12s4.5 10 10 10 10-10 10-10S17.5 2 12 2z"></path>
+    </svg>
+    Paseos por el entorno natural
+  </li>
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-yellow-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M17 9V7H7v2h10zm0 4v-2H7v2h10zm0 4v-2H7v2h10z"></path>
+    </svg>
+    Fotografías del litoral cántabro
+  </li>
+  <li class="flex items-center gap-2">
+    <svg class="w-5 h-5 text-pink-500" fill="none" stroke="currentColor" stroke-width="2"
+         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9 12h6m-3-3v6m-7 4h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14l4-4z"></path>
+    </svg>
+    Observación de fauna marina
+  </li>
+</ul>
 
     <p class="mb-4 text-sm text-gray-700">
       La Playa de Cuberris es un destino ideal para una jornada relajante junto al mar en plena naturaleza.

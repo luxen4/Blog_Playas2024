@@ -1,6 +1,6 @@
 <?php 
-$latitude  = 43.51050;  
-$longitude = -3.69050; 
+$latitude  = 43.497053834843534;  
+$longitude = -3.6201546712108055; 
 
 // Variables para el schema – Playa de Antuerta
 $schemaTitle       = "Playa de Antuerta - Ajo";

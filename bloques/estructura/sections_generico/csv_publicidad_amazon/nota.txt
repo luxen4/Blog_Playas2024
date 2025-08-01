@@ -1,11 +1,11 @@
 Ya actualizados los enlaces
 
-botas_hombre (8 registros, completo)
-camisas_hawaianas_man (12 registros, completo)
-chaquetas_hombre (8 registros, completo)
-
-dress_woman
-jeans_man (12 registros, completo)
-shorts (8 registros, completo)
-sneakers (primeros 8 registros cambiados)
-sports_shirts (primeros 8 registros cambiados)
+    botas_hombre (8 registros, completo)
+    camisas_hawaianas_man (12 registros, completo)
+    chaquetas_hombre (8 registros, completo)
+    dress_woman (8 registros, completo)
+    jeans_man (12 registros, completo)
+    shorts (8 registros, completo)
+    sneakers (primeros 8 registros cambiados)
+    sports_shirts (primeros 8 registros cambiados)
+    vaqueros_hombre (4 registros, completo)

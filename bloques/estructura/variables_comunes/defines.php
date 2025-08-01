@@ -22,6 +22,10 @@
 <?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
 <?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN_SECTIONS', PATH_RAIZ_BLOQUES_ESTRUCTURA ."/paginas-playa/body/main/sections/"); ?>
+
+
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS',                PATH_RAIZ_BLOQUES_ESTRUCTURA. '/anuncios/js'); ?>
 <?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN',      PATH_RAIZ_BLOQUES_ESTRUCTURA. "/paginas-principales/body/main"); ?>
@@ -58,6 +62,12 @@
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS',       PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES',            PATH_RAIZ_LOCALIDADES_CARPETA. "/head/variables"); ?>
+
+
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_META_TAGS',             PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/{$lugar_interes}/head/"); ?>
+
+
+
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_JSON_LD',                   PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/jsonld/"); ?>
 
 
@@ -79,6 +89,9 @@
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades"); ?>
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
+
+
+
 <?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES',        PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/{$lugar_interes}/img"); ?>

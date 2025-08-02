@@ -19,21 +19,11 @@ $twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/ajo/inde
 $graph_Meta_Tags_property_title        = 'Playa de Antuerta – Ajo, Cantabria';
 $graph_Meta_Tags_property_description  = 'Visita la Playa de Antuerta en Ajo, una playa virgen con acantilados y vistas al mar Cantábrico. Ideal para surfistas y amantes de la naturaleza.';
 
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/lugares-interes/playas/playa-de-antuerta/img/playa-de-antuerta-ajo-cantabria-1.jpg';
+$graph_Meta_Tags_property_image        
+    = 'https://playas2025.kesug.com/Blog_Playas2024/localidades/cantabria\ajo\lugares-interes\playas\playa-de-antuerta\img\playa-de-antuerta-ajo-cantabria-1.jpg';
 
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/ajo/index.php';
-$graph_Meta_Tags_property_type         = 'website';
+$graph_Meta_Tags_property_url          
+    = 'https://playas2025.kesug.com/Blog_Playas2024/localidades/cantabria\ajo/index.php';
 
-$graph_Meta_Tags_property_site_name    = 'Blog Playas 2025';
-$graph_Meta_Tags_property_locale       = 'es_ES';
-$graph_Meta_Tags_property_image_alt    = 'Playa de Antuerta en Ajo, Cantabria';
-$graph_Meta_Tags_property_image_width  = '1200';
-$graph_Meta_Tags_property_image_height = '630';
-$graph_Meta_Tags_property_author       = 'Adrián Laya García';
-$graph_Meta_Tags_property_updated_time = date('c');
-$graph_Meta_Tags_property_published_time = '2025-07-24T08:00:00+02:00'; // Ajusta según la fecha real
-$graph_Meta_Tags_property_section      = 'Turismo y Playas';
-$graph_Meta_Tags_property_tag          = 'Antuerta';
-$graph_Meta_Tags_property_tag2         = 'Playas Cantabria';
-$graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
-?>
+
+require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD. '/graph_Meta_Tags_property-generico.php'; ?>

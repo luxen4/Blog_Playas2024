@@ -1,8 +1,13 @@
 
-<?php //define('NAME_BLOG', "Blog Playas 2025"); ?>
-<?php //define('AUTHOR', "Adrián Laya García"); ?>
+<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
+<?php define('AUTHOR', "Adrián Laya García"); ?>
+<?php define('WEB_PAGE', "website"); ?>
 <?php //define('EMAIL_AUTHOR', "  ");?>
 <?php define('HOY', date('Y-m-d')); ?>
+<?php define('IDIOMA_LOCAL', 'es_ES'); ?>
+
+<?php define('TURISMO_PLAYAS', 'Turismo y Playas'); ?>
+
 <?php define('SITE_VERIFICATION_CONTENT', ""); ?>
 
 <?php define('NOMBRE_PROYECTO', '/Blog_Playas2025'); ?>
@@ -53,7 +58,10 @@
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
-              
+     
+<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',      PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/img"); ?>
+
+
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_SCHEMAS',             PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/schemas"); ?>
 
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_SCHEMAS_PLAYAS_NOMBRE_PLAYA',      PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/{$lugar_interes}/schemas"); ?>
@@ -89,7 +97,6 @@
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades"); ?>
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
-
 
 
 <?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}"); ?>

@@ -1,12 +1,8 @@
-<?php
-  $region = 'Cantabria';
-  $region_minuscula = strtolower($region);
+<?php $localidad = 'Ajo';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
+<?php $lugar_header   = 'Playa de Cuberris';  $lugar_interes  = 'playa-de-cuberris-ajo'; ?>
 
-  $localidad = 'Ajo';
-  $localidad_minuscula = strtolower($localidad); // "ajo"
-  $carpeta = $localidad_minuscula;
-  $country = 'España';
-?>
+<?php 
+    require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
 
 <?php 
     $description_content = 'Descubre la Playa de Cuberris en Ajo, Cantabria: una playa de arena dorada, ideal para el surf y el contacto con la naturaleza en un entorno protegido y tranquilo.';

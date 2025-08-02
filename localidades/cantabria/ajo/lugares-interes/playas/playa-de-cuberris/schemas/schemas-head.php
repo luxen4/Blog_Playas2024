@@ -1,6 +1,6 @@
 <?php 
-$latitude  = 43.52100;  
-$longitude = -3.75900; 
+$latitude  = 43.4969130559984;  
+$longitude = -3.615244330066511; 
 
 // Variables para el schema – Playa de Cuberris
 $schemaTitle       = "Playa de Cuberris - Ajo";

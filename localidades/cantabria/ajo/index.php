@@ -1,3 +1,9 @@
+<?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
+<?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -44,8 +50,36 @@
               <a href="playa-de-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Ajo</a>
             </div>
             <div class="col">
-              <a href="playa-de-cuberris/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Cuberris</a>
+              <a 
+              
+              
+              
+
+             <?php 
+                  if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
+                      href="<?= PATH_HREF_RAIZ ?>/playa-de-cuberris"<?php
+                  } else { ?>
+                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/playas/playa-de-cuberris/index.php"   <?php 
+                  }?>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Cuberris</a>
             </div>
+
+
             <div class="col">
               <a href="acantilados-de-cabo-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Acantilados de Cabo Ajo</a>
             </div>
@@ -57,6 +91,9 @@
             </div>
           </div>
         </section>
+
+
+        <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
 
         <!-- Botón Volver -->
         <div class="text-center mt-5">

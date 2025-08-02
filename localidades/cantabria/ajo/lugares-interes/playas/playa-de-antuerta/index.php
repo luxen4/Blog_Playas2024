@@ -1,12 +1,8 @@
-<?php
-  $region = 'Cantabria';
-  $region_minuscula = strtolower($region);
+<?php $localidad = 'Ajo';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
+<?php $lugar_header   = 'Playa de Antuerta';  $lugar_interes  = 'playa-de-antuerta-ajo'; ?>
 
-  $localidad = 'Ajo';
-  $localidad_minuscula = strtolower($localidad); // "ajo"
-  $carpeta = $localidad_minuscula;
-  $country = 'España';
-?>
+<?php 
+    require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
 
 <?php 
     $description_content = 'Descubre la Playa de Antuerta en Ajo, Cantabria: una playa salvaje y tranquila, ideal para desconectar, hacer senderismo costero y disfrutar de la naturaleza en estado puro.';

@@ -19,7 +19,7 @@ foreach ($claves as $clave) {
   $publicidadPaths[$clave] = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . $archivo;
 }
 ?>
-q
+
 <div id="bloque-publicidad" class="relative mb-6 mt-6 fade-in">
   <button 
     onclick="cerrarPublicidad()"

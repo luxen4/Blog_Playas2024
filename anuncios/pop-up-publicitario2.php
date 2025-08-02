@@ -8,14 +8,14 @@ $filename = PATH_RAIZ. './anuncios/amazon_shorts_hombre_images.csv';
 
 // Definir array con rutas de archivos CSV
 $csv_files = [
-    /*PATH_RAIZ . '/anuncios/amazon_botas_hombre_images.csv',
+    PATH_RAIZ . '/anuncios/amazon_botas_hombre_images.csv',
     PATH_RAIZ . '/anuncios/amazon_chaquetas_hombre_images.csv',
     PATH_RAIZ . '/anuncios/amazon_dress_woman_images.csv',
     PATH_RAIZ . '/anuncios/amazon_jeans_man_images.csv',
     PATH_RAIZ . '/anuncios/amazon_shorts_images.csv',
     PATH_RAIZ . '/anuncios/amazon_sneakers_images.csv',
     PATH_RAIZ . '/anuncios/amazon_sports_shirts_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_vaqueros_hombre_images.csv',*/
+    PATH_RAIZ . '/anuncios/amazon_vaqueros_hombre_images.csv',
     PATH_RAIZ . '/anuncios/amazon_camisas_hawaianas_man_images.csv',
 ];
 
@@ -41,12 +41,6 @@ if (($handle = fopen($filename, "r")) !== FALSE) {
 // Agrupar imágenes de 3 en 3
 $imageSets = array_chunk($allImages, 4);
 ?>
-
-
-
-
-
-
 
 
 

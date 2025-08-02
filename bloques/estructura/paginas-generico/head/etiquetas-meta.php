@@ -15,8 +15,9 @@
     <meta name="google-site-verification" content="O4CyyseatW1WkLbzw9poeIPyF27Eik_tDlqrO0ank4o" />
     <?php /* para verificar https://search.google.com/search-console/welcome?utm_source=wmx&utm_medium=deprecation-pane&utm_content=home#utm_source=es-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0*/ ?> 
 
+
     <!-- Verificación Seobility -->
-    <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" /> 
+    <meta name="seobility" content= <?= SITE_VERIFICATION_CONTENT ?> /> 
 
 
     <!-- Open Graph Meta Tags -->

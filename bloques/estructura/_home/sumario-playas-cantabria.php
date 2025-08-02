@@ -9,28 +9,41 @@
 <?php $localidad = 'Ajo';    $localidad_minuscula = strtolower($localidad);?>
 <h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
 
-<?php
-$playa_name = 'Playa de Cuberris'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'cuberris-ajo'; 
-$presentacion = 'La '.$playa_name.', situada en '.$localidad.', '.$region.', 
-es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, 
-combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso en coche y a pie, 
-Cuberris ofrece un equilibrio perfecto entre comodidad y naturaleza para quienes desean disfrutar de la costa cántabra en su estado más puro.';
-?>
-<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
+<div class="container my-4">
+  <div class="row">
 
+    <?php 
+    $playa_name = 'Playa de Cuberris'; 
+    $carpeta = strtolower(str_replace(' ', '-', $playa_name)); 
+    $archivo_name = 'cuberris-ajo'; 
+    $presentacion = 'La '.$playa_name.', situada en '.$localidad.', '.$region.', 
+    es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, 
+    combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso en coche y a pie, 
+    Cuberris ofrece un equilibrio perfecto entre comodidad y naturaleza para quienes desean disfrutar de la costa cántabra en su estado más puro.';
+    ?>
+    <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
 
+    <div class="col-12 col-md-6 mb-4">
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
+    </div>
 
-<?php 
-$playa_name = 'Playa de Antuerta';  $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'antuerta-ajo';
-$presentacion = 'La Playa de Antuerta, ubicada en Ajo, Cantabria, 
-es una playa salvaje y tranquila, ideal para los amantes de la naturaleza y los paisajes vírgenes. 
-Con su entorno rocoso y la ausencia de grandes construcciones, es perfecta para quienes buscan desconexión, paseos costeros y la esencia más natural de la costa cántabra. 
-Aunque carece de servicios masivos, su belleza natural compensa cualquier carencia de infraestructuras.';
-?>
-<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
+    <?php 
+    $playa_name = 'Playa de Antuerta';  
+    $carpeta = strtolower(str_replace(' ', '-', $playa_name)); 
+    $archivo_name = 'antuerta-ajo';
+    $presentacion = 'La Playa de Antuerta, ubicada en Ajo, Cantabria, 
+    es una playa salvaje y tranquila, ideal para los amantes de la naturaleza y los paisajes vírgenes. 
+    Con su entorno rocoso y la ausencia de grandes construcciones, es perfecta para quienes buscan desconexión, paseos costeros y la esencia más natural de la costa cántabra. 
+    Aunque carece de servicios masivos, su belleza natural compensa cualquier carencia de infraestructuras.';
+    ?>
+    <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
 
+    <div class="col-12 col-md-6 mb-4">
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
+    </div>
+
+  </div>
+</div>
 
 
 <?php $localidad = 'Castro-Urdiales';    $localidad_minuscula = strtolower($localidad);?>

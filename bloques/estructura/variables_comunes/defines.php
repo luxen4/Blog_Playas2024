@@ -2,20 +2,26 @@
 <?php define('NAME_BLOG', "Blog Playas 2025"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('WEB_PAGE', "website"); ?>
-<?php //define('EMAIL_AUTHOR', "  ");?>
+<?php define('EMAIL_AUTHOR', "  ");?>
 <?php define('HOY', date('Y-m-d')); ?>
 <?php define('IDIOMA_LOCAL', 'es_ES'); ?>
 
 <?php define('TURISMO_PLAYAS', 'Turismo y Playas'); ?>
 
-<?php define('SITE_VERIFICATION_CONTENT', ""); ?>
+<?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
 
 <?php define('NOMBRE_PROYECTO', '/Blog_Playas2025'); ?>
-
+<?php define('SUMARY_LARGE_IMAGE', 'sumary_large_image'); ?>
+<?php define('CARD_SITE', '@laya_garcia'); ?>
 
 <?php define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/'); ?>
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
 
+<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD', PATH_DOMINIO_RAIZ_LOCALIDADES .$region_minuscula.'/'.$localidad_minuscula); ?>
+
+
+<?php //define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS_LUGAR_INTERES_IMG_LUGAR_INTERES_LOCALIDAD_REGION', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.$lugar_interes.'/img/'.$lugar_interes.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>
+<?php define('PATH_IMAGEN_PRESENTACION_PLAYA', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.$lugar_interes.'/img/'.$lugar_interes.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>
 
 
 

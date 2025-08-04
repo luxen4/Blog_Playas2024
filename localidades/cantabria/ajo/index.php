@@ -44,7 +44,18 @@
           </div>
           <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
-              <a href="cabo-de-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Faro de Cabo de Ajo</a>
+              <a 
+              <?php
+              if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
+                      href="<?= PATH_HREF_RAIZ ?>/faro-de-cabo-de-ajo"<?php
+                  } else { ?>
+                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/playas/playa-de-cuberris/index.php"   <?php 
+                  }?>
+              
+              
+              
+              
+              class="btn btn-outline-secondary w-100 text-start px-3 py-2">Faro de Cabo de Ajo</a>
             </div>
             <div class="col">
               <a href="playa-de-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Ajo</a>
@@ -61,20 +72,6 @@
                   } else { ?>
                       href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/playas/playa-de-cuberris/index.php"   <?php 
                   }?>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
               
               class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Cuberris</a>
             </div>

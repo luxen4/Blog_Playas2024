@@ -3,6 +3,14 @@
     #RewriteBase /Blog_Playas2025/
     
     # Ajo
+
+    RewriteRule ^ajo-cantabria$     localidades/cantabria/ajo/index.php [L]
+    
+
+    RewriteRule ^faro-de-cabo-de-ajo$ localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
+    
+
+
     RewriteRule ^playa-de-cuberris$ localidades/cantabria/ajo/lugares-interes/playas/playa-de-cuberris/index.php [L]
     RewriteRule ^playa-de-antuerta$ localidades/cantabria/ajo/lugares-interes/playas/playa-de-antuerta/index.php [L]
 

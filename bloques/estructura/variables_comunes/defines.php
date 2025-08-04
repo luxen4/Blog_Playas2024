@@ -1,5 +1,5 @@
 
-<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
+<?php define('NAME_BLOG', "Blog Playas Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('WEB_PAGE', "website"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
@@ -102,6 +102,7 @@
 
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD', PATH_HREF_RAIZ_LOCALIDADES ."{$region_minuscula}-{$localidad_minuscula}"); ?>
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
 
 

@@ -1,3 +1,51 @@
+Tareas Pendientes
+    Cantabria
+        -Ajo-
+            -Index:
+                -Ruta amigable
+                -Entrada desde la Web-Playa OK
+                -Breadcrums como en Castro-Urdiales
+                -Web simple de momento
+                -Lugares de interés
+                    Web-> Faro Cabo de Ajo
+                    Web-> Acantilados de Cabo de Ajo
+                    Web-> Ruta de la Costa oriental
+                    Web-> Mirador del Cabo
+                    
+                    Web-> Playa de Cuberris (Ya hecha, hace el enlace)
+                    Web-> Playa de Antuerta (Ya hecha, hace el enlace)
+                    
+                    Web-> Sendero PLaya de Antuerta a Cabo de Quintrés 
+                    
+                    -Posibilidad de volver al Home del site desde el botón parte inferior de la web "Volver al inicio"
+                    -Footer (ese estilo pero mi contenido própio)
+                    -Anuncios parte superior, pop-up parte inferior, aside. Probar los que hay en otros archivos.
+                    -Entrada desde la Web "Playa de Cuberris" y "Playa de Antuerta"
+
+
+
+
+            -Playa de Antueras
+            
+            
+            -Playa de Cuberris
+                Entrada desde index OK
+                Contenido y estilo del main OK
+                Imágenes visibles con su pie de foto
+                Google-maps
+                Enlace a otros lugares de interés
+                Footer, contenido
+                Anuncios parte superior, pop-up parte inferior, aside
+                Salida a "Lugares de interés en Ajo
+                    
+
+
+
+
+
+
+
+
 Carrusel con el primer item con las camisas mirando a la izda.
 Preparar todas las imágenes y enlaces para los carruseles, de acuerdo con los productos de cada categoría.
 Preparar ids para las direcciones de las imágenes de cada producto.

@@ -1,12 +1,21 @@
+
+<?php $localidad = 'Ajo'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
+<?php //require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-generales-localidad.php"; ?>
+
+
+
+
+
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 <?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
-
 
 <?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
 <?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN',    PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
 
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}"); ?>
 
 
 
@@ -43,83 +52,158 @@
           </div>
         </header>
 
+
         <!-- Lugares de Interés -->
         <section id="lugares-interes" class="my-10">
           <div class="text-center mb-6">
             <h2 class="text-3xl font-bold text-green-700 mb-2">📍 Lugares de Interés en Ajo</h2>
             <p class="text-gray-600">Descubre los rincones más emblemáticos y naturales de Ajo.</p>
           </div>
+
           <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <a 
-              <?php
-              if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-                      href="<?= PATH_HREF_RAIZ ?>/faro-de-cabo-de-ajo"<?php
-                  } else { ?>
-                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/playas/playa-de-cuberris/index.php"   <?php 
-                  }?>
-              
-              
-              
-              
-              class="btn btn-outline-secondary w-100 text-start px-3 py-2">Faro de Cabo de Ajo</a>
-            </div>
+            <?php 
+            $lugares_interes = [
+              'Faro de Cabo de Ajo',
+              'Playa de Cuberris',
+              'Acantilados de Cabo de Ajo',
+              'Ruta de la Costa Oriental',
+              'Mirador del Cabo'
+            ];
 
-            <div class="col">
-              <a 
-              
-              
-              
-
-             <?php 
-                  if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-                      href="<?= PATH_HREF_RAIZ ?>/playa-de-cuberris"<?php
-                  } else { ?>
-                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/playas/playa-de-cuberris/index.php"   <?php 
-                  }?>
-              
-              class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Cuberris</a>
-            </div>
-
-
-            <div class="col">
-              <a 
-                  <?php
-                  if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-                      href="<?= PATH_HREF_RAIZ ?>/acantilados-de-cabo-de-ajo"<?php
-                  } else { ?>
-                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php"   <?php 
-                  }?>
-              
-              
-              
-              
-              
-              class="btn btn-outline-secondary w-100 text-start px-3 py-2">Acantilados de Cabo Ajo</a>
-            </div>
-            <div class="col">
-              <a 
-              
-                   <?php
-                  if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-                      href="<?= PATH_HREF_RAIZ ?>/ruta-de-la-costa-oriental-de-ajo"<?php
-                  } else { ?>
-                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental-de-ajo/index.php"   <?php 
-                  }?>
-              
-              
-              
-              href="ruta-costa-oriental/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Ruta de la Costa Oriental</a>
-            </div>
-
-
-
-
-            <div class="col">
-              <a href="mirador-cabo-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Mirador del Cabo</a>
-            </div>
+            foreach ($lugares_interes as $lugar_interes_main): ?>
+              <div class="col">
+                <?php require PATH_RAIZ_LOCALIDADES_CARPETA . '/enlace-lugar-interes-generico.php'; ?>
+              </div>
+            <?php endforeach; ?>
           </div>
         </section>
+
+
+
+
+        <?php
+$lugares_interes = [
+  [
+    'nombre' => 'Faro de Cabo de Ajo',
+    'slug'   => 'faro-de-cabo-de-ajo',
+    'imagen' => 'faro-de-cabo-de-ajo.jpg',
+    'alt'    => 'Faro de Cabo de Ajo',
+    'fuente' => 'farodelcaballo.es',
+    'web_imagen' => 'https://farodelcaballo.es/faro-de-ajo-como-llegar/',
+    'desc'   => 'El faro más colorido de España, con vistas únicas al Cantábrico.',
+  ],
+  [
+    'nombre' => 'Playa de Cuberris',
+    'slug'   => 'playa-de-cuberris',
+    'imagen' => 'playa-de-cuberris.jpg',
+    'desc'   => 'Una playa amplia ideal para surf y familias, rodeada de naturaleza.',
+  ],
+  [
+    'nombre' => 'Acantilados de Cabo de Ajo',
+    'slug'   => 'acantilados-de-cabo-de-ajo',
+    'imagen' => 'acantilados-de-cabo-de-ajo.jpg',
+    'desc'   => 'Impresionantes formaciones rocosas con vistas al mar Cantábrico.',
+  ],
+  [
+    'nombre' => 'Ruta de la Costa Oriental',
+    'slug'   => 'ruta-de-la-costa-oriental',
+    'imagen' => 'ruta-de-la-costa-oriental.jpg',
+    'desc'   => 'Sendero costero ideal para caminatas junto al mar y acantilados.',
+  ],
+  [
+    'nombre' => 'Mirador del Cabo',
+    'slug'   => 'mirador-del-cabo',
+    'imagen' => 'mirador-del-cabo.jpg',
+    'desc'   => 'Vista panorámica desde el punto más alto de Ajo.',
+  ],
+];
+?>
+<section id="lugares-interes" class="my-10">
+  <div class="text-center mb-6">
+    <h2 class="text-3xl font-bold text-green-700 mb-2">📍 Lugares de Interés en Ajo</h2>
+    <p class="text-gray-600">Descubre los rincones más emblemáticos y naturales de Ajo.</p>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <?php foreach ($lugares_interes as $lugar): ?>
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+
+
+        <figure class="mb-0">
+            <img src="/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
+                class="card-img-top" 
+                alt="<?= $lugar['alt']; ?>">
+<figcaption class="text-xs text-gray-500 mt-1 px-2">
+  📷 Imagen de <?= $lugar['nombre']; ?> – fuente: 
+  <a href="<?= $lugar['web_imagen']; ?>" class="underline hover:text-blue-600 inline-flex items-center gap-1" target="_blank" rel="noopener noreferrer">
+    <?= $lugar['fuente']; ?>
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5h6m0 0v6m0-6L10 16" />
+    </svg>
+  </a>
+</figcaption>
+
+        </figure>
+
+          <div class="card-body">
+            <h5 class="card-title"><?= $lugar['nombre']; ?></h5>
+            <p class="card-text text-muted small"><?= $lugar['desc']; ?></p>
+            <a href="/Blog_Playas2025/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm">
+              Explorar &rarr;
+            </a>
+          </div>
+
+        </div>
+      </div>
+    <?php endforeach; ?>
+  </div>
+</section>
+
+<?php foreach ($lugares_interes as $lugar): ?>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-0">
+      
+      <?php if (!empty($lugar['web_imagen'])): ?>
+        <a href="<?= $lugar['web_imagen']; ?>" target="_blank" rel="noopener noreferrer">
+          <img src="/Blog_Playas2025/img/lugares/<?= $lugar['imagen']; ?>" class="card-img-top" alt="<?= $lugar['nombre']; ?>">
+        </a>
+      <?php else: ?>
+        <img src="/Blog_Playas2025/img/lugares/<?= $lugar['imagen']; ?>" class="card-img-top" alt="<?= $lugar['nombre']; ?>">
+      <?php endif; ?>
+
+      <div class="card-body">
+        <h5 class="card-title"><?= $lugar['nombre']; ?></h5>
+        <p class="card-text text-muted small"><?= $lugar['desc']; ?></p>
+
+        <?php if (!empty($lugar['fuente']) && !empty($lugar['web_imagen'])): ?>
+          <p class="text-xs text-gray-500 mb-2">
+            Fuente: 
+            <a href="<?= $lugar['web_imagen']; ?>" class="underline hover:text-blue-600" target="_blank" rel="noopener noreferrer">
+              <?= $lugar['fuente']; ?>
+            </a>
+          </p>
+        <?php endif; ?>
+
+        <a href="/Blog_Playas2025/lugares/<?= $lugar['slug']; ?>/" class="btn btn-success btn-sm">
+          Explorar &rarr;
+        </a>
+      </div>
+    </div>
+  </div>
+<?php endforeach; ?>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
@@ -130,7 +214,26 @@
         </div>
       </div>
 
-      <!-- Columna derecha (Sidebar y Playas) -->
+    </div>
+  </div>
+
+  <footer class="bg-green-600 text-white text-center py-4 mt-10">
+    <p>&copy; 2025 Ajo Turismo</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<?php  /*     <!-- Columna derecha (Sidebar y Playas) -->
       <div class="col-lg-4 mt-5 mt-lg-0">
         <!-- Sección Playas -->
         <section id="playas" class="bg-white border border-gray-200 rounded-lg shadow-sm p-4 mb-4">
@@ -150,20 +253,4 @@
             </a>
           </div>
         </section>
-      </div>
-
-
-      <div class="col-12 col-md-3 d-none d-md-block">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
-      </div>
-
-    </div>
-  </div>
-
-  <footer class="bg-green-600 text-white text-center py-4 mt-10">
-    <p>&copy; 2025 Ajo Turismo</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+      </div> */?>

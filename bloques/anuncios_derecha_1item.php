@@ -110,7 +110,7 @@ $images_shirts_1_4 = [
 
 <script>
     
-    <?php
+    <?php 
     function generateImageConstants($total_images, $categories)
     {
         foreach ($categories as $category => $group) {

@@ -7,9 +7,10 @@
     RewriteRule ^ajo-cantabria$     localidades/cantabria/ajo/index.php [L]
     
 
-    RewriteRule ^faro-de-cabo-de-ajo$ localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-cabo-de-ajo$ localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
     RewriteRule ^acantilados-de-cabo-de-ajo$ localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php [L]
-    RewriteRule ^ruta-de-la-costa-oriental-de-ajo$ localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental-de-ajo/index.php [L]
+    RewriteRule ^ruta-de-la-costa-oriental$ localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
+    RewriteRule ^mirador-del-cabo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
     
 
 

@@ -7,8 +7,8 @@ Tareas Pendientes
                 -Breadcrums como en Castro-Urdiales
                 -Web simple de momento
                 -Lugares de interés
-                    Web-> Faro Cabo de Ajo
-                    Web-> Acantilados de Cabo de Ajo
+                    Web-> Faro Cabo de Ajo              (FALTA, COMPLETAR TODO)
+                    Web-> Acantilados de Cabo de Ajo    (FALTA, COMPLETAR TODO)
                     Web-> Ruta de la Costa oriental
                     Web-> Mirador del Cabo
                     

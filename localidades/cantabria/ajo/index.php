@@ -2,6 +2,13 @@
 <?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
 
 
+<?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
+<?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN',    PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
+
+
+
 
 
 <!DOCTYPE html>
@@ -57,9 +64,7 @@
               
               class="btn btn-outline-secondary w-100 text-start px-3 py-2">Faro de Cabo de Ajo</a>
             </div>
-            <div class="col">
-              <a href="playa-de-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Ajo</a>
-            </div>
+
             <div class="col">
               <a 
               
@@ -78,11 +83,38 @@
 
 
             <div class="col">
-              <a href="acantilados-de-cabo-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Acantilados de Cabo Ajo</a>
+              <a 
+                  <?php
+                  if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
+                      href="<?= PATH_HREF_RAIZ ?>/acantilados-de-cabo-de-ajo"<?php
+                  } else { ?>
+                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php"   <?php 
+                  }?>
+              
+              
+              
+              
+              
+              class="btn btn-outline-secondary w-100 text-start px-3 py-2">Acantilados de Cabo Ajo</a>
             </div>
             <div class="col">
-              <a href="ruta-costa-oriental/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Ruta de la Costa Oriental</a>
+              <a 
+              
+                   <?php
+                  if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
+                      href="<?= PATH_HREF_RAIZ ?>/ruta-de-la-costa-oriental-de-ajo"<?php
+                  } else { ?>
+                      href="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental-de-ajo/index.php"   <?php 
+                  }?>
+              
+              
+              
+              href="ruta-costa-oriental/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Ruta de la Costa Oriental</a>
             </div>
+
+
+
+
             <div class="col">
               <a href="mirador-cabo-ajo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Mirador del Cabo</a>
             </div>
@@ -118,6 +150,11 @@
             </a>
           </div>
         </section>
+      </div>
+
+
+      <div class="col-12 col-md-3 d-none d-md-block">
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
       </div>
 
     </div>

@@ -11,6 +11,7 @@
             $price = "";
             //require PATH_RAIZ_BLOQUES . '/anuncios_derecha.php'; 
             ?>
+<?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
 
             <iframe
                 src="<?= PATH_HREF_RAIZ_BLOQUES . '/anuncios_derecha2.php' ?>"

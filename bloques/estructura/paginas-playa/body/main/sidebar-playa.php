@@ -1,3 +1,5 @@
+<?php //define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
+
 <!-- Sidebar con anuncios -->
 <aside class="sticky-top" style="top: 4rem; max-height: calc(100vh - 4rem); overflow-y: auto;">
     <div class="mb-4">
@@ -11,7 +13,6 @@
             $price = "";
             //require PATH_RAIZ_BLOQUES . '/anuncios_derecha.php'; 
             ?>
-<?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
 
             <iframe
                 src="<?= PATH_HREF_RAIZ_BLOQUES . '/anuncios_derecha2.php' ?>"

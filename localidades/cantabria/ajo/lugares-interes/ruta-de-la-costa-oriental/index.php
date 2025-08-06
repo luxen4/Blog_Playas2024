@@ -1,3 +1,29 @@
+<?php $localidad = 'Ajo';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
+<?php $lugar_header   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental-ajo'; ?>
+<?php $tema_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
+<?php $color_page = 'green'; ?>
+
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
+<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
+
+<?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
+<?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
+<?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO',           PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
+
+<?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+<?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
+
+
+
+<?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
+  <?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
+
+
+<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
+<?php define('AUTHOR', "Adrián Laya García"); ?>
+<?php define('EMAIL_AUTHOR', "  ");?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -49,13 +75,25 @@
       <p><i class="bi bi-check-circle-fill text-green-600 mr-1"></i> No hay sombra, se recomienda llevar gorra y agua</p>
     </section>
 
+      <?php $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
+  <section aria-label="Publicidad relacionada" class="mb-8">
+    <div class="border border-gray-200 rounded shadow-sm bg-white p-4">
+      <div class="text-center">
+        <?php require $publicidad; ?>
+      </div>
+    </div>
+  </section>
+
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center"><i class="bi bi-camera-fill text-green-600 mr-2"></i> Galería de Fotos</h2>
       <div class="swiper mySwiper rounded-lg shadow-md">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/img/ruta-costa-oriental.jpg" class="w-full object-cover rounded-md"></div>
-          <div class="swiper-slide"><img src="/img/ruta-costa-oriental-2.jpg" class="w-full object-cover rounded-md"></div>
-          <div class="swiper-slide"><img src="/img/ruta-costa-oriental-3.jpg" class="w-full object-cover rounded-md"></div>
+
+
+
+          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental/img/ruta-de-la-costa-oriental-1.jpg"?>  class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental/img/ruta-de-la-costa-oriental-2.jpg"?> class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental/img/ruta-de-la-costa-oriental-3.jpg"?> class="w-full object-cover rounded-md"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -82,15 +120,22 @@
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center"><i class="bi bi-link-45deg text-green-600 mr-2"></i> Enlaces oficiales</h2>
       <ul class="list-disc list-inside">
-        <li><a href="https://www.bareyo.com" target="_blank" class="text-blue-600 hover:underline">Ayuntamiento de Bareyo</a></li>
+        <li><a href="https://www.aytobareyo.org/municipio/descubre-el-municipio/localizacion-y-entorno/" target="_blank" class="text-blue-600 hover:underline">Ayuntamiento de Bareyo</a></li>
         <li><a href="https://www.turismodecantabria.com" target="_blank" class="text-blue-600 hover:underline">Turismo de Cantabria</a></li>
       </ul>
     </section>
+
+
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+  <?php //require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in-parte-abajo.php'; ?>
+  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+
+
+
   </main>
 
-  <footer class="bg-green-100 text-center py-4 text-green-800">
-    <p class="font-semibold">&copy; 2025 Blog Playas – Adrián Laya García</p>
-  </footer>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.4968, -3.5887], 14);

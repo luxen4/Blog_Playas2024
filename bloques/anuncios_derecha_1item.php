@@ -111,6 +111,9 @@ $images_shirts_1_4 = [
 <script>
     
     <?php 
+
+if (!function_exists('generateImageConstants')) {
+
     function generateImageConstants($total_images, $categories)
     {
         foreach ($categories as $category => $group) {
@@ -123,7 +126,7 @@ $images_shirts_1_4 = [
                 }
             }
         }
-    }
+    }}
 
     // Define categorías y grupos
     $categories = ["shirts" => 1];

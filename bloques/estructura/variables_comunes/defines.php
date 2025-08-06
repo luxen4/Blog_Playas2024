@@ -2,7 +2,7 @@
 <?php define('NAME_BLOG', "Blog Playas Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('WEB_PAGE', "website"); ?>
-<?php define('EMAIL_AUTHOR', "  ");?>
+<?php define('EMAIL_AUTHOR', "superlaya50@gmail.com");?>
 <?php define('HOY', date('Y-m-d')); ?>
 <?php define('IDIOMA_LOCAL', 'es_ES'); ?>
 

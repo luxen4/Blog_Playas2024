@@ -53,9 +53,9 @@
       <h2 class="text-2xl font-semibold mb-4 flex items-center"><i class="bi bi-camera-fill text-green-600 mr-2"></i> Galería de Fotos</h2>
       <div class="swiper mySwiper rounded-lg shadow-md">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="/img/ruta-costa-oriental-ajo-1.jpg" class="w-full object-cover rounded-md"></div>
-          <div class="swiper-slide"><img src="/img/ruta-costa-oriental-ajo-2.jpg" class="w-full object-cover rounded-md"></div>
-          <div class="swiper-slide"><img src="/img/ruta-costa-oriental-ajo-3.jpg" class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src="/img/ruta-costa-oriental.jpg" class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src="/img/ruta-costa-oriental-2.jpg" class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src="/img/ruta-costa-oriental-3.jpg" class="w-full object-cover rounded-md"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>

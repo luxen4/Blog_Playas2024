@@ -37,12 +37,12 @@
     <meta property="og:description" content="<?= $pinterest_property_card_description_content; ?>">
     <meta property="og:image" content="<?= $pinterest_property_card_image_content; ?>">
     <meta property="og:url" content="<?= $pinterest_property_card_image_content; ?>">
-    <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
+    <meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:image:alt" content="<?= $pinterest_property_card_description_content; ?>">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
+    <meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
     <meta property="og:locale" content="es_ES" />
     <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
     <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />

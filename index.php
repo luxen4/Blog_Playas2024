@@ -18,17 +18,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-
-
-
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title><?= $title; ?></title>
   <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
 
   <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-
 </head>
 
 <body>

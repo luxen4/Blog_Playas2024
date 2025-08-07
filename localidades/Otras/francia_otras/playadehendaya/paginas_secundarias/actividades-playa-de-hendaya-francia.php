@@ -43,7 +43,7 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-hendaya-francia" />
   <meta property="og:image:alt" content="Vista panorámica de la Playa de Hendaya con surfistas y senderos junto al mar" />
-  <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
+  <meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
 
   <!-- Adcash (opcional) -->

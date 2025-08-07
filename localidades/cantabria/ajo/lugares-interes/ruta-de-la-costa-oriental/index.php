@@ -24,6 +24,13 @@
 <?php define('NAME_BLOG', "Blog Playas 2025"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
+
+
+<?php $tema_footer = 'Playas del Cantábrico'; $color_page='orange'; $tema='Ajo'; $lugar_interes='Ajo';?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 

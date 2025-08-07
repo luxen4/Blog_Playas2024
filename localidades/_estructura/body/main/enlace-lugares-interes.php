@@ -5,7 +5,7 @@
         if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
             href="<?= PATH_HREF_RAIZ ?>/ajo-cantabria"<?php
         } else { ?>
-            href= <?php PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD ."/index.php"; }?>
+            href= <?= PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD ."/index.php"; }?>
 
      class="inline-flex items-center gap-1 text-<?= $color_page; ?>-500 text-sm hover:underline transition-colors duration-200"
      aria-label="Volver a la lista de lugares de interés">

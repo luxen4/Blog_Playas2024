@@ -2,8 +2,8 @@
 <?php $localidad = 'Ajo'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); ?>
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
 
+<?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
-<?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
 
 <?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
 <?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
@@ -12,20 +12,50 @@
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO',           PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}"); ?>
-
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
      
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
 
-<?php $tema_footer = 'Playas del Cantábrico'; $color_page='orange';?>
-<?php define('NAME_BLOG', "Blog Playas Cantábrico"); ?>
+
+
+
+<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD',      PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head"); ?>
+
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_BODY',      PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/body'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD',      PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head"); ?>
+<?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
+
+
+<?php define('WEB_PAGE', "website"); ?>
+<?php define('HOY', date('Y-m-d')); ?>
+<?php define('IDIOMA_LOCAL', 'es_ES'); ?>
+
+<?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades"); ?>
+
+<?php define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables'); ?>
+<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
+<?php define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/'); ?>
+
+ <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
+<?php //require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES . "/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/head/variables/_meta_tagsa.php"; ?>
+
+<?php
+$description_content = 'Descubre la Ruta de la Costa Oriental de Ajo en Cantabria: un recorrido escénico entre acantilados, naturaleza salvaje y vistas al Faro de Ajo. Ideal para senderistas y amantes del mar.';
+$keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, Faro de Ajo, rutas costeras, naturaleza Cantabria, turismo Ajo, rutas a pie Cantabria';
+?>
+
+<?php $tema_footer = 'Ajo, Cantabria'; $color_page='orange'; $tema='Ajo'; $lugar_interes='Ajo';?>
+
+<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
-<?php define('EMAIL_AUTHOR', "superlaya50@gmail.com");?>
+<?php define('EMAIL_AUTHOR', "  ");?>
 
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Descubre Ajo en Cantabria: playas vírgenes, miradores, rutas y el famoso Cabo de Ajo.">
@@ -34,7 +64,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
+  <title><?= $title; ?></title>
+  <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
+
+  <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+
+
+
 </head>
+
+
+
+
+
+
+
 <body class="bg-[url('/Blog_Playas2025/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
 
   <div class="container-xxl py-5">

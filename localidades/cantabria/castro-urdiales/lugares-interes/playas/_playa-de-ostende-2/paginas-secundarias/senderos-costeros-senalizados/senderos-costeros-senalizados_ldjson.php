@@ -16,7 +16,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Playas 2025 – Guía Costera de España",
+    "name": "Turismo y Playas 2025 – Guía Costera de España",
     "logo": {
       "@type": "ImageObject",
       "url": "https://playas2025.kesug.com/assets/logo-playas2025.png"

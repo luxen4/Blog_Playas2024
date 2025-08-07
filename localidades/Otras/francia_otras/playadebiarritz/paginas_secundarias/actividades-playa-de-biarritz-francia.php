@@ -35,7 +35,7 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-biarritz-francia" />
   <meta property="og:image:alt" content="Vista de la Playa de Biarritz, destino ideal para surf y turismo costero en Francia" />
-  <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
+  <meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
 
   <!-- Adcash (opcional) -->

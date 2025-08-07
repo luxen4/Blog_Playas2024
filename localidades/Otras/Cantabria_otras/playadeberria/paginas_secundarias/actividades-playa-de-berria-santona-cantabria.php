@@ -36,7 +36,7 @@
   <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-berria-santona-cantabria" />
   <meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
   <meta property="og:image:alt" content="Vista de la Playa de Berria, ideal para surf y naturaleza en la costa de Santona" />
-  <meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
+  <meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
 
   <!-- Adcash (opcional) -->

@@ -10,7 +10,7 @@
 <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" />
 
 <!-- 🌐 Open Graph (Facebook / Meta) -->
-<meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Actividades Recomendadas en la Playa de Ostende – Castro-Urdiales" />
 <meta property="og:description" content="Explora las actividades que puedes hacer en la Playa de Ostende: surf, senderismo, juegos para niños, relax y más planes para todos." />

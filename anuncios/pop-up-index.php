@@ -1,5 +1,10 @@
 <?php define('PATH_RAIZ_ANUNCIOS',  PATH_RAIZ. '/anuncios'); ?>
-<?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
+
+
+<?php if (!defined('PATH_RAIZ_LOCALIDADES')) {
+    define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); 
+}
+?>
 
 <?php //define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
 

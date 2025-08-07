@@ -10,7 +10,7 @@
 <meta name="date" content="<?= $hoy ?>" />
 
 <!-- Open Graph (Facebook / Meta) -->
-<meta property="og:site_name" content="Playas 2025 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Senderos Costeros Señalizados – Playa de Ostende" />
 <meta property="og:description" content="Rutas panorámicas y accesibles desde la Playa de Ostende, perfectas para hacer senderismo junto al mar en Castro-Urdiales." />

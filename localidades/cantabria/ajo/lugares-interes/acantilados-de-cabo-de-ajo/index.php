@@ -81,8 +81,8 @@
     <section class="mb-10">
       <div class="swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="https://www.turismodecantabria.com/resources/acantilados-cabo-ajo.jpg" class="rounded-lg shadow-md" alt="Acantilados Cabo Ajo"></div>
-          <div class="swiper-slide"><img src="https://example.com/imagen2.jpg" class="rounded-lg shadow-md" alt="Vista mar"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_RAIZ_LOCALIDAD. "/ajo/lugares-interes/acantilados-de-cabo-de-ajo/img/acantilados-de-cabo-de-ajo.jpg"?> class="rounded-lg shadow-md" alt="Acantilados Cabo Ajo"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_RAIZ_LOCALIDAD. "/ajo/lugares-interes/acantilados-de-cabo-de-ajo/img/acantilados-de-cabo-de-ajo-2.jpg"?> class="rounded-lg shadow-md" alt="Vista mar"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>

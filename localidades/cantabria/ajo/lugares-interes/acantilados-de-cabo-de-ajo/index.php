@@ -141,6 +141,11 @@
         <li><a href="https://maps.google.com/?q=Acantilados+Cabo+de+Ajo" target="_blank">🗺️ Ver en Google Maps</a></li>
       </ul>
     </section>
+
+      <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+      <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+      <?php //require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in-parte-abajo.php'; ?>
+      <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
   <footer class="bg-emerald-100 mt-12 py-4 text-center text-sm text-emerald-800">

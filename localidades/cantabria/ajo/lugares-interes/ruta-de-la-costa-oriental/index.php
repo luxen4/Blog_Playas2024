@@ -1,43 +1,12 @@
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-localidad.php"; ?>
+<?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
+<?php require PATH_RAIZ ."/localidades/constantes.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES . "/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/head/variables/_meta_tagsa.php"; ?>
 
 <?php $lugar_header   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental-ajo'; ?>
 <?php $tema_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
-<?php $color_page = 'green'; ?>
-
-<?php define('HOY', date('Y-m-d')); ?>
-<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
-
-<?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
-<?php define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
-<?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO',           PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD',      PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head"); ?>
-
-<?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN',    PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
-
-<?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
-
-<?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
-<?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
-
-<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
-<?php define('AUTHOR', "Adrián Laya García"); ?>
-<?php define('EMAIL_AUTHOR', "  ");?>
-
-
-<?php $tema_footer = 'Playas del Cantábrico'; $color_page='orange'; $tema='Ajo'; $lugar_interes='Ajo';?>
-
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
-
-
-<?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
-
-
-
-
-<?php require PATH_RAIZ_LOCALIDADES . "/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/head/variables/_meta_tagsa.php"; ?>
+<?php $color_page = 'green'; 
+$tema='Ajo'; ?>
 
 <?php
 $description_content = 'Explora la Ruta de la Costa Oriental de Ajo, Cantabria: acantilados, playas vírgenes, naturaleza salvaje y vistas al Cantábrico. Ideal para senderistas y amantes del mar.';
@@ -51,36 +20,10 @@ $keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, c
 
 <head>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--<meta name="description" content="Explora la Ruta de la Costa Oriental de Ajo, Cantabria: acantilados, playas vírgenes, naturaleza salvaje y vistas al Cantábrico. Ideal para senderistas y amantes del mar." />
-  <meta name="keywords" content="Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, costa Cantábrica, naturaleza, playas, turismo activo">-->
-  <meta name="author" content="Adrián Laya García">
-  <meta property="og:title" content="Ruta de la Costa Oriental de Ajo - Cantabria">
-  <meta property="og:description" content="Una ruta salvaje entre acantilados, mar y prados verdes, perfecta para desconectar en la naturaleza cántabra.">
-  <meta property="og:image" content="/img/ruta-costa-oriental-ajo.jpg">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tusitio.com/ruta-costa-oriental-ajo">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Ruta de la Costa Oriental de Ajo">
-  <meta name="twitter:description" content="Sendero natural en el litoral cántabro con acantilados, playas y vistas panorámicas.">
-  <meta name="twitter:image" content="/img/ruta-costa-oriental-ajo.jpg">
-
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title>Ruta de la Costa Oriental de Ajo - Cantabria</title>
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-  <!-- Swiper.js -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Leaflet CSS y JS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/ruta-de-la-costa-oriental/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -153,13 +96,10 @@ $keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, c
     </section>
 
 
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-  <?php //require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in-parte-abajo.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
-
-
-
+    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+    <?php //require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in-parte-abajo.php'; ?>
+    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
@@ -178,6 +118,8 @@ $keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, c
       pagination: { el: '.swiper-pagination', clickable: true },
     });
   </script>
+    <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/ruta-de-la-costa-oriental/schemas/schemas-body.php"; ?>
+
 </body>
 
 </html>

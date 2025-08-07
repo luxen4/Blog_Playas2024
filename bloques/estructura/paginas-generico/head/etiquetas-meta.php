@@ -53,7 +53,7 @@
     <meta property="pinterest:title" content="<?= $pinterest_property_card_title_content; ?>">
     <meta property="pinterest:description" content="<?= $pinterest_property_card_description_content; ?>">
     <meta property="pinterest:image" content="<?= $pinterest_property_card_image_content; ?>">
-    <meta property="og:type" content="article" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="<?= $pinterest_property_card_title_content; ?>">
     <meta property="og:description" content="<?= $pinterest_property_card_description_content; ?>">
     <meta property="og:image" content="<?= $pinterest_property_card_image_content; ?>">

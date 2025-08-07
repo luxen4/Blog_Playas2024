@@ -1,3 +1,7 @@
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN',    PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -34,6 +38,7 @@
   </header>
 
   <main class="max-w-5xl mx-auto px-4 py-8">
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
     <section>
       <img src="/img/mirador-cabo-ajo.jpg" alt="Vistas desde el Mirador del Cabo de Ajo" class="w-full rounded-lg shadow-md mb-6">
       <h2 class="text-2xl font-semibold text-blue-700 mb-3">Un lugar único sobre el mar Cantábrico</h2>

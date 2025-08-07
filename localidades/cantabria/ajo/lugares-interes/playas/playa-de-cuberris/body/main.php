@@ -1,4 +1,5 @@
 <main>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <h1 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">
     🏖️ Playa de Cuberris:
     <span class="block mt-1 text-base md:text-lg text-blue-500 font-normal">

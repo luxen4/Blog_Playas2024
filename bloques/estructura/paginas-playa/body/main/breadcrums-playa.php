@@ -1,27 +1,49 @@
-<nav aria-label="Breadcrumb">
-    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/Blog_Playas2025/index.php">
-                <span itemprop="name">Inicio</span>
-            </a>
-            <meta itemprop="position" content="1" />
-        </li>
+<?php $carpeta=''?>
+<?php
+if (!defined('PATH_HREF_RAIZ_LOCALIDAD')) {
+    define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}");
+}
+?>
 
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/Blog_Playas2025/index.php#<?= $region; ?>">
-                <span itemprop="name"><?= $region; ?></span>
-            </a>
-            <meta itemprop="position" content="2" />
-        </li>
+<?php
+if (!defined('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES')) {
+    define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES', PATH_HREF_RAIZ_LOCALIDAD . "/lugares-interes");
+}
+?>
 
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php">
-                <span itemprop="name"><?= $localidad; ?></span>
-            </a>
-            <meta itemprop="position" content="3" />
-        </li>
-    </ol>
+<nav aria-label="Breadcrumb" class="my-4">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="flex flex-wrap space-x-1 text-base font-semibold text-gray-700">
+    
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
+      <a itemprop="item" href="/Blog_Playas2025/index.php" class="hover:underline hover:text-blue-600">
+        <span itemprop="name">Inicio</span>
+      </a>
+      <meta itemprop="position" content="1" />
+      <svg class="w-4 h-4 mx-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L11.586 9 7.293 4.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
+    </li>
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
+      <a itemprop="item" href="/Blog_Playas2025/index.php#<?= $region; ?>" class="hover:underline hover:text-blue-600">
+        <span itemprop="name"><?= $region; ?></span>
+      </a>
+      <meta itemprop="position" content="2" />
+      <svg class="w-4 h-4 mx-2 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L11.586 9 7.293 4.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
+    </li>
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
+      <a itemprop="item" href="/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php" class="hover:underline hover:text-blue-600">
+        <span itemprop="name"><?= $localidad; ?></span>
+      </a>
+      <meta itemprop="position" content="3" />
+    </li>
+
+  </ol>
 </nav>
+
 
 <style>
     .breadcrumb {
@@ -65,13 +87,13 @@ function generarNavSecundaria($items = []) {
 }
 ?>
 
-<?= generarNavSecundaria([
+<?php /*=  generarNavSecundaria([
     ['slug' => 'restaurantes/index.php', 'texto' => 'Restaurantes', 'icono' => '🍽️'],
     ['slug' => 'alojamientos/index.php', 'texto' => 'Alojamientos', 'icono' => '🏨'],
     ['slug' => 'rutas-costeras/index.php', 'texto' => 'Rutas', 'icono' => '🥾'],
     ['slug' => 'eventos/index.php', 'texto' => 'Eventos', 'icono' => '🎉'],
     ['slug' => 'blog/index.php', 'texto' => 'Blog', 'icono' => '📰']
-]) ?>
+]) */ ?>
 
 
 

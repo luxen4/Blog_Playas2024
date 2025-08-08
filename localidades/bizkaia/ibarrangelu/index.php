@@ -50,9 +50,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Descubre Ibarrangelu, un pintoresco municipio de Bizkaia con impresionantes paisajes naturales, playas vírgenes y rica cultura vasca.';
 $keywords_content = 'Ibarrangelu, Bizkaia, turismo Bizkaia, playas Bizkaia, naturaleza Euskadi, cultura vasca';
 
-$tema_footer = 'Ibarrangelu, Bizkaia'; 
+$lugar_interes_footer = 'Ibarrangelu, Bizkaia'; 
 $color_page='blue'; 
-$tema='Ibarrangelu'; 
+$lugar_interes='Ibarrangelu'; 
 $lugar_interes='Ibarrangelu';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

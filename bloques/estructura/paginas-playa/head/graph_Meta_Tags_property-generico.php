@@ -2,14 +2,14 @@
 $graph_Meta_Tags_property_type         = WEB_PAGE;
 $graph_Meta_Tags_property_site_name    = NAME_BLOG;
 $graph_Meta_Tags_property_locale       = IDIOMA_LOCAL;
-$graph_Meta_Tags_property_image_alt    = $lugar_header.' en '.$localidad.', '.$region;
+$graph_Meta_Tags_property_image_alt    = $lugar.' en '.$localidad.', '.$region;
 $graph_Meta_Tags_property_image_width  = '1200';
 $graph_Meta_Tags_property_image_height = '630';
 $graph_Meta_Tags_property_author       = AUTHOR;
 $graph_Meta_Tags_property_updated_timeEEEEEEE = date('c');
 $graph_Meta_Tags_property_published_time = HOY; // Ajusta según la fecha real
 $graph_Meta_Tags_property_section      = TURISMO_PLAYAS;
-$graph_Meta_Tags_property_tag          = $lugar_header;
+$graph_Meta_Tags_property_tag          = $lugar;
 $graph_Meta_Tags_property_tag2         = 'Playas del Cantabrico';
 $graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
 ?>

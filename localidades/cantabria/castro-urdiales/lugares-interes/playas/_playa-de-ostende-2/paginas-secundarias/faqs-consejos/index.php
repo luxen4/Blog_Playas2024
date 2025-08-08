@@ -1,2 +1,2 @@
-<?php $title='Faqs-Consejos'; $tema='faqs-consejos'; $color_page = 'orange'; ?>
+<?php $title='Faqs-Consejos'; $lugar_interes='faqs-consejos'; $color_page = 'orange'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/playa-de-ostende/paginas-secundarias/previo.php"; ?>

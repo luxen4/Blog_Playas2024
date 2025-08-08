@@ -56,9 +56,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Découvrez Saint-Jean-de-Luz, charmante ville côtière de la Nouvelle-Aquitaine, célèbre pour ses plages, son patrimoine basque et son ambiance accueillante.';
 $keywords_content = 'Saint-Jean-de-Luz, Nouvelle Aquitaine, tourisme France, plages, patrimoine basque, côte basque';
 
-$tema_footer = 'Saint-Jean-de-Luz, Nouvelle Aquitaine'; 
+$lugar_interes_footer = 'Saint-Jean-de-Luz, Nouvelle Aquitaine'; 
 $color_page='blue'; 
-$tema='Saint-Jean-de-Luz'; 
+$lugar_interes='Saint-Jean-de-Luz'; 
 $lugar_interes='Saint-Jean-de-Luz';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

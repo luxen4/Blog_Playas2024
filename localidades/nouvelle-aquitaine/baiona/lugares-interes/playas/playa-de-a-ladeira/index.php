@@ -12,13 +12,13 @@
   $description_content = 'Descubre la Playa de A Ladeira en Baiona, Nouvelle-Aquitaine, Francia: una playa tranquila ideal para familias, baños y paseos en un entorno natural del País Vasco francés.';
   $keywords_content    = 'A Ladeira, Baiona, playas Baiona, surf Francia, costa atlántica, turismo Baiona, playa natural, Nouvelle-Aquitaine';
 
-  $lugar_header   = 'Playa de A Ladeira'; 
+  $lugar   = 'Playa de A Ladeira'; 
   $lugar_interes  = 'playa-de-a-ladeira';
-  $tema           = $lugar_interes;
-  $title          = $lugar_header . ' - ' . $localidad . ', ' . $region;
-  $rutas          = $tema . '-' . $localidad_minuscula . '-' . $region_minuscula;
+  $lugar_interes           = $lugar_interes;
+  $title          = $lugar . ' - ' . $localidad . ', ' . $region;
+  $rutas          = $lugar_interes . '-' . $localidad_minuscula . '-' . $region_minuscula;
   $color_page     = 'sky';  // Para que combine con la región atlántica
-  $tema_footer    = '- ' . $lugar_header . ' -'; 
+  $lugar_interes_footer    = '- ' . $lugar . ' -'; 
 
   // Incluimos variables genéricas comunes
   require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php";

@@ -49,9 +49,9 @@ $keywords_content = 'Santoña Cantabria, playa de Berria, Monte Buciero, marisma
 ?>
 
 <?php 
-$tema_footer = 'Santoña, Cantabria'; 
+$lugar_interes_footer = 'Santoña, Cantabria'; 
 $color_page='blue'; 
-$tema='Santoña'; 
+$lugar_interes='Santoña'; 
 $lugar_interes='Santoña';
 ?>
 

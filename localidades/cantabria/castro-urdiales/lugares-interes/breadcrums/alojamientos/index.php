@@ -4,7 +4,7 @@
 
 
 
-<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $localidad_minuscula = "Castro-Urdiales"; $tema='alojamientos';?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales';  $localidad_minuscula = "Castro-Urdiales"; $lugar_interes='alojamientos';?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/ocio/pages/previo.php"; ?>
 
 

@@ -2,14 +2,16 @@
   $title = 'Playas del Cantabrico'; $lugar_interes= 'playas-cantabrico';
   $region_minuscula = 'cantabria';
   $carpeta = '';
-  $tema_footer = 'Playas del Cantábrico';
-  $tema = $tema_footer;
+  $lugar_interes_footer = 'Playas del Cantábrico';
+  $lugar_interes = $lugar_interes_footer;
   $color_page = 'orange';
 
   $localidad_minuscula='';
 
   $author_content = 'Adrián Laya García'; 
 ?>
+<?php define('TITLE', "Turismo y Playas 2025 – Guía Costera por el Cantábrico}"); ?>
+<?php define('DESCRIPTION', "Recorre la Ruta de la Costa Oriental en Ajo: senderos naturales, acantilados, faros y vistas panorámicas del Cantábrico en una experiencia inolvidable."); ?>
 
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>

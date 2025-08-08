@@ -1,6 +1,6 @@
 
 <?php $localidad = 'Ajo'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
-$lugar_header='Ruta de la Costa Oriental';
+$lugar='Ruta de la Costa Oriental';
 ?>
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
 
@@ -49,7 +49,7 @@ $description_content = 'Descubre la Ruta de la Costa Oriental de Ajo en Cantabri
 $keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, Faro de Ajo, rutas costeras, naturaleza Cantabria, turismo Ajo, rutas a pie Cantabria';
 ?>
 
-<?php $tema_footer = 'Ajo, Cantabria'; $color_page='orange'; $tema='Ajo'; $lugar_interes='Ajo';?>
+<?php $lugar_interes_footer = 'Ajo, Cantabria'; $color_page='orange'; $lugar_interes='Ajo'; $lugar_interes='Ajo';?>
 
 
 

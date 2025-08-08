@@ -3,7 +3,7 @@
 <?php $lugar_interes = 'castro-urdiales';
 $localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); $carpeta = $localidad_minuscula;
 $region = 'Cantabria'; $region_minuscula = strtolower($region); $country= 'España';
-$tema = 'Información Castro-Urdiales';
+$lugar_interes = 'Información Castro-Urdiales';
 $title = 'Castro Urdiales – Guía Turística y Playas';
 
 //$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
@@ -12,7 +12,7 @@ $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales,
 
 $rutas = 'cantabria';
 $color_page = 'blue';
-$tema_footer = '- Castro-Urdiales Turismo -'; 
+$lugar_interes_footer = '- Castro-Urdiales Turismo -'; 
 ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>

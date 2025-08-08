@@ -2,11 +2,11 @@
   $title = 'Playas del Cantabrico'; $lugar_interes= 'playas-cantabrico';
   $region_minuscula = 'cantabria';
   $carpeta = '';
-  $tema_footer = 'Playas del Cantábrico';
-  $tema = $tema_footer;
+  $lugar_interes_footer = 'Playas del Cantábrico';
+  $lugar_interes = $lugar_interes_footer;
   $color_page = 'orange';
 
-  $localidad_minuscula='santona'; $carpeta='santona'; $tema='actividades-playa-deberria'; $lugar_interes='playa-de berria';
+  $localidad_minuscula='santona'; $carpeta='santona'; $lugar_interes='actividades-playa-deberria'; $lugar_interes='playa-de berria';
 
   $author_content = 'Adrián Laya García'; 
 ?>

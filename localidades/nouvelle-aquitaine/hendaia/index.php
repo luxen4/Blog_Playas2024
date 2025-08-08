@@ -56,9 +56,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Découvrez Hendaye, charmante ville frontalière sur la côte basque française, célèbre pour sa grande plage, son port et sa proximité avec l’Espagne.';
 $keywords_content = 'Hendaye, Nouvelle Aquitaine, tourisme France, plage, côte basque, frontière Espagne';
 
-$tema_footer = 'Hendaye, Nouvelle Aquitaine'; 
+$lugar_interes_footer = 'Hendaye, Nouvelle Aquitaine'; 
 $color_page='blue'; 
-$tema='Hendaye'; 
+$lugar_interes='Hendaye'; 
 $lugar_interes='Hendaye';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

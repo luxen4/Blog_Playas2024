@@ -22,7 +22,7 @@
 
 
 
-<?php $tema_footer='Faro de Cabo de Ajo'; $color_page='orange'; $carpeta= 'faro-de-cabo-de-ajo'; ?>
+<?php $lugar_interes_footer='Faro de Cabo de Ajo'; $color_page='orange'; $carpeta= 'faro-de-cabo-de-ajo'; ?>
 <?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>

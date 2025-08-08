@@ -50,9 +50,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Descubre Plentzia, un encantador municipio costero de Bizkaia con playas amplias, naturaleza y actividades para toda la familia.';
 $keywords_content = 'Plentzia, Bizkaia, playa Plentzia, turismo Bizkaia, naturaleza Euskadi, costa vasca';
 
-$tema_footer = 'Plentzia, Bizkaia'; 
+$lugar_interes_footer = 'Plentzia, Bizkaia'; 
 $color_page='blue'; 
-$tema='Plentzia'; 
+$lugar_interes='Plentzia'; 
 $lugar_interes='Plentzia';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

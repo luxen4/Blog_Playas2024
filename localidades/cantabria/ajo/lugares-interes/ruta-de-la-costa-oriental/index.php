@@ -1,4 +1,4 @@
-<?php $lugar_header   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental'; ?>
+<?php $lugar   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental'; ?>
 
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-localidad.php"; ?>
 <?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
@@ -22,14 +22,16 @@
 <?php define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/'); ?>
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
 
+<?php require PATH_RAIZ ."/localidades/cantabria/ajo/constfantes-generico.php"; ?>
+
 
 <?php require PATH_RAIZ ."/localidades/constantes.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES . "/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/head/variables/_meta_tagsa.php"; ?>
 
 
-<?php $tema_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
+<?php $lugar_interes_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
 <?php $color_page = 'green'; 
-$tema='Ajo'; ?>
+$lugar_interes='Ajo'; ?>
 
 <?php
 $description_content = 'Explora la Ruta de la Costa Oriental de Ajo, Cantabria: acantilados, playas vírgenes, naturaleza salvaje y vistas al Cantábrico. Ideal para senderistas y amantes del mar.';

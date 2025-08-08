@@ -56,9 +56,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Découvrez Baiona (Bayonne), ville historique de la Nouvelle-Aquitaine, célèbre pour son architecture basque, ses festivals et sa proximité avec l\'océan Atlantique.';
 $keywords_content = 'Baiona, Bayonne, Nouvelle Aquitaine, tourisme France, patrimoine basque, festivals, côte basque';
 
-$tema_footer = 'Baiona, Nouvelle Aquitaine'; 
+$lugar_interes_footer = 'Baiona, Nouvelle Aquitaine'; 
 $color_page='blue'; 
-$tema='Baiona'; 
+$lugar_interes='Baiona'; 
 $lugar_interes='Baiona';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

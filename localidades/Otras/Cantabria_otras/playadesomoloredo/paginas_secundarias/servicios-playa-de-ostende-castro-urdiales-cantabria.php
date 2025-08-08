@@ -1,4 +1,4 @@
-<?php $region_minuscula='cantabria'; $carpeta='playa-de-ostende'; $tema='servicios'; $title='Servicios'; ?>
+<?php $region_minuscula='cantabria'; $carpeta='playa-de-ostende'; $lugar_interes='servicios'; $title='Servicios'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS. '/html-generico.php'; ?>
 
@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Servicios en la Playa de Ostende – Castro-Urdiales</title>
 
-  <?php $region_minuscula = 'cantabria'; $carpeta = 'playadeostende'; $tema='servicios';?>
+  <?php $region_minuscula = 'cantabria'; $carpeta = 'playadeostende'; $lugar_interes='servicios';?>
   <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
   <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/head_generico.php";?> 
 

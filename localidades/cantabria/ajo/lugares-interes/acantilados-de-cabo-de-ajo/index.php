@@ -1,7 +1,7 @@
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-localidad.php"; ?>
 
-<?php $lugar_header   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental-ajo'; ?>
-<?php $tema_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
+<?php $lugar   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental-ajo'; ?>
+<?php $lugar_interes_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
 <?php $color_page = 'green'; ?>
 
 <?php define('HOY', date('Y-m-d')); ?>
@@ -27,7 +27,7 @@
 <?php define('EMAIL_AUTHOR', "  ");?>
 
 
-<?php $tema_footer = 'Playas del Cantábrico'; $color_page='orange'; $tema='Ajo'; $lugar_interes='Ajo';?>
+<?php $lugar_interes_footer = 'Playas del Cantábrico'; $color_page='orange'; $lugar_interes='Ajo'; $lugar_interes='Ajo';?>
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
 

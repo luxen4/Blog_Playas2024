@@ -1,7 +1,7 @@
 <?php
 // schemas-body.php para Puerto de Castro Urdiales
 
-$lugar = $lugar_header ?? 'Puerto de Castro Urdiales';
+$lugar = $lugar ?? 'Puerto de Castro Urdiales';
 $description = $description_content ?? 'Disfruta del Puerto de Castro Urdiales, un punto clave para la pesca, la navegación y la gastronomía local en Cantabria.';
 $url = "https://www.turismocastrourdiales.net/{$rutas}";
 $image1 = PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG . "/puerto-castro-urdiales-2.jpg";

@@ -50,9 +50,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Descubre Sopelana, un vibrante municipio costero de Bizkaia conocido por sus playas ideales para el surf, naturaleza y ambiente joven y activo.';
 $keywords_content = 'Sopelana, Bizkaia, municipio, turismo Bizkaia, playas surf Bizkaia, naturaleza Euskadi';
 
-$tema_footer = 'Sopelana, Bizkaia'; 
+$lugar_interes_footer = 'Sopelana, Bizkaia'; 
 $color_page='blue'; 
-$tema='Sopelana'; 
+$lugar_interes='Sopelana'; 
 $lugar_interes='Sopelana';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

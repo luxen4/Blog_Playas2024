@@ -3,7 +3,7 @@ $region = "Cantabria"; $region_minuscula = strtolower($region);
 $carpeta = 'castro-urdiales'; $carpeta_lugar = 'senderos-costeros-rutas-oficiales'; $nombre_sub_carpeta = 'lugares-interes';
 $color_page='green';
 $title_head = 'Senderos Costeros y Rutas Oficiales en Castro-Urdiales';  
-$tema_footer='Senderos Costeros y Rutas Oficiales - Castro-Urdiales'; ?>
+$lugar_interes_footer='Senderos Costeros y Rutas Oficiales - Castro-Urdiales'; ?>
 
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/{$nombre_sub_carpeta}/previo.php"; ?>
 

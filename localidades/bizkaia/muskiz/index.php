@@ -50,9 +50,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Descubre Muskiz, un municipio industrial y natural en Bizkaia, con historia minera, espacios verdes y su costa en el País Vasco.';
 $keywords_content = 'Muskiz, Bizkaia, municipio, turismo Bizkaia, naturaleza Euskadi, historia minera';
 
-$tema_footer = 'Muskiz, Bizkaia'; 
+$lugar_interes_footer = 'Muskiz, Bizkaia'; 
 $color_page='blue'; 
-$tema='Muskiz'; 
+$lugar_interes='Muskiz'; 
 $lugar_interes='Muskiz';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

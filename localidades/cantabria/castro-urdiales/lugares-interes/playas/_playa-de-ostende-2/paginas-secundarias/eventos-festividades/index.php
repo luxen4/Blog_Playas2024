@@ -1,2 +1,2 @@
-<?php $title='Eventos y Festividades'; $tema='eventos-festividades'; $color_page = 'orange'; ?>
+<?php $title='Eventos y Festividades'; $lugar_interes='eventos-festividades'; $color_page = 'orange'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/playa-de-ostende/paginas-secundarias/previo.php"; ?>

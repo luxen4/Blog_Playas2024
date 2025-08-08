@@ -1,2 +1,2 @@
-<?php $title='Actividades Recomendadas en la Playa de Ostende'; $tema='actividades-recomendadas'; $color_page = 'orange'; ?>
+<?php $title='Actividades Recomendadas en la Playa de Ostende'; $lugar_interes='actividades-recomendadas'; $color_page = 'orange'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/playa-de-ostende/paginas-secundarias/previo.php"; ?>

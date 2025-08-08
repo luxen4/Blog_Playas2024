@@ -50,9 +50,9 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Descubre Gorliz, un encantador municipio de Bizkaia con rica historia, naturaleza exuberante y un ambiente tranquilo en la costa vasca.';
 $keywords_content = 'Gorliz, Bizkaia, municipio, turismo Bizkaia, naturaleza Euskadi, cultura vasca';
 
-$tema_footer = 'Gorliz, Bizkaia'; 
+$lugar_interes_footer = 'Gorliz, Bizkaia'; 
 $color_page='blue'; 
-$tema='Gorliz'; 
+$lugar_interes='Gorliz'; 
 $lugar_interes='Gorliz';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");

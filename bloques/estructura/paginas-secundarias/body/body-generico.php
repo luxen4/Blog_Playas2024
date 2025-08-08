@@ -7,7 +7,7 @@
     <section class="w-full md:w-3/4">
       <?php 
       // Carga de contenido principal
-      // require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS."/{$tema}.php"; 
+      // require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS."/{$lugar_interes}.php"; 
       require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_TEMA . "/section.php"; 
       ?>
 

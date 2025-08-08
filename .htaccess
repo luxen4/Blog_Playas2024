@@ -112,11 +112,19 @@
 
 
     # Sopelana
+    RewriteRule ^sopelana-bizkaia$ localidades/bizkaia/sopelana/index.php [L]
+    
+
     RewriteRule ^playa-de-arrietara$ localidades/bizkaia/sopelana/lugares-interes/playas/playa-de-arrietara/index.php [L] 
 
     # Plentzia
+    RewriteRule ^plentzia-bizkaia$ localidades/bizkaia/plentzia/index.php [L]
+
+
     RewriteRule ^playa-de-plentzia$ localidades/bizkaia/plentzia/lugares-interes/playas/playa-de-plentzia/index.php [L]
     # RewriteRule ^playa-de-gorliz$ localidades/bizkaia/plentzia/lugares-interes/playas/playa-de-gorliz/index.php [L]
+
+
 
     # Plentzia
     RewriteRule ^playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/playa-de-plentzia-vizcaya.php [L]
@@ -156,19 +164,9 @@
     ### Nouvelle Aquitaine ###
 
     # Saint Jean de Luz
+    RewriteRule ^saint-jean-de-luz-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/saint-jean-de-luz/index.php [L]
     RewriteRule ^playa-de-la-grande-plage-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/playas/playa-de-la-grande-plage-saint-jean-de-luz/index.php [L]
-
-    # Biarritz
-    RewriteRule ^playa-de-la-grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
-
-    # Capbreton
-    RewriteRule ^playa-de-la-plage-centrale-capbreton$ localidades/nouvelle-aquitaine/capbreton/lugares-interes/playas/playa-de-la-plage-centrale-capbreton/index.php [L]
-
-    # Hendaia
-    RewriteRule ^playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playas/playa-de-ondarraitz-hendaia/index.php [L]
-
-
-
+    
     RewriteRule ^playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz-francia.php [L]
     RewriteRule ^actividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-saint-jean-de-luz-francia.php [L]
     RewriteRule ^como-llegar-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/como-llegar-playa-de-saint-jean-de-luz-francia.php [L]
@@ -177,7 +175,10 @@
     RewriteRule ^preguntas-frecuentes-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/preguntas-frecuentes-playa-de-saint-jean-de-luz-francia.php [L]
 
 
-
+    # Biarritz
+    RewriteRule ^biarritz-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/biarritz/index.php [L]
+    RewriteRule ^playa-de-la-grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
+    
     RewriteRule ^playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/playa-de-biarritz-francia.php [L]
     RewriteRule ^actividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/actividades-playa-de-biarritz-francia.php [L]
     RewriteRule ^como-llegar-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/como-llegar-playa-de-biarritz-francia.php [L]
@@ -186,9 +187,13 @@
     RewriteRule ^preguntas-frecuentes-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/preguntas-frecuentes-playa-de-biarritz-francia.php [L]
 
 
+    # Capbreton
+    RewriteRule ^capbreton-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/capbreton/index.php [L]
+    RewriteRule ^playa-de-la-plage-centrale-capbreton$ localidades/nouvelle-aquitaine/capbreton/lugares-interes/playas/playa-de-la-plage-centrale-capbreton/index.php [L]
 
-
-
+    # Hendaia
+    RewriteRule ^hendaia-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/hendaia/index.php [L]
+    RewriteRule ^playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playas/playa-de-ondarraitz-hendaia/index.php [L]
 
 
 

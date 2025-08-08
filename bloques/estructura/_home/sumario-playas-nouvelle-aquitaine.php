@@ -29,7 +29,7 @@ $carpeta = strtolower(str_replace(' ', '-', $carpeta));
 
 
 <?php $localidad = 'Saint Jean de Luz'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Grande Plage'; $carpeta = 'playa-de-la-grande-plage-saint-jean-de-luz'; $archivo_name = 'grande-plage-saint-jean-de-luz';
@@ -41,7 +41,7 @@ $presentacion = '🏖️ La Grande Plage de Saint-Jean-de-Luz, situada en el cor
 
 
 <?php $localidad = 'Biarritz'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 
 
@@ -55,7 +55,7 @@ $presentacion = '🌊 La Grande Plage en Biarritz es la playa más emblemática 
 
 
 <?php $localidad = 'Capbreton'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Plage Centrale'; $carpeta = 'playa-de-la-plage-centrale-capbreton'; $archivo_name = 'playa-de-la-plage-centrale-capbreton';
@@ -65,7 +65,7 @@ $presentacion = '🏄 La Plage Centrale en Capbreton es una playa urbana muy pop
 
 
 <?php $localidad = 'Hendaia'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Playa de Ondarraitz'; $carpeta = 'playa-de-ondarraitz-hendaia'; $archivo_name = 'playa-de-ondarraitz-hendaia';

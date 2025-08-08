@@ -100,7 +100,7 @@
   <?php // require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
-  <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
+  <?php //require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
   <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>
   <?php require PATH_RAIZ_BLOQUES . "/control/control-visitas.php"; ?>
 
@@ -134,4 +134,14 @@ https://chatgpt.com/?model=auto
 
 
 */    
+?>
+
+
+<?php /* Para amigables URLs
+    if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
+        href="<?= PATH_HREF_RAIZ.'/'.$localidad_minuscula.'-'.$region_minuscula ?>"<?php
+    } else { ?>
+        href= <?= PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD ."/index.php"; }?>
+        class="hover:text-<?= $color_page; ?>-600 transition-colors duration-200">
+    <?= $localidad; */ 
 ?>

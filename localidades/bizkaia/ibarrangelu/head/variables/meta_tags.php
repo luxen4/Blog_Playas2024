@@ -1,4 +1,4 @@
-<?php
+<?php 
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si tienes otro valor
 
 // Variables de configuración para Pinterest – Laga
@@ -35,3 +35,5 @@ $graph_Meta_Tags_property_tag          = 'Laga';
 $graph_Meta_Tags_property_tag2         = 'Playas Bizkaia';
 $graph_Meta_Tags_property_tag3         = 'Surf en Euskadi';
 ?>
+
+

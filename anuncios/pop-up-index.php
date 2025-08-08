@@ -1,4 +1,8 @@
-<?php define('PATH_RAIZ_ANUNCIOS',  PATH_RAIZ. '/anuncios'); ?>
+
+<?php if (!defined('PATH_RAIZ_ANUNCIOS')) {
+    define('PATH_RAIZ_ANUNCIOS', PATH_RAIZ. '/anuncios'); 
+}
+?>
 
 
 <?php if (!defined('PATH_RAIZ_LOCALIDADES')) {
@@ -27,11 +31,24 @@ if (!defined('PATH_RAIZ_BLOQUES_ESTRUCTURA')) {
 }
 ?>
 
+<?php
+if (!defined('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN')) {
+    define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN', PATH_RAIZ_LOCALIDADES. "/_estructura/body/main");
+}
+?>
 
-<?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
+<?php
+if (!defined('PATH_BLOQUES_SECTIONS_GENERICO')) {
+    define('PATH_BLOQUES_SECTIONS_GENERICO', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico');
+}
+?>
 
-<?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
-<?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
+
+<?php
+if (!defined('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV')) {
+    define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV', PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV');
+}
+?>
 
 
 <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>

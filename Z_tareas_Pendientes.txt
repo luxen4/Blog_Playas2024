@@ -1,6 +1,8 @@
 Tareas Pendientes
     Cantabria
         -Ajo-
+            Objetivo: Navegabilidad desde el home hasta los lugares-interes. Ajo con enlace directo
+
             -Index:
                 -Ruta amigable
                 -Entrada desde la Web-Playa OK

@@ -14,8 +14,6 @@ function render_playa_card($playa_name, $presentacion, $region_minuscula, $local
 ?>
 
 
-
-
 <?php $targeta = PATH_RAIZ_LOCALIDADES.'/index.php';?>
 <?php $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
 
@@ -25,9 +23,8 @@ function render_playa_card($playa_name, $presentacion, $region_minuscula, $local
 
 
 <?php $localidad = 'Bakio'; $localidad_minuscula = strtolower($localidad);?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
-
-<h3 id="<?= $localidad_minuscula; ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
 
 <?php
 $playa_name = 'Playa de Bakio'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'bakio-bakio';
@@ -40,8 +37,8 @@ Es un punto ideal para quienes buscan una combinación de naturaleza, ocio y dep
 
 
 
-<?php $localidad = 'Gorliz'; ?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php $localidad = 'Gorliz'; $localidad_minuscula = strtolower($localidad);?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Playa de Astondo'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'astondo-gorliz';
@@ -51,8 +48,8 @@ $presentacion = '🌿 La Playa de Astondoko, es una playa natural situada junto 
 
 
 
-<?php $localidad = 'Ibarrangelu'; ?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php $localidad = 'Ibarrangelu'; $localidad_minuscula = strtolower($localidad);?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Playa de Laga'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'laga-ibarrangelu';
@@ -61,8 +58,8 @@ $presentacion = 'La Playa de Laya, ubicada en Ibarrangelu, Bizkaia, es una playa
 <?php render_playa_card($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name);?>
 
 
-<?php $localidad = 'Muskiz'; ?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php $localidad = 'Muskiz'; $localidad_minuscula = strtolower($localidad);?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Playa de La Arena'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'la-arena-muskiz';
@@ -71,8 +68,8 @@ $presentacion = 'La Playa de La Arena, situada entre Muskiz (bizkaia) y el lími
 <?php render_playa_card($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name);?>
 
 
-<?php $localidad = 'Sopelana';?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php $localidad = 'Sopelana'; $localidad_minuscula = strtolower($localidad);?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Playa de Arrietara'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'arrietara-sopelana';
@@ -81,8 +78,8 @@ $presentacion = 'La Playa de Arrietara, situada en Sopelana (Bizkaia), es una pl
 <?php render_playa_card($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name);?>
 
 
-<?php $localidad = 'Plentzia';?>
-<h3 id="<?= strtolower($localidad); ?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php $localidad = 'Plentzia'; $localidad_minuscula = strtolower($localidad);?>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 
 <?php

@@ -30,10 +30,17 @@
     RewriteRule ^ruta-costera-ostende$         localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
 
-
-
+    # Castro-Urdiales
+    RewriteRule ^castro-urdiales-cantabria$     localidades/cantabria/castro-urdiales/index.php [L]
+    
 
     # Sonabia
+    RewriteRule ^sonabia-cantabria$     localidades/cantabria/sonabia/index.php [L]
+    
+    # Santoña
+    RewriteRule ^santona-cantabria$ localidades/cantabria/santona/index.php [L]
+
+
     RewriteRule ^playa-de-sonabia$ localidades/cantabria/sonabia/lugares-interes/playas/playa-de-sonabia/index.php [L]
 
     # Berria
@@ -51,8 +58,11 @@
 
 
 
-    ### VIZCAYA ###
+    ### Bizkaia ###
     # Bakio
+    RewriteRule ^bakio-bizkaia$ localidades/bizkaia/bakio/index.php [L]
+
+
     RewriteRule ^playa-de-bakio$ localidades/bizkaia/bakio/lugares-interes/playas/playa-de-bakio/index.php [L]
 
     #Bakio
@@ -64,12 +74,32 @@
     RewriteRule ^preguntas-frecuentes-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/preguntas-frecuentes-playa-de-bakio-vizcaya.php [L]
 
 
+    # Gorliz
+    RewriteRule ^gorliz-bizkaia$ localidades/bizkaia/gorliz/index.php [L]
+
+    # Playa de Gorliz
+    RewriteRule ^playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/actividades-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/como-llegar-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/servicios-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/eventos-festividades-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/preguntas-frecuentes-playa-de-gorliz-vizcaya.php [L]
+
+    
+    #Ibarrangelu
+    RewriteRule ^ibarrangelu-bizkaia$ localidades/bizkaia/ibarrangelu/index.php [L]
+    # Playa de Laga
+    RewriteRule ^playa-de-laga$ localidades/bizkaia/ibarrangelu/lugares-interes/playas/playa-de-laga/index.php [L]
+
+    # Muskiz
+    RewriteRule ^muskiz-bizkaia$ localidades/bizkaia/muskiz/index.php [L]
+
+    RewriteRule ^playa-de-la-arena$ localidades/bizkaia/muskiz/lugares-interes/playas/playa-de-la-arena/index.php [L]
+
 
     # Astondo
     RewriteRule ^playa-de-astondo$ localidades/bizkaia/gorliz/lugares-interes/playas/playa-de-astondo/index.php [L]
 
-    # Laga
-    RewriteRule ^playa-de-laga$ localidades/bizkaia/ibarrangelu/lugares-interes/playas/playa-de-laga/index.php [L]
 
     RewriteRule ^playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/playa-de-laga-vizcaya.php [L]
     RewriteRule ^actividades-playa-de-laga-vizcaya$ localidades/laga/playadelaga/fichas/actividades-playa-de-laga-vizcaya.php [L]
@@ -80,8 +110,6 @@
 
 
 
-    # Muskiz
-    RewriteRule ^playa-de-la-arena$ localidades/bizkaia/muskiz/lugares-interes/playas/playa-de-la-arena/index.php [L]
 
     # Sopelana
     RewriteRule ^playa-de-arrietara$ localidades/bizkaia/sopelana/lugares-interes/playas/playa-de-arrietara/index.php [L] 
@@ -100,14 +128,6 @@
 
 
 
-
-    # Playa de Gorliz
-    RewriteRule ^playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^actividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/actividades-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^como-llegar-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/como-llegar-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^servicios-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/servicios-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^eventos-festividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/eventos-festividades-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/preguntas-frecuentes-playa-de-gorliz-vizcaya.php [L]
 
 
 

@@ -5,9 +5,9 @@
 <?php $region = 'Cantabria'; $region_minuscula = strtolower($region);?>
 <h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6"><?= $region; ?></h2>
 
-
 <?php $localidad = 'Ajo';    $localidad_minuscula = strtolower($localidad);?>
-<h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
+
 
 <div class="container my-4">
   <div class="row">
@@ -47,19 +47,21 @@
 
 
 <?php $localidad = 'Castro-Urdiales';    $localidad_minuscula = strtolower($localidad);?>
-<h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
+
 
 <?php
 $playa_name = 'Playa de Ostende'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'ostende-castro-urdiales';
 $presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
 ?>
+
 <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
 
 
 
 <?php $localidad = 'Sonabia';    $localidad_minuscula = strtolower($localidad);?>
-<h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Playa de Sonabia'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'sonabia-sonabia';
@@ -72,10 +74,7 @@ $presentacion = 'La Playa de Sonabia, situada en el extremo oriental de Cantabri
 
 
 <?php $localidad = 'Santoña';    $localidad_minuscula = 'santona';?>
-<h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
-
-
-
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
 $playa_name = 'Playa de Berria'; $carpeta = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'berria-santona';
@@ -83,8 +82,6 @@ $presentacion = '🌊 La Playa de Berria, ubicada en Santoña (Cantabria), es un
 ?>
 <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}";?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
-
-
 
 
 

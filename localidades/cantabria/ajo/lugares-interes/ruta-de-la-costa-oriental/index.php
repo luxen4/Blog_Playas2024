@@ -1,9 +1,32 @@
+<?php $lugar_header   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental'; ?>
+
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-localidad.php"; ?>
 <?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
+<?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES . '/estructura'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD',         PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/head'); ?>
+
+
+<?php define('SUMARY_LARGE_IMAGE', 'sumary_large_image'); ?>
+<?php define('CARD_SITE', '@laya_garcia'); ?>
+
+
+<?php //define('NAME_BLOG', "Blog Playas Cantábrico"); ?>
+<?php //define('AUTHOR', "Adrián Laya García"); ?>
+<?php //define('EMAIL_AUTHOR', "superlaya50@gmail.com");?>
+<?php //define('HOY', date('Y-m-d')); ?>
+<?php define('WEB_PAGE', "website"); ?>
+<?php define('IDIOMA_LOCAL', 'es_ES'); ?>
+<?php define('TURISMO_PLAYAS', 'Turismo y Playas'); ?>
+
+<?php define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/'); ?>
+<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
+
+
 <?php require PATH_RAIZ ."/localidades/constantes.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES . "/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/head/variables/_meta_tagsa.php"; ?>
 
-<?php $lugar_header   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental-ajo'; ?>
+
 <?php $tema_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
 <?php $color_page = 'green'; 
 $tema='Ajo'; ?>
@@ -12,6 +35,8 @@ $tema='Ajo'; ?>
 $description_content = 'Explora la Ruta de la Costa Oriental de Ajo, Cantabria: acantilados, playas vírgenes, naturaleza salvaje y vistas al Cantábrico. Ideal para senderistas y amantes del mar.';
 $keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, costa Cantábrica, naturaleza, playas, turismo activo';
 ?>
+
+
 
 
 

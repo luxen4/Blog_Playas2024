@@ -1,7 +1,7 @@
 <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_PRINCIPALES_BODY_MAIN . '/breadcrums-playa.php'; ?>
 
 <article itemscope itemtype="https://schema.org/Article">
-  <meta itemprop="author" content="Adrián Laya García" />
+  <meta itemprop="author" content=<?= AUTHOR; ?> />
   <meta itemprop="datePublished" content="<?= $hoy; ?>" />
   <meta itemprop="dateModified" content="2025-06-02" />
   <meta itemprop="inLanguage" content="es-ES" />

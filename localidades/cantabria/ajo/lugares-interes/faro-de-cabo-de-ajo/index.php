@@ -23,7 +23,7 @@
 
 
 <?php $tema_footer='Faro de Cabo de Ajo'; $color_page='orange'; $carpeta= 'faro-de-cabo-de-ajo'; ?>
-<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
+<?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
 
@@ -33,7 +33,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Descubre el Faro del Cabo de Ajo en Cantabria: el faro más colorido de España, arte, naturaleza y vistas espectaculares del Cantábrico.">
-  <meta name="author" content="Adrián Laya García">
+  <meta name="author" content=<?= AUTHOR; ?>>
   <meta name="robots" content="index, follow">
   <title>Faro del Cabo de Ajo – Ajo, Cantabria</title>
 

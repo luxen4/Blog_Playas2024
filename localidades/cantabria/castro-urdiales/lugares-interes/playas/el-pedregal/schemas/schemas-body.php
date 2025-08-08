@@ -29,7 +29,7 @@
     },
     {
       "@type": "WebSite",
-      "name": "Blog Playas 2025",
+      "name": "Turismo y Playas 2025 – Guía Costera por el Cantábrico",
       "url": "https://www.blogplayas2025.com"
     }
   ]

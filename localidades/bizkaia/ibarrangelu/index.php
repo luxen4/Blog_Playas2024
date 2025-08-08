@@ -55,7 +55,7 @@ $color_page='blue';
 $tema='Ibarrangelu'; 
 $lugar_interes='Ibarrangelu';
 
-define('NAME_BLOG', "Blog Playas 2025");
+define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");
 define('AUTHOR', "Adrián Laya García");
 define('EMAIL_AUTHOR', " ");
 ?>

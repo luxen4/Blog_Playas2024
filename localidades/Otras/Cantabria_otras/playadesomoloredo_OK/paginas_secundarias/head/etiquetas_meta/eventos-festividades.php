@@ -19,7 +19,7 @@
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:author" content="https://www.facebook.com/tu-pagina-o-autor" />
-<meta name="author" content="Adrián Laya García" />
+<meta name="author" content=<?= AUTHOR; ?> />
 <meta property="article:section" content="Eventos y Cultura" />
 <meta property="article:tag" content="eventos Somo, fiestas Loredo, agenda cultural Cantabria, conciertos playa Somo-Loredo" />
 

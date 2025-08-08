@@ -7,7 +7,7 @@
   "url": "https://tusitio.com/<?= htmlspecialchars($rutas) ?>",
   "publisher": {
     "@type": "Organization",
-    "name": "Blog Playas 2025",
+    "name": "Turismo y Playas 2025 – Guía Costera por el Cantábrico",
     "logo": {
       "@type": "ImageObject",
       "url": "https://tusitio.com/path-a-logo/logo.png"

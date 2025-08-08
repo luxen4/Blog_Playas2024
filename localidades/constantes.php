@@ -6,10 +6,23 @@
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 <?php //define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
 
-<?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
+<?php
+if (!defined('PATH_RAIZ_BLOQUES')) {
+    define('PATH_RAIZ_BLOQUES', PATH_RAIZ . '/bloques');
+}
+?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO',           PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD',      PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head"); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+
+<?php
+if (!defined('PATH_RAIZ_BLOQUES_ESTRUCTURA')) {
+    define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ . '/bloques');
+}
+?>
+
+
+
+
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN',    PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
 
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
@@ -19,7 +32,7 @@
 <?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
 
-<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
+<?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
 

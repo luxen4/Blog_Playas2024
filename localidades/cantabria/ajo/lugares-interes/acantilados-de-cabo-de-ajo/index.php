@@ -22,7 +22,7 @@
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
 
-<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
+<?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
 
@@ -42,7 +42,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Acantilados del Cabo de Ajo – Ajo, Cantabria</title>
   <meta name="description" content="Explora los acantilados del Cabo de Ajo: paisajes espectaculares, rutas costeras y vistas inolvidables del Cantábrico en Cantabria.">
-  <meta name="author" content="Adrián Laya García">
+  <meta name="author" content=<?= AUTHOR; ?>>
   <meta name="robots" content="index, follow">
 
   <!-- Tailwind CSS -->
@@ -149,7 +149,7 @@
   </main>
 
   <footer class="bg-emerald-100 mt-12 py-4 text-center text-sm text-emerald-800">
-    <p>&copy; <?= date('Y') ?> Blog Playas 2025 – Adrián Laya García</p>
+    <p>&copy; <?= date('Y') ?> Turismo y Playas 2025 – Guía Costera por el Cantábrico – Adrián Laya García</p>
     <p>Contacto: <a href="mailto:superlaya50@gmail.com" class="underline hover:text-emerald-600">superlaya50@gmail.com</a></p>
   </footer>
 </body>

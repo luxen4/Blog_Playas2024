@@ -22,7 +22,7 @@
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:author" content="https://www.facebook.com/tu-pagina-o-autor" />
-<meta name="author" content="Adrián Laya García" />
+<meta name="author" content=<?= AUTHOR; ?> />
 <meta property="article:section" content="Guías y Consejos" />
 <meta property="article:tag" content="consejos playa Somo, qué llevar Loredo, recomendaciones Cantabria, preguntas frecuentes Somo-Loredo" />
 

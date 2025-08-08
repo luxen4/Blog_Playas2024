@@ -12,7 +12,7 @@ $hoy = date('Y-m-d');
 
 $region_minuscula='cantabria'; 
 $carpeta='playa-de-ostende'; 
-$name_blog = 'Blog Playas 2025'; 
+$name_blog = 'Turismo y Playas 2025 – Guía Costera por el Cantábrico'; 
 $author_content = 'Adrián Laya García'; 
 $tema_footer = 'Playas del Cantábrico';
 

@@ -1,12 +1,13 @@
 
-<?php define('NAME_BLOG', "Blog Playas Cantábrico"); ?>
+<?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
+<?php define('TURISMO_PLAYAS', 'Turismo y Playas'); ?>
 <?php define('WEB_PAGE', "website"); ?>
 <?php define('EMAIL_AUTHOR', "superlaya50@gmail.com");?>
 <?php define('HOY', date('Y-m-d')); ?>
 <?php define('IDIOMA_LOCAL', 'es_ES'); ?>
 
-<?php define('TURISMO_PLAYAS', 'Turismo y Playas'); ?>
+
 
 <?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
 

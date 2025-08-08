@@ -10,7 +10,7 @@
   <title>Mirador del Cabo de Ajo – Ajo, Cantabria</title>
   <meta name="description" content="Descubre el Mirador del Cabo de Ajo en Cantabria: un lugar privilegiado con vistas espectaculares al mar Cantábrico, acantilados, y naturaleza pura.">
   <meta name="keywords" content="Mirador Cabo Ajo, Ajo Cantabria, Turismo Cantábrico, Acantilados de Ajo, naturaleza, senderismo, vistas mar">
-  <meta name="author" content="Adrián Laya García">
+  <meta name="author" content=<?= AUTHOR; ?>>
   <meta property="og:title" content="Mirador del Cabo de Ajo – Ajo, Cantabria">
   <meta property="og:description" content="Vistas únicas al Cantábrico desde el mirador más espectacular de Ajo. Naturaleza, fotografía y paz.">
   <meta property="og:image" content="https://tuweb.com/img/mirador-cabo-ajo.jpg">
@@ -82,7 +82,7 @@
   </main>
 
   <footer class="bg-blue-100 text-center text-sm py-4 text-blue-800 mt-10">
-    <p>&copy; <?= date('Y') ?> Blog Playas 2025 – Adrián Laya García</p>
+    <p>&copy; <?= date('Y') ?> Turismo y Playas 2025 – Guía Costera por el Cantábrico – Adrián Laya García</p>
     <p>Contacto: <a href="mailto:superlaya50@gmail.com" class="underline hover:text-blue-600">superlaya50@gmail.com</a></p>
   </footer>
 

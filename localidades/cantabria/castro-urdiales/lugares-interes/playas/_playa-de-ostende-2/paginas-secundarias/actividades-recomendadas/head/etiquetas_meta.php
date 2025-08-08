@@ -21,7 +21,7 @@
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:author" content="https://www.facebook.com/tu-pagina-o-autor" />
-<meta name="author" content="Adrián Laya García" />
+<meta name="author" content=<?= AUTHOR; ?> />
 <meta property="article:section" content="Actividades y Ocio" />         
 <meta property="article:tag" content="Playa de Ostende, actividades en la playa, turismo activo Cantabria, qué hacer Castro-Urdiales" />    
 

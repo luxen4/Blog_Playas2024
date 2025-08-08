@@ -8,12 +8,12 @@
   "inLanguage": "es",
   "isPartOf": {
     "@type": "Website",
-    "name": "Blog Playas 2025",
+    "name": "Turismo y Playas 2025 – Guía Costera por el Cantábrico",
     "url": "<?= $dominio_base; ?>"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Blog Playas 2025",
+    "name": "Turismo y Playas 2025 – Guía Costera por el Cantábrico",
     "logo": {
       "@type": "ImageObject",
       "url": "<?= $url_logo_footer; ?>"

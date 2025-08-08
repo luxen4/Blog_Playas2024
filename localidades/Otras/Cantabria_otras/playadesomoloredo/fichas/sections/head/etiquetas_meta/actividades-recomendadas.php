@@ -5,11 +5,11 @@
 <meta name="keywords" content="Playa de Somo, Playa de Loredo, surf Cantabria, turismo Ribamontán al Mar, actividades en la costa, excursiones Cantabria" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="<?= $hoy ?>" />
-<meta name="author" content="Adrián Laya García" />
+<meta name="author" content=<?= AUTHOR; ?> />
 <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" />
 
 <!-- 👤 Autor (SEO + redes) -->
-<meta name="author" content="Adrián Laya García" />
+<meta name="author" content=<?= AUTHOR; ?> />
 <meta property="article:author" content="https://www.facebook.com/tu-pagina-o-autor" />
 
 <!-- 🏷️ Etiquetas (SEO semántico) -->

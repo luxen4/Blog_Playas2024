@@ -1,17 +1,25 @@
 
-<?php $localidad = 'Ajo'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); ?>
+<?php $localidad = 'Ajo'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
+$lugar_header='Ruta de la Costa Oriental';
+?>
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
 
-<?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
+<?php define('NAME_BLOG', "Blog Playas Cantábrico"); ?>
+<?php define('AUTHOR', "Adrián Laya García"); ?>
+<?php define('EMAIL_AUTHOR', "  ");?>
+<?php define('TURISMO_PLAYAS', 'Turismo y Playas'); ?>
+
+<?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT']) . '/Blog_Playas2025'); ?>
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2025"); ?>
 
 <?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
 <?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES . '/estructura'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD',         PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/head'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN',    PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO',           PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO',           PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-generico'); ?>
 
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ."/localidades/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
      
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
@@ -43,9 +51,8 @@ $keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, F
 
 <?php $tema_footer = 'Ajo, Cantabria'; $color_page='orange'; $tema='Ajo'; $lugar_interes='Ajo';?>
 
-<?php define('NAME_BLOG', "Blog Playas 2025"); ?>
-<?php define('AUTHOR', "Adrián Laya García"); ?>
-<?php define('EMAIL_AUTHOR', "  ");?>
+
+
 
 
 <!DOCTYPE html>

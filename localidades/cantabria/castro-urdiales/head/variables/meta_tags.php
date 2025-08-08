@@ -29,13 +29,13 @@ $graph_Meta_Tags_property_type        = 'website';
 ?>
 
 <?php
-$graph_Meta_Tags_property_site_name     = 'Blog Playas 2025';
+$graph_Meta_Tags_property_site_name     = 'Turismo y Playas 2025 – Guía Costera por el Cantábrico';
 $graph_Meta_Tags_property_locale        = 'es_ES';
 $graph_Meta_Tags_property_image_alt     = '';
 $graph_Meta_Tags_property_image_width   = '1200'; // estándar para OG
 $graph_Meta_Tags_property_image_height  = '630';  // estándar para OG
 $graph_Meta_Tags_property_author        = 'Adrián Laya García';
-$graph_Meta_Tags_property_updated_time  = date('c'); // Fecha actual en formato ISO 8601
+$graph_Meta_Tags_property_updated_timeEEEEEEE  = date('c'); // Fecha actual en formato ISO 8601
 $graph_Meta_Tags_property_published_time = '2025-05-10T08:00:00+02:00'; // Fecha estimada de publicación
 $graph_Meta_Tags_property_section       = 'Turismo y Playas';
 $graph_Meta_Tags_property_tag           = 'Castro Urdiales';

@@ -10,7 +10,7 @@ $keywords_content = 'Mirador de Cotolino, Castro-Urdiales, vistas al mar, atarde
 $robots_content = 'index, follow';
 $author_content = 'Adrián Laya García';
 $languaje_content = 'es';
-$name_blog= '2025 Blog Playas 2025';
+$name_blog= '2025 Turismo y Playas 2025 – Guía Costera por el Cantábrico';
 ?>
 
 

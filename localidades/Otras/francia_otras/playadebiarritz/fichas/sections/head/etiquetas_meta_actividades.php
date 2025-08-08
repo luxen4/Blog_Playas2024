@@ -5,11 +5,11 @@
 <meta name="keywords" content="Playa de Biarritz, surf Francia, actividades en Biarritz, costa atlántica, turismo Nouvelle-Aquitaine, deportes acuáticos" />
 <meta name="robots" content="index, follow" />
 <meta name="date" content="<?= $hoy ?>" />
-<meta name="author" content="Adrián Laya García" />
+<meta name="author" content=<?= AUTHOR; ?> />
 <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" />
 
 <?php /*<!--👤 Autor (SEO + redes) -->*/ ?>
-<meta name="author" content="Adrián Laya García" />
+<meta name="author" content=<?= AUTHOR; ?> />
 <meta property="article:author" content="https://www.facebook.com/tu-pagina-o-autor" />
 
 <?php /*<!-- 🏷️ Etiquetas (SEO semántico) -->*/ ?>

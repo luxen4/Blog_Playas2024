@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Puerto Pesquero y Mina de Dícido | Ruta por Castro-Urdiales</title>
   <meta name="description" content="Descubre el histórico puerto pesquero de Castro-Urdiales y los restos de la Mina de Dícido: una ruta suave y accesible con historia, naturaleza y vistas costeras.">
-  <meta name="author" content="Adrián Laya García" />
+  <meta name="author" content=<?= AUTHOR; ?> />
   <meta name="robots" content="index, follow" />
 
   <!-- Open Graph -->
@@ -66,7 +66,7 @@
   </main>
 
   <footer class="bg-teal-100 text-center p-4 mt-12 text-sm text-teal-800">
-    &copy; 2025 Blog Playas 2025 - Adrián Laya García
+    &copy; 2025 Turismo y Playas 2025 – Guía Costera por el Cantábrico - Adrián Laya García
   </footer>
 </body>
 </html>

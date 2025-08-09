@@ -146,6 +146,13 @@
 
     ### Guipuzkoa ###
     # Deba
+    RewriteRule ^deba-gipuzkoa$     localidades/gipuzkoa/deba/index.php [L]
+    
+
+
+
+
+
     RewriteRule ^playa-de-santiago$ localidades/gipuzkoa/deba/lugares-interes/playas/playa-de-santiago/index.php [L]
 
     RewriteRule ^playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/playa-de-deba-gipuzkoa.php [L]
@@ -184,7 +191,10 @@
 
 
     # Capbreton
-    RewriteRule ^capbreton-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/capbreton/index.php [L]
+    RewriteRule ^capbreton-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/capbreton/index.php [L]
+    
+
+
     RewriteRule ^playa-de-la-plage-centrale-capbreton$ localidades/nouvelle-aquitaine/capbreton/lugares-interes/playas/playa-de-la-plage-centrale-capbreton/index.php [L]
 
     # Hendaia
@@ -389,6 +399,9 @@ RewriteRule ^preguntas-frecuentes-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa
 
 
 # Hendaya
+RewriteRule ^hendaia-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/hendaia/index.php [L]
+    
+
 RewriteRule ^playa-de-hendaya-francia$ localidades/francia/playadehendaya/fichas/playa-de-hendaya-francia.php [L]
 RewriteRule ^actividades-playa-de-hendaya-francia$ localidades/zumaia/playadehendaya/fichas/actividades-playa-de-hendaya-francia.php [L]
 RewriteRule ^como-llegar-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/como-llegar-playa-de-hendaya-francia.php [L]

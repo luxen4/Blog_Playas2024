@@ -1,70 +1,16 @@
-<?php 
-$localidad = 'Hendaia';
-$localidad_minuscula = strtolower(
-    str_replace(
-        ['ñ', 'Ñ', ' '], 
-        ['n', 'n', '-'], 
-        $localidad
-    )
-);
+<?php define('TITLE', "Hendaya – Turismo y Playa de Ondarraitz 2025"); ?>
+<?php define('DESCRIPTION', "Descubre la Playa de Ondarraitz en Hendaya, Nueva Aquitania: un arenal de más de 3 km con arena fina, aguas tranquilas y un entorno ideal para familias, deportes acuáticos y paseos frente al mar."); ?>
+<?php define('COLOR_PAGE', "sky"); ?>
+<?php define('LUGAR', "Hendaya"); ?>
+<?php define('LUGAR_MINUSCULA', 'hendaya'); ?>
+<?php define('KEYWORDS_CONTENT', 'Playa de Ondarraitz, Hendaya, turismo Nueva Aquitania, playas del País Vasco francés, costa vasco-francesa, naturaleza en Hendaya, frontera con España'); ?>
 
-$region = 'Nouvelle Aquitaine';
-$region_minuscula = strtolower(
-    str_replace(
-        ['ñ', 'Ñ', ' '], 
-        ['n', 'n', '-'], 
-        $region
-    )
-);
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/nouvelle-aquitaine/hendaia/variables-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php"; ?>
 
-require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php";
 
-// Paths
-define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025');
-define('PATH_HREF_RAIZ', "/Blog_Playas2025");
-
-define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); 
-define('PATH_RAIZ_BLOQUES_CONTROL', PATH_RAIZ_BLOQUES . '/control');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO', PATH_RAIZ_BLOQUES. '/estructura/paginas-generico');
-
-define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}");
-define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES', PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes");
-
-define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques");
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/body');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head");
-
-define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5");
-define('WEB_PAGE', "website");
-define('HOY', date('Y-m-d'));
-define('IDIOMA_LOCAL', 'fr_FR');
-
-define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades");
-
-define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables');
-define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/');
-define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/');
-
-define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); 
-?>
-
-<?php require PATH_RAIZ_LOCALIDADES . "/nouvelle-aquitaine/hendaia/head/variables/_meta_tagsa.php"; ?>
-
-<?php
-$description_content = 'Découvrez Hendaye, charmante ville frontalière sur la côte basque française, célèbre pour sa grande plage, son port et sa proximité avec l’Espagne.';
-$keywords_content = 'Hendaye, Nouvelle Aquitaine, tourisme France, plage, côte basque, frontière Espagne';
-
-lugar_minuscula_footer = 'Hendaye, Nouvelle Aquitaine'; 
-COLOR_PAGE='blue'; 
-lugar_minuscula='Hendaye'; 
-lugar_minuscula='Hendaye';
-
-define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");
-define('AUTHOR', "Adrián Laya García");
-define('EMAIL_AUTHOR', " ");
-?>
 
 <!DOCTYPE html>
 <html lang="fr">

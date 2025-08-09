@@ -1,36 +1,35 @@
-
-
-
-
-
-<?php
-$localidad_minuscula = 'playa-de-santiago';
-$localidad_nombre = 'Playa de Santiago';
-$localidad = 'Deba';
-$localidad_minuscula = strtolower($localidad);  // "deba"
-$region = 'gipuzkoa';
-$region_minuscula = strtolower(str_replace(' ', '-', $region));  // "país-vasco"
-$archivo_name = 'santiago-deba';
-
-$presentacion = 'La Playa de Santiago, ubicada en Deba, País Vasco, es una playa de arena fina y aguas limpias, ideal para familias y amantes del surf. Con accesos cómodos y servicios en temporada, esta playa ofrece un entorno natural privilegiado con vistas al mar Cantábrico y senderos costeros para explorar.';
-
-$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
-?>
-
-
-
 <?php $targeta = PATH_RAIZ_LOCALIDADES.'/index.php';?>
+<?php $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
 
-<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6">
-  Gipuzkoa
-</h2>
+
+<?php $region = 'Gipuzkoa'; $region_minuscula = strtolower($region);?>
+<h2 id="gipuzkoa" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6"><?= $region; ?></h2>
+
 <?php $localidad = 'Deba';    $localidad_minuscula = strtolower($localidad);?>
-<h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= COLOR_PAGE; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 
-<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
 
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
+
+<div class="container my-4">
+  <div class="row">
+
+    <?php 
+    $playa_name = 'Playa de Santiago'; 
+    $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); 
+    $archivo_name = 'santiago-ajo'; 
+    $presentacion = 'La Playa de Santiago, ubicada en Deba, País Vasco, es una playa de arena fina y aguas limpias, ideal para familias y amantes del surf. Con accesos cómodos y servicios en temporada, 
+    esta playa ofrece un entorno natural privilegiado con vistas al mar Cantábrico y senderos costeros para explorar.';
+    ?>
+    <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
+
+    <div class="col-12 col-md-6 mb-4">
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
+    </div>
+  </div>
+</div>
+
+
 
 
 <div class="row">

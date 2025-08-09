@@ -2,7 +2,7 @@
 $nombre_playa = 'Laredo'; // Nombre de la playa    
 //$nombre_playa = 'Playa de Laredo'; 
 $nombre_playa_minuscula = 'laredo'; 
-$carpeta = 'playadelaredo';
+$localidad_minuscula = 'playadelaredo';
 
 $localidad = 'Laredo'; 
 $localidad_minuscula = 'laredo';

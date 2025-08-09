@@ -7,7 +7,7 @@ $targeta = './localidades/index.php';
     <summary>Desplegar</summary>
 
     <?php
-    $carpeta = 'playadegorliz';
+    $localidad_minuscula = 'playadegorliz';
     $localidad_nombre = 'Playa de Gorliz';
     $localidad = 'Playa de Gorliz';
     $archivo_name = 'gorliz';
@@ -15,7 +15,7 @@ $targeta = './localidades/index.php';
     include $targeta; ?>
 
     <?php
-    $carpeta = 'playadegetxo';
+    $localidad_minuscula = 'playadegetxo';
     $localidad_nombre = 'Playa de Getxo';
     $localidad = 'Playa de Getxo';
     $archivo_name = 'getxo';
@@ -24,7 +24,7 @@ $targeta = './localidades/index.php';
 
 
     <?php
-    $carpeta = 'playadelaga';
+    $localidad_minuscula = 'playadelaga';
     $localidad_nombre = 'Playa de Laga';
     $localidad = 'Playa de Laga';
     $archivo_name = 'laga';
@@ -32,7 +32,7 @@ $targeta = './localidades/index.php';
     include $targeta; ?>
 
     <?php
-    $carpeta = 'playadebakio';
+    $localidad_minuscula = 'playadebakio';
     $localidad_nombre = 'Playa de Bakio';
     $localidad = 'Playa de Bakio';
     $archivo_name = 'bakio';
@@ -40,7 +40,7 @@ $targeta = './localidades/index.php';
     include $targeta; ?>
 
     <?php
-    $carpeta = 'playadelekeitio';
+    $localidad_minuscula = 'playadelekeitio';
     $localidad_nombre = 'Playa de Lekeitio';
     $localidad = 'Playa de Lekeitio';
     $archivo_name = 'lekeitio';
@@ -49,7 +49,7 @@ $targeta = './localidades/index.php';
 
 
     <?php
-    $carpeta = 'playadesopelana';
+    $localidad_minuscula = 'playadesopelana';
     $localidad_nombre = 'Playa de Sopelana';
     $localidad = 'Playa de Sopelana';
     $archivo_name = 'sopelana';
@@ -58,7 +58,7 @@ $targeta = './localidades/index.php';
 
 
     <?php
-    $carpeta = 'playademuskiz';
+    $localidad_minuscula = 'playademuskiz';
     $localidad_nombre = 'Playa de Muskiz';
     $localidad = 'Playa de Muskiz';
     $archivo_name = 'muskiz';
@@ -67,7 +67,7 @@ $targeta = './localidades/index.php';
 
 
     <?php
-    $carpeta = 'playadeazkorri';
+    $localidad_minuscula = 'playadeazkorri';
     $localidad_nombre = 'Playa de Azkorri';
     $localidad = 'Playa de Azkorri';
     $archivo_name = 'azkorri';
@@ -75,7 +75,7 @@ $targeta = './localidades/index.php';
     include $targeta; ?>
 
     <?php
-    $carpeta = 'playadeplentzia';
+    $localidad_minuscula = 'playadeplentzia';
     $localidad_nombre = 'Playa de Plentzia';
     $localidad = 'Playa de Plentzia';
     $archivo_name = 'plentzia';

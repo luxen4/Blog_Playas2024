@@ -7,12 +7,12 @@
             <?php /*<a href="playa-de-<?= $archivo_name . '-' . $region; ?>" target="_blank">*/ ?>
             <a 
                     <?php if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-                        href="<?= PATH_HREF_RAIZ ?>/<?= $carpeta; ?>"<?php
+                        href="<?= PATH_HREF_RAIZ ?>/<?= $localidad_minuscula; ?>"<?php
                     } else { ?>
                         href="<?= $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS ?>/index.php"   <?php 
                     }?>target="_blank">
 
-                <img src=  "localidades/<?= $region_minuscula . '/' .$localidad_minuscula. '/lugares-interes/playas/' .$carpeta ?>/img/playa-de-<?= $archivo_name .'-' .$region_minuscula ; ?>-1.jpg" alt="Imagen de <?= $playa_name; ?>" class="img-fluid">
+                <img src=  "localidades/<?= $region_minuscula . '/' .$localidad_minuscula. '/lugares-interes/playas/' .$localidad_minuscula ?>/img/playa-de-<?= $archivo_name .'-' .$region_minuscula ; ?>-1.jpg" alt="Imagen de <?= $playa_name; ?>" class="img-fluid">
             </a>
             <figcaption>Vista de la <?= $playa_name; ?></figcaption>
         </figure>

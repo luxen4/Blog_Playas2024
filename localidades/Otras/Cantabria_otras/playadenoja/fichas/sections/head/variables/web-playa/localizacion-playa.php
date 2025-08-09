@@ -2,7 +2,7 @@
 $nombre_playa = 'Noja'; // Nombre de la playa
 //$nombre_playa = 'Playa de Noja'; // Alternativa más formal si se desea mostrar con "Playa de"
 $nombre_playa_minuscula = 'noja';
-$carpeta = 'playadenoja';
+$localidad_minuscula = 'playadenoja';
 $localidad = 'Noja';
 $localidad_minuscula = 'noja';
 $region = 'Cantabria';

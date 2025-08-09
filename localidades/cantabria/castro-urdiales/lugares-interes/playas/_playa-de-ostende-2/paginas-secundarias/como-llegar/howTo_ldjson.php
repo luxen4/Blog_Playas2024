@@ -4,7 +4,7 @@
   "@type": "HowTo",
   "name": "Cómo llegar a la Playa de Ostende desde Castro-Urdiales",
   "description": "Guía paso a paso para llegar a la Playa de Ostende en Cantabria en coche, transporte público, bicicleta o caminando.",
-  "image": "https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $carpeta; ?>/img/<?= $rutas; ?>.jpg",
+  "image": "https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg",
   "totalTime": "PT15M",
   "supply": ["Google Maps", "Transporte público", "Bicicleta"],
   "tool": ["Móvil con GPS"],

@@ -1,6 +1,6 @@
 
 <?php // Variables para la página de la Playa de Ostende ?>
-<?php $region_minuscula = 'cantabria'; $carpeta = 'playa-de-ostende'; lugar_minuscula='playa-de-ostende'; 
+<?php $region_minuscula = 'cantabria'; $localidad_minuscula = 'playa-de-ostende'; lugar_minuscula='playa-de-ostende'; 
 lugar_minuscula_footer='Playa de Ostende -Castro-Urdiales-';
 COLOR_PAGE='blue';
 $title = 'Playa de Ostende – Castro-Urdiales';?>

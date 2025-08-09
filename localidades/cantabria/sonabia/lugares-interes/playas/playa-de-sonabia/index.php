@@ -4,7 +4,7 @@
 
   $localidad = 'Sonabia';
   $localidad_minuscula = strtolower($localidad); // "sonabia"
-  $carpeta = $localidad_minuscula;
+  $localidad_minuscula = $localidad_minuscula;
   $country = 'España';
 ?>
 

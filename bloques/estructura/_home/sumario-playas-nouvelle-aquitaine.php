@@ -5,14 +5,14 @@
 
 
 <?php
-function render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta) {
+function render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $localidad_minuscula) {
     // Crear la carpeta a partir del nombre de la playa
-    //$carpeta = strtolower(str_replace(' ', '-', $playa_name));
+    //$localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name));
 
-$carpeta = strtolower(str_replace(' ', '-', $carpeta));
+$localidad_minuscula = strtolower(str_replace(' ', '-', $localidad_minuscula));
 
     // Construir la ruta
-    $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}";
+    $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}";
 
     // Hacer disponibles las variables para el card
     require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php';
@@ -32,10 +32,10 @@ $carpeta = strtolower(str_replace(' ', '-', $carpeta));
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
-$playa_name = 'Grande Plage'; $carpeta = 'playa-de-la-grande-plage-saint-jean-de-luz'; $archivo_name = 'grande-plage-saint-jean-de-luz';
+$playa_name = 'Grande Plage'; $localidad_minuscula = 'playa-de-la-grande-plage-saint-jean-de-luz'; $archivo_name = 'grande-plage-saint-jean-de-luz';
 $presentacion = '🏖️ La Grande Plage de Saint-Jean-de-Luz, situada en el corazón del casco histórico, ofrece aguas tranquilas gracias a su bahía protegida. Es ideal para familias, baños relajantes y paseos junto al paseo marítimo en un entorno con encanto vasco-francés.';
 ?>
-<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta);?>
+<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $localidad_minuscula);?>
 
 
 
@@ -46,10 +46,10 @@ $presentacion = '🏖️ La Grande Plage de Saint-Jean-de-Luz, situada en el cor
 
 
 <?php
-$playa_name = 'La Grande Plage'; $carpeta = 'playa-de-la-grande-plage-biarritz'; $archivo_name = 'grande-plage-biarritz';
+$playa_name = 'La Grande Plage'; $localidad_minuscula = 'playa-de-la-grande-plage-biarritz'; $archivo_name = 'grande-plage-biarritz';
 $presentacion = '🌊 La Grande Plage en Biarritz es la playa más emblemática de la ciudad, famosa por sus olas para surfear, su amplio paseo marítimo y su animado ambiente durante todo el año.';
 ?>
-<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta);?>
+<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $localidad_minuscula);?>
 
 
 
@@ -58,21 +58,21 @@ $presentacion = '🌊 La Grande Plage en Biarritz es la playa más emblemática 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
-$playa_name = 'Plage Centrale'; $carpeta = 'playa-de-la-plage-centrale-capbreton'; $archivo_name = 'playa-de-la-plage-centrale-capbreton';
+$playa_name = 'Plage Centrale'; $localidad_minuscula = 'playa-de-la-plage-centrale-capbreton'; $archivo_name = 'playa-de-la-plage-centrale-capbreton';
 $presentacion = '🏄 La Plage Centrale en Capbreton es una playa urbana muy popular, ideal para surfistas y familias que disfrutan del mar y el ambiente costero en Landes.';
 ?>
-<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta);?>
+<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $localidad_minuscula);?>
 
 
 <?php $localidad = 'Hendaia'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 
 <?php
-$playa_name = 'Playa de Ondarraitz'; $carpeta = 'playa-de-ondarraitz-hendaia'; $archivo_name = 'playa-de-ondarraitz-hendaia';
+$playa_name = 'Playa de Ondarraitz'; $localidad_minuscula = 'playa-de-ondarraitz-hendaia'; $archivo_name = 'playa-de-ondarraitz-hendaia';
 $presentacion = '🌊 La Playa de Ondarraitz en Hendaia, Francia, es una extensa playa de arena fina, perfecta para pasear, practicar surf y disfrutar de un ambiente relajado con vistas a los montes vascos.';
 ?>
 
-<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $carpeta);?>
+<?php render_playa_card2($playa_name, $presentacion, $region_minuscula, $localidad_minuscula, $targeta, $archivo_name, $localidad_minuscula);?>
 
 
 

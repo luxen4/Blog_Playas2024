@@ -2,7 +2,7 @@
 $nombre_playa = 'Biarritz'; // Nombre de la playa
 //$nombre_playa = 'Playa de Biarritz'; // Alternativa más formal si se desea mostrar con "Playa de"
 $nombre_playa_minuscula = 'biarritz';
-$carpeta = 'playadebiarritz';
+$localidad_minuscula = 'playadebiarritz';
 $localidad = 'Biarritz';
 $localidad_minuscula = 'biarritz';
 $region = 'Nouvelle-Aquitaine'; $region = 'francia'; // Nombre de la región, puede ser 'Nouvelle-Aquitaine' o 'Francia'

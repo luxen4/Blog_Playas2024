@@ -1,6 +1,6 @@
 <?php
 $titulo = 'Castillo de Azay-le-Rideau'; 
-$carpeta = 'castillo-de-azay-le-rideau'; 
+$localidad_minuscula = 'castillo-de-azay-le-rideau'; 
 $archivo_name = 'castillo-de-azay-le-rideau';
 $presentacion = '🏰 El Castillo de Azay-le-Rideau, en el Valle del Loira, Francia, es una joya renacentista rodeada de un foso de agua que le da un encanto mágico. Ideal para amantes de la historia, arquitectura y paisajes románticos.';
 $keywords = 'Castillo de Azay-le-Rideau, Valle del Loira, castillos Francia, turismo histórico, arquitectura renacentista';
@@ -18,7 +18,7 @@ $canonical = 'https://www.tusitio.com/'.$archivo_name.'.php';
   <link rel="canonical" href="<?php echo $canonical; ?>">
   <meta property="og:title" content="<?php echo $titulo; ?>">
   <meta property="og:description" content="<?php echo $presentacion; ?>">
-  <meta property="og:image" content="https://www.tusitio.com/imagenes/<?php echo $carpeta; ?>/azay1.jpg">
+  <meta property="og:image" content="https://www.tusitio.com/imagenes/<?php echo $localidad_minuscula; ?>/azay1.jpg">
   <meta property="og:url" content="<?php echo $canonical; ?>">
   <meta name="twitter:card" content="summary_large_image">
   <title><?php echo $titulo; ?> | Turismo en el Valle del Loira</title>
@@ -49,9 +49,9 @@ $canonical = 'https://www.tusitio.com/'.$archivo_name.'.php';
     <section id="galeria" class="mb-16">
       <h2 class="text-2xl font-semibold text-indigo-700 mb-6 flex items-center"><i data-lucide="image" class="mr-2 text-indigo-600"></i>Galería de imágenes</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <img src="imagenes/<?php echo $carpeta; ?>/azay1.jpg" alt="Vista aérea del Castillo de Azay-le-Rideau" class="rounded-2xl shadow-lg hover:scale-105 transition-transform">
-        <img src="imagenes/<?php echo $carpeta; ?>/azay2.jpg" alt="Castillo reflejado en el agua" class="rounded-2xl shadow-lg hover:scale-105 transition-transform">
-        <img src="imagenes/<?php echo $carpeta; ?>/azay3.jpg" alt="Jardines del Castillo" class="rounded-2xl shadow-lg hover:scale-105 transition-transform">
+        <img src="imagenes/<?php echo $localidad_minuscula; ?>/azay1.jpg" alt="Vista aérea del Castillo de Azay-le-Rideau" class="rounded-2xl shadow-lg hover:scale-105 transition-transform">
+        <img src="imagenes/<?php echo $localidad_minuscula; ?>/azay2.jpg" alt="Castillo reflejado en el agua" class="rounded-2xl shadow-lg hover:scale-105 transition-transform">
+        <img src="imagenes/<?php echo $localidad_minuscula; ?>/azay3.jpg" alt="Jardines del Castillo" class="rounded-2xl shadow-lg hover:scale-105 transition-transform">
       </div>
     </section>
 

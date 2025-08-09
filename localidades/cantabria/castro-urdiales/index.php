@@ -1,21 +1,17 @@
+<?php define('TITLE', "Castro-Urdiales – Turismo y Naturaleza en Cantabria 2025"); ?>
+<?php define('DESCRIPTION', "Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía, rutas de senderismo y eventos culturales en la Costa Cantábrica."); ?>
+<?php define('COLOR_PAGE', "sky"); ?>
+<?php define('LUGAR', "Castro-Urdiales"); ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+<?php define('KEYWORDS_CONTENT', 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales') ?>
 
-
-<?php lugar_minuscula = 'castro-urdiales';
-$localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); $carpeta = $localidad_minuscula;
-$region = 'Cantabria'; $region_minuscula = strtolower($region); $country= 'España';
-lugar_minuscula = 'Información Castro-Urdiales';
-$title = 'Castro Urdiales – Guía Turística y Playas';
-
-//$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
-$description_content = 'Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía, rutas de senderismo y eventos culturales en la Costa Cantábrica.';
-$keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales';
-
-$rutas = 'cantabria';
-COLOR_PAGE = 'blue';
-lugar_minuscula_footer = '- Castro-Urdiales Turismo -'; 
-?>
-
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/" .LUGAR_MINUSCULA. "/variables-localidad.php"; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
+
+
+<?php //require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/meta_tags.php";      // Variables de etiquetas metarequire PATH_RAIZ_BLOQUES_ESTRUCTURA . "/paginas-generico/etiquetas-meta.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/data-generico.php";  // Variables para el archivo Structured_data_generico.php //<!-- Structured Data (Schema.org) -->    ?>
 
@@ -26,8 +22,8 @@ lugar_minuscula_footer = '- Castro-Urdiales Turismo -';
   <head>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD. "/etiquetas-meta.php";?>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
-    <title><?= $title; ?></title>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/scripts-generico.php"; ?>
+    <title><?= TITLE; ?></title>
+    <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/scripts-generico.php"; ?>
   </head>
 
   <body>
@@ -70,7 +66,7 @@ lugar_minuscula_footer = '- Castro-Urdiales Turismo -';
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <?php
-              LUGARes = [
+              $lugares_interes = [
                 'Asador La Perla' => 'asador-la-perla',
                 'Castillo de Santa Ana' => 'castillo-santa-ana',
                 'Club Náutico' => 'club-nautico',
@@ -85,7 +81,7 @@ lugar_minuscula_footer = '- Castro-Urdiales Turismo -';
                 'Puerto de Castro Urdiales' => 'puerto-pesquero'
               ];
 
-              foreach (LUGARes as $nombre => $ruta) {
+              foreach ($lugares_interes as $nombre => $ruta) {
                   if ($_SERVER['SERVER_NAME'] === 'localhost') {
                       // Ruta para entorno local
                       echo '<div class="col">
@@ -135,8 +131,8 @@ lugar_minuscula_footer = '- Castro-Urdiales Turismo -';
 
         <div class="space-y-2">
           <?php
-          $carpeta_playa = 'playa-de-ostende';
-          define('PATH_HREF_RAIZ_LOCALIDAD_PLAY', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta_playa}/");
+          $localidad_minuscula_playa = 'playa-de-ostende';
+          define('PATH_HREF_RAIZ_LOCALIDAD_PLAY', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula_playa}/");
           $playas = [
             'Playa de Ostende' => 'playa-de-ostende',
             'Playa de Brazomar' => 'playa-de-brazomar',

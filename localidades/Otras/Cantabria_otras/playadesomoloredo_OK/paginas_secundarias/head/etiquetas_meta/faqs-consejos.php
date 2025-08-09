@@ -17,7 +17,7 @@
 <meta property="og:description" content="Todo lo que necesitas saber para disfrutar tu visita: preguntas frecuentes y consejos prácticos sobre la Playa de Somo y Loredo en Cantabria." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/faqs-consejos-<?= $rutas; ?>" />
-<meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $carpeta; ?>/img/faqs-consejos-<?= $rutas; ?>.jpg" />
+<meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $localidad_minuscula; ?>/img/faqs-consejos-<?= $rutas; ?>.jpg" />
 <meta property="og:image:alt" content="Turistas en la Playa de Somo-Loredo recibiendo información y consejos" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -30,6 +30,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="FAQs y Consejos para Visitar la Playa de Somo-Loredo" />
 <meta name="twitter:description" content="Consulta las preguntas más frecuentes y los mejores consejos antes de visitar la Playa de Somo-Loredo, en la costa de Cantabria." />
-<meta name="twitter:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $carpeta; ?>/img/faqs-consejos-<?= $rutas; ?>.jpg" />
+<meta name="twitter:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $localidad_minuscula; ?>/img/faqs-consejos-<?= $rutas; ?>.jpg" />
 <meta name="twitter:image:alt" content="Playa de Somo-Loredo al atardecer con señales informativas" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

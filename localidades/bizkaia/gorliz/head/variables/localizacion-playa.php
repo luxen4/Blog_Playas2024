@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Playa de Gorliz';
 $nombre_playa_minuscula   = 'playa-de-gorliz';
-$carpeta                  = 'playadegorliz';
+$localidad_minuscula                  = 'playadegorliz';
 
 $localidad                = 'Gorliz';
 $localidad_minuscula      = 'gorliz';

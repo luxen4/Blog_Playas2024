@@ -5,7 +5,7 @@
 
   $localidad = 'Baiona';  // Si quieres poner el nombre en vasco o español
   $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); // "baiona"
-  $carpeta = $localidad_minuscula;
+  $localidad_minuscula = $localidad_minuscula;
   $country = 'Francia';
 
   // Variables para SEO y contenido

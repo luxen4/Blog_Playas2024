@@ -4,7 +4,7 @@
 <?php // Variables para la página de la Playa de Somo-Loredo ?>
 <?php 
   $region_minuscula = 'cantabria'; 
-  $carpeta = 'playadesomoloredo'; 
+  $localidad_minuscula = 'playadesomoloredo'; 
   lugar_minuscula = 'playa-de-somo-loredo'; 
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>

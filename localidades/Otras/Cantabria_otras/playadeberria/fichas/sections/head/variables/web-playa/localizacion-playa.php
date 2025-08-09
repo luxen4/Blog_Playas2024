@@ -2,7 +2,7 @@
 $nombre_playa = 'Berria'; // Nombre de la playa
 //$nombre_playa = 'Playa de Berria'; // Alternativa más formal si se desea mostrar con "Playa de"
 $nombre_playa_minuscula = 'berria';
-$carpeta = 'playadeberria';
+$localidad_minuscula = 'playadeberria';
 $localidad = 'Santona';
 $localidad_minuscula = 'santona';
 $region = 'Cantabria';

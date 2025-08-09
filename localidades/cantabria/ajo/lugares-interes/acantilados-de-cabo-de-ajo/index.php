@@ -29,7 +29,7 @@
 
 <?php lugar_minuscula_footer = 'Playas del Cantábrico'; COLOR_PAGE='orange'; lugar_minuscula='Ajo'; lugar_minuscula='Ajo';?>
 
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
 
 
 <?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>

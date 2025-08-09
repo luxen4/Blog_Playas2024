@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Bakio';
 $nombre_playa_minuscula   = 'bakio';
-$carpeta                  = 'playa-de-bakio';
+$localidad_minuscula                  = 'playa-de-bakio';
 
 $localidad                = 'Bakio';
 $localidad_minuscula      = 'bakio';

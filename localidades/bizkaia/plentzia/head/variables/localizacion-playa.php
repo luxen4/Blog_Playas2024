@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Playa de Plentzia';
 $nombre_playa_minuscula   = 'playa-de-plentzia';
-$carpeta                  = 'playadeplentzia';
+$localidad_minuscula                  = 'playadeplentzia';
 
 $localidad                = 'Plentzia';
 $localidad_minuscula      = 'plentzia';

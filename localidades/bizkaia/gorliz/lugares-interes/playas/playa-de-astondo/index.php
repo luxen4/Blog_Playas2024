@@ -4,7 +4,7 @@
   
   $localidad = 'Gorliz'; 
   $localidad_minuscula = strtolower($localidad); 
-  $carpeta = $localidad_minuscula;  // o 'playa-de-astondoko' si esa es la convención del sistema
+  $localidad_minuscula = $localidad_minuscula;  // o 'playa-de-astondoko' si esa es la convención del sistema
   $country = 'España';
 ?>
 

@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Santiago de Deba';
 $nombre_playa_minuscula   = 'santiago-de-deba';
-$carpeta                  = 'playa-de-santiago-deba';
+$localidad_minuscula                  = 'playa-de-santiago-deba';
 
 $localidad                = 'Deba';
 $localidad_minuscula      = 'deba';

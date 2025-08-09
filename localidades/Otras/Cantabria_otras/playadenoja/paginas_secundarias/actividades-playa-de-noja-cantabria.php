@@ -14,16 +14,16 @@
     <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/ ?>
     <link rel="canonical" href="<?= PATH_RAIZ; ?>/actividades-<?= $rutas; ?>" />
 
-    <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$carpeta}/fichas/sections/head/etiquetas_meta_actividades.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/fichas/sections/head/etiquetas_meta_actividades.php"; ?>
     <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
 
     <?php
     // Descripción general y URL
-    $url = "https://playas2025.kesug.com/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/fichas/{$rutas}.php";
+    $url = "https://playas2025.kesug.com/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
     ?>
 
     <?php 
-    require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$carpeta}/fichas/sections/head/variables/web-playa/structure-data-schema-org.php";
+    require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/fichas/sections/head/variables/web-playa/structure-data-schema-org.php";
     include_once PATH_RAIZ_BLOQUES_ESTRUCTURA . "/structured_data_generico.php";
     ?>
   </head>

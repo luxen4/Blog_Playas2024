@@ -12,7 +12,7 @@ $mainEntity_geo_longitude = -3.2167;
 
 // Imagen representativa y URL canónica
 $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/img/castro-urdiales.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/index.php";
+$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?> 
 
 

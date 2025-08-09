@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Playa de Ondarraitz';
 $nombre_playa_minuscula   = 'playa-ondarraitz';
-$carpeta                  = 'playaondarraitz';
+$localidad_minuscula                  = 'playaondarraitz';
 
 $localidad                = 'Hendaia';
 $localidad_minuscula      = 'hendaia';

@@ -11,7 +11,7 @@
   $region_minuscula = 'cantabria'; 
   $nombre_playa_minuscula = 'somo-loredo'; 
   $localidad_minuscula='somo'; 
-  $carpeta = 'playadesomoloredo';
+  $localidad_minuscula = 'playadesomoloredo';
   ?>
 
   <!-- Meta SEO -->

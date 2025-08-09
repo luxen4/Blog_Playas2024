@@ -3,7 +3,7 @@
 <p class="text-left text-justify text-gray-700 leading-relaxed mb-4">
     <?= $presentacion. ' '; ?><a 
 <?php if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-        href="<?= PATH_HREF_RAIZ ?>/lugares-interes/<?= $carpeta; ?>"<?php
+        href="<?= PATH_HREF_RAIZ ?>/lugares-interes/<?= $localidad_minuscula; ?>"<?php
     } else { ?>
         href="<?= $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS ?>/index.php"   <?php 
     }?>

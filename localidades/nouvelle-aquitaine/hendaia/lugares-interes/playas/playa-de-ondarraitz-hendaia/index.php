@@ -1,4 +1,4 @@
-<?php $localidad = 'hendaia';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
+<?php $localidad = 'hendaia';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $localidad_minuscula = $localidad_minuscula; ?>
 <?php LUGAR   = 'Playa de Ondarraitz';  lugar_minuscula  = 'playa-de-ondarraitz-hendaia'; ?>
 
 <?php 

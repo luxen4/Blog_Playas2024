@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Playa de A Ladeira';
 $nombre_playa_minuscula   = 'playa-de-a-ladeira';
-$carpeta                  = 'playaaladeira';
+$localidad_minuscula                  = 'playaaladeira';
 
 $localidad                = 'Bayona';
 $localidad_minuscula      = 'bayona';

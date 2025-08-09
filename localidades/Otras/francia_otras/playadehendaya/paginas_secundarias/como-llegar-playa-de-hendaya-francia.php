@@ -15,7 +15,7 @@
   require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php";
 
   // Metadatos específicos para la página de "cómo llegar"
-  require PATH_RAIZ_LOCALIDADES . "/{$region}/{$carpeta}/paginas_secundarias/etiquetas_meta/como_llegar.php";
+  require PATH_RAIZ_LOCALIDADES . "/{$region}/{$localidad_minuscula}/paginas_secundarias/etiquetas_meta/como_llegar.php";
   ?>
 
   <!-- Estilos personalizados -->

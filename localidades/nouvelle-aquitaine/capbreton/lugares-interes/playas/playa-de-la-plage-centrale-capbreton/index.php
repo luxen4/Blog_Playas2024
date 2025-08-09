@@ -1,4 +1,4 @@
-<?php $localidad = 'Capbreton';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
+<?php $localidad = 'Capbreton';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $localidad_minuscula = $localidad_minuscula; ?>
 <?php LUGAR   = 'Plage Centrale';  lugar_minuscula  = 'playa-de-la-plage-centrale-capbreton'; ?>
 
 <?php 

@@ -4,7 +4,7 @@
     <summary>Desplegar</summary>
 
     <?php $region = 'francia';
-    $carpeta = 'playadehendaya';
+    $localidad_minuscula = 'playadehendaya';
     $localidad_nombre = 'Playa de Hendaya';
     $localidad = 'Playa de Hendaya';
     $archivo_name = 'hendaya';
@@ -12,7 +12,7 @@
     include $targeta; ?>
 
     <?php
-    $carpeta = 'playadesanjuandeluz';
+    $localidad_minuscula = 'playadesanjuandeluz';
     $localidad_nombre = 'Playa de San Juan de Luz';
     $localidad = 'Playa de San Juan de Luz';
 
@@ -21,7 +21,7 @@
     include $targeta; ?>
 
     <?php
-    $carpeta = 'playadebiarritz';
+    $localidad_minuscula = 'playadebiarritz';
     $localidad_nombre = 'Playa de Biarritz';
     $localidad = 'Playa de Biarritz';
     $archivo_name = 'biarritz';

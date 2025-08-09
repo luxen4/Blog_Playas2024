@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Plage Centrale';
 $nombre_playa_minuscula   = 'plage-centrale';
-$carpeta                  = 'plagecentrale';
+$localidad_minuscula                  = 'plagecentrale';
 
 $localidad                = 'Capbreton';
 $localidad_minuscula      = 'capbreton';

@@ -1,7 +1,7 @@
 <?php
   $region = 'Bizkaia'; $region_minuscula = strtolower($region);
   $localidad = 'Ibarrangelu'; $localidad_minuscula = strtolower($localidad); 
-  $carpeta = $localidad_minuscula;
+  $localidad_minuscula = $localidad_minuscula;
   $country = 'España';
   //$localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));
 ?>

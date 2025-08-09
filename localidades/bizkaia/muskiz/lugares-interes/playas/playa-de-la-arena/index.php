@@ -1,6 +1,6 @@
 <?php
   $region = 'bizkaia'; $region_minuscula = strtolower($region);
-  $localidad = 'Muskiz'; $localidad_minuscula = strtolower($localidad); $carpeta = $localidad_minuscula;   $country = 'España';
+  $localidad = 'Muskiz'; $localidad_minuscula = strtolower($localidad); $localidad_minuscula = $localidad_minuscula;   $country = 'España';
   //$localidad_minuscula  = strtolower(str_replace(' ', '-', $localidad));  // "sonabia"
 ?>
 

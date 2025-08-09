@@ -1,6 +1,6 @@
 <?php
 $nombre_playa = 'Ostende'; $nombre_playa_minuscula = 'ostende';
-$carpeta = 'playadeostende';
+$localidad_minuscula = 'playadeostende';
 $localidad = 'Castro-Urdiales'; $localidad_minuscula = 'castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = 'cantabria'; $country= 'España';
 $rutas = 'castro-urdiales-cantabria';

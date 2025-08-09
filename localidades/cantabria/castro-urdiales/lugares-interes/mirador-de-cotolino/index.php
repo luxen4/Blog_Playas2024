@@ -1,12 +1,12 @@
 
 <?php 
 $region = "Cantabria"; $region_minuscula = strtolower($region); 
-$carpeta = 'castro-urdiales'; $carpeta_lugar = 'mirador-de-cotolino'; $nombre_sub_carpeta = 'lugares-interes';
+$localidad_minuscula = 'castro-urdiales'; $localidad_minuscula_lugar = 'mirador-de-cotolino'; $nombre_sub_carpeta = 'lugares-interes';
 COLOR_PAGE='blue';
 $title_head = 'Mirador de Cotolino | Vistas al Cantábrico en Castro-Urdiales';  
 lugar_minuscula_footer='Mirador de Cotolino - Castro-Urdiales'; ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/{$nombre_sub_carpeta}/previo.php"; ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/{$nombre_sub_carpeta}/previo.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">

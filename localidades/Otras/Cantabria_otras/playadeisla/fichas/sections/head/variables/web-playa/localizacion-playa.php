@@ -2,7 +2,7 @@
 $nombre_playa = 'Isla'; // Nombre de la playa    
 //$nombre_playa = 'Playa de Isla'; 
 $nombre_playa_minuscula = 'isla'; 
-$carpeta = 'playadeisla';
+$localidad_minuscula = 'playadeisla';
 $localidad = 'Isla'; 
 $localidad_minuscula = 'isla';
 $region = 'Cantabria';  

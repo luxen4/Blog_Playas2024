@@ -44,7 +44,7 @@ $twiterCards_url = PATH_RAIZ_LOCALIDADES_CARPETA.'/fichas/mirador-de-cotolino.ph
 
 <?php
 $descripcion = 'El Mirador de Cotolino es uno de los rincones más tranquilos y pintorescos de Castro-Urdiales, con senderos, bancos y vistas al mar.';
-$url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$carpeta}/mirador-de-cotolino.php";
+$url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$localidad_minuscula}/mirador-de-cotolino.php";
 
 $mainEntity_description = 'El Mirador de Cotolino ofrece una vista abierta del mar Cantábrico, ideal para disfrutar del paisaje y los atardeceres.';
 $mainEntity_addressLocality = $localidad;

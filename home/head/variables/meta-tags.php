@@ -1,7 +1,7 @@
 
 <?php
 $region_minuscula = "cantabria"; // o generado dinámicamente
-$carpeta = "ajo";
+$localidad_minuscula = "ajo";
 $rutas = "ajo";
 $localidad = "Ajo";
 $region = "Cantabria";

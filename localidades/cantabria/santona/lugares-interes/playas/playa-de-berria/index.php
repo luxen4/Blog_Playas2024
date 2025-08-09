@@ -1,6 +1,6 @@
 <?php
   $region = 'Cantabria'; $region_minuscula = strtolower($region);
-  $localidad = 'Santoña'; $localidad_minuscula = strtolower($localidad); $carpeta = 'santona';   $country = 'España';
+  $localidad = 'Santoña'; $localidad_minuscula = strtolower($localidad); $localidad_minuscula = 'santona';   $country = 'España';
   //$localidad_minuscula  = strtolower(str_replace(' ', '-', $localidad));  // "sonabia"
 ?>
 <?php 

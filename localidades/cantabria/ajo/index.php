@@ -1,4 +1,4 @@
-<?php define('TITLE', "Playa de Antuerta en Ajo – Turismo y Naturaleza en Cantabria 2025"); ?>
+<?php define('TITLE', "Ajo – Turismo y Naturaleza en Cantabria 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Ajo en Cantabria: playas vírgenes, miradores, rutas y el famoso Cabo de Ajo."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>
 <?php define('LUGAR', "Ajo"); ?>
@@ -15,21 +15,16 @@
 <html lang="es">
 <head>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
-
   <title>Ajo – Guía Turística y Playas</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
-
   <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-
 </head>
 
 
 <body class="bg-[url('/Blog_Playas2025/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
-
   <div class="container-xxl py-5">
     <div class="row">
 
@@ -61,13 +56,7 @@
           </div>
     </div>
   </div>
-
-
    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
-
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

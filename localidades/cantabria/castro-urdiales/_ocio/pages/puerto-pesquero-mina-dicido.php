@@ -1,5 +1,5 @@
-<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $carpeta = 'castro-urdiales'; ?>
-<?php define('PATH_HREF_CARPETA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}");?>
+<?php $region = "Cantabria"; $region_minuscula = strtolower($region); $localidad_minuscula = 'castro-urdiales'; ?>
+<?php define('PATH_HREF_CARPETA', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}");?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

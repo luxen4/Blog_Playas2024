@@ -10,6 +10,6 @@ $mainEntity_geo_latitude    = 43.3850;   // Ajusta según ubicación exacta
 $mainEntity_geo_longitude   = -3.2100;   // Ajusta según ubicación exacta
 
 // Imagen representativa y URL canónica para Playa de Gorliz
-$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/img/playa-de-gorliz.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/index.php";
+$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-gorliz.jpg";
+$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

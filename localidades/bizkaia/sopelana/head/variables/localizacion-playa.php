@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Arrietara';
 $nombre_playa_minuscula   = 'arrietara';
-$carpeta                  = 'playa-de-arrietara';
+$localidad_minuscula                  = 'playa-de-arrietara';
 
 $localidad                = 'Sopelana';
 $localidad_minuscula      = 'sopelana';

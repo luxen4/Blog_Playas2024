@@ -68,7 +68,7 @@
 
 
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
      
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',      PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/img"); ?>
@@ -112,7 +112,7 @@
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques"); ?>
 
 
-<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES',        PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes"); ?>
 
 
@@ -124,7 +124,7 @@
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/playas/".LUGAR_MINUSCULA."/img"); ?>
 
 
-<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/lugares-interes");?>
+<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
 <?php define('PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/".LUGAR_MINUSCULA."/img"); ?>
           
 
@@ -133,7 +133,7 @@
 
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
 
-<?php //define('PATH_RAIZ_LOCALIDADES_MAIN', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}/fichas/sections/main"); ?>
+<?php //define('PATH_RAIZ_LOCALIDADES_MAIN', PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}/fichas/sections/main"); ?>
 
 <?php define('SECTIONS_PAGINAS_SECUNDARIAS', './paginas-secundarias'); ?>
 

@@ -4,7 +4,7 @@
 
   $localidad = 'Castro-Urdiales';
   $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); // "castro-urdiales"
-  $carpeta = 'castro-urdiales';
+  $localidad_minuscula = 'castro-urdiales';
   $country = 'España';
 ?>
 

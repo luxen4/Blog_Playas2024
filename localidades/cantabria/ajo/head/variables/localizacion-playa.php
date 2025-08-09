@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Playa de Cuberris';
 $nombre_playa_minuscula   = 'playa-de-cuberris';
-$carpeta                  = 'playadecuberris';
+$localidad_minuscula                  = 'playadecuberris';
 
 $localidad                = 'Ajo';
 $localidad_minuscula      = 'ajo';

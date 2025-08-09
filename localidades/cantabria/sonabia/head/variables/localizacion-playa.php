@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Sonabia';
 $nombre_playa_minuscula   = 'sonabia';
-$carpeta                  = 'playadesonabia';
+$localidad_minuscula                  = 'playadesonabia';
 
 $localidad                = 'Sonabia';
 $localidad_minuscula      = 'sonabia';

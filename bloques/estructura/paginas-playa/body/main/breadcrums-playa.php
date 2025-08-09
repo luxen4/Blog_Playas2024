@@ -1,7 +1,7 @@
-<?php $carpeta=''?>
+<?php $localidad_minuscula=''?>
 <?php
 if (!defined('PATH_HREF_RAIZ_LOCALIDAD')) {
-    define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}");
+    define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}");
 }
 ?>
 

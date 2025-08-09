@@ -27,7 +27,7 @@ if (!defined('PATH_RAIZ_BLOQUES_ESTRUCTURA')) {
 
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                 PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                 PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
 
 <?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>

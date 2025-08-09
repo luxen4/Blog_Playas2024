@@ -10,6 +10,6 @@ $mainEntity_geo_latitude    = 43.4167;
 $mainEntity_geo_longitude   = -3.4533;
 
 // Imagen representativa y URL canónica para Playa de Berria
-$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/img/playa-de-berria-1.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$carpeta}/index.php";
+$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-berria-1.jpg";
+$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

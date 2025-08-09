@@ -2,7 +2,7 @@
 $nombre_playa = 'Somo - Loredo'; 
 $nombre_playa_minuscula = 'somo-loredo';
 
-$carpeta = 'playadesomoloredo';
+$localidad_minuscula = 'playadesomoloredo';
 
 $localidad = 'Ribamontán al Mar'; $localidad='Somo';
 $localidad_minuscula = 'ribamontan-al-mar'; $localidad_minuscula='somo';

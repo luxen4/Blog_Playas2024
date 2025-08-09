@@ -5,7 +5,7 @@
     <summary>Desplegar</summary>
 
     <?php
-    $carpeta = 'playadedeba';
+    $localidad_minuscula = 'playadedeba';
     $localidad_nombre = 'Playa de Deba';
     $localidad = 'Playa de Deba';
     $archivo_name = 'deba';
@@ -13,7 +13,7 @@
     include 'localidades/index.php'; ?>
     
     <?php
-    $carpeta = 'playadefuenterrabia';
+    $localidad_minuscula = 'playadefuenterrabia';
     $localidad_nombre = 'Playa de Fuenterrabia';
     $localidad = 'Playa de Fuenterrabia';
     $archivo_name = 'fuenterrabia';
@@ -22,7 +22,7 @@
 
 
     <?php
-    $carpeta = 'playadezumaia';
+    $localidad_minuscula = 'playadezumaia';
     $localidad_nombre = 'Playa de Zumaia';
     $localidad = 'Playa de Zumaia';
     $archivo_name = 'zumaia';
@@ -31,7 +31,7 @@
 
 
     <?php
-    $carpeta = 'playadegetaria';
+    $localidad_minuscula = 'playadegetaria';
     $localidad_nombre = 'Playa de Getaria';
     $localidad = 'Playa de Getaria';
     $archivo_name = 'getaria';
@@ -41,7 +41,7 @@
 
 
     <?php
-    $carpeta = 'playadeorio';
+    $localidad_minuscula = 'playadeorio';
     $localidad_nombre = 'Playa de Orio';
     $localidad = 'Playa de Orio';
     $archivo_name = 'orio';
@@ -50,7 +50,7 @@
 
     <?php
 
-    $carpeta = 'playadezarautz';
+    $localidad_minuscula = 'playadezarautz';
     $localidad_nombre = 'Playa de Zarautz';
     $localidad = 'Playa de Zarautz';
     $archivo_name = 'zarautz';

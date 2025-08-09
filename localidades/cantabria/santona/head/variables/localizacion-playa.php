@@ -1,7 +1,7 @@
 <?php
 $nombre_playa             = 'Berria';
 $nombre_playa_minuscula   = 'berria';
-$carpeta                  = 'playa-de-berria';
+$localidad_minuscula                  = 'playa-de-berria';
 
 $localidad                = 'Santona';
 $localidad_minuscula      = 'santona';

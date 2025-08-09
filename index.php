@@ -14,7 +14,7 @@
 <?php 
   $title = 'Playas del Cantabrico'; $lugar_minuscula= 'playas-cantabrico';
   $region_minuscula = 'cantabria';
-  $carpeta = '';
+  $localidad_minuscula = '';
   $lugar_minuscula_footer = 'Playas del Cantábrico';
   $lugar_minuscula = $lugar_minuscula_footer;
   define('COLOR_PAGE', 'orange');

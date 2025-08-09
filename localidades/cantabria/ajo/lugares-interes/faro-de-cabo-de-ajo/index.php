@@ -22,7 +22,7 @@
 
 
 
-<?php lugar_minuscula_footer='Faro de Cabo de Ajo'; COLOR_PAGE='orange'; $carpeta= 'faro-de-cabo-de-ajo'; ?>
+<?php lugar_minuscula_footer='Faro de Cabo de Ajo'; COLOR_PAGE='orange'; $localidad_minuscula= 'faro-de-cabo-de-ajo'; ?>
 <?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
@@ -131,7 +131,7 @@
 
 
 
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$carpeta}"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
      
 

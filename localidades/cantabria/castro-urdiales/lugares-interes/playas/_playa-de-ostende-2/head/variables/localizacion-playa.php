@@ -1,6 +1,6 @@
 <?php
 $nombre_playa = 'Ostende'; $nombre_playa_minuscula = 'ostende';
-$carpeta = 'playa-de-ostende';
+$localidad_minuscula = 'playa-de-ostende';
 $localidad = 'Castro-Urdiales'; $localidad_minuscula = 'castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = 'cantabria'; $country= 'España';
 $rutas = 'playa-de-ostende-castro-urdiales-cantabria';
@@ -11,7 +11,7 @@ $hoy = date('Y-m-d');
 
 
 $region_minuscula='cantabria'; 
-$carpeta='playa-de-ostende'; 
+$localidad_minuscula='playa-de-ostende'; 
 $name_blog = 'Turismo y Playas 2025 – Guía Costera por el Cantábrico'; 
 $author_content = 'Adrián Laya García'; 
 lugar_minuscula_footer = 'Playas del Cantábrico';

@@ -1,12 +1,12 @@
 <?php 
   $title = 'Playas del Cantabrico'; lugar_minuscula= 'playas-cantabrico';
   $region_minuscula = 'cantabria';
-  $carpeta = '';
+  $localidad_minuscula = '';
   lugar_minuscula_footer = 'Playas del Cantábrico';
   lugar_minuscula = lugar_minuscula_footer;
   COLOR_PAGE = 'orange';
 
-  $localidad_minuscula='santona'; $carpeta='santona'; lugar_minuscula='actividades-playa-deberria'; lugar_minuscula='playa-de berria';
+  $localidad_minuscula='santona'; $localidad_minuscula='santona'; lugar_minuscula='actividades-playa-deberria'; lugar_minuscula='playa-de berria';
 
   $author_content = 'Adrián Laya García'; 
 ?>

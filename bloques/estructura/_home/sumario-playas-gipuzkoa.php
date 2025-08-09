@@ -4,7 +4,7 @@
 
 
 <?php
-$carpeta = 'playa-de-santiago';
+$localidad_minuscula = 'playa-de-santiago';
 $localidad_nombre = 'Playa de Santiago';
 $localidad = 'Deba';
 $localidad_minuscula = strtolower($localidad);  // "deba"
@@ -28,7 +28,7 @@ $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_snea
 <h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= COLOR_PAGE; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
 
 
-<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>
+<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
 

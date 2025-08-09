@@ -4,7 +4,7 @@
   
   $localidad = 'Gorliz'; 
   $localidad_minuscula = strtolower($localidad); 
-  $carpeta = $localidad_minuscula;   
+  $localidad_minuscula = $localidad_minuscula;   
   $country = 'España';
   // $localidad_minuscula  = strtolower(str_replace(' ', '-', $localidad));  // "gorliz"
 ?>

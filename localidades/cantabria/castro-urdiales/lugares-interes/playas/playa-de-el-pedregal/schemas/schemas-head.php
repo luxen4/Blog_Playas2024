@@ -2,12 +2,12 @@
 $description_content = 'Descubre la Playa de El Pedregal en Castro Urdiales, una cala rocosa y tranquila, perfecta para la pesca y disfrutar de la naturaleza en Cantabria.';
 $keywords_content = 'Playa de El Pedregal, Castro Urdiales, playas rocosas Cantabria, pesca recreativa, turismo natural, playas Cantabria';
 
-$lugar = 'Playa de El Pedregal';
-$lugar_interes = 'playa-de-el-pedregal';
+LUGAR = 'Playa de El Pedregal';
+lugar_minuscula = 'playa-de-el-pedregal';
 $title = 'Playa de El Pedregal - Castro Urdiales';
 $rutas = 'playa-de-el-pedregal-castro-urdiales-cantabria';
-$color_page = 'stone'; // color para Tailwind, adapta si quieres
-$lugar_interes_footer = '- Playa de El Pedregal -';
+COLOR_PAGE = 'stone'; // color para Tailwind, adapta si quieres
+lugar_minuscula_footer = '- Playa de El Pedregal -';
 
 $latitude=43.3865; $longitude=-3.2161;
 

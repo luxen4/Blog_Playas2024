@@ -2,16 +2,16 @@
     $description_content = 'Descubre la Playa El Pedregal en Castro Urdiales, una playa tranquila de cantos rodados con un entorno natural único, ideal para desconectar y disfrutar del mar en Cantabria.';
     $keywords_content = 'Playa El Pedregal, Castro Urdiales, playa Cantabria, costa norte, playas tranquilas, mar Cantábrico, naturaleza, turismo costero, playa de piedras';
 
-    $lugar = 'Playa El Pedregal'; 
-    $lugar_interes = 'playa-el-pedregal';
+    LUGAR = 'Playa El Pedregal'; 
+    lugar_minuscula = 'playa-el-pedregal';
     $title = 'Playa El Pedregal - Castro Urdiales';
     $rutas = 'playa-el-pedregal-castro-urdiales-cantabria';
-    $color_page = 'teal'; // Puedes cambiarlo si quieres otro color representativo
-    $lugar_interes_footer = '- Playa El Pedregal -'; 
+    COLOR_PAGE = 'teal'; // Puedes cambiarlo si quieres otro color representativo
+    lugar_minuscula_footer = '- Playa El Pedregal -'; 
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
 <?php /*
-🎨 Colores principales de Tailwind (para $color_page)
+🎨 Colores principales de Tailwind (para COLOR_PAGE)
 Color	Descripción	Ejemplo visual aproximado
 blue	Azul clásico	
 #3b82f6

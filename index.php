@@ -1,10 +1,23 @@
+
+
+
+
+  <?php define('LUGAR', 'Turismo y Playas 2025'); ?>
+  <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+<?php define(
+    'KEYWORDS_CONTENT', 
+    'playas de España, playas del Cantábrico, turismo costero, turismo de playa, naturaleza y mar, costa de Cantabria, surf en España, rutas por la costa, vacaciones en la playa, turismo y naturaleza'
+);
+?>
+
+
 <?php 
-  $title = 'Playas del Cantabrico'; $lugar_interes= 'playas-cantabrico';
+  $title = 'Playas del Cantabrico'; $lugar_minuscula= 'playas-cantabrico';
   $region_minuscula = 'cantabria';
   $carpeta = '';
-  $lugar_interes_footer = 'Playas del Cantábrico';
-  $lugar_interes = $lugar_interes_footer;
-  $color_page = 'orange';
+  $lugar_minuscula_footer = 'Playas del Cantábrico';
+  $lugar_minuscula = $lugar_minuscula_footer;
+  define('COLOR_PAGE', 'orange');
 
   $localidad_minuscula='';
 
@@ -37,7 +50,7 @@
         });
     </script>
 
-<header class="bg-<?= $color_page; ?>-100 text-center py-4 mt-1 text-<?= $color_page; ?>-800 shadow-inner">
+<header class="bg-<?= COLOR_PAGE; ?>-100 text-center py-4 mt-1 text-<?= COLOR_PAGE; ?>-800 shadow-inner">
   <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
     Turismo y Playas 2025 – Guía Costera por el Cantábrico
   </h1>
@@ -100,6 +113,8 @@
   </main>
 
   <?php // require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
+
+
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
   <?php //require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
@@ -144,6 +159,6 @@ https://chatgpt.com/?model=auto
         href="<?= PATH_HREF_RAIZ.'/'.$localidad_minuscula.'-'.$region_minuscula ?>"<?php
     } else { ?>
         href= <?= PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD ."/index.php"; }?>
-        class="hover:text-<?= $color_page; ?>-600 transition-colors duration-200">
+        class="hover:text-<?= COLOR_PAGE; ?>-600 transition-colors duration-200">
     <?= $localidad; */ 
 ?>

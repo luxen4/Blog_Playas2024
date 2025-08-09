@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/ajo"
+    "https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/index.php"
   ]
 }
 </script>

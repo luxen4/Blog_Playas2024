@@ -1,6 +1,6 @@
 
 <?php $localidad = 'Saint-Jean-de-Luz';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
-<?php $lugar   = 'La Grande Plage';  $lugar_interes  = 'playa-de-la-grande-plage-saint-jean-de-luz'; ?>
+<?php LUGAR   = 'La Grande Plage';  lugar_minuscula  = 'playa-de-la-grande-plage-saint-jean-de-luz'; ?>
 
 <?php 
 $description_content = 'Descubre La Grande Plage de Saint-Jean-de-Luz en Nouvelle-Aquitaine, 

@@ -19,7 +19,7 @@ function render_playa_card($playa_name, $presentacion, $region_minuscula, $local
 
 
 <?php $region = 'Bizkaia'; $region_minuscula = strtolower($region);?>
-<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6"><?= $region; ?></h2>
+<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6"><?= $region; ?></h2>
 
 
 <?php $localidad = 'Bakio'; $localidad_minuscula = strtolower($localidad);?>

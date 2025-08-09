@@ -25,7 +25,7 @@ $carpeta = strtolower(str_replace(' ', '-', $carpeta));
 
 
 <?php $region = 'Nouvelle Aquitaine'; $region_minuscula = strtolower(str_replace(' ', '-', $region));?>
-<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6"><?= $region; ?></h2>
+<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6"><?= $region; ?></h2>
 
 
 <?php $localidad = 'Saint Jean de Luz'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>

@@ -56,10 +56,10 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Découvrez Capbreton, charmante ville portuaire de la côte atlantique, réputée pour ses plages, son port animé et ses vagues prisées des surfeurs.';
 $keywords_content = 'Capbreton, Nouvelle Aquitaine, tourisme France, plages, surf, port, côte landaise';
 
-$lugar_interes_footer = 'Capbreton, Nouvelle Aquitaine'; 
-$color_page='blue'; 
-$lugar_interes='Capbreton'; 
-$lugar_interes='Capbreton';
+lugar_minuscula_footer = 'Capbreton, Nouvelle Aquitaine'; 
+COLOR_PAGE='blue'; 
+lugar_minuscula='Capbreton'; 
+lugar_minuscula='Capbreton';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");
 define('AUTHOR', "Adrián Laya García");

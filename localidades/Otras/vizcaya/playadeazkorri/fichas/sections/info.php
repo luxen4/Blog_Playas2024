@@ -242,8 +242,8 @@ $faq = '
 
 
 <?php // Carrusel de 3 Imágenes //
-$lugar = 'playadeazkorri';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/'.$region.'/'.$lugar.'/img';
+LUGAR = 'playadeazkorri';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/'.$region.'/'.LUGAR.'/img';
 $imagenes = [
     [
         'src' => $ruta . './../img/playa-azkorri-o-gorrondatxe-ciudad-getxo-vizcaya-pais-vasco-espana.jpg',

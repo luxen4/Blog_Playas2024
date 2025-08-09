@@ -49,10 +49,10 @@ $keywords_content = 'Santoña Cantabria, playa de Berria, Monte Buciero, marisma
 ?>
 
 <?php 
-$lugar_interes_footer = 'Santoña, Cantabria'; 
-$color_page='blue'; 
-$lugar_interes='Santoña'; 
-$lugar_interes='Santoña';
+lugar_minuscula_footer = 'Santoña, Cantabria'; 
+COLOR_PAGE='blue'; 
+lugar_minuscula='Santoña'; 
+lugar_minuscula='Santoña';
 ?>
 
 <?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>

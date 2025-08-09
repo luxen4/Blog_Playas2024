@@ -2,7 +2,7 @@
 <main class="container mx-auto max-w-7xl px-1 py-1">
 <main class="container py-1 mx-auto max-w-7xl">  
   <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
-    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Puente Medieval</h1>
+    <h1 class="text-xl md:text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">Puente Medieval</h1>
 
     <p class="mb-4 text-gray-700"><strong class="text-gray-900">Puente Medieval</strong> es una histórica construcción situada en Castro Urdiales, Cantabria. Este puente es un testimonio de la arquitectura y la ingeniería medieval, y ha sido un punto de paso fundamental en la ciudad durante siglos.</p>
 
@@ -41,15 +41,15 @@
     <p class="mb-6 text-gray-700">El Puente Medieval es un símbolo de la historia y tradición de Castro Urdiales, invitando a los visitantes a descubrir su arquitectura y su importancia para la ciudad.</p>
 
     <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h5>
+      <h5 class="text-lg font-semibold text-<?= COLOR_PAGE; ?>-700 mb-2">📞 Información de contacto</h5>
       <ul class="space-y-1">
         <li><strong>Teléfono:</strong> +34 942 85 90 65</li>
-        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
+        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" class="text-<?= COLOR_PAGE; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
       </ul>
     </div>
 
     <p class="mb-8 text-gray-700">Visitar el Puente Medieval es viajar al pasado y apreciar uno de los legados arquitectónicos más importantes de Castro Urdiales.</p>
 
-    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
+    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= COLOR_PAGE; ?>-600 text-<?= COLOR_PAGE; ?>-600 rounded-full hover:bg-<?= COLOR_PAGE; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
   </div>
 </main>

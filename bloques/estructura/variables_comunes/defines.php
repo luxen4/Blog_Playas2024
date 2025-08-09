@@ -18,11 +18,16 @@
 
 <?php define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/'); ?>
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
+
+<?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA . "/img/" . LUGAR_MINUSCULA . "-{$localidad_minuscula}-{$region_minuscula}-1.jpg"); ?>
+<?php define('PATH_DOMINIO_URL', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA . "/index.php"); ?>
+
+
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD', PATH_DOMINIO_RAIZ_LOCALIDADES .$region_minuscula.'/'.$localidad_minuscula); ?>
 
 
-<?php //define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS_LUGAR_INTERES_IMG_LUGAR_INTERES_LOCALIDAD_REGION', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.$lugar_interes.'/img/'.$lugar_interes.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>
-<?php define('PATH_IMAGEN_PRESENTACION_PLAYA', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.$lugar_interes.'/img/'.$lugar_interes.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>
+<?php //define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS_LUGAR_INTERES_IMG_LUGAR_INTERES_LOCALIDAD_REGION', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.lugar_minuscula.'/img/'.lugar_minuscula.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>
+<?php define('PATH_IMAGEN_PRESENTACION_PLAYA', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.LUGAR_MINUSCULA.'/img/'.LUGAR_MINUSCULA.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>
 
 
 
@@ -71,7 +76,7 @@
 
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_SCHEMAS',             PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/schemas"); ?>
 
-<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_SCHEMAS_PLAYAS_NOMBRE_PLAYA',      PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/{$lugar_interes}/schemas"); ?>
+<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_SCHEMAS_PLAYAS_NOMBRE_PLAYA',      PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/".LUGAR_MINUSCULA."/schemas"); ?>
 
 
 
@@ -79,7 +84,7 @@
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES',            PATH_RAIZ_LOCALIDADES_CARPETA. "/head/variables"); ?>
 
 
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_META_TAGS',             PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/{$lugar_interes}/head/"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_META_TAGS',            PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. '/'.LUGAR_MINUSCULA.'/head/'); ?>
 
 
 
@@ -93,11 +98,11 @@
 <?php define('PATH_RAIZ_LOCALIDADES_SECTIONS_VARIABLES',                PATH_RAIZ_LOCALIDADES_CARPETA. '/paginas-secundarias/sections/variables'); ?>
 
 
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_TEMA',                      PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/{$lugar_interes}"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_TEMA',                      PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/".LUGAR_MINUSCULA.""); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA', PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS.'/eventos-festividades'); ?>
-<?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA',                PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/{$lugar_interes}"); ?>
+<?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_SUBCARPETA',                PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/".LUGAR_MINUSCULA.""); ?>
 <?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_COMO_LLEGAR',               PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/como-llegar"); ?>
-<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META',                                PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/{$lugar_interes}/head"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META',                                PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/".LUGAR_MINUSCULA."/head"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_HEADER',                    PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/header"); ?>
 
 
@@ -114,13 +119,13 @@
 
 
 
-<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/{$lugar_interes}/img"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/".LUGAR_MINUSCULA."/img"); ?>
 
-<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/playas/{$lugar_interes}/img"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/playas/".LUGAR_MINUSCULA."/img"); ?>
 
 
 <?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2025/localidades/{$region_minuscula}/{$carpeta}/lugares-interes");?>
-<?php define('PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/{$lugar_interes}/img"); ?>
+<?php define('PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/".LUGAR_MINUSCULA."/img"); ?>
           
 
 <?php //define('PATH_RAIZ_LOCALIDADES_CARPETA_SECTIONS_VARIABLES', PATH_RAIZ_LOCALIDADES_CARPETA. "/fichas/sections/variables"); ?>

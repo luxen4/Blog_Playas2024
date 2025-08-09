@@ -2,7 +2,7 @@
   <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemscope itemtype="https://schema.org/Church">
 
     <header>
-      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-4" itemprop="name">Iglesia de Santa María de la Asunción</h1>
+      <h1 class="text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-4" itemprop="name">Iglesia de Santa María de la Asunción</h1>
       <p class="text-sm text-gray-500">
         <i class="fas fa-map-marker-alt text-blue-500"></i> Calle Santa María, s/n – 39700 Castro Urdiales, Cantabria
       </p>
@@ -14,7 +14,7 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">✨ Elementos arquitectónicos destacados</h2>
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">✨ Elementos arquitectónicos destacados</h2>
       <ul class="list-disc list-inside space-y-2">
         <li><strong>Ábside y girola:</strong> Decoración gótica con gran riqueza escultórica.</li>
         <li><strong>Puerta del Perdón:</strong> Acceso lateral con arcos ojivales y capiteles labrados.</li>
@@ -23,7 +23,7 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">🕍 Actividades y servicios disponibles</h2>
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">🕍 Actividades y servicios disponibles</h2>
       <ul class="list-disc list-inside space-y-2">
         <li>Visitas turísticas guiadas y libres</li>
         <li>Celebraciones religiosas (misas, bodas, bautizos)</li>
@@ -50,11 +50,11 @@
     <p class="text-center text-sm text-gray-500 mb-8">Imágenes de la Iglesia de Santa María de la Asunción en Castro Urdiales</p>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h2>
+      <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-2">📞 Información de contacto</h2>
       <ul class="space-y-1">
         <li><strong>Teléfono:</strong> +34 942 86 97 11</li>
         <li><strong>Sitio web:</strong>
-          <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener" class="text-<?= $color_page; ?>-500 hover:underline">
+          <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener" class="text-<?= COLOR_PAGE; ?>-500 hover:underline">
             www.turismocastrourdiales.net
           </a>
         </li>
@@ -67,7 +67,7 @@
 
     <footer class="text-center mt-6">
       <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php"
-         class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">
+         class="inline-block px-6 py-2 border border-<?= COLOR_PAGE; ?>-600 text-<?= COLOR_PAGE; ?>-600 rounded-full hover:bg-<?= COLOR_PAGE; ?>-600 hover:text-white transition">
         ← Volver a lugares de interés
       </a>
     </footer>

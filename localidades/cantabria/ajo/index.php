@@ -1,7 +1,19 @@
+<?php define('TITLE', "Playa de Antuerta en Ajo – Turismo y Naturaleza en Cantabria 2025"); ?>
+<?php define('DESCRIPTION', "Descubre la Playa de Antuerta en Ajo: un paraíso natural de arena fina, acantilados impresionantes y aguas del Cantábrico perfectas para desconectar y disfrutar de la naturaleza."); ?>
+<?php define('COLOR_PAGE', "sky"); ?>
+<?php define('LUGAR', "Ajo"); ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+<?php define('KEYWORDS_CONTENT', 'Playa de Antuerta, Ajo, playas Cantabria, surf Cantabria, naturaleza, costa de Cantabria, turismo natural, playa salvaje') ?>
 
-<?php $localidad = 'Ajo'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
-$lugar='Ruta de la Costa Oriental';
-?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-localidad.php"; ?>
+
+<?php //$localidad = 'Ajo'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); ?>
+
+<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
+<?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "cantabria/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA . "/img/" . LUGAR_MINUSCULA . "-{$localidad_minuscula}-{$region_minuscula}-1.jpg"); ?>
+<?php define('PATH_DOMINIO_URL', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA . "/index.php"); ?>
+
+
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/variables-generales-region.php"; ?>
 
 <?php define('NAME_BLOG', "Blog Playas Cantábrico"); ?>
@@ -35,10 +47,14 @@ $lugar='Ruta de la Costa Oriental';
 <?php define('HOY', date('Y-m-d')); ?>
 <?php define('IDIOMA_LOCAL', 'es_ES'); ?>
 
+<?php //define('NOMBRE_PROYECTO', '/Blog_Playas2025'); ?>
+<?php define('SUMARY_LARGE_IMAGE', 'sumary_large_image'); ?>
+<?php define('CARD_SITE', '@laya_garcia'); ?>
+
+
 <?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades"); ?>
 
 <?php define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables'); ?>
-<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
 <?php define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/'); ?>
 
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
@@ -46,10 +62,10 @@ $lugar='Ruta de la Costa Oriental';
 
 <?php
 $description_content = 'Descubre la Ruta de la Costa Oriental de Ajo en Cantabria: un recorrido escénico entre acantilados, naturaleza salvaje y vistas al Faro de Ajo. Ideal para senderistas y amantes del mar.';
-$keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, Faro de Ajo, rutas costeras, naturaleza Cantabria, turismo Ajo, rutas a pie Cantabria';
+//$keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, Faro de Ajo, rutas costeras, naturaleza Cantabria, turismo Ajo, rutas a pie Cantabria';
 ?>
 
-<?php $lugar_interes_footer = 'Ajo, Cantabria'; $color_page='orange'; $lugar_interes='Ajo'; $lugar_interes='Ajo';?>
+<?php //lugar_minuscula_footer = 'Ajo, Cantabria'; COLOR_PAGE='orange'; lugar_minuscula='Ajo'; lugar_minuscula='Ajo';?>
 
 
 
@@ -125,7 +141,10 @@ $keywords_content = 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, F
   </div>
 
 
-   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
+   <?php 
+   
+
+   require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
 
 

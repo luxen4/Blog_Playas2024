@@ -1,5 +1,5 @@
 <?php
-$lugar = 'playadeostende'; 
+LUGAR = 'playadeostende'; 
 $nombre_playa_region = 'playa-de-ostende-castro-urdiales-cantabria';
 
 

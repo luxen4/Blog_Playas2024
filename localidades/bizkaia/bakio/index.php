@@ -49,10 +49,10 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 $description_content = 'Descubre la Playa de Bakio, en Bizkaia: un arenal amplio ideal para surfistas y familias, rodeado de montañas verdes y cercano a San Juan de Gaztelugatxe.';
 $keywords_content = 'Playa de Bakio, Bizkaia, surf, turismo Bizkaia, playas del País Vasco, San Juan de Gaztelugatxe, naturaleza Bizkaia';
 
-$lugar_interes_footer = 'Bakio, Bizkaia'; 
-$color_page='blue'; 
-$lugar_interes='Bakio'; 
-$lugar_interes='Bakio';
+lugar_minuscula_footer = 'Bakio, Bizkaia'; 
+COLOR_PAGE='blue'; 
+lugar_minuscula='Bakio'; 
+lugar_minuscula='Bakio';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");
 define('AUTHOR', "Adrián Laya García");

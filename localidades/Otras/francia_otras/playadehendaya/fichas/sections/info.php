@@ -157,8 +157,8 @@
 '; ?>
 
 
-<?php $lugar = 'francia/playadehendaya'; 
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/' . $lugar . '/img';
+<?php LUGAR = 'francia/playadehendaya'; 
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/' . LUGAR . '/img';
 
     $imagenes = [
         [

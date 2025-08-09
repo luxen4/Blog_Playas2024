@@ -56,10 +56,10 @@ define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades');
 $description_content = 'Découvrez Biarritz, station balnéaire emblématique de la Nouvelle-Aquitaine, connue pour ses plages de surf, son architecture élégante et son ambiance cosmopolite.';
 $keywords_content = 'Biarritz, Nouvelle Aquitaine, tourisme France, plages, surf, côte basque, ville élégante';
 
-$lugar_interes_footer = 'Biarritz, Nouvelle Aquitaine'; 
-$color_page='blue'; 
-$lugar_interes='Biarritz'; 
-$lugar_interes='Biarritz';
+lugar_minuscula_footer = 'Biarritz, Nouvelle Aquitaine'; 
+COLOR_PAGE='blue'; 
+lugar_minuscula='Biarritz'; 
+lugar_minuscula='Biarritz';
 
 define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");
 define('AUTHOR', "Adrián Laya García");

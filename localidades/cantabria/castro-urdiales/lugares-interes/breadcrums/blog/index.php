@@ -1,2 +1,2 @@
-<?php $lugar_interes = 'blog'; ?>
+<?php lugar_minuscula = 'blog'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/castro-urdiales/lugares-interes/index-generico.php"; ?>

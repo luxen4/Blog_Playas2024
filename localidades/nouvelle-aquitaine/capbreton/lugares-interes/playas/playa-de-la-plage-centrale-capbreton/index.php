@@ -1,5 +1,5 @@
 <?php $localidad = 'Capbreton';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
-<?php $lugar   = 'Plage Centrale';  $lugar_interes  = 'playa-de-la-plage-centrale-capbreton'; ?>
+<?php LUGAR   = 'Plage Centrale';  lugar_minuscula  = 'playa-de-la-plage-centrale-capbreton'; ?>
 
 <?php 
   // Variables para SEO y contenido

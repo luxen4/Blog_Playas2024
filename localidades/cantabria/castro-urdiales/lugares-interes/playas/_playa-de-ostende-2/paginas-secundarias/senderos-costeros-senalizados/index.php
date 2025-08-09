@@ -1,2 +1,2 @@
-<?php $title='Senderos Costeros Señalizados'; $lugar_interes='senderos-costeros-senalizados'; $color_page = 'orange'; ?>
+<?php $title='Senderos Costeros Señalizados'; lugar_minuscula='senderos-costeros-senalizados'; COLOR_PAGE = 'orange'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/playa-de-ostende/paginas-secundarias/previo.php"; ?>

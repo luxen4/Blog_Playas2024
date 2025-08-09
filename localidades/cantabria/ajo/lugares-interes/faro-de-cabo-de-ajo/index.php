@@ -22,7 +22,7 @@
 
 
 
-<?php $lugar_interes_footer='Faro de Cabo de Ajo'; $color_page='orange'; $carpeta= 'faro-de-cabo-de-ajo'; ?>
+<?php lugar_minuscula_footer='Faro de Cabo de Ajo'; COLOR_PAGE='orange'; $carpeta= 'faro-de-cabo-de-ajo'; ?>
 <?php define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
@@ -57,10 +57,10 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-  <header class="bg-<?= $color_page; ?>-100 py-6 shadow-sm">
+  <header class="bg-<?= COLOR_PAGE; ?>-100 py-6 shadow-sm">
     <div class="max-w-6xl mx-auto px-4 text-center">
-      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-800">Faro del Cabo de Ajo</h1>
-      <p class="mt-2 text-sm text-<?= $color_page; ?>-700">Ajo, Cantabria – Naturaleza, arte y vistas al Cantábrico</p>
+      <h1 class="text-3xl font-bold text-<?= COLOR_PAGE; ?>-800">Faro del Cabo de Ajo</h1>
+      <p class="mt-2 text-sm text-<?= COLOR_PAGE; ?>-700">Ajo, Cantabria – Naturaleza, arte y vistas al Cantábrico</p>
     </div>
   </header>
 
@@ -99,17 +99,17 @@
       </section>
 
     <section class="mt-10">
-      <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-4">Información práctica</h2>
+      <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">Información práctica</h2>
       <ul class="list-disc list-inside space-y-2 text-gray-700">
         <li><i class="bi bi-clock-fill text-yellow-500 mr-2"></i>Abierto al público todo el año (zona exterior)</li>
         <li><i class="bi bi-geo-alt-fill text-red-500 mr-2"></i><strong>Ubicación:</strong> Cabo de Ajo, Bareyo, Cantabria</li>
-        <li><i class="bi bi-car-front-fill text-<?= $color_page; ?>-500 mr-2"></i>Aparcamiento cercano disponible</li>
+        <li><i class="bi bi-car-front-fill text-<?= COLOR_PAGE; ?>-500 mr-2"></i>Aparcamiento cercano disponible</li>
       </ul>
     </section>
 
     <section class="mt-10">
-      <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-4">Enlaces útiles</h2>
-      <ul class="space-y-2 text-sm text-<?= $color_page; ?>-600 underline">
+      <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">Enlaces útiles</h2>
+      <ul class="space-y-2 text-sm text-<?= COLOR_PAGE; ?>-600 underline">
         <li><a href="https://turismodecantabria.com" target="_blank" rel="noopener">⛵ Turismo de Cantabria</a></li>
         <li><a href="https://bareyo.org" target="_blank" rel="noopener">🏞️ Ayuntamiento de Bareyo</a></li>
         <li><a href="https://www.google.com/maps?q=faro+de+ajo" target="_blank" rel="noopener">🗺️ Ver en Google Maps</a></li>

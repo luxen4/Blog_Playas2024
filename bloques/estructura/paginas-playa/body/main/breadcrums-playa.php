@@ -62,30 +62,33 @@ if (!defined('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES')) {
 </style>
 
 
-
 <?php
-function generarNavSecundaria($items = []) {
-    if (empty($items)) return '';
+if (!function_exists('generarNavSecundaria')) {
+    function generarNavSecundaria($items = []) {
+        if (empty($items)) return '';
 
-    $html = '<nav class="d-lg-none" aria-label="Navegación secundaria">';
-    $html .= '<ul class="pseudo-nav-horizontal">';
+        $html = '<nav class="d-lg-none" aria-label="Navegación secundaria">';
+        $html .= '<ul class="pseudo-nav-horizontal">';
 
-    foreach ($items as $item) {
-        $slug = $item['slug'] ?? '#';
-        $texto = $item['texto'] ?? '';
-        $icono = $item['icono'] ?? '';
-        $color = $item['color'] ?? '#2980b9';
+        foreach ($items as $item) {
+            $slug = $item['slug'] ?? '#';
+            $texto = $item['texto'] ?? '';
+            $icono = $item['icono'] ?? '';
+            $color = $item['color'] ?? '#2980b9';
 
-        $href = PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . ltrim($slug, '/');
-        $iconoHTML = $icono ? $icono . ' ' : '';
+            $href = PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES . '/' . ltrim($slug, '/');
+            $iconoHTML = $icono ? $icono . ' ' : '';
 
-        $html .= '<li><a href="' . htmlspecialchars($href) . '" style="color:' . htmlspecialchars($color) . ';">' . $iconoHTML . htmlspecialchars($texto) . '</a></li>';
+            $html .= '<li><a href="' . htmlspecialchars($href) . '" style="color:' . htmlspecialchars($color) . ';">' 
+                   . $iconoHTML . htmlspecialchars($texto) . '</a></li>';
+        }
+
+        $html .= '</ul></nav>';
+        return $html;
     }
-
-    $html .= '</ul></nav>';
-    return $html;
 }
 ?>
+
 
 <?php /*=  generarNavSecundaria([
     ['slug' => 'restaurantes/index.php', 'texto' => 'Restaurantes', 'icono' => '🍽️'],

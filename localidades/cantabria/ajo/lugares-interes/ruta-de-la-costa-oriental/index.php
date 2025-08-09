@@ -1,4 +1,4 @@
-<?php $lugar   = 'Ruta de la Costa Oriental, Ajo';  $lugar_interes  = 'ruta-de-la-costa-oriental'; ?>
+<?php LUGAR   = 'Ruta de la Costa Oriental, Ajo';  lugar_minuscula  = 'ruta-de-la-costa-oriental'; ?>
 
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-localidad.php"; ?>
 <?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
@@ -29,9 +29,9 @@
 <?php require PATH_RAIZ_LOCALIDADES . "/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/head/variables/_meta_tagsa.php"; ?>
 
 
-<?php $lugar_interes_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
-<?php $color_page = 'green'; 
-$lugar_interes='Ajo'; ?>
+<?php lugar_minuscula_footer = 'Ruta de la Costa Oriental de Ajo'; ?>
+<?php COLOR_PAGE = 'green'; 
+lugar_minuscula='Ajo'; ?>
 
 <?php
 $description_content = 'Explora la Ruta de la Costa Oriental de Ajo, Cantabria: acantilados, playas vírgenes, naturaleza salvaje y vistas al Cantábrico. Ideal para senderistas y amantes del mar.';

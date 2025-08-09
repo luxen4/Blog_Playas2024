@@ -1,8 +1,8 @@
 
 <?php // Variables para la página de la Playa de Ostende ?>
-<?php $region_minuscula = 'cantabria'; $carpeta = 'playa-de-ostende'; $lugar_interes='playa-de-ostende'; 
-$lugar_interes_footer='Playa de Ostende -Castro-Urdiales-';
-$color_page='blue';
+<?php $region_minuscula = 'cantabria'; $carpeta = 'playa-de-ostende'; lugar_minuscula='playa-de-ostende'; 
+lugar_minuscula_footer='Playa de Ostende -Castro-Urdiales-';
+COLOR_PAGE='blue';
 $title = 'Playa de Ostende – Castro-Urdiales';?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>

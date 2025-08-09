@@ -2,7 +2,7 @@
 <main class="container mx-auto max-w-7xl px-1 py-1">
   <section class="bg-white rounded-2xl shadow-md p-4 md:p-6">
     
-    <h1 class="text-2xl md:text-3xl font-bold text-<?= $color_page; ?>-700 mb-6">
+    <h1 class="text-2xl md:text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-6">
       🌊 Paseo Marítimo de Castro Urdiales: vistas impresionantes del Cantábrico
     </h1>
 
@@ -24,14 +24,14 @@
       A lo largo de su recorrido, los visitantes pueden disfrutar de vistas únicas, como la silueta de la Iglesia de Santa María y el Castillo de Santa Ana, especialmente impresionantes al atardecer.
     </p>
 
-    <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-3">✨ Elementos destacados del Paseo Marítimo</h2>
+    <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">✨ Elementos destacados del Paseo Marítimo</h2>
     <ul class="list-disc list-inside space-y-1 text-gray-700 mb-4">
       <li><strong>Vistas panorámicas:</strong> Del mar, los acantilados y el centro histórico de Castro Urdiales.</li>
       <li><strong>Esculturas y bancos:</strong> Áreas de descanso con vistas espectaculares para disfrutar del paisaje.</li>
       <li><strong>Iluminación nocturna:</strong> Un paseo igualmente seguro y bello durante la noche.</li>
     </ul>
 
-    <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-3">🎯 Actividades y servicios disponibles</h2>
+    <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">🎯 Actividades y servicios disponibles</h2>
     <ul class="list-disc list-inside space-y-1 text-gray-700 mb-6">
       <li>🚶‍♂️ Paseos a pie o en bicicleta</li>
       <li>📸 Fotografía de paisajes marítimos y urbanos</li>
@@ -55,10 +55,10 @@
     </p>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-xl font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h2>
+      <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-2">📞 Información de contacto</h2>
       <ul class="space-y-1">
-        <li><strong>Teléfono:</strong> <a href="tel:+34942859065" class="text-<?= $color_page; ?>-500 hover:underline">+34 942 85 90 65</a></li>
-        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
+        <li><strong>Teléfono:</strong> <a href="tel:+34942859065" class="text-<?= COLOR_PAGE; ?>-500 hover:underline">+34 942 85 90 65</a></li>
+        <li><strong>Sitio web:</strong> <a href="https://www.turismocastrourdiales.net" target="_blank" rel="noopener noreferrer" class="text-<?= COLOR_PAGE; ?>-500 hover:underline">www.turismocastrourdiales.net</a></li>
       </ul>
     </section>
 
@@ -67,7 +67,7 @@
     </p>
 
     <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" 
-       class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition"
+       class="inline-block px-6 py-2 border border-<?= COLOR_PAGE; ?>-600 text-<?= COLOR_PAGE; ?>-600 rounded-full hover:bg-<?= COLOR_PAGE; ?>-600 hover:text-white transition"
        title="Volver a lugares de interés">
       ← Volver a lugares de interés
     </a>

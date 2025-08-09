@@ -1,10 +1,10 @@
 <main class="container mx-auto max-w-7xl px-4 py-8" itemscope itemtype="https://schema.org/TouristAttraction">
   <article class="bg-white rounded-2xl shadow-lg p-6 md:p-10" itemprop="description">
     <header>
-      <h1 class="text-3xl md:text-4xl font-extrabold text-<?= $color_page; ?>-700 mb-6" itemprop="name">Playa El Pedregal</h1>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-<?= COLOR_PAGE; ?>-700 mb-6" itemprop="name">Playa El Pedregal</h1>
       <p class="text-gray-600 mb-4">
         <strong class="text-gray-900">La Playa El Pedregal</strong> es una pequeña cala de cantos rodados ubicada en 
-        <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>" class="text-<?= $color_page; ?>-600 hover:underline" itemprop="addressLocality" aria-label="Castro Urdiales">Castro Urdiales</a>, Cantabria. Su entorno natural y tranquilo la convierte en un lugar ideal para desconectar del bullicio y disfrutar del mar Cantábrico en un ambiente relajado.
+        <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>" class="text-<?= COLOR_PAGE; ?>-600 hover:underline" itemprop="addressLocality" aria-label="Castro Urdiales">Castro Urdiales</a>, Cantabria. Su entorno natural y tranquilo la convierte en un lugar ideal para desconectar del bullicio y disfrutar del mar Cantábrico en un ambiente relajado.
       </p>
     </header>
 
@@ -15,8 +15,8 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3 flex items-center gap-2">
-        <svg class="w-6 h-6 text-<?= $color_page; ?>-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3 flex items-center gap-2">
+        <svg class="w-6 h-6 text-<?= COLOR_PAGE; ?>-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
           <path d="M6 2a1 1 0 00-1 1v3H3a1 1 0 000 2h2v3a1 1 0 002 0V8h3a1 1 0 100-2H7V3a1 1 0 00-1-1z" />
         </svg>
         Ubicación
@@ -28,8 +28,8 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3 flex items-center gap-2">
-        <svg class="w-6 h-6 text-<?= $color_page; ?>-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3 flex items-center gap-2">
+        <svg class="w-6 h-6 text-<?= COLOR_PAGE; ?>-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
           <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-4h2v2h-2v-2zm0-8h2v6h-2V6z" />
         </svg>
         Características destacadas
@@ -37,7 +37,7 @@
       <ul class="list-disc list-inside space-y-2">
         <li><strong>Tipo de playa:</strong> Cantos rodados y rocas</li>
         <li><strong>Ambiente:</strong> Tranquilo y natural</li>
-        <li><strong>Accesibilidad:</strong> A pie, con <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>/senderos-costero" class="text-<?= $color_page; ?>-600 hover:underline">senderos costeros</a> cercanos</li>
+        <li><strong>Accesibilidad:</strong> A pie, con <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>/senderos-costero" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">senderos costeros</a> cercanos</li>
         <li><strong>Ideal para:</strong> Relajación, fotografía, pesca recreativa</li>
       </ul>
     </section>
@@ -58,16 +58,16 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3 flex items-center gap-2">
-        <svg class="w-6 h-6 text-<?= $color_page; ?>-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3 flex items-center gap-2">
+        <svg class="w-6 h-6 text-<?= COLOR_PAGE; ?>-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
           <path d="M12 8c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm-2 6a6 6 0 00-6-6v2a4 4 0 014 4h2z" />
         </svg>
         Cómo llegar
       </h2>
       <ul class="list-disc list-inside space-y-2">
-        <li><span class="font-semibold">A pie:</span> Desde el centro de <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>" class="text-<?= $color_page; ?>-600 hover:underline">Castro Urdiales</a> por el paseo marítimo hacia Brazomar</li>
+        <li><span class="font-semibold">A pie:</span> Desde el centro de <a href="<?= PATH_HREF_RAIZ_LOCALIDAD ?>" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">Castro Urdiales</a> por el paseo marítimo hacia Brazomar</li>
         <li><span class="font-semibold">En coche:</span> Aparcamiento cercano en zonas residenciales</li>
-        <li><span class="font-semibold">Coordenadas GPS:</span> <a href="https://www.google.com/maps?q=43.3865,-3.2161" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-600 hover:underline">43.3865, -3.2161</a></li>
+        <li><span class="font-semibold">Coordenadas GPS:</span> <a href="https://www.google.com/maps?q=43.3865,-3.2161" target="_blank" rel="noopener noreferrer" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">43.3865, -3.2161</a></li>
       </ul>
     </section>
 

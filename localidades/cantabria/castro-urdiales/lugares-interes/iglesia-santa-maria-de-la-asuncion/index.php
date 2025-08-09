@@ -1,2 +1,2 @@
-<?php $lugar_interes = 'iglesia-santa-maria-de-la-asuncion'; ?>
+<?php lugar_minuscula = 'iglesia-santa-maria-de-la-asuncion'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/cantabria/castro-urdiales/lugares-interes/index-generico.php"; ?>

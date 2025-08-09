@@ -1,15 +1,15 @@
 <?php 
-$latitude  = 43.497053834843534;  
-$longitude = -3.6201546712108055; 
+$latitude  = 43.4969130559984;  
+$longitude = -3.615244330066511; 
 
-// Variables para el schema – Playa de Antuerta
-$schemaTitle       = "Playa de Antuerta - Ajo";
-$schemaDescription = "Descubre la Playa de Antuerta en Ajo, Cantabria: una playa salvaje, tranquila y rodeada de naturaleza, ideal para senderismo y desconexión.";
-$schemaUrl         = "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-antuerta"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-antuerta-1.jpg";       // Cambia por la URL real de la imagen principal
+// Variables para el schema – Playa de Cuberris
+$schemaTitle       = "Playa de Cuberris - Ajo";
+$schemaDescription = "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa de arena dorada popular para el surf, rodeada de un entorno natural protegido.";
+$schemaUrl         = "https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/ajo/index.php"; // Cambia por la URL real
+$schemaImage       = "https://www.tu-dominio.com/images/playa-de-cuberris-1.jpg";       // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"         => "PostalAddress",
-    "streetAddress" => "Playa de Antuerta",
+    "streetAddress" => "Playa de Cuberris",
     "addressLocality" => "Ajo",
     "addressRegion"   => "Cantabria",
     "postalCode"      => "39749",

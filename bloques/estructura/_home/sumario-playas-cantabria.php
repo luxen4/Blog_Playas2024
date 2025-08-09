@@ -3,7 +3,7 @@
 
 
 <?php $region = 'Cantabria'; $region_minuscula = strtolower($region);?>
-<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6"><?= $region; ?></h2>
+<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6"><?= $region; ?></h2>
 
 <?php $localidad = 'Ajo';    $localidad_minuscula = strtolower($localidad);?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>

@@ -232,8 +232,8 @@ $faq = '
 
 
 <?php // Carrusel de 3 Imágenes //
-$lugar = 'playadegetxo';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/vizcaya/'.$lugar.'/img'; ?>
+LUGAR = 'playadegetxo';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2025/localidades/vizcaya/'.LUGAR.'/img'; ?>
 
 
 <?php

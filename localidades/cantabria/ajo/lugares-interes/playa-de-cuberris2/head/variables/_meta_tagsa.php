@@ -19,8 +19,8 @@ $twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula
 // Open Graph
 $graph_Meta_Tags_property_title        = 'Ruta de la Costa Oriental – Ajo, Cantabria';
 $graph_Meta_Tags_property_description  = 'Descubre la Ruta de la Costa Oriental de Ajo: senderos entre el mar y los acantilados, perfectos para conectar con la naturaleza del norte de España.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . "/lugares-interes/{$lugar_interes}/img/{$lugar_interes}.jpg";
+$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . "/lugares-interes/".LUGAR_MINUSCULA."/img/".LUGAR_MINUSCULA.".jpg";
 
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . "/lugares-interes/{$lugar_interes}/index.php"; 
+$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . "/lugares-interes/".LUGAR_MINUSCULA."/index.php"; 
 echo($graph_Meta_Tags_property_image);?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD. '/graph_Meta_Tags_property-generico.php'; ?>

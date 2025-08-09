@@ -1,9 +1,9 @@
 
 
-<?php $lugar_interes = 'castro-urdiales';
+<?php lugar_minuscula = 'castro-urdiales';
 $localidad = 'Castro-Urdiales'; $localidad_minuscula = strtolower($localidad); $carpeta = $localidad_minuscula;
 $region = 'Cantabria'; $region_minuscula = strtolower($region); $country= 'España';
-$lugar_interes = 'Información Castro-Urdiales';
+lugar_minuscula = 'Información Castro-Urdiales';
 $title = 'Castro Urdiales – Guía Turística y Playas';
 
 //$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
@@ -11,8 +11,8 @@ $description_content = 'Explora Castro Urdiales: historia, playas (Ostende, Braz
 $keywords_content = 'Castro Urdiales, turismo Cantabria, playas Castro Urdiales, Ostende, Brazomar, El Pedregal, senderismo, gastronomía Cantabria, eventos Castro Urdiales';
 
 $rutas = 'cantabria';
-$color_page = 'blue';
-$lugar_interes_footer = '- Castro-Urdiales Turismo -'; 
+COLOR_PAGE = 'blue';
+lugar_minuscula_footer = '- Castro-Urdiales Turismo -'; 
 ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
@@ -40,7 +40,7 @@ $lugar_interes_footer = '- Castro-Urdiales Turismo -';
       <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
 
       <header class="mb-10">
-        <div class="bg-gradient-to-r from-<?= $color_page; ?>-600 via-sky-500 to-cyan-400 text-white text-center p-8 rounded-lg shadow-lg">
+        <div class="bg-gradient-to-r from-<?= COLOR_PAGE; ?>-600 via-sky-500 to-cyan-400 text-white text-center p-8 rounded-lg shadow-lg">
           <h1 class="text-4xl md:text-5xl font-extrabold mb-3 flex justify-center items-center gap-3">
             <i class="fas fa-map-marked-alt"></i> Castro-Urdiales
           </h1>
@@ -65,12 +65,12 @@ $lugar_interes_footer = '- Castro-Urdiales Turismo -';
       <!-- Sección Lugares de Interés -->
       <section id="lugares-interes" class="my-10">
         <div class="text-center mb-6">
-          <h2 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-2">📍 Lugares de Interés en Castro Urdiales</h2>
+          <h2 class="text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-2">📍 Lugares de Interés en Castro Urdiales</h2>
           <p class="text-gray-600">Descubre los rincones más icónicos de la ciudad.</p>
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <?php
-              $lugares = [
+              LUGARes = [
                 'Asador La Perla' => 'asador-la-perla',
                 'Castillo de Santa Ana' => 'castillo-santa-ana',
                 'Club Náutico' => 'club-nautico',
@@ -85,7 +85,7 @@ $lugar_interes_footer = '- Castro-Urdiales Turismo -';
                 'Puerto de Castro Urdiales' => 'puerto-pesquero'
               ];
 
-              foreach ($lugares as $nombre => $ruta) {
+              foreach (LUGARes as $nombre => $ruta) {
                   if ($_SERVER['SERVER_NAME'] === 'localhost') {
                       // Ruta para entorno local
                       echo '<div class="col">

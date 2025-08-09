@@ -12,13 +12,13 @@
     $description_content = 'Descubre la Playa de Ostende en Castro-Urdiales, Cantabria: una playa urbana amplia y de fácil acceso, perfecta para familias. Ofrece servicios completos, paseo marítimo, vigilancia, y vistas al mar Cantábrico.';
     $keywords_content    = 'Playa de Ostende, Castro-Urdiales, playas Cantabria, playa urbana, costa de Cantabria, turismo Castro Urdiales, playa accesible, servicios playa, paseo marítimo';
 
-    $lugar   = 'Playa de Ostende'; 
-    $lugar_interes  = 'playa-de-ostende';
-    $lugar_interes           = $lugar_interes;
-    $title          = $lugar . ' - ' . $localidad . ', ' . $region;
-    $rutas          = $lugar_interes . ' -' . $localidad_minuscula . '-' . $region_minuscula;
-    $color_page     = 'sky';
-    $lugar_interes_footer    = '- ' . $lugar . ' -'; 
+    LUGAR   = 'Playa de Ostende'; 
+    lugar_minuscula  = 'playa-de-ostende';
+    lugar_minuscula           = lugar_minuscula;
+    $title          = LUGAR . ' - ' . $localidad . ', ' . $region;
+    $rutas          = lugar_minuscula . ' -' . $localidad_minuscula . '-' . $region_minuscula;
+    COLOR_PAGE     = 'sky';
+    lugar_minuscula_footer    = '- ' . LUGAR . ' -'; 
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>

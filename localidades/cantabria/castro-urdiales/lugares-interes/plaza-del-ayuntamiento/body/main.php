@@ -1,7 +1,7 @@
 <!-- Main Content Section (Centered) Contenido principal -->
 <main class="container py-1 mx-auto max-w-7xl">  
   <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
-    <h1 class="text-xl md:text-2xl font-semibold text-<?= $color_page; ?>-700 mb-4">Plaza del Ayuntamiento</h1>
+    <h1 class="text-xl md:text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">Plaza del Ayuntamiento</h1>
 
     <p class="mb-4 text-gray-700"><strong class="text-gray-900">La Plaza del Ayuntamiento</strong> es uno de los lugares más emblemáticos de Castro Urdiales. Situada en pleno centro histórico, esta plaza es el corazón de la vida social y cultural del municipio.</p>
 
@@ -40,15 +40,15 @@
     <p class="mb-6 text-gray-700">Visitar la Plaza del Ayuntamiento es disfrutar del ambiente local, la arquitectura y la vida cotidiana de Castro Urdiales.</p>
 
     <div class="mb-6 text-gray-700">
-      <h5 class="text-lg font-semibold text-<?= $color_page; ?>-700 mb-2">📞 Información de contacto</h5>
+      <h5 class="text-lg font-semibold text-<?= COLOR_PAGE; ?>-700 mb-2">📞 Información de contacto</h5>
       <ul class="space-y-1">
         <li><strong>Teléfono del Ayuntamiento:</strong> +34 942 78 29 00</li>
-        <li><strong>Sitio web oficial:</strong> <a href="https://www.castro-urdiales.net" target="_blank" class="text-<?= $color_page; ?>-500 hover:underline">www.castro-urdiales.net</a></li>
+        <li><strong>Sitio web oficial:</strong> <a href="https://www.castro-urdiales.net" target="_blank" class="text-<?= COLOR_PAGE; ?>-500 hover:underline">www.castro-urdiales.net</a></li>
       </ul>
     </div>
 
     <p class="mb-8 text-gray-700">La Plaza del Ayuntamiento representa el alma pública de la ciudad y es ideal para pasear, relajarse o descubrir su historia.</p>
 
-    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
+    <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= COLOR_PAGE; ?>-600 text-<?= COLOR_PAGE; ?>-600 rounded-full hover:bg-<?= COLOR_PAGE; ?>-600 hover:text-white transition">← Volver a lugares de interés</a>
   </div>
 </main>

@@ -2,11 +2,11 @@
   <div class="row">
 
     <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
-      <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/{$lugar_interes}/body/main.php"; ?>
+      <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/body/main.php"; ?>
 
 <?php
-$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/{$lugar_interes}/body/main.php"; 
-$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/{$lugar_interes}/body/main.php"; 
+$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/body/main.php"; 
+$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/body/main.php"; 
 
 try {
     if (file_exists($pathConPlayas)) {

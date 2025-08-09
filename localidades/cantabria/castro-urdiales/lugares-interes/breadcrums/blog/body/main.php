@@ -3,7 +3,7 @@
   <div class="bg-white rounded-2xl shadow-md p-4 md:p-6">
     
     <header class="mb-6 text-center">
-      <h1 class="text-2xl md:text-3xl font-bold text-<?= $color_page; ?>-700 flex items-center justify-center gap-2">
+      <h1 class="text-2xl md:text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 flex items-center justify-center gap-2">
         <i class="fas fa-calendar-days"></i> Eventos en <?= $localidad_minuscula; ?>
       </h1>
       <p class="mt-2 text-gray-600 text-base md:text-lg">Fiestas tradicionales, cultura, música y actividades en la costa de <?= $region; ?></p>
@@ -49,7 +49,7 @@
     <section class="text-center my-10">
       <h3 class="text-lg md:text-xl font-semibold text-info mb-2">📅 ¿Quieres ver la agenda completa?</h3>
       <p class="text-gray-700 mb-3">Consulta la programación actualizada de actividades culturales, deportivas y festivas en el sitio oficial del ayuntamiento:</p>
-      <a href="<?= $url_ayuntamiento; ?>" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">
+      <a href="<?= $url_ayuntamiento; ?>" target="_blank" rel="noopener noreferrer" class="inline-block px-5 py-2 border border-<?= COLOR_PAGE; ?>-600 text-<?= COLOR_PAGE; ?>-600 rounded-full hover:bg-<?= COLOR_PAGE; ?>-600 hover:text-white transition">
         <i class="fas fa-calendar-check mr-1"></i> Agenda oficial de Castro-Urdiales
       </a>
     </section>
@@ -57,9 +57,9 @@
     <!-- Enlace a guía -->
     <section class="text-center mt-10">
       <h3 class="mb-2 text-xl text-gray-900">🧳 ¿Vienes a Castro en fechas especiales?</h3>
-      <p class="text-gray-700 mb-4">Acompaña tu visita con <a href="/rutas-costeras-castro-urdiales.php" class="text-<?= $color_page; ?>-700 underline hover:text-<?= $color_page; ?>-900">rutas por los acantilados</a>, una parada en los <a href="/restaurantes.php" class="text-<?= $color_page; ?>-700 underline hover:text-<?= $color_page; ?>-900">mejores restaurantes</a> y paseos por el <a href="/casco-antiguo.php" class="text-<?= $color_page; ?>-700 underline hover:text-<?= $color_page; ?>-900">casco histórico</a>.</p>
+      <p class="text-gray-700 mb-4">Acompaña tu visita con <a href="/rutas-costeras-castro-urdiales.php" class="text-<?= COLOR_PAGE; ?>-700 underline hover:text-<?= COLOR_PAGE; ?>-900">rutas por los acantilados</a>, una parada en los <a href="/restaurantes.php" class="text-<?= COLOR_PAGE; ?>-700 underline hover:text-<?= COLOR_PAGE; ?>-900">mejores restaurantes</a> y paseos por el <a href="/casco-antiguo.php" class="text-<?= COLOR_PAGE; ?>-700 underline hover:text-<?= COLOR_PAGE; ?>-900">casco histórico</a>.</p>
       
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/guia-completa-castro-urdiales.php" class="inline-block px-6 py-2 bg-<?= $color_page; ?>-600 text-white rounded-full hover:bg-<?= $color_page; ?>-700 transition">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/guia-completa-castro-urdiales.php" class="inline-block px-6 py-2 bg-<?= COLOR_PAGE; ?>-600 text-white rounded-full hover:bg-<?= COLOR_PAGE; ?>-700 transition">
         Ver guía completa de Castro-Urdiales
       </a>
     </section>

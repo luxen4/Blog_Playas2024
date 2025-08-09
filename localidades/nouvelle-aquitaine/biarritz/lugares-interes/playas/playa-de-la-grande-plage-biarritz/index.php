@@ -1,5 +1,5 @@
 <?php $localidad = 'Biarritz';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $carpeta = $localidad_minuscula; ?>
-<?php $lugar   = 'La Grande Plage';  $lugar_interes  = 'playa-de-la-grande-plage-biarritz'; ?>
+<?php LUGAR   = 'La Grande Plage';  lugar_minuscula  = 'playa-de-la-grande-plage-biarritz'; ?>
 
 <?php 
     // Variables para SEO y contenido

@@ -21,11 +21,11 @@ $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_snea
 
 <?php $targeta = PATH_RAIZ_LOCALIDADES.'/index.php';?>
 
-<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= $color_page; ?>-800 mb-6">
+<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6">
   Gipuzkoa
 </h2>
 <?php $localidad = 'Deba';    $localidad_minuscula = strtolower($localidad);?>
-<h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= $color_page; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
+<h3 id="<?= $localidad_minuscula?>" class="text-2xl md:text-2xl font-bold text-left text-<?= COLOR_PAGE; ?>-800 mb-6 underline"><?= $localidad; ?></h3>
 
 
 <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$carpeta}"; ?>

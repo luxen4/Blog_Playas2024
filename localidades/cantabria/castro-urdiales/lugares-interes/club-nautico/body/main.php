@@ -2,7 +2,7 @@
   <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemprop="description">
 
     <header>
-      <h1 class="text-3xl font-bold text-<?= $color_page; ?>-700 mb-4" itemprop="name">Club Náutico de Castro Urdiales</h1>
+      <h1 class="text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-4" itemprop="name">Club Náutico de Castro Urdiales</h1>
       <p class="text-sm text-gray-500">
         <i class="fas fa-map-marker-alt text-red-500"></i> Avenida de la Constitución, s/n · 39700 · Castro Urdiales, Cantabria, España
       </p>
@@ -14,8 +14,8 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
-        <i class="fas fa-ship text-<?= $color_page; ?>-500 mr-2"></i>Instalaciones</h2>
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">
+        <i class="fas fa-ship text-<?= COLOR_PAGE; ?>-500 mr-2"></i>Instalaciones</h2>
       <ul class="list-disc list-inside space-y-2">
         <li><strong>Pantalanes y muelles</strong> para barcos de diferentes tamaños</li>
         <li><strong>Escuela de vela</strong> para niños, jóvenes y adultos</li>
@@ -26,8 +26,8 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
-        <i class="fas fa-bullseye text-<?= $color_page; ?>-500 mr-2"></i>Actividades</h2>
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">
+        <i class="fas fa-bullseye text-<?= COLOR_PAGE; ?>-500 mr-2"></i>Actividades</h2>
       <ul class="list-disc list-inside space-y-2">
         <li>⛵ <strong>Regatas</strong> de vela y embarcaciones deportivas</li>
         <li>📚 <strong>Cursos y talleres</strong> de navegación y seguridad marítima</li>
@@ -37,8 +37,8 @@
     </section>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
-        <i class="fas fa-id-card-alt text-<?= $color_page; ?>-500 mr-2"></i>Membresías</h2>
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">
+        <i class="fas fa-id-card-alt text-<?= COLOR_PAGE; ?>-500 mr-2"></i>Membresías</h2>
       <p>El club ofrece membresías <strong>individuales, familiares y temporales</strong> con acceso a todas las instalaciones, actividades exclusivas y beneficios añadidos.</p>
     </section>
 
@@ -50,12 +50,12 @@
     </figure>
 
     <section class="mb-6 text-gray-700">
-      <h2 class="text-2xl font-semibold text-<?= $color_page; ?>-700 mb-3">
-        <i class="fas fa-info-circle text-<?= $color_page; ?>-500 mr-2"></i>Contacto</h2>
+      <h2 class="text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">
+        <i class="fas fa-info-circle text-<?= COLOR_PAGE; ?>-500 mr-2"></i>Contacto</h2>
       <ul class="space-y-2">
-        <li><strong>📞 Teléfono:</strong> <a href="tel:+34942869000" class="text-<?= $color_page; ?>-600 hover:underline">+34 942 86 90 00</a></li>
-        <li><strong>📧 Email:</strong> <a href="mailto:info@nauticocastro.com" class="text-<?= $color_page; ?>-600 hover:underline">info@nauticocastro.com</a></li>
-        <li><strong>🌐 Web:</strong> <a href="https://www.nauticocastro.com" target="_blank" rel="noopener noreferrer" class="text-<?= $color_page; ?>-600 hover:underline">nauticocastro.com</a></li>
+        <li><strong>📞 Teléfono:</strong> <a href="tel:+34942869000" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">+34 942 86 90 00</a></li>
+        <li><strong>📧 Email:</strong> <a href="mailto:info@nauticocastro.com" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">info@nauticocastro.com</a></li>
+        <li><strong>🌐 Web:</strong> <a href="https://www.nauticocastro.com" target="_blank" rel="noopener noreferrer" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">nauticocastro.com</a></li>
       </ul>
     </section>
 
@@ -64,7 +64,7 @@
     </section>
 
     <div class="text-center mt-8">
-      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= $color_page; ?>-600 text-<?= $color_page; ?>-600 rounded-full hover:bg-<?= $color_page; ?>-600 hover:text-white transition">
+      <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>/index.php" class="inline-block px-6 py-2 border border-<?= COLOR_PAGE; ?>-600 text-<?= COLOR_PAGE; ?>-600 rounded-full hover:bg-<?= COLOR_PAGE; ?>-600 hover:text-white transition">
         ← Volver a lugares de interés
       </a>
     </div>

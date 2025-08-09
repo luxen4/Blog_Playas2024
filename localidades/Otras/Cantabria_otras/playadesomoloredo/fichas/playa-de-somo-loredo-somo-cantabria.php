@@ -5,7 +5,7 @@
 <?php 
   $region_minuscula = 'cantabria'; 
   $carpeta = 'playadesomoloredo'; 
-  $lugar_interes = 'playa-de-somo-loredo'; 
+  lugar_minuscula = 'playa-de-somo-loredo'; 
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA . "/localizacion-playa.php"; ?>

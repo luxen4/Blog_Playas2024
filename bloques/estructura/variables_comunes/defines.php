@@ -138,10 +138,6 @@
 <?php define('SECTIONS_PAGINAS_SECUNDARIAS', './paginas-secundarias'); ?>
 
 
-  <?php //define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes/_estructura/body/main"); ?>
+<?php //define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes/_estructura/body/main"); ?>
 
-  <?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
-
-
-
-
+<?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>

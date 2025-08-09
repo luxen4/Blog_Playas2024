@@ -22,6 +22,15 @@
               'desc'   => 'Una playa amplia ideal para surf y familias, rodeada de naturaleza.',
             ],
             [
+              'nombre' => 'Playa de Antuerta',
+              'slug'   => 'playa-de-antuerta',
+              'imagen' => 'playa-de-antuerta-ajo-cantabria-1.jpg',
+              'alt'    => 'Playa de Antuerta',
+              'fuente' => 'turismodecantabria.com',
+              'web_imagen' => 'https://turismodecantabria.com/playas/playa-de-antuerta/',
+              'desc'   => 'Playa virgen de arena dorada y entorno natural protegido, ideal para desconectar y disfrutar del mar.',
+            ],
+            [
               'nombre' => 'Acantilados de Cabo de Ajo',
               'slug'   => 'acantilados-de-cabo-de-ajo',
               'imagen' => 'acantilados-de-cabo-de-ajo.jpg',
@@ -38,13 +47,16 @@
               'fuente' => 'lossaltapraos.blogspot.com',
               'web_imagen' => 'https://lossaltapraos.blogspot.com/2019/05/costa-de-ajo-circular.html',
               'desc'   => 'Sendero costero ideal para caminatas junto al mar y acantilados.',
-            ],/*
+            ]/*,
             [
-              'nombre' => 'Mirador del Cabo',
-              'slug'   => 'mirador-del-cabo',
-              'imagen' => 'mirador-del-cabo.jpg',
-              'desc'   => 'Vista panorámica desde el punto más alto de Ajo.',
-            ],*/
+              'nombre' => 'Mirador del Cabo en Ajo',
+              'slug'   => 'mirador-del-cabo-en-ajo',
+              'imagen' => 'mirador-del-cabo-en-ajo.jpg',
+              'alt'    => 'Mirador del Cabo en Ajo',
+              'fuente' => 'turismodecantabria.com',
+              'web_imagen' => 'https://turismodecantabria.com/disfrutala/que-visitar/389-mirador-del-cabo-de-ajo',
+              'desc'   => 'Punto panorámico con impresionantes vistas del litoral cantábrico y el faro de Ajo.',
+            ]*/
           ];
           ?>
           <section id="lugares-interes" class="my-10">

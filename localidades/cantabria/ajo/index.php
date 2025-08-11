@@ -11,6 +11,7 @@
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
 
 
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

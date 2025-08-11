@@ -1,9 +1,9 @@
 <?php define('TITLE', "Sonabia – Turismo y Naturaleza en Cantabria 2025"); ?>
-<?php define('DESCRIPTION', "Descubre Sonabia en Cantabria: naturaleza salvaje, playas vírgenes, miradores y rutas de senderismo."); ?>
+<?php define('DESCRIPTION', "Descubre Sonabia en Cantabria: la Playa de Sonabia, la Peña Candina y rutas costeras únicas."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>
 <?php define('LUGAR', "Sonabia"); ?>
-<?php define('LUGAR_MINUSCULA', 'sonabia') ?>
-<?php define('KEYWORDS_CONTENT', 'Sonabia, Cantabria, turismo, playas, naturaleza, rutas, senderismo, Ojo del Diablo') ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+<?php define('KEYWORDS_CONTENT', 'Playa de Sonabia, Sonabia, playas Cantabria, Peña Candina, naturaleza, costa de Cantabria, turismo natural, playa salvaje, rutas, Ojo del Diablo, monte Candina') ?>
 
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/sonabia/variables-localidad.php"; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
@@ -11,102 +11,53 @@
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
 
 
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <title>Sonabia – Guía Turística y Playas</title>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
+  <title>Sonabia – Guía Turística y Naturaleza</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
+  <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
+  <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 </head>
-<body class="bg-gray-50 text-gray-800">
 
+
+<body class="bg-[url('/Blog_Playas2025/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 
       <!-- Columna izquierda (principal) -->
       <div class="col-lg-8">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; echo($localidad_minuscula);?>
+
         <header class="mb-10">
-          <div class="bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-400 text-white text-center p-8 rounded-lg shadow-lg">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-3 flex justify-center items-center gap-3">
+          <div class="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-400 text-white text-center p-8 rounded-lg shadow-lg">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-3 flex justify-center items-center gap-3">
               <i class="fas fa-map-marked-alt"></i> Sonabia (Cantabria)
             </h1>
-            <p class="text-lg md:text-xl font-medium">
-              Sonabia es una pequeña localidad costera en Cantabria, famosa por sus playas salvajes, el monte Candina y el espectacular Ojo del Diablo. 
-              Ideal para los amantes de la naturaleza, el senderismo y el turismo tranquilo.
+            <p class="text-left text-lg md:text-xl font-medium">
+              Sonabia es un pequeño paraíso costero en Cantabria, famoso por su playa salvaje,
+              la imponente Peña Candina y rutas que recorren acantilados con vistas al mar Cantábrico.
+              Un lugar perfecto para amantes del senderismo y la naturaleza.
             </p>
           </div>
         </header>
 
-        <!-- Lugares de Interés -->
-        <section id="lugares-interes" class="my-10">
-          <div class="text-center mb-6">
-            <h2 class="text-3xl font-bold text-blue-700 mb-2">📍 Lugares de Interés en Sonabia</h2>
-            <p class="text-gray-600">Explora los lugares más emblemáticos y naturales de Sonabia.</p>
-          </div>
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <a href="playa-de-sonabia/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Sonabia</a>
-            </div>
-            <div class="col">
-              <a href="playa-de-cuchia/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Playa de Cuchía</a>
-            </div>
-            <div class="col">
-              <a href="monte-candina/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Monte Candina</a>
-            </div>
-            <div class="col">
-              <a href="ojo-del-diablo/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Ojo del Diablo</a>
-            </div>
-            <div class="col">
-              <a href="mirador-punta-sonabia/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Mirador de Punta Sonabia</a>
-            </div>
-            <div class="col">
-              <a href="sendero-costa-oriental/index.html" class="btn btn-outline-secondary w-100 text-start px-3 py-2">Sendero de la Costa Oriental</a>
-            </div>
-          </div>
-        </section>
-
-        <!-- Botón Volver -->
-        <div class="text-center mt-5">
-          <a href="/index.html" class="btn btn-outline-primary">← Volver al Inicio</a>
-        </div>
+        <?php  require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/lugares-interes-sonabia-cards.php"; ?>
+        <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/boton-volver-al-inicio.php"; ?>
       </div>
 
-      <!-- Columna derecha (Sidebar y Playas) -->
-      <div class="col-lg-4 mt-5 mt-lg-0">
-        <!-- Sección Playas -->
-        <section id="playas" class="bg-white border border-gray-200 rounded-lg shadow-sm p-4 mb-4">
-          <header class="text-center mb-4">
-            <h5 class="text-xl font-semibold text-gray-700">🏖️ Playas de <br><strong>Sonabia</strong></h5>
-            <p class="text-sm text-gray-500">Playas salvajes de la costa oriental de Cantabria.</p>
-          </header>
-          <div class="space-y-2">
-            <a href="playas/playa-de-sonabia/index.html" class="block px-4 py-2 bg-blue-50 border border-blue-300 text-blue-700 rounded hover:bg-blue-100 transition">
-              Playa de Sonabia
-            </a>
-            <a href="playas/playa-de-cuchia/index.html" class="block px-4 py-2 bg-blue-50 border border-blue-300 text-blue-700 rounded hover:bg-blue-100 transition">
-              Playa de Cuchía
-            </a>
-            <a href="playas/playa-de-arenillas/index.html" class="block px-4 py-2 bg-blue-50 border border-blue-300 text-blue-700 rounded hover:bg-blue-100 transition">
-              Playa de Arenillas
-            </a>
-          </div>
-        </section>
+      <div class="col-4 col-md-3 d-none d-md-block">
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
       </div>
 
     </div>
   </div>
 
-  <footer class="bg-blue-600 text-white text-center py-4 mt-10">
-    <p>&copy; 2025 Sonabia Turismo</p>
-  </footer>
-
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

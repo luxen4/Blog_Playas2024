@@ -5,7 +5,7 @@
     [
       'nombre' => 'Playa de Berria',
       'slug'   => 'playa-de-berria',
-      'imagen' => 'playa-de-berria-santona.jpg',
+      'imagen' => 'playa-de-berria-santona-cantabria-1.jpg',
       'alt'    => 'Playa de Berria',
       'fuente' => 'turismodecantabria.com',
       'web_imagen' => 'https://turismodecantabria.com/disfrutala/playas/51-playa-de-berria',
@@ -14,19 +14,19 @@
     [
       'nombre' => 'Monte Buciero',
       'slug'   => 'monte-buciero',
-      'imagen' => 'monte-buciero-santona.jpg',
+      'imagen' => 'Ruta-del-Monte-Buciero-Cantabria-Cantabriarural-G.jpg',
       'alt'    => 'Monte Buciero',
-      'fuente' => 'senderismocantabria.com',
-      'web_imagen' => 'https://senderismocantabria.com/monte-buciero/',
+      'fuente' => 'cantabriarural.com',
+      'web_imagen' => 'https://www.cantabriarural.com/lugares-de-interes/ruta-del-monte-buciero.html',
       'desc'   => 'Parque natural con rutas de senderismo, vistas espectaculares y naturaleza salvaje.',
     ],
     [
       'nombre' => 'Faro del Caballo',
       'slug'   => 'faro-del-caballo',
-      'imagen' => 'faro-del-caballo-santona.jpg',
+      'imagen' => 'faro-del-caballo-santoña.jpg',
       'alt'    => 'Faro del Caballo',
-      'fuente' => 'farodelcaballo.es',
-      'web_imagen' => 'https://farodelcaballo.es/',
+      'fuente' => 'apartamentoscostaesmeralda.com',
+      'web_imagen' => 'https://apartamentoscostaesmeralda.com/el-faro-de-santona/',
       'desc'   => 'Faro histórico al que se accede por más de 700 escalones tallados en la roca.',
     ],
     [
@@ -34,47 +34,10 @@
       'slug'   => 'puerto-de-santona',
       'imagen' => 'puerto-de-santona.jpg',
       'alt'    => 'Puerto de Santoña',
-      'fuente' => 'santona.es',
-      'web_imagen' => 'https://www.santona.es/',
+      'fuente' => 'anden-27.blogspot.com',
+      'web_imagen' => 'https://anden-27.blogspot.com/2017/04/escapada-santona.html',
       'desc'   => 'Corazón pesquero y comercial de la villa, famoso por sus anchoas.',
     ],
   ];
 ?>
-<section id="lugares-interes" class="my-10">
-  <div class="text-center mb-6">
-    <h2 class="text-2xl font-bold text-green-700 mb-2">📍 $lugares de Interés en Santoña</h2>
-    <p class="text-gray-600">Descubre los rincones más emblemáticos de esta villa marinera de Cantabria.</p>
-  </div>
-
-  <div class="row row-cols-1 row-cols-md-2 g-4">
-    <?php foreach ($lugares_interes as $lugar): ?>
-      <div class="col">
-        <div class="card h-100 shadow-sm border-0 rounded-lg overflow-hidden transition hover:shadow-md">
-
-          <figure class="mb-0">
-            <img 
-              src="/Blog_Playas2025/localidades/cantabria/santona/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
-              class="card-img-top h-64 object-cover rounded-top" 
-              alt="<?= $lugar['alt']; ?>">
-
-            <figcaption class="text-xs text-gray-500 mt-1 px-3 py-1 bg-gray-100">
-              📷 Imagen de <?= $lugar['nombre']; ?> – fuente: 
-              <a href="<?= $lugar['web_imagen']; ?>" class="underline hover:text-blue-600 inline-flex items-center gap-1" target="_blank" rel="noopener noreferrer">
-                <?= $lugar['fuente']; ?>
-              </a>
-            </figcaption>
-          </figure>
-
-          <div class="card-body p-4">
-            <h5 class="card-title text-lg font-semibold text-green-800"><?= $lugar['nombre']; ?></h5>
-            <p class="card-text text-muted small mb-3"><?= $lugar['desc']; ?></p>
-            <a href="/Blog_Playas2025/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
-              Explorar &rarr;
-            </a>
-          </div>
-
-        </div>
-      </div>
-    <?php endforeach; ?>
-  </div>
-</section>
+<?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>

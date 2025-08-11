@@ -35,10 +35,15 @@
 <?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025'); ?>
 <?php define('PATH_RAIZ_ANUNCIOS',  PATH_RAIZ. '/anuncios'); ?>
 <?php define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables'); ?>
+
+
+
+
    
-<?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
-<?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+<?php define('PATH_RAIZ_BLOQUES',                      PATH_RAIZ. '/bloques'); ?> 
+<?php define('PATH_RAIZ_BLOQUES_CONTROL',              PATH_RAIZ_BLOQUES . '/control'); ?>
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',           PATH_RAIZ_BLOQUES. '/estructura'); ?>
+<?php define('PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-localidad'); ?>
 
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN_SECTIONS', PATH_RAIZ_BLOQUES_ESTRUCTURA ."/paginas-playa/body/main/sections/"); ?>
 

@@ -35,7 +35,7 @@ if (!defined('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES')) {
     </li>
 
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
-      <a itemprop="item" href="/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php" class="hover:underline hover:text-blue-600">
+      <a itemprop="item" href="/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= LUGAR_MINUSCULA; ?>/index.php" class="hover:underline hover:text-blue-600">
         <span itemprop="name"><?= $localidad; ?></span>
       </a>
       <meta itemprop="position" content="3" />

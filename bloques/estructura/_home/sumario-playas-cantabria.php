@@ -13,8 +13,7 @@
   <div class="row">
 
     <?php 
-    $playa_name = 'Playa de Cuberris'; 
-    $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); 
+    $playa_name = 'Playa de Cuberris'; $playa_name_minuscula=strtolower(str_replace(' ', '-', $playa_name));
     $archivo_name = 'cuberris-ajo'; 
     $presentacion = 'La '.$playa_name.', situada en '.$localidad.', '.$region.', 
     es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, 
@@ -28,8 +27,7 @@
     </div>
 
     <?php 
-    $playa_name = 'Playa de Antuerta';  
-    $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); 
+    $playa_name = 'Playa de Antuerta';  $playa_name_minuscula=strtolower(str_replace(' ', '-', $playa_name));
     $archivo_name = 'antuerta-ajo';
     $presentacion = 'La Playa de Antuerta, ubicada en Ajo, Cantabria, 
     es una playa salvaje y tranquila, ideal para los amantes de la naturaleza y los paisajes vírgenes. 

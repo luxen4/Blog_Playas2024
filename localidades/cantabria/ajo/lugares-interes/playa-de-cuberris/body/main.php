@@ -151,14 +151,14 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
       <figure>
-        <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-cantabria-1.jpg"
+        <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-cuberris-ajo-cantabria-1.jpg"
             alt="Playa de Cuberris desde el mirador"
             class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
         <figcaption class="mt-2 text-sm text-gray-600">Vista desde el mirador</figcaption>
       </figure>
 
       <figure>
-        <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-cuberris-ajo-cantabria-2.jpg"
+        <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-cuberris-ajo-cantabria-2.jpg"
             alt="Zona de olas en Playa de Cuberris"
             class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
         <figcaption class="mt-2 text-sm text-gray-600">Zona de olas para surfistas</figcaption>

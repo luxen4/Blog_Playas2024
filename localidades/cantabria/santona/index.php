@@ -1,15 +1,11 @@
-<?php define('TITLE', "Santoña – Turismo y Naturaleza en Cantabria 2025"); ?>
+<?php  
+$localidad = 'Santoña';     $localidad_minuscula = 'santona';
+$region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
+$country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
+
 <?php define('DESCRIPTION', "Explora Santoña en Cantabria: famosa por sus marismas, el Monte Buciero, la playa de Berria y su rica tradición marinera. Ideal para senderismo, naturaleza y cultura pesquera."); ?>
-<?php define('COLOR_PAGE', "sky"); ?>
-<?php define('LUGAR', "Santoña"); ?>
-<?php define('LUGAR_MINUSCULA', 'santona') ?>
 <?php define('KEYWORDS_CONTENT', 'Santoña Cantabria, playa de Berria, Monte Buciero, marismas de Santoña, rutas de senderismo, turismo Santoña, naturaleza Cantabria') ?>
-
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/santona/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">

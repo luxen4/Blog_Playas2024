@@ -1,16 +1,11 @@
-<?php define('TITLE', "Ajo – Turismo y Naturaleza en Cantabria 2025"); ?>
+<?php  
+$localidad = 'Ajo';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='ajo';
+$region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
+$country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
+
 <?php define('DESCRIPTION', "Descubre Ajo en Cantabria: playas vírgenes, miradores, rutas y el famoso Cabo de Ajo."); ?>
-<?php define('COLOR_PAGE', "sky"); ?>
-<?php define('LUGAR', "Ajo"); ?>
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Antuerta, Ajo, playas Cantabria, surf Cantabria, naturaleza, costa de Cantabria, turismo natural, playa salvaje, Ajo, Cantabria, turismo, playas, naturaleza, rutas, Cabo de Ajo, faro') ?>
-
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/ajo/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/_meta_tags.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
-
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">

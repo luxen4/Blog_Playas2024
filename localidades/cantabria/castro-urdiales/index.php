@@ -1,15 +1,11 @@
-<?php define('TITLE', "Castro-Urdiales – Turismo y Patrimonio en Cantabria 2025"); ?>
+<?php  
+$localidad = 'Castro-Urdiales';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));
+$region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
+$country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
+
 <?php define('DESCRIPTION', "Descubre Castro-Urdiales en Cantabria: playas urbanas, puerto pesquero, patrimonio histórico y un ambiente marinero único."); ?>
-<?php define('COLOR_PAGE', "sky"); ?>
-<?php define('LUGAR', "Castro-Urdiales"); ?>
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Castro-Urdiales, Cantabria, Playa de Ostende, puerto pesquero, patrimonio histórico, turismo Cantabria, costa de Cantabria, castillo-faro, iglesia de Santa María, paseo marítimo, gastronomía marinera') ?>
-
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/castro-urdiales/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">

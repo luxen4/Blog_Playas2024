@@ -26,7 +26,7 @@
                 <div class="card-body p-4">
                 <h5 class="card-title text-lg font-semibold text-green-800"><?= $lugar['nombre']; ?></h5>
                 <p class="card-text text-muted small mb-3"><?= $lugar['desc']; ?></p>
-                <a href="/Blog_Playas2025/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
+                <a href="/Blog_Playas2025/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
                     Explorar &rarr;
                 </a>
                 </div>

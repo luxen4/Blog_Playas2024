@@ -1,15 +1,11 @@
-<?php define('TITLE', "Sonabia – Turismo y Naturaleza en Cantabria 2025"); ?>
+<?php  
+$localidad = 'Sonabia';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));
+$region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
+$country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
+
 <?php define('DESCRIPTION', "Descubre Sonabia en Cantabria: la Playa de Sonabia, la Peña Candina y rutas costeras únicas."); ?>
-<?php define('COLOR_PAGE', "sky"); ?>
-<?php define('LUGAR', "Sonabia"); ?>
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Sonabia, Sonabia, playas Cantabria, Peña Candina, naturaleza, costa de Cantabria, turismo natural, playa salvaje, rutas, Ojo del Diablo, monte Candina') ?>
-
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/cantabria/sonabia/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -30,7 +26,7 @@
 
       <!-- Columna izquierda (principal) -->
       <div class="col-lg-8">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; echo($localidad_minuscula);?>
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
 
         <header class="mb-10">
           <div class="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-400 text-white text-center p-8 rounded-lg shadow-lg">

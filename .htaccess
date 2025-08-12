@@ -3,17 +3,14 @@
     #RewriteBase /Blog_Playas2025/
     
     # Ajo
-
-    RewriteRule ^ajo-cantabria$     localidades/cantabria/ajo/index.php [L]
+    RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
     
-
-    RewriteRule ^lugares-interes/faro-de-cabo-de-ajo$ localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-cuberris$ localidades/cantabria/ajo/lugares-interes/playa-de-cuberris/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-antuerta$ localidades/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php [L]
-    RewriteRule ^lugares-interes/ruta-de-la-costa-oriental$ localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
-    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo$ localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php [L]
-    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo$ localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php [L]
-    RewriteRule ^ruta-de-la-costa-oriental$ localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
+    RewriteRule ^faro-de-cabo-de-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
+    RewriteRule ^playa-de-cuberris$             localidades/cantabria/ajo/lugares-interes/playa-de-cuberris/index.php [L]
+    RewriteRule ^playa-de-antuerta$             localidades/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php [L]
+    RewriteRule ^ruta-de-la-costa-oriental$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
+    RewriteRule ^acantilados-de-cabo-de-ajo$    localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php [L]
+    RewriteRule ^ruta-de-la-costa-oriental$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
    
     RewriteRule ^mirador-del-cabo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
     
@@ -40,10 +37,10 @@
     RewriteRule ^playa-de-sonabia$ localidades/cantabria/sonabia/lugares-interes/playas/playa-de-sonabia/index.php [L]
 
     # Berria
-    RewriteRule ^playa-de-berria$ localidades/cantabria/santona/lugares-interes/playas/playa-de-berria/index.php [L]
+    RewriteRule ^playa-de-berria$ localidades/cantabria/santona/lugares-interes/playa-de-berria/index.php [L]
 
     # Berria
-    RewriteRule ^playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/fichas/playa-de-berria-santona-cantabria.php [L]
+    #RewriteRule ^playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/fichas/playa-de-berria-santona-cantabria.php [L]
     RewriteRule ^actividades-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/actividades-playa-de-berria-santona-cantabria.php [L]
     RewriteRule ^como-llegar-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/como-llegar-playa-de-berria-santona-cantabria.php [L]
     RewriteRule ^servicios-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/servicios-playa-de-berria-santona-cantabria.php [L]

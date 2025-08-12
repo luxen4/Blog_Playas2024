@@ -22,7 +22,7 @@
     ],
     [
       'nombre' => 'Club Náutico',
-      'slug'   => 'club-nautico',
+      'slug'   => 'club-nautico-castro-urdiales',
       'imagen' => 'club-nautico.jpg',
       'alt'    => 'Club Náutico de Castro Urdiales',
       'fuente' => 'clubnauticocastro.com',
@@ -58,7 +58,7 @@
     ],
     [
       'nombre' => 'Parque Amestoy',
-      'slug'   => 'parque-amestoy',
+      'slug'   => 'parque-amestoy-castro-urdiales',
       'imagen' => 'parque-amestoy-castro-urdiales.jpg',
       'alt'    => 'Parque Amestoy en Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
@@ -67,7 +67,7 @@
     ],
     [
       'nombre' => 'Paseo Marítimo',
-      'slug'   => 'paseo-maritimo',
+      'slug'   => 'paseo-maritimo-castro-urdiales',
       'imagen' => 'paseo-maritimo-castro-urdiales-1.jpg',
       'alt'    => 'Paseo Marítimo de Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
@@ -85,7 +85,7 @@
     ],
     [
       'nombre' => 'Plaza del Ayuntamiento',
-      'slug'   => 'plaza-del-ayuntamiento',
+      'slug'   => 'plaza-del-ayuntamiento-castro-urdiales',
       'imagen' => 'plaza-del-ayuntamiento-castro-urdiales.jpg',
       'alt'    => 'Plaza del Ayuntamiento de Castro Urdiales',
       'fuente' => 'castro-urdiales.net',

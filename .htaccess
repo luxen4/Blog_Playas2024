@@ -25,8 +25,11 @@
 
 
     RewriteRule ^castro-urdiales-cantabria$     localidades/cantabria/castro-urdiales/index.php [L]
-
-
+ 
+    RewriteRule ^parque-amestoy-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/parque-amestoy-castro-urdiales/index.php [L]  
+    RewriteRule ^paseo-maritimo-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/paseo-maritimo-castro-urdiales/index.php [L]
+    RewriteRule ^plaza-del-ayuntamiento-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/plaza-del-ayuntamiento-castro-urdiales/index.php [L]
+    RewriteRule ^puente-medieval$ localidades/cantabria/castro-urdiales/lugares-interes/puente-medieval/index.php [L]
     RewriteRule ^puerto-pesquero-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puerto-pesquero-castro-urdiales/index.php [L]
     
     

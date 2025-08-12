@@ -103,7 +103,7 @@
     ],
     [
       'nombre' => 'Puerto de Castro Urdiales',
-      'slug'   => 'puerto-pesquero',
+      'slug'   => 'puerto-pesquero-castro-urdiales',
       'imagen' => 'puerto-pesquero-castro-urdiales-1.jpg',
       'alt'    => 'Puerto pesquero de Castro Urdiales',
       'fuente' => 'castro-urdiales.net',

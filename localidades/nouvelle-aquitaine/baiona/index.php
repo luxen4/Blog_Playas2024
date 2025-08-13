@@ -41,7 +41,7 @@ define('WEB_PAGE', "website");
 define('HOY', date('Y-m-d'));
 define('IDIOMA_LOCAL', 'fr_FR');
 
-define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades");
+define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/Blog_Playas2025/localidades");
 
 define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables');
 define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/');

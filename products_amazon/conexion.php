@@ -7,7 +7,7 @@ if ($servername == "localhost"){
     $username = "root";
     $password = ""; // Cambia esto si tu usuario de MySQL tiene una contraseña
     $dbname = "blogplayas2025_db";
-} elseif($servername == "playas2025.kesug.com"){
+} elseif($servername == "playas2024.kesug.com"){
     $servername = "sql301.byetcluster.com";
     $username = "if0_36676672";
     $password = "bfsgEjznrBWCKzj";

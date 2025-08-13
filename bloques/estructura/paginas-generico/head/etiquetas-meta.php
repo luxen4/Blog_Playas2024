@@ -1,15 +1,14 @@
 <?php //$url_amigable = isset($rutas) ? $rutas : null; ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="site-verification" content="<?= $site_verification_content; ?>"/>
+<!-- Verificación Google Search Console -->
+<meta name="google-site-verification" content="O4CyyseatW1WkLbzw9poeIPyF27Eik_tDlqrO0ank4o" />
 <meta name="description" content="<?= DESCRIPTION; ?>">
 <meta name="keywords" content="<?= KEYWORDS_CONTENT; ?>">
 <meta name="robots" content="index, follow">
 <meta name="author" content="<?= AUTHOR; ?>">
 <meta name="language" content="es">
 
-<!-- Verificación Google Search Console -->
-<meta name="google-site-verification" content="O4CyyseatW1WkLbzw9poeIPyF27Eik_tDlqrO0ank4o" />
 
 <!-- Verificación Seobility -->
 <meta name="seobility" content="<?= SITE_VERIFICATION_CONTENT ?>" /> 
@@ -17,7 +16,7 @@
 <!-- Open Graph Meta Tags -->
 <meta property="og:title" content="<?= TITLE; ?>">
 <meta property="og:description" content="<?= DESCRIPTION; ?>">
-<meta property="og:image" content="<?= PATH_DOMINIO_LUGAR_IMAGEN_1; ?>">
+<meta property="og:image" content="<?= $graph_Meta_Tags_property_image; ?>">
 <meta property="og:url" content="<?= PATH_DOMINIO_URL; ?>">
 <meta property="og:type" content="<?= $graph_Meta_Tags_property_type; ?>">
 <meta property="og:site_name" content="<?= NAME_BLOG ?>" />
@@ -46,8 +45,8 @@
 <meta name="twitter:site" content="<?= CARD_SITE; ?>">
 <meta name="twitter:title" content="<?= TITLE; ?>">
 <meta name="twitter:description" content="<?= DESCRIPTION; ?>">
-<meta name="twitter:image" content="<?= PATH_DOMINIO_LUGAR_IMAGEN_1; ?>">
-<meta name="twitter:url" content="<?= PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA . "/index.php"; ?>">
+<meta name="twitter:image" content="<?= $twitterCards_image; ?>">
+<meta name="twitter:url" content="<?= $twitterCards_url;?>">
 
 <!-- Pinterest -->
 <meta property="pinterest:card" content="<?= SUMARY_LARGE_IMAGE; ?>">

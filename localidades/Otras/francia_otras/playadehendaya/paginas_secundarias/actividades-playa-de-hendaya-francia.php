@@ -37,11 +37,11 @@
   <link rel="icon" href='./../Blog_Playas2025/img/icono-sombrilla.ico' type="image/x-icon">
 
   <!-- Open Graph -->
-  <meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg" />
+  <meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg" />
   <meta property="og:title" content="Actividades en la Playa de Hendaya – País Vasco Francés" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Hendaya: surf, senderismo, paseos en barco y más experiencias en la costa vasca de Francia." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-hendaya-francia" />
+  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2025/actividades-playa-de-hendaya-francia" />
   <meta property="og:image:alt" content="Vista panorámica de la Playa de Hendaya con surfistas y senderos junto al mar" />
   <meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
@@ -67,7 +67,7 @@
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Hendaya, un extenso arenal en el litoral atlántico francés, ideal para el surf, paseos naturales y disfrutar de los Pirineos Atlánticos.';
-  $url = 'http://playas2025.kesug.com/Blog_Playas2025/localidades/francia/hendaya/fichas/playa-de-hendaya.php';
+  $url = 'http://playas2024.kesug.com/Blog_Playas2025/localidades/francia/hendaya/fichas/playa-de-hendaya.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Hendaya es famosa por su longitud, su oleaje moderado perfecto para aprender a surfear, y sus vistas hacia las rocas gemelas y la bahía.';
@@ -80,8 +80,8 @@
   $mainEntity_geo_longitude = -1.7736;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = 'https://playas2025.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg';
-  $mainEntity_url = 'https://playas2025.kesug.com/Blog_Playas2025/playa-de-hendaya-paisvascofrances';
+  $mainEntity_image = 'https://playas2024.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg';
+  $mainEntity_url = 'https://playas2024.kesug.com/Blog_Playas2025/playa-de-hendaya-paisvascofrances';
   ?>
 
   <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2025/bloques/estructura/structured_data_generico.php'; ?>
@@ -91,9 +91,9 @@
 
 <script>
   const imagenes = [
-    'https://playas2025.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-hendaya-1.jpg',
-    'https://playas2025.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-hendaya-2.jpg',
-    'https://playas2025.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-hendaya-3.jpg',
+    'https://playas2024.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-hendaya-1.jpg',
+    'https://playas2024.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-hendaya-2.jpg',
+    'https://playas2024.kesug.com/Blog_Playas2025/localidades/francia/hendaya/img/playa-hendaya-3.jpg',
   ];
 
   let indice = 0;

@@ -1,5 +1,5 @@
 <!-- Sitemap Link -->
-<link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2025.kesug.com/sitemap.php">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.php">
 
 <!-- Favicon -->
 <link rel="icon" href="<?= PATH_RAIZ . "/img/icono-sombrilla.ico" ?>" type="image/x-icon">
@@ -12,11 +12,7 @@
 <link rel="icon" href="path/to/icono-sombrilla.png" type="image/png">
 <link rel="icon" href="path/to/icono-sombrilla.svg" type="image/svg+xml"> */?>
 
-<?php /*<link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/<?= $url_amigable;?>" />*/?>
-<?php /*<link rel="canonical" href="https://playas2025.kesug.com/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php" />*/?>
-<link rel="canonical" href="<?= PATH_HREF_RAIZ_LOCALIDADES; ?>/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php" />
-
-
+<?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2025/<?= $url_amigable;?>" />*/?>
 
 <!-- Alternate Languages -->
 <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">

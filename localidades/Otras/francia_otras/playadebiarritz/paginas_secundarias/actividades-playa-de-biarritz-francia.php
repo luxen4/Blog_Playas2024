@@ -33,7 +33,7 @@
   <meta property="og:title" content="Actividades en la Playa de Biarritz – Francia" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Biarritz: surf, paseos por la costa vasca, cultura y experiencias junto al océano Atlántico." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-playa-de-biarritz-francia" />
+  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2025/actividades-playa-de-biarritz-francia" />
   <meta property="og:image:alt" content="Vista de la Playa de Biarritz, destino ideal para surf y turismo costero en Francia" />
   <meta property="og:site_name" content="Turismo y Playas 2025 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
@@ -53,7 +53,7 @@
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Biarritz, un icono del surf y el turismo costero en el País Vasco francés, con impresionantes paisajes y una vibrante vida cultural.';
-  $url = 'http://playas2025.kesug.com/Blog_Playas2025/localidades/francia/playadebiarritz/fichas/playa-de-biarritz.php';
+  $url = 'http://playas2024.kesug.com/Blog_Playas2025/localidades/francia/playadebiarritz/fichas/playa-de-biarritz.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Biarritz es famosa mundialmente por sus olas perfectas para el surf y su ambiente cosmopolita en la costa vasca.';
@@ -66,8 +66,8 @@
   $mainEntity_geo_longitude = -1.5586;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = 'http://playas2025.kesug.com/Blog_Playas2025/localidades/francia/playadebiarritz/img/playa-de-biarritz.jpg';
-  $mainEntity_url = 'http://playas2025.kesug.com/Blog_Playas2025/playa-de-biarritz-francia';
+  $mainEntity_image = 'http://playas2024.kesug.com/Blog_Playas2025/localidades/francia/playadebiarritz/img/playa-de-biarritz.jpg';
+  $mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2025/playa-de-biarritz-francia';
   ?>
 
   <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2025/bloques/estructura/structured_data_generico.php'; ?>
@@ -80,8 +80,8 @@
   // Array con URLs de las imágenes que quieres mostrar
   const imagenes = [
     'http://localhost/Blog_Playas2025/localidades/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
-    'https://playas2025.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
-    'https://playas2025.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
+    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
+    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
   ];
 
   let indice = 0;

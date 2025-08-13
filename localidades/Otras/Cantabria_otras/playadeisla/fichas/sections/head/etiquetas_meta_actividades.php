@@ -27,8 +27,8 @@
 <meta property="og:title" content="Actividades en la Playa de Isla – Cantabria" />
 <meta property="og:description" content="Descubre qué hacer en la Playa de Isla: surf, caminatas, naturaleza y más planes en Cantabria." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://playas2025.kesug.com/Blog_Playas2025/actividades-<?= $rutas; ?>" />
-<meta property="og:image" content="https://playas2025.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2025/actividades-<?= $rutas; ?>" />
+<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2025/localidades/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta property="og:image:alt" content="Vista de la Playa de Isla, perfecta para deportes acuáticos y paseos en la costa cántabra" />
 <meta property="og:locale" content="es_ES" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />

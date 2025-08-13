@@ -37,4 +37,4 @@ if (!defined('PATH_RAIZ_BLOQUES_ESTRUCTURA')) {
 <?php define('EMAIL_AUTHOR', "  ");?>
 
 
-<?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/Blog_Playas2025/localidades"); ?>

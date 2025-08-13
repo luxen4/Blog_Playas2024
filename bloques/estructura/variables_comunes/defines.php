@@ -20,7 +20,7 @@
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/'); ?>
 
 <?php //define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/img/" . $lugar_minuscula . "-{$localidad_minuscula}-{$region_minuscula}-1.jpg"); ?>
-<?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/img/" . $lugar_minuscula . "-{$localidad_minuscula}-{$region_minuscula}-1.jpg"); ?>
+<?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/img/" . $lugar_minuscula . "-{$region_minuscula}-1.jpg"); ?>
 
 
 <?php define('PATH_DOMINIO_URL', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/index.php"); ?>
@@ -91,6 +91,7 @@
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS',       PATH_RAIZ_LOCALIDADES_CARPETA. "/paginas-secundarias"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES',            PATH_RAIZ_LOCALIDADES_CARPETA. "/head/variables"); ?>
 
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_LUGAR',            PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. '/'.$lugar_minuscula); ?>
 
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_META_TAGS',            PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. '/'.$lugar_minuscula.'/head/'); ?>
 

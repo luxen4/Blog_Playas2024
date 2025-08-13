@@ -64,19 +64,19 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="w-full aspect-[16/9] overflow-hidden">
-          <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puerto-pesquero-castro-urdiales/img/puerto-pesquero-castro-urdiales-1.jpg"?>" 
+          <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puerto-pesquero-castro-urdiales/img/puerto-pesquero-castro-urdiales-cantabria-1.jpg"?>" 
                class="w-full h-full object-cover rounded-md" alt="Puerto Pesquero Castro Urdiales 1">
         </div>
       </div>
       <div class="swiper-slide">
         <div class="w-full aspect-[16/9] overflow-hidden">
-          <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puerto-pesquero-castro-urdiales/img/puerto-pesquero-castro-urdiales-2.png"?>" 
+          <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puerto-pesquero-castro-urdiales/img/puerto-pesquero-castro-urdiales-cantabria-2.png"?>" 
                class="w-full h-full object-cover rounded-md" alt="Puerto Pesquero Castro Urdiales 2">
         </div>
       </div>
       <div class="swiper-slide">
         <div class="w-full aspect-[16/9] overflow-hidden">
-          <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puerto-pesquero-castro-urdiales/img/puerto-pesquero-castro-urdiales-1.jpg"?>" 
+          <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puerto-pesquero-castro-urdiales/img/puerto-pesquero-castro-urdiales-cantabria-1.jpg"?>" 
                class="w-full h-full object-cover rounded-md" alt="Puerto Pesquero Castro Urdiales 3">
         </div>
       </div>

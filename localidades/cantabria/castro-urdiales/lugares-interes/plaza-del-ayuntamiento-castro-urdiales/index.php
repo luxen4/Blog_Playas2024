@@ -62,17 +62,17 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     <div class="swiper-wrapper">
       
       <div class="swiper-slide h-72">
-        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/plaza-ayuntamiento/img/plaza-ayuntamiento-castro-urdiales-1.jpg"?>
+        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/plaza-del-ayuntamiento-castro-urdiales/img/plaza-del-ayuntamiento-castro-urdiales-cantabria-1.jpg"?>
              class="w-full h-full object-cover rounded-md">
       </div>
       
       <div class="swiper-slide h-72">
-        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/plaza-ayuntamiento/img/plaza-ayuntamiento-castro-urdiales-2.jpg"?>
+        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/plaza-del-ayuntamiento-castro-urdiales/img/plaza-del-ayuntamiento-castro-urdiales-cantabria-2.png"?>
              class="w-full h-full object-cover rounded-md">
       </div>
       
       <div class="swiper-slide h-72">
-        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/plaza-ayuntamiento/img/plaza-ayuntamiento-castro-urdiales-3.jpg"?>
+        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/plaza-del-ayuntamiento-castro-urdiales/img/plaza-del-ayuntamiento-castro-urdiales-cantabria-3.jpg"?>
              class="w-full h-full object-cover rounded-md">
       </div>
 

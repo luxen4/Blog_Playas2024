@@ -4,8 +4,8 @@
   $lugares_interes = [
     [
       'nombre' => 'Asador La Perla',
-      'slug'   => 'asador-la-perla',
-      'imagen' => 'asador-la-perla.jpg',
+      'slug'   => 'asador-la-perla-castro-urdiales',
+      'imagen' => 'asador-la-perla-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Asador La Perla en Castro Urdiales',
       'fuente' => 'asadorlaperla.com',
       'web_imagen' => 'https://www.asadorlaperla.com',
@@ -13,8 +13,8 @@
     ],
     [
       'nombre' => 'Castillo de Santa Ana',
-      'slug'   => 'castillo-de-santa-ana',
-      'imagen' => 'castillo-de-santa-ana-1.jpg',
+      'slug'   => 'castillo-de-santa-ana-castro-urdiales',
+      'imagen' => 'castillo-de-santa-ana-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Castillo de Santa Ana en Castro Urdiales',
       'fuente' => 'turismodecantabria.com',
       'web_imagen' => 'https://turismodecantabria.com',
@@ -23,7 +23,7 @@
     [
       'nombre' => 'Club Náutico',
       'slug'   => 'club-nautico-castro-urdiales',
-      'imagen' => 'club-nautico.jpg',
+      'imagen' => 'club-nautico-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Club Náutico de Castro Urdiales',
       'fuente' => 'clubnauticocastro.com',
       'web_imagen' => 'https://clubnauticocastro.com',
@@ -31,8 +31,8 @@
     ],
     [
       'nombre' => 'El Pedregal',
-      'slug'   => 'el-pedregal',
-      'imagen' => 'playa-el-pedregal-castro-urdiales-1.jpg',
+      'slug'   => 'playa-el-pedregal-castro-urdiales',
+      'imagen' => 'playa-el-pedregal-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Zona El Pedregal en Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
       'web_imagen' => 'https://www.castro-urdiales.net',
@@ -40,8 +40,8 @@
     ],
     [
       'nombre' => 'Iglesia de Santa María de la Asunción',
-      'slug'   => 'iglesia-santa-maria-de-la-asuncion',
-      'imagen' => 'iglesia-santa-maria-de-la-asuncion-castro-urdiales-1.jpg',
+      'slug'   => 'iglesia-santa-maria-de-la-asuncion-castro-urdiales',
+      'imagen' => 'iglesia-santa-maria-de-la-asuncion-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Iglesia gótica de Santa María de Castro Urdiales',
       'fuente' => 'turismodecantabria.com',
       'web_imagen' => 'https://turismodecantabria.com',
@@ -49,8 +49,8 @@
     ],
     [
       'nombre' => 'Palacio de Ocharán',
-      'slug'   => 'palacio-ocharan',
-      'imagen' => 'palacio-ocharan-castro-urdiales.jpg',
+      'slug'   => 'palacio-ocharan-castro-urdiales',
+      'imagen' => 'palacio-ocharan-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Palacio de Ocharán en Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
       'web_imagen' => 'https://www.castro-urdiales.net',
@@ -59,7 +59,7 @@
     [
       'nombre' => 'Parque Amestoy',
       'slug'   => 'parque-amestoy-castro-urdiales',
-      'imagen' => 'parque-amestoy-castro-urdiales.jpg',
+      'imagen' => 'parque-amestoy-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Parque Amestoy en Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
       'web_imagen' => 'https://www.castro-urdiales.net',
@@ -68,7 +68,7 @@
     [
       'nombre' => 'Paseo Marítimo',
       'slug'   => 'paseo-maritimo-castro-urdiales',
-      'imagen' => 'paseo-maritimo-castro-urdiales-1.jpg',
+      'imagen' => 'paseo-maritimo-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Paseo Marítimo de Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
       'web_imagen' => 'https://www.castro-urdiales.net',
@@ -86,7 +86,7 @@
     [
       'nombre' => 'Plaza del Ayuntamiento',
       'slug'   => 'plaza-del-ayuntamiento-castro-urdiales',
-      'imagen' => 'plaza-del-ayuntamiento-castro-urdiales.jpg',
+      'imagen' => 'plaza-del-ayuntamiento-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Plaza del Ayuntamiento de Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
       'web_imagen' => 'https://www.castro-urdiales.net',
@@ -95,7 +95,7 @@
     [
       'nombre' => 'Puente Medieval',
       'slug'   => 'puente-medieval',
-      'imagen' => 'puente-medieval-castro-urdiales-1.jpg',
+      'imagen' => 'puente-medieval-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Puente Medieval de Castro Urdiales',
       'fuente' => 'turismodecantabria.com',
       'web_imagen' => 'https://turismodecantabria.com',
@@ -104,7 +104,7 @@
     [
       'nombre' => 'Puerto de Castro Urdiales',
       'slug'   => 'puerto-pesquero-castro-urdiales',
-      'imagen' => 'puerto-pesquero-castro-urdiales-1.jpg',
+      'imagen' => 'puerto-pesquero-castro-urdiales-cantabria-1.jpg',
       'alt'    => 'Puerto pesquero de Castro Urdiales',
       'fuente' => 'castro-urdiales.net',
       'web_imagen' => 'https://www.castro-urdiales.net',

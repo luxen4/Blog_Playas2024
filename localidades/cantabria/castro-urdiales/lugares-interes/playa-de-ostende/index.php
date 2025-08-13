@@ -10,5 +10,5 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Ostende, Castro-Urdiales, playas Cantabria, playa urbana, costa de Cantabria, turismo Castro Urdiales, playa accesible, servicios playa, paseo marítimo') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>

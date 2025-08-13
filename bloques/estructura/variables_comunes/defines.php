@@ -27,7 +27,10 @@
 
 
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD', PATH_DOMINIO_RAIZ_LOCALIDADES .$region_minuscula.'/'.$localidad_minuscula); ?>
+<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD ."/lugares-interes/".$lugar_minuscula); ?>
+<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_IMG', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES .'/img'); ?>
 
+<?php define('PATH_DOMINIO_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LOCALIDAD_HEAD_VARIABLES', PATH_DOMINIO_RAIZ .'bloques/estructura/paginas-localidad/head/variables'); ?>
 
 <?php //define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS_LUGAR_INTERES_IMG_LUGAR_INTERES_LOCALIDAD_REGION', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.$lugar_minuscula.'/img/'.$lugar_minuscula.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>
 <?php define('PATH_IMAGEN_PRESENTACION_PLAYA', PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD.'/lugares-interes/playas/'.$lugar_minuscula.'/img/'.$lugar_minuscula.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg'); ?>

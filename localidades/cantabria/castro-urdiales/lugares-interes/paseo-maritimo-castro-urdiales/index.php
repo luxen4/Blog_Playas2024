@@ -10,8 +10,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Paseo Marítimo Castro Urdiales, paseo junto al mar Cantábrico, turismo costero Cantabria, ambiente marinero Castro Urdiales, playa Castro Urdiales') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <!DOCTYPE html>
 <html lang="es">
 

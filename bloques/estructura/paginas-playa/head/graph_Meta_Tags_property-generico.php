@@ -10,6 +10,7 @@ $graph_Meta_Tags_property_updated_timeEEEEEEE = date('c');
 $graph_Meta_Tags_property_published_time = HOY; // Ajusta según la fecha real
 $graph_Meta_Tags_property_section      = TURISMO_PLAYAS;
 $graph_Meta_Tags_property_tag          = LUGAR;
-$graph_Meta_Tags_property_tag2         = 'Playas del Cantabrico';
+$graph_Meta_Tags_property_tag2         = 'Turismo Costa Cantábrica';
 $graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
 ?>
+

@@ -17,8 +17,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa El Pedregal Castro Urdiales, playas Cantabria, ocio en la playa Castro Urdiales, naturaleza Cantabria') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
-
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <!DOCTYPE html>
 <html lang="es">
 

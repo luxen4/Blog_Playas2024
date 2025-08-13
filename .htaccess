@@ -37,11 +37,12 @@
     RewriteRule ^puente-medieval$ localidades/cantabria/castro-urdiales/lugares-interes/puente-medieval/index.php [L]
     RewriteRule ^puerto-pesquero-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puerto-pesquero-castro-urdiales/index.php [L]
     
-    
-
     # Sonabia
     RewriteRule ^sonabia-cantabria$     localidades/cantabria/sonabia/index.php [L]
+    RewriteRule ^playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas-sonabiia/index.php [L]
     
+
+
     # Santoña
     RewriteRule ^santona-cantabria$ localidades/cantabria/santona/index.php [L]
 

@@ -106,10 +106,14 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-sonabia-cantabria-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-valdearenas-sonabia-cantabria-1.jpg"
          alt="Playa de Sonabia vista desde los acantilados"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-sonabia-cantabria-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-valdearenas-sonabia-cantabria-2.jpg"
+         alt="Acceso peatonal a la Playa de Sonabia rodeada de pinos"
+         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
+
+        <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-valdearenas-sonabia-cantabria-3.jpg"
          alt="Acceso peatonal a la Playa de Sonabia rodeada de pinos"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

@@ -25,7 +25,7 @@
 
 
     RewriteRule ^castro-urdiales-cantabria$     localidades/cantabria/castro-urdiales/index.php [L]
-   RewriteRule ^asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla-castro-urdiales/index.php [L]
+    RewriteRule ^asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla-castro-urdiales/index.php [L]
     RewriteRule ^castillo-de-santa-ana-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/castillo-de-santa-ana-castro-urdiales/index.php [L]    
     RewriteRule ^club-nautico-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/club-nautico-castro-urdiales/index.php [L]    
     RewriteRule ^playa-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-el-pedregal-castro-urdiales/index.php [L]    
@@ -39,7 +39,8 @@
     
     # Sonabia
     RewriteRule ^sonabia-cantabria$     localidades/cantabria/sonabia/index.php [L]
-    RewriteRule ^playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas-sonabiia/index.php [L]
+    RewriteRule ^playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas-sonabia/index.php [L]
+    RewriteRule ^pena-candina-sonabia$          localidades/cantabria/sonabia/lugares-interes/pena-candina-sonabia/index.php [L]
     
 
 

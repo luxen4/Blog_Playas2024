@@ -32,7 +32,7 @@ $lugares_interes = [
   [
     'nombre' => 'Ojo del Diablo',
     'slug'   => 'ojo-del-diablo-sonabia',
-    'imagen' => 'ojos-del-diablo-sonabia-cantabria-1.jpg',
+    'imagen' => 'ojo-del-diablo-sonabia-cantabria-1.jpg',
     'alt'    => 'Ojo del Diablo',
     'fuente' => 'sendasdeviaje.com',
     'web_imagen' => 'https://sendasdeviaje.com/ruta-ojos-diablo-orinon-sonabia/',

@@ -5,6 +5,8 @@
     </head>
 
     <body class="bg-<?= COLOR_PAGE; ?>-100">
+
+
         <?php require PATH_RAIZ_LOCALIDADES . "/_estructura/body/header-generico.php"; ?>
         <?php require PATH_RAIZ_LOCALIDADES . "/_estructura/body/post-header-generico.php"; ?>
 

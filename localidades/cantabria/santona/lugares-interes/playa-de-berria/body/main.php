@@ -1,4 +1,5 @@
 <main>
+            <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <h1 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">
     🌊 Playa de Berria:
     <span class="block mt-1 text-base md:text-lg text-blue-500 font-normal">
@@ -120,10 +121,10 @@
 
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-berria-santona-cantabria-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-berria-santona-cantabria-1.jpg"
          alt="Vista panorámica de la Playa de Berria junto a las marismas"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/vista-panoramica-playa-berria-cantabria.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-berria-santona-cantabria-2.jpg"
          alt="Surfista en la Playa de Berria en Cantabria"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

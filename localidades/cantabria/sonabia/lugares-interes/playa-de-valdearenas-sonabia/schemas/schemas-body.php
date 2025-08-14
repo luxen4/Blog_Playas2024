@@ -1,12 +1,12 @@
 <?php
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
-$schemaTitle        = $schemaTitle        ?? "Playa de Sonabia - Sonabia";
-$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Sonabia en Sonabia, Cantabria: una cala virgen de arena dorada rodeada de acantilados y pinares, perfecta para el baño y el senderismo costero.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/sonabia/lugares-interes/playa-de-sonabia";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-sonabia-1.jpg";
+$schemaTitle        = $schemaTitle        ?? "Playa de Valdearenas - Sonabia";
+$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Valdearenas en Sonabia, Cantabria: extensa playa de arena fina y dorada, perfecta para pasear, practicar surf y disfrutar del paisaje costero.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/sonabia/lugares-interes/playa-de-valdearenas";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-valdearenas-sonabia-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
-    "streetAddress" => "Camino de Sonabia",
+    "streetAddress" => "Camino de Valdearenas",
     "addressLocality" => "Sonabia",
     "addressRegion"   => "Cantabria",
     "postalCode"      => "39749",
@@ -32,8 +32,8 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.4425,
-    "longitude": -3.4050
+    "latitude": 43.4489,
+    "longitude": -3.4152
   },
   "amenityFeature": [
     {
@@ -43,12 +43,12 @@ $schemaAddress      = $schemaAddress      ?? [
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Sin duchas ni baños públicos",
-      "value": false
+      "name": "Zona apta para surf",
+      "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Aparcamiento limitado",
+      "name": "Aparcamiento amplio",
       "value": true
     }
   ],

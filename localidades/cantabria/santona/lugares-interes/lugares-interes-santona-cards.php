@@ -13,8 +13,8 @@
     ],
     [
       'nombre' => 'Monte Buciero',
-      'slug'   => 'monte-buciero',
-      'imagen' => 'Ruta-del-Monte-Buciero-Cantabria-Cantabriarural-G.jpg',
+      'slug'   => 'monte-buciero-santona',
+      'imagen' => 'monte-buciero-santona-cantabria-1.jpg',
       'alt'    => 'Monte Buciero',
       'fuente' => 'cantabriarural.com',
       'web_imagen' => 'https://www.cantabriarural.com/lugares-de-interes/ruta-del-monte-buciero.html',
@@ -22,8 +22,8 @@
     ],
     [
       'nombre' => 'Faro del Caballo',
-      'slug'   => 'faro-del-caballo',
-      'imagen' => 'faro-del-caballo-santoña.jpg',
+      'slug'   => 'faro-del-caballo-santona',
+      'imagen' => 'faro-del-caballo-santona-cantabria-1.jpg',
       'alt'    => 'Faro del Caballo',
       'fuente' => 'apartamentoscostaesmeralda.com',
       'web_imagen' => 'https://apartamentoscostaesmeralda.com/el-faro-de-santona/',
@@ -32,7 +32,7 @@
     [
       'nombre' => 'Puerto de Santoña',
       'slug'   => 'puerto-de-santona',
-      'imagen' => 'puerto-de-santona.jpg',
+      'imagen' => 'puerto-de-santona-santona-cantabria-1.jpg',
       'alt'    => 'Puerto de Santoña',
       'fuente' => 'anden-27.blogspot.com',
       'web_imagen' => 'https://anden-27.blogspot.com/2017/04/escapada-santona.html',

@@ -1,15 +1,15 @@
 <?php 
-$latitude  = 43.44250;  
-$longitude = -3.40500; 
+$latitude  = 43.44890;  
+$longitude = -3.41520; 
 
-// Variables para el schema – Playa de Sonabia
-$schemaTitle       = "Playa de Sonabia - Sonabia";
-$schemaDescription = "Descubre la Playa de Sonabia en Sonabia, Cantabria: una cala virgen de arena dorada rodeada de acantilados y pinares, perfecta para el baño y el senderismo costero.";
-$schemaUrl         = "https://www.tu-dominio.com/sonabia/lugares-interes/playa-de-sonabia"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-sonabia-1.jpg";         // Cambia por la URL real de la imagen principal
+// Variables para el schema – Playa de Valdearenas (Sonabia)
+$schemaTitle       = "Playa de Valdearenas - Sonabia";
+$schemaDescription = "Descubre la Playa de Valdearenas en Sonabia, Cantabria: amplia playa de arena fina y dorada, ideal para paseos, surf y disfrutar de la naturaleza costera.";
+$schemaUrl         = "https://www.tu-dominio.com/sonabia/lugares-interes/playa-de-valdearenas"; // Cambia por la URL real
+$schemaImage       = "https://www.tu-dominio.com/images/playa-de-valdearenas-sonabia-1.jpg";   // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"         => "PostalAddress",
-    "streetAddress" => "Camino de Sonabia",
+    "streetAddress" => "Camino de Valdearenas",
     "addressLocality" => "Sonabia",
     "addressRegion"   => "Cantabria",
     "postalCode"      => "39749",

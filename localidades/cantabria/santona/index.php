@@ -1,5 +1,5 @@
 <?php  
-$localidad = 'Santoña';     $localidad_minuscula = 'santona';
+$localidad = 'Santoña';     $localidad_minuscula = 'santona'; $lugar_minuscula='santona';
 $region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
 $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
 

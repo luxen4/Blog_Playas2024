@@ -1,70 +1,18 @@
-<?php 
-$localidad = 'Biarritz';
-$localidad_minuscula = strtolower(
-    str_replace(
-        ['ñ', 'Ñ', ' '], 
-        ['n', 'n', '-'], 
-        $localidad
-    )
-);
+<?php $localidad = 'Biarritz'; $lugar_minuscula = 'biarritz'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/nouvelle-aquitaine/variables-generales-region.php"; ?>
 
-$region = 'Nouvelle Aquitaine';
-$region_minuscula = strtolower(
-    str_replace(
-        ['ñ', 'Ñ', ' '], 
-        ['n', 'n', '-'], 
-        $region
-    )
-);
+<?php define('TITLE', "Biarritz – Turismo y Naturaleza en País Vasco Francés 2025"); ?>
+<?php define('DESCRIPTION', "Descubre Biarritz, famosa por sus playas, surf y ambiente cosmopolita en la costa del País Vasco Francés."); ?>
+<?php define('COLOR_PAGE', "sky"); ?>
+<?php define('LUGAR', "Biarritz"); ?>
+<?php define('LUGAR_MINUSCULA', 'biarritz') ?>
+<?php define('KEYWORDS_CONTENT', 'Biarritz, País Vasco Francés, playas, turismo, surf, costa atlántica') ?>
 
-require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php";
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php"; ?>
 
-// Paths
-define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025');
-define('PATH_HREF_RAIZ', "/Blog_Playas2025");
-
-define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); 
-define('PATH_RAIZ_BLOQUES_CONTROL', PATH_RAIZ_BLOQUES . '/control');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO', PATH_RAIZ_BLOQUES. '/estructura/paginas-generico');
-
-define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}");
-define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES', PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes");
-
-define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques");
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/body');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head");
-
-define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5");
-define('WEB_PAGE', "website");
-define('HOY', date('Y-m-d'));
-define('IDIOMA_LOCAL', 'fr_FR');
-
-define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades");
-
-define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables');
-define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/');
-define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/');
-
-define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); 
-?>
-
-<?php require PATH_RAIZ_LOCALIDADES . "/nouvelle-aquitaine/biarritz/head/variables/_meta_tagsa.php"; ?>
-
-<?php
-$description_content = 'Découvrez Biarritz, station balnéaire emblématique de la Nouvelle-Aquitaine, connue pour ses plages de surf, son architecture élégante et son ambiance cosmopolite.';
-$keywords_content = 'Biarritz, Nouvelle Aquitaine, tourisme France, plages, surf, côte basque, ville élégante';
-
-lugar_minuscula_footer = 'Biarritz, Nouvelle Aquitaine'; 
-COLOR_PAGE='blue'; 
-lugar_minuscula='Biarritz'; 
-lugar_minuscula='Biarritz';
-
-define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");
-define('AUTHOR', "Adrián Laya García");
-define('EMAIL_AUTHOR', " ");
-?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php"; ?>
 
 <!DOCTYPE html>
 <html lang="fr">

@@ -1,3 +1,6 @@
+<?php $localidad = 'Ibarrangelu'; $lugar_minuscula = 'ibarrangelu'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+
 <?php define('TITLE', "Ibarrangelu – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Ibarrangelu, un pintoresco municipio de Bizkaia con impresionantes paisajes naturales, playas vírgenes y rica cultura vasca."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>

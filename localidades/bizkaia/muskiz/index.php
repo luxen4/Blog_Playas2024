@@ -1,3 +1,6 @@
+<?php $localidad = 'Muskiz'; $lugar_minuscula = 'muskiz'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+
 <?php define('TITLE', "Muskiz – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Muskiz, un municipio industrial y natural en Bizkaia, con historia minera, espacios verdes y su costa en el País Vasco."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>

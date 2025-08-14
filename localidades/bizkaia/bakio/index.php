@@ -1,3 +1,6 @@
+<?php $localidad = 'Bakio'; $lugar_minuscula = 'Bakio'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+
 <?php define('TITLE', "Bakio – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre la Playa de Bakio, en Bizkaia: un arenal amplio ideal para surfistas y familias, rodeado de montañas verdes y cercano a San Juan de Gaztelugatxe."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>

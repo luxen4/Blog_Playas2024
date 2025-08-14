@@ -1,3 +1,6 @@
+<?php $localidad = 'Capbreton'; $lugar_minuscula = 'capbreton'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/nouvelle-aquitaine/variables-generales-region.php"; ?>
+
 <?php define('TITLE', "Capbreton – Turismo y Plage Centrale 2025"); ?>
 <?php define('DESCRIPTION', "Descubre la Plage Centrale de Capbreton, en Nueva Aquitania: una playa amplia y animada, ideal para familias y amantes del surf, con paseo marítimo, restaurantes y vistas espectaculares del Atlántico."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>
@@ -5,11 +8,11 @@
 <?php define('LUGAR_MINUSCULA', 'capbreton'); ?>
 <?php define('KEYWORDS_CONTENT', 'Plage Centrale, Capbreton, turismo Nueva Aquitania, playas de Las Landas, surf en Francia, costa atlántica francesa, naturaleza en Capbreton'); ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/nouvelle-aquitaine/capbreton/variables-localidad.php"; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php"; ?>
 
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php"; ?>
 
 
 <!DOCTYPE html>

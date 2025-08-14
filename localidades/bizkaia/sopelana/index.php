@@ -1,3 +1,6 @@
+<?php $localidad = 'Sopelana'; $lugar_minuscula = 'sopelana'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+
 <?php define('TITLE', "Sopelana – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Sopelana, un vibrante municipio costero de Bizkaia conocido por sus playas ideales para el surf, naturaleza y ambiente joven y activo."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>

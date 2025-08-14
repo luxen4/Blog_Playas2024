@@ -1,3 +1,6 @@
+<?php $localidad = 'Gorliz'; $lugar_minuscula = 'gorliz'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+
 <?php define('TITLE', "Gorliz – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Gorliz, un encantador municipio de Bizkaia con rica historia, naturaleza exuberante y un ambiente tranquilo en la costa vasca."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>

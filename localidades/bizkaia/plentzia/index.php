@@ -1,3 +1,6 @@
+<?php $localidad = 'Plentzia'; $lugar_minuscula = 'plentzia'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+
 <?php define('TITLE', "Plentzia – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Plentzia, un encantador municipio costero de Bizkaia con playas amplias, naturaleza y actividades para toda la familia."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>
@@ -9,8 +12,6 @@
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
-
-
 
 <!DOCTYPE html>
 <html lang="es">

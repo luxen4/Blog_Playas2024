@@ -1,70 +1,18 @@
-<?php 
-$localidad = 'Saint-Jean-de-Luz';
-$localidad_minuscula = strtolower(
-    str_replace(
-        ['ñ', 'Ñ', ' '], 
-        ['n', 'n', '-'], 
-        $localidad
-    )
-);
+<?php $localidad = 'Saint-Jean-de-Luz'; $lugar_minuscula = 'saint-jean-de-luz'; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/nouvelle-aquitaine/variables-generales-region.php";?>
 
-$region = 'Nouvelle Aquitaine';
-$region_minuscula = strtolower(
-    str_replace(
-        ['ñ', 'Ñ', ' '], 
-        ['n', 'n', '-'], 
-        $region
-    )
-);
+<?php define('TITLE', "Saint-Jean-de-Luz – Turismo y Naturaleza en País Vasco Francés 2025"); ?>
+<?php define('DESCRIPTION', "Descubre Saint-Jean-de-Luz, un pintoresco municipio del País Vasco Francés con playas, gastronomía local y un ambiente encantador junto al mar."); ?>
+<?php define('COLOR_PAGE', "sky"); ?>
+<?php define('LUGAR', "Saint-Jean-de-Luz"); ?>
+<?php define('LUGAR_MINUSCULA', 'saint-jean-de-luz') ?>
+<?php define('KEYWORDS_CONTENT', 'Saint-Jean-de-Luz, País Vasco Francés, playas, turismo, gastronomía, costa atlántica') ?>
 
-require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php";
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
+<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
 
-// Paths
-define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2025');
-define('PATH_HREF_RAIZ', "/Blog_Playas2025");
-
-define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); 
-define('PATH_RAIZ_BLOQUES_CONTROL', PATH_RAIZ_BLOQUES . '/control');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO', PATH_RAIZ_BLOQUES. '/estructura/paginas-generico');
-
-define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}");
-define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES', PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes");
-
-define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2025/bloques");
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/body');
-define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head");
-
-define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5");
-define('WEB_PAGE', "website");
-define('HOY', date('Y-m-d'));
-define('IDIOMA_LOCAL', 'fr_FR');
-
-define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2025.kesug.com/Blog_Playas2025/localidades");
-
-define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables');
-define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2025/localidades/');
-define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2025/');
-
-define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); 
-?>
-
-<?php require PATH_RAIZ_LOCALIDADES . "/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/head/variables/_meta_tagsa.php"; ?>
-
-<?php
-$description_content = 'Découvrez Saint-Jean-de-Luz, charmante ville côtière de la Nouvelle-Aquitaine, célèbre pour ses plages, son patrimoine basque et son ambiance accueillante.';
-$keywords_content = 'Saint-Jean-de-Luz, Nouvelle Aquitaine, tourisme France, plages, patrimoine basque, côte basque';
-
-lugar_minuscula_footer = 'Saint-Jean-de-Luz, Nouvelle Aquitaine'; 
-COLOR_PAGE='blue'; 
-lugar_minuscula='Saint-Jean-de-Luz'; 
-lugar_minuscula='Saint-Jean-de-Luz';
-
-define('NAME_BLOG', "Turismo y Playas 2025 – Guía Costera por el Cantábrico");
-define('AUTHOR', "Adrián Laya García");
-define('EMAIL_AUTHOR', " ");
-?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php"; ?>
 
 <!DOCTYPE html>
 <html lang="fr">

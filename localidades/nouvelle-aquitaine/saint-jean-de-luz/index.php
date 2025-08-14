@@ -42,7 +42,7 @@
               <i class="fas fa-map-marker-alt"></i> Saint-Jean-de-Luz (Nouvelle Aquitaine)
             </h1>
             <p class="text-left text-lg md:text-xl font-medium">
-              Saint-Jean-de-Luz est une ville côtière de la Nouvelle-Aquitaine réputée pour ses plages pittoresques, son riche patrimoine basque et son atmosphère chaleureuse.
+              Saint-Jean-de-Luz es una ciudad costera de Nueva Aquitania, conocida por sus pintorescas playas, su rico patrimonio vasco y su ambiente acogedor.
             </p>
           </div>
         </header>

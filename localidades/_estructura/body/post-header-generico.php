@@ -14,7 +14,7 @@ try {
     } elseif (file_exists($pathSinPlayas)) {
         require $pathSinPlayas;
     } else {
-        throw new Exception("Archivo pre-html.php no encontrado en ninguna ruta.");
+        throw new Exception("Archivo pre-html.php no encontrado en ninguna rrruta.");
     }
 } catch (Exception $e) {
     // Aquí puedes manejar el error: mostrar mensaje, log, redirección, etc.

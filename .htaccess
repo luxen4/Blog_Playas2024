@@ -186,8 +186,14 @@
 
     # Saint Jean de Luz
     RewriteRule ^saint-jean-de-luz-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/saint-jean-de-luz/index.php [L]
-    RewriteRule ^playa-de-la-grande-plage-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/playas/playa-de-la-grande-plage-saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/la-grande-plage-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/la-grande-plage-saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/puerto-pesquero-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/puerto-pesquero-saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/fuerte-de-socoa-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/fuerte-de-socoa-saint-jean-de-luz/index.php [L]
     
+
+
+
     RewriteRule ^playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz-francia.php [L]
     RewriteRule ^actividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-saint-jean-de-luz-francia.php [L]
     RewriteRule ^como-llegar-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/como-llegar-playa-de-saint-jean-de-luz-francia.php [L]

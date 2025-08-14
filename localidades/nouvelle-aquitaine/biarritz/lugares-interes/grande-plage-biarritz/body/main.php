@@ -1,17 +1,19 @@
 <main>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
+  
   <h1 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">
-    🏖️ Playa de Ondarraitz – Hendaia:
+    🏖️ Grande Plage de Biarritz:
     <span class="block mt-1 text-base md:text-lg text-blue-500 font-normal">
-      Naturaleza y surf en la costa vasco-francesa
+      Icono del Atlántico francés
     </span>
   </h1>
 
   <p class="mb-4 text-sm text-gray-700">
-    La <strong class="text-gray-900">Playa de Ondarraitz</strong>, situada en <span class="font-medium">Hendaia</span>, Francia, es un lugar ideal para familias y surfistas que buscan un ambiente tranquilo rodeado de naturaleza y vistas al mar Cantábrico.
+    La <strong class="text-gray-900">Grande Plage de Biarritz</strong>, situada en el corazón de <span class="font-medium">Biarritz</span>, Francia, es una de las playas más famosas de la costa atlántica, ideal para el surf, el baño y los paseos frente a un entorno urbano elegante.
   </p>
 
   <p class="mb-6 text-sm text-gray-700">
-    Rodeada de paisajes característicos del País Vasco francés, esta playa ofrece un espacio perfecto para el descanso, deportes acuáticos y paseos en plena naturaleza.
+    Con más de <span class="font-medium">400 metros de longitud</span> y una amplia franja de arena fina, la Grande Plage combina el encanto clásico de la Belle Époque con modernas instalaciones turísticas.
   </p>
 
   <?php $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
@@ -24,12 +26,12 @@
     </div>
   </section>
 
-  <section aria-labelledby="servicios-ondarraitz" class="mb-8">
-    <h2 id="servicios-ondarraitz" class="text-xl font-semibold text-blue-700 mb-3">
-      Servicios en la Playa de Ondarraitz
+  <section aria-labelledby="servicios-biarritz" class="mb-8">
+    <h2 id="servicios-biarritz" class="text-xl font-semibold text-blue-700 mb-3">
+      Servicios en la Grande Plage
     </h2>
     <p class="mb-4 text-sm text-gray-700">
-      Para tu comodidad, esta playa cuenta con:
+      Esta playa urbana dispone de una amplia gama de servicios:
     </p>
 
     <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
@@ -37,13 +39,13 @@
         <svg class="w-5 h-5 text-green-500" ...>
           <path d="M5 12l5 5L20 7"/>
         </svg>
-        Acceso peatonal y pasarelas adaptadas
+        Acceso directo desde el centro de Biarritz
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-gray-500" ...>
           <path d="M3 7h18M3 12h18M3 17h18"/>
         </svg>
-        Duchas y aseos públicos
+        Duchas y vestuarios públicos
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-yellow-500" ...>
@@ -55,18 +57,18 @@
         <svg class="w-5 h-5 text-indigo-500" ...>
           <path d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
-        Restaurantes y cafeterías próximas
+        Restaurantes y cafés con vistas al mar
       </li>
     </ul>
   </section>
 
-  <section aria-labelledby="actividades-ondarraitz" class="mb-8">
-    <h2 id="actividades-ondarraitz" class="text-xl font-semibold text-blue-700 mb-3">
-      Actividades en la Playa de Ondarraitz
+  <section aria-labelledby="actividades-biarritz" class="mb-8">
+    <h2 id="actividades-biarritz" class="text-xl font-semibold text-blue-700 mb-3">
+      Actividades en la Grande Plage
     </h2>
 
     <p class="mb-4 text-sm text-gray-700">
-      Entre las actividades destacadas en esta playa:
+      La Grande Plage es un lugar emblemático para disfrutar del océano Atlántico:
     </p>
 
     <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
@@ -74,53 +76,53 @@
         <svg class="w-5 h-5 text-blue-500" ...>
           <path d="M12 2a4 4 0 100 8 4 4 0 000-8zM4 20c1-4 5-6 8-6s7 2 8 6H4z"/>
         </svg>
-        Surf y deportes acuáticos
+        Surf para principiantes y expertos
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-teal-500" ...>
           <path d="M12 2C6.5 2 2 12 2 12s4.5 10 10 10 10-10 10-10S17.5 2 12 2z"/>
         </svg>
-        Observación de aves y naturaleza
+        Paseos por el paseo marítimo
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-yellow-500" ...>
           <path d="M17 9V7H7v2h10zm0 4v-2H7v2h10zm0 4v-2H7v2h10z"/>
         </svg>
-        Paseos por la costa y fotografía
+        Fotografías del Hotel du Palais y la costa
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-pink-500" ...>
           <path d="M9 12h6m-3-3v6m-7 4h14a2 2 0 002-2V5a2 2 0-00-2-2H5a2 2 0-00-2 2v14l4-4z"/>
         </svg>
-        Relax y picnic en áreas verdes cercanas
+        Relax en hamacas y sombrillas de alquiler
       </li>
     </ul>
 
     <p class="mb-4 text-sm text-gray-700">
-      Un destino ideal para conectar con la naturaleza y disfrutar de la tranquilidad.
+      Un lugar único donde la tradición, el lujo y el mar se combinan a la perfección.
     </p>
   </section>
 
   <!-- Galería de 4 imágenes -->
   <figure class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-ondarraitz-hendaia-1.jpg"
-         alt="Vista panorámica de la Playa de Ondarraitz en Hendaia"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/grande-plage-biarritz-nouvelle-aquitaine-1.jpg"
+         alt="Vista aérea de la Grande Plage de Biarritz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-ondarraitz-hendaia-2.jpg"
-         alt="Zona de arena y mar en la Playa de Ondarraitz"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/grande-plage-biarritz-nouvelle-aquitaine-2.jpg"
+         alt="Surfistas en la Grande Plage de Biarritz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-ondarraitz-hendaia-3.jpg"
-         alt="Vegetación y paseo marítimo en la Playa de Ondarraitz"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/grande-plage-biarritz-nouvelle-aquitaine-3.jpg"
+         alt="Paseo marítimo junto a la Grande Plage"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-ondarraitz-hendaia-4.jpg"
-         alt="Atardecer en la Playa de Ondarraitz"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/grande-plage-biarritz-nouvelle-aquitaine-4.jpg"
+         alt="Hotel du Palais con vistas a la playa"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>
 
-  <p class="mb-4 text-sm text-gray-700">Imágenes de la Playa de Ondarraitz en Hendaia</p>
+  <p class="mb-4 text-sm text-gray-700">Imágenes de la Grande Plage de Biarritz</p>
 
   <p class="mb-4 text-sm text-gray-700">
-    Ideal para familias, surfistas y amantes de la naturaleza que buscan un entorno tranquilo.
+    Ideal para familias, surfistas y viajeros que buscan la esencia del Atlántico francés.
   </p>
 
   <div class="block lg:hidden">
@@ -141,12 +143,12 @@
     <ul class="list-none pl-0 space-y-1 text-gray-700 mb-6">
       <li>
         <strong>Teléfono oficina de turismo:</strong>
-        <a href="tel:+33559550000" class="text-blue-500 hover:underline">+33 5 59 55 00 00</a>
+        <a href="tel:+33559222007" class="text-blue-500 hover:underline">+33 5 59 22 20 07</a>
       </li>
       <li>
         <strong>Sitio web:</strong>
-        <a href="https://www.tourisme-hendaye.fr/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
-          tourisme-hendaye.fr
+        <a href="https://tourisme.biarritz.fr/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
+          tourisme.biarritz.fr
         </a>
       </li>
     </ul>

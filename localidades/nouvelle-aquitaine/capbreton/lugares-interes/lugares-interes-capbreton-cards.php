@@ -4,20 +4,20 @@
   $lugares_interes = [
     [
       'nombre' => 'Playa de Capbreton',
-      'slug'   => 'playa-de-capbreton',
-      'imagen' => 'playa-de-capbreton.jpg',
+      'slug'   => 'plage-centrale-capbreton',
+      'imagen' => 'plage-centrale-capbreton-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Playa de Capbreton',
       'fuente' => 'capbreton.fr',
       'web_imagen' => 'https://www.capbreton.fr/plage-de-capbreton',
       'desc'   => 'Amplia playa de arena fina, ideal para surfistas y familias, con un ambiente relajado y vistas al Atlántico.',
     ],
     [
-      'nombre' => 'Puerto de Capbreton',
-      'slug'   => 'puerto-de-capbreton',
-      'imagen' => 'puerto-de-capbreton.jpg',
+      'nombre' => 'Puerto pesquero de Capbreton',
+      'slug'   => 'puerto-pesquero-capbreton',
+      'imagen' => 'puerto-pesquero-de-capbreton-nouvelle-aquitaine-1.png',
       'alt'    => 'Puerto pesquero y deportivo de Capbreton',
-      'fuente' => 'tourisme-capbreton.com',
-      'web_imagen' => 'https://www.tourisme-capbreton.com/puerto',
+      'fuente' => 'landesatlantiquesud.com',
+      'web_imagen' => 'https://www.landesatlantiquesud.com/es/capbreton/le-port-de-capbreton/',
       'desc'   => 'Puerto histórico con actividad pesquera y marina deportiva, rodeado de restaurantes y paseos marítimos.',
     ],
     [

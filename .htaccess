@@ -190,9 +190,6 @@
     RewriteRule ^lugares-interes/puerto-pesquero-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/puerto-pesquero-saint-jean-de-luz/index.php [L]
     RewriteRule ^lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz/index.php [L]
     RewriteRule ^lugares-interes/fuerte-de-socoa-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/fuerte-de-socoa-saint-jean-de-luz/index.php [L]
-    
-
-
 
     RewriteRule ^playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz-francia.php [L]
     RewriteRule ^actividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-saint-jean-de-luz-francia.php [L]
@@ -206,6 +203,18 @@
     RewriteRule ^biarritz-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/biarritz/index.php [L]
     RewriteRule ^playa-de-la-grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
     
+
+    RewriteRule ^lugares-interes/rocher-de-la-vierge-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/rocher-de-la-vierge-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/grande-plage-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/faro-de-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/museo-del-mar-aquarium-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/museo-del-mar-aquarium-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/cote-des-basques-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/cote-des-basques-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/plage-marbella-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/plage-marbella-biarritz-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/plage-port-vieux-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/plage-port-vieux-biarritz-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-milady-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playa-de-milady-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-miramar-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playa-de-miramar-biarritz/index.php [L]
+
+
     RewriteRule ^playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/playa-de-biarritz-francia.php [L]
     RewriteRule ^actividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/actividades-playa-de-biarritz-francia.php [L]
     RewriteRule ^como-llegar-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/como-llegar-playa-de-biarritz-francia.php [L]
@@ -217,13 +226,13 @@
     # Capbreton
     RewriteRule ^capbreton-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/capbreton/index.php [L]
     
-
-
-    RewriteRule ^playa-de-la-plage-centrale-capbreton$ localidades/nouvelle-aquitaine/capbreton/lugares-interes/playas/playa-de-la-plage-centrale-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/plage-centrale-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/puerto-pesquero-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/puerto-pesquero-capbreton/index.php [L]
 
     # Hendaia
     RewriteRule ^hendaia-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/hendaia/index.php [L]
-    RewriteRule ^playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playas/playa-de-ondarraitz-hendaia/index.php [L]
+    RewriteRule ^lugares-interes/playa-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-ondarraitz-hendaia/index.php [L]
+ RewriteRule ^lugares-interes/castillo-abbadia-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia-hendaia/index.php [L]
 
 
 

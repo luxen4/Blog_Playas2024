@@ -1,17 +1,18 @@
 <main>
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <h1 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">
-    🏖️ Plage Centrale – Capbreton:
+    🏖️ Playa de Ondarraitz – Hendaia:
     <span class="block mt-1 text-base md:text-lg text-blue-500 font-normal">
-      Surf y relax en la costa atlántica francesa
+      Naturaleza y surf en la costa vasco-francesa
     </span>
   </h1>
 
   <p class="mb-4 text-sm text-gray-700">
-    La <strong class="text-gray-900">Plage Centrale</strong>, situada en <span class="font-medium">Capbreton</span>, Francia, es una de las playas más icónicas para surfistas y visitantes que buscan un ambiente vibrante y vistas al océano Atlántico.
+    La <strong class="text-gray-900">Playa de Ondarraitz</strong>, situada en <span class="font-medium">Hendaia</span>, Francia, es un lugar ideal para familias y surfistas que buscan un ambiente tranquilo rodeado de naturaleza y vistas al mar Cantábrico.
   </p>
 
   <p class="mb-6 text-sm text-gray-700">
-    Con su arena dorada, olas perfectas y un entorno lleno de vida, esta playa es ideal para deportes acuáticos, paseos junto al mar y días de descanso al sol.
+    Rodeada de paisajes característicos del País Vasco francés, esta playa ofrece un espacio perfecto para el descanso, deportes acuáticos y paseos en plena naturaleza.
   </p>
 
   <?php $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
@@ -24,9 +25,9 @@
     </div>
   </section>
 
-  <section aria-labelledby="servicios-plage-centrale" class="mb-8">
-    <h2 id="servicios-plage-centrale" class="text-xl font-semibold text-blue-700 mb-3">
-      Servicios en la Plage Centrale
+  <section aria-labelledby="servicios-ondarraitz" class="mb-8">
+    <h2 id="servicios-ondarraitz" class="text-xl font-semibold text-blue-700 mb-3">
+      Servicios en la Playa de Ondarraitz
     </h2>
     <p class="mb-4 text-sm text-gray-700">
       Para tu comodidad, esta playa cuenta con:
@@ -55,18 +56,18 @@
         <svg class="w-5 h-5 text-indigo-500" ...>
           <path d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
-        Restaurantes y bares en el paseo marítimo
+        Restaurantes y cafeterías próximas
       </li>
     </ul>
   </section>
 
-  <section aria-labelledby="actividades-plage-centrale" class="mb-8">
-    <h2 id="actividades-plage-centrale" class="text-xl font-semibold text-blue-700 mb-3">
-      Actividades en la Plage Centrale
+  <section aria-labelledby="actividades-ondarraitz" class="mb-8">
+    <h2 id="actividades-ondarraitz" class="text-xl font-semibold text-blue-700 mb-3">
+      Actividades en la Playa de Ondarraitz
     </h2>
 
     <p class="mb-4 text-sm text-gray-700">
-      Entre las actividades más populares:
+      Entre las actividades destacadas en esta playa:
     </p>
 
     <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
@@ -74,53 +75,53 @@
         <svg class="w-5 h-5 text-blue-500" ...>
           <path d="M12 2a4 4 0 100 8 4 4 0 000-8zM4 20c1-4 5-6 8-6s7 2 8 6H4z"/>
         </svg>
-        Surf y bodyboard
+        Surf y deportes acuáticos
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-teal-500" ...>
           <path d="M12 2C6.5 2 2 12 2 12s4.5 10 10 10 10-10 10-10S17.5 2 12 2z"/>
         </svg>
-        Paseos por el puerto y el espigón
+        Observación de aves y naturaleza
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-yellow-500" ...>
           <path d="M17 9V7H7v2h10zm0 4v-2H7v2h10zm0 4v-2H7v2h10z"/>
         </svg>
-        Fotografía de paisajes y atardeceres
+        Paseos por la costa y fotografía
       </li>
       <li class="flex items-center gap-2">
         <svg class="w-5 h-5 text-pink-500" ...>
           <path d="M9 12h6m-3-3v6m-7 4h14a2 2 0 002-2V5a2 2 0-00-2-2H5a2 2 0-00-2 2v14l4-4z"/>
         </svg>
-        Relax en la arena y picnic
+        Relax y picnic en áreas verdes cercanas
       </li>
     </ul>
 
     <p class="mb-4 text-sm text-gray-700">
-      Un lugar perfecto para disfrutar de la energía atlántica y el ambiente surfero.
+      Un destino ideal para conectar con la naturaleza y disfrutar de la tranquilidad.
     </p>
   </section>
 
   <!-- Galería de 4 imágenes -->
   <figure class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-plage-centrale-capbreton-nouvelle-aquitaine-2.jpg"
-         alt="Vista panorámica de la Plage Centrale en Capbreton"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-ondarraitz-hendaia-nouvelle-aquitaine-1.jpg"
+         alt="Vista panorámica de la Playa de Ondarraitz en Hendaia"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-2.jpg"
-         alt="Zona de arena y olas en la Plage Centrale"
-         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy"><?php /* https://www.tripadvisor.es/Attractions-g641840-Activities-Capbreton_Landes_Nouvelle_Aquitaine.html */?>
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-3.png"
-         alt="Paseo marítimo y ambiente surfero en la Plage Centrale"
-         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy"><?php /* https://www.landesatlantiquesud.com/es/capbreton/le-top-des-incontournables-a-faire/*/ ?> 
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/plage-centrale-capbreton-4.jpg"
-         alt="Atardecer sobre la Plage Centrale en Capbreton"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-ondarraitz-hendaia-2.jpg"
+         alt="Zona de arena y mar en la Playa de Ondarraitz"
+         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-ondarraitz-hendaia-3.jpg"
+         alt="Vegetación y paseo marítimo en la Playa de Ondarraitz"
+         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-ondarraitz-hendaia-4.jpg"
+         alt="Atardecer en la Playa de Ondarraitz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>
 
-  <p class="mb-4 text-sm text-gray-700">Imágenes de la Plage Centrale en Capbreton</p>
+  <p class="mb-4 text-sm text-gray-700">Imágenes de la Playa de Ondarraitz en Hendaia</p>
 
   <p class="mb-4 text-sm text-gray-700">
-    Ideal para surfistas, familias y viajeros que buscan disfrutar del Atlántico.
+    Ideal para familias, surfistas y amantes de la naturaleza que buscan un entorno tranquilo.
   </p>
 
   <div class="block lg:hidden">
@@ -141,12 +142,12 @@
     <ul class="list-none pl-0 space-y-1 text-gray-700 mb-6">
       <li>
         <strong>Teléfono oficina de turismo:</strong>
-        <a href="tel:+33558410575" class="text-blue-500 hover:underline">+33 5 58 41 05 75</a>
+        <a href="tel:+33559550000" class="text-blue-500 hover:underline">+33 5 59 55 00 00</a>
       </li>
       <li>
         <strong>Sitio web:</strong>
-        <a href="https://www.capbreton.fr/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
-          capbreton.fr
+        <a href="https://www.tourisme-hendaye.fr/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
+          tourisme-hendaye.fr
         </a>
       </li>
     </ul>

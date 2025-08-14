@@ -1,6 +1,6 @@
 <section id="lugares-interes" class="my-10">
     <div class="text-center mb-6">
-        <h2 class="text-2xl font-bold text-red-700 mb-2">📍 Lugares de Interés en Saint-Jean-de-Luz</h2>
+        <h2 class="text-2xl font-bold text-red-700 mb-2">📍 Lugares de Interés en <?= $localidad; ?></h2>
         <p class="text-gray-600"><?php echo $parrafo; ?></p>
     </div>
 
@@ -11,7 +11,7 @@
 
                     <figure class="mb-0">
                         <img
-                            src="/Blog_Playas2025/localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/<?php echo $lugar['slug']; ?>/img/<?php echo $lugar['imagen']; ?>"
+                            src="/Blog_Playas2025/localidades/nouvelle-aquitaine/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug']; ?>/img/<?php echo $lugar['imagen']; ?>"
                             class="card-img-top h-64 object-cover rounded-top"
                             alt="<?php echo $lugar['alt']; ?>">
 

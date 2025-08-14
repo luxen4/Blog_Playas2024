@@ -6,7 +6,9 @@
 
 <?php
 $pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/body/main.php"; 
-$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/body/main.php"; 
+$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/body/main.php";
+//$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/body/main.php"; 
+//var_dump($pathConPlayas, $pathSinPlayas);
 
 try {
     if (file_exists($pathConPlayas)) {

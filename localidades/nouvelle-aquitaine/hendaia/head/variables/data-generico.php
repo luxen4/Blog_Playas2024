@@ -1,20 +1,23 @@
 <?php
-    // Datos principales para la Playa de Ondarraitz en Hendaia
-    $descripcion = 'Explora la Playa de Ondarraitz en Hendaia, una extensa playa de arena fina ideal para familias, deportes acuáticos y paseos, con vistas al mar Cantábrico y al gemelo de los famosos gemelos rocosos (Les Jumeaux).';
+    // Datos principales para la localidad de Hendaia (Francia)
+    $descripcion = 'Hendaia, en la región de Nueva Aquitania, es un hermoso destino costero conocido por su extensa playa de arena fina, su puerto deportivo y su proximidad a la frontera española.';
+
+    $localidad_minuscula = 'hendaia'; // slug de la localidad
+    $region_minuscula    = 'nouvelle-aquitaine'; // región ya en minúsculas
 
     $url = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 
-    // Schema.org mainEntity (TouristDestination) para la Playa de Ondarraitz
-    $mainEntity_description     = 'La Playa de Ondarraitz en Hendaia es una de las más amplias del País Vasco francés, con aguas tranquilas, arena fina y un entorno ideal para el baño, el surf y actividades en familia.';
+    // Schema.org mainEntity (TouristDestination) para Hendaia
+    $mainEntity_description     = 'Hendaia es una localidad vasco-francesa con un encanto especial, famosa por su playa de tres kilómetros, su casco histórico y su ambiente marítimo.';
     $mainEntity_addressLocality = 'Hendaia';
     $mainEntity_addressRegion   = 'Nueva Aquitania';
     $mainEntity_addressCountry  = 'Francia';
 
-    // Coordenadas aproximadas del centro de la Playa de Ondarraitz
-    $mainEntity_geo_latitude    = 43.3726;
-    $mainEntity_geo_longitude   = -1.7870;
+    // Coordenadas aproximadas del centro de Hendaia
+    $mainEntity_geo_latitude    = 43.3720;
+    $mainEntity_geo_longitude   = -1.7731;
 
-    // Imagen representativa y URL canónica para la Playa de Ondarraitz
-    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-ondarraitz-hendaia.jpg";
+    // Imagen representativa y URL canónica para Hendaia
+    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/hendaia.jpg";
     $mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

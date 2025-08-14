@@ -12,7 +12,7 @@
                         href="<?= $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS ?>/index.php"   <?php 
                     }?>target="_blank">
 
-                <img src=  "localidades/<?= $region_minuscula . '/' .$localidad_minuscula. '/lugares-interes/' .$playa_name_minuscula ?>/img/playa-de-<?= $archivo_name .'-' .$region_minuscula ; ?>-1.jpg" alt="Imagen de <?= $playa_name; ?>" class="img-fluid">
+                <img src=  "localidades/<?= $region_minuscula . '/' .$localidad_minuscula. '/lugares-interes/' .$playa_name_minuscula.'-'.$localidad_minuscula ?>/img/playa-de-<?= $archivo_name .'-' .$region_minuscula ; ?>-1.jpg" alt="Imagen de <?= $playa_name; ?>" class="img-fluid">
             </a>
             <figcaption>Vista de la <?= $playa_name; ?></figcaption>
         </figure>

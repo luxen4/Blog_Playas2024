@@ -61,8 +61,8 @@
 <div class="container my-4">
   <div class="row">
         <?php 
-        $playa_name = 'Plage Centrale'; 
-        $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); 
+        $playa_name = 'Plage Centrale'; $playa_name_minuscula = strtolower(str_replace(' ', '-', $playa_name));
+        $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
         $archivo_name = 'plage-centrale-capbreton'; 
         $presentacion = 'La Plage Centrale de Capbreton, situada en Capbreton, Nueva Aquitania, 
         es una extensa playa de arena fina que se abre al océano Atlántico, ideal para surfistas y amantes del sol. 
@@ -80,17 +80,14 @@
 </div>
 
 
-
-
-
 <?php $localidad = 'Hendaia'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad));?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
 <div class="container my-4">
   <div class="row">
         <?php 
-        $playa_name = 'Playa de Ondarraitz'; 
-        $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); 
-        $archivo_name = 'playa-de-ondarraitz-hendaya'; 
+        $playa_name = 'Playa de Ondarraitz'; $playa_name_minuscula = strtolower(str_replace(' ', '-', $playa_name));
+        $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
+        $archivo_name = 'ondarraitz-hendaia'; 
         $presentacion = 'La Playa de Ondarraitz, situada en Hendaya, Nueva Aquitania, 
         es un extenso arenal de más de tres kilómetros, perfecto para pasear, practicar deportes acuáticos y disfrutar en familia. 
         Sus aguas tranquilas y su fina arena dorada la convierten en un destino ideal para el baño y el descanso. 

@@ -1,23 +1,23 @@
 <?php
-    // Datos principales para la Plage Centrale en Capbreton (Francia)
-    $descripcion = 'Descubre la Plage Centrale de Capbreton, una playa amplia y animada, ideal para el surf, paseos y disfrutar de las vistas al Atlántico, en pleno corazón de Las Landas.';
+    // Datos principales para la localidad de Capbreton (Francia)
+    $descripcion = 'Capbreton, en la región de Nueva Aquitania, es un encantador destino costero famoso por su puerto pesquero, su mercado de pescado y sus amplias playas para surfistas.';
 
-    $localidad_minuscula = 'plage-centrale-capbreton';  // slug de la playa
-    $region_minuscula = 'nouvelle-aquitaine';  // región ya en minúsculas
+    $localidad_minuscula = 'capbreton'; // slug de la localidad
+    $region_minuscula    = 'nouvelle-aquitaine'; // región ya en minúsculas
 
     $url = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 
-    // Schema.org mainEntity (TouristDestination) para la Plage Centrale de Capbreton
-    $mainEntity_description     = 'La Plage Centrale de Capbreton es conocida por su ambiente familiar, su proximidad al centro urbano y su excelente oleaje para el surf.';
+    // Schema.org mainEntity (TouristDestination) para Capbreton
+    $mainEntity_description     = 'Capbreton es un pintoresco pueblo costero del suroeste de Francia, ideal para disfrutar de deportes acuáticos, paseos marítimos y gastronomía local.';
     $mainEntity_addressLocality = 'Capbreton';
     $mainEntity_addressRegion   = 'Nueva Aquitania';
     $mainEntity_addressCountry  = 'Francia';
 
-    // Coordenadas aproximadas de la Plage Centrale de Capbreton
-    $mainEntity_geo_latitude    = 43.6538;
-    $mainEntity_geo_longitude   = -1.4387;
+    // Coordenadas aproximadas del centro de Capbreton
+    $mainEntity_geo_latitude    = 43.6410;
+    $mainEntity_geo_longitude   = -1.4287;
 
-    // Imagen representativa y URL canónica para la Plage Centrale de Capbreton
-    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/plage-centrale-capbreton.jpg";
+    // Imagen representativa y URL canónica para Capbreton
+    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/capbreton.jpg";
     $mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

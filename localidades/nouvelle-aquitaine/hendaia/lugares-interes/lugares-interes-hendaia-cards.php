@@ -4,9 +4,9 @@
   $lugares_interes = [
     [
       'nombre' => 'Playa Ondarraitz',
-      'slug'   => 'playa-ondarraitz-hendaia',
-      'imagen' => 'playa-ondarraitz-hendaia-nouvelle-aquitaine-1.jpg',
-      'alt'    => 'Playa Ondarraitz en Hendaia',
+      'slug'   => 'playa-de-ondarraitz-hendaia',
+      'imagen' => 'playa-de-ondarraitz-hendaia-nouvelle-aquitaine-1.jpg',
+      'alt'    => 'Playa de Ondarraitz en Hendaia',
       'fuente' => 'hendaye-tourisme.fr',
       'web_imagen' => 'https://www.hendaye-tourisme.fr/plage-ondarraitz',
       'desc'   => 'Extensa playa de arena fina, perfecta para paseos, surf y actividades familiares en la costa vasco-francesa.',

@@ -231,8 +231,8 @@
 
     # Hendaia
     RewriteRule ^hendaia-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/hendaia/index.php [L]
-    RewriteRule ^lugares-interes/playa-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-ondarraitz-hendaia/index.php [L]
- RewriteRule ^lugares-interes/castillo-abbadia-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia-hendaia/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-de-ondarraitz-hendaia/index.php [L]
+    RewriteRule ^lugares-interes/castillo-abbadia-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia-hendaia/index.php [L]
 
 
 

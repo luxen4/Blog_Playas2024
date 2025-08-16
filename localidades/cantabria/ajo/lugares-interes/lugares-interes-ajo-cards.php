@@ -49,10 +49,7 @@ $lugares_interes = [
   ]
 ];
 ?>
-<section id="lugares-interes" class="my-10">
-  <div class="text-center mb-6">
-    <h2 class="text-2xl font-bold text-green-700 mb-2">📍 Lugares de Interés en <?= LUGAR ?></h2>
-    <p class="text-gray-600">Descubre los rincones más emblemáticos y naturales de Ajo.</p>
-  </div>
-  <?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
-</section>
+<?php 
+$parrafo = "Ajo, en Cantabria, es un destino que combina playas vírgenes, acantilados impresionantes y rutas naturales. Desde el Faro de Cabo de Ajo hasta la Playa de Antuerta, cada lugar ofrece una experiencia única para los amantes de la naturaleza y el surf.";
+require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+

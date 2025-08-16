@@ -40,4 +40,6 @@
     ],
   ];
 ?>
-<?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+<?php 
+$parrafo = "Santoña, en Cantabria, es un destino que destaca por su rica historia, sus playas y su entorno natural. Desde la Playa de Berria hasta el Faro del Caballo, cada lugar ofrece una experiencia única para los visitantes. Disfruta de su gastronomía, especialmente las famosas anchoas, y de sus paisajes costeros.";
+require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>

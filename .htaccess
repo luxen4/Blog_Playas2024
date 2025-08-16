@@ -6,19 +6,18 @@
     RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
     
     RewriteRule ^faro-de-cabo-de-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
-    RewriteRule ^playa-de-cuberris$             localidades/cantabria/ajo/lugares-interes/playa-de-cuberris/index.php [L]
-    RewriteRule ^playa-de-antuerta$             localidades/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php [L]
-    RewriteRule ^ruta-de-la-costa-oriental$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
-    RewriteRule ^acantilados-de-cabo-de-ajo$    localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php [L]
-    RewriteRule ^ruta-de-la-costa-oriental$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-cuberris-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-cuberris-ajo/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-antuerta-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-antuerta-ajo/index.php [L]
+    RewriteRule ^lugares-interes/ruta-de-la-costa-oriental-ajo$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental-ajo/index.php [L]
+    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo$        localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo-ajo/index.php [L]
    
     RewriteRule ^mirador-del-cabo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
     
 
     # Castro-Urdales
-    RewriteRule ^playa-de-ostende$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-ostende/index.php [L]
-    RewriteRule ^playa-de-brazomar$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-brazomar/index.php [L]
-    RewriteRule ^playa-de-el-pedregal$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-el-pedregal/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-ostende-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-ostende-castro-urdiales/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-brazomar-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-brazomar-castro-urdiales/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-el-pedregal-castro-urdiales/index.php [L]
 
     RewriteRule ^ruta-costera-ostende$         localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
@@ -40,7 +39,7 @@
     # Sonabia
     RewriteRule ^sonabia-cantabria$             localidades/cantabria/sonabia/index.php [L]
 
-    RewriteRule ^playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas-sonabia/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas-sonabia/index.php [L]
     RewriteRule ^pena-candina-sonabia$          localidades/cantabria/sonabia/lugares-interes/pena-candina-sonabia/index.php [L]
     RewriteRule ^monte-candina-sonabia$         localidades/cantabria/sonabia/lugares-interes/monte-candina-sonabia/index.php [L]
     RewriteRule ^ojo-del-diablo-sonabia$         localidades/cantabria/sonabia/lugares-interes/ojo-del-diablo-sonabia/index.php [L]
@@ -48,10 +47,10 @@
 
 
     # Santoña
-    RewriteRule ^santona-cantabria$ localidades/cantabria/santona/index.php [L]
+    RewriteRule ^lugares-interes/santona-cantabria$ localidades/cantabria/santona/index.php [L]
 
 
-    RewriteRule ^playa-de-berria-santona$ localidades/cantabria/santona/lugares-interes/playa-de-berria/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-berria-santona$ localidades/cantabria/santona/lugares-interes/playa-de-berria-santona/index.php [L]
 
     RewriteRule ^monte-buciero-santona$     localidades/cantabria/santona/lugares-interes/monte-buciero-santona/index.php [L]
     RewriteRule ^faro-del-caballo-santona$  localidades/cantabria/santona/lugares-interes/faro-del-caballo-santona/index.php [L]
@@ -135,7 +134,7 @@
     RewriteRule ^plentzia-bizkaia$ localidades/bizkaia/plentzia/index.php [L]
 
 
-    RewriteRule ^playa-de-plentzia$ localidades/bizkaia/plentzia/lugares-interes/playas/playa-de-plentzia/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/playa-de-plentzia-plentzia/index.php [L]
     # RewriteRule ^playa-de-gorliz$ localidades/bizkaia/plentzia/lugares-interes/playas/playa-de-gorliz/index.php [L]
 
 

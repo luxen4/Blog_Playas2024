@@ -1,93 +1,63 @@
-<?php $targeta = PATH_RAIZ_LOCALIDADES.'/index.php';?>
-<?php $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php'; ?>
-
-
-<?php $region = 'Cantabria'; $region_minuscula = strtolower($region);?>
-<h2 id="cantabria" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6"><?= $region; ?></h2>
-
-<?php $localidad = 'Ajo';    $localidad_minuscula = strtolower($localidad);?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
-
-
-<div class="container my-4">
-  <div class="row">
-
-    <?php 
-    $playa_name = 'Playa de Cuberris'; $playa_name_minuscula=strtolower(str_replace(' ', '-', $playa_name));
-    $archivo_name = 'cuberris-ajo'; 
-    $presentacion = 'La '.$playa_name.', situada en '.$localidad.', '.$region.', 
-    es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, 
-    combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso en coche y a pie, 
-    Cuberris ofrece un equilibrio perfecto entre comodidad y naturaleza para quienes desean disfrutar de la costa cántabra en su estado más puro.';
-    ?>
-    <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
-
-    <div class="col-12 col-md-6 mb-4">
-      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
-    </div>
-
-    <?php 
-    $playa_name = 'Playa de Antuerta';  $playa_name_minuscula=strtolower(str_replace(' ', '-', $playa_name));
-    $archivo_name = 'antuerta-ajo';
-    $presentacion = 'La Playa de Antuerta, ubicada en Ajo, Cantabria, 
-    es una playa salvaje y tranquila, ideal para los amantes de la naturaleza y los paisajes vírgenes. 
-    Con su entorno rocoso y la ausencia de grandes construcciones, es perfecta para quienes buscan desconexión, paseos costeros y la esencia más natural de la costa cántabra. 
-    Aunque carece de servicios masivos, su belleza natural compensa cualquier carencia de infraestructuras.';
-    ?>
-    <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
-
-    <div class="col-12 col-md-6 mb-4">
-      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
-    </div>
-
-  </div>
-</div>
-
-
-<?php $localidad = 'Castro-Urdiales';    $localidad_minuscula = strtolower($localidad);?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
-
-
 <?php
-$playa_name = 'Playa de Ostende'; $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'ostende-castro-urdiales';
-$presentacion = 'La Playa de Ostende es una de las joyas de la costa de Santander, situada en el municipio de Castro Urdiales. Con su amplia extensión de arena dorada y sus aguas tranquilas, es un lugar ideal para disfrutar del sol y de diversas actividades acuáticas. La playa está rodeada de un hermoso entorno natural, con acantilados y zonas verdes que invitan a pasear y relajarse. Además, Ostende es famosa por sus servicios de calidad, incluyendo chiringuitos y restaurantes que ofrecen deliciosos platos de la gastronomía local, destacando especialmente los mariscos y pescados frescos. Con un ambiente familiar y acogedor, la Playa de Ostende es perfecta para quienes buscan un día de descanso junto al mar, en un entorno pintoresco y lleno de encanto.';
+$targeta = PATH_RAIZ_LOCALIDADES . '/index.php';
+$publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
+
+$region = 'Cantabria';
+$region_minuscula = strtolower($region);
 ?>
 
-<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
-
-
-
-<?php $localidad = 'Sonabia';    $localidad_minuscula = strtolower($localidad);?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
+<h2 id="<?= $region_minuscula; ?>" 
+    class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6">
+    <?= $region; ?>
+</h2>
 
 <?php
-$playa_name = 'Playa de Sonabia'; $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'sonabia-sonabia';
-$presentacion = 'La Playa de Sonabia, situada en el extremo oriental de Cantabria junto al límite con el País Vasco, es una playa virgen de arena fina y dorada rodeada de acantilados y zonas verdes. Perfecta para quienes buscan tranquilidad y un paisaje natural impresionante, ofrece excelentes oportunidades para el baño en aguas cristalinas y para el senderismo por los acantilados cercanos. Con accesos peatonales y aparcamiento limitado, su encanto radica en su entorno prácticamente intacto y en las vistas al Mar Cantábrico.';
-?>
+// Definimos todas las localidades con sus playas
+$localidades = [
+  'Ajo' => [
+    [
+      'nombre' => 'Playa de Cuberris',
+      'archivo' => 'cuberris-ajo',
+      'presentacion' => '🌊 La Playa de Cuberris, situada en Ajo, Cantabria, 
+        es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas,
+        combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso,
+        ofrece un equilibrio perfecto entre comodidad y naturaleza.'
+    ],
+    [
+      'nombre' => 'Playa de Antuerta',
+      'archivo' => 'antuerta-ajo',
+      'presentacion' => '🌊 La Playa de Antuerta, ubicada en Ajo, Cantabria, 
+        es una playa salvaje y tranquila, ideal para los amantes de la naturaleza y los paisajes vírgenes. 
+        Aunque carece de servicios masivos, su belleza natural compensa cualquier carencia de infraestructuras.'
+    ],
+  ],
+  'Castro-Urdiales' => [
+    [
+      'nombre' => 'Playa de Ostende',
+      'archivo' => 'ostende-castro-urdiales',
+      'presentacion' => '🌊 La Playa de Ostende es una de las joyas de Castro Urdiales. Con su amplia extensión de arena dorada y aguas tranquilas,
+        es ideal para disfrutar del sol y actividades acuáticas. Rodeada de acantilados y zonas verdes, destaca por sus servicios y ambiente familiar.'
+    ]
+  ],
+  'Sonabia' => [
+    [
+      'nombre' => 'Playa de Valdearenas',
+      'archivo' => 'valdearenas-sonabia',
+      'presentacion' => '🌊 La Playa de Valdearenas, en el extremo oriental de Cantabria, es una playa virgen de arena fina rodeada de acantilados.
+        Perfecta para quienes buscan tranquilidad y un paisaje natural impresionante.'
+    ]
+  ],
+  'Santoña' => [
+    [
+      'nombre' => 'Playa de Berria',
+      'archivo' => 'berria-santona',
+      'presentacion' => '🌊 La Playa de Berria, ubicada en Santoña, es una extensa franja de arena dorada entre el monte Brusco y el Buciero.
+        Ideal para surf y paseos, rodeada de marismas protegidas y con servicios completos.'
+    ]
+  ]
+];
+   include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/print-sumario-generico.php'; ?>
 
-<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME. '/body/card-playa.php'; ?>
-
-
-
-<?php $localidad = 'Santoña';    $localidad_minuscula = 'santona';?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; ?>
-
-<?php
-$playa_name = 'Playa de Berria'; $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); $archivo_name = 'berria-santona';
-$presentacion = '🌊 La Playa de Berria, ubicada en Santoña (Cantabria), es una extensa franja de arena dorada entre el monte Brusco y el monte Buciero. Con más de 2 km de longitud, es ideal para el surf, el baño y largos paseos. Rodeada de ecosistemas protegidos como las marismas de Santoña, ofrece una belleza natural incomparable con servicios completos.';
-?>
-<?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}";?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
-
-
-
-<div class="row">
-    <div id="#" class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">  
-        <?php require $publicidad; ?>
-    </div>
-</div>
 
 
 <?php /*

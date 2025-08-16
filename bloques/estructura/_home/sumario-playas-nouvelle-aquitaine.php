@@ -13,8 +13,7 @@
 <div class="container my-4">
   <div class="row">
         <?php 
-            $playa_name = 'Grande Plage'; 
-            $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); 
+            $playa_name = 'Grande Plage'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
             $archivo_name = 'grande-plage-saint-jean-de-luz'; 
             $presentacion = 'La Grande Plage de Saint-Jean-de-Luz, situada en Saint-Jean-de-Luz, Nueva Aquitania, 
             es una amplia playa urbana de arena fina protegida por la bahía del mar Cantábrico. Muy apreciada por familias y bañistas gracias a sus aguas tranquilas, 
@@ -36,8 +35,7 @@
 <div class="container my-4">
   <div class="row">
         <?php 
-        $playa_name = 'Grande Plage'; 
-        $localidad_minuscula = strtolower(str_replace(' ', '-', $playa_name)); 
+        $playa_name = 'Grande Plage'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
         $archivo_name = 'grande-plage-biarritz'; 
         $presentacion = 'La Grande Plage de Biarritz, situada en Biarritz, Nueva Aquitania, 
         es una emblemática playa urbana de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, 
@@ -72,7 +70,7 @@
 
         <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
 
-        <div class="col-12 col-md-6 mb-4">
+        <div class="col-12 col-md-6 mb-4"><?php echo($localidad_minuscula);?>
         <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
         </div>
 

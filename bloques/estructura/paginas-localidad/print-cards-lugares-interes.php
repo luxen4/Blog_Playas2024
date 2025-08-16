@@ -26,7 +26,7 @@
                     <div class="card-body p-4">
                         <h5 class="card-title text-lg font-semibold text-red-800"><?php echo $lugar['nombre']; ?></h5>
                         <p class="card-text text-muted small mb-3"><?php echo $lugar['desc']; ?></p>
-                        <a href="/Blog_Playas2025/lugares-interes/<?php echo $lugar['slug']; ?>" class="btn btn-danger btn-sm px-3 py-2 shadow-sm">
+                        <a href="/Blog_Playas2025/lugares-interes/<?php echo $lugar['slug']. $localidad_minuscula; ?>" class="btn btn-danger btn-sm px-3 py-2 shadow-sm">
                             Explorar &rarr;
                         </a>
                     </div>

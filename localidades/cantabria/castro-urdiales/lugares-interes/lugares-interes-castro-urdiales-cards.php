@@ -112,4 +112,6 @@
     ],
   ];
 ?>
-<?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+<?php 
+$parrafo = "Castro Urdiales, en Cantabria, es un destino que combina historia, cultura y naturaleza. Desde su emblemático Castillo de Santa Ana hasta la Playa de Ostende, cada rincón ofrece una experiencia única para los visitantes. Disfruta de su rica gastronomía, sus playas y su patrimonio arquitectónico.";
+require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>

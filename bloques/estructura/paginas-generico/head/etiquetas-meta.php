@@ -10,7 +10,7 @@
 <meta name="language" content="es">
 
 <!-- Canonical a la página -->
-<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar_minuscula; ?>/index.php" />
+<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar_minuscula.'-'.$localidad_minuscula; ?>/index.php" />
   
 <!-- Verificación Seobility -->
 <meta name="seobility" content="<?= SITE_VERIFICATION_CONTENT ?>" /> 

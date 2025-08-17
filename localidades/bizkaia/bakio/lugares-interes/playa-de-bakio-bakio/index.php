@@ -1,25 +1,15 @@
-<?php
-  $region = 'Bizkaia'; 
-  $region_minuscula = strtolower($region);
-  
-  $localidad = 'Bakio'; 
-  $localidad_minuscula = strtolower($localidad); 
-  $localidad_minuscula = $localidad_minuscula;   
-  $country = 'España';
-  //$localidad_minuscula  = strtolower(str_replace(' ', '-', $localidad));  // "bakio"
+<?php  
+$localidad = 'Bakio';        $localidad_minuscula = 'bakio'; $lugar_minuscula='playa-de-bakio';
+$region = 'Bizkaia';         $region_minuscula = strtolower(str_replace(' ', '-', $region));   
+$country = 'España';         $country_minuscula = strtolower(str_replace(' ', '-', $country)); 
 ?>
 
-<?php 
-    $description_content = 'Descubre la Playa de Bakio en Bizkaia: una extensa playa del litoral vasco, ideal para surfistas, familias y amantes del paisaje atlántico.';
-    $keywords_content    = 'Playa de Bakio, Bakio, playas de Bizkaia, surf, naturaleza, costa vasca, turismo en Bakio, playas con servicios';
+<?php define('TITLE', "Playa de Bakio – Turismo y Naturaleza en Bizkaia 2025"); ?>
+<?php define('DESCRIPTION', "La Playa de Bakio es una de las más conocidas de Bizkaia: amplia, de arena dorada y con olas perfectas para surfistas. Rodeada de montañas y con un paseo marítimo lleno de bares y restaurantes, es un lugar ideal para familias, amantes del surf y quienes buscan disfrutar del Cantábrico.");?>
+<?php define('COLOR_PAGE', "amber"); ?>
+<?php define('LUGAR', "Playa de Bakio"); ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+<?php define('KEYWORDS_CONTENT', 'Playa de Bakio, Bizkaia, surf en Bakio, turismo Bizkaia, playas País Vasco, costa vasca, arena dorada, paseo marítimo') ?>
 
-    LUGAR   = 'Playa de Bakio'; 
-    lugar_minuscula  = 'playa-de-bakio';
-    lugar_minuscula           = lugar_minuscula;
-    $title          = LUGAR . '- ' . $localidad . ', ' . $region;
-    $rutas          = lugar_minuscula . ' -' . $localidad_minuscula . '-' . $region_minuscula;
-    COLOR_PAGE     = 'sky'; // Puedes cambiar el color según el diseño del sitio
-    lugar_minuscula_footer    = '- ' . LUGAR . '-'; 
-?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>

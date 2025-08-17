@@ -76,10 +76,11 @@
     RewriteRule ^bakio-bizkaia$ localidades/bizkaia/bakio/index.php [L]
 
 
-    RewriteRule ^playa-de-bakio$ localidades/bizkaia/bakio/lugares-interes/playas/playa-de-bakio/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/playa-de-bakio-bakio/index.php [L]
+    RewriteRule ^lugares-interes/san-juan-de-gaztelugatxe-bakio$ localidades/bizkaia/bakio/lugares-interes/san-juan-de-gaztelugatxe-bakio/index.php [L]
+  
 
-    #Bakio
-    RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
+    #RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
     RewriteRule ^actividades-playa-de-bakio-vizcaya$ localidades/bakio/playadebakio/fichas/actividades-playa-de-bakio-vizcaya.php [L]
     RewriteRule ^como-llegar-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/como-llegar-playa-de-bakio-vizcaya.php [L]
     RewriteRule ^servicios-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/servicios-playa-de-bakio-vizcaya.php [L]

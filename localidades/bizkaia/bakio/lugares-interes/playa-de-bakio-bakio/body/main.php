@@ -1,4 +1,5 @@
 <main>
+  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <h1 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">
     🌊 Playa de Bakio:
     <span class="block mt-1 text-base md:text-lg text-blue-500 font-normal">
@@ -86,10 +87,10 @@
   </section>
 
   <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/playa-de-bakio-bakio-bizkaia-1.png"
+    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/playa-de-bakio-bakio-bizkaia-1.png"
          alt="Vista panorámica de la Playa de Bakio"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG ?>/surfistas-playa-de-Bakio-Bizkaio.jfif"
+    <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/surfistas-playa-de-Bakio-Bizkaio.jfif"
          alt="Surfistas en la Playa de Bakio"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

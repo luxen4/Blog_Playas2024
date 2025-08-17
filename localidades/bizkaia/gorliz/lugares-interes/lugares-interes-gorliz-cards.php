@@ -4,12 +4,12 @@
 <?php
   $lugares_interes = [
     [
-      'nombre' => 'Playa de Gorliz',
-      'slug'   => 'playa-de-gorliz',
-      'imagen' => 'playa-de-gorliz.jpg',
-      'alt'    => 'Playa de Gorliz',
-      'fuente' => 'gorliz.eus',
-      'web_imagen' => 'https://www.gorliz.eus/playa-de-gorliz',
+      'nombre' => 'Playa de Astondo',
+      'slug'   => 'playa-de-astondo',
+      'imagen' => 'playa-de-astondo-gorliz-bizkaia-1.jpg',
+      'alt'    => 'Playa de Astondo-Gorliz',
+      'fuente' => 'mapas.uribe.eu',
+      'web_imagen' => 'https://mapas.uribe.eu/es/gorliz/resource/r/playa-de-gorliz#1755465817076',
       'desc'   => 'Amplia playa de arena fina con servicios para toda la familia, ideal para paseos y deportes acuáticos.',
     ],
     [

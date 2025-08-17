@@ -1,20 +1,20 @@
 <!-- $lugares de Interés en Bakio -->
 
-<?php
+<?php 
   $lugares_interes = [
     [
       'nombre' => 'Playa de Bakio',
       'slug'   => 'playa-de-bakio',
-      'imagen' => 'playa-de-bakio.jpg',
+      'imagen' => 'playa-de-bakio-bizkaia-1.jpg',
       'alt'    => 'Playa de Bakio',
-      'fuente' => 'bakio.eus',
-      'web_imagen' => 'https://bakio.eus/playa-de-bakio',
+      'fuente' => 'mapas.uribe.eu',
+      'web_imagen' => 'https://mapas.uribe.eu/es/bakio/resource/r/bakio#1755461765660',
       'desc'   => 'Amplia playa de arena fina, ideal para surfistas y familias, con vistas a las montañas. ',
     ],
     [
       'nombre' => 'San Juan de Gaztelugatxe',
       'slug'   => 'san-juan-de-gaztelugatxe',
-      'imagen' => 'san-juan-de-gaztelugatxe.jpg',
+      'imagen' => 'san-juan-de-gaztelugatxe-bakio-bizkaia-1.jpg',
       'alt'    => 'San Juan de Gaztelugatxe',
       'fuente' => 'tourspain.es',
       'web_imagen' => 'https://tourspain.es/san-juan-de-gaztelugatxe/',

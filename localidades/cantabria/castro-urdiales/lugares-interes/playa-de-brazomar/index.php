@@ -1,24 +1,21 @@
-<?php
-  $region = 'Cantabria';
-  $region_minuscula = strtolower($region);
+<?php  
+$localidad = 'Castro-Urdiales';     
+$localidad_minuscula = 'castro-urdiales'; 
+$lugar_minuscula = 'playa-de-brazomar-castro-urdiales';
 
-  $localidad = 'Castro-Urdiales';
-  $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); // "castro-urdiales"
-  $localidad_minuscula = 'castro-urdiales';
-  $country = 'España';
+$region = 'Cantabria';  
+$region_minuscula = strtolower(str_replace(' ', '-', $region));   
+
+$country = 'España';    
+$country_minuscula = strtolower(str_replace(' ', '-', $country)); 
 ?>
 
-<?php 
-    $description_content = 'Explora la Playa de Brazomar en Castro-Urdiales, Cantabria: una playa urbana con aguas tranquilas, ideal para familias y actividades acuáticas. Cuenta con paseo marítimo, duchas, y todos los servicios para disfrutar del mar Cantábrico.';
-    $keywords_content    = 'Playa de Brazomar, Castro-Urdiales, playas Cantabria, playa urbana, costa Cantabria, turismo Castro Urdiales, playa familiar, servicios playa, paseo marítimo';
+<?php define('TITLE', "Playa de Brazomar en Castro-Urdiales – Turismo y Naturaleza en Cantabria 2025"); ?>
+<?php define('DESCRIPTION', "Descubre la Playa de Brazomar en Castro-Urdiales, Cantabria: una de las playas más populares y céntricas de la villa, ideal para familias y con todos los servicios necesarios."); ?>
+<?php define('COLOR_PAGE', "sky"); ?>
+<?php define('LUGAR', "Playa de Brazomar"); ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+<?php define('KEYWORDS_CONTENT', 'Playa de Brazomar, Castro-Urdiales, playas Cantabria, playa urbana Castro Urdiales, turismo en Cantabria, playa familiar, servicios playa Brazomar') ?>
 
-    LUGAR   = 'Playa de Brazomar'; 
-    lugar_minuscula  = 'playa-de-brazomar';
-    lugar_minuscula           = lugar_minuscula;
-    $title          = LUGAR . ' - ' . $localidad . ', ' . $region;
-    $rutas          = lugar_minuscula . ' -' . $localidad_minuscula . '-' . $region_minuscula;
-    COLOR_PAGE     = 'sky';
-    lugar_minuscula_footer    = '- ' . LUGAR . ' -'; 
-?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>

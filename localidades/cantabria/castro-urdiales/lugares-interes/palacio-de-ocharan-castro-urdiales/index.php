@@ -1,7 +1,7 @@
 <?php  
 $localidad = 'Castro-Urdiales';     
 $localidad_minuscula = 'castro-urdiales'; 
-$lugar_minuscula = 'palacio-ocharan-castro-urdiales';
+$lugar_minuscula = 'palacio-de-ocharan-castro-urdiales';
 
 $region = 'Cantabria';  
 $region_minuscula = strtolower(str_replace(' ', '-', $region));   
@@ -26,7 +26,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title>Palacio de Ocharan - Castro-Urdiales, Cantabria</title>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/palacio-ocharan-castro-urdiales/schemas/schemas-head.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/palacio-de-ocharan-castro-urdiales/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -68,15 +68,15 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
   <div class="swiper mySwiper rounded-lg shadow-md">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/palacio-ocharan-castro-urdiales/img/palacio-ocharan-castro-urdiales-cantabria-1.jpg" ?>"
+        <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/palacio-de-ocharan-castro-urdiales/img/palacio-de-ocharan-castro-urdiales-cantabria-1.jpg" ?>"
              class="w-full h-72 object-cover rounded-md">
       </div>
       <div class="swiper-slide">
-        <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/palacio-ocharan-castro-urdiales/img/Castillo_Ocharan_Castro_Urdiales-cantabria.jpg" ?>"
+        <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/palacio-de-ocharan-castro-urdiales/img/palacio-de-ocharan-castro-urdiales-cantabria-2.jpg" ?>"
              class="w-full h-72 object-cover rounded-md">
       </div>
       <div class="swiper-slide">
-        <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/palacio-ocharan-castro-urdiales/img/palacio-ocharan-castro-urdiales-cantabria-1.jpg" ?>"
+        <img src="<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/palacio-de-ocharan-castro-urdiales/img/palacio-de-ocharan-castro-urdiales-cantabria-1.jpg" ?>"
              class="w-full h-72 object-cover rounded-md">
       </div>
     </div>
@@ -142,6 +142,6 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
     });
   </script>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/palacio-ocharan-castro-urdiales/schemas/schemas-body.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/palacio-de-ocharan-castro-urdiales/schemas/schemas-body.php"; ?>
 </body>
 </html>

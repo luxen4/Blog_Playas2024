@@ -33,11 +33,11 @@
 
     <section class="my-8 grid grid-cols-1 md:grid-cols-2 gap-4">
       <figure>
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/Palacio_Ocharan_Castro_Urdiales.jpg" alt="Fachada del Palacio Ocharan en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/palacio-de-ocharan-castro-urdiales-cantabria-1.jpg" alt="Fachada del Palacio Ocharan en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
         <figcaption class="text-sm text-center text-gray-500 mt-2">Vista frontal del Palacio Ocharan</figcaption>
       </figure>
       <figure>
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/Castillo_Ocharan_Castro_Urdiales.jpg" alt="Castillo anexo al Palacio Ocharan en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/palacio-de-ocharan-castro-urdiales-cantabria-2.jpg" alt="Castillo anexo al Palacio Ocharan en Castro Urdiales" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
         <figcaption class="text-sm text-center text-gray-500 mt-2">Castillo Ocharan, parte del conjunto arquitectónico</figcaption>
       </figure>
     </section>

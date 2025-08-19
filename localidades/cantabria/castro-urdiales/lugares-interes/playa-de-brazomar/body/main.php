@@ -36,15 +36,15 @@
 
     <section class="my-8">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-1.jpg"
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-1.jpg"
           alt="Vista panorámica de la Playa de Brazomar en Castro Urdiales"
           class="rounded-lg shadow-sm object-cover w-full h-64" itemprop="image">
 
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-2.jpg"
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-2.jpg"
           alt="Orilla y paseo marítimo de la Playa de Brazomar"
           class="rounded-lg shadow-sm object-cover w-full h-64">
 
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-3.jpg"
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-brazomar-castro-urdiales-cantabria-3.jpg"
           alt="Atardecer en la Playa de Brazomar con el sol sobre el mar"
           class="rounded-lg shadow-sm object-cover w-full h-64">
       </div>

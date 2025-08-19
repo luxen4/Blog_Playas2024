@@ -1,5 +1,5 @@
 <?php  
-$localidad = 'Castro-Urdiales';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='puente-medieval';
+$localidad = 'Castro-Urdiales';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='puente-medieval-castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
 $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
 
@@ -19,7 +19,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title>Puente Medieval de Castro-Urdiales - Cantabria</title>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puente-medieval/schemas/schemas-head.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puente-medieval-castro-urdiales/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -62,17 +62,17 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     <div class="swiper-wrapper">
       
       <div class="swiper-slide h-72">
-        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puente-medieval/img/puente-medieval-castro-urdiales-cantabria-1.jpg"?>
+        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puente-medieval-castro-urdiales/img/puente-medieval-castro-urdiales-cantabria-1.jpg"?>
              class="w-full h-full object-cover rounded-md">
       </div>
       
       <div class="swiper-slide h-72">
-        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puente-medieval/img/puente-medieval-castro-urdiales-cantabria-2.png"?>
+        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puente-medieval-castro-urdiales/img/puente-medieval-castro-urdiales-cantabria-2.png"?>
              class="w-full h-full object-cover rounded-md">
       </div>
       
       <div class="swiper-slide h-72">
-        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puente-medieval/img/puente-medieval-castro-urdiales-cantabria-1.jpg"?>
+        <img src=<?= PATH_HREF_CARPETA_LUGARES_INTERES . "/puente-medieval-castro-urdiales/img/puente-medieval-castro-urdiales-cantabria-1.jpg"?>
              class="w-full h-full object-cover rounded-md">
       </div>
 
@@ -139,6 +139,6 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     });
   </script>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puente-medieval/schemas/schemas-body.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puente-medieval-castro-urdiales/schemas/schemas-body.php"; ?>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <!-- Contenido principal del Palacio Ocharan - Optimizado SEO -->
 <main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/TouristAttraction">
-
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <article class="bg-white rounded-2xl shadow-md p-6" itemprop="description">
     <header>
       <h1 class="text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-4" itemprop="name">Palacio Ocharan en Castro Urdiales</h1>

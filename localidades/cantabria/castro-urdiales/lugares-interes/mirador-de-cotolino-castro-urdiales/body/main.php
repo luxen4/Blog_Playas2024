@@ -1,5 +1,6 @@
 <!-- Main Content Section: Mirador de Cotolino -->
 <main class="container mx-auto max-w-7xl px-1 py-1">
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <section class="bg-white rounded-2xl shadow-md p-4 md:p-6">
     
     <h1 class="text-2xl md:text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-6">
@@ -40,13 +41,13 @@
     </ul>
 
     <figure class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-de-cotolino-castro-urdiales-1.jpg" 
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-de-cotolino-castro-urdiales-cantabria-1.jpg" 
            alt="Vistas desde el Mirador de Cotolino en Castro Urdiales" 
            class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
-      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-de-cotolino-castro-urdiales-2.jpg" 
+      <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/parque-cotolino-castro-urdiales-cantabria-2.png" 
            alt="Atardecer en el Mirador de Cotolino en Castro Urdiales" 
            class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
-    </figure>
+    </figure><?php /* https://www.guiadxs.com/2021/05/que-ver-en-castro-urdiales-guiadxs.html */ ?>
 
     <p class="text-center text-sm text-gray-500 mb-8">Fotografías del Mirador de Cotolino en Castro Urdiales</p>
 

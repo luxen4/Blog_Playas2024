@@ -43,8 +43,8 @@ $lugares_interes = [
     'slug'   => 'mirador-de-cotolino',
     'imagen' => 'mirador-de-cotolino-castro-urdiales-cantabria-1.jpg',
     'alt'    => 'Vistas desde el Mirador de Cotolino en Castro Urdiales',
-    'fuente' => 'castro-urdiales.net',
-    'web_imagen' => 'https://www.castro-urdiales.net',
+    'fuente' => 'planesparafamilias.com',
+    'web_imagen' => 'https://planesparafamilias.com/parque-cotolino-en-castro-urdiales/',
     'desc'   => 'Un mirador con espectaculares vistas al mar Cantábrico y a la costa de Castro-Urdiales.',
   ],
 

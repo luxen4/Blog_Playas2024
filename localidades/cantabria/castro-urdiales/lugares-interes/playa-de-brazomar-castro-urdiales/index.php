@@ -1,7 +1,7 @@
 <?php  
 $localidad = 'Castro-Urdiales';     
 $localidad_minuscula = 'castro-urdiales'; 
-$lugar_minuscula = 'playa-de-brazomar-castro-urdiales';
+$lugar_minuscula = 'playa-de-brazomar';
 
 $region = 'Cantabria';  
 $region_minuscula = strtolower(str_replace(' ', '-', $region));   

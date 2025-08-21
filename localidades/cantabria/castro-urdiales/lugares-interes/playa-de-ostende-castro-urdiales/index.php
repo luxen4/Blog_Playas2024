@@ -1,5 +1,5 @@
 <?php  
-$localidad = 'Castro-Urdiales';     $localidad_minuscula = 'castro-urdiales'; $lugar_minuscula='playa-de-ostende-castro-urdiales';
+$localidad = 'Castro-Urdiales';     $localidad_minuscula = 'castro-urdiales'; $lugar_minuscula='playa-de-ostende';
 $region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
 $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
 

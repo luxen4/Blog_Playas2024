@@ -1,4 +1,5 @@
 <main class="container mx-auto max-w-7xl px-2 py-4">
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <article itemscope itemtype="https://schema.org/TouristAttraction" class="bg-white rounded-2xl shadow-md p-4 md:p-6">
     <h1 itemprop="name" class="text-xl md:text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">
       <i class="fas fa-anchor text-<?= COLOR_PAGE; ?>-600"></i> Puerto de Castro Urdiales

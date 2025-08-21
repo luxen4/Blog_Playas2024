@@ -21,7 +21,8 @@
 
     RewriteRule ^ruta-costera-ostende$         localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
-
+    RewriteRule ^lugares-interes/mirador-de-cotolino-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/mirador-de-cotolino-castro-urdiales/index.php [L]
+    
 
     RewriteRule ^castro-urdiales-cantabria$     localidades/cantabria/castro-urdiales/index.php [L]
     RewriteRule ^lugares-interes/asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla-castro-urdiales/index.php [L]

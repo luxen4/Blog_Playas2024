@@ -1,5 +1,6 @@
 <!-- Main Content Section: Paseo Marítimo de Castro Urdiales -->
 <main class="container mx-auto max-w-7xl px-1 py-1">
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <section class="bg-white rounded-2xl shadow-md p-4 md:p-6">
     
     <h1 class="text-2xl md:text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-6">

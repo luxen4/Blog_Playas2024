@@ -1,4 +1,5 @@
 <main class="container py-1 mx-auto max-w-7xl">
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemscope itemtype="https://schema.org/Church">
 
     <header>

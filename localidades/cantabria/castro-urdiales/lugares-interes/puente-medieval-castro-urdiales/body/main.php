@@ -1,6 +1,6 @@
 <!-- Main Content Section (Centered) Contenido principal -->
 <main class="container mx-auto max-w-7xl px-1 py-1">
-<main class="container py-1 mx-auto max-w-7xl">  
+        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
   <div class="bg-white rounded-2xl shadow-md p-2 md:p-1">
     <h1 class="text-xl md:text-2xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">Puente Medieval</h1>
 

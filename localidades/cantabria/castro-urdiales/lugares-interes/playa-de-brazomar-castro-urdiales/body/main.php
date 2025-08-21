@@ -1,5 +1,6 @@
 <main class="container py-8 px-4 mx-auto max-w-7xl" itemscope itemtype="https://schema.org/TouristAttraction">
-  <article class="bg-white rounded-2xl shadow-md p-6 md:p-8" itemprop="description">
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>  
+<article class="bg-white rounded-2xl shadow-md p-6 md:p-8" itemprop="description">
     <header>
       <h1 class="text-3xl md:text-5xl font-extrabold text-blue-700 mb-4" itemprop="name">Playa de Brazomar</h1>
       <p class="text-gray-500 text-sm mb-6">Ubicada en <a href="<?= PATH_HREF_RAIZ_LOCALIDAD; ?>" class="text-blue-600 hover:underline" itemprop="addressLocality">Castro Urdiales</a>, Cantabria</p>

@@ -1,7 +1,7 @@
 <?php  
 $localidad = 'Sonabia';     
 $localidad_minuscula = 'sonabia'; 
-$lugar_minuscula = 'ojo-del-diablo-sonabia';
+$lugar_minuscula = 'ojo-del-diablo';
 $region = 'Cantabria';  
 $region_minuscula = strtolower(str_replace(' ', '-', $region));   
 $country = 'España';    

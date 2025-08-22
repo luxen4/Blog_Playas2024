@@ -33,6 +33,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+
+
+<!-- Favicons básicos -->
+<link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico">
+
+
+
+<?php /*
+<!-- Fallback clásico -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+
+<!-- PNGs modernos -->
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-512.png">
+
+*/
+?>
+
+
+
+
+<link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" type="image/x-icon">
+
+
+
+<!-- Apple iOS -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Android/Chrome -->
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png">
+
+<!-- Manifest PWA -->
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Color de la barra en móviles -->
+<meta name="theme-color" content="#0a5f8a">
+
+
+
+
+
+
+
+
+
+
+
+
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title><?= $title; ?></title>
@@ -162,3 +216,5 @@ https://chatgpt.com/?model=auto
         class="hover:text-<?= COLOR_PAGE; ?>-600 transition-colors duration-200">
     <?= $localidad; */ 
 ?>
+
+<?php /* https://proyecto-final.kesug.com/ Para copiarle*/?>

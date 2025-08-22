@@ -4,7 +4,7 @@
 $lugares_interes = [
   [
     'nombre' => 'Playa de Valdearenas',
-    'slug'   => 'playa-de-valdearenas-sonabia',
+    'slug'   => 'playa-de-valdearenas',
     'imagen' => 'playa-de-valdearenas-sonabia-cantabria-1.jpg',
     'alt'    => 'Playa de Valdearenas',
     'fuente' => 'turismodecantabria.com',
@@ -13,7 +13,7 @@ $lugares_interes = [
   ],
   [
     'nombre' => 'Peña Candina',
-    'slug'   => 'pena-candina-sonabia',
+    'slug'   => 'pena-candina',
     'imagen' => 'pena-candina-sonabia-cantabria-1.jpg',
     'alt'    => 'Peña Candina',
     'fuente' => 'eltomavistasdesantander.com',
@@ -22,7 +22,7 @@ $lugares_interes = [
   ],
   [
     'nombre' => 'Monte Candina',
-    'slug'   => 'monte-candina-sonabia',
+    'slug'   => 'monte-candina',
     'imagen' => 'monte-candina-sonabia-cantabria-1.jpg',
     'alt'    => 'Monte Candina',
     'fuente' => 'rutasporelmonte.com.es',
@@ -31,7 +31,7 @@ $lugares_interes = [
   ],
   [
     'nombre' => 'Ojo del Diablo',
-    'slug'   => 'ojo-del-diablo-sonabia',
+    'slug'   => 'ojo-del-diablo',
     'imagen' => 'ojo-del-diablo-sonabia-cantabria-1.jpg',
     'alt'    => 'Ojo del Diablo',
     'fuente' => 'sendasdeviaje.com',

@@ -7,6 +7,28 @@
 <!-- Favicon -->
 <link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" type="image/x-icon">
 
+
+
+<!-- Favicons básicos -->
+<link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" sizes="any">
+<?php /*<link rel="icon" type="image/png" sizes="16x16" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico"> */?>
+
+
+
+<?php /*
+<!-- Fallback clásico -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+
+<!-- PNGs modernos -->
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-512.png">
+
+*/
+?>
+
 <?php /*
 <!-- Si usas un formato PNG o SVG -->
 <link rel="icon" href="path/to/icono-sombrilla.png" type="image/png">

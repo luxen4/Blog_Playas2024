@@ -41,21 +41,23 @@
     RewriteRule ^sonabia-cantabria$             localidades/cantabria/sonabia/index.php [L]
 
     RewriteRule ^lugares-interes/playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas-sonabia/index.php [L]
-    RewriteRule ^pena-candina-sonabia$          localidades/cantabria/sonabia/lugares-interes/pena-candina-sonabia/index.php [L]
-    RewriteRule ^monte-candina-sonabia$         localidades/cantabria/sonabia/lugares-interes/monte-candina-sonabia/index.php [L]
-    RewriteRule ^ojo-del-diablo-sonabia$         localidades/cantabria/sonabia/lugares-interes/ojo-del-diablo-sonabia/index.php [L]
+    RewriteRule ^lugares-interes/pena-candina-sonabia$          localidades/cantabria/sonabia/lugares-interes/pena-candina-sonabia/index.php [L]
+    RewriteRule ^lugares-interes/monte-candina-sonabia$         localidades/cantabria/sonabia/lugares-interes/monte-candina-sonabia/index.php [L]
+    RewriteRule ^lugares-interes/ojo-del-diablo-sonabia$         localidades/cantabria/sonabia/lugares-interes/ojo-del-diablo-sonabia/index.php [L]
     
 
 
     # Santoña
+    RewriteRule ^santona-cantabria$             localidades/cantabria/santona/index.php [L]
+
     RewriteRule ^lugares-interes/santona-cantabria$ localidades/cantabria/santona/index.php [L]
 
 
     RewriteRule ^lugares-interes/playa-de-berria-santona$ localidades/cantabria/santona/lugares-interes/playa-de-berria-santona/index.php [L]
 
-    RewriteRule ^monte-buciero-santona$     localidades/cantabria/santona/lugares-interes/monte-buciero-santona/index.php [L]
-    RewriteRule ^faro-del-caballo-santona$  localidades/cantabria/santona/lugares-interes/faro-del-caballo-santona/index.php [L]
-    RewriteRule ^puerto-de-santona$         localidades/cantabria/santona/lugares-interes/puerto-de-santona/index.php [L]
+    RewriteRule ^lugares-interes/monte-buciero-santona$     localidades/cantabria/santona/lugares-interes/monte-buciero-santona/index.php [L]
+    RewriteRule ^lugares-interes/faro-del-caballo-santona$  localidades/cantabria/santona/lugares-interes/faro-del-caballo-santona/index.php [L]
+    RewriteRule ^lugares-interes/puerto-de-santona-santona$         localidades/cantabria/santona/lugares-interes/puerto-de-santona-santona/index.php [L]
 
 
 
@@ -100,11 +102,21 @@
     RewriteRule ^eventos-festividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/eventos-festividades-playa-de-gorliz-vizcaya.php [L]
     RewriteRule ^preguntas-frecuentes-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/preguntas-frecuentes-playa-de-gorliz-vizcaya.php [L]
 
+
+
+
+    RewriteRule ^lugares-interes/faro-de-gorliz-gorliz$ localidades/bizkaia/gorliz/lugares-interes/faro-de-gorliz-gorliz/index.php [L]
+    
+    RewriteRule ^lugares-interes/playa-de-astondo-gorliz$ localidades/bizkaia/gorliz/lugares-interes/playa-de-astondo-gorliz/index.php [L]
+    
+
+
     
     #Ibarrangelu
     RewriteRule ^ibarrangelu-bizkaia$ localidades/bizkaia/ibarrangelu/index.php [L]
-    # Playa de Laga
-    RewriteRule ^playa-de-laga$ localidades/bizkaia/ibarrangelu/lugares-interes/playas/playa-de-laga/index.php [L]
+
+    RewriteRule ^lugares-interes/playa-de-laga-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/playa-de-laga-ibarrangelu/index.php [L]
+    RewriteRule ^lugares-interes/cabo-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/cabo-ogono-ibarrangelu/index.php [L]
 
     # Muskiz
     RewriteRule ^muskiz-bizkaia$ localidades/bizkaia/muskiz/index.php [L]

@@ -5,7 +5,7 @@
     [
       'nombre' => 'Playa de Laga',
       'slug'   => 'playa-de-laga',
-      'imagen' => 'playa-de-laga-1.jpg',
+      'imagen' => 'playa-de-laga-ibarrangelu-bizkaia-1.jpg',
       'alt'    => 'Playa de Laga en Ibarrangelu',
       'fuente' => 'bizkaia.eus',
       'web_imagen' => 'https://www.bizkaia.eus/playa-de-laga',
@@ -14,7 +14,7 @@
     [
       'nombre' => 'Cabo Ogoño',
       'slug'   => 'cabo-ogono',
-      'imagen' => 'cabo-ogono.jpg',
+      'imagen' => 'cabo-ogono-ibarrangelu-bizkaia-1.jpg',
       'alt'    => 'Cabo Ogoño en Ibarrangelu',
       'fuente' => 'urdaibai.org',
       'web_imagen' => 'https://www.urdaibai.org/cabo-ogono',
@@ -23,7 +23,7 @@
     [
       'nombre' => 'Ruta Senderista Laga-Ogoño',
       'slug'   => 'ruta-senderista-laga-ogono',
-      'imagen' => 'ruta-laga-ogono.jpg',
+      'imagen' => 'ruta-laga-ogono-ibarrangelu-bizkaia-1.jpg',
       'alt'    => 'Ruta senderista entre Laga y Ogoño',
       'fuente' => 'wikiloc.com',
       'web_imagen' => 'https://www.wikiloc.com/rutas-senderismo/laga-ogono',
@@ -32,7 +32,7 @@
     [
       'nombre' => 'Centro de Interpretación de la Reserva de Urdaibai',
       'slug'   => 'centro-interpretacion-urdaibai',
-      'imagen' => 'centro-interpretacion.jpg',
+      'imagen' => 'centro-interpretacion-ibarrangelu-bizkaia-1.jpg.jpg',
       'alt'    => 'Centro de Interpretación de la Reserva de Urdaibai',
       'fuente' => 'urdaibai.org',
       'web_imagen' => 'https://www.urdaibai.org/centro-interpretacion',

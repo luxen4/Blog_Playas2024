@@ -13,7 +13,7 @@
     ],
     [
       'nombre' => 'Monte Buciero',
-      'slug'   => 'monte-buciero-santona',
+      'slug'   => 'monte-buciero',
       'imagen' => 'monte-buciero-santona-cantabria-1.jpg',
       'alt'    => 'Monte Buciero',
       'fuente' => 'cantabriarural.com',
@@ -22,7 +22,7 @@
     ],
     [
       'nombre' => 'Faro del Caballo',
-      'slug'   => 'faro-del-caballo-santona',
+      'slug'   => 'faro-del-caballo',
       'imagen' => 'faro-del-caballo-santona-cantabria-1.jpg',
       'alt'    => 'Faro del Caballo',
       'fuente' => 'apartamentoscostaesmeralda.com',

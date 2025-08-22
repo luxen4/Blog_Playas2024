@@ -1,12 +1,12 @@
 <?php
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
-$schemaTitle        = $schemaTitle        ?? "Playa de Astondoko - Gorliz";
-$schemaDescription  = $schemaDescription  ?? "Explora la Playa de Astondoko en Gorliz, bizkaia: un entorno natural tranquilo ideal para quienes buscan relax y paisajes costeros auténticos.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/gorliz/lugares-interes/playa-de-astondoko";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-astondoko-1.jpg";
+$schemaTitle        = $schemaTitle        ?? "Playa de Astondo - Gorliz";
+$schemaDescription  = $schemaDescription  ?? "Explora la Playa de Astondo en Gorliz, Bizkaia: un entorno natural tranquilo ideal para quienes buscan relax y paisajes costeros auténticos.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/gorliz/lugares-interes/playa-de-astondo";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-astondo-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Zona Astondo, Playa de Astondoko",
+    "streetAddress"   => "Zona Astondo, Playa de Astondo",
     "addressLocality" => "Gorliz",
     "addressRegion"   => "País Vasco",
     "postalCode"      => "48630",

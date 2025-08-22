@@ -105,16 +105,16 @@
 
   <!-- Galería de 4 imágenes -->
   <figure class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/san-juan-gaztelugatxe-bakio-1.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/san-juan-de-gaztelugatxe-bakio-bizkaia-1.jpg"
          alt="Vista panorámica de San Juan de Gaztelugatxe"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/san-juan-gaztelugatxe-bakio-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puente-de-piedra-hacia-gaztelugatxe-bakio-bizkaia-1.jpg"
          alt="Puente de piedra hacia Gaztelugatxe"
-         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/san-juan-gaztelugatxe-bakio-3.jpg"
+         class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy"><?php /* https://turismo.euskadi.eus/es/san-juan-de-gaztelugatxe/webtur00-recursostop/es/ */ ?>
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/GL_sanjuandegaztelugatxeermita.jpg"
          alt="Ermita en lo alto del islote de Gaztelugatxe"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/san-juan-gaztelugatxe-bakio-4.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/atardecer-en-San-Juan-de-Gaztelugatxe.jpg"
          alt="Atardecer en San Juan de Gaztelugatxe"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

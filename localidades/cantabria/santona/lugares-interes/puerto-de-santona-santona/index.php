@@ -26,7 +26,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title>Puerto de Santoña - Santoña, Cantabria</title>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puerto-de-santona/schemas/schemas-head.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puerto-de-santona-santona/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -139,6 +139,6 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
     });
   </script>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puerto-de-santona/schemas/schemas-body.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puerto-de-santona-santona/schemas/schemas-body.php"; ?>
 </body>
 </html>

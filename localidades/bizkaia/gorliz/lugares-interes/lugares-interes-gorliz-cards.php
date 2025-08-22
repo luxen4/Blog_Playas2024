@@ -15,7 +15,7 @@
     [
       'nombre' => 'Faro de Gorliz',
       'slug'   => 'faro-de-gorliz',
-      'imagen' => 'faro-de-gorliz.jpg',
+      'imagen' => 'faro-de-gorliz-gorliz-cantabria-1.png',
       'alt'    => 'Faro de Gorliz',
       'fuente' => 'farosdeespana.com',
       'web_imagen' => 'https://www.farosdeespana.com/faro-de-gorliz',

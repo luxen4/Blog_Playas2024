@@ -10,7 +10,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Ruta Costa Oriental, Ajo Cantabria, senderismo Cantabria, costa Cantábrica, naturaleza, playas, turismo activo') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -20,7 +20,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title>Ruta de la Costa Oriental de Ajo - Cantabria</title>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/ruta-de-la-costa-oriental/schemas/schemas-head.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/ruta-de-la-costa-oriental-ajo/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -58,9 +58,10 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 
 
-          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental/img/ruta-de-la-costa-oriental-1.jpg"?>  class="w-full object-cover rounded-md"></div>
-          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental/img/ruta-de-la-costa-oriental-2.jpg"?> class="w-full object-cover rounded-md"></div>
-          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental/img/ruta-de-la-costa-oriental-3.jpg"?> class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental-ajo/img/ruta-de-la-costa-oriental-1.jpg"?>  class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental-ajo/img/ruta-de-la-costa-oriental-2.jpg"?> class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental-ajo/img/ruta-de-la-costa-oriental-3.jpg"?> class="w-full object-cover rounded-md"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_CARPETA_LUGARES_INTERES . "/ruta-de-la-costa-oriental-ajo/img/ruta-de-la-costa-oriental-4.jpg"?> class="w-full object-cover rounded-md"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -115,7 +116,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
       pagination: { el: '.swiper-pagination', clickable: true },
     });
   </script>
-    <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/ruta-de-la-costa-oriental/schemas/schemas-body.php"; ?>
+    <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/ruta-de-la-costa-oriental-ajo/schemas/schemas-body.php"; ?>
 
 </body>
 

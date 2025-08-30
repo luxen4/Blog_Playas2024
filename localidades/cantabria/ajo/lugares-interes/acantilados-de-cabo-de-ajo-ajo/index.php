@@ -10,7 +10,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Acantilados de Cabo de Ajo, Cabo de Ajo, acantilados Cantabria, costa de Cantabria, turismo natural, miradores Cantabria, rutas costeras, paisaje marino') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -58,8 +58,8 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     <section class="mb-10">
       <div class="swiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src= <?= PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/acantilados-de-cabo-de-ajo/img/acantilados-de-cabo-de-ajo.jpg"?> class="rounded-lg shadow-md" alt="Acantilados Cabo Ajo"></div>
-          <div class="swiper-slide"><img src= <?= PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/acantilados-de-cabo-de-ajo/img/acantilados-de-cabo-de-ajo-2.jpg"?> class="rounded-lg shadow-md" alt="Vista mar"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/acantilados-de-cabo-de-ajo-ajo/img/acantilados-de-cabo-de-ajo-1.jpg"?> class="rounded-lg shadow-md" alt="Acantilados Cabo Ajo"></div>
+          <div class="swiper-slide"><img src= <?= PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/acantilados-de-cabo-de-ajo-ajo/img/acantilados-de-cabo-de-ajo-2.jpg"?> class="rounded-lg shadow-md" alt="Vista mar"></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>

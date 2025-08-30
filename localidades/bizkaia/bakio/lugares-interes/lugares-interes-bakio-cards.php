@@ -19,20 +19,20 @@
       'fuente' => 'tourspain.es',
       'web_imagen' => 'https://tourspain.es/san-juan-de-gaztelugatxe/',
       'desc'   => 'Pequeña isla con una ermita y escalinata emblemática, famosa por su belleza y cultura. ',
-    ],
+    ],/*
     [
       'nombre' => 'Monte Serantes',
       'slug'   => 'monte-serantes',
-      'imagen' => 'monte-serantes-bakio.jpg',
+      'imagen' => 'monte-serantes-bakio-bizkaia-1.jpg',
       'alt'    => 'Monte Serantes',
       'fuente' => 'wikiloc.com',
       'web_imagen' => 'https://www.wikiloc.com/rutas-senderismo/monte-serantes-1234567',
       'desc'   => 'Sendero popular para realizar excursiones con vistas panorámicas de la costa y Bakio.',
-    ],
+    ],*/
     [
       'nombre' => 'Surf en Bakio',
-      'slug'   => 'surf-en-bakio',
-      'imagen' => 'surf-bakio.jpg',
+      'slug'   => 'surf-en-la-playa-de-bakio',
+      'imagen' => 'surf-playa-bakio-1.jpg',
       'alt'    => 'Surf en Bakio',
       'fuente' => 'surfbakio.com',
       'web_imagen' => 'https://surfbakio.com/',

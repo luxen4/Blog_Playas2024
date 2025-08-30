@@ -3,9 +3,9 @@
 <?php
   $lugares_interes = [
     [
-      'nombre' => 'Playa de Deba',
-      'slug'   => 'playa-de-deba',
-      'imagen' => 'playa-de-deba.jpg',
+      'nombre' => 'Playa de Santiago',
+      'slug'   => 'playa-de-santiago',
+      'imagen' => 'playa-de-santiago-deba-gipuzkoa-1.jpg',
       'alt'    => 'Playa de Deba en Deba',
       'fuente' => 'gipuzkoa.eus',
       'web_imagen' => 'https://www.gipuzkoa.eus/playa-de-deba',
@@ -18,7 +18,7 @@
       'alt'    => 'Ermita de San Telmo en Deba',
       'fuente' => 'deba.eus',
       'web_imagen' => 'https://www.deba.eus/ermita-san-telmo',
-      'desc'   => 'Pequeña ermita con vistas al mar, $lugar histórico y cultural muy visitado en Deba.',
+      'desc'   => 'Pequeña ermita con vistas al mar, lugar histórico y cultural muy visitado en Deba.',
     ],
     [
       'nombre' => 'Ruta Senderista Deba - Zumaia',
@@ -54,7 +54,7 @@
 
           <figure class="mb-0">
             <img 
-              src="/Blog_Playas2025/localidades/gipuzkoa/deba/$lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
+              src="/Blog_Playas2025/localidades/gipuzkoa/deba/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
               class="card-img-top h-64 object-cover rounded-top" 
               alt="<?= $lugar['alt']; ?>">
 
@@ -69,7 +69,7 @@
           <div class="card-body p-4">
             <h5 class="card-title text-lg font-semibold text-green-800"><?= $lugar['nombre']; ?></h5>
             <p class="card-text text-muted small mb-3"><?= $lugar['desc']; ?></p>
-            <a href="/Blog_Playas2025/$lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
+            <a href="/Blog_Playas2025/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
               Explorar &rarr;
             </a>
           </div>

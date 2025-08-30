@@ -13,7 +13,7 @@ foreach ($localidades as $localidad => $playas) {
         $presentacion = $playa['presentacion'];
 
         $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS =
-          "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}";
+          "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/{$archivo_name}";
         ?>
         <div class="col-12 col-md-6 mb-4">
           <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>

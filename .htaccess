@@ -5,13 +5,13 @@
     # Ajo
     RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
     
-    RewriteRule ^faro-de-cabo-de-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-cabo-de-ajo-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo-ajo/index.php [L]
     RewriteRule ^lugares-interes/playa-de-cuberris-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-cuberris-ajo/index.php [L]
     RewriteRule ^lugares-interes/playa-de-antuerta-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-antuerta-ajo/index.php [L]
     RewriteRule ^lugares-interes/ruta-de-la-costa-oriental-ajo$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental-ajo/index.php [L]
-    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo$        localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo-ajo/index.php [L]
+    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo-ajo$    localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo-ajo/index.php [L]
    
-    RewriteRule ^mirador-del-cabo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
+    RewriteRule ^mirador-del-cabo-ajo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo-ajo/index.php [L]
     
 
     # Castro-Urdales
@@ -81,6 +81,8 @@
 
     RewriteRule ^lugares-interes/playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/playa-de-bakio-bakio/index.php [L]
     RewriteRule ^lugares-interes/san-juan-de-gaztelugatxe-bakio$ localidades/bizkaia/bakio/lugares-interes/san-juan-de-gaztelugatxe-bakio/index.php [L]
+    RewriteRule ^lugares-interes/monte-serantes-bakio$ localidades/bizkaia/bakio/lugares-interes/monte-serantes-bakio/index.php [L]
+    RewriteRule ^lugares-interes/surf-en-la-playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/surf-en-la-playa-de-bakio-bakio/index.php [L]
   
 
     #RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
@@ -177,7 +179,8 @@
 
     ### Guipuzkoa ###
     # Deba
-    RewriteRule ^deba-gipuzkoa$     localidades/gipuzkoa/deba/index.php [L]
+    RewriteRule ^deba-gipuzkoa$                     localidades/gipuzkoa/deba/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-santiago$ localidades/gipuzkoa/deba/lugares-interes/playa-de-santiago-deba/index.php [L]
     
 
 

@@ -1,3 +1,8 @@
+<?php  
+$localidad = 'Deba';     $localidad_minuscula = 'deba'; $lugar_minuscula='deba';
+$region = 'Gipuzkoa';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
+$country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
+
 <?php define('TITLE', "Deba – Turismo, Naturaleza y Costa en Gipuzkoa 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Deba, en la costa de Gipuzkoa: playas tranquilas, acantilados espectaculares, rutas de senderismo y un encantador casco histórico junto al mar Cantábrico."); ?>
 <?php define('COLOR_PAGE', "emerald"); ?>

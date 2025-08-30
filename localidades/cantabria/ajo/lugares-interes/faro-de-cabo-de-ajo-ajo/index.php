@@ -15,7 +15,7 @@ $color_page = 'orange';  ?>
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Faro de Cabo de Ajo, Cabo de Ajo, faro Cantabria, acantilados Cantabria, costa de Cantabria, turismo natural, miradores Cantabria, rutas costeras, faro colorido') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -42,7 +42,7 @@ $color_page = 'orange';  ?>
   <meta property="og:type" content="website">
 
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/faro-de-cabo-de-ajo/schemas/schemas-body.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/faro-de-cabo-de-ajo-ajo/schemas/schemas-body.php"; ?>
 
 
 </head>
@@ -123,7 +123,7 @@ $color_page = 'orange';  ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
 
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/faro-de-cabo-de-ajo/schemas/schemas-body.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/faro-de-cabo-de-ajo-ajo/schemas/schemas-body.php"; ?>
 
 
 </body>

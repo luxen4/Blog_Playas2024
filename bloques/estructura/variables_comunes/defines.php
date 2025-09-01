@@ -24,6 +24,7 @@
 
 <?php define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "-" . $localidad_minuscula . "/index.php"); ?>
 
+<?php define('PATH_DOMINIO_LUGAR_INTERES', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/"); ?>
 
 
 

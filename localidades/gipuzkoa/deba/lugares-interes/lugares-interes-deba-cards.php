@@ -71,9 +71,20 @@
           <div class="card-body p-4">
             <h5 class="card-title text-lg font-semibold text-green-800"><?= $lugar['nombre']; ?></h5>
             <p class="card-text text-muted small mb-3"><?= $lugar['desc']; ?></p>
-            <a href="/Blog_Playas2025/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
-              Explorar &rarr;
-            </a>
+            <?= $lugar_minuscula; ?>
+            <?php 
+// Determinar la URL según entorno
+if ($_SERVER['SERVER_NAME'] == "localhost") {
+    $url_lugar = "/Blog_Playas2025/lugares-interes/" . $lugar['slug'];
+} else {
+    $url_lugar = "lugares-interes/". $lugar['slug']. "/index.php";
+}
+?>
+
+<a href="<?= $url_lugar; ?>" 
+   class="btn btn-success btn-sm px-3 py-2 shadow-sm hover:text-<?= COLOR_PAGE; ?>-600 transition-colors duration-200">
+    Explorar &rarr;
+</a>
           </div>
 
         </div>

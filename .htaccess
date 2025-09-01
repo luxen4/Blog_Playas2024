@@ -179,8 +179,10 @@
 
     ### Guipuzkoa ###
     # Deba
-    RewriteRule ^deba-gipuzkoa$                     localidades/gipuzkoa/deba/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-santiago$ localidades/gipuzkoa/deba/lugares-interes/playa-de-santiago-deba/index.php [L]
+    RewriteRule ^deba-gipuzkoa$                         localidades/gipuzkoa/deba/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-santiago$     localidades/gipuzkoa/deba/lugares-interes/playa-de-santiago-deba/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-sorginetxe-deba$ localidades/gipuzkoa/deba/lugares-interes/mirador-de-sorginetxe-deba/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-deba-zumaia-deba$ localidades/gipuzkoa/deba/lugares-interes/ruta-senderista-deba-zumaia-deba/index.php [L]
     
 
 

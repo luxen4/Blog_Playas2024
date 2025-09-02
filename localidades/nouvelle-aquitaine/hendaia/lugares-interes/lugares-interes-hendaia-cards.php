@@ -4,7 +4,7 @@
   $lugares_interes = [
     [
       'nombre' => 'Playa Ondarraitz',
-      'slug'   => 'playa-de-ondarraitz-hendaia',
+      'slug'   => 'playa-de-ondarraitz',
       'imagen' => 'playa-de-ondarraitz-hendaia-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Playa de Ondarraitz en Hendaia',
       'fuente' => 'hendaye-tourisme.fr',
@@ -13,7 +13,7 @@
     ],
     [
       'nombre' => 'Castillo Abbadia',
-      'slug'   => 'castillo-abbadia-hendaia',
+      'slug'   => 'castillo-abbadia',
       'imagen' => 'castillo-abbadia-hendaya-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Castillo de Abbadia en Hendaia',
       'fuente' => 'abbadia.fr',
@@ -22,8 +22,8 @@
     ],
     [
       'nombre' => 'Puerto Deportivo de Hendaia',
-      'slug'   => 'puerto-deportivo-hendaia',
-      'imagen' => 'puerto-hendaia.jpg',
+      'slug'   => 'puerto-deportivo',
+      'imagen' => 'puerto-deportivo-hendaia-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Puerto deportivo de Hendaia',
       'fuente' => 'hendaye-tourisme.fr',
       'web_imagen' => 'https://www.hendaye-tourisme.fr/puerto',
@@ -31,8 +31,8 @@
     ],
     [
       'nombre' => 'Corniche Basque',
-      'slug'   => 'corniche-basque-hendaia',
-      'imagen' => 'corniche-basque.jpg',
+      'slug'   => 'corniche-basque',
+      'imagen' => 'corniche-basque-hendaia-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Corniche Basque en Hendaia',
       'fuente' => 'tourisme64.com',
       'web_imagen' => 'https://www.tourisme64.com/corniche-basque',

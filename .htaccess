@@ -240,17 +240,20 @@
     RewriteRule ^eventos-festividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/eventos-festividades-playa-de-biarritz-francia.php [L]
     RewriteRule ^preguntas-frecuentes-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/preguntas-frecuentes-playa-de-biarritz-francia.php [L]
 
-
     # Capbreton
     RewriteRule ^capbreton-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/capbreton/index.php [L]
     
-    RewriteRule ^lugares-interes/plage-centrale-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/plage-centrale-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton-capbreton/index.php [L]
     RewriteRule ^lugares-interes/puerto-pesquero-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/puerto-pesquero-capbreton/index.php [L]
+
 
     # Hendaia
     RewriteRule ^hendaia-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/hendaia/index.php [L]
     RewriteRule ^lugares-interes/playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-de-ondarraitz-hendaia/index.php [L]
     RewriteRule ^lugares-interes/castillo-abbadia-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia-hendaia/index.php [L]
+
+    RewriteRule ^lugares-interes/puerto-deportivo-hendaia$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/puerto-deportivo-hendaia/index.php [L]
+    RewriteRule ^lugares-interes/corniche-basque-hendaia$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/corniche-basque-hendaia/index.php [L]
 
 
 
@@ -381,6 +384,9 @@ RewriteRule ^como-llegar-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademus
 RewriteRule ^servicios-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/servicios-playa-de-muskiz-vizcaya.php [L]
 RewriteRule ^eventos-festividades-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/eventos-festividades-playa-de-muskiz-vizcaya.php [L]
 RewriteRule ^preguntas-frecuentes-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/preguntas-frecuentes-playa-de-muskiz-vizcaya.php [L]
+
+RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena-muskiz/index.php [L]
+RewriteRule ^lugares-interes/torre-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/torre-de-muskiz-muskiz/index.php [L]
 
 
 #Azkorri

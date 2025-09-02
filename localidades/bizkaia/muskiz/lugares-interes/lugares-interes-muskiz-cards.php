@@ -5,7 +5,7 @@
     [
       'nombre' => 'Playa de La Arena',
       'slug'   => 'playa-de-la-arena',
-      'imagen' => 'playa-de-la-arena.jpg',
+      'imagen' => 'playa-de-la-arena-muskiz-bizkaia-1.jpg',
       'alt'    => 'Playa de La Arena en Muskiz',
       'fuente' => 'bizkaia.eus',
       'web_imagen' => 'https://www.bizkaia.eus/playa-de-la-arena',
@@ -14,7 +14,7 @@
     [
       'nombre' => 'Torre de Muskiz',
       'slug'   => 'torre-de-muskiz',
-      'imagen' => 'torre-de-muskiz.jpg',
+      'imagen' => 'castillo-de-munatones-muskiz-bizkaia-1.jpg',
       'alt'    => 'Torre histórica de Muskiz',
       'fuente' => 'muskiz.eus',
       'web_imagen' => 'https://www.muskiz.eus/torre',

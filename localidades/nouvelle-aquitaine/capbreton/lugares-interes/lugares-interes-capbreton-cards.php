@@ -4,7 +4,7 @@
   $lugares_interes = [
     [
       'nombre' => 'Playa de Capbreton',
-      'slug'   => 'plage-centrale-capbreton',
+      'slug'   => 'plage-centrale-capbreton-capbreton',
       'imagen' => 'plage-centrale-capbreton-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Playa de Capbreton',
       'fuente' => 'capbreton.fr',
@@ -22,20 +22,20 @@
     ],
     [
       'nombre' => 'La Piste Cyclable Vélodyssée',
-      'slug'   => 'piste-cyclable-velodyssee',
-      'imagen' => 'velodyssee-capbreton.jpg',
+      'slug'   => 'piste-cyclable-velodyssee-capbreton',
+      'imagen' => 'ciclistas-piste-cyclable-velodyssee-capbreton.jpg',
       'alt'    => 'Pista ciclista Vélodyssée en Capbreton',
-      'fuente' => 'velodyssee.com',
-      'web_imagen' => 'https://www.velodyssee.com/capbreton',
+      'fuente' => 'seignosse-tourisme.com',
+      'web_imagen' => 'https://www.seignosse-tourisme.com/fiche/la-velodyssee-de-seignosse-a-capbreton/',
       'desc'   => 'Ruta ciclista costera que pasa por Capbreton, ideal para descubrir la región en bicicleta.',
     ],
     [
       'nombre' => 'Forêt Domaniale de Capbreton',
-      'slug'   => 'foret-domaniale-capbreton',
-      'imagen' => 'foret-capbreton.jpg',
+      'slug'   => 'foret-domaniale-de-capbreton-capbreton',
+      'imagen' => 'les-forets-de-labenne-par-capbreton-a-vtt.jpg',
       'alt'    => 'Bosque estatal de Capbreton',
-      'fuente' => 'landes-tourisme.com',
-      'web_imagen' => 'https://www.landes-tourisme.com/foret-capbreton',
+      'fuente' => 'decathlon-outdoor.com',
+      'web_imagen' => 'https://www.decathlon-outdoor.com/fr-fr/explore/france/les-forets-de-labenne-par-capbreton-a-vtt-65b1060ce59ba',
       'desc'   => 'Gran bosque de pinos cercano a la playa, perfecto para senderismo, picnic y contacto con la naturaleza.',
     ],
   ];

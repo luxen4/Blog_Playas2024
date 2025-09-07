@@ -107,13 +107,13 @@
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puerto-pesquero-de-capbreton-nouvelle-aquitaine-1.png"
          alt="Barcos en el Puerto Pesquero de Capbreton"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puerto-pesquero-capbreton-nouvelle-aquitaine-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/muelle-redes-pesca-puerto-pesquero-capbreton-nouvelle-aquitaine.jpg"
          alt="Muelle y redes de pesca en el Puerto Pesquero"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puerto-pesquero-capbreton-nouvelle-aquitaine-3.png"
          alt="Restaurantes y paseo marítimo en el Puerto Pesquero"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy"><?php /* https://www.izibikes.com/es/capbreton-es/guia-experta-2025-restaurantes-en-capbreton-que-encantan-a-los-locales/  */ ?>
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/puerto-pesquero-capbreton-nouvelle-aquitaine-4.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/atardecer-puerto-pesquero-capbreton.jpg"
          alt="Atardecer sobre el Puerto Pesquero de Capbreton"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

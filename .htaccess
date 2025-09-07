@@ -243,8 +243,10 @@
     # Capbreton
     RewriteRule ^capbreton-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/capbreton/index.php [L]
     
-    RewriteRule ^lugares-interes/plage-centrale-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/plage-centrale-capbreton-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton-capbreton/index.php [L]
     RewriteRule ^lugares-interes/puerto-pesquero-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/puerto-pesquero-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/piste-cyclable-velodyssee-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/piste-cyclable-velodyssee-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/foret-domaniale-de-capbreton-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/foret-domaniale-de-capbreton-capbreton/index.php [L]
 
 
     # Hendaia

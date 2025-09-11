@@ -1,18 +1,18 @@
 <?php 
-$latitudeStart  = 43.38120;  // Coordenadas aprox. inicio de la ruta en Muskiz
-$longitudeStart = -3.03850; 
+$latitudeStart  = 43.38900;  // Coordenadas aprox. inicio del Paseo Itsaslur
+$longitudeStart = -3.04500; 
 
-$latitudeEnd    = 43.38390;  // Coordenadas aprox. Punta Lucero (final)
-$longitudeEnd   = -3.04120; 
+$latitudeEnd    = 43.39050;  // Coordenadas aprox. final del recorrido
+$longitudeEnd   = -3.04650; 
 
-// Variables para el schema – Ruta senderista Muskiz - Punta Lucero
-$schemaTitle       = "Ruta Senderista Muskiz - Punta Lucero";
-$schemaDescription = "Recorre la ruta senderista que va desde Muskiz hasta Punta Lucero, Bizkaia: un itinerario espectacular con vistas al Cantábrico, acantilados y naturaleza en estado puro en la costa vasca.";
-$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/ruta-senderista-punta-lucero"; 
-$schemaImage       = "https://www.tu-dominio.com/images/ruta-muskiz-punta-lucero.jpg"; 
+// Variables para el schema – Paseo Itsaslur
+$schemaTitle       = "Paseo Itsaslur";
+$schemaDescription = "Disfruta del Paseo Itsaslur en Muskiz, Bizkaia: recorrido peatonal a lo largo de la costa y entornos naturales protegidos, ideal para caminar y observar fauna y flora.";
+$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/paseo-itsaslur"; 
+$schemaImage       = "https://www.tu-dominio.com/images/paseo-itsaslur.jpg"; 
 $schemaAddress     = [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Muskiz - Punta Lucero",
+    "streetAddress"   => "Paseo Itsaslur",
     "addressLocality" => "Muskiz",
     "addressRegion"   => "Bizkaia",
     "postalCode"      => "48500",
@@ -23,7 +23,7 @@ $schemaAddress     = [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HikingTrail",
+  "@type": "Park",
   "name": "<?= $schemaTitle ?>",
   "description": "<?= $schemaDescription ?>",
   "url": "<?= $schemaUrl ?>",
@@ -44,18 +44,18 @@ $schemaAddress     = [
   "additionalProperty": [
     {
       "@type": "PropertyValue",
-      "name": "Punto final",
+      "name": "Punto final recomendado",
       "value": "Latitud: <?= $latitudeEnd ?>, Longitud: <?= $longitudeEnd ?>"
     },
     {
       "@type": "PropertyValue",
       "name": "Dificultad",
-      "value": "Media"
+      "value": "Baja"
     },
     {
       "@type": "PropertyValue",
       "name": "Duración aproximada",
-      "value": "2-3 horas (ida y vuelta)"
+      "value": "1 hora"
     }
   ],
   "sameAs": [

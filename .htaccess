@@ -128,7 +128,10 @@
     RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena-muskiz/index.php [L]
     RewriteRule ^lugares-interes/torre-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/torre-de-muskiz-muskiz/index.php [L]
     RewriteRule ^lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz$ localidades/bizkaia/muskiz/lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz/index.php [L]
-    RewriteRule ^lugares-interes/parque-ecologico-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/parque-ecologico-de-muskid-muskiz/index.php [L]
+    RewriteRule ^lugares-interes/parque-natural-montes-triano-muskiz$ localidades/bizkaia/muskiz/lugares-interes/parque-natural-montes-triano-muskiz/index.php [L]
+
+    RewriteRule ^lugares-interes/paseo-itsaslur-muskiz$ localidades/bizkaia/muskiz/lugares-interes/paseo-itsaslur-muskiz/index.php [L]
+
 
 
     # Astondo

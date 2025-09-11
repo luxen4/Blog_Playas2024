@@ -1,18 +1,18 @@
 <?php 
-$latitudeStart  = 43.38120;  // Coordenadas aprox. inicio de la ruta en Muskiz
-$longitudeStart = -3.03850; 
+$latitudeStart  = 43.38650;  // Coordenadas aprox. inicio del Parque Natural de los Montes de Triano
+$longitudeStart = -3.04200; 
 
-$latitudeEnd    = 43.38390;  // Coordenadas aprox. Punta Lucero (final)
-$longitudeEnd   = -3.04120; 
+$latitudeEnd    = 43.38900;  // Coordenadas aprox. final del recorrido dentro del parque
+$longitudeEnd   = -3.04450; 
 
-// Variables para el schema – Ruta senderista Muskiz - Punta Lucero
-$schemaTitle       = "Ruta Senderista Muskiz - Punta Lucero";
-$schemaDescription = "Recorre la ruta senderista que va desde Muskiz hasta Punta Lucero, Bizkaia: un itinerario espectacular con vistas al Cantábrico, acantilados y naturaleza en estado puro en la costa vasca.";
-$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/ruta-senderista-punta-lucero"; 
-$schemaImage       = "https://www.tu-dominio.com/images/ruta-muskiz-punta-lucero.jpg"; 
+// Variables para el schema – Parque Natural de los Montes de Triano
+$schemaTitle       = "Parque Natural de los Montes de Triano";
+$schemaDescription = "Visita el Parque Natural de los Montes de Triano en Muskiz, Bizkaia: espacio natural protegido con rutas de senderismo, flora y fauna autóctona, y vistas a paisajes de montaña.";
+$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/parque-natural-montes-triano"; 
+$schemaImage       = "https://www.tu-dominio.com/images/parque-natural-montes-triano.jpg"; 
 $schemaAddress     = [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Muskiz - Punta Lucero",
+    "streetAddress"   => "Parque Natural de los Montes de Triano",
     "addressLocality" => "Muskiz",
     "addressRegion"   => "Bizkaia",
     "postalCode"      => "48500",
@@ -23,7 +23,7 @@ $schemaAddress     = [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HikingTrail",
+  "@type": "Park",
   "name": "<?= $schemaTitle ?>",
   "description": "<?= $schemaDescription ?>",
   "url": "<?= $schemaUrl ?>",
@@ -44,18 +44,18 @@ $schemaAddress     = [
   "additionalProperty": [
     {
       "@type": "PropertyValue",
-      "name": "Punto final",
+      "name": "Punto final recomendado",
       "value": "Latitud: <?= $latitudeEnd ?>, Longitud: <?= $longitudeEnd ?>"
     },
     {
       "@type": "PropertyValue",
       "name": "Dificultad",
-      "value": "Media"
+      "value": "Baja-Media"
     },
     {
       "@type": "PropertyValue",
       "name": "Duración aproximada",
-      "value": "2-3 horas (ida y vuelta)"
+      "value": "1-3 horas"
     }
   ],
   "sameAs": [

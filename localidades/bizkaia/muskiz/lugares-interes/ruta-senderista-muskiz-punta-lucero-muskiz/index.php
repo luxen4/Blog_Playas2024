@@ -1,7 +1,7 @@
 <?php  
-$localidad = 'Ibarrangelu';     
-$localidad_minuscula = 'ibarrangelu'; 
-$lugar_minuscula = 'ruta-senderista-laga-ogono';
+$localidad = 'Muskiz';     
+$localidad_minuscula = 'muskiz'; 
+$lugar_minuscula = 'ruta-senderista-muskiz-punta-lucero';
 
 $region = 'Bizkaia';    
 $region_minuscula = strtolower(str_replace(' ', '-', $region));   
@@ -10,12 +10,12 @@ $country = 'España';
 $country_minuscula = strtolower(str_replace(' ', '-', $country)); 
 ?>
 
-<?php define('TITLE', "Ruta Senderista Laga - Ogoño en Ibarrangelu – Turismo y Naturaleza en Bizkaia 2025"); ?>
-<?php define('DESCRIPTION', "Descubre la ruta senderista que une la Playa de Laga con el Cabo Ogoño en Ibarrangelu: un recorrido espectacular dentro de la Reserva de Urdaibai, con vistas al Cantábrico, acantilados y naturaleza en estado puro."); ?>
+<?php define('TITLE', "Ruta Senderista Muskiz - Punta Lucero – Turismo y Naturaleza en Bizkaia 2025"); ?>
+<?php define('DESCRIPTION', "Descubre la ruta senderista que recorre los acantilados de Muskiz hasta Punta Lucero: un paseo espectacular con vistas al Cantábrico, naturaleza protegida y paisajes de la costa vasca."); ?>
 <?php define('COLOR_PAGE', "sky"); ?>
-<?php define('LUGAR', "Ruta Senderista Laga - Ogoño"); ?>
-<?php define('LUGAR_MINUSCULA', 'ruta-senderista-laga-ogono') ?>
-<?php define('KEYWORDS_CONTENT', 'Ruta Laga Ogoño, senderismo Ibarrangelu, Cabo Ogoño, Playa de Laga, Bizkaia, turismo País Vasco, costa vasca, reserva de Urdaibai, naturaleza, rutas de montaña') ?>
+<?php define('LUGAR', "Ruta Senderista Muskiz - Punta Lucero"); ?>
+<?php define('LUGAR_MINUSCULA', 'ruta-senderista-punta-lucero') ?>
+<?php define('KEYWORDS_CONTENT', 'Ruta Punta Lucero, senderismo Muskiz, acantilados Bizkaia, costa vasca, turismo País Vasco, naturaleza, caminatas, vistas al Cantábrico') ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>  
+<?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>

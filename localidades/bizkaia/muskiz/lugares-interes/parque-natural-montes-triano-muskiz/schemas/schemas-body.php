@@ -1,12 +1,12 @@
 <?php
-// Variables reutilizables para Ruta Muskiz – Punta Lucero
-$schemaTitle        = $schemaTitle        ?? "Ruta senderista Muskiz - Punta Lucero";
-$schemaDescription  = $schemaDescription  ?? "Recorre la ruta senderista que va desde Muskiz hasta Punta Lucero, Bizkaia: un itinerario con vistas al Cantábrico, acantilados y naturaleza en estado puro en la costa vasca.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/ruta-senderista-punta-lucero";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ruta-muskiz-punta-lucero.jpg";
+// Variables reutilizables para Parque Natural de los Montes de Triano
+$schemaTitle        = $schemaTitle        ?? "Parque Natural de los Montes de Triano";
+$schemaDescription  = $schemaDescription  ?? "Visita el Parque Natural de los Montes de Triano en Muskiz, Bizkaia: un espacio natural protegido con rutas de senderismo, flora y fauna autóctona y paisajes de montaña.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/parque-natural-montes-triano";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/parque-natural-montes-triano.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Muskiz - Punta Lucero",
+    "streetAddress"   => "Parque Natural de los Montes de Triano",
     "addressLocality" => "Muskiz",
     "addressRegion"   => "Bizkaia",
     "postalCode"      => "48500",
@@ -17,7 +17,7 @@ $schemaAddress      = $schemaAddress      ?? [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HikingTrail",
+  "@type": "Park",
   "name": "<?= $schemaTitle ?>",
   "description": "<?= $schemaDescription ?>",
   "url": "<?= $schemaUrl ?>",
@@ -32,33 +32,33 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.3812,
-    "longitude": -3.0385
+    "latitude": 43.3865,
+    "longitude": -3.0420
   },
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Inicio en Muskiz",
+      "name": "Rutas de senderismo",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Final en Punta Lucero",
+      "name": "Flora y fauna autóctona",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Dificultad media",
+      "name": "Dificultad baja-media",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Duración aproximada 2-3 horas",
+      "name": "Duración aproximada 1-3 horas",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Entorno natural protegido (costa vasca)",
+      "name": "Entorno natural protegido",
       "value": true
     }
   ],

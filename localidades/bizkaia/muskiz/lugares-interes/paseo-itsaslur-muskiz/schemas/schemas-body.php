@@ -1,12 +1,12 @@
 <?php
-// Variables reutilizables para Ruta Muskiz – Punta Lucero
-$schemaTitle        = $schemaTitle        ?? "Ruta senderista Muskiz - Punta Lucero";
-$schemaDescription  = $schemaDescription  ?? "Recorre la ruta senderista que va desde Muskiz hasta Punta Lucero, Bizkaia: un itinerario con vistas al Cantábrico, acantilados y naturaleza en estado puro en la costa vasca.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/ruta-senderista-punta-lucero";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ruta-muskiz-punta-lucero.jpg";
+// Variables reutilizables para Paseo Itsaslur
+$schemaTitle        = $schemaTitle        ?? "Paseo Itsaslur";
+$schemaDescription  = $schemaDescription  ?? "Disfruta del Paseo Itsaslur en Muskiz, Bizkaia: un recorrido peatonal agradable a lo largo de la costa y entornos naturales, ideal para caminar, observar fauna y flora, y disfrutar de la naturaleza.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/paseo-itsaslur";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/paseo-itsaslur.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Muskiz - Punta Lucero",
+    "streetAddress"   => "Paseo Itsaslur",
     "addressLocality" => "Muskiz",
     "addressRegion"   => "Bizkaia",
     "postalCode"      => "48500",
@@ -17,7 +17,7 @@ $schemaAddress      = $schemaAddress      ?? [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "HikingTrail",
+  "@type": "Park",
   "name": "<?= $schemaTitle ?>",
   "description": "<?= $schemaDescription ?>",
   "url": "<?= $schemaUrl ?>",
@@ -32,33 +32,33 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.3812,
-    "longitude": -3.0385
+    "latitude": 43.3890,
+    "longitude": -3.0450
   },
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Inicio en Muskiz",
+      "name": "Recorrido peatonal costero",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Final en Punta Lucero",
+      "name": "Flora y fauna locales",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Dificultad media",
+      "name": "Dificultad baja",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Duración aproximada 2-3 horas",
+      "name": "Duración aproximada 1 hora",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Entorno natural protegido (costa vasca)",
+      "name": "Entorno natural protegido",
       "value": true
     }
   ],

@@ -32,7 +32,7 @@
     [
       'nombre' => 'Centro de Interpretación de la Reserva de Urdaibai',
       'slug'   => 'centro-interpretacion-urdaibai',
-      'imagen' => 'centro-interpretacion-ibarrangelu-bizkaia-1.jpg.jpg',
+      'imagen' => 'centro-interpretacion-ibarrangelu-bizkaia-1.jpeg',
       'alt'    => 'Centro de Interpretación de la Reserva de Urdaibai',
       'fuente' => 'urdaibai.org',
       'web_imagen' => 'https://www.urdaibai.org/centro-interpretacion',

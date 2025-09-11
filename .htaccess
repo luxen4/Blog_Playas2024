@@ -117,11 +117,16 @@
 
     RewriteRule ^lugares-interes/playa-de-laga-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/playa-de-laga-ibarrangelu/index.php [L]
     RewriteRule ^lugares-interes/cabo-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/cabo-ogono-ibarrangelu/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-laga-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/ruta-senderista-laga-ogono-ibarrangelu/index.php [L]
+    RewriteRule ^lugares-interes/centro-interpretacion-urdaibai-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/centro-interpretacion-urdaibai-ibarrangelu/index.php [L]
+
 
     # Muskiz
     RewriteRule ^muskiz-bizkaia$ localidades/bizkaia/muskiz/index.php [L]
-
-    RewriteRule ^playa-de-la-arena$ localidades/bizkaia/muskiz/lugares-interes/playas/playa-de-la-arena/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena-muskiz/index.php [L]
+    RewriteRule ^lugares-interes/torre-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/torre-de-muskiz-muskiz/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz$ localidades/bizkaia/muskiz/lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz/index.php [L]
+    RewriteRule ^lugares-interes/parque-ecologico-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/parque-ecologico-de-muskid-muskiz/index.php [L]
 
 
     # Astondo

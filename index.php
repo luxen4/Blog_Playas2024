@@ -218,3 +218,114 @@ https://chatgpt.com/?model=auto
 ?>
 
 <?php /* https://proyecto-final.kesug.com/ Para copiarle*/?>
+<?php /*
+
+Las Arenas
+Ereaga
+Arrigunaga
+Muriola,
+PLentzia
+Gorliz
+Armintza
+Aritzatxu
+Laidatxu
+Toña
+Ea
+Ogella
+Isuntza
+Karraspio
+Arrigorri
+
+Meter la consulta al tiempo
+
+Barinatxe
+Arriatera-Atxabiribil
+Bakio
+Laida
+Laga
+
+
+
+
+
+
+
+
+
+
+
+<article class="prose max-w-none">
+  <h1 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+    🧥 Las mejores chaquetas militares de Cotosen para 2025
+  </h1>
+
+  <p class="mb-4 text-gray-700">
+    Si buscas <strong>chaquetas militares resistentes, cómodas y con estilo</strong>,
+    Cotosen es una de las tiendas más populares para este tipo de ropa. 
+    Aquí te presentamos una selección de las mejores chaquetas para este 2025, 
+    ideales para <em>outdoor, montaña y uso urbano</em>.
+  </p>
+
+  <!-- Producto 1 -->
+  <section class="border border-gray-200 p-4 rounded-lg mb-6 shadow-sm bg-white">
+    <h2 class="text-xl font-semibold mb-2">1. Chaqueta táctica con múltiples bolsillos</h2>
+    <img src="https://cdn.cotosen.com/product1.jpg" alt="Chaqueta táctica Cotosen" class="rounded-lg mb-3 shadow">
+    <p class="mb-3 text-sm text-gray-600">
+      Perfecta para actividades al aire libre, fabricada con materiales impermeables
+      y con gran capacidad de almacenamiento en sus bolsillos.
+    </p>
+    <a href="https://mylead.global/stl/TU-ENLACE-AFILIADO" 
+       target="_blank" 
+       rel="nofollow sponsored" 
+       class="inline-block px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition">
+       🔗 Ver en Cotosen
+    </a>
+  </section>
+
+  <!-- Producto 2 -->
+  <section class="border border-gray-200 p-4 rounded-lg mb-6 shadow-sm bg-white">
+    <h2 class="text-xl font-semibold mb-2">2. Chaqueta militar ligera de camuflaje</h2>
+    <img src="https://cdn.cotosen.com/product2.jpg" alt="Chaqueta camuflaje Cotosen" class="rounded-lg mb-3 shadow">
+    <p class="mb-3 text-sm text-gray-600">
+      Una opción más ligera para climas templados. Su diseño de camuflaje
+      la hace ideal para senderismo, airsoft o simplemente para un look urbano.
+    </p>
+    <a href="https://mylead.global/stl/TU-ENLACE-AFILIADO" 
+       target="_blank" 
+       rel="nofollow sponsored" 
+       class="inline-block px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition">
+       🔗 Comprar en Cotosen
+    </a>
+  </section>
+
+  <!-- Producto 3 -->
+  <section class="border border-gray-200 p-4 rounded-lg mb-6 shadow-sm bg-white">
+    <h2 class="text-xl font-semibold mb-2">3. Chaqueta térmica para invierno</h2>
+    <img src="https://cdn.cotosen.com/product3.jpg" alt="Chaqueta invierno Cotosen" class="rounded-lg mb-3 shadow">
+    <p class="mb-3 text-sm text-gray-600">
+      Diseñada para bajas temperaturas, con interior térmico y exterior
+      resistente al viento. Ideal para quienes no quieren renunciar al estilo
+      en invierno.
+    </p>
+    <a href="https://mylead.global/stl/TU-ENLACE-AFILIADO" 
+       target="_blank" 
+       rel="nofollow sponsored" 
+       class="inline-block px-4 py-2 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition">
+       🔗 Ver oferta en Cotosen
+    </a>
+  </section>
+
+  <p class="mt-6 text-gray-700">
+    👉 Recuerda que todos los productos se envían directamente desde la tienda oficial 
+    de Cotosen y puedes aprovechar descuentos especiales con tu compra online.
+  </p>
+</article>
+
+
+
+
+
+
+
+
+*/

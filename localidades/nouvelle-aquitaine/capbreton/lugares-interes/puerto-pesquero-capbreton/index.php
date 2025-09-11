@@ -1,7 +1,7 @@
 <?php  
 $localidad = 'Capbreton';     
 $localidad_minuscula = 'capbreton'; 
-$lugar_minuscula = 'puerto-pesquero-capbreton';
+$lugar_minuscula = 'puerto-pesquero';
 $region = 'Nouvelle-Aquitaine';  
 $region_minuscula = strtolower(str_replace(' ', '-', $region));   
 $country = 'Francia';    

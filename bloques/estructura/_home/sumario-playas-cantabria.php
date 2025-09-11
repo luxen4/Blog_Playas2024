@@ -17,7 +17,7 @@ $localidades = [
   'Ajo' => [
     [
       'nombre' => 'Playa de Cuberris',
-      'archivo' => 'cuberris-ajo',
+      'archivo' => 'playa-de-cuberris-ajo',
       'presentacion' => '🌊 La Playa de Cuberris, situada en Ajo, Cantabria, 
         es una extensa playa de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas,
         combina un entorno natural con servicios básicos de temporada como duchas y vigilancia. Rodeada de acantilados y con fácil acceso,
@@ -25,7 +25,7 @@ $localidades = [
     ],
     [
       'nombre' => 'Playa de Antuerta',
-      'archivo' => 'antuerta-ajo',
+      'archivo' => 'playa-de-antuerta-ajo',
       'presentacion' => '🌊 La Playa de Antuerta, ubicada en Ajo, Cantabria, 
         es una playa salvaje y tranquila, ideal para los amantes de la naturaleza y los paisajes vírgenes. 
         Aunque carece de servicios masivos, su belleza natural compensa cualquier carencia de infraestructuras.'
@@ -34,7 +34,7 @@ $localidades = [
   'Castro-Urdiales' => [
     [
       'nombre' => 'Playa de Ostende',
-      'archivo' => 'ostende-castro-urdiales',
+      'archivo' => 'playa-de-ostende-castro-urdiales',
       'presentacion' => '🌊 La Playa de Ostende es una de las joyas de Castro Urdiales. Con su amplia extensión de arena dorada y aguas tranquilas,
         es ideal para disfrutar del sol y actividades acuáticas. Rodeada de acantilados y zonas verdes, destaca por sus servicios y ambiente familiar.'
     ]
@@ -42,7 +42,7 @@ $localidades = [
   'Sonabia' => [
     [
       'nombre' => 'Playa de Valdearenas',
-      'archivo' => 'valdearenas-sonabia',
+      'archivo' => 'playa-de-valdearenas-sonabia',
       'presentacion' => '🌊 La Playa de Valdearenas, en el extremo oriental de Cantabria, es una playa virgen de arena fina rodeada de acantilados.
         Perfecta para quienes buscan tranquilidad y un paisaje natural impresionante.'
     ]
@@ -50,7 +50,7 @@ $localidades = [
   'Santoña' => [
     [
       'nombre' => 'Playa de Berria',
-      'archivo' => 'berria-santona',
+      'archivo' => 'playa-de-berria-santona',
       'presentacion' => '🌊 La Playa de Berria, ubicada en Santoña, es una extensa franja de arena dorada entre el monte Brusco y el Buciero.
         Ideal para surf y paseos, rodeada de marismas protegidas y con servicios completos.'
     ]

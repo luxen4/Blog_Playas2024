@@ -1,7 +1,7 @@
 <?php  
 $localidad = 'Hendaia';     
 $localidad_minuscula = 'hendaia'; 
-$lugar_minuscula = 'castillo-abbadia-hendaia';
+$lugar_minuscula = 'castillo-abbadia';
 $region = 'Nouvelle-Aquitaine';  
 $region_minuscula = strtolower(str_replace(' ', '-', $region));   
 $country = 'Francia';    

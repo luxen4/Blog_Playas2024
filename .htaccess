@@ -5,13 +5,13 @@
     # Ajo
     RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
     
-    RewriteRule ^faro-de-cabo-de-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-cabo-de-ajo-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo-ajo/index.php [L]
     RewriteRule ^lugares-interes/playa-de-cuberris-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-cuberris-ajo/index.php [L]
     RewriteRule ^lugares-interes/playa-de-antuerta-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-antuerta-ajo/index.php [L]
     RewriteRule ^lugares-interes/ruta-de-la-costa-oriental-ajo$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental-ajo/index.php [L]
-    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo$        localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo-ajo/index.php [L]
+    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo-ajo$    localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo-ajo/index.php [L]
    
-    RewriteRule ^mirador-del-cabo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
+    RewriteRule ^mirador-del-cabo-ajo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo-ajo/index.php [L]
     
 
     # Castro-Urdales
@@ -81,6 +81,8 @@
 
     RewriteRule ^lugares-interes/playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/playa-de-bakio-bakio/index.php [L]
     RewriteRule ^lugares-interes/san-juan-de-gaztelugatxe-bakio$ localidades/bizkaia/bakio/lugares-interes/san-juan-de-gaztelugatxe-bakio/index.php [L]
+    RewriteRule ^lugares-interes/monte-serantes-bakio$ localidades/bizkaia/bakio/lugares-interes/monte-serantes-bakio/index.php [L]
+    RewriteRule ^lugares-interes/surf-en-la-playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/surf-en-la-playa-de-bakio-bakio/index.php [L]
   
 
     #RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
@@ -182,7 +184,10 @@
 
     ### Guipuzkoa ###
     # Deba
-    RewriteRule ^deba-gipuzkoa$     localidades/gipuzkoa/deba/index.php [L]
+    RewriteRule ^deba-gipuzkoa$                         localidades/gipuzkoa/deba/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-santiago$     localidades/gipuzkoa/deba/lugares-interes/playa-de-santiago-deba/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-sorginetxe-deba$ localidades/gipuzkoa/deba/lugares-interes/mirador-de-sorginetxe-deba/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-deba-zumaia-deba$ localidades/gipuzkoa/deba/lugares-interes/ruta-senderista-deba-zumaia-deba/index.php [L]
     
 
 
@@ -240,17 +245,22 @@
     RewriteRule ^eventos-festividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/eventos-festividades-playa-de-biarritz-francia.php [L]
     RewriteRule ^preguntas-frecuentes-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/preguntas-frecuentes-playa-de-biarritz-francia.php [L]
 
-
     # Capbreton
     RewriteRule ^capbreton-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/capbreton/index.php [L]
     
-    RewriteRule ^lugares-interes/plage-centrale-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/plage-centrale-capbreton-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton-capbreton/index.php [L]
     RewriteRule ^lugares-interes/puerto-pesquero-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/puerto-pesquero-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/piste-cyclable-velodyssee-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/piste-cyclable-velodyssee-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/foret-domaniale-de-capbreton-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/foret-domaniale-de-capbreton-capbreton/index.php [L]
+
 
     # Hendaia
     RewriteRule ^hendaia-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/hendaia/index.php [L]
     RewriteRule ^lugares-interes/playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-de-ondarraitz-hendaia/index.php [L]
     RewriteRule ^lugares-interes/castillo-abbadia-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia-hendaia/index.php [L]
+
+    RewriteRule ^lugares-interes/puerto-deportivo-hendaia$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/puerto-deportivo-hendaia/index.php [L]
+    RewriteRule ^lugares-interes/corniche-basque-hendaia$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/corniche-basque-hendaia/index.php [L]
 
 
 
@@ -381,6 +391,9 @@ RewriteRule ^como-llegar-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademus
 RewriteRule ^servicios-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/servicios-playa-de-muskiz-vizcaya.php [L]
 RewriteRule ^eventos-festividades-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/eventos-festividades-playa-de-muskiz-vizcaya.php [L]
 RewriteRule ^preguntas-frecuentes-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/preguntas-frecuentes-playa-de-muskiz-vizcaya.php [L]
+
+RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena-muskiz/index.php [L]
+RewriteRule ^lugares-interes/torre-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/torre-de-muskiz-muskiz/index.php [L]
 
 
 #Azkorri

@@ -64,7 +64,7 @@
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/paseo-itsaslur-muskiz-1.jpg"
          alt="Sendero y vistas del Paseo Itsaslur"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/paseo-itsaslur-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/paseo-itsaslur-muskiz-2.jpg"
          alt="Vistas panorámicas del Cantábrico desde el Paseo Itsaslur"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>

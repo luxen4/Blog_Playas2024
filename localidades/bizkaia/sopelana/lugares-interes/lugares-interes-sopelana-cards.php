@@ -3,18 +3,18 @@
 <?php
   $lugares_interes = [
     [
-      'nombre' => 'Playa de Sopelana',
-      'slug'   => 'playa-de-sopelana',
-      'imagen' => 'playa-de-sopelana.jpg',
-      'alt'    => 'Playa de Sopelana en Sopelana',
+      'nombre' => 'Playa de Arrietara',
+      'slug'   => 'playa-de-arrietara-sopelana',
+      'imagen' => 'playa-de-arrietara-sopelana-bizkaia-1.jpg',
+      'alt'    => 'Playa de Arrietara en Sopelana',
       'fuente' => 'bizkaia.eus',
       'web_imagen' => 'https://www.bizkaia.eus/playa-de-sopelana',
       'desc'   => 'Playa popular para surfistas y amantes de la naturaleza, con acantilados impresionantes.',
     ],
     [
       'nombre' => 'Mirador de Arrietara',
-      'slug'   => 'mirador-de-arrietara',
-      'imagen' => 'mirador-arrietara.jpg',
+      'slug'   => 'mirador-de-arrietara-sopelana',
+      'imagen' => 'mirador-playa-arrietara-sopelana-bizkaia-1.jpg',
       'alt'    => 'Mirador de Arrietara en Sopelana',
       'fuente' => 'sopelana.eus',
       'web_imagen' => 'https://www.sopelana.eus/mirador-arrietara',

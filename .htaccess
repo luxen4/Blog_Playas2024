@@ -108,7 +108,11 @@
 
 
     RewriteRule ^lugares-interes/faro-de-gorliz-gorliz$ localidades/bizkaia/gorliz/lugares-interes/faro-de-gorliz-gorliz/index.php [L]
+    RewriteRule ^lugares-interes/parque-acuatico-gorliz$ localidades/bizkaia/gorliz/lugares-interes/parque-acuatico-gorliz/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-gorliz-armintza-gorliz$ localidades/bizkaia/gorliz/lugares-interes/ruta-senderista-gorliz-armintza-gorliz/index.php [L]
     
+
+
     RewriteRule ^lugares-interes/playa-de-astondo-gorliz$ localidades/bizkaia/gorliz/lugares-interes/playa-de-astondo-gorliz/index.php [L]
     
 
@@ -130,7 +134,8 @@
     RewriteRule ^lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz$ localidades/bizkaia/muskiz/lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz/index.php [L]
     RewriteRule ^lugares-interes/parque-natural-montes-triano-muskiz$ localidades/bizkaia/muskiz/lugares-interes/parque-natural-montes-triano-muskiz/index.php [L]
 
-    RewriteRule ^lugares-interes/paseo-itsaslur-muskiz$ localidades/bizkaia/muskiz/lugares-interes/paseo-itsaslur-muskiz/index.php [L]
+    RewriteRule ^lugares-interes/paseo-itsaslur-muskiz$     localidades/bizkaia/muskiz/lugares-interes/paseo-itsaslur-muskiz/index.php [L]
+    RewriteRule ^lugares-interes/zec-ordunte-kbe-muskiz$    localidades/bizkaia/muskiz/lugares-interes/zec-ordunte-kbe-muskiz/index.php [L]
 
 
 
@@ -150,15 +155,19 @@
 
     # Sopelana
     RewriteRule ^sopelana-bizkaia$ localidades/bizkaia/sopelana/index.php [L]
-    
+    RewriteRule ^lugares-interes/playa-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/playa-de-arrietara-sopelana/index.php [L]
+ RewriteRule ^lugares-interes/mirador-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/mirador-de-arrietara-sopelana/index.php [L]
 
-    RewriteRule ^playa-de-arrietara$ localidades/bizkaia/sopelana/lugares-interes/playas/playa-de-arrietara/index.php [L] 
+
+
+
 
     # Plentzia
     RewriteRule ^plentzia-bizkaia$ localidades/bizkaia/plentzia/index.php [L]
 
-
     RewriteRule ^lugares-interes/playa-de-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/playa-de-plentzia-plentzia/index.php [L]
+    
+    
     # RewriteRule ^playa-de-gorliz$ localidades/bizkaia/plentzia/lugares-interes/playas/playa-de-gorliz/index.php [L]
 
 

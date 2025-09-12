@@ -61,7 +61,7 @@
     [
         'nombre'    => 'ZEC Ordunte KBE',
         'slug'      => 'zec-ordunte-kbe',
-        'imagen'    => 'zec-ordunte.jpg',
+        'imagen'    => 'zec-ordunte-kbe-muskiz-1.jpg',
         'alt'       => 'ZEC Ordunte KBE',
         'fuente'    => 'alltrails.com',
         'web_imagen'=> 'https://www.alltrails.com/es/spain/biscay/muskiz',

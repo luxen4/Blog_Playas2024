@@ -22,13 +22,13 @@
     ],
     [
       'nombre' => 'Ruta Senderista Sopelana - Plentzia',
-      'slug'   => 'ruta-senderista-sopelana-plentzia',
-      'imagen' => 'ruta-sopelana-plentzia.jpg',
+      'slug'   => 'ruta-senderista-sopelana-plentzia-sopelana',
+      'imagen' => 'recorrido-costero-sopelana-plentzia.jpeg',
       'alt'    => 'Ruta senderista desde Sopelana a Plentzia',
       'fuente' => 'wikiloc.com',
       'web_imagen' => 'https://www.wikiloc.com/rutas-senderismo/sopelana-plentzia',
       'desc'   => 'Paseo natural entre dos municipios costeros con vistas al mar y la ría de Plentzia.',
-    ],
+    ],/*
     [
       'nombre' => 'Parque Kortezubi',
       'slug'   => 'parque-kortezubi',
@@ -37,7 +37,7 @@
       'fuente' => 'sopelana.eus',
       'web_imagen' => 'https://www.sopelana.eus/parque-kortezubi',
       'desc'   => 'Zona verde con áreas de picnic, ideal para familias y actividades al aire libre.',
-    ],
+    ],*/
   ];
 ?>
 

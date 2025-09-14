@@ -23,22 +23,40 @@
 
   <!-- Galería -->
   <section aria-labelledby="galeria" class="mb-12">
-    <h2 id="galeria" class="text-2xl font-bold text-amber-700 mb-4">📸 Galería del Mirador</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <h2 id="galeria" class="text-2xl font-bold text-amber-700 mb-4">📸 Galería del Mirador</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    
+    <figure class="aspect-video w-full">
       <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-playa-arrietara-sopelana-bizkaia-1.jpg"
            alt="Vistas panorámicas desde el Mirador de Arrietara"
-           class="aspect-video object-cover w-full rounded-2xl shadow-md" loading="lazy">
+           class="object-cover w-full h-full rounded-2xl shadow-md" loading="lazy">
+      <figcaption class="mt-2 text-sm text-gray-600 text-center">Vistas panorámicas desde el Mirador de Arrietara</figcaption>
+    </figure>
+
+    <figure class="aspect-video w-full">
       <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-arrietara-sopelana-2.jpg"
            alt="Entorno natural alrededor del Mirador"
-           class="aspect-video object-cover w-full rounded-2xl shadow-md" loading="lazy">
+           class="object-cover w-full h-full rounded-2xl shadow-md" loading="lazy">
+      <figcaption class="mt-2 text-sm text-gray-600 text-center">Entorno natural alrededor del mirador</figcaption>
+    </figure>
+
+    <figure class="aspect-video w-full">
       <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-arrietara-sopelana-3.jpg"
            alt="Vista de la Playa de Arrietara desde el mirador"
-           class="aspect-video object-cover w-full rounded-2xl shadow-md" loading="lazy">
+           class="object-cover w-full h-full rounded-2xl shadow-md" loading="lazy">
+      <figcaption class="mt-2 text-sm text-gray-600 text-center">Vista de la Playa de Arrietara desde el mirador</figcaption>
+    </figure>
+
+    <figure class="aspect-video w-full">
       <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-arrietara-sopelana-4.jpg"
            alt="Paisajes de la costa desde Arrietara"
-           class="aspect-video object-cover w-full rounded-2xl shadow-md" loading="lazy">
-    </div>
-  </section>
+           class="object-cover w-full h-full rounded-2xl shadow-md" loading="lazy">
+      <figcaption class="mt-2 text-sm text-gray-600 text-center">Paisajes de la costa desde Arrietara</figcaption>
+    </figure>
+
+  </div>
+</section>
+
 
   <!-- Información -->
   <section class="mb-12">

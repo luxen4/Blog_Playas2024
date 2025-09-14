@@ -156,7 +156,12 @@
     # Sopelana
     RewriteRule ^sopelana-bizkaia$ localidades/bizkaia/sopelana/index.php [L]
     RewriteRule ^lugares-interes/playa-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/playa-de-arrietara-sopelana/index.php [L]
- RewriteRule ^lugares-interes/mirador-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/mirador-de-arrietara-sopelana/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/mirador-de-arrietara-sopelana/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-sopelana-plentzia-sopelana$ localidades/bizkaia/sopelana/lugares-interes/ruta-senderista-sopelana-plentzia-sopelana/index.php [L]
+
+
+
+
 
 
 

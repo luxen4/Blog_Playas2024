@@ -4,7 +4,7 @@
   $lugares_interes = [
     [
       'nombre' => 'Playa de Arrietara',
-      'slug'   => 'playa-de-arrietara-sopelana',
+      'slug'   => 'playa-de-arrietara',
       'imagen' => 'playa-de-arrietara-sopelana-bizkaia-1.jpg',
       'alt'    => 'Playa de Arrietara en Sopelana',
       'fuente' => 'bizkaia.eus',
@@ -13,7 +13,7 @@
     ],
     [
       'nombre' => 'Mirador de Arrietara',
-      'slug'   => 'mirador-de-arrietara-sopelana',
+      'slug'   => 'mirador-de-arrietara',
       'imagen' => 'mirador-playa-arrietara-sopelana-bizkaia-1.jpg',
       'alt'    => 'Mirador de Arrietara en Sopelana',
       'fuente' => 'sopelana.eus',
@@ -22,7 +22,7 @@
     ],
     [
       'nombre' => 'Ruta Senderista Sopelana - Plentzia',
-      'slug'   => 'ruta-senderista-sopelana-plentzia-sopelana',
+      'slug'   => 'ruta-senderista-sopelana-plentzia',
       'imagen' => 'recorrido-costero-sopelana-plentzia.jpeg',
       'alt'    => 'Ruta senderista desde Sopelana a Plentzia',
       'fuente' => 'wikiloc.com',
@@ -66,13 +66,7 @@
             </figcaption>
           </figure>
 
-          <div class="card-body p-4">
-            <h5 class="card-title text-lg font-semibold text-green-800"><?= $lugar['nombre']; ?></h5>
-            <p class="card-text text-muted small mb-3"><?= $lugar['desc']; ?></p>
-            <a href="/Blog_Playas2025/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
-              Explorar &rarr;
-            </a>
-          </div>
+          <?php require(PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/boton-explorar.php'); ?>
 
         </div>
       </div>

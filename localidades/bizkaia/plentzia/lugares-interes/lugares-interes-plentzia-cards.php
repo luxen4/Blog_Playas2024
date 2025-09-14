@@ -5,7 +5,7 @@
     [
       'nombre' => 'Playa de Plentzia',
       'slug'   => 'playa-de-plentzia',
-      'imagen' => 'playa-de-plentzia.jpg',
+      'imagen' => 'playa-de-plentzia-plentzia-bizkaia-1.jpg',
       'alt'    => 'Playa de Plentzia en Plentzia',
       'fuente' => 'bizkaia.eus',
       'web_imagen' => 'https://www.bizkaia.eus/playa-de-plentzia',
@@ -23,12 +23,12 @@
     [
       'nombre' => 'Ruta Senderista Plentzia - Gorliz',
       'slug'   => 'ruta-senderista-plentzia-gorliz',
-      'imagen' => 'ruta-plentzia-gorliz.jpg',
+      'imagen' => 'mapa-ruta-senderista-plentzia-gorliz.jpg',
       'alt'    => 'Ruta senderista entre Plentzia y Gorliz',
-      'fuente' => 'wikiloc.com',
-      'web_imagen' => 'https://www.wikiloc.com/rutas-senderismo/plentzia-gorliz',
+      'fuente' => 'komoot.com',
+      'web_imagen' => 'https://www.komoot.com/es-es/smarttour/3991221',
       'desc'   => 'Camino costero entre dos municipios con vistas a la ría y la playa, ideal para caminatas relajadas.',
-    ],
+    ],/*
     [
       'nombre' => 'Parque de los Pinos',
       'slug'   => 'parque-de-los-pinos',
@@ -37,7 +37,7 @@
       'fuente' => 'plentzia.eus',
       'web_imagen' => 'https://www.plentzia.eus/parque-de-los-pinos',
       'desc'   => 'Espacio verde con zonas infantiles y áreas de descanso para toda la familia.',
-    ],
+    ],*/
   ];
 ?>
 <?php 

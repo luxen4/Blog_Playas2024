@@ -34,21 +34,21 @@
     </figure>
 
     <figure class="aspect-video w-full">
-      <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-arrietara-sopelana-2.jpg"
+      <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/entorno-natural-alrededor-mirador-arrieta.jpg"
            alt="Entorno natural alrededor del Mirador"
            class="object-cover w-full h-full rounded-2xl shadow-md" loading="lazy">
       <figcaption class="mt-2 text-sm text-gray-600 text-center">Entorno natural alrededor del mirador</figcaption>
     </figure>
 
     <figure class="aspect-video w-full">
-      <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-arrietara-sopelana-3.jpg"
+      <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/vista-playa-arrietara-desde-mirador.jpg"
            alt="Vista de la Playa de Arrietara desde el mirador"
            class="object-cover w-full h-full rounded-2xl shadow-md" loading="lazy">
       <figcaption class="mt-2 text-sm text-gray-600 text-center">Vista de la Playa de Arrietara desde el mirador</figcaption>
     </figure>
 
     <figure class="aspect-video w-full">
-      <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/mirador-arrietara-sopelana-4.jpg"
+      <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/paisajes-de-la-costa-desde-arrietara.jpg"
            alt="Paisajes de la costa desde Arrietara"
            class="object-cover w-full h-full rounded-2xl shadow-md" loading="lazy">
       <figcaption class="mt-2 text-sm text-gray-600 text-center">Paisajes de la costa desde Arrietara</figcaption>

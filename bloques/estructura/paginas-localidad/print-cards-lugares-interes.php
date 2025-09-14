@@ -10,7 +10,7 @@
                 <div class="card h-100 shadow-sm border-0 rounded-lg overflow-hidden transition hover:shadow-md">
                     <figure class="mb-0">
                         <img
-                            src="/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug'].'-'.$localidad_minuscula; ?>/img/<?php echo $lugar['imagen']; ?>"
+                            src="/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug']; ?>/img/<?php echo $lugar['imagen']; ?>"
                             class="card-img-top h-64 object-cover rounded-top"
                             alt="<?php echo $lugar['alt']; ?>">
 
@@ -22,22 +22,8 @@
                         </figcaption>
                     </figure>
 
-                    <div class="card-body p-4">
-                        <h5 class="card-title text-lg font-semibold text-red-800"><?php echo $lugar['nombre']; ?></h5>
-                        <p class="card-text text-muted small mb-3"><?php echo $lugar['desc']; ?></p>
-                        <a 
-                        <?php   /* Para amigables URLs */
-                                if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-                                    href="/Blog_Playas2025/lugares-interes/<?php echo $lugar['slug'].'-'. $localidad_minuscula; ?>" <?php
-                                } else { ?>
-                                    href= <?= PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD ."/lugares-interes/{$lugar['slug']}-{$localidad_minuscula}/index.php"; 
-                                }?> 
-                                <?= $localidad; ?>
-                        
-                        class="btn btn-danger btn-sm px-3 py-2 shadow-sm"> Explorar &rarr;
-                        </a>
-
-                    </div>
+                    <?php require(PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/boton-explorar.php'); ?>
+                    
                 </div>
             </div>
         <?php endforeach; ?>

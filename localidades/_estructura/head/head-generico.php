@@ -7,7 +7,8 @@
 
   <?php
 $pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/{$localidad_minuscula}/schemas/schemas-head.php";
-$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."-{$localidad_minuscula}/schemas/schemas-head.php"; //var_dump($pathConPlayas, $pathSinPlayas);
+$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/schemas/schemas-head.php"; 
+//var_dump($pathConPlayas, $pathSinPlayas);
 
 try {
     if (file_exists($pathConPlayas)) {

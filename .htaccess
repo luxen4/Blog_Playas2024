@@ -155,9 +155,9 @@
 
     # Sopelana
     RewriteRule ^sopelana-bizkaia$ localidades/bizkaia/sopelana/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/playa-de-arrietara-sopelana/index.php [L]
-    RewriteRule ^lugares-interes/mirador-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/mirador-de-arrietara-sopelana/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-sopelana-plentzia-sopelana$ localidades/bizkaia/sopelana/lugares-interes/ruta-senderista-sopelana-plentzia-sopelana/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/playa-de-arrietara/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/mirador-de-arrietara/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-sopelana-plentzia-sopelana$ localidades/bizkaia/sopelana/lugares-interes/ruta-senderista-sopelana-plentzia/index.php [L]
 
 
 
@@ -170,7 +170,9 @@
     # Plentzia
     RewriteRule ^plentzia-bizkaia$ localidades/bizkaia/plentzia/index.php [L]
 
-    RewriteRule ^lugares-interes/playa-de-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/playa-de-plentzia-plentzia/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/playa-de-plentzia/index.php [L]
+    RewriteRule ^lugares-interes/puerto-deportivo-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/puerto-deportivo-plentzia/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-plentzia-gorliz-plentzia$ localidades/bizkaia/plentzia/lugares-interes/ruta-senderista-plentzia-gorliz/index.php [L]
     
     
     # RewriteRule ^playa-de-gorliz$ localidades/bizkaia/plentzia/lugares-interes/playas/playa-de-gorliz/index.php [L]

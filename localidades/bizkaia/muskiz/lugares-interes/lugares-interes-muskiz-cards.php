@@ -23,7 +23,7 @@
     [
       'nombre' => 'Ruta Senderista Muskiz - Punta Lucero',
       'slug'   => 'ruta-senderista-muskiz-punta-lucero',
-      'imagen' => 'ruta-senderista-muskiz-playa-lucero.jpg',
+      'imagen' => 'ruta-senderista-muskiz-playa-lucero-1.jpg',
       'alt'    => 'Ruta senderista en Muskiz hasta Punta Lucero',
       'fuente' => 'wikiloc.com',
       'web_imagen' => 'https://www.wikiloc.com/rutas-senderismo/muskiz-punta-lucero',

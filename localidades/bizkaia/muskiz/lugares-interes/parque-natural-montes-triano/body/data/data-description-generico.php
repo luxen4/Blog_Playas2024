@@ -1,5 +1,5 @@
 <?php 
-  $introParque = [
+  $intro = [
     "parrafos" => [
       "El <strong>Parque Natural de los Montes de Triaño</strong> en <span class='font-semibold'>Muskiz</span>, Bizkaia,
       es un espacio natural protegido que combina senderos señalizados, fauna y flora autóctona, zonas de descanso y miradores panorámicos.",

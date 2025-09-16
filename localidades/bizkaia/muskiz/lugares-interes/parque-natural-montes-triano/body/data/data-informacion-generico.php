@@ -1,5 +1,5 @@
 <?php 
-$infoParque = [
+$info = [
   "titulo" => "🌿 Información del Parque",
   "items"  => [
     [ "titulo" => "Superficie", "descripcion" => "≈ 25 ha de espacio natural protegido" ],

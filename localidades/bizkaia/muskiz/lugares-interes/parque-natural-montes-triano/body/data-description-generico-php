@@ -1,0 +1,20 @@
+<?php 
+  $introParque = [
+    "parrafos" => [
+      "El <strong>Parque Natural de los Montes de Triaño</strong> en <span class='font-semibold'>Muskiz</span>, Bizkaia,
+      es un espacio natural protegido que combina senderos señalizados, fauna y flora autóctona, zonas de descanso y miradores panorámicos.",
+
+      "Perfecto para familias, amantes de la <strong>naturaleza</strong>, el <strong>senderismo</strong> y la <strong>fotografía</strong>."
+    ],
+    "imagenes" => [
+      [
+        "src" => PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG . "/parque-natural-montes-triano-1.jpg",
+        "alt" => "Senderos y áreas verdes del Parque Natural de los Montes de Triaño"
+      ],
+      [
+        "src" => PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG . "/parque-natural-montes-triano-2.jpg",
+        "alt" => "Fauna y flora en el Parque Natural de los Montes de Triaño"
+      ]
+    ]
+  ];
+?>

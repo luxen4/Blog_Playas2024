@@ -12,8 +12,8 @@
       'desc'   => 'Amplia playa de arena fina con servicios para familias y deportes acuáticos.',
     ],
     [
-      'nombre' => 'Torre de Muskiz',
-      'slug'   => 'torre-de-muskiz',
+      'nombre' => 'Castillo de Munatones',
+      'slug'   => 'castillo-de-munatones',
       'imagen' => 'castillo-de-munatones-muskiz-bizkaia-1.jpg',
       'alt'    => 'Torre histórica de Muskiz',
       'fuente' => 'muskiz.eus',
@@ -73,7 +73,7 @@
   ];
 ?>
 <?php 
-$parrafo = "Muskiz, en Bizkaia, es un destino que combina historia, naturaleza y playas. Desde la Playa de La Arena hasta la Torre de Muskiz, cada lugar ofrece una experiencia única para los visitantes. Ideal para familias y amantes del senderismo, Muskiz es perfecto para disfrutar de la costa vasca.";
+$parrafo = "Muskiz, en Bizkaia, es un destino que combina historia, naturaleza y playas. Desde la Playa de La Arena hasta la Castillo de Munatones, cada lugar ofrece una experiencia única para los visitantes. Ideal para familias y amantes del senderismo, Muskiz es perfecto para disfrutar de la costa vasca.";
 require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
 
 

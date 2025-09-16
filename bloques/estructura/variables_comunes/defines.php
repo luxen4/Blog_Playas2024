@@ -88,7 +88,10 @@
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
+
+<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes/{$lugar_minuscula}/body"); ?>
      
+
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',      PATH_RAIZ_LOCALIDAD_LUGARES_INTERES. "/playas/img"); ?>
 
 

@@ -129,13 +129,12 @@
 
     # Muskiz
     RewriteRule ^muskiz-bizkaia$ localidades/bizkaia/muskiz/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena-muskiz/index.php [L]
-    RewriteRule ^lugares-interes/torre-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/torre-de-muskiz-muskiz/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz$ localidades/bizkaia/muskiz/lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz/index.php [L]
-    RewriteRule ^lugares-interes/parque-natural-montes-triano-muskiz$ localidades/bizkaia/muskiz/lugares-interes/parque-natural-montes-triano-muskiz/index.php [L]
-
-    RewriteRule ^lugares-interes/paseo-itsaslur-muskiz$     localidades/bizkaia/muskiz/lugares-interes/paseo-itsaslur-muskiz/index.php [L]
-    RewriteRule ^lugares-interes/zec-ordunte-kbe-muskiz$    localidades/bizkaia/muskiz/lugares-interes/zec-ordunte-kbe-muskiz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena/index.php [L]
+    RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ localidades/bizkaia/muskiz/lugares-interes/castillo-de-munatones/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz$ localidades/bizkaia/muskiz/lugares-interes/ruta-senderista-muskiz-punta-lucero/index.php [L]
+    RewriteRule ^lugares-interes/parque-natural-montes-triano-muskiz$ localidades/bizkaia/muskiz/lugares-interes/parque-natural-montes-triano/index.php [L]
+    RewriteRule ^lugares-interes/paseo-itsaslur-muskiz$     localidades/bizkaia/muskiz/lugares-interes/paseo-itsaslur/index.php [L]
+    RewriteRule ^lugares-interes/zec-ordunte-kbe-muskiz$    localidades/bizkaia/muskiz/lugares-interes/zec-ordunte-kbe/index.php [L]
 
 
 
@@ -411,8 +410,12 @@ RewriteRule ^servicios-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuski
 RewriteRule ^eventos-festividades-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/eventos-festividades-playa-de-muskiz-vizcaya.php [L]
 RewriteRule ^preguntas-frecuentes-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/preguntas-frecuentes-playa-de-muskiz-vizcaya.php [L]
 
-RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena-muskiz/index.php [L]
-RewriteRule ^lugares-interes/torre-de-muskiz-muskiz$ localidades/bizkaia/muskiz/lugares-interes/torre-de-muskiz-muskiz/index.php [L]
+RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena/index.php [L]
+RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ localidades/bizkaia/muskiz/lugares-interes/castillo-de-munatones/index.php [L]
+
+
+#RewriteRule ^lugares-interes/puerto-deportivo-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/puerto-deportivo-plentzia/index.php [L]
+    
 
 
 #Azkorri

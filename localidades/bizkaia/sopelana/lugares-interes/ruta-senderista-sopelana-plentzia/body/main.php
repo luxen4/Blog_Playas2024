@@ -11,6 +11,7 @@
     </p>
   </header>
 
+  <?php /*
   <!-- Descripción -->
   <section class="max-w-3xl mx-auto mb-10 text-gray-700 text-base md:text-lg space-y-4">
     <p>
@@ -22,7 +23,7 @@
     <p>
       Es una ruta sencilla, perfecta para senderismo, fotografía y turismo activo en Bizkaia.
     </p>
-  </section>
+  </section> */ ?>
 
   <!-- Galería -->
 <section aria-labelledby="galeria" class="mb-12">

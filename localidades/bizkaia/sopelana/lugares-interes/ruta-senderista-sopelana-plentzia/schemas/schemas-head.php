@@ -1,4 +1,9 @@
 <?php 
+
+$latitude  = 43.3880;  // Aproximadamente Sopelana, inicio de la ruta
+$longitude = -2.9945;  // Aproximadamente Sopelana, inicio de la ruta
+
+
 // Coordenadas aproximadas (inicio en Sopelana, fin en Plentzia)
 $latitudeStart  = 43.3845;   // Sopelana
 $longitudeStart = -2.9908;

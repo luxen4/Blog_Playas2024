@@ -78,7 +78,7 @@
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/cabo-ogono-ibarrangelu-bizkaia-1.jpg"
          alt="Vista panorámica del Cabo Ogoño sobre el mar Cantábrico"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/cabo-ogono-ibarrangelu-bizkaia-2.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/sendero-hacia-cabo-de-ogono-ibarrangelu.jpg"
          alt="Sendero hacia el Cabo Ogoño en Ibarrangelu"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
   </figure>
@@ -97,6 +97,46 @@
       allowfullscreen>
     </iframe>
   </div>
+
+
+
+
+<?php
+$mapa = [
+    "titulo" => "🗺️ Localización",
+    "id" => "map-cabo-ogono",
+    "latitud" => 43.4171201,  // Coordenadas aproximadas del Cabo de Ogoño
+    "longitud" => -2.660786,
+    "zoom" => 16,
+    "popup" => "<strong>Cabo de Ogoño - Ibarrangelu</strong>"
+];
+?>
+
+<!-- Leaflet CSS/JS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Mapa con Leaflet -->
+<section class="mb-12">
+    <h2 class="text-2xl font-bold text-amber-700 mb-4"><?= $mapa['titulo'] ?></h2>
+    <div id="<?= $mapa['id'] ?>" class="w-full h-80 rounded-xl shadow"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var map = L.map('<?= $mapa['id'] ?>').setView([<?= $mapa['latitud'] ?>, <?= $mapa['longitud'] ?>], <?= $mapa['zoom'] ?>);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([<?= $mapa['latitud'] ?>, <?= $mapa['longitud'] ?>]).addTo(map)
+          .bindPopup('<?= $mapa['popup'] ?>')
+          .openPopup();
+      });
+    </script>
+</section>
+
+
+
 
   <section class="mb-6 text-gray-700">
     <h2 class="text-xl font-semibold text-blue-700 mb-2">📞 Información de contacto</h2>

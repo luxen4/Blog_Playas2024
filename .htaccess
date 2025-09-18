@@ -79,10 +79,10 @@
     RewriteRule ^bakio-bizkaia$ localidades/bizkaia/bakio/index.php [L]
 
 
-    RewriteRule ^lugares-interes/playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/playa-de-bakio-bakio/index.php [L]
-    RewriteRule ^lugares-interes/san-juan-de-gaztelugatxe-bakio$ localidades/bizkaia/bakio/lugares-interes/san-juan-de-gaztelugatxe-bakio/index.php [L]
-    RewriteRule ^lugares-interes/monte-serantes-bakio$ localidades/bizkaia/bakio/lugares-interes/monte-serantes-bakio/index.php [L]
-    RewriteRule ^lugares-interes/surf-en-la-playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/surf-en-la-playa-de-bakio-bakio/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/playa-de-bakio/index.php [L]
+    RewriteRule ^lugares-interes/san-juan-de-gaztelugatxe-bakio$ localidades/bizkaia/bakio/lugares-interes/san-juan-de-gaztelugatxe/index.php [L]
+    RewriteRule ^lugares-interes/monte-serantes-bakio$ localidades/bizkaia/bakio/lugares-interes/monte-serantes/index.php [L]
+    RewriteRule ^lugares-interes/surf-en-la-playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/surf-en-la-playa-de-bakio/index.php [L]
   
 
     #RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
@@ -121,10 +121,10 @@
     #Ibarrangelu
     RewriteRule ^ibarrangelu-bizkaia$ localidades/bizkaia/ibarrangelu/index.php [L]
 
-    RewriteRule ^lugares-interes/playa-de-laga-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/playa-de-laga-ibarrangelu/index.php [L]
-    RewriteRule ^lugares-interes/cabo-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/cabo-ogono-ibarrangelu/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-laga-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/ruta-senderista-laga-ogono-ibarrangelu/index.php [L]
-    RewriteRule ^lugares-interes/centro-interpretacion-urdaibai-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/centro-interpretacion-urdaibai-ibarrangelu/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-laga-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/playa-de-laga/index.php [L]
+    RewriteRule ^lugares-interes/cabo-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/cabo-ogono/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-laga-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/ruta-senderista-laga-ogono/index.php [L]
+    RewriteRule ^lugares-interes/centro-interpretacion-urdaibai-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/centro-interpretacion-urdaibai/index.php [L]
 
 
     # Muskiz

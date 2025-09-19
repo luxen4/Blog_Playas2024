@@ -1,3 +1,11 @@
+-Index:
+    -Rutas amigables de las localidades
+    
+
+Páginas Localidad
+    -Lugares interés de cada localidad
+        Imagenes de Presentación
+        Rutas amigables
 
 
 Lugares de interés, todos con imágenes y código uniforme y simplificado
@@ -8,8 +16,7 @@ Tareas Pendientes
         -Ajo-
             Objetivo: Navegabilidad desde el home hasta los lugares-interes. Ajo con enlace directo
 
-            -Index:
-                -Ruta amigable
+            
                 -Entrada desde la Web-Playa OK
                 -Breadcrums como en Castro-Urdiales
                 -Web simple de momento

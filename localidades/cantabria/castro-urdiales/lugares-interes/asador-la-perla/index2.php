@@ -26,7 +26,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
   <title>Asador La Perla - Castro-Urdiales, Cantabria</title>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/asador-la-perla-castro-urdiales/schemas/schemas-head.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/asador-la-perla/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -139,6 +139,6 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
     });
   </script>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/asador-la-perla-castro-urdiales/schemas/schemas-body.php"; ?>
+  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/asador-la-perla/schemas/schemas-body.php"; ?>
 </body>
 </html>

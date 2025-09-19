@@ -36,7 +36,7 @@
 
     <section class="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
       <figure>
-        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/asador-la-perla.jpg" alt="Fachada del Asador La Perla" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
+        <img src="<?= PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG ?>/fachada-asador-la-perla.jpg" alt="Fachada del Asador La Perla" class="rounded-lg shadow-sm object-cover w-full h-64" loading="lazy">
         <figcaption class="text-sm text-center text-gray-500 mt-1">Fachada del restaurante</figcaption>
       </figure>
       <figure>
@@ -62,11 +62,11 @@
       <p>Su excelente ubicación, junto con una propuesta culinaria de calidad, lo convierten en uno de los <strong>mejores restaurantes de Castro Urdiales</strong> para disfrutar de la cocina cántabra con vistas al mar.</p>
     </section>
 
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-google-maps.php'; ?>
 
 
     <div class="text-center mt-8">
-      <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-lugares-interes.php'; ?>
     </div>
   </article>
 </main>

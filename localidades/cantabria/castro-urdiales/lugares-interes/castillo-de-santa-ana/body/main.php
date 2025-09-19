@@ -64,11 +64,11 @@
       <p>El <strong>Castillo de Santa Ana</strong> es una visita imprescindible para los amantes de la historia, la arquitectura medieval y los paisajes costeros del norte de España.</p>
     </section>
 
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-google-maps.php'; ?>
 
 
     <div class="text-center mt-8">
-      <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-lugares-interes.php'; ?>
     </div>
   </article>
 </main>

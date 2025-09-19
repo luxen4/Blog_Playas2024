@@ -15,27 +15,27 @@
     
 
     # Castro-Urdales
-    RewriteRule ^lugares-interes/playa-de-ostende-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-ostende-castro-urdiales/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-brazomar-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-brazomar-castro-urdiales/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-el-pedregal-castro-urdiales/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-ostende-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-ostende/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-brazomar-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-brazomar/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-el-pedregal/index.php [L]
 
     RewriteRule ^ruta-costera-ostende$         localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
-    RewriteRule ^lugares-interes/mirador-de-cotolino-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/mirador-de-cotolino-castro-urdiales/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-cotolino-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/mirador-de-cotolino/index.php [L]
     
 
     RewriteRule ^castro-urdiales-cantabria$     localidades/cantabria/castro-urdiales/index.php [L]
-    RewriteRule ^lugares-interes/asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla-castro-urdiales/index.php [L]
-    RewriteRule ^lugares-interes/castillo-de-santa-ana-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/castillo-de-santa-ana-castro-urdiales/index.php [L]    
-    RewriteRule ^lugares-interes/club-nautico-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/club-nautico-castro-urdiales/index.php [L]    
-    RewriteRule ^lugares-interes/playa-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-el-pedregal-castro-urdiales/index.php [L]    
-    RewriteRule ^lugares.interes/iglesia-santa-maria-de-la-asuncion-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/iglesia-santa-maria-de-la-asuncion-castro-urdiales/index.php [L]    
-    RewriteRule ^lugares-interes/palacio-de-ocharan-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/palacio-de-ocharan-castro-urdiales/index.php [L]    
-    RewriteRule ^lugares-interes/parque-amestoy-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/parque-amestoy-castro-urdiales/index.php [L]  
-    RewriteRule ^lugares-interes/paseo-maritimo-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/paseo-maritimo-castro-urdiales/index.php [L]
-    RewriteRule ^lugares-interes/plaza-del-ayuntamiento-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/plaza-del-ayuntamiento-castro-urdiales/index.php [L]
-    RewriteRule ^lugares-interes/puente-medieval-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puente-medieval-castro-urdiales/index.php [L]
-    RewriteRule ^lugares-interes/puerto-pesquero-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puerto-pesquero-castro-urdiales/index.php [L]
+    RewriteRule ^lugares-interes/asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla/index.php [L]
+    RewriteRule ^lugares-interes/castillo-de-santa-ana-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/castillo-de-santa-ana/index.php [L]    
+    RewriteRule ^lugares-interes/club-nautico-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/club-nautico/index.php [L]    
+    RewriteRule ^lugares-interes/playa-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-el-pedregal/index.php [L]    
+    RewriteRule ^lugares.interes/iglesia-santa-maria-de-la-asuncion-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/iglesia-santa-maria-de-la-asuncion/index.php [L]    
+    RewriteRule ^lugares-interes/palacio-de-ocharan-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/palacio-de-ocharan/index.php [L]    
+    RewriteRule ^lugares-interes/parque-amestoy-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/parque-amestoy/index.php [L]  
+    RewriteRule ^lugares-interes/paseo-maritimo-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/paseo-maritimo/index.php [L]
+    RewriteRule ^lugares-interes/plaza-del-ayuntamiento-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/plaza-del-ayuntamiento/index.php [L]
+    RewriteRule ^lugares-interes/puente-medieval-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puente-medieval/index.php [L]
+    RewriteRule ^lugares-interes/puerto-pesquero-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puerto-pesquero/index.php [L]
     
     # Sonabia
     RewriteRule ^sonabia-cantabria$             localidades/cantabria/sonabia/index.php [L]

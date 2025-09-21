@@ -103,11 +103,34 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
       </div>
     </section>
 
-    <!-- Módulo de meteorología simple -->
-    <section class="my-10">
-      <h2 class="text-xl font-semibold text-emerald-700 mb-4">Tiempo en Ajo (OpenWeather)</h2>
-      <iframe src="https://forecast7.com/es/43d51n3d63/ajo/" frameborder="0" width="100%" height="250" class="rounded-md shadow"></iframe>
-    </section>
+<section class="my-10">
+  <h2 class="text-xl font-semibold text-emerald-700 mb-4">Tiempo en Ajo (OpenWeather)</h2>
+  <iframe 
+    src="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=43.4955&lon=-3.5976&zoom=10" 
+    frameborder="0" 
+    width="100%" 
+    height="500" 
+    class="rounded-md shadow"
+    loading="lazy">
+  </iframe>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Espera 1 segundo para asegurar que el iframe y posibles banners estén cargados
+    setTimeout(function() {
+      const banners = document.querySelectorAll('.promo-banner');
+      banners.forEach(banner => {
+        banner.style.display = 'none';
+      });
+    }, 1000);
+  });
+</script>
+
+
+
+
+
 
     <!-- Enlaces oficiales -->
     <section class="mt-10">

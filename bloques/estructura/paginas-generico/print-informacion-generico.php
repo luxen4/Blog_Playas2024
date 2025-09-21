@@ -1,10 +1,14 @@
-<section class="mb-10">
-  <h2 class="text-2xl font-bold text-green-800 mb-4"><?= $info["titulo"] ?></h2>
+<!-- Información -->
+<section class="mb-12">
+  <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $info['titulo'] ?></h2>
   <div class="grid md:grid-cols-2 gap-6">
-    <?php foreach ($info["items"] as $item): ?>
-      <div class="bg-white p-4 rounded-lg shadow-md border-l-4 border-green-600">
-        <h3 class="font-semibold text-green-700 mb-2"><?= $item["titulo"] ?></h3>
-        <p><?= $item["descripcion"] ?></p>
+    <?php foreach($info['items'] as $item): ?>
+      <div class="bg-white rounded-xl p-3 shadow border-l-4 border-emerald-600 flex items-start gap-3 transform hover:scale-105 transition duration-300 ease-in-out">
+        <span class="text-2xl"><?= $item['icono'] ?></span>
+        <div>
+          <h3 class="font-semibold text-emerald-700 mb-1"><?= $item['titulo'] ?></h3>
+          <p><?= $item['descripcion'] ?></p>
+        </div>
       </div>
     <?php endforeach; ?>
   </div>

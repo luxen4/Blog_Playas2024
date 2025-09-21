@@ -1,15 +1,19 @@
+
+
+Páginas:
 -Index:
     -Rutas amigables de las localidades
     
-
-Páginas Localidad
+-Localidad:
     -Lugares interés de cada localidad
         Imagenes de Presentación
         Rutas amigables
 
-
-Lugares de interés, todos con imágenes y código uniforme y simplificado
+-Lugar de interés: 
+    Todos con imágenes y código uniforme y simplificado
     Ajo
+
+
 
 Tareas Pendientes
     Cantabria

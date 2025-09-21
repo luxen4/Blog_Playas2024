@@ -32,7 +32,7 @@ $lugares_interes = [
   [
     'nombre' => 'Acantilados de Cabo de Ajo',
     'slug'   => 'acantilados-de-cabo-de-ajo',
-    'imagen' => 'acantilados-de-cabo-de-ajo.jpg',
+    'imagen' => 'acantilados-de-cabo-de-ajo-1.jpg',
     'alt'    => 'Acantilados de Cabo de Ajo',
     'fuente' => 'yendoporlavida.com',
     'web_imagen' => 'https://yendoporlavida.com/ruta-faro-de-ajo-la-ojerada/',
@@ -41,7 +41,7 @@ $lugares_interes = [
   [
     'nombre' => 'Ruta de la Costa Oriental',
     'slug'   => 'ruta-de-la-costa-oriental',
-    'imagen' => 'ruta-de-la-costa-oriental.jpg',
+    'imagen' => 'mapa-ruta-costera-ajo.jpg',
     'alt'    => 'Ruta de la Costa Oriental',
     'fuente' => 'lossaltapraos.blogspot.com',
     'web_imagen' => 'https://lossaltapraos.blogspot.com/2019/05/costa-de-ajo-circular.html',

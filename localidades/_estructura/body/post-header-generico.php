@@ -1,8 +1,8 @@
 <div class="container-xxl py-4">
   <div class="row">
     <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
-      <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/main-generico.php'; ?>
-      <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY . '/main.php'; ?>
+      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/main-generico.php'; ?>
+      <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY . '/main.php'; ?>
     </div>
 
     <div class="col-xl-3 col-lg-4 col-md-4 d-none d-md-block sidebar-anuncios">

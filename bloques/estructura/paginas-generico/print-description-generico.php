@@ -13,25 +13,28 @@
        alt="<?= $img["alt"] ?>" 
        class="w-full h-auto object-contain transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl"
        loading="lazy">
-  <?php if (isset($img["pie"])): ?>
-    <figcaption class="text-gray-500 text-xs mt-1">
-      <?= $img["pie"] ?><br>
-      📷 Fuente: 
-      <a href="<?= $img['web_imagen']; ?>" class="underline hover:text-blue-600" target="_blank" rel="noopener noreferrer">
-        <?= $img['fuente']; ?>
-      </a>
-    </figcaption>
+  <?php if (isset($img["caption"])): ?>
+        <figcaption class="mt-2 text-sm text-gray-600 text-center">
+          <?= $img['caption'] ?> <br>
+          <span class="text-xs">📷 Fuente: 
+            <?php if($img['fuente']): ?>
+              <a href="<?= $img['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">
+                <?= $img['fuente_texto'] ?>
+              </a>
+            <?php else: ?>
+              <?= $img['fuente_texto'] ?>
+            <?php endif; ?>
+          </span>
+        </figcaption>
   <?php endif; ?>
 </figure>
 
-
-
-
-
-
     <?php endforeach; ?>
-  </div><?php if(isset($intro['video'])): ?>
-  <div class="my-6">
+  </div>
+  
+  
+<?php if(isset($intro['video'])): ?>
+<div class="my-6">
     <iframe class="w-full aspect-video rounded-md shadow" 
             src="<?= $intro['video']['url'] ?>" 
             title="<?= $intro['video']['titulo'] ?>" 
@@ -39,7 +42,9 @@
             allowfullscreen>
     </iframe>
   </div>
-<?php endif; ?>
+<?php endif; ?>  
+
+
 
 
 </section>

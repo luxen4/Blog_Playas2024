@@ -5,10 +5,10 @@ $lugares_interes = [
   [
     'nombre' => 'Asador La Perla',
     'slug'   => 'asador-la-perla',
-    'imagen' => 'asador-la-perla-castro-urdiales-cantabria-1.jpg',
+    'imagen' => 'vista-exterior-asador-la-perla-castro-urdiales.jpg',
     'alt'    => 'Asador La Perla en Castro Urdiales',
-    'fuente' => 'asadorlaperla.com',
-    'web_imagen' => 'https://www.asadorlaperla.com',
+    'fuente' => 'gastroranking.es',
+    'web_imagen' => 'https://gastroranking.es/r/asador-perla-2_290711/',
     'desc'   => 'Restaurante tradicional especializado en pescados y mariscos frescos con vistas al mar.',
   ],
   [

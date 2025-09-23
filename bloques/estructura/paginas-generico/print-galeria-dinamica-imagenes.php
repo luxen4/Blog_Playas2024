@@ -1,6 +1,6 @@
 <!-- Galería dinámica imágenes-->
 <section aria-labelledby="galeria" class="mb-12">
-  <h2 id="galeria" class="text-2xl font-bold text-emerald-700 mb-4">📸 Galería de la Playa</h2>
+  <h2 id="galeria" class="text-2xl font-bold text-emerald-700 mb-4">📸 Galería de Imágenes</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
     <?php foreach($galeria_imagenes as $img): ?>

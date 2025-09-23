@@ -3,7 +3,28 @@
 
   <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY_DATA . '/data-header.php'; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-header-generico.php'; ?>
-
+  <?php $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
+  <?php /*
+  <section aria-label="Publicidad relacionada" class="mb-8">
+    <div class="border border-gray-200 rounded shadow-sm bg-white p-4">
+      <div class="text-center">
+        <?php require $publicidad; ?>
+      </div>
+    </div>
+  </section> 
+  
+  
+    <?php $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_camisas_hawaianas_man.php'; ?>
+    <section aria-label="Publicidad relacionada" class="mb-8">
+    <div class="border border-gray-200 rounded shadow-sm bg-white p-4">
+      <div class="text-center">
+        <?php require $publicidad; ?>
+      </div>
+    </div>
+  </section>*/ ?>
+  
+  
+  
   <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY_DATA . '/data-description.php'; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-description-generico.php'; ?>
 

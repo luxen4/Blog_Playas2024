@@ -69,7 +69,7 @@
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME',           PATH_RAIZ_BLOQUES. '/estructura/_home'); ?>
 
 
-
+<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINA_INDEX',               PATH_RAIZ_BLOQUES. '/estructura/pagina-index-generico'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO',           PATH_RAIZ_BLOQUES. '/estructura/paginas-generico'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_BODY',      PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/body'); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD',      PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head"); ?>
@@ -88,6 +88,8 @@
 
 <?php define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
+<?php define('PATH_RAIZ_LOCALIDADES_CARPETA_DATA',                           PATH_RAIZ_LOCALIDADES_CARPETA. "/data"); ?>
+
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
 
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes/{$lugar_minuscula}/body"); ?>

@@ -25,8 +25,23 @@
 </figure>
 
 
+
+
+
+
     <?php endforeach; ?>
+  </div><?php if(isset($intro['video'])): ?>
+  <div class="my-6">
+    <iframe class="w-full aspect-video rounded-md shadow" 
+            src="<?= $intro['video']['url'] ?>" 
+            title="<?= $intro['video']['titulo'] ?>" 
+            frameborder="0" 
+            allowfullscreen>
+    </iframe>
   </div>
+<?php endif; ?>
+
+
 </section>
 
 

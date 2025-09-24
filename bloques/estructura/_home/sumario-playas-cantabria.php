@@ -39,20 +39,20 @@ $localidades = [
         es ideal para disfrutar del sol y actividades acuáticas. Rodeada de acantilados y zonas verdes, destaca por sus servicios y ambiente familiar.'
     ]
   ],
-  'Sonabia' => [
-    [
-      'nombre' => 'Playa de Valdearenas',
-      'archivo' => 'playa-de-valdearenas-sonabia',
-      'presentacion' => '🌊 La Playa de Valdearenas, en el extremo oriental de Cantabria, es una playa virgen de arena fina rodeada de acantilados.
-        Perfecta para quienes buscan tranquilidad y un paisaje natural impresionante.'
-    ]
-  ],
   'Santoña' => [
     [
       'nombre' => 'Playa de Berria',
       'archivo' => 'playa-de-berria-santona',
       'presentacion' => '🌊 La Playa de Berria, ubicada en Santoña, es una extensa franja de arena dorada entre el monte Brusco y el Buciero.
         Ideal para surf y paseos, rodeada de marismas protegidas y con servicios completos.'
+    ]
+    ],
+  'Sonabia' => [
+    [
+      'nombre' => 'Playa de Valdearenas',
+      'archivo' => 'playa-de-valdearenas-sonabia',
+      'presentacion' => '🌊 La Playa de Valdearenas, en el extremo oriental de Cantabria, es una playa virgen de arena fina rodeada de acantilados.
+        Perfecta para quienes buscan tranquilidad y un paisaje natural impresionante.'
     ]
   ]
 ];

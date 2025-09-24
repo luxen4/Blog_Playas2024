@@ -5,7 +5,7 @@ $lugares_interes = [
   [
     'nombre' => 'Faro de Cabo de Ajo',
     'slug'   => 'faro-de-cabo-de-ajo',
-    'imagen' => 'faro-de-cabo-de-ajo.jpg',
+    'imagen' => 'faro-cabo-ajo-frente-mar.jpg',
     'alt'    => 'Faro de Cabo de Ajo',
     'fuente' => 'farodelcaballo.es',
     'web_imagen' => 'https://farodelcaballo.es/faro-de-ajo-como-llegar/',

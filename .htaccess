@@ -53,11 +53,11 @@
     RewriteRule ^lugares-interes/santona-cantabria$ localidades/cantabria/santona/index.php [L]
 
 
-    RewriteRule ^lugares-interes/playa-de-berria-santona$ localidades/cantabria/santona/lugares-interes/playa-de-berria-santona/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-berria-santona$ localidades/cantabria/santona/lugares-interes/playa-de-berria/index.php [L]
 
-    RewriteRule ^lugares-interes/monte-buciero-santona$     localidades/cantabria/santona/lugares-interes/monte-buciero-santona/index.php [L]
-    RewriteRule ^lugares-interes/faro-del-caballo-santona$  localidades/cantabria/santona/lugares-interes/faro-del-caballo-santona/index.php [L]
-    RewriteRule ^lugares-interes/puerto-de-santona-santona$         localidades/cantabria/santona/lugares-interes/puerto-de-santona-santona/index.php [L]
+    RewriteRule ^lugares-interes/monte-buciero-santona$     localidades/cantabria/santona/lugares-interes/monte-buciero/index.php [L]
+    RewriteRule ^lugares-interes/faro-del-caballo-santona$  localidades/cantabria/santona/lugares-interes/faro-del-caballo/index.php [L]
+    RewriteRule ^lugares-interes/puerto-de-santona-santona$         localidades/cantabria/santona/lugares-interes/puerto-de-santona/index.php [L]
 
 
 

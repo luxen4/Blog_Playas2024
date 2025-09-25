@@ -1,20 +1,3 @@
-<?php  
-$localidad = 'Sonabia';     
-$localidad_minuscula = 'sonabia'; 
-$lugar_minuscula = 'pena-candina';
-$region = 'Cantabria';  
-$region_minuscula = strtolower(str_replace(' ', '-', $region));   
-$country = 'España';    
-$country_minuscula = strtolower(str_replace(' ', '-', $country)); 
-?>
-
-<?php define('TITLE', "Peña Candina – Sonabia, Cantabria"); ?>
-<?php define('DESCRIPTION', "Descubre la Peña Candina en Sonabia, Cantabria: impresionantes acantilados, rutas de senderismo y el hogar del mayor buitre leonado marino de Europa."); ?>
-<?php define('COLOR_PAGE', "green"); ?>
-<?php define('LUGAR', "Peña Candina"); ?>
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
-<?php define('KEYWORDS_CONTENT', 'Peña Candina Sonabia, senderismo Cantabria, acantilados Cantabria, buitre leonado marino') ?>
-
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/carga-variables-generico-lugares-interes.php"; ?>
 
 <!DOCTYPE html>

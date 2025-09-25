@@ -4,12 +4,10 @@
     <a
         <?php /* Para amigables URLs */
         if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-        href="/Blog_Playas2025/lugares-interes/<?php echo $lugar['slug'] . '-' . $localidad_minuscula; ?>" <?php
-                                                                                                        } else { ?>
-        href=<?php echo PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD . "/lugares-interes/{$lugar['slug']}-{$localidad_minuscula}/index.php";
-                                                                                                        } ?>
-        <?php echo $localidad; ?>
-
-        class="btn btn-success btn-sm px-3 py-2 shadow-sm"> Explorar &rarr;
+            href="/Blog_Playas2025/lugares-interes/<?php echo $lugar['slug'] . '-' . $localidad_minuscula; ?>" <?php
+        } else { ?>
+            href=<?php echo PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD . "/lugares-interes/{$lugar['slug']}/index.php";
+        } ?>
+        class="btn btn-success btn-sm px-3 py-2 shadow-sm">Explorar &rarr;
     </a>
 </div>

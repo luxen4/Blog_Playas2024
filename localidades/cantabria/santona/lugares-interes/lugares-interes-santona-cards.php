@@ -14,7 +14,7 @@
     [
       'nombre' => 'Monte Buciero',
       'slug'   => 'monte-buciero',
-      'imagen' => 'monte-buciero-santona-cantabria-1.jpg',
+      'imagen' => 'monte-buciero-santona-cantabria.jpg',
       'alt'    => 'Monte Buciero',
       'fuente' => 'cantabriarural.com',
       'web_imagen' => 'https://www.cantabriarural.com/lugares-de-interes/ruta-del-monte-buciero.html',

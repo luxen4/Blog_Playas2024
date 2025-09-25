@@ -40,10 +40,10 @@
     # Sonabia
     RewriteRule ^sonabia-cantabria$             localidades/cantabria/sonabia/index.php [L]
 
-    RewriteRule ^lugares-interes/playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas-sonabia/index.php [L]
-    RewriteRule ^lugares-interes/pena-candina-sonabia$          localidades/cantabria/sonabia/lugares-interes/pena-candina-sonabia/index.php [L]
-    RewriteRule ^lugares-interes/monte-candina-sonabia$         localidades/cantabria/sonabia/lugares-interes/monte-candina-sonabia/index.php [L]
-    RewriteRule ^lugares-interes/ojo-del-diablo-sonabia$         localidades/cantabria/sonabia/lugares-interes/ojo-del-diablo-sonabia/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas/index.php [L]
+    RewriteRule ^lugares-interes/pena-candina-sonabia$          localidades/cantabria/sonabia/lugares-interes/pena-candina/index.php [L]
+    RewriteRule ^lugares-interes/monte-candina-sonabia$         localidades/cantabria/sonabia/lugares-interes/monte-candina/index.php [L]
+    RewriteRule ^lugares-interes/ojo-del-diablo-sonabia$        localidades/cantabria/sonabia/lugares-interes/ojo-del-diablo/index.php [L]
     
 
 

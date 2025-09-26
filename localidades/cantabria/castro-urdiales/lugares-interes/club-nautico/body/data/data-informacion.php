@@ -19,18 +19,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/club-nautico-castro-urdiales-1.jpg",
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/club-nautico-castro-urdiales-cantabria-1.jpg",
         "alt" => "Vista exterior del Club Náutico de Castro-Urdiales",
         "caption" => "Club Náutico de Castro-Urdiales",
-        "fuente" => "https://www.nauticocastrourdiales.com/",
-        "fuente_texto" => "nauticocastrourdiales.com"
-    ],
-    [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/club-nautico-castro-urdiales-2.jpg",
-        "alt" => "Puerto deportivo junto al Club Náutico de Castro-Urdiales",
-        "caption" => "Puerto deportivo del Club Náutico",
         "fuente" => "",
         "fuente_texto" => ""
+    ],
+    [
+        "src" => "https://static.eldiario.es/clip/93c33959-870d-4d5e-ac3d-e1dd71e6c431_16-9-aspect-ratio_default_0.jpg",
+        "alt" => "Puerto deportivo junto al Club Náutico de Castro-Urdiales",
+        "caption" => "Puerto deportivo del Club Náutico",
+        "fuente" => "https://www.eldiario.es/cantabria/primera-pagina/club-nautico-castro-urdiales-privado_132_1641862.html",
+        "fuente_texto" => "eldiario.es"
     ],
   ]
 ];
@@ -40,25 +40,32 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/club-nautico-castro-urdiales-1.jpg",
+        "src" => "https://www.muchocastro.com/asset/thumbnail,992,558,center,center/media/muchocastro/images/2023/11/11/2023111111303429656.jpg",
         "alt" => "Vista exterior del Club Náutico de Castro-Urdiales",
         "caption" => "Club Náutico de Castro-Urdiales",
-        "fuente" => "https://www.nauticocastrourdiales.com/",
-        "fuente_texto" => "nauticocastrourdiales.com"
+        "fuente" => "https://www.muchocastro.com/articulo/reportajes/real-club-nautico-castro-urdiales-ofrece-concesion-restaurante/20231111113751071742.html",
+        "fuente_texto" => "muchocastro.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/club-nautico-castro-urdiales-2.jpg",
+        "src" => "https://www.muchocastro.com/asset/thumbnail,992,558,center,center/media/muchocastro/images/2023/11/11/2023111111303496935.jpg",
+        "alt" => "Detalle del edificio del Club Náutico junto al puerto",
+        "caption" => "Interior del comedor del Club Náutico",
+        "fuente" => "https://www.muchocastro.com/articulo/reportajes/real-club-nautico-castro-urdiales-ofrece-concesion-restaurante/20231111113751071742.html",
+        "fuente_texto" => "muchocastro.com"
+    ],
+    [
+        "src" => "https://patrimonio.coacan.es/wp-content/uploads/2018/03/17.CLUB-NA%C3%9ATICO-CASTRO-1100x543.jpg",
         "alt" => "Detalle del edificio del Club Náutico junto al puerto",
         "caption" => "Edificio del Club Náutico",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://patrimonio.coacan.es/club-nautico/",
+        "fuente_texto" => "patrimonio.coacan.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/club-nautico-castro-urdiales-3.jpg",
+        "src" => "https://vivecamino.com/img/gal/puerto-pesquero-de-castro-urdiales-wikimediamanuel-m-v_10498_p.jpg",
         "alt" => "Barcos amarrados en el puerto deportivo del Club Náutico de Castro-Urdiales",
         "caption" => "Puerto deportivo del Club Náutico",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://vivecamino.com/castro-urdiales/puerto-pesquero-de-castro-urdiales-3522/",
+        "fuente_texto" => "vivecamino.com"
     ]
 ];
 ?>

@@ -19,18 +19,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/santa-maria-asuncion-castro-1.jpg",
+        "src" => "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguRFU5vOJ0zuZBGywsuUFzySd9MwgyEndKgLmymfzpjCHX8Y2pvegiBcz-Ik7WxVzAQJIFnUN2SgfveTL8b-9SnLn22DjKoLVNxHKz_ll9wuJlJoM4bzCEPryt3bU7STlU-jWRatdhExY/s640/Iglesia+de+Santa+Maria+de+la+Asuncion+3.JPG",
         "alt" => "Vista de la Iglesia de Santa María de la Asunción en Castro-Urdiales",
         "caption" => "Iglesia de Santa María de la Asunción",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://loqueseveyoye.blogspot.com/2011/10/iglesia-de-santa-maria-de-la-asuncion.html",
+        "fuente_texto" => "loqueseveyoye.blogspot.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/santa-maria-asuncion-castro-2.jpg",
+        "src" => "https://eolapaz.com/wp-content/uploads/2021/09/arte-arq-asuncion-castro2.jpg",
         "alt" => "Interior gótico de la Iglesia de Santa María en Castro-Urdiales",
         "caption" => "Interior de la Iglesia de Santa María",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://eolapaz.com/ntra-sra-de-la-asuncion-de-castro-urdiales/",
+        "fuente_texto" => "eolapaz.com"
     ],
   ]
 ];
@@ -40,25 +40,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/iglesia-santa-maria-de-la-asuncion-castro-urdiales-cantabria-1.jpg",
+        "src" => "https://www.cantabriarural.com/wp-content/uploads/2016/09/Iglesia-de-Santa-Maria-de-la-Asuncion-Castro-Urdiales-B-800x533.jpg",
         "alt" => "Fachada de la Iglesia de Santa María de Castro-Urdiales",
         "caption" => "Fachada principal de la iglesia",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.cantabriarural.com/lugares-con-encanto/iglesia-de-santa-maria-de-la-asuncion.html",
+        "fuente_texto" => "cantabriarural.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/iglesia-santa-maria-de-la-asuncion-castro-urdiales-cantabria-2.jpg",
+        "src" => "https://d2exd72xrrp1s7.cloudfront.net/www/000/1k3/1n/1nku6ytdpnraa3slvwte0mj6a36p4wqmn-uhi9283114/0?width=768&height=576&crop=true",
         "alt" => "Interior gótico de la iglesia de Santa María en Castro-Urdiales",
         "caption" => "Interior de la iglesia",
-        "fuente" => "",
-        "fuente_texto" => ""
-    ],
+        "fuente" => "https://www.komoot.com/es-es/highlight/1051258",
+        "fuente_texto" => "komoot.com"
+    ], /* https://losviajesdemargalliver.com/visitar-castro-urdiales-en-un-dia-cantabria/ */
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/iglesia-santa-maria-de-la-asuncion-castro-urdiales-cantabria-3.jpg",
+        "src" => "https://imagenes.20minutos.es/files/image_990_556/uploads/imagenes/2025/03/14/fotografia-castro-urdiales.jpeg",
         "alt" => "Vista del conjunto histórico con la Iglesia de Santa María y el puerto",
         "caption" => "Conjunto histórico y vistas al mar",
-        "fuente" => "",
-        "fuente_texto" => "FALTA PONER BIEN TODO ESTO"
+        "fuente" => "https://www.20minutos.es/viajes/destinos/cantabria-costa-castro-urdiales-iglesia-gotica-patrimonio-mundial-5691016/",
+        "fuente_texto" => "20minutos.es"
     ]
 ];
 ?>

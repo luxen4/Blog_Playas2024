@@ -19,19 +19,25 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/palacio-ocharan-castro-1.jpg",
+        "src" => "https://www.muchocastro.com/asset/thumbnail,992,558,center,center/media/muchocastro/images/2016/12/02/4ad1fcd66570342fe12cfa04d051e97c.jpg",
         "alt" => "Vista del Palacio de Ocharan en Castro-Urdiales",
         "caption" => "Palacio de Ocharan",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.muchocastro.com/articulo/sociedad/visitas-guiadas-al-palacio-y-castillo-de-ocharan-para-los-dias-8-y-29-de-diciembre/20161202131234056740.html#google_vignette",
+        "fuente_texto" => "muchocastro.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/palacio-ocharan-castro-2.jpg",
+        "src" => "https://www.castro-urdiales.net/recursosWEB/publicaciones/Palacio-castillo-observatorio-y-jardines-ocharan/ocharanpri.jpg",
         "alt" => "Detalle de las torres del Palacio de Ocharan en Castro-Urdiales",
         "caption" => "Detalle arquitectónico del Palacio",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://turismo.castro-urdiales.net/turcastro/bienes-interes-cultural/Palacio-castillo-observatorio-y-jardines-ocharan",
+        "fuente_texto" => "turismo.castro-urdiales.net"
     ],
+
+
+  ],
+    "video" => [
+      "url" => "https://www.youtube.com/embed/cnlcl7yH4fc", // reemplaza con ID real si existe
+      "titulo" => "Video del Palacio Ocharan en Castro - Urdiales"
   ]
 ];
 ?>
@@ -40,25 +46,18 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/palacio-ocharan-castro-1.jpg",
+        "src" => "https://i0.wp.com/www.rutasporespana.es/blog/wp-content/uploads/2019/05/Castillo-Ocharan.jpg?fit=675%2C453&ssl=1",
         "alt" => "Vista general del Palacio de Ocharan",
         "caption" => "Palacio de Ocharan, símbolo arquitectónico de Castro-Urdiales",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
-    ],
+        "fuente" => "https://www.rutasporespana.es/blog/ruta-por-cantabria-que-ver-en-castro-urdiales/castillo-ocharan/",
+        "fuente_texto" => "rutasporespana.es"
+    ], /* Blog */
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/palacio-ocharan-castro-2.jpg",
-        "alt" => "Torres y detalles arquitectónicos del Palacio de Ocharan",
-        "caption" => "Detalle de la arquitectura del Palacio",
-        "fuente" => "",
-        "fuente_texto" => ""
-    ],
-    [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/palacio-ocharan-castro-3.jpg",
+        "src" => "https://web.unican.es/campuscultural/huellas/PublishingImages/CASTRO/RECORRIDO/2t%20castillo%20de%20Ocharan_retocada.jpg",
         "alt" => "Jardines y murallas que rodean el Palacio de Ocharan",
         "caption" => "Entorno ajardinado del Palacio",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://web.unican.es/",
+        "fuente_texto" => "viajeroscallejeros.com"
     ]
 ];
 ?>

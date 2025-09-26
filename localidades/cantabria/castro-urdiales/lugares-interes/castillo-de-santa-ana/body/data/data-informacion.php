@@ -19,18 +19,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/castillo-santa-ana-castro-urdiales-1.jpg",
+        "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/6a/5c/82/castillo-faro.jpg?w=900&h=500&s=1",
         "alt" => "Vista exterior del Castillo de Santa Ana en Castro-Urdiales",
         "caption" => "Castillo de Santa Ana",
-        "fuente" => "https://www.turismocastro-urdiales.com/castillo-santa-ana",
-        "fuente_texto" => "turismocastro-urdiales.com"
+        "fuente" => "https://www.tripadvisor.es/Attraction_Review-g776898-d6996946-Reviews-Faro_y_Castillo_de_Santa_Ana-Castro_Urdiales_Cantabria.html",
+        "fuente_texto" => "tripadvisor.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/castillo-santa-ana-castro-urdiales-2.jpg",
+        "src" => "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyQqWVurp3RkgGE_vMkRtSArGEfi_gVwNT6T9AuGkcVxRMRWODoYOuaK2j6JWDPp8ev3oHscTNEmxXGBRpwxJZcsp5yWHYTG4urWtEgIEF6HayYdXOoqqfs93w1Jr4SL9Ri55wVBZb3SY/s640/Castillo+Faro+de+Santa+Ana+en+Castro+Urdiales+1.jpg",
         "alt" => "Detalle de murallas y torre del Castillo de Santa Ana",
         "caption" => "Murallas y torre del castillo",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://loqueseveyoye.blogspot.com/2011/09/castillo-faro-de-santa-ana-en-castro.html",
+        "fuente_texto" => "loqueseveyoye.blogspot.com"
     ],
   ]
 ];
@@ -39,25 +39,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/castillo-santa-ana-castro-urdiales-1.jpg",
+        "src" => "https://www.cantabriarural.com/wp-content/uploads/2017/03/Castillo-de-Santa-Ana-en-Castro-Urdiales-Cantabria-.jpg",
         "alt" => "Vista exterior del Castillo de Santa Ana en Castro-Urdiales",
         "caption" => "Castillo de Santa Ana",
-        "fuente" => "https://www.turismocastro-urdiales.com/castillo-santa-ana",
-        "fuente_texto" => "turismocastro-urdiales.com"
+        "fuente" => "https://www.cantabriarural.com/castillos/castillo-de-santa-ana-en-castro-urdiales.html",
+        "fuente_texto" => "cantabriarural.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/castillo-santa-ana-castro-urdiales-2.jpg",
+        "src" => "https://eldiariocantabria.publico.es/media/eldiariocantabria/images/2021/11/20/2021112013575794486.jpg",
         "alt" => "Detalle de murallas y torre del Castillo de Santa Ana",
         "caption" => "Murallas y torre del castillo",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://eldiariocantabria.publico.es/articulo/cantabria/castillo-santa-ana-castro-urdiales/20211120140110107079.html",
+        "fuente_texto" => "eldiariocantabria.publico.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/castillo-santa-ana-castro-urdiales-3.jpg",
+        "src" => "https://www.worldtoexplore.es/images/VR/CASTRO-URDIALES_00.jpg",
         "alt" => "Panorámica del Castillo de Santa Ana sobre el puerto de Castro-Urdiales",
         "caption" => "Castillo sobre el puerto",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://www.worldtoexplore.es/castrourdiales.php",
+        "fuente_texto" => "worldtoexplore.es"
     ]
 ];
 ?>

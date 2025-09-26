@@ -19,18 +19,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/mirador-cotolino-castro-1.jpg",
+        "src" => "https://media-cdn.tripadvisor.com/media/photo-s/14/82/d1/c0/img-0076-largejpg.jpg",
         "alt" => "Vistas al mar desde el Mirador de Cotolino en Castro-Urdiales",
         "caption" => "Vistas desde el Mirador de Cotolino",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.tripadvisor.es/ShowUserReviews-g776898-d13778696-r700575605-Parque_Cotolino-Castro_Urdiales_Cantabria.html",
+        "fuente_texto" => "tripadvisor.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/mirador-cotolino-castro-2.jpg",
+        "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/82/d1/bf/img-20180907-180040-largejpg.jpg?w=700&h=-1&s=1",
         "alt" => "Zona ajardinada del Mirador de Cotolino",
         "caption" => "Jardines y paseo en el Mirador de Cotolino",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://www.tripadvisor.es/Attraction_Review-g776898-d13778696-Reviews-Parque_Cotolino-Castro_Urdiales_Cantabria.html",
+        "fuente_texto" => "tripadvisor.es"
     ],
   ]
 ];
@@ -40,29 +40,35 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/mirador-cotolino-castro-1.jpg",
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/vista-panoramica-desde-mirador-de-cotolino.png",
         "alt" => "Vista panorámica del mar desde el Mirador de Cotolino",
         "caption" => "Panorámica del Cantábrico",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://planesparafamilias.com/parque-cotolino-en-castro-urdiales/",
+        "fuente_texto" => "planesparafamilias.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/mirador-cotolino-castro-2.jpg",
+        "src" => "https://puntacotolino.com/wp-content/uploads/2023/12/Chiringuitos-en-Cantabria-Punta-Cotolino-1000x500.jpg",
+        "alt" => "Chiringuito Punta Cotolino",
+        "caption" => "Chiringuito Punta Cotolino",
+        "fuente" => "https://puntacotolino.com/",
+        "fuente_texto" => "https://puntacotolino.com/"
+    ],
+    [
+        "src" => "https://media-cdn.tripadvisor.com/media/photo-s/12/3d/26/63/view-from-park-entrance.jpg",
         "alt" => "Mirador con bancos y jardines en Cotolino",
         "caption" => "Espacio ajardinado del mirador",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://www.tripadvisor.com/LocationPhotoDirectLink-g776898-d13778696-i305997411-Parque_Cotolino-Castro_Urdiales_Cantabria.html",
+        "fuente_texto" => "tripadvisor.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/mirador-cotolino-castro-3.jpg",
+        "src" => "https://puntacotolino.com/wp-content/uploads/2022/12/Vistas-Bahia-Castro-Urdiales-Chiringuito-Punta-Cotolino-1000x500.jpg",
         "alt" => "Atardecer desde el Mirador de Cotolino",
         "caption" => "Atardecer en Cotolino",
-        "fuente" => "",
-        "fuente_texto" => ""
-    ]
+        "fuente" => "https://puntacotolino.com/",
+        "fuente_texto" => "puntacotolino.com"
+    ] /* Se pone un faldón encima de las imágenes */
 ];
 ?>
-
 
 <?php
 $info = [

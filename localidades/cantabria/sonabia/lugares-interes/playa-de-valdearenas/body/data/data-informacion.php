@@ -15,22 +15,22 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-valdearenas-sonabia.jpg",
+        "src" => "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHw9OdC6FMUSh4AVi9yYGa4Q0Y-_Opn4oK-S20mnth9SZGubKlPVd0jvZw1lmd9SVro0A3LnaHMyBCXwYbXGx5d4L_KKyVqQZl2KZYCAnJssKbZuJIh0qD-ZcTWFnmHjQd5Lk6lwkb6sAX/s1600/Sonabia+01.jpg",
         "alt" => "Vista panorámica de la Playa de Valdearenas en Sonabia",
         "caption" => "Playa de Valdearenas",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://playasconencanto.blogspot.com/2012/06/playa-del-arenal-de-sonabia-en-liendo.html",
+        "fuente_texto" => "playasconencanto.blogspot.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/acantilados-valdearenas.jpg",
+        "src" => "https://playas-es.ams3.cdn.digitaloceanspaces.com/4062/responsive-images/1518635___medialibrary_original_2267_1517.jpg",
         "alt" => "Acantilados que rodean la Playa de Valdearenas",
         "caption" => "Acantilados y entorno natural",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://playas.es/cantabria/liendo/playa-arenal-de-sonabia-valdearenas.htm",
+        "fuente_texto" => "playas.es"
     ]
   ],
   "video" => [
-      "url" => "https://www.youtube.com/embed/YOUR_VIDEO_ID", // reemplaza con ID real si existe
+      "url" => "https://www.youtube.com/embed/6jHoyqGREj0", // reemplaza con ID real si existe
       "titulo" => "Video de la Playa de Valdearenas"
   ]
 ];
@@ -46,11 +46,11 @@ $galeria_imagenes = [
         "fuente_texto" => ".com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/olas-playa-valdearenas.jpg",
+        "src" => "https://i.ytimg.com/vi/gZrY5EjHLXo/maxresdefault.jpg",
         "alt" => "Olas del Cantábrico en la Playa de Valdearenas",
         "caption" => "Olas y mar abierto",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://www.surfmarket.org/es/olas/europa/cantabria/valdearenas?srsltid=AfmBOoq33sYTLviGfXErL0N8YoDctBfX8ud3Ph7mNzcDBIdNHzvFxIQH",
+        "fuente_texto" => "surfmarket.org"
     ],
     [
         "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/sendero-playa-valdearenas.jpg",

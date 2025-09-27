@@ -15,11 +15,11 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/monte-candina-vista.jpg",
+        "src" => "https://www.cantabriarural.com/wp-content/uploads/2018/12/Monte-Candina-B-800x533.jpg",
         "alt" => "Vista panorámica desde Monte Candina en Sonabia",
         "caption" => "Panorámica desde Monte Candina",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://www.cantabriarural.com/lugares-de-interes/monte-candina.html",
+        "fuente_texto" => "cantabriarural.com"
     ],
     [
         "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/sendero-monte-candina.jpg",
@@ -30,7 +30,7 @@ $intro = [
     ]
   ],
   "video" => [
-      "url" => "https://www.youtube.com/embed/YOUR_VIDEO_ID", // reemplaza con ID real si hay
+      "url" => "https://www.youtube.com/embed/h8sCkrlLRIY", // reemplaza con ID real si hay
       "titulo" => "Video de Monte Candina"
   ]
 ];
@@ -39,25 +39,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/acantilados-monte-candina.jpg",
+        "src" => "https://avescantabricas.com/wp-content/uploads/2025/03/20160627_120315.jpg",
         "alt" => "Acantilados desde Monte Candina",
         "caption" => "Acantilados y mar Cantábrico",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://avescantabricas.com/acantilados-monte-candina/",
+        "fuente_texto" => "avescantabricas.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/flora-monte-candina.jpg",
+        "src" => "https://gailurra.org/wp-content/uploads/2018/08/IMG_0083.jpg",
         "alt" => "Flora autóctona en Monte Candina",
         "caption" => "Flora autóctona",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://gailurra.org/fitxa/ruta-circular-al-monte-candina/",
+        "fuente_texto" => "gailurra.org"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puesta-sol-monte-candina.jpg",
-        "alt" => "Puesta de sol desde Monte Candina",
-        "caption" => "Atardecer sobre la costa",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "src" => "https://www.alltrails.com/_next/image?url=https%3A%2F%2Fwww.alltrails.com%2Fapi%2Falltrails%2Fv3%2Ftrails%2F10561972%2Fstatic_map%3Fsize%3D342x424%26scale%3D2%26show_3d%3Dyes%26key%3D3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i&w=3840&q=75",
+        "alt" => "Ruta por Monte Candina",
+        "caption" => "Ruta por el Monte Candina",
+        "fuente" => "https://www.alltrails.com/es/ruta/spain/cantabria/monte-candina",
+        "fuente_texto" => "alltrails.com"
     ]
 ];
 ?>

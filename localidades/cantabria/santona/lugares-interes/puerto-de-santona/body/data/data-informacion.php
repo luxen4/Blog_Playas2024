@@ -15,18 +15,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puerto-santona-barcos.jpg",
+        "src" => "https://www.turismodeobservacion.com/media/fotografias/alegria-en-el-puerto-de-santurtzi-52670-sm.jpg",
         "alt" => "Barcos pesqueros en el Puerto de Santoña",
         "caption" => "Embarcaciones en el puerto",
-        "fuente" => "",
-        "fuente_texto" => ".com"
-    ],
+        "fuente" => "https://www.turismodeobservacion.com/foto/puerto-de-santona-al-amanecer/52722/",
+        "fuente_texto" => "turismodeobservacion.com"
+    ],/* Blog de fotos */
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/paseo-puerto-santona.jpg",
+        "src" => "https://excursionesmaritimas.com/wp-content/uploads/2023/04/43e7509b-city-48338-174731fd1a7.webp",
         "alt" => "Paseo marítimo del Puerto de Santoña",
         "caption" => "Paseo marítimo con vistas al Cantábrico",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://excursionesmaritimas.com/que-visitar-en-santona/",
+        "fuente_texto" => "excursionesmaritimas.com"
     ]
   ],
   "video" => [
@@ -39,25 +39,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/lonja-puerto-santona.jpg",
+        "src" => "https://cofradiavirgendelpuerto.es/img/galeria/Lonja_%20%20(0).jpg",
         "alt" => "Lonja del Puerto de Santoña",
         "caption" => "Lonja de pescado fresco",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://cofradiavirgendelpuerto.es/lonja_instalaciones.php",
+        "fuente_texto" => "cofradiavirgendelpuerto.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/bares-puerto-santona.jpg",
+        "src" => "http://www.aytosantona.org/wp-content/uploads/2020/08/restaurante-con-clientes.jpg",
         "alt" => "Bares y restaurantes en el Puerto de Santoña",
         "caption" => "Gastronomía local frente al mar",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "http://www.aytosantona.org/2020/08/29/mejores-bares-restaurantes-comer-santona/",
+        "fuente_texto" => "aytosantona.org"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/atardecer-puerto-santona.jpg",
+        "src" => "https://bucieronatura.com/wp-content/uploads/2022/05/143828754_3799900226722213_7319998640911830240_n.jpg",
         "alt" => "Atardecer en el Puerto de Santoña",
         "caption" => "Puesta de sol sobre el puerto",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://bucieronatura.com/7o-imprescindibles-para-visitar-santona/",
+        "fuente_texto" => "bucieronatura.com"
     ]
 ];
 ?>

@@ -42,7 +42,6 @@ $galeria_imagenes = [
         "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/arena-playa-valdearenas.jpg",
         "alt" => "Arena dorada en la Playa de Valdearenas",
         "caption" => "Arena fina y dorada",
-        "fuente" => "",
         "fuente_texto" => ".com"
     ],
     [

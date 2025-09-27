@@ -15,22 +15,22 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/monte-buciero-santona-vistas.jpg",
+        "src" => "https://turtletrack.net/wp-content/uploads/2022/07/DSC05634-Editar_1.jpg",
         "alt" => "Vistas panorámicas desde el Monte Buciero en Santoña",
         "caption" => "Panorámica desde el Monte Buciero",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://turtletrack.net/rutas/monte-buciero/",
+        "fuente_texto" => "turtletrack.net"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/sendero-monte-buciero-santona.jpg",
+        "src" => "https://turtletrack.net/wp-content/uploads/2022/07/DSC05651-Editar_1.jpg",
         "alt" => "Sendero de trekking en el Monte Buciero de Santoña",
         "caption" => "Ruta de senderismo",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://turtletrack.net/rutas/monte-buciero/",
+        "fuente_texto" => "turtletrack.net"
     ]
   ],
   "video" => [
-      "url" => "https://www.youtube.com/embed/YOUR_VIDEO_ID", // reemplaza con ID real si existe
+      "url" => "https://www.youtube.com/embed/Qr2JjVhnOqk", // reemplaza con ID real si existe
       "titulo" => "Video del Monte Buciero en Santoña"
   ]
 ];
@@ -39,25 +39,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/acantilados-monte-buciero-santona.jpg",
+        "src" => "https://imanesdeviaje.com/wp-content/uploads/2020/06/acantilados-monte-buciero.jpg",
         "alt" => "Acantilados del Monte Buciero en Santoña",
         "caption" => "Acantilados sobre el Cantábrico",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://imanesdeviaje.com/faro-del-caballo-santona/",
+        "fuente_texto" => "imanesdeviaje.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/flora-monte-buciero-santona.jpg",
+        "src" => "https://gataconbotas.com/wp-content/uploads/2020/09/RB_200828_monte_buciero_portada-1.jpg",
         "alt" => "Flora autóctona del Monte Buciero en Santoña",
         "caption" => "Flora autóctona",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://gataconbotas.com/monte-buciero-y-faro-del-caballo/",
+        "fuente_texto" => "gataconbotas.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-desde-buciero-santona.jpg",
+        "src" => "https://s1.wklcdn.com/image_28/861980/5080178/2616505.700x525.jpg",
         "alt" => "Vista de la playa desde el Monte Buciero en Santoña",
-        "caption" => "Vista panorámica de la playa y acantilados",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "caption" => "Vista panorámica de la playa desde el Monte Buciero",
+        "fuente" => "https://ca.wikiloc.com/rutes-senderisme/circular-monte-buciero-i-santona-5080176",
+        "fuente_texto" => "wikiloc.com"
     ]
 ];
 ?>

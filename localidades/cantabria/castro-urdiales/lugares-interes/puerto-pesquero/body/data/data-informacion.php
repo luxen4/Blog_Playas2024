@@ -18,19 +18,24 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puerto-pesquero-castro-1.jpg",
-        "alt" => "Vista del Puerto Pesquero de Castro-Urdiales con barcos amarrados",
-        "caption" => "Puerto Pesquero",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "src" => "https://vivecamino.com/img/gal/puerto-pesquero-de-castro-urdiales-wikimediamanuel-m-v_10498_p.jpg",
+        "alt" => "Puerto pesquero de Castro-Urdiales con barcos",
+        "caption" => "Puerto pesquero de Castro-Urdiales",
+        "fuente" => "https://vivecamino.com/castro-urdiales/puerto-pesquero-de-castro-urdiales-3522/",
+        "fuente_texto" => "vivecamino.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puerto-pesquero-castro-2.jpg",
-        "alt" => "Actividad pesquera en el puerto de Castro-Urdiales",
-        "caption" => "Vida pesquera",
-        "fuente" => "",
-        "fuente_texto" => ""
-    ]
+        "src" => "https://www.puertosdecantabria.es/o/adaptive-media/image/2244924/Preview-1000x0/Castro_12.jpg?t=1409659035192",
+        "alt" => "Vista panorámica del puerto en Castro-Urdiales",
+        "caption" => "Puerto y casco histórico",
+        "fuente" => "https://www.puertosdecantabria.es/puertos/castro-urdiales/imagenes",
+        "fuente_texto" => "puertosdecantabria.es"
+    ],
+  ]
+  ,
+  "video" => [
+    "url" => "https://www.youtube.com/embed/lyFZK-zQ6rU", 
+    "titulo" => "Video de Castro - Urdiales"
   ]
 ];
 ?>
@@ -38,25 +43,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puerto-pesquero-castro-1.jpg",
+        "src" => "https://cadenaser.com/resizer/v2/TOCK2F3AYFPBJPPB7JHHEDKI2E.jpg?auth=267d4d064ad2ce6c8e092b0f48ba99916c3ed0646445da2b9bab30bf77e452ef&quality=70&width=650&height=329&smart=true",
         "alt" => "Barcos de pesca en el Puerto Pesquero",
         "caption" => "Puerto Pesquero",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://media.traveler.es/photos/67e5436ccc52379912c72c4e/master/w_1600,c_limit/F2EFJ5%20(1).jpg",
+        "fuente_texto" => "media.traveler.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puerto-pesquero-castro-2.jpg",
+        "src" => "https://queverenelmundo.com/wp-content/uploads/Castro-Urdiales.jpg",
         "alt" => "Embarcaciones y muelles en el puerto de Castro-Urdiales",
         "caption" => "Muelle y embarcaciones",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://queverenelmundo.com/que-ver-en-espana/comunidad-de-cantabria/castro-urdiales/",
+        "fuente_texto" => "queverenelmundo.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puerto-pesquero-castro-3.jpg",
+        "src" => "https://cornisacantabrica.com/wp-content/uploads/2023/10/puerto-de-Castro-Urdiales-1024x596.jpeg",
         "alt" => "Atardecer en el Puerto Pesquero de Castro-Urdiales",
         "caption" => "Atardecer en el puerto",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://cornisacantabrica.com/donde-ver-el-atardecer-en-castro-urdiales",
+        "fuente_texto" => "cornisacantabrica.com"
     ]
 ];
 ?>
@@ -149,4 +154,7 @@ $comentarios = [
     ]
 ];
 ?>
+
+
+
 

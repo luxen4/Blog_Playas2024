@@ -31,6 +31,10 @@ $intro = [
         "fuente" => "",
         "fuente_texto" => ""
     ]
+  ],
+  "video" => [
+    "url" => "https://www.youtube.com/embed/gQpQhaf0lO0", 
+    "titulo" => "Video de Castro - Urdiales y Playa de Brazomar"
   ]
 ];
 ?>
@@ -38,25 +42,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-brazomar-castro-1.jpg",
+        "src" => "https://cloud.inspain.org/imgwbp/playas/4/2/7/pzxu3dawsnhffhooruwmhdcmte_2000.webp",
         "alt" => "Panorámica de la Playa de Brazomar",
         "caption" => "Playa de Brazomar",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.inspain.org/es/cantabria/castro-urdiales/playas/brazomar/",
+        "fuente_texto" => "inspain.org"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-brazomar-castro-2.jpg",
+        "src" => "https://cornisacantabrica.com/wp-content/uploads/2023/10/la-playa-de-brazomar-castro-urdiales-scaled.jpg",
         "alt" => "Personas disfrutando en la playa",
-        "caption" => "Zona de baño",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "caption" => "Vista panorámica de la Playa de Brazomar con bañistas",
+        "fuente" => "https://cornisacantabrica.com/la-playa-de-brazomar-castro-urdiales",
+        "fuente_texto" => "cornisacantabrica.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-brazomar-castro-3.jpg",
+        "src" => "https://beachatlas.s3.us-east-2.amazonaws.com/brazomar.jpg",
         "alt" => "Atardecer en la Playa de Brazomar",
         "caption" => "Atardecer sobre el Cantábrico",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://www.beachatlas.com/es/brazomar",
+        "fuente_texto" => "beachatlas.com"
     ]
 ];
 ?>

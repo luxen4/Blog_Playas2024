@@ -1,36 +1,40 @@
 <?php 
 $header = [
   "titulo" => "🌉 Puente Medieval",
-  "descripcion" => "Puente histórico de Castro-Urdiales que conecta zonas del casco antiguo con vistas al río y al puerto"
+  "descripcion" => "Monumento histórico de Castro-Urdiales, símbolo del pasado medieval y parte de su patrimonio arquitectónico"
 ];
 ?>
 
 <?php 
 $intro = [
   "parrafos" => [
-    "El <strong>Puente Medieval de Castro-Urdiales</strong> es una estructura emblemática que data de la Edad Media, situada sobre el río que atraviesa la villa.",
+    "El <strong>Puente Medieval de Castro-Urdiales</strong>, también conocido como <em>Puente Romano</em>, es uno de los iconos arquitectónicos más representativos de la villa.",
 
-    "Este puente, de piedra y arquitectura típica medieval, permite acceder al casco antiguo y se convierte en un punto fotográfico con vistas al río y al puerto.",
+    "Forma parte del conjunto monumental junto a la <strong>Iglesia de Santa María</strong> y el <strong>Castillo-Faro</strong>, creando una estampa única junto al mar Cantábrico.",
 
-    "Es un lugar de gran valor histórico y patrimonial, reflejo del urbanismo medieval de la villa y de su importancia como población portuaria.",
+    "Construido entre los siglos XIII y XIV, servía para conectar la zona de la ermita con la península en la que se levantó el castillo, además de cumplir funciones defensivas.",
 
-    "Su entorno combina tranquilidad y belleza arquitectónica, siendo ideal para pasear, tomar fotografías y disfrutar del patrimonio histórico de Castro-Urdiales."
+    "Hoy en día es un lugar emblemático para los visitantes, donde se combinan historia, arquitectura y unas vistas espectaculares al mar."
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puente-medieval-castro-1.jpg",
-        "alt" => "Vista del Puente Medieval de Castro-Urdiales sobre el río",
-        "caption" => "Puente Medieval",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "src" => "https://www.viajarporcantabria.com/wp-content/uploads/2013/04/puente-romano-castro-urdiales.jpg",
+        "alt" => "Puente Medieval con el Castillo-Faro al fondo en Castro-Urdiales",
+        "caption" => "Puente Medieval con el Castillo-Faro",
+        "fuente" => "https://www.viajarporcantabria.com/puente-medieval-romano-viejo-de-castro-urdiales/#google_vignette",
+        "fuente_texto" => "viajarporcantabria.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puente-medieval-castro-2.jpg",
-        "alt" => "Detalle de la arquitectura del Puente Medieval",
-        "caption" => "Arquitectura medieval",
-        "fuente" => "",
-        "fuente_texto" => ""
-    ]
+        "src" => "https://farm9.staticflickr.com/8226/8550162552_372d518bce_c.jpg",
+        "alt" => "Puente Medieval junto a la Iglesia de Santa María",
+        "caption" => "Puente Medieval e Iglesia de Santa María",
+        "fuente" => "https://www.fotonazos.es/2014/08/el-puente-medieval-y-la-ermita-de-santa-ana-de-castro-urdiales/",
+        "fuente_texto" => "fotonazos.es"
+    ],
+  ],
+  "video" => [
+    "url" => "https://www.youtube.com/embed/uYzfNMYQI1I", 
+    "titulo" => "Video del Puente Medieval de Castro-Urdiales"
   ]
 ];
 ?>
@@ -38,25 +42,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puente-medieval-castro-1.jpg",
-        "alt" => "Panorámica del Puente Medieval",
-        "caption" => "Puente Medieval",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "src" => "https://www.fotonazos.es/wp-content/uploads/2014/08/puentemedievalcastrourdiales-1000x641.jpg",
+        "alt" => "Puente Medieval de Castro-Urdiales sobre el mar",
+        "caption" => "Puente Medieval de Castro-Urdiales",
+        "fuente" => "https://www.fotonazos.es/2014/08/el-puente-medieval-y-la-ermita-de-santa-ana-de-castro-urdiales/",
+        "fuente_texto" => "fotonazos.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puente-medieval-castro-2.jpg",
-        "alt" => "Arco del Puente Medieval de Castro-Urdiales",
-        "caption" => "Detalle del arco",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "src" => "https://img.europapress.es/fotoweb/fotonoticia_20231121160908_412.jpg",
+        "alt" => "Vista panorámica del conjunto monumental de Castro-Urdiales",
+        "caption" => "Panorámica del conjunto monumental",
+        "fuente" => "https://www.europapress.es/cantabria/noticia-castro-recibio-25600-turistas-verano-700-mas-ano-pasado-20231121160908.html",
+        "fuente_texto" => "europapress.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/puente-medieval-castro-3.jpg",
-        "alt" => "Caminar sobre el Puente Medieval con vistas al casco antiguo",
-        "caption" => "Recorrido sobre el puente",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "src" => "https://live.staticflickr.com/4542/37715134405_a597e5b284_b.jpg",
+        "alt" => "Puente Medieval de Castro-Urdiales al atardecer",
+        "caption" => "Atardecer en el Puente Medieval",
+        "fuente" => "https://www.flickr.com/photos/inesca/37715134405",
+        "fuente_texto" => "flickr.com"
     ]
 ];
 ?>
@@ -68,22 +72,22 @@ $info = [
     [
       "icono" => "📍",
       "titulo" => "Ubicación",
-      "descripcion" => "Conecta el casco antiguo con la zona cercana al puerto y el río"
+      "descripcion" => "Junto al Castillo-Faro y la Iglesia de Santa María, en la península de Castro-Urdiales"
     ],
     [
-      "icono" => "🏛️",
-      "titulo" => "Arquitectura",
-      "descripcion" => "Construcción de piedra típica medieval, con arcos y pasarela peatonal"
+      "icono" => "🏰",
+      "titulo" => "Época",
+      "descripcion" => "Construido entre los siglos XIII y XIV"
     ],
     [
       "icono" => "🌟",
-      "titulo" => "Atractivo principal",
-      "descripcion" => "Valor histórico y panorámicas del río y del casco antiguo"
+      "titulo" => "Atractivo",
+      "descripcion" => "Uno de los símbolos medievales más fotografiados de Cantabria"
     ],
     [
       "icono" => "⭐",
-      "titulo" => "Puntos de interés",
-      "descripcion" => "Puente, vistas al casco antiguo, fotografía y patrimonio histórico"
+      "titulo" => "Entorno",
+      "descripcion" => "Parte del conjunto monumental con vistas al mar Cantábrico"
     ]
   ]
 ];
@@ -93,10 +97,10 @@ $info = [
 $actividades = [
   "titulo" => "🌉 Actividades en el Puente Medieval",
   "items"  => [
-    [ "icono" => "🚶", "texto" => "Pasear y cruzar el puente disfrutando del entorno" ],
-    [ "icono" => "📸", "texto" => "Fotografía del puente, el río y el casco antiguo" ],
-    [ "icono" => "🏛️", "texto" => "Conocer la historia y arquitectura medieval" ],
-    [ "icono" => "👨‍👩‍👧‍👦", "texto" => "Recorrido familiar por el puente y sus alrededores" ]
+    [ "icono" => "📸", "texto" => "Fotografiar el conjunto monumental con el puente y el castillo" ],
+    [ "icono" => "🚶", "texto" => "Pasear por la península y descubrir rincones históricos" ],
+    [ "icono" => "🌅", "texto" => "Disfrutar de las vistas al mar y del atardecer" ],
+    [ "icono" => "📖", "texto" => "Conocer la historia medieval de Castro-Urdiales" ]
   ]
 ];
 ?>
@@ -106,10 +110,10 @@ $actividades = [
 $mapa = [
     "titulo" => "🗺️ Localización",
     "map_id" => "map-puente-medieval",
-    "centro" => [43.3840, -3.2185],   // Coordenadas aproximadas del puente
+    "centro" => [43.3829, -3.2165],   // Coordenadas aproximadas del Puente Medieval
     "zoom"   => 17,
     "marker" => [
-        "coords" => [43.3840, -3.2185],  
+        "coords" => [43.3829, -3.2165],  
         "popup"  => "<strong>Puente Medieval - Castro-Urdiales</strong>"
     ]
 ];
@@ -133,20 +137,19 @@ $contacto = [
 $comentarios = [
     [
         "nombre" => "Ana P.",
-        "texto"  => "Un puente lleno de historia, con vistas preciosas al casco antiguo."
+        "texto"  => "Un rincón precioso con mucha historia, perfecto para hacer fotos."
     ],
     [
-        "nombre" => "José M.",
-        "texto"  => "Cruzarlo es un viaje en el tiempo, muy recomendable."
+        "nombre" => "Carlos R.",
+        "texto"  => "El conjunto del puente con la iglesia y el castillo es espectacular."
     ],
     [
-        "nombre" => "Lucía R.",
-        "texto"  => "Perfecto para fotografiar el río y los alrededores del casco antiguo."
+        "nombre" => "Lucía G.",
+        "texto"  => "Ideal para pasear y disfrutar de la brisa del mar Cantábrico."
     ],
     [
-        "nombre" => "Carlos V.",
-        "texto"  => "Un rincón histórico que no te puedes perder en Castro-Urdiales."
+        "nombre" => "David M.",
+        "texto"  => "Imprescindible en una visita a Castro-Urdiales, lleno de encanto medieval."
     ]
 ];
 ?>
-

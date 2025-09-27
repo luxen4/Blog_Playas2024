@@ -18,18 +18,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-pedregal-castro-1.jpg",
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-el-pedregal-castro-urdiales-cantabria-1.jpg",
         "alt" => "Vista general de la Playa del Pedregal en Castro-Urdiales",
         "caption" => "Playa del Pedregal",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "",
+        "fuente_texto" => "Imagen propia"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-pedregal-castro-2.jpg",
+        "src" => "https://www.masmar.net/var/masmar/storage/images/gu%C3%ADas/playas/cantabria/piscina-natural-el-pedregal.-catro-urdiales/piscina-natural-el-pedregal/616525-1-esl-ES/Piscina-natural-El-Pedregal.jpg",
         "alt" => "Zona de arena y grava en la Playa del Pedregal",
-        "caption" => "Área de baño y descanso",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "caption" => "Playa del Pedregal",
+        "fuente" => "https://www.masmar.net/index.php/esl/Gu%C3%ADas/Playas/Cantabria/Piscina-natural-El-Pedregal.-Castro-Urdiales/Piscina-natural-El-Pedregal",
+        "fuente_texto" => "masmar.net"
     ]
   ]
 ];
@@ -38,25 +38,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-pedregal-castro-1.jpg",
+        "src" => "https://guias.masmar.net/var/masmar/storage/images/media/images/pedregal_1/616521-1-esl-ES/Pedregal_1.jpg",
         "alt" => "Panorámica de la Playa del Pedregal",
         "caption" => "Playa del Pedregal",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://guias.masmar.net/index.php/Playas/Cantabria/Piscina-natural-El-Pedregal.-Castro-Urdiales",
+        "fuente_texto" => "guias.masmar.net"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-pedregal-castro-2.jpg",
+        "src" => "https://miladytrip.wordpress.com/wp-content/uploads/2012/09/50b96-playaelpedregal.jpg?w=640&h=480",
         "alt" => "Bañistas en la Playa del Pedregal",
         "caption" => "Zona de baño",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://miladytrip.wordpress.com/2012/09/21/dia-familiar-en-castro-urdiales-cantabria/",
+        "fuente_texto" => "miladytrip.wordpress.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-pedregal-castro-3.jpg",
-        "alt" => "Atardecer en la Playa del Pedregal",
-        "caption" => "Atardecer sobre el Cantábrico",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "src" => "https://www.vivecastrourdiales.com/wp-content/uploads/2013/01/El-pedregal-por-Mighty-MArta-300x225.jpg",
+        "alt" => "Rocas en la Playa del Pedregal",
+        "caption" => "Rocas en la Playa del Pedregal",
+        "fuente" => "https://www.vivecastrourdiales.com/playas-en-la-ciudad/",
+        "fuente_texto" => "vivecastrourdiales.com"
     ]
 ];
 ?>

@@ -1,36 +1,36 @@
 <?php 
 $header = [
   "titulo" => "🏛️ Plaza del Ayuntamiento",
-  "descripcion" => "Plaza central de Castro-Urdiales, punto de encuentro con edificios históricos y ambiente animado"
+  "descripcion" => "Centro neurálgico de Castro-Urdiales, rodeado de edificios históricos y ambiente local"
 ];
 ?>
 
 <?php 
 $intro = [
   "parrafos" => [
-    "La <strong>Plaza del Ayuntamiento</strong> se sitúa en el corazón de Castro-Urdiales y es el centro neurálgico de la vida social y cultural de la villa.",
+    "La <strong>Plaza del Ayuntamiento de Castro-Urdiales</strong> es uno de los lugares más emblemáticos y concurridos de la villa, punto de encuentro para locales y visitantes.",
 
-    "Rodeada de edificios históricos y arquitectura tradicional cántabra, la plaza ofrece un entorno ideal para pasear, tomar algo en terrazas y disfrutar del ambiente local.",
+    "En ella se encuentra el <strong>Ayuntamiento</strong>, un edificio de gran valor arquitectónico, junto a construcciones históricas, soportales y terrazas que le dan un ambiente único.",
 
-    "En la plaza se celebran eventos, ferias y actividades culturales a lo largo del año, siendo un punto de referencia tanto para vecinos como para turistas.",
+    "Es el corazón del <strong>casco histórico</strong>, donde se celebran eventos culturales, mercados, fiestas tradicionales y actividades sociales a lo largo del año.",
 
-    "Su ubicación permite combinar la visita con otros lugares de interés cercanos, como la Iglesia de Santa María, el puerto y el Paseo Marítimo."
+    "Un lugar perfecto para disfrutar de la vida castreña, rodeado de bares, restaurantes y con un ambiente siempre animado."
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/plaza-ayuntamiento-castro-1.jpg",
-        "alt" => "Vista general de la Plaza del Ayuntamiento en Castro-Urdiales",
-        "caption" => "Plaza del Ayuntamiento",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "src" => "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxOYt1cI0riVsaxps2_8XRkMWIm-aNV2sA2rapFttbTnOjyRrVw_l7BgKWCbCjTv6unPJbqWPFIzkwzwHeh1SPGLVRPqOglU6OC4MF7guko6JvMDP4U_7zkKgSUVd0v6X9XtOTb2fL_XeZ/s16000/Castro-Urdiales-Plaza-del-Ayuntamiento.jpg",
+        "alt" => "Plaza del Ayuntamiento de Castro-Urdiales con el edificio consistorial",
+        "caption" => "Plaza del Ayuntamiento de Castro-Urdiales",
+        "fuente" => "https://www.viajesyrutas.es/2021/07/que-ver-en-castro-urdiales-cantabria.html",
+        "fuente_texto" => "viajesyrutas.es"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/plaza-ayuntamiento-castro-2.jpg",
-        "alt" => "Terrazas y ambiente en la Plaza del Ayuntamiento",
-        "caption" => "Ambiente y terrazas",
-        "fuente" => "",
-        "fuente_texto" => ""
-    ]
+        "src" => "https://www.muchocastro.com/asset/thumbnail,992,558,center,center/media/muchocastro/images/2000/01/19/ayuntamiento2.jpg",
+        "alt" => "Fachada del Ayuntamiento de Castro-Urdiales",
+        "caption" => "Edificio del Ayuntamiento",
+        "fuente" => "https://www.muchocastro.com/articulo/sociedad/ayuntamiento-castro-urdiales-aprueba-importantes-inversiones/20250603153751075691.html",
+        "fuente_texto" => "muchocastro.com"
+    ],
   ]
 ];
 ?>
@@ -38,25 +38,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/plaza-ayuntamiento-castro-1.jpg",
-        "alt" => "Panorámica de la Plaza del Ayuntamiento",
-        "caption" => "Plaza del Ayuntamiento",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "src" => "https://www.viajaporlibre.com/wp-content/uploads/2020/09/castro-urdiales-ayuntamiento-770x513.jpg.webp",
+        "alt" => "Vista general de la Plaza del Ayuntamiento",
+        "caption" => "Ambiente en la Plaza del Ayuntamiento",
+        "fuente" => "https://www.viajaporlibre.com/espana/cantabria/castro-urdiales",
+        "fuente_texto" => "viajaporlibre.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/plaza-ayuntamiento-castro-2.jpg",
-        "alt" => "Gente disfrutando en la Plaza del Ayuntamiento",
-        "caption" => "Actividades y ambiente",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "src" => "https://photo620x400.mnstatic.com/9aeb433d910d52b42ef89e2bd031d18f/plaza-del-ayuntamiento.jpg",
+        "alt" => "Soportales en la Plaza del Ayuntamiento de Castro-Urdiales",
+        "caption" => "Soportales de la plaza",
+        "fuente" => "https://www.minube.com/rincon/plaza-del-ayuntamiento-a3659592",
+        "fuente_texto" => "minube.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/plaza-ayuntamiento-castro-3.jpg",
-        "alt" => "Detalle de edificios históricos en la Plaza del Ayuntamiento",
-        "caption" => "Arquitectura tradicional",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/56/00/a5/plaza-del-ayuntamiento.jpg?w=1200&h=1200&s=1",
+        "alt" => "Plaza del Ayuntamiento iluminada de noche",
+        "caption" => "La plaza de noche",
+        "fuente" => "https://www.tripadvisor.es/Attraction_Review-g776898-d9974862-Reviews-or10-Plaza_Del_Ayuntamiento-Castro_Urdiales_Cantabria.html",
+        "fuente_texto" => "tripadvisor.es"
     ]
 ];
 ?>
@@ -68,22 +68,22 @@ $info = [
     [
       "icono" => "📍",
       "titulo" => "Ubicación",
-      "descripcion" => "Centro de Castro-Urdiales, cerca del puerto y del casco histórico"
+      "descripcion" => "En el centro histórico de Castro-Urdiales, rodeada de comercios y bares"
     ],
     [
       "icono" => "🏛️",
-      "titulo" => "Arquitectura",
-      "descripcion" => "Edificios históricos, estilo tradicional cántabro y fachadas destacadas"
+      "titulo" => "Edificio principal",
+      "descripcion" => "Ayuntamiento de Castro-Urdiales, construido en el siglo XVIII"
     ],
     [
-      "icono" => "🌟",
-      "titulo" => "Atractivo principal",
-      "descripcion" => "Ambiente animado, terrazas, eventos y vida social"
+      "icono" => "🎉",
+      "titulo" => "Eventos",
+      "descripcion" => "Fiestas locales, mercados y actividades culturales durante todo el año"
     ],
     [
-      "icono" => "⭐",
-      "titulo" => "Puntos de interés",
-      "descripcion" => "Terrazas, eventos culturales, arquitectura y proximidad al casco histórico"
+      "icono" => "☕",
+      "titulo" => "Ambiente",
+      "descripcion" => "Zona animada con terrazas, bares y restaurantes"
     ]
   ]
 ];
@@ -93,11 +93,10 @@ $info = [
 $actividades = [
   "titulo" => "🏛️ Actividades en la Plaza del Ayuntamiento",
   "items"  => [
-    [ "icono" => "☕", "texto" => "Tomar algo en las terrazas" ],
-    [ "icono" => "🚶", "texto" => "Pasear y disfrutar del entorno histórico" ],
-    [ "icono" => "📸", "texto" => "Fotografía de la plaza y la arquitectura" ],
-    [ "icono" => "🎉", "texto" => "Participar en eventos y ferias locales" ],
-    [ "icono" => "👨‍👩‍👧‍👦", "texto" => "Disfrutar en familia del ambiente y actividades" ]
+    [ "icono" => "☕", "texto" => "Disfrutar de un café o una comida en sus terrazas" ],
+    [ "icono" => "📸", "texto" => "Fotografiar el edificio del Ayuntamiento y la vida de la plaza" ],
+    [ "icono" => "🎶", "texto" => "Asistir a eventos y actuaciones culturales" ],
+    [ "icono" => "🚶", "texto" => "Pasear por el casco histórico desde la plaza" ]
   ]
 ];
 ?>
@@ -107,10 +106,10 @@ $actividades = [
 $mapa = [
     "titulo" => "🗺️ Localización",
     "map_id" => "map-plaza-ayuntamiento",
-    "centro" => [43.3833, -3.2180],   // Coordenadas aproximadas de la plaza
+    "centro" => [43.3821, -3.2177],   // Coordenadas aproximadas de la Plaza del Ayuntamiento
     "zoom"   => 17,
     "marker" => [
-        "coords" => [43.3833, -3.2180],  
+        "coords" => [43.3821, -3.2177],  
         "popup"  => "<strong>Plaza del Ayuntamiento - Castro-Urdiales</strong>"
     ]
 ];
@@ -124,8 +123,8 @@ $contacto = [
     "enlace" => "tel:+34942782912" // Oficina de Turismo de Castro-Urdiales
   ],
   "web"      => [
-    "texto" => "turismodecastro.com",
-    "url"   => "https://turismodecastro.com"
+    "texto" => "aytocastro.es",
+    "url"   => "https://www.aytocastro.es"
   ]
 ];
 ?>
@@ -133,20 +132,20 @@ $contacto = [
 <?php
 $comentarios = [
     [
-        "nombre" => "Marta G.",
-        "texto"  => "Plaza muy animada, perfecta para tomar algo y disfrutar del ambiente local."
-    ],
-    [
-        "nombre" => "Carlos R.",
-        "texto"  => "Me encanta pasear por la plaza y admirar los edificios históricos."
-    ],
-    [
         "nombre" => "Sofía L.",
-        "texto"  => "Ideal para sentarse en una terraza y observar la vida de la villa."
+        "texto"  => "Un lugar muy animado, ideal para tomar algo en las terrazas."
     ],
     [
-        "nombre" => "David T.",
-        "texto"  => "Un punto céntrico muy agradable, siempre con actividad y eventos."
+        "nombre" => "Pedro M.",
+        "texto"  => "La arquitectura del Ayuntamiento es preciosa, merece la pena la visita."
+    ],
+    [
+        "nombre" => "Elena R.",
+        "texto"  => "El ambiente de la plaza es fantástico, sobre todo en fiestas."
+    ],
+    [
+        "nombre" => "Ander G.",
+        "texto"  => "Punto de partida perfecto para recorrer el casco histórico de Castro."
     ]
 ];
 ?>

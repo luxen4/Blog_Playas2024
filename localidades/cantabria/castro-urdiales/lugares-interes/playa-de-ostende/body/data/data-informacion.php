@@ -18,18 +18,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-ostende-castro-1.jpg",
+        "src" => "https://posadarosalia.com/wp-content/uploads/2014/07/Alojamiento-en-Castro-urdiales.jpg",
         "alt" => "Vista general de la Playa de Ostende en Castro-Urdiales",
         "caption" => "Playa de Ostende",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://posadarosalia.com/playa-de-ostende/",
+        "fuente_texto" => "posadarosalia.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-ostende-castro-2.jpg",
+        "src" => "https://turismodecantabria.com/wp-content/uploads/2023/05/53f96665-5112-f484-7c9e-b3412c0ca6c2.jpg",
         "alt" => "Personas disfrutando en la Playa de Ostende",
         "caption" => "Zona de baño y ocio",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://turismodecantabria.com/playas/playa-de-ostende-o-urdiales/",
+        "fuente_texto" => "turismodecantabria.com"
     ]
   ]
 ];
@@ -38,25 +38,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-ostende-castro-1.jpg",
+        "src" => "https://paradisiacas.com/wp-content/uploads/2024/06/ext-413.jpeg",
         "alt" => "Panorámica de la Playa de Ostende",
         "caption" => "Playa de Ostende",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://paradisiacas.com/espana/cantabria/castro-urdiales/playa-de-ostende/",
+        "fuente_texto" => "paradisiacas.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-ostende-castro-2.jpg",
-        "alt" => "Bañistas en la Playa de Ostende",
-        "caption" => "Área de baño y ocio",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "src" => "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/CastroUrdiales-v10.JPG/1200px-CastroUrdiales-v10.JPG",
+        "alt" => "Grandes rocas en la Playa de Ostende",
+        "caption" => "Grandes Rocas en La Playa de Ostende",
+        "fuente" => "https://es.wikipedia.org/wiki/Playa_de_Ostende_(Castro-Urdiales)",
+        "fuente_texto" => "wikipedia.org"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-ostende-castro-3.jpg",
+        "src" => "https://live.staticflickr.com/65535/52025865058_5591f6d21d_h.jpg",
         "alt" => "Atardecer en la Playa de Ostende",
         "caption" => "Atardecer sobre el Cantábrico",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://www.flickr.com/photos/145357737@N03/52025865058/in/faves-27539916@N05/",
+        "fuente_texto" => "flickr.com"
     ]
 ];
 ?>

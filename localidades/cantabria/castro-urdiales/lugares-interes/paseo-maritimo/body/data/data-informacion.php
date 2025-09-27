@@ -18,18 +18,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/paseo-maritimo-castro-1.jpg",
+        "src" => "https://www.muchocastro.com/asset/thumbnail,992,558,center,center/media/muchocastro/images/2021/04/22/490728578e7b1cbd0f37c39bcf5c4488.jpg",
         "alt" => "Vista del Paseo Marítimo de Castro-Urdiales junto al mar",
         "caption" => "Paseo Marítimo",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.muchocastro.com/articulo/sociedad/las-obras-de-reparacion-y-pintado-de-la-balaustrada-del-paseo-maritimo-se-ejecutaran-antes-del-verano/20210422143708061564.html",
+        "fuente_texto" => "muchocastro.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/paseo-maritimo-castro-2.jpg",
+        "src" => "https://15bc603535021b5e1f6540fa725b517a.cdn.bubble.io/cdn-cgi/image/w=1536,h=864,f=auto,dpr=1,fit=contain/f1724083116298x192407337286862430/paseo-maritimo-de-castro-urdiales-cantabria-vivirnoescaro.jpg",
         "alt" => "Bancos y zonas de descanso en el Paseo Marítimo",
         "caption" => "Áreas de descanso",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://mobilcity.es/lugares_de_interes/paseo-mar%C3%ADtimo",
+        "fuente_texto" => "mobilcity.es"
     ]
   ]
 ];
@@ -38,25 +38,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/paseo-maritimo-castro-1.jpg",
-        "alt" => "Vista panorámica del Paseo Marítimo de Castro-Urdiales",
+        "src" => "https://www.viajaporlibre.com/wp-content/uploads/2020/09/castro-urdiales-5-770x513.jpg.webp",
+        "alt" => "Vista del Paseo Marítimo de Castro-Urdiales",
         "caption" => "Paseo Marítimo",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.viajaporlibre.com/espana/cantabria/castro-urdiales",
+        "fuente_texto" => "viajaporlibre.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/paseo-maritimo-castro-2.jpg",
+        "src" => "https://www.viajandoporelmundomundial.com/wp-content/uploads/2021/02/puerto.jpg.webp",
         "alt" => "Personas paseando por el Paseo Marítimo",
-        "caption" => "Zona peatonal",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "caption" => "Personas paseando por el Paseo Marítimo",
+        "fuente" => "https://www.viajandoporelmundomundial.com/que-ver-en-castro-urdiales-cantabria/",
+        "fuente_texto" => "viajandoporelmundomundial.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/paseo-maritimo-castro-3.jpg",
+        "src" => "https://cornisacantabrica.com/wp-content/uploads/2023/10/letras-de-Castro-Urdiales.jpeg",
         "alt" => "Atardecer desde el Paseo Marítimo en Castro-Urdiales",
         "caption" => "Atardecer junto al Cantábrico",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://cornisacantabrica.com/donde-ver-el-atardecer-en-castro-urdiales",
+        "fuente_texto" => "cornisacantabrica.com"
     ]
 ];
 ?>

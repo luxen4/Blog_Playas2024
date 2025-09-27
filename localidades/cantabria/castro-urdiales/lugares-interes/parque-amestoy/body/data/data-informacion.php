@@ -18,18 +18,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/parque-amestoy-castro-1.jpg",
+        "src" => "https://media.istockphoto.com/id/1449100228/photo/view-of-the-city-castro-urdiales-spain.jpg?s=612x612&w=0&k=20&c=sXc0JuttXXVVeRPmNwwGRU9c1LWotd4iqRePcf-9hwI=",
         "alt" => "Vista general del Parque Amestoy en Castro-Urdiales",
         "caption" => "Parque Amestoy",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.istockphoto.com/es/fotos/castro-urdiales?page=2",
+        "fuente_texto" => "istockphoto.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/parque-amestoy-castro-2.jpg",
+        "src" => "https://latitudesinfinitas.com/wp-content/uploads/2022/01/Parque-Amestoy.jpg",
         "alt" => "Zona de juegos infantiles en el Parque Amestoy",
         "caption" => "Área de juegos",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://latitudesinfinitas.com/mejores-lugares-que-ver-en-castro-urdiales/",
+        "fuente_texto" => "latitudesinfinitas.com"
     ]
   ]
 ];
@@ -38,18 +38,18 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/parque-amestoy-castro-1.jpg",
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/vista-general-parque-amestoy.jpg",
         "alt" => "Vista general del Parque Amestoy",
         "caption" => "Parque Amestoy",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.istockphoto.com/es/fotos/castro-urdiales?page=2",
+        "fuente_texto" => "istockphoto.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/parque-amestoy-castro-2.jpg",
-        "alt" => "Senderos y zonas verdes en el Parque Amestoy",
-        "caption" => "Senderos y zonas verdes",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "src" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_MbOwukMJ8gJoUkSlFwWstlcez47aK--66A&s",
+        "alt" => "Zonas verdes en el Parque Amestoy",
+        "caption" => "Zonas verdes del Parque Amestoy",
+        "fuente" => "https://viajerosconfesos.com/que-ver-en-castro-urdiales-en-1-o-2-dias-costa-de-cantabria/",
+        "fuente_texto" => "viajerosconfesos.com"
     ],
     [
         "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/parque-amestoy-castro-3.jpg",

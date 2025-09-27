@@ -18,18 +18,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-brazomar-castro-1.jpg",
+        "src" => "https://cloud.inspain.org/imgwbp/playas/4/2/8/4lyotq643sgq7seghdhcstckhq_1000.webp",
         "alt" => "Vista general de la Playa de Brazomar en Castro-Urdiales",
         "caption" => "Playa de Brazomar",
-        "fuente" => "https://turismodecastro.com/",
-        "fuente_texto" => "turismodecastro.com"
+        "fuente" => "https://www.inspain.org/es/cantabria/castro-urdiales/playas/brazomar/fotos/",
+        "fuente_texto" => "inspain.org"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/playa-brazomar-castro-2.jpg",
+        "src" => "https://posadarosalia.com/wp-content/uploads/2013/01/brazomar_casa_rural_Castro_urdiales.jpg",
         "alt" => "Bañistas y sombrillas en la Playa de Brazomar",
         "caption" => "Zona de baño y relax",
-        "fuente" => "",
-        "fuente_texto" => ""
+        "fuente" => "https://posadarosalia.com/playa-de-brazomar-2/",
+        "fuente_texto" => "posadarosalia.com"
     ]
   ],
   "video" => [

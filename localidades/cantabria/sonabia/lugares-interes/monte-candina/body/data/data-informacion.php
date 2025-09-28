@@ -22,11 +22,11 @@ $intro = [
         "fuente_texto" => "cantabriarural.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/sendero-monte-candina.jpg",
-        "alt" => "Sendero de Monte Candina en Sonabia",
-        "caption" => "Ruta de senderismo",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "src" => "https://gailurra.org/wp-content/uploads/2018/08/IMG_0083.jpg",
+        "alt" => "Una de las vistas panorámicas de la ruta",
+        "caption" => "Una de las vistas panorámicas de la ruta",
+        "fuente" => "https://gailurra.org/fitxa/ruta-circular-al-monte-candina/",
+        "fuente_texto" => "gailurra.org"
     ]
   ],
   "video" => [

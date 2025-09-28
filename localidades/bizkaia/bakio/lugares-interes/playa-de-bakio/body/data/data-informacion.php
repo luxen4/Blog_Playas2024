@@ -15,23 +15,23 @@ $intro = [
   ],
   "imagenes" => [
     [
-      "src" => "https://turismovasco.com/wp-content/uploads/2016/05/playa-de-bakio.jpg",
+      "src" => "https://thumbs.dreamstime.com/b/opini%C3%B3n-de-panoramac-la-playa-en-bakio-bizkaia-pa%C3%ADs-vasco-espa%C3%B1a-152272008.jpg",
       "alt" => "Playa de Bakio vista panorámica",
       "caption" => "Playa de Bakio desde el paseo marítimo",
-      "fuente" => "https://turismovasco.com",
-      "fuente_texto" => "turismovasco.com"
+      "fuente" => "https://es.dreamstime.com/opini%C3%B3n-de-panoramac-la-playa-en-bakio-bizkaia-pa%C3%ADs-vasco-espa%C3%B1a-image152272008",
+      "fuente_texto" => "dreamstime.com"
     ],
     [
-      "src" => "https://static1.eskypartners.com/wp-content/uploads/sites/19/2020/09/03142243/Playa-Bakio.jpg",
+      "src" => "https://www.guiasurfskate.com/public/lib/imagen.php?w=600&h=600&mode=resize_x&imagen=/public/storage/spots_surf_galeria/35b3c945baa347c3301b95cb3adda4d5.jpg",
       "alt" => "Zona de surf en la Playa de Bakio",
       "caption" => "Surfistas en Bakio",
-      "fuente" => "https://viajes.eskypartners.com",
-      "fuente_texto" => "eskypartners.com"
+      "fuente" => "https://www.guiasurfskate.com/spots-surf/playa-de-bakio",
+      "fuente_texto" => "guiasurfskate.com"
     ]
   ],
   "video" => [
-    "url" => "https://www.youtube.com/embed/8Y1pRz5dJ_A", // video de la Playa de Bakio
-    "titulo" => "Video de la Playa de Bakio"
+    "url" => "https://www.youtube.com/embed/Jt8zX9TDpkQ", // video de la Playa de Bakio
+    "titulo" => "Video de surf en la Playa de Bakio"
   ]
 ];
 ?>
@@ -40,25 +40,32 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/3e/10/47/playa-de-bakio.jpg?w=1200&h=-1&s=1",
+        "src" => "https://travelschic.com/wp-content/uploads/2020/11/que-ver-en-el-pais-vasco-playa-de-bakio.jpg",
         "alt" => "Playa de Bakio con bañistas",
         "caption" => "Ambiente veraniego en Bakio",
-        "fuente" => "https://tripadvisor.com",
-        "fuente_texto" => "tripadvisor.com"
+        "fuente" => "https://travelschic.com/playa-de-bakio/",
+        "fuente_texto" => "travelschic.com"
     ],
     [
-        "src" => "https://saposyprincesas.elmundo.es/wp-content/uploads/2019/06/playa-de-bakio.jpg",
+        "src" => "https://turismovasco.com/wp-content/uploads/2020/09/playa-de-Bakio-en-verano-Bakio-que-ver-y-hacer.jpg",
         "alt" => "Playa de Bakio con marea baja",
         "caption" => "Playa en marea baja",
-        "fuente" => "https://saposyprincesas.elmundo.es",
-        "fuente_texto" => "saposyprincesas.elmundo.es"
+        "fuente" => "https://turismovasco.com/bizkaia/que-ver-bizkaia/bakio/",
+        "fuente_texto" => "turismovasco.com"
     ],
     [
-        "src" => "https://media.istockphoto.com/id/1137586116/es/foto/panor%C3%A1mica-de-la-playa-de-bakio.jpg?s=612x612",
-        "alt" => "Vista panorámica aérea de Bakio",
-        "caption" => "Bakio desde el aire",
-        "fuente" => "https://istockphoto.com",
-        "fuente_texto" => "istockphoto.com"
+        "src" => "https://images.mnstatic.com/14/2c/142caf8bfb313a7e4cd40e69d52903bd.jpg",
+        "alt" => "Gente disfrutando de la playa de Bakio",
+        "caption" => "Gente disfrutando de la playa de Bakio",
+        "fuente" => "https://www.minube.com/tips/actualidad/maravillate-con-los-lugares-imprescindibles-que-ver-en-bakio",
+        "fuente_texto" => "minube.com"
+    ],
+    [
+        "src" => "https://surfsphere.com/app/uploads/2023/02/bakio-surf-spot-basque-country-north-spain-1600x1200.jpg.webp",
+        "alt" => "Gente disfrutando de la playa de Bakio",
+        "caption" => "Gente disfrutando de la playa de Bakio",
+        "fuente" => "https://surfsphere.com/surf-spot/bakio/",
+        "fuente_texto" => "surfsphere.com"
     ]
 ];
 ?>

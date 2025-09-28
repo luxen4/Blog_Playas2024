@@ -15,11 +15,11 @@ $intro = [
   ],
   "imagenes" => [
     [
-      "src" => "https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/pais-vasco/gaztelugatxe-bizkaia-cabecera-cg.jpg",
-      "alt" => "San Juan de Gaztelugatxe visto desde la costa",
-      "caption" => "Vista panorámica de Gaztelugatxe",
-      "fuente" => "https://spain.info",
-      "fuente_texto" => "spain.info"
+      "src" => "https://www.barcelo.com/guia-turismo/wp-content/uploads/2019/01/san-juan-de-gaztelugatxe-vista.jpg",
+      "alt" => "Vista aerea de San Juan de Gaztelugatxe",
+      "caption" => "Vista aerea de Gaztelugatxe",
+      "fuente" => "https://www.barcelo.com/guia-turismo/es/espana/bilbao/que-ver/san-juan-de-gaztelugatxe/",
+      "fuente_texto" => "barcelo.com"
     ],
     [
       "src" => "https://cdn.civitatis.com/espana/bilbao/galeria/san-juan-gaztelugatxe.jpg",
@@ -30,7 +30,7 @@ $intro = [
     ]
   ],
   "video" => [
-    "url" => "https://www.youtube.com/embed/mRjA8Xz0iSw", 
+    "url" => "https://www.youtube.com/embed/i5V2pzfNfdY", 
     "titulo" => "Video de San Juan de Gaztelugatxe"
   ]
 ];
@@ -40,25 +40,25 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0a/13/7d/caption.jpg?w=1200&h=-1&s=1",
+        "src" => "https://turismo.euskadi.eus/contenidos/h_cultura_y_patrimonio/0000010461_h5_rec_turismo/es_10461/images/GL_sanjuandegaztelugatxeermita.jpg",
         "alt" => "Ermita en lo alto de San Juan de Gaztelugatxe",
         "caption" => "Ermita de San Juan",
-        "fuente" => "https://tripadvisor.com",
-        "fuente_texto" => "tripadvisor.com"
+        "fuente" => "https://turismo.euskadi.eus/es/san-juan-de-gaztelugatxe/webtur00-recursostop/es/",
+        "fuente_texto" => "turismo.euskadi.eus"
     ],
     [
-        "src" => "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/1d/5f/7a.jpg",
+        "src" => "https://turismovasco.com/wp-content/uploads/2022/06/tour-excursion-a-San-Juan-de-Gaztelugatxe-desde-Bilbao.jpg",
         "alt" => "Escalera de piedra hacia San Juan de Gaztelugatxe",
         "caption" => "Escaleras míticas",
-        "fuente" => "https://tripadvisor.com",
-        "fuente_texto" => "tripadvisor.com"
+        "fuente" => "https://turismovasco.com/bizkaia/que-ver-bizkaia/san-juan-de-gaztelugatxe/",
+        "fuente_texto" => "turismovasco.com"
     ],
     [
-        "src" => "https://cdn.getyourguide.com/img/tour/63c2f4f92a8e3.jpeg/146.jpg",
-        "alt" => "Vista aérea de San Juan de Gaztelugatxe",
-        "caption" => "Vista aérea de Gaztelugatxe",
-        "fuente" => "https://getyourguide.com",
-        "fuente_texto" => "getyourguide.com"
+        "src" => "https://turismovasco.com/wp-content/uploads/et_temp/interior-ermita-San-Juan-de-Gaztelugatxe-215729_1024x675.jpg",
+        "alt" => "interior ermita, San Juan de Gaztelugatxe",
+        "caption" => "interior ermita, San Juan de Gaztelugatxe",
+        "fuente" => "https://turismovasco.com/bizkaia/que-ver-bizkaia/san-juan-de-gaztelugatxe/attachment/interior-ermita-san-juan-de-gaztelugatxe/",
+        "fuente_texto" => "turismovasco.com"
     ]
 ];
 ?>

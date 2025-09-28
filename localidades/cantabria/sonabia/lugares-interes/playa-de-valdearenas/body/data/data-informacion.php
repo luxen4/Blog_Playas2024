@@ -39,10 +39,11 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/arena-playa-valdearenas.jpg",
-        "alt" => "Arena dorada en la Playa de Valdearenas",
-        "caption" => "Arena fina y dorada",
-        "fuente_texto" => ".com"
+        "src" => "https://www.viajarporcantabria.com/wp-content/uploads/2013/04/playa_de_valdearenas_liendo.jpg",
+        "alt" => "Vista panorámica de la Playa de Valdearenas",
+        "caption" => "Vista panorámica de la Playa de Valdearenas",
+        "fuente" => "https://www.viajarporcantabria.com/playa-de-valdearenas-arenal-de-sonabia-en-liendo/",
+        "fuente_texto" => "viajarporcantabria.com"
     ],
     [
         "src" => "https://i.ytimg.com/vi/gZrY5EjHLXo/maxresdefault.jpg",
@@ -52,11 +53,11 @@ $galeria_imagenes = [
         "fuente_texto" => "surfmarket.org"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/sendero-playa-valdearenas.jpg",
+        "src" => "https://s2.wklcdn.com/image_132/3970725/35509252/22955441.400x300.jpg",
         "alt" => "Sendero natural que lleva a la Playa de Valdearenas",
         "caption" => "Acceso natural a la playa",
-        "fuente" => "",
-        "fuente_texto" => ".com"
+        "fuente" => "https://es.wikiloc.com/rutas-senderismo/playa-valdearenas-los-pinares-de-liencres-35509251",
+        "fuente_texto" => "wikiloc.com"
     ]
 ];
 ?>

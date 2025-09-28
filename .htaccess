@@ -106,15 +106,14 @@
 
 
 
-
-    RewriteRule ^lugares-interes/faro-de-gorliz-gorliz$ localidades/bizkaia/gorliz/lugares-interes/faro-de-gorliz-gorliz/index.php [L]
-    RewriteRule ^lugares-interes/parque-acuatico-gorliz$ localidades/bizkaia/gorliz/lugares-interes/parque-acuatico-gorliz/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-gorliz-armintza-gorliz$ localidades/bizkaia/gorliz/lugares-interes/ruta-senderista-gorliz-armintza-gorliz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-astondo-gorliz$ localidades/bizkaia/gorliz/lugares-interes/playa-de-astondo/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-gorliz-gorliz$ localidades/bizkaia/gorliz/lugares-interes/faro-de-gorliz/index.php [L]
+    RewriteRule ^lugares-interes/parque-acuatico-gorliz$ localidades/bizkaia/gorliz/lugares-interes/parque-acuatico/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-gorliz-armintza-gorliz$ localidades/bizkaia/gorliz/lugares-interes/ruta-senderista-gorliz-armintza/index.php [L]
     
 
 
-    RewriteRule ^lugares-interes/playa-de-astondo-gorliz$ localidades/bizkaia/gorliz/lugares-interes/playa-de-astondo-gorliz/index.php [L]
-    
+  
 
 
     

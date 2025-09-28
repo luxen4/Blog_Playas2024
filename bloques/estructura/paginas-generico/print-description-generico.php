@@ -33,7 +33,7 @@
   </div>
   
   
-<?php if(isset($intro['video'])): ?>
+<?php /* if(isset($intro['video'])): ?>
 <div class="my-6">
     <iframe class="w-full aspect-video rounded-md shadow" 
             src="<?= $intro['video']['url'] ?>" 
@@ -42,7 +42,34 @@
             allowfullscreen>
     </iframe>
   </div>
+<?php endif; */?>  
+
+<?php if(isset($intro['video'])): ?>
+<div class="my-6">
+    <iframe class="w-full aspect-video rounded-md shadow" 
+            src="<?= $intro['video']['url'] ?>" 
+            title="<?= $intro['video']['titulo'] ?>" 
+            frameborder="0" 
+            allowfullscreen>
+    </iframe>
+    <?php if(!empty($intro['video']['caption']) || !empty($intro['video']['fuente'])): ?>
+      <div class="mt-2 text-sm text-gray-600 text-center">
+        <?php if(!empty($intro['video']['caption'])): ?>
+          <p class="font-medium"><?= $intro['video']['caption'] ?></p>
+        <?php endif; ?>
+        <?php if(!empty($intro['video']['fuente'])): ?>
+          <p>
+            Fuente: <a href="<?= $intro['video']['fuente'] ?>" target="_blank" rel="noopener noreferrer" 
+                      class="text-blue-600 hover:underline">
+                      <?= $intro['video']['fuente_texto'] ?>
+                    </a>
+          </p>
+        <?php endif; ?>
+      </div>
+    <?php endif; ?>
+</div>
 <?php endif; ?>  
+
 
 
 

@@ -10,7 +10,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <?php 
     $region_minuscula = "cantabria";
     $localidad_minuscula = "ajo";
-    $lugares_interesantes = "lugares-interes"; ?>
+    $lugares_interes = "lugares-interes"; ?>
     <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
     <url>
         <loc><?= $baseUrl ?>cantabria/ajo/</loc>
@@ -60,6 +60,186 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <?php $localidad_minuscula = "castro-urdiales"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    <url>
+        <loc><?= $baseUrl ?>cantabria/castro-urdiales/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta; ?>/asador-la-perla/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/castillo-de-santa-ana/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/club-nautico/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/iglesia-santa-maria-de-la-asuncion/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/mirador-de-cotolino/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/palacio-de-ocharan/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/parque-amestoy/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    </url>
+        <url>
+        <loc><?= $ruta ?>/paseo-maritimo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/playa-de-brazomar/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/playa-de-ostende/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    </url>
+        <url>
+        <loc><?= $ruta ?>/playa-el-pedregal/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/plaza-del-ayuntamiento/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/puente-medieval/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    </url>
+        <url>
+        <loc><?= $ruta ?>/puerto-pesquero/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/senderos-costeros-rutas-oficiales/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        
+
+    <?php $localidad_minuscula = "santona"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    <url>
+        <loc><?= $baseUrl ?>cantabria/santona/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta; ?>/faro-del-caballo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/monte-buciero/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/playa-de-berria/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/puerto-de-santona/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+     </url>
+
+    <?php $localidad_minuscula = "sonabia"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    <url>
+        <loc><?= $baseUrl ?>cantabria/sonabia/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta; ?>/monte-candina/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/ojo-del-diablo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/pena-candina/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/playa-de-valdearenas/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+     </url>
+    <?php /*
+    <url>
+        <loc><?= $ruta ?>/playas/playa-de-sonabia/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url> */ ?>
+    
 
 
 <?php /*

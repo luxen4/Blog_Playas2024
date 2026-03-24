@@ -1,5 +1,5 @@
 <?php $lugar_minuscula='puente-medieval'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Puente Medieval de Castro-Urdiales – Historia y Patrimonio en Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre el Puente Medieval de Castro-Urdiales, uno de los símbolos históricos de la villa marinera. Un lugar cargado de historia junto al mar Cantábrico."); ?>

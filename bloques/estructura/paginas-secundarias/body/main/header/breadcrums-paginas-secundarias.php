@@ -15,7 +15,7 @@
     </li>
 
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="/Blog_Playas2026/localidades/cantabria/castro-urdiales/">
+      <a itemprop="item" href="/Blog_Playas2026/cantabria/castro-urdiales/">
         <span itemprop="name"><?= $localidad; ?></span>
       </a>
       <meta itemprop="position" content="3" />

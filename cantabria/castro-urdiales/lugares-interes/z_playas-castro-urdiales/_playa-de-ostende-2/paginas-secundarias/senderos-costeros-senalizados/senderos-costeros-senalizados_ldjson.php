@@ -49,7 +49,7 @@
       "@type": "ListItem",
       "position": 3,
       "name": "Castro-Urdiales",
-      "item": "https://Playas2026.kesug.com/Blog_Playas2026/localidades/cantabria/castro-urdiales/"
+      "item": "https://Playas2026.kesug.com/Blog_Playas2026/cantabria/castro-urdiales/"
     },
     {
       "@type": "ListItem",

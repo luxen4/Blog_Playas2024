@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'pena-candina'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/sonabia/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/sonabia/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Peña Candina – Sonabia, Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre la Peña Candina en Sonabia, Cantabria: impresionantes acantilados, rutas de senderismo y el hogar del mayor buitre leonado marino de Europa."); ?>

@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'monte-candina'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/sonabia/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/sonabia/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Monte Candina – Sonabia, Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre el Monte Candina en Sonabia, Cantabria: una majestuosa montaña costera que alberga la única colonia marina de buitres leonados en Europa."); ?>

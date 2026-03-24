@@ -5,6 +5,11 @@
     # Ajo
     #RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
     #RewriteRule ^ajo-cantabria$                 cantabria/ajo/index.php [L]
+    
+    
+    #RewriteRule ^castro-urdiales-cantabria$     cantabria/castro-urdiales/index.php [L]
+
+
 
     
     RewriteRule ^lugares-interes/faro-de-cabo-de-ajo-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
@@ -26,7 +31,7 @@
     RewriteRule ^lugares-interes/mirador-de-cotolino-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/mirador-de-cotolino/index.php [L]
     
 
-    RewriteRule ^castro-urdiales-cantabria$     localidades/cantabria/castro-urdiales/index.php [L]
+
     RewriteRule ^lugares-interes/asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla/index.php [L]
     RewriteRule ^lugares-interes/castillo-de-santa-ana-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/castillo-de-santa-ana/index.php [L]    
     RewriteRule ^lugares-interes/club-nautico-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/club-nautico/index.php [L]    
@@ -78,13 +83,13 @@
 
     ### Bizkaia ###
     # Bakio
-    RewriteRule ^bakio-bizkaia$ localidades/bizkaia/bakio/index.php [L]
+    RewriteRule ^bakio-bizkaia$ /bizkaia/bakio/index.php [L]
 
 
-    RewriteRule ^lugares-interes/playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/playa-de-bakio/index.php [L]
-    RewriteRule ^lugares-interes/san-juan-de-gaztelugatxe-bakio$ localidades/bizkaia/bakio/lugares-interes/san-juan-de-gaztelugatxe/index.php [L]
-    RewriteRule ^lugares-interes/monte-serantes-bakio$ localidades/bizkaia/bakio/lugares-interes/monte-serantes/index.php [L]
-    RewriteRule ^lugares-interes/surf-en-la-playa-de-bakio-bakio$ localidades/bizkaia/bakio/lugares-interes/surf-en-la-playa-de-bakio/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-bakio-bakio$ /bizkaia/bakio/lugares-interes/playa-de-bakio/index.php [L]
+    RewriteRule ^lugares-interes/san-juan-de-gaztelugatxe-bakio$ /bizkaia/bakio/lugares-interes/san-juan-de-gaztelugatxe/index.php [L]
+    RewriteRule ^lugares-interes/monte-serantes-bakio$ /bizkaia/bakio/lugares-interes/monte-serantes/index.php [L]
+    RewriteRule ^lugares-interes/surf-en-la-playa-de-bakio-bakio$ /bizkaia/bakio/lugares-interes/surf-en-la-playa-de-bakio/index.php [L]
   
 
     #RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
@@ -96,7 +101,7 @@
 
 
     # Gorliz
-    RewriteRule ^gorliz-bizkaia$ localidades/bizkaia/gorliz/index.php [L]
+    RewriteRule ^gorliz-bizkaia$ /bizkaia/gorliz/index.php [L]
 
     # Playa de Gorliz
     RewriteRule ^playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/playa-de-gorliz-vizcaya.php [L]
@@ -108,10 +113,10 @@
 
 
 
-    RewriteRule ^lugares-interes/playa-de-astondo-gorliz$ localidades/bizkaia/gorliz/lugares-interes/playa-de-astondo/index.php [L]
-    RewriteRule ^lugares-interes/faro-de-gorliz-gorliz$ localidades/bizkaia/gorliz/lugares-interes/faro-de-gorliz/index.php [L]
-    RewriteRule ^lugares-interes/parque-acuatico-gorliz$ localidades/bizkaia/gorliz/lugares-interes/parque-acuatico/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-gorliz-armintza-gorliz$ localidades/bizkaia/gorliz/lugares-interes/ruta-senderista-gorliz-armintza/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-astondo-gorliz$ /bizkaia/gorliz/lugares-interes/playa-de-astondo/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-gorliz-gorliz$ /bizkaia/gorliz/lugares-interes/faro-de-gorliz/index.php [L]
+    RewriteRule ^lugares-interes/parque-acuatico-gorliz$ /bizkaia/gorliz/lugares-interes/parque-acuatico/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-gorliz-armintza-gorliz$ /bizkaia/gorliz/lugares-interes/ruta-senderista-gorliz-armintza/index.php [L]
     
 
 
@@ -120,27 +125,27 @@
 
     
     #Ibarrangelu
-    RewriteRule ^ibarrangelu-bizkaia$ localidades/bizkaia/ibarrangelu/index.php [L]
+    RewriteRule ^ibarrangelu-bizkaia$ /bizkaia/ibarrangelu/index.php [L]
 
-    RewriteRule ^lugares-interes/playa-de-laga-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/playa-de-laga/index.php [L]
-    RewriteRule ^lugares-interes/cabo-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/cabo-ogono/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-laga-ogono-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/ruta-senderista-laga-ogono/index.php [L]
-    RewriteRule ^lugares-interes/centro-interpretacion-urdaibai-ibarrangelu$ localidades/bizkaia/ibarrangelu/lugares-interes/centro-interpretacion-urdaibai/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-laga-ibarrangelu$ /bizkaia/ibarrangelu/lugares-interes/playa-de-laga/index.php [L]
+    RewriteRule ^lugares-interes/cabo-ogono-ibarrangelu$ /bizkaia/ibarrangelu/lugares-interes/cabo-ogono/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-laga-ogono-ibarrangelu$ /bizkaia/ibarrangelu/lugares-interes/ruta-senderista-laga-ogono/index.php [L]
+    RewriteRule ^lugares-interes/centro-interpretacion-urdaibai-ibarrangelu$ /bizkaia/ibarrangelu/lugares-interes/centro-interpretacion-urdaibai/index.php [L]
 
 
     # Muskiz
-    RewriteRule ^muskiz-bizkaia$ localidades/bizkaia/muskiz/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena/index.php [L]
-    RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ localidades/bizkaia/muskiz/lugares-interes/castillo-de-munatones/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz$ localidades/bizkaia/muskiz/lugares-interes/ruta-senderista-muskiz-punta-lucero/index.php [L]
-    RewriteRule ^lugares-interes/parque-natural-montes-triano-muskiz$ localidades/bizkaia/muskiz/lugares-interes/parque-natural-montes-triano/index.php [L]
-    RewriteRule ^lugares-interes/paseo-itsaslur-muskiz$     localidades/bizkaia/muskiz/lugares-interes/paseo-itsaslur/index.php [L]
-    RewriteRule ^lugares-interes/zec-ordunte-kbe-muskiz$    localidades/bizkaia/muskiz/lugares-interes/zec-ordunte-kbe/index.php [L]
+    RewriteRule ^muskiz-bizkaia$ /bizkaia/muskiz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ /bizkaia/muskiz/lugares-interes/playa-de-la-arena/index.php [L]
+    RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ /bizkaia/muskiz/lugares-interes/castillo-de-munatones/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-muskiz-punta-lucero-muskiz$ /bizkaia/muskiz/lugares-interes/ruta-senderista-muskiz-punta-lucero/index.php [L]
+    RewriteRule ^lugares-interes/parque-natural-montes-triano-muskiz$ /bizkaia/muskiz/lugares-interes/parque-natural-montes-triano/index.php [L]
+    RewriteRule ^lugares-interes/paseo-itsaslur-muskiz$     /bizkaia/muskiz/lugares-interes/paseo-itsaslur/index.php [L]
+    RewriteRule ^lugares-interes/zec-ordunte-kbe-muskiz$    /bizkaia/muskiz/lugares-interes/zec-ordunte-kbe/index.php [L]
 
 
 
     # Astondo
-    RewriteRule ^playa-de-astondo$ localidades/bizkaia/gorliz/lugares-interes/playas/playa-de-astondo/index.php [L]
+    RewriteRule ^playa-de-astondo$ /bizkaia/gorliz/lugares-interes/playas/playa-de-astondo/index.php [L]
 
 
     RewriteRule ^playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/playa-de-laga-vizcaya.php [L]
@@ -154,10 +159,10 @@
 
 
     # Sopelana
-    RewriteRule ^sopelana-bizkaia$ localidades/bizkaia/sopelana/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/playa-de-arrietara/index.php [L]
-    RewriteRule ^lugares-interes/mirador-de-arrietara-sopelana$ localidades/bizkaia/sopelana/lugares-interes/mirador-de-arrietara/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-sopelana-plentzia-sopelana$ localidades/bizkaia/sopelana/lugares-interes/ruta-senderista-sopelana-plentzia/index.php [L]
+    RewriteRule ^sopelana-bizkaia$ /bizkaia/sopelana/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-arrietara-sopelana$ /bizkaia/sopelana/lugares-interes/playa-de-arrietara/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-arrietara-sopelana$ /bizkaia/sopelana/lugares-interes/mirador-de-arrietara/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-sopelana-plentzia-sopelana$ /bizkaia/sopelana/lugares-interes/ruta-senderista-sopelana-plentzia/index.php [L]
 
 
 
@@ -168,14 +173,14 @@
 
 
     # Plentzia
-    RewriteRule ^plentzia-bizkaia$ localidades/bizkaia/plentzia/index.php [L]
+    RewriteRule ^plentzia-bizkaia$ /bizkaia/plentzia/index.php [L]
 
-    RewriteRule ^lugares-interes/playa-de-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/playa-de-plentzia/index.php [L]
-    RewriteRule ^lugares-interes/puerto-deportivo-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/puerto-deportivo-plentzia/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-plentzia-gorliz-plentzia$ localidades/bizkaia/plentzia/lugares-interes/ruta-senderista-plentzia-gorliz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-plentzia-plentzia$ /bizkaia/plentzia/lugares-interes/playa-de-plentzia/index.php [L]
+    RewriteRule ^lugares-interes/puerto-deportivo-plentzia-plentzia$ /bizkaia/plentzia/lugares-interes/puerto-deportivo-plentzia/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-plentzia-gorliz-plentzia$ /bizkaia/plentzia/lugares-interes/ruta-senderista-plentzia-gorliz/index.php [L]
     
     
-    # RewriteRule ^playa-de-gorliz$ localidades/bizkaia/plentzia/lugares-interes/playas/playa-de-gorliz/index.php [L]
+    # RewriteRule ^playa-de-gorliz$ /bizkaia/plentzia/lugares-interes/playas/playa-de-gorliz/index.php [L]
 
 
 
@@ -411,11 +416,11 @@ RewriteRule ^servicios-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuski
 RewriteRule ^eventos-festividades-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/eventos-festividades-playa-de-muskiz-vizcaya.php [L]
 RewriteRule ^preguntas-frecuentes-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/preguntas-frecuentes-playa-de-muskiz-vizcaya.php [L]
 
-RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ localidades/bizkaia/muskiz/lugares-interes/playa-de-la-arena/index.php [L]
-RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ localidades/bizkaia/muskiz/lugares-interes/castillo-de-munatones/index.php [L]
+RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ /bizkaia/muskiz/lugares-interes/playa-de-la-arena/index.php [L]
+RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ /bizkaia/muskiz/lugares-interes/castillo-de-munatones/index.php [L]
 
 
-#RewriteRule ^lugares-interes/puerto-deportivo-plentzia-plentzia$ localidades/bizkaia/plentzia/lugares-interes/puerto-deportivo-plentzia/index.php [L]
+#RewriteRule ^lugares-interes/puerto-deportivo-plentzia-plentzia$ /bizkaia/plentzia/lugares-interes/puerto-deportivo-plentzia/index.php [L]
     
 
 

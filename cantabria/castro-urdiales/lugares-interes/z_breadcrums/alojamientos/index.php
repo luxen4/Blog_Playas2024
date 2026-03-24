@@ -1,5 +1,5 @@
 <?php lugar_minuscula = 'alojamientos'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/lugares-interes/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/lugares-interes/index-generico.php"; ?>
 
 
 

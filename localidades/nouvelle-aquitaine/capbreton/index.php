@@ -9,7 +9,7 @@
 <?php define('KEYWORDS_CONTENT', 'Plage Centrale, Capbreton, turismo Nueva Aquitania, playas de Las Landas, surf en Francia, costa atlántica francesa, naturaleza en Capbreton'); ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
+<?php require PATH_HREF_RAIZ_REGION_LOCALIDAD . "/head/variables/meta_tags.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php"; ?>
 
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/{$region_minuscula}/variables-generales-region.php"; ?>

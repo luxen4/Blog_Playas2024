@@ -12,8 +12,8 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/gipuzkoa/deba/variables-localidad.php"; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
+<?php require PATH_HREF_RAIZ_REGION_LOCALIDAD . "/head/variables/meta_tags.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bizkaia/bakio/head/variables/variables/data-generico.php";  ?>
 
 
 <!DOCTYPE html>

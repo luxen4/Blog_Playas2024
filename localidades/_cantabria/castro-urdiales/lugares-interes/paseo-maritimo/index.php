@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'paseo-maritimo'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Paseo Marítimo – Castro Urdiales, Cantabria"); ?>
 <?php define('DESCRIPTION', "Disfruta del Paseo Marítimo de Castro Urdiales, Cantabria: vistas al mar Cantábrico, ambiente relajado, paseos junto al puerto y la playa."); ?>

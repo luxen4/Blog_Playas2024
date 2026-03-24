@@ -4,6 +4,7 @@
 <?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
 
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2026"); ?>
+<?php define('PATH_HREF_RAIZ_REGION_LOCALIDAD', PATH_HREF_RAIZ.'/'.$region_minuscula.'/'.$localidad_minuscula); ?>
 <?php //define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
 
 <?php

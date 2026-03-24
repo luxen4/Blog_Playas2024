@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'faro-del-caballo'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/santona/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/santona/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Faro del Caballo – Santoña, Cantabria"); ?>
 <?php define('DESCRIPTION', "Explora el Faro del Caballo en Santoña, Cantabria: un faro histórico al que se accede por una espectacular escalera tallada en el acantilado, con vistas únicas a la bahía y el mar Cantábrico."); ?>

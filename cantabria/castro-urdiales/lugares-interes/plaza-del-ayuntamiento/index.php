@@ -1,5 +1,5 @@
 <?php  $lugar_minuscula = 'plaza-del-ayuntamiento'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Plaza del Ayuntamiento – Castro Urdiales, Cantabria"); ?>
 <?php define('DESCRIPTION', "Visita la Plaza del Ayuntamiento de Castro Urdiales, Cantabria: centro histórico, arquitectura emblemática y ambiente local junto al mar. Un lugar lleno de vida y encanto."); ?>

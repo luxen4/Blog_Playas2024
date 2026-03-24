@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'puerto-de-santona'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/santona/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/santona/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Puerto de Santoña – Santoña, Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre el Puerto de Santoña en Cantabria: un puerto pesquero activo con tradición marítima, paseos marítimos y vistas al mar Cantábrico."); ?>

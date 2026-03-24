@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'parque-amestoy'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Parque Amestoy – Castro Urdiales, Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre el Parque Amestoy en Castro Urdiales, un espacio verde ideal para paseos, ocio y contacto con la naturaleza en pleno corazón de Cantabria."); ?>

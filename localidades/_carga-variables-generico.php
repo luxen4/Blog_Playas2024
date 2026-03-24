@@ -7,4 +7,4 @@
 
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD . '/graph_Meta_Tags_property-generico.php'; ?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_HEAD . '/variables-especiales.php'; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bizkaia/bakio/head/variables/variables/data-generico.php";  ?>

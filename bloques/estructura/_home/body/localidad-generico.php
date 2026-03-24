@@ -3,7 +3,7 @@
     <a 
         <?php
         if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-            href="<?= PATH_HREF_RAIZ.'/'.$localidad_minuscula.'-'.$region_minuscula ?>"<?php
+            href="<?= PATH_HREF_RAIZ.'/'.$region_minuscula.'/'.$localidad_minuscula ?>"<?php
         } else { ?>
             href= <?= "/Blog_Playas2026/".$region_minuscula."/".$localidad_minuscula."/"; }?>
 

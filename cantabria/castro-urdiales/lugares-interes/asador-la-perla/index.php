@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'asador-la-perla'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Asador La Perla en Castro-Urdiales – Gastronomía y Mar en Cantabria 2025"); ?>
 <?php define('DESCRIPTION', "El Asador La Perla en Castro-Urdiales: cocina tradicional cántabra con pescados frescos, carnes a la brasa y vistas únicas al mar Cantábrico. Una experiencia gastronómica en la costa de Cantabria."); ?>

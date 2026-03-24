@@ -90,7 +90,7 @@
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA',                           PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_DATA',                           PATH_RAIZ_LOCALIDADES_CARPETA. "/data"); ?>
 
-<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes"); ?>
+<?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES',                     PATH_RAIZ. "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes"); ?>
 
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY',                     PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes/{$lugar_minuscula}/body"); ?>
 <?php define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY_MAIN',                PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY. "/main"); ?>
@@ -135,6 +135,7 @@
 
 
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2026"); ?>
+<?php define('PATH_HREF_RAIZ_REGION_LOCALIDAD', PATH_HREF_RAIZ.'/'.$region_minuscula.'/'.$localidad_minuscula); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/Blog_Playas2026/localidades"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD', PATH_HREF_RAIZ_LOCALIDADES ."/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2026/bloques"); ?>

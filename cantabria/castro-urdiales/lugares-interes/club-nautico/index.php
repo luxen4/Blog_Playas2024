@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'club-nautico'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Club Náutico – Castro Urdiales, Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre el Club Náutico de Castro Urdiales: deportes náuticos, actividades acuáticas y un entorno privilegiado junto al puerto."); ?>

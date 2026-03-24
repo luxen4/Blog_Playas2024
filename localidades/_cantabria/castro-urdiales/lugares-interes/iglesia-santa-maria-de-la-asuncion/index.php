@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'iglesia-santa-maria-de-la-asuncion'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Iglesia de Santa María de la Asunción – Castro Urdiales, Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre la Iglesia de Santa María de la Asunción en Castro Urdiales, un imponente templo gótico con siglos de historia y vistas privilegiadas al Cantábrico."); ?>

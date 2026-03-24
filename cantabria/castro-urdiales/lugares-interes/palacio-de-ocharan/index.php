@@ -1,5 +1,5 @@
 <?php $lugar_minuscula = 'palacio-de-ocharan'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/castro-urdiales/data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/data/data-localidad.php"; ?>
 
 <?php define('TITLE', "Palacio de Ocharan – Castro Urdiales, Cantabria"); ?>
 <?php define('DESCRIPTION', "Descubre el Palacio de Ocharan en Castro Urdiales, una joya arquitectónica modernista rodeada de jardines y con una historia fascinante en la costa cántabra."); ?>

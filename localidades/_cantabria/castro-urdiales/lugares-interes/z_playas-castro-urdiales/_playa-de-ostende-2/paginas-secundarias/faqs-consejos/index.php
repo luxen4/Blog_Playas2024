@@ -1,2 +1,0 @@
-<?php $title='Faqs-Consejos'; lugar_minuscula='faqs-consejos'; COLOR_PAGE = 'orange'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/playa-de-ostende/paginas-secundarias/previo.php"; ?>

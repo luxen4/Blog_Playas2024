@@ -1,4 +1,4 @@
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php //require PATH_RAIZ_LOCALIDADES_CARPETA_LUGAR . "/site-verification-content.php"; ?>
 <?php //require PATH_DOMINIO_RAIZ . "bloques/estructura/paginas-localidad/head/variables/meta_tags.php"; //Meter este generico?>
 <?php //require PATH_DOMINIO_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LOCALIDAD_HEAD_VARIABLES . "/meta_tags.php"; ?>

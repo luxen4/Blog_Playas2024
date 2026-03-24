@@ -5,8 +5,9 @@
   <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-head.php"; ?>
 
 
-  <?php
-$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/{$localidad_minuscula}/schemas/schemas-head.php";
+<?php // OK
+$pathConPlayas = $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/" .$region_minuscula."/".$localidad_minuscula."/lugares-interes/".$lugar_minuscula."/schemas/schemas-head.php";
+//$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/".$lugar_minuscula."/schemas/schemas-head.php"; 
 $pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/schemas/schemas-head.php"; 
 //var_dump($pathConPlayas, $pathSinPlayas);
 

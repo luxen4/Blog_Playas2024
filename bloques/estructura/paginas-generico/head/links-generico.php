@@ -34,7 +34,7 @@
 <link rel="icon" href="path/to/icono-sombrilla.png" type="image/png">
 <link rel="icon" href="path/to/icono-sombrilla.svg" type="image/svg+xml"> */?>
 
-<?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2025/<?= $url_amigable;?>" />*/?>
+<?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2026/<?= $url_amigable;?>" />*/?>
 
 <!-- Alternate Languages -->
 <link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
@@ -54,7 +54,7 @@
 <!-- Fuentes y estilos -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<?php /*<link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2025/styles.css">*/?>
+<?php /*<link rel="stylesheet" href="https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/styles.css">*/?>
 
  <!-- ✅ Carga Tailwind CSS desde CDN -->
   <script src="https://cdn.tailwindcss.com"></script>

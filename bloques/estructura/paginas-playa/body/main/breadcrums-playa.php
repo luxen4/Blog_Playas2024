@@ -1,6 +1,6 @@
 <?php
 if (!defined('PATH_HREF_RAIZ_LOCALIDAD')) {
-    define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2025/localidades/{$region_minuscula}/{$localidad_minuscula}");
+    define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}");
 }
 ?>
 
@@ -14,7 +14,7 @@ if (!defined('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES')) {
   <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="flex flex-wrap space-x-1 text-base font-semibold text-gray-700">
     
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
-      <a itemprop="item" href="/Blog_Playas2025/index.php" class="hover:underline hover:text-blue-600">
+      <a itemprop="item" href="/Blog_Playas2026/" class="hover:underline hover:text-blue-600">
         <span itemprop="name">Inicio</span>
       </a>
       <meta itemprop="position" content="1" />
@@ -24,7 +24,7 @@ if (!defined('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES')) {
     </li>
 
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
-      <a itemprop="item" href="/Blog_Playas2025/index.php#<?= $region; ?>" class="hover:underline hover:text-blue-600">
+      <a itemprop="item" href="/Blog_Playas2026/#<?= $region; ?>" class="hover:underline hover:text-blue-600">
         <span itemprop="name"><?= $region; ?></span>
       </a>
       <meta itemprop="position" content="2" />
@@ -34,7 +34,7 @@ if (!defined('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES')) {
     </li>
 
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">
-      <a itemprop="item" href="/Blog_Playas2025/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/index.php" class="hover:underline hover:text-blue-600">
+      <a itemprop="item" href="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/" class="hover:underline hover:text-blue-600">
         <span itemprop="name"><?= $localidad; ?></span>
       </a>
       <meta itemprop="position" content="3" />

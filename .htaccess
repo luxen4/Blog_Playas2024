@@ -1,9 +1,11 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    #RewriteBase /Blog_Playas2025/
+    #RewriteBase /Blog_Playas2026/
     
     # Ajo
-    RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
+    #RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
+    #RewriteRule ^ajo-cantabria$                 cantabria/ajo/index.php [L]
+
     
     RewriteRule ^lugares-interes/faro-de-cabo-de-ajo-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
     RewriteRule ^lugares-interes/playa-de-cuberris-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-cuberris/index.php [L]

@@ -2,7 +2,7 @@
 
 
 
-  <?php define('LUGAR', 'Turismo y Playas 2025'); ?>
+  <?php define('LUGAR', 'Turismo y Playas 2026'); ?>
   <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define(
     'KEYWORDS_CONTENT', 
@@ -23,11 +23,11 @@
 
   $author_content = 'Adrián Laya García'; 
 ?>
-<?php define('TITLE', "Turismo y Playas 2025 – Guía Costera por el Cantábrico}"); ?>
+<?php define('TITLE', "Turismo y Playas 2026 – Guía Costera por el Cantábrico}"); ?>
 <?php define('DESCRIPTION', "Recorre la Ruta de la Costa Oriental en Ajo: senderos naturales, acantilados, faros y vistas panorámicas del Cantábrico en una experiencia inolvidable."); ?>
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_HOME_HEAD_VARIABLES . "/meta-tags.php"; ?>
 
 <!DOCTYPE html>
@@ -106,7 +106,7 @@
 
 <header class="bg-<?= COLOR_PAGE; ?>-100 text-center py-4 mt-1 text-<?= COLOR_PAGE; ?>-800 shadow-inner">
   <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
-    Turismo y Playas 2025 – Guía Costera por el Cantábrico
+    Turismo y Playas 2026 – Guía Costera por el Cantábrico
   </h1>
 </header>
 
@@ -195,8 +195,8 @@ if0_38843592
 PASSWORD
 5HJqjWqYLP4k
 
-http://playas2025.kesug.com/Blog_Playas2025/
-https: //playas2025.kesug.com/Blog_Playas2025/
+http://Playas2026.kesug.com/Blog_Playas2026/
+https: //Playas2026.kesug.com/Blog_Playas2026/
 
 
 

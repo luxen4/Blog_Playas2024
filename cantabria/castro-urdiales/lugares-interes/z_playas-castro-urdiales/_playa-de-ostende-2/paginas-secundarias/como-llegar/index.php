@@ -1,0 +1,2 @@
+<?php $title='Eventos y Festividades'; lugar_minuscula='eventos-festividades'; COLOR_PAGE = 'orange'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/cantabria/playa-de-ostende/paginas-secundarias/previo.php"; ?>

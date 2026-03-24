@@ -1,10 +1,75 @@
 <?php
 header("Content-Type: application/xml; charset=UTF-8");
-$baseUrl = "http://playas2024.kesug.com/Blog_Playas2025/";
+$baseUrl = "http://alayag82.kesug.com/Blog_Playas2026";
 $fechaHoy = date("Y-m-d");
 echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    <?php 
+    $region_minuscula = "cantabria";
+    $localidad_minuscula = "ajo";
+    $lugares_interesantes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    <url>
+        <loc><?= $baseUrl ?>cantabria/ajo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $baseUrl ?>cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/acantilados-de-cabo-de-ajo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc><?= $ruta ?>/faro-de-cabo-de-ajo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/playa-de-antuerta/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/playa-de-cuberris/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/ruta-de-la-costa-oriental/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        <url>
+        <loc><?= $ruta ?>/z_mirador-del-cabo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+<?php /*
+    <url>
+        <loc><?= $baseUrl ?>cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
 
     <url>
         <loc><?= $baseUrl ?>playa-de-ostende-castro-urdiales-cantabria</loc>
@@ -84,14 +149,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-    </url>
+    </url> */ ?>
 
 </urlset>
 
 <?php /*
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-somo-loredo-somo-cantabria</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-somo-loredo-somo-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -105,7 +170,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-noja-cantabria</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-noja-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -115,7 +180,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/actividades-playa-de-noja-cantabria</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/actividades-playa-de-noja-cantabria</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -126,35 +191,35 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-berria-cantabria</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-berria-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-sardinero-santander</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-sardinero-santander</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-laredo-cantabria</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-laredo-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-isla-cantabria</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-isla-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-suances-cantabria</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-suances-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -167,56 +232,56 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
     <!-- Vizcaya -->
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-gorliz-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-gorliz-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-getxo-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-getxo-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-bakio-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-bakio-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-lekeitio-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-lekeitio-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-sopelana-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-sopelana-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-muskiz-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-muskiz-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-plentzia-vizcaya</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-plentzia-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -227,42 +292,42 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <!-- Guipuzkoa -->
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-fuenterrabia-gipuzkoa</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-fuenterrabia-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-zumaia-gipuzkoa</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-zumaia-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-getaria-gipuzkoa</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-getaria-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url> 
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-deba-gipuzkoa</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-deba-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>  
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-orio-gipuzkoa</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-orio-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>   
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-zarautz-gipuzkoa</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-zarautz-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -272,28 +337,28 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <!-- Francia -->
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-bayona-francia</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-bayona-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-hendaya-francia</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-hendaya-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-saint-jean-de-luz-francia</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-saint-jean-de-luz-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>http://playas2024.kesug.com/Blog_Playas2025/playa-de-biarritz-francia</loc>
+        <loc>http://playas2024.kesug.com/Blog_Playas2026/playa-de-biarritz-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

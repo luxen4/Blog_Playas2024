@@ -5,8 +5,11 @@
         if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
             href="<?= PATH_HREF_RAIZ.'/'.$localidad_minuscula.'-'.$region_minuscula ?>"<?php
         } else { ?>
-            href= <?= PATH_HREF_RAIZ_LOCALIDADES ."/{$region_minuscula}/{$localidad_minuscula}/index.php"; }?>
+            href= <?= "/Blog_Playas2026/".$region_minuscula."/".$localidad_minuscula."/"; }?>
+
+
             class="hover:text-<?= COLOR_PAGE; ?>-600 transition-colors duration-200">
         <?= $localidad; ?>
     </a>
 </h3>
+

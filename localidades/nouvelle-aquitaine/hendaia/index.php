@@ -1,5 +1,5 @@
 <?php $localidad = 'Hendaia'; $lugar_minuscula = 'hendaia'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/nouvelle-aquitaine/variables-generales-region.php"; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/nouvelle-aquitaine/variables-generales-region.php"; ?>
 
 <?php define('TITLE', "Hendaya – Turismo y Playa de Ondarraitz 2025"); ?>
 <?php define('DESCRIPTION', "Descubre la Playa de Ondarraitz en Hendaya, Nueva Aquitania: un arenal de más de 3 km con arena fina, aguas tranquilas y un entorno ideal para familias, deportes acuáticos y paseos frente al mar."); ?>
@@ -8,11 +8,11 @@
 <?php define('LUGAR_MINUSCULA', 'hendaya'); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Ondarraitz, Hendaya, turismo Nueva Aquitania, playas del País Vasco francés, costa vasco-francesa, naturaleza en Hendaya, frontera con España'); ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php"; ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php"; ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/{$region_minuscula}/variables-generales-region.php"; ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -28,7 +28,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[url('/Blog_Playas2025/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

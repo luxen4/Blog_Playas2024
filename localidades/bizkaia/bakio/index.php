@@ -1,5 +1,5 @@
 <?php $localidad = 'Bakio'; $lugar_minuscula = 'Bakio'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/bizkaia/variables-generales-region.php";?>
 
 <?php define('TITLE', "Bakio – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre la Playa de Bakio, en Bizkaia: un arenal amplio ideal para surfistas y familias, rodeado de montañas verdes y cercano a San Juan de Gaztelugatxe."); ?>
@@ -8,8 +8,8 @@
 <?php define('LUGAR_MINUSCULA', 'bakio') ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Bakio, Bizkaia, surf, turismo Bizkaia, playas del País Vasco, San Juan de Gaztelugatxe, naturaleza Bizkaia') ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/bizkaia/bakio/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/bizkaia/bakio/variables-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
 
@@ -29,7 +29,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[url('/Blog_Playas2025/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

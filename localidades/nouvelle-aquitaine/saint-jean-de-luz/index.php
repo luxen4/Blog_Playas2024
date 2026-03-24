@@ -1,5 +1,5 @@
 <?php $localidad = 'Saint-Jean-de-Luz'; $lugar_minuscula = 'saint-jean-de-luz'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/nouvelle-aquitaine/variables-generales-region.php";?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/nouvelle-aquitaine/variables-generales-region.php";?>
 
 <?php define('TITLE', "Saint-Jean-de-Luz – Turismo y Naturaleza en País Vasco Francés 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Saint-Jean-de-Luz, un pintoresco municipio del País Vasco Francés con playas, gastronomía local y un ambiente encantador junto al mar."); ?>
@@ -8,11 +8,11 @@
 <?php define('LUGAR_MINUSCULA', 'saint-jean-de-luz') ?>
 <?php define('KEYWORDS_CONTENT', 'Saint-Jean-de-Luz, País Vasco Francés, playas, turismo, gastronomía, costa atlántica') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/{$region_minuscula}/variables-generales-region.php"; ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/{$region_minuscula}/variables-generales-region.php"; ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -28,7 +28,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[url('/Blog_Playas2025/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

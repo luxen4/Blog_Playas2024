@@ -4,9 +4,9 @@
     <a
         <?php /* Para amigables URLs */
         if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-            href="/Blog_Playas2025/lugares-interes/<?php echo $lugar['slug'] . '-' . $localidad_minuscula; ?>" <?php
+            href="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug'] . '/'; ?>" <?php
         } else { ?>
-            href=<?php echo PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD . "/lugares-interes/{$lugar['slug']}/index.php";
+            href="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug']; ?>/"; <?php
         } ?>
         class="btn btn-success btn-sm px-3 py-2 shadow-sm">Explorar &rarr;
     </a>

@@ -1,5 +1,5 @@
 <?php $localidad = 'Muskiz'; $lugar_minuscula = 'muskiz'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/localidades/bizkaia/variables-generales-region.php";?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/bizkaia/variables-generales-region.php";?>
 
 <?php define('TITLE', "Muskiz – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Muskiz, un municipio industrial y natural en Bizkaia, con historia minera, espacios verdes y su costa en el País Vasco."); ?>
@@ -8,8 +8,8 @@
 <?php define('LUGAR_MINUSCULA', 'muskiz') ?>
 <?php define('KEYWORDS_CONTENT', 'Muskiz, Bizkaia, municipio, turismo Bizkaia, naturaleza Euskadi, historia minera') ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2025/localidades/bizkaia/muskiz/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2025/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/bizkaia/muskiz/variables-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA . "/head/variables/meta_tags.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES . "/data-generico.php";  ?>
 
@@ -29,7 +29,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[url('/Blog_Playas2025/anuncios/assets/img/fondos/naturaleza-industrial.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/naturaleza-industrial.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

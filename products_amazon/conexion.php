@@ -6,12 +6,12 @@ if ($servername == "localhost"){
     $servername = "localhost";
     $username = "root";
     $password = ""; // Cambia esto si tu usuario de MySQL tiene una contraseña
-    $dbname = "blogplayas2025_db";
+    $dbname = "blogPlayas2026_db";
 } elseif($servername == "playas2024.kesug.com"){
     $servername = "sql301.byetcluster.com";
     $username = "if0_36676672";
     $password = "bfsgEjznrBWCKzj";
-    $dbname = "if0_36676672_blog_playas2025";
+    $dbname = "if0_36676672_Blog_Playas2026";
 }
 
 try {

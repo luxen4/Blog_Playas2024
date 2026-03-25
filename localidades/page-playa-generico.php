@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <?php require PATH_RAIZ_LOCALIDADES . "/_estructura/head/head-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
     </head>
 
     <body class="bg-<?= COLOR_PAGE; ?>-100">

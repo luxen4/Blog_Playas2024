@@ -4,7 +4,7 @@
 
 <?php // $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
 <main class="bg-emerald-50 min-h-screen p-4 md:p-10">
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
+  <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
 
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-header-generico.php'; ?>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-description-generico.php'; ?>

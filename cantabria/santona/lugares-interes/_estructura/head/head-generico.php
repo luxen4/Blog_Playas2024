@@ -1,5 +1,5 @@
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
   <title><?= $title; ?></title>
   <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/scripts-generico.php"; ?>
   <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-head.php"; ?>

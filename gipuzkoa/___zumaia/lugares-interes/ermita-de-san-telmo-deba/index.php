@@ -18,4 +18,4 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('KEYWORDS_CONTENT', 'Ermita de San Telmo, Deba, Gipuzkoa, costa vasca, miradores, rutas de senderismo, turismo cultural, iglesia en acantilado, mar Cantábrico') ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico-lugares-interes.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>
+<?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>

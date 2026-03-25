@@ -1,12 +1,13 @@
 <div class="container-xxl py-4">
   <div class="row">
     <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
-      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/main-generico.php'; ?>
+      <?php require PATH_RAIZ . '/_estructura/semantica/body/main-generico.php'; ?>
       <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY . '/main.php'; ?>
     </div>
 
     <div class="col-xl-3 col-lg-4 col-md-4 d-none d-md-block sidebar-anuncios">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
+                <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
     </div>
   </div>
 </div>

@@ -1,5 +1,5 @@
 <main>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
   <h1 class="text-2xl md:text-3xl font-semibold text-emerald-600 mb-4">
     ⛪ Ermita de San Telmo en Deba:
     <span class="block mt-1 text-base md:text-lg text-emerald-500 font-normal">

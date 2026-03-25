@@ -33,13 +33,12 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
           </div>
         </header>
 
-        <?php require PATH_RAIZ . "/".$region_minuscula."/".$localidad_minuscula."/lugares-interes/cards.php"; ?>
-        <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
-        <?php require PATH_RAIZ . "/_estructura/semantica/boton-volver-al-inicio.php"; ?>
+        <?php require PATH_RAIZ . "/_estructura/semantica/body/lugares-interes-generico.php"; ?>
       </div>
 
       <div class="col-4 col-md-3 d-none d-md-block">
-        <?php require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+                <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
       </div>
     </div>
   </div>

@@ -6,9 +6,9 @@
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
   <link rel="canonical" href="<?= PATH_HREF_RAIZ_LOCALIDADES; ?>/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar_minuscula; ?>/index.php" />
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
   <title>Monte Buciero - Santoña, Cantabria</title>
 
   <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/{$lugar_minuscula}/schemas/schemas-head.php"; ?>
@@ -22,7 +22,7 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 py-1">  
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
 
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center">
@@ -107,7 +107,7 @@
     <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.4500, -3.4400], 14); // Coordenadas aproximadas Monte Buciero

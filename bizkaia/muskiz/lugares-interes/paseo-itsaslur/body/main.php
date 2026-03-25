@@ -1,5 +1,5 @@
 <main class="bg-green-50 min-h-screen p-4 md:p-8">
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
+  <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
 
   <h1 class="text-2xl md:text-3xl font-semibold text-green-600 mb-4">
     🚶‍♂️ Paseo Itsaslur:

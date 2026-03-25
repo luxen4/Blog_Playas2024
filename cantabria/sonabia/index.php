@@ -9,15 +9,9 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
-  <title>Sonabia – Guía Turística y Naturaleza</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
-  <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
-  <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
-</head>
+    <head>
+        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+    </head>
 
 
 <body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
@@ -26,7 +20,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
       <!-- Columna izquierda (principal) -->
       <div class="col-lg-8">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/breadcrums-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
 
         <header class="mb-10">
           <div class="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-400 text-white text-center p-8 rounded-lg shadow-lg">
@@ -41,19 +35,18 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
           </div>
         </header>
 
-        <?php  require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/lugares-interes-sonabia-cards.php"; ?>
-        <?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/boton-volver-al-inicio.php"; ?>
+        <?php require PATH_RAIZ . "/_estructura/semantica/body/lugares-interes-generico.php"; ?>
       </div>
 
       <div class="col-4 col-md-3 d-none d-md-block">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
+                <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
       </div>
 
     </div>
   </div>
 
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

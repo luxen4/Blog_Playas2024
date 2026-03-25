@@ -21,4 +21,4 @@
     lugar_minuscula_footer    = '- ' . LUGAR . ' -'; 
 ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php"; ?>
+<?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>

@@ -87,8 +87,8 @@
 
 
 
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/etiquetas-meta.php"; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD . "/links-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
   <title><?= $title; ?></title>
   <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
 
@@ -161,7 +161,8 @@
       </div>
 
       <div class="col-12 col-md-3 d-none d-md-block">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
+                <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
       </div>
     </div> 
   </main>
@@ -169,7 +170,7 @@
   <?php // require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
 
 
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
 
   <?php //require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
   <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>

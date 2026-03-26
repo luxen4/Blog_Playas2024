@@ -176,8 +176,8 @@
   <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>
   <?php require PATH_RAIZ_BLOQUES . "/control/control-visitas.php"; ?>
 
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/anuncios-add-cash.php"; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
+  <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/"; ?>
+  <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
 </body>
 </html>
 

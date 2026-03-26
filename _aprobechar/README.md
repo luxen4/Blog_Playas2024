@@ -1,1 +1,0 @@
-# Blog_Playas2026

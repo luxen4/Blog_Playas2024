@@ -2,5 +2,5 @@
 User-agent: *
 Disallow: /downloads/
 
-Sitemap: https://playas2024.kesug.com/Blog_Playas2026/sitemap.php
-# sitemap: http://playas2024.kesug.com/Blog_Playas2026/sitemap.php
+Sitemap: https://alayag82.kesug.com/Blog_Playas2026/sitemap.php
+# sitemap: http://alayag82.kesug.com/Blog_Playas2026/sitemap.php

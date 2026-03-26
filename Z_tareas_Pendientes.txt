@@ -4,26 +4,9 @@ https://www.youtube.com/watch?v=0FDL5O7JkV0  Cristina Aguilera Remix
 https://beach-searcher.es/es/spain/autonomous-community-of-the-basque-country/biscay/177434/gorliz
 https://ibilkat.blogspot.com/2018/03/astondo.html
 
-Páginas:
--Index:
-    -Rutas amigables de las localidades
-    
--Localidad:
-    -Lugares interés de cada localidad
-        Imagenes de Presentación
-        Rutas amigables
-
--Lugar de interés: 
-    Todos con imágenes y código uniforme y simplificado
-    Ajo
-
-
+-Rutas amigables de las localidades
 
 Tareas Pendientes
-
-
-
-
 Carrusel con el primer item con las camisas mirando a la izda.
 Preparar todas las imágenes y enlaces para los carruseles, de acuerdo con los productos de cada categoría.
 Preparar ids para las direcciones de las imágenes de cada producto.
@@ -43,16 +26,8 @@ Carrusel de 2 items de 4 artículos que se cambien sus mismas fotografias (posic
 Anuncios de Temu y otras plataformas.
 
 
-Empezar con Playa de Laga
-
-
-
 Repartir más el espacio para que no se junten las fotos de publicidad y del blog.
     4.- Palacio de ocharan.  Menos párrafos; Fotos repartidas
-
-
-
-
 
     // Meter esta 
 // https://www.amazon.es/HISDERN-Camisa-Hawaiana-Hombre-Camisas/dp/B0BZ7GS91B?pd_rd_w=A2Cpx&content-id=amzn1.sym.7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_p=7d8190a3-4976-4a6e-a163-4b93400f9ccc&pf_rd_r=CX759DB09W9YW15XZB1Z&pd_rd_wg=HZuSj&pd_rd_r=7d6ebf7e-94e1-447c-96c1-5a32f5d7ca87&pd_rd_i=B09V2FG11J&th=1&linkCode=sl1&tag=adrian8204-21&linkId=88405fad94fde5c9c46bd6a0cd31f99d&language=es_ES&ref_=as_li_ss_tl&psc=1

@@ -53,5 +53,5 @@ if (!defined('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV')) {
 
 <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
 <?php //require PATH_RAIZ_ANUNCIOS . "/pop-up-publicitario2.php"; ?>              <?php /* <!-- Scripts anuncios POP-UPS --> */?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . '/anuncios/js/logica_anuncios.php'; ?>
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . '/js_bootstrap/scripts-bootstrap.php'; ?>
+<?php require PATH_RAIZ . '/_estructura/publicidad/_anuncios/js\logica_anuncios.php'; ?>
+<?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . '/js_bootstrap/scripts-bootstrap.php'; Se encuentra con ___ borrar?>

@@ -389,21 +389,21 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     </url>
 
     <url>
-        <loc><?= $rutal ?>/museo-vasco-de-la-historia-de-baiona/</loc>
+        <loc><?= $ruta ?>/museo-vasco-de-la-historia-de-baiona/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= $rutal ?>/playa-de-a-ladeira/</loc>
+        <loc><?= $ruta ?>/playa-de-a-ladeira/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= $rutal ?>/puente-saint-sprit/</loc>
+        <loc><?= $ruta ?>/puente-saint-sprit/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -497,14 +497,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     </url>
 
     <url>
-        <loc><?= $rutal ?>/plage-centrale/</loc>
+        <loc><?= $ruta ?>/plage-centrale/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= $rutal ?>/puerto-pesquero/</loc>
+        <loc><?= $ruta ?>/puerto-pesquero/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -540,14 +540,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     </url>
 
     <url>
-        <loc><?= $rutal ?>/playa-de-ondarraitz/</loc>
+        <loc><?= $ruta ?>/playa-de-ondarraitz/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= $rutal ?>/puerto-deportivo/</loc>
+        <loc><?= $ruta ?>/puerto-deportivo/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -583,14 +583,14 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     </url>
 
     <url>
-        <loc><?= $rutal ?>/la-grande-plage/</loc>
+        <loc><?= $ruta ?>/la-grande-plage/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= $rutal ?>/puerto-pesquero/</loc>
+        <loc><?= $ruta ?>/puerto-pesquero/</loc>
         <lastmod><?= $fechaHoy ?></lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

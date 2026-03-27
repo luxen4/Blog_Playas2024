@@ -1,6 +1,6 @@
 <?php
 $nombre_playa             = 'Grande Plage de Biarritz';
-$nombre_playa_minuscula   = 'grande-plage-biarritz';
+$nombre_playa_minuscula   = 'grande-plage';
 $localidad_minuscula                  = 'grandeplagebiarritz';
 
 $localidad                = 'Biarritz';

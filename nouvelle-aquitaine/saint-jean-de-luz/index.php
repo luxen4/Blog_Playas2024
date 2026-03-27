@@ -21,10 +21,6 @@
         <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
     </head>
 
-  <head>
-    <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/_estructura/head/head-generico.php"; ?>
-  </head>
-
 <body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">

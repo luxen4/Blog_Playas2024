@@ -251,7 +251,7 @@
     RewriteRule ^playa-de-la-grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
     
 
-    RewriteRule ^lugares-interes/rocher-de-la-vierge-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/rocher-de-la-vierge-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/rocher-de-la-vierge$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/rocher-de-la-vierge/index.php [L]
     RewriteRule ^lugares-interes/grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/grande-plage-biarritz/index.php [L]
     RewriteRule ^lugares-interes/faro-de-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/faro-de-biarritz/index.php [L]
     RewriteRule ^lugares-interes/museo-del-mar-aquarium-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/museo-del-mar-aquarium-biarritz/index.php [L]
@@ -280,11 +280,11 @@
 
     # Hendaia
     RewriteRule ^hendaia-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/hendaia/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-ondarraitz-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-de-ondarraitz-hendaia/index.php [L]
-    RewriteRule ^lugares-interes/castillo-abbadia-hendaia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia-hendaia/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-ondarraitz$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-de-ondarraitz/index.php [L]
+    RewriteRule ^lugares-interes/castillo-abbadia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia/index.php [L]
 
-    RewriteRule ^lugares-interes/puerto-deportivo-hendaia$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/puerto-deportivo-hendaia/index.php [L]
-    RewriteRule ^lugares-interes/corniche-basque-hendaia$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/corniche-basque-hendaia/index.php [L]
+    RewriteRule ^lugares-interes/puerto-deportivo$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/puerto-deportivo/index.php [L]
+    RewriteRule ^lugares-interes/corniche-basque$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/corniche-basque/index.php [L]
 
 
 

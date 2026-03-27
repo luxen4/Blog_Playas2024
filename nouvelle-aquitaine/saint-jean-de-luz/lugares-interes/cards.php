@@ -4,7 +4,7 @@
   $lugares_interes = [
     [
       'nombre' => 'Playa Grande de Saint-Jean-de-Luz',
-      'slug'   => 'la-grande-plage-saint-jean-de-luz',
+      'slug'   => 'la-grande-plage',
       'imagen' => 'playa-de-grande-plage-saint-jean-de-luz-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Playa Grande de Saint-Jean-de-Luz',
       'fuente' => 'saint-jean-de-luz.com',
@@ -13,7 +13,7 @@
     ],
     [
       'nombre' => 'Puerto Pesquero',
-      'slug'   => 'puerto-pesquero-saint-jean-de-luz',
+      'slug'   => 'puerto-pesquero',
       'imagen' => 'puerto-pesquero-saint-jean-de-luz-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Puerto pesquero de Saint-Jean-de-Luz',
       'fuente' => 'saint-jean-de-luz.com',
@@ -22,7 +22,7 @@
     ],
     [
       'nombre' => 'Iglesia de San Juan Bautista',
-      'slug'   => 'iglesia-san-juan-bautista-saint-jean-de-luz',
+      'slug'   => 'iglesia-san-juan-bautista',
       'imagen' => 'iglesia-san-juan-bautista-saint-jean-de-luz-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Iglesia de San Juan Bautista en Saint-Jean-de-Luz',
       'fuente' => 'patrimoine-nouvelle-aquitaine.fr',
@@ -31,7 +31,7 @@
     ],
     [
       'nombre' => 'Fuerte de Socoa',
-      'slug'   => 'fuerte-de-socoa-saint-jean-de-luz',
+      'slug'   => 'fuerte-de-socoa',
       'imagen' => 'fuerte-socoa-saint-jean-de-luz-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Fuerte de Socoa en Saint-Jean-de-Luz',
       'fuente' => 'ot-socoa.fr',

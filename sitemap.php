@@ -7,6 +7,105 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
+
+
+
+    <?php 
+    $region_minuscula = "bizkaia";
+    $localidad_minuscula = "plentzia";
+    $lugares_interes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    
+    <url>
+        <loc><?= $baseUrl ?>/bizcaia/plentzia/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/playa-de-gorliz/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/playa-de-plentzia/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/puerto-deportivo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        
+    <url>
+        <loc><?= $ruta ?>/ruta-senderista-plentzia-gorliz/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        
+
+        
+ 
+        
+    <?php 
+    $region_minuscula = "bizkaia";
+    $localidad_minuscula = "sopelana";
+    $lugares_interes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    
+    <url>
+        <loc><?= $baseUrl ?>/bizcaia/sopelana/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/parque-kortezubi/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/mirador-de-arrietara/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/playa-de-arrietara/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        
+    <url>
+        <loc><?= $ruta ?>/ruta-senderista-sopelana-plentzia/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+
+
+
+
+
+
+
+
+
     <?php 
     $region_minuscula = "cantabria";
     $localidad_minuscula = "ajo";
@@ -259,6 +358,267 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
      </url>
+
+
+
+    <?php 
+    $region_minuscula = "nouvelle-aquitaine";
+    $localidad_minuscula = "baiona";
+    $lugares_interes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    
+    <url>
+        <loc><?= $baseUrl ?>/nouvelle-aquitaine/baiona/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/casco-antiguo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/catedral-de-santa-maria-de-baiona/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/museo-vasco-de-la-historia-de-baiona/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/playa-de-a-ladeira/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/puente-saint-sprit/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+    <?php 
+    $region_minuscula = "nouvelle-aquitaine";
+    $localidad_minuscula = "biarritz";
+    $lugares_interes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    
+    <url>
+        <loc><?= $baseUrl ?>/nouvelle-aquitaine/biarritz/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/faro-de-biarritz/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/grande-plage/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/playa-de-milardy/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/playa-de-miramar/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+        
+    <url>
+        <loc><?= $ruta ?>/port-vieux/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/rocher-de-la-vierge/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+
+
+
+    <?php 
+    $region_minuscula = "nouvelle-aquitaine";
+    $localidad_minuscula = "capbreton";
+    $lugares_interes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    
+    <url>
+        <loc><?= $baseUrl ?>/nouvelle-aquitaine/capbreton/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/foret-domaniale/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/piste-cyclable-velodyssee/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/plage-centrale/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/puerto-pesquero/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+
+    <?php 
+    $region_minuscula = "nouvelle-aquitaine";
+    $localidad_minuscula = "hendaia";
+    $lugares_interes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    
+    <url>
+        <loc><?= $baseUrl ?>/nouvelle-aquitaine/hendaia/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/castillo-abbadia/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/corniche-basque/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/playa-de-ondarraitz/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/puerto-deportivo/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+    
+    <?php 
+    $region_minuscula = "nouvelle-aquitaine";
+    $localidad_minuscula = "saint-jean-de-luz";
+    $lugares_interes = "lugares-interes"; ?>
+    <?php $ruta= $baseUrl."/".$region_minuscula."/".$localidad_minuscula."/".$lugares_interes; ?>
+    
+    <url>
+        <loc><?= $baseUrl ?>/nouvelle-aquitaine/saint-jean-de-luz/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/fuerte-socoa/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $ruta ?>/iglesia-san-juan-bautista/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/la-grande-plage/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc><?= $rutal ?>/puerto-pesquero/</loc>
+        <lastmod><?= $fechaHoy ?></lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </urlset>

@@ -4,7 +4,7 @@
   $lugares_interes = [
     [
       'nombre' => 'Playa de Capbreton',
-      'slug'   => 'plage-centrale-capbreton-capbreton',
+      'slug'   => 'plage-centrale-capbreton',
       'imagen' => 'plage-centrale-capbreton-nouvelle-aquitaine-1.jpg',
       'alt'    => 'Playa de Capbreton',
       'fuente' => 'capbreton.fr',
@@ -13,7 +13,7 @@
     ],
     [
       'nombre' => 'Puerto pesquero de Capbreton',
-      'slug'   => 'puerto-pesquero-capbreton',
+      'slug'   => 'puerto-pesquero',
       'imagen' => 'puerto-pesquero-de-capbreton-nouvelle-aquitaine-1.png',
       'alt'    => 'Puerto pesquero y deportivo de Capbreton',
       'fuente' => 'landesatlantiquesud.com',
@@ -22,7 +22,7 @@
     ],
     [
       'nombre' => 'La Piste Cyclable Vélodyssée',
-      'slug'   => 'piste-cyclable-velodyssee-capbreton',
+      'slug'   => 'piste-cyclable-velodyssee',
       'imagen' => 'ciclistas-piste-cyclable-velodyssee-capbreton.jpg',
       'alt'    => 'Pista ciclista Vélodyssée en Capbreton',
       'fuente' => 'seignosse-tourisme.com',
@@ -31,7 +31,7 @@
     ],
     [
       'nombre' => 'Forêt Domaniale de Capbreton',
-      'slug'   => 'foret-domaniale-de-capbreton-capbreton',
+      'slug'   => 'foret-domaniale',
       'imagen' => 'les-forets-de-labenne-par-capbreton-a-vtt.jpg',
       'alt'    => 'Bosque estatal de Capbreton',
       'fuente' => 'decathlon-outdoor.com',
@@ -69,7 +69,7 @@
           <div class="card-body p-4">
             <h5 class="card-title text-lg font-semibold text-green-800"><?= $lugar['nombre']; ?></h5>
             <p class="card-text text-muted small mb-3"><?= $lugar['desc']; ?></p>
-            <a href="/Blog_Playas2026/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
+            <a href="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar['slug']; ?>" class="btn btn-success btn-sm px-3 py-2 shadow-sm">
               Explorar &rarr;
             </a>
           </div>

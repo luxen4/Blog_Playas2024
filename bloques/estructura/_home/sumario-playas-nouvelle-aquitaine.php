@@ -36,7 +36,7 @@
   <div class="row">
         <?php 
         $playa_name = 'Grande Plage'; $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
-        $archivo_name = 'grande-plage-biarritz'; 
+        $archivo_name = 'grande-plage'; 
         $presentacion = 'La Grande Plage de Biarritz, situada en Biarritz, Nueva Aquitania, 
         es una emblemática playa urbana de arena dorada abierta al mar Cantábrico. Popular entre surfistas y bañistas, 
         combina un ambiente elegante con servicios completos como duchas, vigilancia y zonas de restauración. 
@@ -85,7 +85,7 @@
         <?php 
         $playa_name = 'Playa de Ondarraitz'; $playa_name_minuscula = strtolower(str_replace(' ', '-', $playa_name));
         $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); 
-        $archivo_name = 'ondarraitz-hendaia'; 
+        $archivo_name = 'ondarraitz'; 
         $presentacion = 'La Playa de Ondarraitz, situada en Hendaya, Nueva Aquitania, 
         es un extenso arenal de más de tres kilómetros, perfecto para pasear, practicar deportes acuáticos y disfrutar en familia. 
         Sus aguas tranquilas y su fina arena dorada la convierten en un destino ideal para el baño y el descanso. 

@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Puerto Pesquero de Castro Urdiales"); ?>
 <?php define('KEYWORDS_CONTENT', 'Puerto Pesquero Castro Urdiales, puerto Cantabria, tradición marinera, barcos de pesca, gastronomía marinera, turismo costero Cantabria, mar Cantábrico') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

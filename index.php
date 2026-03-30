@@ -170,7 +170,7 @@
   <?php // require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
 
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
 
   <?php //require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
   <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>

@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Mirador de Cotolino"); ?>
 <?php define('KEYWORDS_CONTENT', 'Mirador de Cotolino, Castro-Urdiales, vistas Cantabria, costa Cantábrica, turismo Castro Urdiales, atardeceres Castro, paseo Cotolino') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

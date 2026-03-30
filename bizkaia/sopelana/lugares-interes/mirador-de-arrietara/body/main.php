@@ -1,5 +1,5 @@
 <main class="bg-amber-50 min-h-screen p-4 md:p-10">
-  <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+  <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
   <!-- Header -->
   <header class="text-center mb-10">

@@ -1,6 +1,6 @@
 <!-- Contenido principal del Palacio Ocharan - Optimizado SEO -->
 <main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/TouristAttraction">
-      <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+      <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
   <article class="bg-white rounded-2xl shadow-md p-6" itemprop="description">
     <header>
       <h1 class="text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-4" itemprop="name">Palacio Ocharan en Castro Urdiales</h1>
@@ -86,7 +86,7 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 py-1">  
-    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center">
@@ -174,7 +174,7 @@
     <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.3836, -3.2210], 17); // Coordenadas aproximadas del Palacio Ocharan

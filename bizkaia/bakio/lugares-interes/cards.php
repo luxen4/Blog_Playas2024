@@ -42,4 +42,4 @@
 ?>
 <?php 
 $parrafo = "Bakio, en Bizkaia, es un destino costero que destaca por su hermosa playa, el icónico San Juan de Gaztelugatxe y sus rutas de senderismo. Ideal para surfistas y amantes de la naturaleza, ofrece una experiencia única en la costa vasca.";
-require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; ?>

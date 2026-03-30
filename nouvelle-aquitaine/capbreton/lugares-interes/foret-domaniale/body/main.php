@@ -1,5 +1,5 @@
 <main>
-    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
     
     <h1 class="text-2xl md:text-3xl font-semibold text-green-700 mb-4">
         🌲 Forêt Domaniale – Capbreton:

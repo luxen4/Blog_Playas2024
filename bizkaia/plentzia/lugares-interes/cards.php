@@ -42,5 +42,5 @@
 ?>
 <?php 
 $parrafo = "Plentzia, en Bizkaia, es un encantador destino costero que ofrece una hermosa playa, un animado puerto deportivo y rutas de senderismo. Ideal para familias y amantes de la naturaleza, Plentzia combina tranquilidad y actividades al aire libre en un entorno pintoresco.";
-require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; ?>
 <?php // https://turismo.euskadi.eus/es/playas-embalses-rios/playa-de-plentzia/webtur00-content/es/#:~:text=Playa%20de%20Plentzia,-Costa%20Vasca&text=Contigua%20a%20la%20playa%20de,muy%20cerca%20del%20casco%20urbano. ?>

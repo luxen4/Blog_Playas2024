@@ -74,7 +74,7 @@
 ?>
 <?php 
 $parrafo = "Muskiz, en Bizkaia, es un destino que combina historia, naturaleza y playas. Desde la Playa de La Arena hasta la Castillo de Munatones, cada lugar ofrece una experiencia única para los visitantes. Ideal para familias y amantes del senderismo, Muskiz es perfecto para disfrutar de la costa vasca.";
-require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; ?>
 
 
 <?php /* Muskiz cuenta con espacios naturales de gran valor ecológico y paisajístico que ofrecen experiencias similares a las de un parque ecológico.

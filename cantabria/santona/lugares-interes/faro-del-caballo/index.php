@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Faro del Caballo"); ?>
 <?php define('KEYWORDS_CONTENT', 'Faro del Caballo Santoña, rutas escaleras Cantabria, miradores Santoña, senderismo litoral Cantabria') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

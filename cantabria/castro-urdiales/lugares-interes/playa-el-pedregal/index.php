@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Playa El Pedregal de Castro Urdiales"); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa El Pedregal Castro Urdiales, playas Cantabria, ocio en la playa Castro Urdiales, naturaleza Cantabria') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

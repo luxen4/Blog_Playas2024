@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Peña Candina"); ?>
 <?php define('KEYWORDS_CONTENT', 'Peña Candina Sonabia, senderismo Cantabria, acantilados Cantabria, buitre leonado marino') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

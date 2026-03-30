@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Asador La Perla"); ?>
 <?php define('KEYWORDS_CONTENT', 'Asador La Perla, Castro-Urdiales, Cantabria, gastronomía cántabra, pescados frescos, carnes a la brasa, costa Cantábrica, restaurantes en Castro-Urdiales, turismo gastronómico') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

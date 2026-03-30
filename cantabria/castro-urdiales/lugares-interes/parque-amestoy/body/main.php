@@ -1,6 +1,6 @@
 <!-- Main Content Section: Parque Amestoy - Castro Urdiales -->
 <main class="container mx-auto max-w-7xl px-1 py-1">
-        <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
   <section class="bg-white rounded-2xl shadow-md p-4 md:p-6">
     
     <h1 class="text-2xl md:text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-6">
@@ -99,7 +99,7 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 py-1">  
-    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center">
@@ -184,7 +184,7 @@
     <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.3825, -3.2170], 17); // Ajusta las coordenadas exactas del parque

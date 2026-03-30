@@ -1,5 +1,5 @@
 <main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/SportsClub">
-        <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
   <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemprop="description">
 
     <header>

@@ -38,7 +38,7 @@
   </header>
 
   <main class="max-w-5xl mx-auto px-4 py-8">
-    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
     <section>
       <img src="/img/mirador-cabo-ajo.jpg" alt="Vistas desde el Mirador del Cabo de Ajo" class="w-full rounded-lg shadow-md mb-6">
       <h2 class="text-2xl font-semibold text-blue-700 mb-3">Un lugar único sobre el mar Cantábrico</h2>

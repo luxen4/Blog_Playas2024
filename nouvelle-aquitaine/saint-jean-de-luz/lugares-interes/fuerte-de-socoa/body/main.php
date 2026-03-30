@@ -1,5 +1,5 @@
 <main>
-  <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+  <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
   <h1 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4">
     🏰 Fuerte de Socoa en Saint-Jean-de-Luz:

@@ -1,5 +1,5 @@
 <main>
-    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
     
     <h1 class="text-2xl md:text-3xl font-semibold text-green-600 mb-4">
         🚴 Piste Cyclable Vélodyssée – Capbreton:

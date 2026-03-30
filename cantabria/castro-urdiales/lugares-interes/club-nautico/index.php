@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Club Náutico de Castro Urdiales"); ?>
 <?php define('KEYWORDS_CONTENT', 'Club Náutico Castro Urdiales, deportes náuticos Cantabria, actividades acuáticas Castro Urdiales, turismo marítimo Cantabria') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

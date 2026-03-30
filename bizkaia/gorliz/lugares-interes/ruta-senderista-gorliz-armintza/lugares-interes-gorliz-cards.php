@@ -43,4 +43,4 @@
 ?>
 <?php 
 $parrafo = "Gorliz, en Bizkaia, es un destino costero que combina playas amplias, naturaleza y cultura. Desde la Playa de Gorliz hasta el Faro de Gorliz, cada lugar ofrece una experiencia única para los visitantes. Ideal para familias y amantes del senderismo, Gorliz es perfecto para disfrutar de la costa vasca.";
-require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; ?>

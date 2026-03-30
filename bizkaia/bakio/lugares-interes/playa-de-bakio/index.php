@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Playa de Bakio"); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Bakio, Bizkaia, surf en Bakio, turismo Bizkaia, playas País Vasco, costa vasca, arena dorada, paseo marítimo') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

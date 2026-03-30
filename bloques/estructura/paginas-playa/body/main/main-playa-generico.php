@@ -10,7 +10,7 @@
 
         <div id="central-column" class="col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 content-wrapper">
 
-      <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+      <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
             <main>
 

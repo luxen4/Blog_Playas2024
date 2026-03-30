@@ -1,5 +1,5 @@
 <main class="container py-8 px-4 mx-auto max-w-7xl" itemscope itemtype="https://schema.org/TouristAttraction">
-      <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>  
+      <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>  
 <article class="bg-white rounded-2xl shadow-md p-6 md:p-8" itemprop="description">
     <header>
       <h1 class="text-3xl md:text-5xl font-extrabold text-blue-700 mb-4" itemprop="name">Playa de Brazomar</h1>

@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Ruta de la Costa Oriental en Ajo"); ?>
 <?php define('KEYWORDS_CONTENT', 'Ruta de la Costa Oriental Ajo, Cantabria, senderismo, acantilados, calas, turismo Cantabria, naturaleza, costa cantábrica, Bareyo, mar Cantábrico') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

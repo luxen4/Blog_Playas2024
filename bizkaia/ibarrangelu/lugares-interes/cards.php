@@ -42,4 +42,4 @@
 ?>
 <?php 
 $parrafo = "Ibarrangelu, en Bizkaia, es un destino que destaca por su belleza natural y sus impresionantes paisajes costeros. Desde la Playa de Laga hasta el Cabo Ogoño, cada lugar ofrece una experiencia única para los amantes de la naturaleza y el senderismo.";
-require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; ?>

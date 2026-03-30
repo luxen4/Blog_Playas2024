@@ -27,7 +27,7 @@
 
       <!-- Colonne gauche (principale) -->
       <div class="col-lg-8">
-        <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
         <header class="mb-10">
           <div class="bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-400 text-white text-center p-8 rounded-lg shadow-lg">
@@ -40,7 +40,7 @@
           </div>
         </header>
 
-        <?php require PATH_RAIZ . "/_estructura/semantica/body/lugares-interes-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
       </div>
 
       <div class="col-4 col-md-3 d-none d-md-block">
@@ -50,7 +50,7 @@
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

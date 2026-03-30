@@ -1,5 +1,5 @@
 <main class="container py-1 mx-auto max-w-7xl">
-        <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
   <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemscope itemtype="https://schema.org/Church">
 
     <header>
@@ -97,7 +97,7 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 py-1">  
-    <?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center">
@@ -183,7 +183,7 @@
     <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.3853, -3.2205], 18); // Coordenadas aproximadas de la Iglesia

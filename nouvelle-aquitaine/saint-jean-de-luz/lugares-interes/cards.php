@@ -41,5 +41,5 @@
   ];
 ?>
 <?php $parrafo = 'Descubre los lugares más emblemáticos y naturales de Saint-Jean-de-Luz, desde su famosa Playa Grande hasta el histórico Puerto Pesquero.'; ?>
-<?php require PATH_RAIZ_ESTRUCTURA_PAGINAS_LOCALIDAD . '/print-cards-lugares-interes.php'; ?>
+<?php require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; ?>
 

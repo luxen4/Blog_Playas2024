@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Puente Medieval de Castro-Urdiales"); ?>
 <?php define('KEYWORDS_CONTENT', 'Puente Medieval Castro-Urdiales, monumentos Cantabria, turismo histórico, arquitectura medieval, patrimonio, Castro-Urdiales') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/pagina-index-generico/index-generico-partefinal.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/index-generico.php"; ?>

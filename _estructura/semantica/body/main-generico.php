@@ -17,6 +17,12 @@
   <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
   <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
 
+</main>
+
+
+
+
+
 <?php /*
 
 
@@ -157,7 +163,6 @@ y a nosotros nos ayudas con el mantenimiento del blog.
 
 
 
-</main>
 
 
   <?php /*

@@ -76,3 +76,10 @@
   <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
 
   <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+
+  
+<!-- GetYourGuide Analytics -->
+<script async defer 
+src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" 
+data-gyg-partner-id="VW16GKQ">
+</script>

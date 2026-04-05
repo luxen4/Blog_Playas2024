@@ -7,8 +7,10 @@
 
     <div class="col-xl-3 col-lg-4 col-md-4 d-none d-md-block sidebar-anuncios">
                 <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
-        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+        <?php //require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>    
+        <?php require PATH_RAIZ . '/_anuncios/get-your-guide/index.php'; ?>
     </div>
+
   </div>
 </div>
 

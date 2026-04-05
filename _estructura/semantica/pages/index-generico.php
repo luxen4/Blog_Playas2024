@@ -9,8 +9,11 @@
     </head>
 
     <body class="bg-<?= COLOR_PAGE; ?>-100">
+        
         <?php require PATH_RAIZ . "/_estructura/semantica/body/header/header-generico.php"; ?>
+        
         <?php require PATH_RAIZ . "/_estructura/semantica/body/header/post-header-generico.php"; ?>
+
 
         <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
 
@@ -20,4 +23,3 @@
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/" .$region_minuscula. "/".$localidad_minuscula . "/lugares-interes/".$lugar_minuscula."/schemas/schemas-body.php"; ?>
     </body>
 </html>
-

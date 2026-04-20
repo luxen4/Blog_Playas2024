@@ -1,24 +1,24 @@
-<?php $latitude = 43.5076; $longitude = -3.6092; ?>
+<?php $latitude = 43.5000; $longitude = -3.5420; ?>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
-  "name": "Faro del Cabo de Ajo",
-  "description": "Visita el Faro del Cabo de Ajo, el más oriental de Cantabria, con vistas impresionantes al Mar Cantábrico y rodeado de naturaleza salvaje. Ideal para senderistas y amantes de los paisajes costeros.",
-  "image": "https://tusitio.com/imagenes/faro-cabo-de-ajo.jpg",
+  "name": "Playa de los Barcos",
+  "description": "Disfruta de la Playa de los Barcos en Isla (Cantabria), una playa de arena dorada y aguas tranquilas ideal para familias, con un entorno natural único en la costa del Mar Cantábrico.",
+  "image": "https://tusitio.com/imagenes/playa-de-los-barcos.jpg",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Ajo",
+    "addressLocality": "Isla",
     "addressRegion": "Cantabria",
     "addressCountry": "ES"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.5076,
-    "longitude": -3.6092
+    "latitude": 43.5000,
+    "longitude": -3.5420
   },
-  "url": "https://tusitio.com/faro-cabo-de-ajo.php",
+  "url": "https://tusitio.com/playa-de-los-barcos.php",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": [
@@ -30,7 +30,7 @@
       "Saturday",
       "Sunday"
     ],
-    "opens": "08:00",
+    "opens": "09:00",
     "closes": "21:00"
   },
   "isAccessibleForFree": true,
@@ -38,12 +38,17 @@
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Vistas al mar",
+      "name": "Arena dorada",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Zona de senderismo",
+      "name": "Aguas tranquilas",
+      "value": true
+    },
+    {
+      "@type": "LocationFeatureSpecification",
+      "name": "Zona familiar",
       "value": true
     }
   ]

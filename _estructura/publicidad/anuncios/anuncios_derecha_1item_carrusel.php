@@ -13,7 +13,7 @@
     ?>
 
 <?php
-$filename = PATH_RAIZ . '/anuncios/amazon_shorts_images.csv';
+$filename = PATH_DOMINIO_RAIZ . '/anuncios/amazon_shorts_images.csv';
 $products = [];
 
 if (($handle = fopen($filename, "r")) !== false) {

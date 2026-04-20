@@ -5,26 +5,26 @@ lugar_minuscula_footer='Playa de Ostende -Castro-Urdiales-';
 COLOR_PAGE='blue';
 $title = 'Playa de Ostende – Castro-Urdiales';?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/localizacion-playa.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines-comunes.php"; ?>
+<?php require PATH_LOCALIDAD_HEAD_VARIABLES. "/localizacion-playa.php"; ?>
 
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/meta-tags.php";      // Variables de etiquetas metarequire PATH_RAIZ_BLOQUES_ESTRUCTURA . "/paginas-generico/etiquetas-meta.php"; ?>
-<?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/data-generico.php";  // Variables para el archivo Structured_data_generico.php //<!-- Structured Data (Schema.org) -->    ?>
+<?php require PATH_LOCALIDAD_HEAD_VARIABLES. "/meta-tags.php";      // Variables de etiquetas metarequire PATH_BLOQUES_ESTRUCTURA . "/paginas-generico/etiquetas-meta.php"; ?>
+<?php require PATH_LOCALIDAD_HEAD_VARIABLES. "/data-generico.php";  // Variables para el archivo Structured_data_generico.php //<!-- Structured Data (Schema.org) -->    ?>
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD. "/etiquetas-meta.php";?>
-        <?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
+        <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD. "/etiquetas-meta.php";?>
+        <?php require PATH_DOMINIO_RAIZ . "/_html/head/links-generico.php"; ?>
         <title><?= $title; ?></title>
     </head>
 
     <body>
-        <?php require PATH_RAIZ_LOCALIDADES_CARPETA. '/img/index.php'; ?>
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. "/body-generico-playa.php"; ?>
-                                                        <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/recarga_pagina_amigable.php"; ?>
+        <?php require PATH_LOCALIDAD. '/img/index.php'; ?>
+        <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. "/body-generico-playa.php"; ?>
+                                                        <?php //require PATH_BLOQUES_ESTRUCTURA. "/recarga_pagina_amigable.php"; ?>
 
-        <?php require PATH_RAIZ_BLOQUES. "/control/control-visitas.php"; ?>
+        <?php require PATH_BLOQUES. "/control/control-visitas.php"; ?>
     </body>
 
 </html>

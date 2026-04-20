@@ -10,6 +10,6 @@ $mainEntity_geo_latitude    = 43.4425;
 $mainEntity_geo_longitude   = -3.4050;
 
 // Imagen representativa y URL canónica para Sonabia
-$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/sonabia.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+$mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/sonabia.jpg";
+$mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

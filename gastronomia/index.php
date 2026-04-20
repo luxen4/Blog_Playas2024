@@ -4,7 +4,7 @@ $lugar_minuscula="";
 $region_minuscula="";
 ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines-comunes.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -18,7 +18,7 @@ $region_minuscula="";
 <body class="bg-gray-100 text-gray-800">
 
 <!-- NAVBAR -->
-<?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/body/navbar-generico.php"; ?>
 
 <div class="max-w-7xl mx-auto px-4 py-6">
   <div class="grid grid-cols-12 gap-6">
@@ -153,7 +153,7 @@ $region_minuscula="";
         </div>
 
         <div class="bg-white p-3 rounded shadow text-center">
-          <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+          <?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
         </div>
 
       </div>
@@ -174,7 +174,7 @@ $region_minuscula="";
 </section>
 
 <!-- FOOTER -->
-<?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
 </body>
 </html>

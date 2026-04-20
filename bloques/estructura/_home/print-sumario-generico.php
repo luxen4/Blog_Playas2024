@@ -2,7 +2,7 @@
 <?php // Recorremos las localidades
 foreach ($localidades as $localidad => $playas) {
     $localidad_minuscula = strtolower(str_replace('ñ', 'n', $localidad)); 
-    require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php';
+    require PATH_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php';
 
     echo '<div class="container my-4"><div class="row">';
     
@@ -16,7 +16,7 @@ foreach ($localidades as $localidad => $playas) {
           "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/{$archivo_name}";
         ?>
         <div class="col-12 col-md-12 mb-4">
-          <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
+          <?php require PATH_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
         </div>
         <?php
     }

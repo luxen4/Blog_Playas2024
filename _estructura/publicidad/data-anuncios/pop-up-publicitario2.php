@@ -1,22 +1,22 @@
 <?php
 // Leer CSV y agrupar cada 3 imágenes para alternar en popup
-$filename = PATH_RAIZ. './anuncios/amazon_botas_hombre_images.csv'; 
-$filename = PATH_RAIZ. './anuncios/amazon_chaquetas_hombre_images.csv';
-$filename = PATH_RAIZ. './anuncios/amazon_jeans_man_images.csv';
-$filename = PATH_RAIZ. './anuncios/amazon_shorts_hombre_images.csv';
+$filename = PATH_DOMINIO_RAIZ. './anuncios/amazon_botas_hombre_images.csv'; 
+$filename = PATH_DOMINIO_RAIZ. './anuncios/amazon_chaquetas_hombre_images.csv';
+$filename = PATH_DOMINIO_RAIZ. './anuncios/amazon_jeans_man_images.csv';
+$filename = PATH_DOMINIO_RAIZ. './anuncios/amazon_shorts_hombre_images.csv';
 
 
 // Definir array con rutas de archivos CSV
 $csv_files = [
-    PATH_RAIZ . '/anuncios/amazon_botas_hombre_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_chaquetas_hombre_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_dress_woman_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_jeans_man_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_shorts_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_sneakers_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_sports_shirts_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_vaqueros_hombre_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_camisas_hawaianas_man_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_botas_hombre_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_chaquetas_hombre_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_dress_woman_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_jeans_man_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_shorts_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_sneakers_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_sports_shirts_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_vaqueros_hombre_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_camisas_hawaianas_man_images.csv',
 ];
 
 // Seleccionar uno al azar
@@ -47,14 +47,14 @@ $imageSets = array_chunk($allImages, 4);
 <?php /*
 // Rutas CSV
 $csv_files = [
-    PATH_RAIZ . '/anuncios/amazon_botas_hombre_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_chaquetas_hombre_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_dress_woman_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_jeans_man_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_shorts_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_sneakers_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_sports_shirts_images.csv',
-    PATH_RAIZ . '/anuncios/amazon_vaqueros_hombre_images.csv'
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_botas_hombre_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_chaquetas_hombre_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_dress_woman_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_jeans_man_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_shorts_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_sneakers_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_sports_shirts_images.csv',
+    PATH_DOMINIO_RAIZ . '/anuncios/amazon_vaqueros_hombre_images.csv'
 ];
 
 $allImages = [];

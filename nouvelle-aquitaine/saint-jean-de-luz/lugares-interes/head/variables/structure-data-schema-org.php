@@ -10,6 +10,6 @@ $mainEntity_geo_latitude    = 43.4303;
 $mainEntity_geo_longitude   = -2.8075;
 
 // Imagen representativa y URL canónica para Bakio
-$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-bakio.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+$mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-bakio.jpg";
+$mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

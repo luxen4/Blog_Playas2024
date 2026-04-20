@@ -1,5 +1,5 @@
 <?php 
-$targeta = PATH_RAIZ_LOCALIDADES.'/index.php';
+$targeta = PATH_LOCALIDADES.'/index.php';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
 
 $region = 'Gipuzkoa'; 
@@ -30,7 +30,7 @@ $localidades = [
 
 foreach ($localidades as $localidad => $playas): 
     $localidad_minuscula = strtolower($localidad);
-    require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; 
+    require PATH_BLOQUES_ESTRUCTURA_HOME . '/body/localidad-generico.php'; 
 ?>
     <div class="container my-4">
       <div class="row">
@@ -42,7 +42,7 @@ foreach ($localidades as $localidad => $playas):
           $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}";
         ?>
           <div class="col-12 col-md-12 mb-4">
-            <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
+            <?php require PATH_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
           </div>
         <?php endforeach; ?>
       </div>

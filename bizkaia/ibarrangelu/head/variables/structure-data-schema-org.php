@@ -10,6 +10,6 @@ $mainEntity_geo_latitude    = 43.4229;
 $mainEntity_geo_longitude   = -2.6503;
 
 // Imagen representativa y URL canónica para Laga
-$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/bizkaia/playa-de-laga/img/playa-de-laga.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/bizkaia/playa-de-laga/index.php";
+$mainEntity_image = PATH_LOCALIDAD . "/bizkaia/playa-de-laga/img/playa-de-laga.jpg";
+$mainEntity_url   = PATH_LOCALIDAD . "/bizkaia/playa-de-laga/index.php";
 ?>

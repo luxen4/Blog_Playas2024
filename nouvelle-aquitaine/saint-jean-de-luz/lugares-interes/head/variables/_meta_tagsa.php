@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Saint-Jean-de-Luz – Nouvelle-Aquitaine';
 $pinterest_property_card_description_content = 'Descubre Saint-Jean-de-Luz, un encantador puerto pesquero y destino turístico en la costa vasca francesa, famoso por su gastronomía, playas y patrimonio.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint-jean-de-luz/img/saint-jean-de-luz-1.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/saint-jean-de-luz/img/saint-jean-de-luz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Saint-Jean-de-Luz (Nouvelle-Aquitaine)
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Saint-Jean-de-Luz – Nouvelle-Aquitaine';
 $twitterCards_description = 'Explora Saint-Jean-de-Luz en Francia: un pintoresco pueblo costero con historia marinera, playas doradas y un vibrante ambiente cultural.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint-jean-de-luz/img/saint-jean-de-luz-1.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint-jean-de-luz/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/saint-jean-de-luz/img/saint-jean-de-luz-1.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/saint-jean-de-luz/index.php';
 
 // Variables Open Graph – Saint-Jean-de-Luz (Nouvelle-Aquitaine)
 $graph_Meta_Tags_property_title        = 'Saint-Jean-de-Luz – Nouvelle-Aquitaine';
 $graph_Meta_Tags_property_description  = 'Visita Saint-Jean-de-Luz, localidad costera de la región de Nouvelle-Aquitaine, famosa por su puerto, playas, tradiciones y gastronomía vasco-francesa.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint-jean-de-luz/img/saint-jean-de-luz-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint-jean-de-luz/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/saint-jean-de-luz/img/saint-jean-de-luz-1.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/saint-jean-de-luz/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

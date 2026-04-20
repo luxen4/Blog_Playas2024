@@ -11,14 +11,14 @@
     <?php 
     // Variables para la página de la Playa de Isla
     require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-    require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php'; 
+    require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines-comunes.php'; 
     ?>
 
     <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/?>
-    <link rel="canonical" href="<?= PATH_RAIZ; ?>/actividades-<?= $rutas; ?>" />
+    <link rel="canonical" href="<?= PATH_DOMINIO_RAIZ; ?>/actividades-<?= $rutas; ?>" />
 
-    <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/fichas/sections/head/etiquetas_meta_actividades.php"; ?>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
+    <?php require PATH_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/fichas/sections/head/etiquetas_meta_actividades.php"; ?>
+    <?php require PATH_BLOQUES_ESTRUCTURA . "/link_paginas_secundariass_head_actividades.php"; ?>
 
     <?php 
     // Descripción general y URL
@@ -26,16 +26,16 @@
     ?>
 
     <?php 
-    require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/fichas/sections/head/variables/web-playa/structure-data-schema-org.php";
-    include_once PATH_RAIZ_BLOQUES_ESTRUCTURA . "/structured_data_generico.php"; 
+    require PATH_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/fichas/sections/head/variables/web-playa/structure-data-schema-org.php";
+    include_once PATH_BLOQUES_ESTRUCTURA . "/structured_data_generico.php"; 
     ?>
 
   </head>
 
   <body>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/actividades_bloque_generico.php"; ?>
-    <?php require PATH_RAIZ . "/anuncios/pop-up-publicitario2.php"; ?>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap2.php"; ?>
+    <?php require PATH_BLOQUES_ESTRUCTURA . "/actividades_bloque_generico.php"; ?>
+    <?php require PATH_DOMINIO_RAIZ . "/anuncios/pop-up-publicitario2.php"; ?>
+    <?php require PATH_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap2.php"; ?>
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ENjdO4Dr2bkBIFxQpeo5F2bSpV8CkR0VZ3HSMa7PR9U8D7V7B2E5uVOlmXJURyJA" crossorigin="anonymous"></script>-->
   </body>

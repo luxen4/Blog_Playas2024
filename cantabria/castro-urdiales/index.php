@@ -1,19 +1,29 @@
+<?php 
+$localidad = "Castro-Urdiales"; 
+$region="Cantabria"; 
+$country ="España"; 
+$lugar_interes = "" ;
+?>
+
+<?php define('TITLE', "Castro-Urdiales (Cantabria) – Playas, Historia y Encanto Marinero en la Costa Cantábrica 2026"); ?>
+<?php define('DESCRIPTION', "Descubre Castro-Urdiales en Cantabria: playas urbanas, puerto pesquero, patrimonio histórico y un ambiente marinero único."); ?>
+<?php define('KEYWORDS_CONTENT', 'Castro-Urdiales, Cantabria, Playa de Ostende, puerto pesquero, patrimonio histórico, turismo Cantabria, costa de Cantabria, castillo-faro, iglesia de Santa María, paseo marítimo, gastronomía marinera') ?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/localidades/variables-region.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/localidades/index-generico.php"; ?>
 
 
-
-<?php  
+<?php /*  
 $localidad = 'Castro-Urdiales';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
 $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
 
-<?php define('DESCRIPTION', "Descubre Castro-Urdiales en Cantabria: playas urbanas, puerto pesquero, patrimonio histórico y un ambiente marinero único."); ?>
-<?php define('KEYWORDS_CONTENT', 'Castro-Urdiales, Cantabria, Playa de Ostende, puerto pesquero, patrimonio histórico, turismo Cantabria, costa de Cantabria, castillo-faro, iglesia de Santa María, paseo marítimo, gastronomía marinera') ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
+        <?php require PATH_DOMINIO_RAIZ . "/_html/head/head-generico.php"; ?>
     </head>
 
 
@@ -23,7 +33,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
       <!-- Columna izquierda (principal) -->
       <div class="col-lg-8">
-        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
         <header class="mb-10">
           <div class="bg-gradient-to-r from-blue-700 via-sky-600 to-cyan-400 text-white text-center p-8 rounded-lg shadow-lg">
@@ -38,17 +48,18 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
           </div>
         </header>
 
-        <?php require PATH_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
+        <?php require PATH_DOMINIO_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
       </div>
 
       <div class="col-4 col-md-3 d-none d-md-block">
-                <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
-        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+                <?php // require PATH_DOMINIO_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
       </div>
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+*/?>

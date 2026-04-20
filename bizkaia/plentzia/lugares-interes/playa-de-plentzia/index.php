@@ -12,4 +12,4 @@ $country = 'España';         $country_minuscula = strtolower(str_replace(' ', '
 <?php define('KEYWORDS_CONTENT', 'Playa de Plentzia, Bizkaia, playas País Vasco, turismo Bizkaia, costa vasca, surf en Bizkaia, naturaleza, playa de arena fina') ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
-<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>
+<?php require PATH_DOMINIO_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

@@ -52,5 +52,5 @@ $lugares_interes = [
 
 <?php 
 $parrafo = "Isla es un destino costero muy completo en Cantabria, con playas para todos los gustos, acantilados espectaculares y rutas junto al mar. Desde la Playa de los Barcos hasta los acantilados de Quejo, ofrece naturaleza, relax y paisajes inolvidables.";
-require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; 
+require PATH_DOMINIO_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; 
 ?>

@@ -10,6 +10,6 @@ $mainEntity_geo_latitude    = 43.3131;
 $mainEntity_geo_longitude   = -2.3265;
 
 // Imagen representativa y URL canónica para Playa de Santiago de Deba
-$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/pais-vasco/deba/playa-de-santiago-deba/index.php";
+$mainEntity_image = PATH_LOCALIDAD . "/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba.jpg";
+$mainEntity_url   = PATH_LOCALIDAD . "/pais-vasco/deba/playa-de-santiago-deba/index.php";
 ?>

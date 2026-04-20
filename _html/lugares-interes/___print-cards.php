@@ -14,4 +14,4 @@ if (($handle = fopen($ruta_csv, "r")) !== false) {
     fclose($handle);
 }
 ?>
-<?php require PATH_RAIZ . '/_html/localidades/print-cards-lugares-interes.php'; ?>
+<?php require PATH_DOMINIO_RAIZ . '/_html/localidades/print-cards-lugares-interes.php'; ?>

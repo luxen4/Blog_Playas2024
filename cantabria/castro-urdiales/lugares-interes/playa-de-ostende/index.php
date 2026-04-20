@@ -4,4 +4,4 @@ $region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $re
 $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
 <?php define('LUGAR', "Playa de Ostende"); ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
-<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>
+<?php require PATH_DOMINIO_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
+<?php require PATH_BLOQUES_CONTROL . "/google-analytics.php"; ?>
 
 <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 
@@ -56,7 +56,7 @@
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 
 
-<?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
+<?php require PATH_BLOQUES_CONTROL . "/google-analytics.php"; ?>
 
 <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 

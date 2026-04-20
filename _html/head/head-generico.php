@@ -1,19 +1,19 @@
-<?php require PATH_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
 
-<?php require PATH_RAIZ . "/_html/head/title-generico.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/head/title-generico.php"; ?>
 
-<?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/head/links-generico.php"; ?>
 
-<?php require PATH_RAIZ . "/_html/head/scripts-generico.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/head/scripts-generico.php"; ?>
 
-<?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-head.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula."/".$localidad_minuscula."/schemas/schemas-head.php"; ?>
 
 
 
 <?php // OK
 $pathConPlayas = $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula."/".$localidad_minuscula."/lugares-interes/".$lugar_minuscula."/schemas/schemas-head.php";
 //var_dump($pathConPlayas);
-//$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/".$lugar_minuscula."/schemas/schemas-head.php"; 
+//$pathSinPlayas = PATH_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/".$lugar_minuscula."/schemas/schemas-head.php"; 
 
 $pathSinPlayas = $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula. "/".$localidad_minuscula."/schemas/schemas-head.php"; 
 //var_dump($pathConPlayas, $pathSinPlayas);

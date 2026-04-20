@@ -6,7 +6,7 @@
         <figure style="text-align: center;">
             <?php /*<a href="playa-de-<?= $archivo_name . '-' . $region; ?>" target="_blank">*/ ?>
 
-            <a <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/enlace-a-lugar-interes.php'; ?>target="_blank">
+            <a <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/enlace-a-lugar-interes.php'; ?>target="_blank">
                 <img src=  "<?= $region_minuscula . '/' .$localidad_minuscula. '/lugares-interes/' .$playa_name_minuscula; ?>/img/<?= $archivo_name .'-' .$region_minuscula ; ?>-1.jpg" alt="Imagen de <?= $playa_name; ?>" class="img-fluid">
                 
             </a>

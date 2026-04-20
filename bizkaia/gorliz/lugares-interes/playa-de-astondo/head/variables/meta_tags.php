@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Astondo – Gorliz, Bizkaia';
 $pinterest_property_card_description_content = 'Descubre Astondo en Gorliz, un hermoso entorno natural con playa amplia y vistas a la costa vizcaína.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/astondo/img/astondo-1.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/astondo/img/astondo-1.jpg';
 
 // Variables de configuración para Twitter Cards – Astondo (Gorliz, Bizkaia)
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Astondo – Gorliz, Bizkaia';
 $twitterCards_description = 'Explora Astondo en Gorliz: playa tranquila, naturaleza y paisajes únicos en la costa de Bizkaia.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/astondo/img/astondo-1.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/astondo/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/astondo/img/astondo-1.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/astondo/index.php';
 
 // Variables Open Graph – Astondo (Gorliz, Bizkaia)
 $graph_Meta_Tags_property_title        = 'Astondo – Gorliz, Bizkaia';
 $graph_Meta_Tags_property_description  = 'Visita Astondo en Gorliz, playa costera con paisajes naturales únicos y entorno ideal para el turismo en Bizkaia.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/astondo/img/astondo-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/astondo/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/astondo/img/astondo-1.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/astondo/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

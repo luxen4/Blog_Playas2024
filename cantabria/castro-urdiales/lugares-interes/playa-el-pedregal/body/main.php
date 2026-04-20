@@ -1,5 +1,5 @@
 <main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/Beach">
-        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
   <article class="bg-white rounded-2xl shadow-md p-6 md:p-10" itemprop="description">
 
     <header>
@@ -68,11 +68,11 @@
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
-  <?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/head/links-generico.php"; ?>
   <title>Playa El Pedregal - Castro-Urdiales, Cantabria</title>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playa-el-pedregal-castro-urdiales/schemas/schemas-head.php"; ?>
+  <?php require PATH_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playa-el-pedregal-castro-urdiales/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -83,7 +83,7 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 py-1">  
-    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+    <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center">
@@ -163,12 +163,12 @@
       </ul>
     </section>
 
-    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+    <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+    <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+    <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
-  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.3859, -3.2195], 18); // Coordenadas aproximadas de la Playa El Pedregal
@@ -185,6 +185,6 @@
     });
   </script>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playa-el-pedregal-castro-urdiales/schemas/schemas-body.php"; ?>
+  <?php require PATH_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playa-el-pedregal-castro-urdiales/schemas/schemas-body.php"; ?>
 </body>
 </html>

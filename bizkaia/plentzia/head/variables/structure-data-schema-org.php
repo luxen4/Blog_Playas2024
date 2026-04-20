@@ -10,6 +10,6 @@ $mainEntity_geo_latitude    = 43.3935;
 $mainEntity_geo_longitude   = -2.9501;
 
 // Imagen representativa y URL canónica para Playa de Plentzia
-$mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-plentzia.jpg";
-$mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+$mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-plentzia.jpg";
+$mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

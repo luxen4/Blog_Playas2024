@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Cambia si ti
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Bayona (Baiona) – Municipio de la Nouvelle-Aquitaine';
 $pinterest_property_card_description_content = 'Descubre Bayona, una histórica ciudad vasco-francesa en la Nouvelle-Aquitaine, conocida por su patrimonio, cultura y eventos tradicionales.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/bayona/img/centro-historico-bayona-1.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/nouvelle-aquitaine/bayona/img/centro-historico-bayona-1.jpg';
 
 // Twitter Cards
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Bayona (Baiona) – Municipio de la Nouvelle-Aquitaine';
 $twitterCards_description = 'Explora Bayona, ciudad emblemática del País Vasco francés, con su rica historia, gastronomía y festividades culturales.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/bayona/img/centro-historico-bayona-1.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/bayona/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/nouvelle-aquitaine/bayona/img/centro-historico-bayona-1.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/nouvelle-aquitaine/bayona/index.php';
 
 // Open Graph
 $graph_Meta_Tags_property_title        = 'Bayona (Baiona) – Municipio de la Nouvelle-Aquitaine';
 $graph_Meta_Tags_property_description  = 'Visita Bayona, un municipio vasco-francés lleno de historia, tradiciones y un ambiente único en la región de Nouvelle-Aquitaine.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/bayona/img/centro-historico-bayona-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/bayona/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/nouvelle-aquitaine/bayona/img/centro-historico-bayona-1.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/nouvelle-aquitaine/bayona/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

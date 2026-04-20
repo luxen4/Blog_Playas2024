@@ -5,23 +5,23 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be';
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Isla – Cantabria';
 $pinterest_property_card_description_content = 'Descubre Isla en Cantabria: playas espectaculares, acantilados, rutas naturales y una gastronomía única en la costa cantábrica.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/isla/img/isla-cantabria.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/cantabria/isla/img/isla-cantabria.jpg';
 
 // Twitter Cards
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Isla – Cantabria';
 $twitterCards_description = 'Explora Isla en Cantabria: un destino costero con playas como Los Barcos y El Sable, acantilados y rutas junto al mar.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/isla/img/isla-cantabria.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/isla/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/cantabria/isla/img/isla-cantabria.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/cantabria/isla/index.php';
 
 // Open Graph
 $graph_Meta_Tags_property_title        = 'Isla – Cantabria';
 $graph_Meta_Tags_property_description  = 'Visita Isla en Cantabria: playas, naturaleza, acantilados y gastronomía en uno de los destinos más completos del norte de España.';
 
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/isla/img/isla-cantabria.jpg';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/cantabria/isla/img/isla-cantabria.jpg';
 
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/isla/index.php';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/cantabria/isla/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

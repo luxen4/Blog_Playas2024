@@ -1,45 +1,45 @@
 
-<?php if (!defined('PATH_RAIZ_ANUNCIOS')) {
-    define('PATH_RAIZ_ANUNCIOS', PATH_RAIZ. '/anuncios'); 
+<?php if (!defined('PATH_ANUNCIOS')) {
+    define('PATH_ANUNCIOS', PATH_DOMINIO_RAIZ. '/anuncios'); 
 }
 ?>
 
 
-<?php if (!defined('PATH_RAIZ_LOCALIDADES')) {
-    define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); 
+<?php if (!defined('PATH_LOCALIDADES')) {
+    define('PATH_LOCALIDADES', PATH_DOMINIO_RAIZ. '/localidades'); 
 }
 ?>
 
-<?php //define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
+<?php //define('PATH_BLOQUES',                                       PATH_DOMINIO_RAIZ. '/bloques'); ?> 
 
 <?php
-if (!defined('PATH_RAIZ_BLOQUES')) {
-    define('PATH_RAIZ_BLOQUES', PATH_RAIZ . '/bloques');
+if (!defined('PATH_BLOQUES')) {
+    define('PATH_BLOQUES', PATH_DOMINIO_RAIZ . '/bloques');
 }
 ?>
 
 
 
 
-<?php //define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
+<?php //define('PATH_BLOQUES_ESTRUCTURA',                            PATH_BLOQUES. '/estructura'); ?>
 
 
 
 <?php
-if (!defined('PATH_RAIZ_BLOQUES_ESTRUCTURA')) {
-    define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES . '/estructura');
+if (!defined('PATH_BLOQUES_ESTRUCTURA')) {
+    define('PATH_BLOQUES_ESTRUCTURA', PATH_BLOQUES . '/estructura');
 }
 ?>
 
 <?php
-if (!defined('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN')) {
-    define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN', PATH_RAIZ_LOCALIDADES. "/_estructura/body/main");
+if (!defined('PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN')) {
+    define('PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN', PATH_LOCALIDADES. "/_estructura/body/main");
 }
 ?>
 
 <?php
 if (!defined('PATH_BLOQUES_SECTIONS_GENERICO')) {
-    define('PATH_BLOQUES_SECTIONS_GENERICO', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico');
+    define('PATH_BLOQUES_SECTIONS_GENERICO', PATH_BLOQUES_ESTRUCTURA. '/sections_generico');
 }
 ?>
 
@@ -51,7 +51,7 @@ if (!defined('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV')) {
 ?>
 
 
-<?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-<?php //require PATH_RAIZ_ANUNCIOS . "/pop-up-publicitario2.php"; ?>              <?php /* <!-- Scripts anuncios POP-UPS --> */?>
-<?php require PATH_RAIZ . '/_estructura/publicidad/_anuncios/js\logica_anuncios.php'; ?>
-<?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . '/js_bootstrap/scripts-bootstrap.php'; Se encuentra con ___ borrar?>
+<?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+<?php //require PATH_ANUNCIOS . "/pop-up-publicitario2.php"; ?>              <?php /* <!-- Scripts anuncios POP-UPS --> */?>
+<?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/_anuncios/js\logica_anuncios.php'; ?>
+<?php //require PATH_BLOQUES_ESTRUCTURA . '/js_bootstrap/scripts-bootstrap.php'; Se encuentra con ___ borrar?>

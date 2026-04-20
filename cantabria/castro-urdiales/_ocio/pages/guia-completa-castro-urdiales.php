@@ -31,7 +31,7 @@
 
 
 
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_guia-completa-head.php"; ?>
+    <?php require PATH_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_guia-completa-head.php"; ?>
 
 </head>
 <body>

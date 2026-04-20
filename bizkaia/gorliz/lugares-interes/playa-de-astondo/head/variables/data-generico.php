@@ -1,7 +1,7 @@
 <?php
     // Datos principales para la Playa de Astondo
     $descripcion = 'Descubre la Playa de Astondo en Gorliz, Bizkaia: una playa familiar de arena dorada, aguas tranquilas y un entorno natural privilegiado en la bahía de Gorliz, ideal para el baño, paseos y actividades náuticas.';
-    $url = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 
     // Schema.org mainEntity (TouristDestination) para Playa de Astondo
     $mainEntity_description     = 'La Playa de Astondo en Gorliz es un arenal amplio y seguro, perfecto para familias, rodeado de paisajes naturales y con todos los servicios, muy próxima a la villa de Plentzia.';
@@ -14,6 +14,6 @@
     $mainEntity_geo_longitude   = -2.9346;
 
     // Imagen representativa y URL canónica para Playa de Astondo
-    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-astondo-1.jpg";
-    $mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-astondo-1.jpg";
+    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

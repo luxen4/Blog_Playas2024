@@ -17,7 +17,7 @@
 <meta name="theme-color" content="#0a5f8a">
 
 <!-- Canonical a la página -->
-<link rel="canonical" href="<?= PATH_DOMINIO_LUGAR_INTERES_INDEX; ?>" />
+<link rel="canonical" href="<?= PATH_DOMINIO_URL; ?>" />
   
 
 <!-- Open Graph Meta Tags -->

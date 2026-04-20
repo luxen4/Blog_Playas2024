@@ -1,6 +1,6 @@
 <!-- Contenido principal - Asador La Perla - Optimizado para SEO -->
 <main class="container mx-auto max-w-7xl px-4 py-6" itemscope itemtype="https://schema.org/Restaurant">
-        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
   <article class="bg-white rounded-2xl shadow-md p-6" itemprop="description">
     <header>
       <h1 class="text-3xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-4" itemprop="name">Asador La Perla en Castro Urdiales</h1>
@@ -62,11 +62,11 @@
       <p>Su excelente ubicación, junto con una propuesta culinaria de calidad, lo convierten en uno de los <strong>mejores restaurantes de Castro Urdiales</strong> para disfrutar de la cocina cántabra con vistas al mar.</p>
     </section>
 
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-google-maps.php'; ?>
+    <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-google-maps.php'; ?>
 
 
     <div class="text-center mt-8">
-      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-lugares-interes.php'; ?>
+      <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_LUGARES_INTERES . '/enlace-lugares-interes.php'; ?>
     </div>
   </article>
 </main>

@@ -1,16 +1,21 @@
-<?php require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/nouvelle-aquitaine/variables-region.php'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/'.$region_minuscula.'/variables-generales-region.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/'.$region_minuscula.'/'.$localidad_minuscula.'/head/variables/data-generico.php'; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines-comunes.php"; ?>
+
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/'.$region_minuscula.'/'.$localidad_minuscula.'/head/variables/meta_tags.php'; ?>
+
+
 
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/head/head-generico.php"; ?>
 </head>
 
 <body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
 
-  <?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/body/navbar-generico.php"; ?>
 
   <div class="container-xxl py-5">
     <div class="row">
@@ -37,7 +42,7 @@
       <!-- 🔵 CONTENIDO PRINCIPAL (7 columnas) -->
       <main class="col-lg-7 col-12">
 
-        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
         <header class="mb-6">
           <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
@@ -54,7 +59,7 @@
           </div>
         </header>
 
-        <?php require PATH_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
+        <?php require PATH_DOMINIO_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
 
       </main>
 
@@ -65,7 +70,7 @@
         <div class="sticky-top" style="top: 20px;">
 
           <div class="mb-4">
-            <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+            <?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
           </div>
 
           <?php /*
@@ -84,7 +89,7 @@
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

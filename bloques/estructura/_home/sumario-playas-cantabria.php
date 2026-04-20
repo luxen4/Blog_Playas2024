@@ -1,5 +1,5 @@
 <?php
-$targeta = PATH_RAIZ_LOCALIDADES . '/index.php';
+$targeta = PATH_LOCALIDADES . '/index.php';
 $publicidad = './bloques/estructura/sections_generico/Carruseles_CSV/prueba_sneakers.php';
 
 $region = 'Cantabria';
@@ -56,7 +56,7 @@ $localidades = [
     ]
   ]
 ];
-   include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/print-sumario-generico.php'; ?>
+   include PATH_BLOQUES_ESTRUCTURA_HOME . '/print-sumario-generico.php'; ?>
 
 
 

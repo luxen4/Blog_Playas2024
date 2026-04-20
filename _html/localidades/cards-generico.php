@@ -42,7 +42,7 @@
 ?>
 
 <?php
-$ruta_csv = PATH_RAIZ . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/data-lugares-interes-{$localidad_minuscula}.csv";
+$ruta_csv = PATH_DOMINIO_RAIZ . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/data-lugares-interes-{$localidad_minuscula}.csv";
 
 $lugares_interes = [];
 
@@ -82,7 +82,7 @@ if (($handle = fopen($ruta_csv, "r")) !== false) {
             </figcaption>
           </figure>
 
-          <?php require PATH_RAIZ . '/_html/localidades/boton-explorar.php'; ?>
+          <?php require PATH_DOMINIO_RAIZ . '/_html/localidades/boton-explorar.php'; ?>
                 
         </div>
       </div>

@@ -30,26 +30,26 @@ try {
 <html lang="es">
 
   <head>
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/_estructura/head/head-generico.php"; ?>
+    <?php require PATH_LOCALIDAD_LUGARES_INTERES . "/_estructura/head/head-generico.php"; ?>
   </head>
 
 <body class="bg-<?= COLOR_PAGE; ?>-100">
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/_estructura/body/header-generico.php"; ?>
-    <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/_estructura/body/post-header-generico.php"; ?>
+    <?php require PATH_LOCALIDAD_LUGARES_INTERES . "/_estructura/body/header-generico.php"; ?>
+    <?php require PATH_LOCALIDAD_LUGARES_INTERES . "/_estructura/body/post-header-generico.php"; ?>
 
 
-    <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+    <?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
 
 
-    <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/anuncios/js/logica_anuncios.php"; ?>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
-    <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; ?>
+    <?php //require PATH_BLOQUES_ESTRUCTURA . "/anuncios/js/logica_anuncios.php"; ?>
+    <?php require PATH_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
+    <?php //require PATH_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; ?>
 
 
     <?php
-    $pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
-    $pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
+    $pathConPlayas = PATH_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
+    $pathSinPlayas = PATH_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
 
     try {
         if (file_exists($pathConPlayas)) {

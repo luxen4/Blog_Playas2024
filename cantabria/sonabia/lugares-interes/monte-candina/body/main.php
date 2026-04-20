@@ -4,12 +4,12 @@
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
   <link rel="canonical" href="<?= PATH_HREF_RAIZ_LOCALIDADES; ?>/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar_minuscula; ?>/index.php" />
-  <?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/head/links-generico.php"; ?>
   <title>Monte Candina - Sonabia, Cantabria</title>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/monte-candina-sonabia/schemas/schemas-head.php"; ?>
+  <?php require PATH_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/monte-candina-sonabia/schemas/schemas-head.php"; ?>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -20,7 +20,7 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 py-1">  
-    <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+    <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4 flex items-center">
@@ -100,12 +100,12 @@
       </ul>
     </section>
 
-    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+    <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+    <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+    <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
-  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.4370, -3.4300], 15); // Coordenadas aproximadas del Monte Candina
@@ -122,6 +122,6 @@
     });
   </script>
 
-  <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/monte-candina-sonabia/schemas/schemas-body.php"; ?>
+  <?php require PATH_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/monte-candina-sonabia/schemas/schemas-body.php"; ?>
 </body>
 </html>

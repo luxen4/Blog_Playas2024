@@ -1,5 +1,5 @@
 <main class="container py-8 px-4 mx-auto max-w-7xl" itemscope itemtype="https://schema.org/TouristAttraction">
-      <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>  
+      <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>  
 <article class="bg-white rounded-2xl shadow-md p-6 md:p-8" itemprop="description">
     <header>
       <h1 class="text-3xl md:text-5xl font-extrabold text-blue-700 mb-4" itemprop="name">Playa de Brazomar</h1>
@@ -60,10 +60,10 @@
 
 
 
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-  <?php //require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in-parte-abajo.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+  <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-google-maps.php'; ?>
+  <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+  <?php //require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in-parte-abajo.php'; ?>
+  <?php require PATH_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
 
 
 

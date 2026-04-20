@@ -10,7 +10,7 @@
 <?php https://www.youtube.com/watch?v=0ZvtKu0XBMg
   $title = 'Playas del Cantabrico'; $lugar_minuscula= 'playas-cantabrico';
   $region_minuscula = 'cantabria';
-  $localidad_minuscula = '';
+  $localidad_minuscula = ''; $lugar_interes="";
   $lugar_minuscula_footer = 'Playas del Cantábrico';
   $lugar_minuscula = $lugar_minuscula_footer;
   define('COLOR_PAGE', 'orange');
@@ -23,19 +23,19 @@
 <?php define('DESCRIPTION', "Recorre la Ruta de la Costa Oriental en Ajo: senderos naturales, acantilados, faros y vistas panorámicas del Cantábrico en una experiencia inolvidable."); ?>
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines.php"; ?>
-<?php require PATH_RAIZ_HOME_HEAD_VARIABLES . "/meta-tags.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines-comunes.php"; ?>
+<?php require PATH_HOME_HEAD_VARIABLES . "/meta-tags.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/head/head-generico.php"; ?>
 </head>
 
 <body>
   
-  <?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/body/navbar-generico.php"; ?>
 
 
     <!-- Código de AdCash (runAutoTag) -->
@@ -61,7 +61,7 @@
           <div id="ad-left-1"></div>
         </div>*/ ?>
 
-        <?php require PATH_RAIZ . "/_anuncios/amazon/publicidad-tematizada.php"; ?>
+        <?php require PATH_DOMINIO_RAIZ . "/_anuncios/amazon/publicidad-tematizada.php"; ?>
 
 
         <div class="bg-gray-100 p-2 text-center rounded-lg shadow">
@@ -123,28 +123,28 @@
 
         <div class="row">
           <div class="col-12">
-            <?php include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-cantabria.php'; ?>
+            <?php include PATH_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-cantabria.php'; ?>
             <div id="adcash-zone" style="width: 100%; text-align: center; margin: 1em 0;"></div>
           </div>
 
           <div class="col-12">
             <?php 
               $region='Bizkaia'; $region_minuscula = 'bizkaia';
-              include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-bizkaia.php'; 
+              include PATH_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-bizkaia.php'; 
             ?>
           </div>
 
           <div class="col-12">
             <?php 
               $region='Gipuzkoa'; $region_minuscula = 'gipuzkoa';
-              include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-gipuzkoa.php'; 
+              include PATH_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-gipuzkoa.php'; 
             ?>
           </div>
 
           <div class="col-12">
             <?php 
               $region='Francia'; $region_minuscula = strtolower($localidad);
-              include PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-nouvelle-aquitaine.php'; 
+              include PATH_BLOQUES_ESTRUCTURA_HOME . '/sumario-playas-nouvelle-aquitaine.php'; 
             ?>
           </div>
         </div>
@@ -172,17 +172,17 @@
 
 </main>
 
-    <?php // require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
+    <?php // require PATH_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
 
 
-    <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+    <?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
-    <?php //require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
+    <?php //require PATH_DOMINIO_RAIZ . "/anuncios/pop-up-index.php"; ?>
     <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>
-    <?php require PATH_RAIZ_BLOQUES . "/control/control-visitas.php"; ?>
+    <?php require PATH_BLOQUES . "/control/control-visitas.php"; ?>
 
-    <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/"; ?>
-    <?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
+    <?php //require PATH_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/"; ?>
+    <?php //require PATH_BLOQUES_ESTRUCTURA . "/js_bootstrap/scripts-bootstrap.php"; ?>
 </body>
 
 </html>

@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Playa de Gorliz – Gorliz (bizkaia)';
 $pinterest_property_card_description_content = 'Descubre la Playa de Gorliz en bizkaia: una hermosa playa de arena fina ideal para el baño, surf y paseos junto a la costa vasca.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/playadegorliz/img/playa-de-gorliz-1.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/pais-vasco/playadegorliz/img/playa-de-gorliz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Playa de Gorliz
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Gorliz – Gorliz (bizkaia)';
 $twitterCards_description = 'Explora la Playa de Gorliz: un arenal natural en la costa vasca, perfecto para disfrutar del mar, el sol y actividades al aire libre.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/playadegorliz/img/playa-de-gorliz-1.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/playadegorliz/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/pais-vasco/playadegorliz/img/playa-de-gorliz-1.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/pais-vasco/playadegorliz/index.php';
 
 // Variables Open Graph – Playa de Gorliz
 $graph_Meta_Tags_property_title        = 'Playa de Gorliz – Gorliz (bizkaia)';
 $graph_Meta_Tags_property_description  = 'Visita la Playa de Gorliz, un magnífico arenal en bizkaia, ideal para familias, surfistas y amantes de la naturaleza costera.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/playadegorliz/img/playa-de-gorliz-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/playadegorliz/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/pais-vasco/playadegorliz/img/playa-de-gorliz-1.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/pais-vasco/playadegorliz/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

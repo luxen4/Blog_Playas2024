@@ -11,7 +11,7 @@
             $alt = "Camisa cuadros mujer";
             $nombre_producto = "Irevial Camisa Manga Larga Mujer Oficina Elegante";
             $price = "";
-            //require PATH_RAIZ_BLOQUES . '/anuncios_derecha.php'; 
+            //require PATH_BLOQUES . '/anuncios_derecha.php'; 
             ?>
 
             <iframe
@@ -25,7 +25,7 @@
                 allowfullscreen>
             </iframe>
 
-            <?php require PATH_RAIZ_BLOQUES . '/anuncios_derecha_1item.php'; ?>
+            <?php require PATH_BLOQUES . '/anuncios_derecha_1item.php'; ?>
 
             <?php
             $href = "https://amzn.to/3XkGL8G";
@@ -33,7 +33,7 @@
             $alt = "Bolso mujer gris";
             $nombre_producto = "Tom Tailor lari, Bolsa para Mujer";
             $price = "44,79€";
-            require PATH_RAIZ_BLOQUES . '/anuncios_derecha.php';
+            require PATH_BLOQUES . '/anuncios_derecha.php';
             ?>
 
             <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>

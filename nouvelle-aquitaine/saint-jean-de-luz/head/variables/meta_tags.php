@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Saint-Jean-de-Luz – Municipio en Nouvelle-Aquitaine';
 $pinterest_property_card_description_content = 'Descubre Saint-Jean-de-Luz, un pintoresco municipio de la costa vascofrancesa, famoso por su puerto pesquero, historia marítima y ambiente costero único.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/saint-jean-de-luz/img/puerto-saint-jean-de-luz-1.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/nouvelle-aquitaine/saint-jean-de-luz/img/puerto-saint-jean-de-luz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Saint-Jean-de-Luz
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Saint-Jean-de-Luz – Municipio en Nouvelle-Aquitaine';
 $twitterCards_description = 'Explora Saint-Jean-de-Luz: un encantador puerto atlántico con tradición pesquera, gastronomía vasca y un centro histórico lleno de vida.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/saint-jean-de-luz/img/puerto-saint-jean-de-luz-1.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/saint-jean-de-luz/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/nouvelle-aquitaine/saint-jean-de-luz/img/puerto-saint-jean-de-luz-1.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/nouvelle-aquitaine/saint-jean-de-luz/index.php';
 
 // Variables Open Graph – Saint-Jean-de-Luz
 $graph_Meta_Tags_property_title        = 'Saint-Jean-de-Luz – Municipio en Nouvelle-Aquitaine';
 $graph_Meta_Tags_property_description  = 'Visita Saint-Jean-de-Luz, ciudad costera del País Vasco francés, con un puerto histórico, calles llenas de encanto y una vibrante vida marítima.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/saint-jean-de-luz/img/puerto-saint-jean-de-luz-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/saint-jean-de-luz/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/nouvelle-aquitaine/saint-jean-de-luz/img/puerto-saint-jean-de-luz-1.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/nouvelle-aquitaine/saint-jean-de-luz/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

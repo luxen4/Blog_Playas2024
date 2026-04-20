@@ -13,7 +13,7 @@ $lugar_minuscula_footer='Senderos Costeros y Rutas Oficiales - Castro-Urdiales';
 <html lang="es">
 <head>
     <?php //require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/{$nombre_sub_carpeta}/previo.php"; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD. '/head-generico.php'; ?>
+    <?php require PATH_LOCALIDAD_HEAD. '/head-generico.php'; ?>
 </head>
 <body class="bg-white text-gray-900 font-sans">
   <header class="bg-<?= COLOR_PAGE; ?>-100 p-6 text-center shadow-md">
@@ -68,8 +68,8 @@ $lugar_minuscula_footer='Senderos Costeros y Rutas Oficiales - Castro-Urdiales';
     </section>
   </main>
 
-      <?php require PATH_RAIZ_CARPETA_LOCALIDADES_LUGARES_INTERES. '/footer-generico.php' ?>
-      <?php require PATH_RAIZ_CARPETA_LUGARES_SCHEMAS. '/schemas-body.php' ?>
+      <?php require PATH_CARPETA_LOCALIDADES_LUGARES_INTERES. '/footer-generico.php' ?>
+      <?php require PATH_CARPETA_LUGARES_SCHEMAS. '/schemas-body.php' ?>
 
 </body>
 </html>

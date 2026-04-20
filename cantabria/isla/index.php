@@ -19,12 +19,12 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
+    <?php require PATH_DOMINIO_RAIZ . "/_html/head/head-generico.php"; ?>
 </head>
 
 <body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
   
-<?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/body/navbar-generico.php"; ?>
   
 <div class="container-xxl py-5">
   <div class="row">
@@ -54,7 +54,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
     <!-- 🔵 MAIN -->
     <main class="col-lg-7 col-12">
 
-      <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+      <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
       <header class="mb-6">
         <div class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
@@ -71,7 +71,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
         </div>
       </header>
 
-      <?php require PATH_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
+      <?php require PATH_DOMINIO_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
 
     </main>
 
@@ -82,7 +82,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
       <div class="sticky-top" style="top: 20px;">
         
         <div class="mb-4">
-          <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+          <?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
         </div>
 
         <div class="bg-white p-3 rounded shadow-sm mb-4 text-center">
@@ -100,7 +100,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
   </div>
 </div>
 
-<?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 

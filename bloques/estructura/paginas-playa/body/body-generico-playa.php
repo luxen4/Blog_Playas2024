@@ -20,7 +20,7 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
 }
 ?>
    
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY . "/header-generico.php"; ?>
+<?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY . "/header-generico.php"; ?>
 
 <header class="header-principal shadow-sm border-bottom mb-4">
         <nav class="container navbar navbar-expand-lg navbar-light">
@@ -50,12 +50,12 @@ function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#298
 </style>
 
 
-<?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. "/header-playa.php"; ?>
+<?php //require PATH_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. "/header-playa.php"; ?>
 
 
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN. "/main-playa-generico.php"; ?>
-<?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA_FOOTER. "/footer.php"; ?>
+<?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN. "/main-playa-generico.php"; ?>
+<?php //require PATH_BLOQUES_ESTRUCTURA_FOOTER. "/footer.php"; ?>
 
 
 
-<?php require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/anuncios/pop-up-index.php"; ?>

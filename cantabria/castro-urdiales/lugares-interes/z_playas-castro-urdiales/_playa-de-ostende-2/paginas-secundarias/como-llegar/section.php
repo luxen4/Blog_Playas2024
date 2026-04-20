@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
+<?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/breadcrums-playa.php'; ?>
 
 <article itemscope itemtype="https://schema.org/Article" class="w-full">
   <meta itemprop="author" content=<?= AUTHOR; ?> />

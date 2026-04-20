@@ -18,4 +18,4 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('KEYWORDS_CONTENT', 'Parque Kortezubi, Sopelana, Bizkaia, zonas verdes, turismo País Vasco, costa vasca, ocio familiar, naturaleza, paseos, senderismo') ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
-<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>
+<?php require PATH_DOMINIO_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

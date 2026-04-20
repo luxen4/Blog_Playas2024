@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Playa de Santiago de Deba – País Vasco';
 $pinterest_property_card_description_content = 'Descubre la Playa de Santiago de Deba en Deba, País Vasco: un rincón costero con arena fina, oleaje moderado y un entorno natural ideal para el baño y el paseo.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
 
 // Variables de configuración para Twitter Cards – Santiago de Deba
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Santiago de Deba – País Vasco';
 $twitterCards_description = 'Explora la Playa de Santiago de Deba en Deba: arena fina, entorno natural protegido y oleaje tranquilo perfecto para el baño y paseos relajantes.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/deba/playa-de-santiago-deba/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/index.php';
 
 // Variables Open Graph – Santiago de Deba
 $graph_Meta_Tags_property_title        = 'Playa de Santiago de Deba – País Vasco';
 $graph_Meta_Tags_property_description  = 'Visita la Playa de Santiago de Deba en Deba, País Vasco: una playa con arena fina, perfecta para el baño y paseos costeros en un entorno natural protegido.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/deba/playa-de-santiago-deba/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

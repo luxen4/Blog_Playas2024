@@ -2,11 +2,11 @@
   <div class="row">
 
     <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
-      <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/body/main.php"; ?>
+      <?php //require PATH_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/body/main.php"; ?>
 
 <?php
-$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/body/main.php"; 
-$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/body/main.php"; 
+$pathConPlayas = PATH_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/body/main.php"; 
+$pathSinPlayas = PATH_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/body/main.php"; 
 
 try {
     if (file_exists($pathConPlayas)) {
@@ -31,13 +31,13 @@ try {
 
     <div class="col-xl-3 col-lg-4 col-md-4 d-none d-md-block sidebar-anuncios">
       <div class="mb-4">
-                <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
-        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+                <?php // require PATH_DOMINIO_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
       </div>
 
       <?php /*
       <div class="bg-white border border-gray-300 rounded-lg shadow-sm p-3">
-        <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/anuncios-add-cash.php"; ?>
+        <?php require PATH_BLOQUES_ESTRUCTURA_ANUNCIOS_JS . "/anuncios-add-cash.php"; ?>
       </div> */ ?>
     </div>
 

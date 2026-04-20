@@ -11,10 +11,10 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <?php require PATH_RAIZ_LOCALIDADES_CARPETA. "/ocio/head/etiquetas-meta.php"; ?>
+    <?php require PATH_LOCALIDAD. "/ocio/head/etiquetas-meta.php"; ?>
     <title>Alojamientos en <?= $localidad_minuscula; ?> | Dónde Dormir en <?= $region; ?></title>
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_alojamientos-head.php"; ?>
+    <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD . "/links-generico.php"; ?>
+    <?php require PATH_LOCALIDADES_OCIO_SCHEMAS_HEAD . "/schema-org_alojamientos-head.php"; ?>
   </head>
 
   <body>
@@ -110,7 +110,7 @@
       <small>&copy; <?= date('Y'); ?> Playas2026 | Alojamientos y turismo en la costa de Cantabria</small>
     </footer>
 
-    <?php require PATH_RAIZ_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_alojamientos.php'; // Por estructura, va aquí! ?>
+    <?php require PATH_LOCALIDADES_OCIO_SCHEMAS_BODY . '/schema-org_alojamientos.php'; // Por estructura, va aquí! ?>
 
   </body>
 </html>

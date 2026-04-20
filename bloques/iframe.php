@@ -1,9 +1,9 @@
 A
-<?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/turismo-norte-espana'); ?>
-<?php define('PATH_RAIZ_BLOQUES',                                       PATH_RAIZ. '/bloques'); ?> 
-<?php define('PATH_RAIZ_BLOQUES_CONTROL',                               PATH_RAIZ_BLOQUES . '/control'); ?>
-<?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA',                            PATH_RAIZ_BLOQUES. '/estructura'); ?>
-<?php //define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV', PATH_RAIZ_BLOQUES_ESTRUCTURA. "/sections_generico/Carruseles_CSV"); ?>
+<?php define('PATH_DOMINIO_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/turismo-norte-espana'); ?>
+<?php define('PATH_BLOQUES',                                       PATH_DOMINIO_RAIZ. '/bloques'); ?> 
+<?php define('PATH_BLOQUES_CONTROL',                               PATH_BLOQUES . '/control'); ?>
+<?php define('PATH_BLOQUES_ESTRUCTURA',                            PATH_BLOQUES. '/estructura'); ?>
+<?php //define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV', PATH_BLOQUES_ESTRUCTURA. "/sections_generico/Carruseles_CSV"); ?>
 
 
 

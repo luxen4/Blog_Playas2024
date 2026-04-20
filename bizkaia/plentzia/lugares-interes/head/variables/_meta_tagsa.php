@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Plentzia – Municipio en Bizkaia';
 $pinterest_property_card_description_content = 'Descubre Plentzia, un encantador municipio costero de Bizkaia con playas amplias, un puerto deportivo y rutas naturales para toda la familia.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/plentzia/img/puerto-deportivo-plentzia.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/bizkaia/plentzia/img/puerto-deportivo-plentzia.jpg';
 
 // Variables de configuración para Twitter Cards – Plentzia (municipio)
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Plentzia – Municipio en Bizkaia';
 $twitterCards_description = 'Visita Plentzia: un municipio costero de Bizkaia con playa, puerto deportivo, rutas senderistas y un entorno natural único.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/plentzia/img/puerto-deportivo-plentzia.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/plentzia/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/bizkaia/plentzia/img/puerto-deportivo-plentzia.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/bizkaia/plentzia/index.php';
 
 // Variables Open Graph – Plentzia (municipio)
 $graph_Meta_Tags_property_title        = 'Plentzia – Municipio en Bizkaia';
 $graph_Meta_Tags_property_description  = 'Plentzia, en Bizkaia, ofrece playas, puerto deportivo y rutas naturales en un ambiente tranquilo y familiar en la costa vasca.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/plentzia/img/puerto-deportivo-plentzia.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/plentzia/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/bizkaia/plentzia/img/puerto-deportivo-plentzia.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/bizkaia/plentzia/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

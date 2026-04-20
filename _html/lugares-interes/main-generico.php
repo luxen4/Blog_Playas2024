@@ -1,20 +1,20 @@
-<?php  //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY_DATA . '/data-informacion.php'; ?>
-<?php  require PATH_RAIZ . "/".$region_minuscula. "/".$localidad_minuscula. '/lugares-interes/'. $lugar_interes .'/body/data/data-informacion.php'; ?>
+<?php  //require PATH_LOCALIDAD_LUGARES_INTERES_BODY_DATA . '/data-informacion.php'; ?>
+<?php  require PATH_DOMINIO_RAIZ . "/".$region_minuscula. "/".$localidad_minuscula. '/lugares-interes/'. $lugar_interes .'/body/data/data-informacion.php'; ?>
 
 <?php // $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
 <main class=" min-h-screen p-1 md:p-10">
-  <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+  <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
-  <?php require PATH_RAIZ . '/_estructura/semantica/body/header/print-header-generico.php'; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-description-generico.php'; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-galeria-dinamica-imagenes.php'; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-comentarios-simulados-generico.php'; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-informacion-generico.php'; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-actividades-generico.php'; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-mapa-generico.php'; ?>
-  <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-contacto-generico.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
-  <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
+  <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/body/header/print-header-generico.php'; ?>
+  <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-description-generico.php'; ?>
+  <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-galeria-dinamica-imagenes.php'; ?>
+  <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-comentarios-simulados-generico.php'; ?>
+  <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-informacion-generico.php'; ?>
+  <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-actividades-generico.php'; ?>
+  <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-mapa-generico.php'; ?>
+  <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . '/print-contacto-generico.php'; ?>
+  <?php require PATH_DOMINIO_RAIZ . '/_anuncios/amazon/anuncios-fade-in.php'; ?>
+  <?php require PATH_DOMINIO_RAIZ . '/_html/lugares-interes/enlace-lugares-interes.php'; ?>
 
 </main>
 

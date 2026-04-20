@@ -12,7 +12,7 @@
 ?>
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines-comunes.php"; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -92,7 +92,7 @@
     </div>
   </section>
 
-  <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
+  <?php require PATH_LOCALIDAD_LUGARES_INTERES_ESTRUCTURA_BODY_MAIN . '/anuncios/anuncios-fade-in.php'; ?>
 
   <!-- Footer -->
   <footer class="bg-blue-800 text-white py-6 text-center text-sm">

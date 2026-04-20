@@ -6,7 +6,7 @@
     $localidad_minuscula = 'playadelaredo';       // carpeta correspondiente a Laredo
     $rutas = 'index';                 // nombre del archivo sin extensión o según tu estructura
     
-    $url = PATH_RAIZ_LOCALIDADES_CARPETA."/{$region_minuscula}/{$localidad_minuscula}/{$rutas}.php";
+    $url = PATH_LOCALIDAD."/{$region_minuscula}/{$localidad_minuscula}/{$rutas}.php";
 
     $mainEntity_description = 'La Playa de Laredo es reconocida por su extensa playa de arena fina, ideal para paseos y deportes como el surf.';
     $localidad = 'Laredo';
@@ -20,6 +20,6 @@
     $mainEntity_geo_latitude = 43.4162;  // Latitud aproximada de Laredo
     $mainEntity_geo_longitude = -3.4439; // Longitud aproximada de Laredo
 
-    $mainEntity_image = PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Ruta a imagen representativa
-    $mainEntity_url =  PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.php";
+    $mainEntity_image = PATH_DOMINIO_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Ruta a imagen representativa
+    $mainEntity_url =  PATH_DOMINIO_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.php";
 ?>

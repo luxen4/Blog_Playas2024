@@ -45,11 +45,11 @@ foreach ($datos as $fila) {
 fclose($f);
 
 // Enviar el correo con PHPMailer
-require_once PATH_RAIZ . '/vendor/autoload.php';
+require_once PATH_DOMINIO_RAIZ . '/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-if (!file_exists(PATH_RAIZ . '/vendor/autoload.php')) {
+if (!file_exists(PATH_DOMINIO_RAIZ . '/vendor/autoload.php')) {
     die("❌ No se encontró el autoload de Composer. Ejecuta 'composer install'.");
 }
 

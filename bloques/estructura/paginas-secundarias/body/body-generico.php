@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER . "/barra-navegacion-paginas-secundarias.php"; ?>
+<?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER . "/barra-navegacion-paginas-secundarias.php"; ?>
 
 <main id="main-content" role="main" class="py-6">
   <div class="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row gap-6">
@@ -7,8 +7,8 @@
     <section class="w-full md:w-3/4">
       <?php 
       // Carga de contenido principal
-      // require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS."/".LUGAR_MINUSCULA.".php"; 
-      require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_TEMA . "/section.php"; 
+      // require PATH_LOCALIDAD_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS."/".LUGAR_MINUSCULA.".php"; 
+      require PATH_LOCALIDAD_PAGINAS_SECUNDARIAS_TEMA . "/section.php"; 
       ?>
 
       <!-- Enlace que cierra la pestaña -->
@@ -25,16 +25,16 @@
 
     <!-- Sidebar oculto en móviles -->
     <aside class="hidden md:block md:w-1/4">
-      <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
+      <?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN . '/sidebar-playa.php'; ?>
     </aside>
 
   </div>
 </main>
 
 
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
-<?php //require PATH_RAIZ_BLOQUES_ESTRUCTURA . "/paginas-generico/footer.php"; ?>
-<?php //require PATH_RAIZ . "/anuncios/pop-up-publicitario2.php";  Ya se pondrá?>
+<?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO . "/footer-generico.php"; ?>
+<?php //require PATH_BLOQUES_ESTRUCTURA . "/paginas-generico/footer.php"; ?>
+<?php //require PATH_DOMINIO_RAIZ . "/anuncios/pop-up-publicitario2.php";  Ya se pondrá?>
 
 
 

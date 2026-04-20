@@ -5,7 +5,7 @@
     $localidad_minuscula = 'baiona'; // slug de la localidad
     $region_minuscula    = 'nouvelle-aquitaine'; // región ya en minúsculas
 
-    $url = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 
     // Schema.org mainEntity (TouristDestination) para Baiona
     $mainEntity_description     = 'Baiona es una ciudad del País Vasco francés reconocida por su arquitectura tradicional, su catedral gótica y sus festivales como la célebre Fiesta de Baiona.';
@@ -18,6 +18,6 @@
     $mainEntity_geo_longitude   = -1.4748;
 
     // Imagen representativa y URL canónica para Baiona
-    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/baiona.jpg";
-    $mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/baiona.jpg";
+    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

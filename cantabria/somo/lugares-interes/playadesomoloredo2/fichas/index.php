@@ -8,8 +8,8 @@ $rutas=""; $localidad="Somo"; $region="Cantabria"; $country="España";
   $localidad_minuscula = 'playadesomoloredo'; 
   $lugar_minuscula = 'playa-de-somo-loredo'; $nombre_playa_minuscula = $lugar_minuscula;
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require PATH_RAIZ . "/cantabria/somo/lugares-interes/playadesomoloredo2/fichas/sections/head/variables/web-playa/localizacion-playa.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines-comunes.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/cantabria/somo/lugares-interes/playadesomoloredo2/fichas/sections/head/variables/web-playa/localizacion-playa.php"; ?>
 
 
 <?php
@@ -25,20 +25,20 @@ $keywords_content = 'Playa de Somo, Playa de Loredo, surf Cantabria, Somo-Loredo
 <?php define('TITLE', 'Playa de Somo'); ?>
 
 
-<?php require PATH_RAIZ . "/cantabria/somo/lugares-interes/playadesomoloredo2/fichas/sections/head/variables/web-playa/grupo1/index.php"; ?>
+<?php require PATH_DOMINIO_RAIZ . "/cantabria/somo/lugares-interes/playadesomoloredo2/fichas/sections/head/variables/web-playa/grupo1/index.php"; ?>
 
 
-<?php require PATH_RAIZ_HTML . "/head/head-generico.php"; ?>
+<?php require PATH_HTML . "/head/head-generico.php"; ?>
 
 <body>
     <?php 
       $pafge = 'playade' . $nombre_playa_minuscula; 
     ?>
-    <?php //require PATH_RAIZ. "/cantabria/somo/lugares-interes/playadesomoloredo2/fichas/index.php"; ?>    
-    <?php require PATH_RAIZ . "/bloques/estructura/paginas-playa/body/body-generico-playa.php"; ?>
+    <?php //require PATH_DOMINIO_RAIZ. "/cantabria/somo/lugares-interes/playadesomoloredo2/fichas/index.php"; ?>    
+    <?php require PATH_DOMINIO_RAIZ . "/bloques/estructura/paginas-playa/body/body-generico-playa.php"; ?>
 
 
-    <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA. "/recarga_pagina_amigable.php"; ?>
+    <?php require PATH_BLOQUES_ESTRUCTURA. "/recarga_pagina_amigable.php"; ?>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 
-<?php define("PATH_RAIZ_LOCALIDADES_CARPETA_{$region_minuscula}_{$region_minuscula}",      PATH_RAIZ_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
+<?php define("PATH_LOCALIDAD_{$region_minuscula}_{$region_minuscula}",      PATH_LOCALIDADES. "/{$region_minuscula}/{$localidad_minuscula}"); ?>
 
 
-<?php define("PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_TEMA_{$region_minuscula}",                      PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/".LUGAR_MINUSCULA.""); ?>
-<?php define("PATH_RAIZ_LOCALIDADES_CARPETA_ETIQUETAS_META_{$region_minuscula}",                                PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/".LUGAR_MINUSCULA."/head"); ?>
+<?php define("PATH_LOCALIDAD_PAGINAS_SECUNDARIAS_TEMA_{$region_minuscula}",                      PATH_LOCALIDAD_PAGINAS_SECUNDARIAS. "/".LUGAR_MINUSCULA.""); ?>
+<?php define("PATH_LOCALIDAD_ETIQUETAS_META_{$region_minuscula}",                                PATH_LOCALIDAD_PAGINAS_SECUNDARIAS. "/".LUGAR_MINUSCULA."/head"); ?>
 <?php define("PATH_HREF_RAIZ_LOCALIDAD_{$region_minuscula}", "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}"); ?>
 
 <?php $ruta_playa = "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/playa-grande-playe"; ?>

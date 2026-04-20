@@ -5,21 +5,21 @@ $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si
 $pinterest_property_card_card_content        = 'summary_large_image';
 $pinterest_property_card_title_content       = 'Faro de Gorliz – Gorliz, Bizkaia';
 $pinterest_property_card_description_content = 'Descubre el Faro de Gorliz en Bizkaia: un enclave costero con vistas panorámicas al Cantábrico y entorno natural protegido.';
-$pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/faro-de-gorliz/img/faro-de-gorliz-1.jpg';
+$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/faro-de-gorliz/img/faro-de-gorliz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Faro de Gorliz (Gorliz, Bizkaia)
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Faro de Gorliz – Gorliz, Bizkaia';
 $twitterCards_description = 'Explora el Faro de Gorliz: un lugar emblemático de la costa vizcaína con paisajes marinos y entorno natural protegido.';
-$twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/faro-de-gorliz/img/faro-de-gorliz-1.jpg';
-$twitterCards_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/faro-de-gorliz/index.php';
+$twitterCards_image       = PATH_LOCALIDAD . '/faro-de-gorliz/img/faro-de-gorliz-1.jpg';
+$twitterCards_url         = PATH_LOCALIDAD . '/faro-de-gorliz/index.php';
 
 // Variables Open Graph – Faro de Gorliz (Gorliz, Bizkaia)
 $graph_Meta_Tags_property_title        = 'Faro de Gorliz – Gorliz, Bizkaia';
 $graph_Meta_Tags_property_description  = 'Visita el Faro de Gorliz, un icono costero con vistas al Cantábrico y un entorno natural único para el turismo en Bizkaia.';
-$graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/faro-de-gorliz/img/faro-de-gorliz-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/faro-de-gorliz/index.php';
+$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/faro-de-gorliz/img/faro-de-gorliz-1.jpg';
+$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/faro-de-gorliz/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
 $graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';

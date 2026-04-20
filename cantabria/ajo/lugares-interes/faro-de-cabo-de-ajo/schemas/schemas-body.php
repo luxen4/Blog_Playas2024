@@ -21,7 +21,7 @@
     "latitude": 43.5076,
     "longitude": -3.6092
   },
-  "url": "https://tusitio.com/faro-del-cabo-de-ajo.php",
+  "url": "https://tusitio.com/faro-de-cabo-de-ajo.php",
   "telephone": "+34 942 62 20 09",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",

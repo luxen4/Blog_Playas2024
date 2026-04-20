@@ -1,4 +1,4 @@
-<?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER. '/breadcrums-paginas-secundarias.php'; ?>
+<?php require PATH_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEADER. '/breadcrums-paginas-secundarias.php'; ?>
 <section id="servicios" class="seccion-servicios container py-5">
     <header class="text-center mb-4">
       <h2 class="text-success">🌴 Servicios en la Playa de Ostende</h2>

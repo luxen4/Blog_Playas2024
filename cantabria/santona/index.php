@@ -9,7 +9,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <!DOCTYPE html>
 <html lang="es">
-<head><?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?></head>
+<head><?php require PATH_DOMINIO_RAIZ . "/_html/head/head-generico.php"; ?></head>
 
 <body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
 
@@ -18,7 +18,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
       <!-- Columna izquierda (principal) -->
       <div class="col-lg-8">
-        <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
         <header class="mb-10">
           <div class="bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-400 text-white text-center p-8 rounded-lg shadow-lg">
@@ -33,17 +33,17 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
           </div>
         </header>
 
-        <?php require PATH_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
+        <?php require PATH_DOMINIO_RAIZ . "/_estructura/semantica/pages/lugares-interes-generico.php"; ?>
       </div>
 
       <div class="col-4 col-md-3 d-none d-md-block">
-                <?php // require PATH_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
-        <?php require PATH_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+                <?php // require PATH_DOMINIO_RAIZ . '/_estructura/semantica/sidebar-playa.php'; ?>
+        <?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
       </div>
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
+  <?php require PATH_DOMINIO_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

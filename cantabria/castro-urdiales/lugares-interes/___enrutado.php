@@ -1,7 +1,7 @@
 
 <?php
-$pathConPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
-$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
+$pathConPlayas = PATH_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
+$pathSinPlayas = PATH_LOCALIDAD_LUGARES_INTERES . "/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; 
 
 try {
     if (file_exists($pathConPlayas)) {

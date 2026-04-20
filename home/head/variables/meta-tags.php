@@ -16,7 +16,7 @@ $graph_Meta_Tags_property_description = "Descubre las mejores playas del Cantáb
 
 
 
-$graph_Meta_Tags_property_image       = PATH_DOMINIO_RAIZ_LOCALIDADES .'cantabria/ajo/lugares-interes/playas/playa-de-cuberris/img/playa-de-cuberris-ajo-cantabria-1.jpg';
+$graph_Meta_Tags_property_image       = PATH_LOCALIDADES .'cantabria/ajo/lugares-interes/playas/playa-de-cuberris/img/playa-de-cuberris-ajo-cantabria-1.jpg';
 
 $graph_Meta_Tags_property_url         = PATH_DOMINIO_RAIZ . "/index.php";
 $graph_Meta_Tags_property_type        = "website";

@@ -5,7 +5,7 @@
     $localidad_minuscula = 'capbreton'; // slug de la localidad
     $region_minuscula    = 'nouvelle-aquitaine'; // región ya en minúsculas
 
-    $url = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 
     // Schema.org mainEntity (TouristDestination) para Capbreton
     $mainEntity_description     = 'Capbreton es un pintoresco pueblo costero del suroeste de Francia, ideal para disfrutar de deportes acuáticos, paseos marítimos y gastronomía local.';
@@ -18,6 +18,6 @@
     $mainEntity_geo_longitude   = -1.4287;
 
     // Imagen representativa y URL canónica para Capbreton
-    $mainEntity_image = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/img/capbreton.jpg";
-    $mainEntity_url   = PATH_RAIZ_LOCALIDADES_CARPETA . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/capbreton.jpg";
+    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
 ?>

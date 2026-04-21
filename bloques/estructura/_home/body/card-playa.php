@@ -1,5 +1,5 @@
 
-<?php $targeta = PATH_LOCALIDADES.'/index.php'; ?>
+<?php $targeta = PATH_LOCALIDADES . '/index.php'; ?>
 <details class="group bg-<?= COLOR_PAGE; ?>-50 border border-<?= COLOR_PAGE; ?>-300 rounded-md p-1 w-full mx-auto my-1 shadow-sm">
   <summary class="cursor-pointer text-<?= COLOR_PAGE; ?>-800 font-semibold text-lg flex items-center justify-between">
     <div class="flex items-center gap-2">
@@ -16,6 +16,7 @@
   </summary>
 
   <div class="mt-4 text-sm text-<?= COLOR_PAGE; ?>-900 leading-relaxed">
+    <?php echo ($targeta); //die(); ?>
     <?php require $targeta; ?>
   </div>
 

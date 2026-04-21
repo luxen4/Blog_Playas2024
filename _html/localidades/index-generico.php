@@ -70,7 +70,7 @@
         <div class="sticky-top" style="top: 20px;">
 
           <div class="mb-4">
-            <?php require PATH_DOMINIO_RAIZ . '/_estructura/publicidad/getYourGuide/index.php'; ?>
+            <?php require PATH_DOMINIO_RAIZ . '/_anuncios/get-your-guide/index.php'; ?>
           </div>
 
           <?php /*

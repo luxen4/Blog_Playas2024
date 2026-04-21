@@ -1,19 +1,18 @@
 <?php
-    // Datos principales para Playa de La Arena (Muskiz)
-    $descripcion = 'Descubre la Playa de La Arena, una extensa playa de arena fina en Muskiz, bizkaia, ideal para disfrutar del mar Cantábrico, practicar surf, pasear entre dunas o explorar su entorno natural protegido.';
-    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Datos principales para Muskiz
+    $descripcion = 'Descubre Muskiz en Bizkaia: un destino costero del País Vasco conocido por su entorno natural, la Playa de La Arena, la desembocadura del río Barbadún y sus rutas junto a acantilados y zonas verdes.';
 
-    // Schema.org mainEntity (TouristDestination) para Playa de La Arena
-    $mainEntity_description     = 'La Playa de La Arena, situada en Muskiz (bizkaia), es una de las playas más amplias de la costa vasca, con servicios, zonas naturales y un entorno perfecto para el ocio y el deporte.';
+    // Schema.org mainEntity (TouristDestination) para Muskiz
+    $mainEntity_description     = 'Muskiz es una localidad de Bizkaia situada en la costa vasca, destacando por la Playa de La Arena, su entorno natural protegido en la desembocadura del río Barbadún y su proximidad a paisajes industriales y naturales del litoral.';
     $mainEntity_addressLocality = 'Muskiz';
     $mainEntity_addressRegion   = 'País Vasco';
     $mainEntity_addressCountry  = 'España';
 
-    // Coordenadas aproximadas del centro de la Playa de La Arena
-    $mainEntity_geo_latitude    = 43.3711;
-    $mainEntity_geo_longitude   = -3.1197;
+    // Coordenadas aproximadas de Muskiz
+    $mainEntity_geo_latitude    = 43.3225;
+    $mainEntity_geo_longitude   = -3.1238;
 
-    // Imagen representativa y URL canónica para Playa de La Arena
-    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-la-arena.jpg";
-    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Imagen representativa y URL canónica para Muskiz
+    $mainEntity_image = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/img/muskiz-cantabria.jpg";
+    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/";
 ?>

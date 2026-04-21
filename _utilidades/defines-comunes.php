@@ -3,8 +3,8 @@
 <?php define('NOMBRE_PROYECTO', 'turismo-norte-espana'); ?>
 <?php define('PATH_DOMINIO_RAIZ', DOMINIO . '/'.NOMBRE_PROYECTO); ?>
 
-<?php define('PATH_LOCALIDADES', PATH_DOMINIO_RAIZ . '/'); ?>
-<?php define('PATH_DOMINIO_URL', PATH_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA. "/"); ?>
+<?php define('PATH_LOCALIDADES', PATH_DOMINIO_RAIZ . '/localidades'); ?>
+<?php define('PATH_DOMINIO_URL', PATH_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_interes. "/"); ?>
 <?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_URL. "/img/{$lugar_interes}-{$region_minuscula}.jpg"); ?>
 
 <?php define('NAME_BLOG', "Turismo Norte de España"); ?>

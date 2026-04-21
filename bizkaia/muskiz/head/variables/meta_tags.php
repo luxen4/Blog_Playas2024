@@ -1,41 +1,40 @@
 <?php
-$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si tienes otro valor
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Cambia si tienes un valor distinto
 
-// Variables de configuración para Pinterest – Playa de La Arena
-$pinterest_property_card_card_content        = 'summary_large_image';
-$pinterest_property_card_title_content       = 'Playa de La Arena – Muskiz (bizkaia)';
-$pinterest_property_card_description_content = 'Descubre la Playa de La Arena en Muskiz: una extensa playa de arena fina ideal para el surf, el baño y paseos entre dunas junto al mar Cantábrico.';
-$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/pais-vasco/playadelaarena/img/playa-de-la-arena-1.jpg';
+// Pinterest
+$pinterest_property_card_card_content        = 'SUMARY_LARGE_IMAGE';
+$pinterest_property_card_title_content       = 'Muskiz, País Vasco';
+$pinterest_property_card_description_content = 'Descubre Muskiz en Bizkaia: un destino costero con la Playa de La Arena, naturaleza en el río Barbadún y un entorno tranquilo junto al mar Cantábrico.';
+$pinterest_property_card_image_content       = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula.'/img/muskiz-cantabria.png';
 
-// Variables de configuración para Twitter Cards – Playa de La Arena
+// Twitter Cards
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
-$twitterCards_title       = 'Playa de La Arena – Muskiz (bizkaia)';
-$twitterCards_description = 'Explora la Playa de La Arena en Muskiz: un arenal amplio y natural en la costa vasca, con espacio para disfrutar del mar, el sol y la naturaleza.';
-$twitterCards_image       = PATH_LOCALIDAD . '/pais-vasco/playadelaarena/img/playa-de-la-arena-1.jpg';
-$twitterCards_url         = PATH_LOCALIDAD . '/pais-vasco/playadelaarena/index.php';
+$twitterCards_title       = 'Muskiz, País Vasco';
+$twitterCards_description = 'Explora Muskiz: la Playa de La Arena, el estuario del Barbadún y un entorno natural y costero único en Bizkaia.';
+$twitterCards_image       = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula.'/img/muskiz-cantabria.png';
+$twitterCards_url         = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula;
 
-// Variables Open Graph – Playa de La Arena
-$graph_Meta_Tags_property_title        = 'Playa de La Arena – Muskiz (bizkaia)';
-$graph_Meta_Tags_property_description  = 'Visita la Playa de La Arena, uno de los arenales más grandes de bizkaia, perfecta para surfistas, familias y amantes de la naturaleza costera.';
-$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/pais-vasco/playadelaarena/img/playa-de-la-arena-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/pais-vasco/playadelaarena/index.php';
+// Open Graph
+$graph_Meta_Tags_property_title        = 'Muskiz, País Vasco';
+$graph_Meta_Tags_property_description  = 'Visita Muskiz, un destino tranquilo de Bizkaia con playa, naturaleza y paisajes del litoral vasco.';
+$graph_Meta_Tags_property_image        = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula.'/img/muskiz-cantabria.png';
+
+$graph_Meta_Tags_property_url          = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula;
 $graph_Meta_Tags_property_type         = 'website';
 
-$graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';
-$graph_Meta_Tags_property_locale       = 'es_ES';
-$graph_Meta_Tags_property_image_alt    = 'Playa de La Arena en Muskiz (bizkaia)';
+$graph_Meta_Tags_property_site_name    = TURISMO_NORTE_ESPANA;
+$graph_Meta_Tags_property_locale       = IDIOMA_LOCAL;
+$graph_Meta_Tags_property_image_alt    = 'Muskiz, País Vasco';
 $graph_Meta_Tags_property_image_width  = '1200';
 $graph_Meta_Tags_property_image_height = '630';
-$graph_Meta_Tags_property_author       = 'Adrián Laya García';
+$graph_Meta_Tags_property_author       = AUTHOR;
 $graph_Meta_Tags_property_updated_timeEEEEEEE = date('c');
-$graph_Meta_Tags_property_published_time = '2025-07-09T08:00:00+02:00'; // Fecha de publicación
+$graph_Meta_Tags_property_published_time = '2025-07-17T08:00:00+02:00'; // Ajusta según publicación real
 $graph_Meta_Tags_property_section      = 'Turismo y Playas';
-$graph_Meta_Tags_property_tag          = 'Playa de La Arena';
-$graph_Meta_Tags_property_tag2         = 'Playas bizkaia';
-$graph_Meta_Tags_property_tag3         = 'Turismo Costa Vasca';
+$graph_Meta_Tags_property_tag          = 'Muskiz, País Vasco';
+$graph_Meta_Tags_property_tag2         = 'Playas Bizkaia';
+$graph_Meta_Tags_property_tag3         = TURISMO_NORTE_ESPANA;
 ?>
 
-<?php define('DESCRIPTION', "Descubre Muskiz en Bizkaia, un destino costero donde se mezcla naturaleza, playa y paisaje industrial. Disfruta de la Playa de La Arena, los acantilados, la ría del Barbadún y rutas junto al mar Cantábrico."); ?>
-
-<?php define('KEYWORDS_CONTENT', "Muskiz Bizkaia, turismo Muskiz, Playa de La Arena, costa de Bizkaia, acantilados Muskiz, ría del Barbadún, surf Bizkaia, naturaleza País Vasco, pueblos costeros Euskadi, viajar al País Vasco, turismo norte España, rutas costeras Bizkaia, vacaciones en Bizkaia"); ?>
+<?php //echo($graph_Meta_Tags_property_image) ?>

@@ -1,19 +1,18 @@
 <?php
-    // Datos principales para la Playa de Berria
-    $descripcion = 'Descubre la Playa de Berria en Santona, Cantabria: una extensa playa de más de 2 km de arena fina, situada junto a las marismas del río Asón y ideal para el surf, el baño y el senderismo costero.';
-    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Datos principales para Santoña
+    $descripcion = 'Descubre Santoña en Cantabria: un encantador destino marinero famoso por sus marismas, su tradición conservera, el Monte Buciero y sus playas como Berria, ideales para naturaleza, cultura y gastronomía.';
 
-    // Schema.org mainEntity (TouristDestination) para Playa de Berria
-    $mainEntity_description     = 'La Playa de Berria es una de las más largas de Cantabria, con oleaje moderado para el surf y amplias zonas tranquilas junto al Parque Natural de las Marismas de Santona, Victoria y Joyel.';
-    $mainEntity_addressLocality = 'Santona';
+    // Schema.org mainEntity (TouristDestination) para Santoña
+    $mainEntity_description     = 'Santoña es uno de los principales destinos turísticos de la costa oriental de Cantabria, conocido por el Parque Natural de las Marismas de Santoña, Victoria y Joyel, su puerto pesquero y su tradición en la elaboración de anchoas.';
+    $mainEntity_addressLocality = 'Santoña';
     $mainEntity_addressRegion   = 'Cantabria';
     $mainEntity_addressCountry  = 'España';
 
-    // Coordenadas aproximadas de la Playa de Berria
-    $mainEntity_geo_latitude    = 43.4167;
-    $mainEntity_geo_longitude   = -3.4533;
+    // Coordenadas aproximadas de Santoña
+    $mainEntity_geo_latitude    = 43.4436;
+    $mainEntity_geo_longitude   = -3.4576;
 
-    // Imagen representativa y URL canónica para Playa de Berria
-    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-berria-1.jpg";
-    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Imagen representativa y URL canónica para Santoña
+    $mainEntity_image = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/img/santona-cantabria.jpg";
+    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/";
 ?>

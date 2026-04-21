@@ -1,19 +1,18 @@
 <?php
-    // Datos principales para la Playa de Arrietara (Sopelana)
-    $descripcion = 'Descubre la Playa de Arrietara en Sopelana, Bizkaia: una amplia playa de arena dorada ideal para el surf, rodeada de acantilados, muy popular entre locales y visitantes por su belleza natural y ambiente surfero.';
-    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Datos principales para Sopelana
+    $descripcion = 'Descubre Sopelana en Bizkaia: un destino costero del País Vasco famoso por sus acantilados, sus playas salvajes como Barinatxe y Arrietara, y su ambiente surfero junto al mar Cantábrico.';
 
-    // Schema.org mainEntity (TouristDestination) para Playa de Arrietara
-    $mainEntity_description     = 'La Playa de Arrietara, en Sopelana (Bizkaia), es una playa abierta al mar Cantábrico, con fuerte oleaje, muy frecuentada por surfistas y bañistas. Dispone de servicios de temporada y buen acceso a pie o en coche.';
+    // Schema.org mainEntity (TouristDestination) para Sopelana
+    $mainEntity_description     = 'Sopelana es una localidad costera de Bizkaia conocida por sus impresionantes acantilados, su ambiente surfero y playas como Barinatxe (La Salvaje) y Arrietara, muy populares para el surf y el ocio al aire libre.';
     $mainEntity_addressLocality = 'Sopelana';
-    $mainEntity_addressRegion   = 'Bizkaia';
+    $mainEntity_addressRegion   = 'País Vasco';
     $mainEntity_addressCountry  = 'España';
 
-    // Coordenadas aproximadas de la Playa de Arrietara
-    $mainEntity_geo_latitude    = 43.3835;
-    $mainEntity_geo_longitude   = -2.9714;
+    // Coordenadas aproximadas de Sopelana
+    $mainEntity_geo_latitude    = 43.3806;
+    $mainEntity_geo_longitude   = -2.9831;
 
-    // Imagen representativa y URL canónica para Playa de Arrietara
-    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-de-arrietara.jpg";
-    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Imagen representativa y URL canónica para Sopelana
+    $mainEntity_image = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/img/sopelana-cantabria.jpg";
+    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/";
 ?>

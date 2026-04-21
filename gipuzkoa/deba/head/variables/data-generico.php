@@ -1,19 +1,17 @@
 <?php
-// Datos principales para Santiago de Deba (Playa de Santiago de Deba)
-$descripcion = 'Descubre la Playa de Santiago de Deba en Deba, Gipuzkoa: una playa tranquila y menos concurrida, con arena fina y un entorno natural protegido, ideal para quienes buscan paz y contacto con la naturaleza.';
-$url = PATH_LOCALIDAD . "/pais-vasco/deba/playa-de-santiago-deba/index.php";
+    // Datos principales para Deba
+    $descripcion = 'Descubre Deba en Gipuzkoa: un bonito municipio costero del País Vasco con playas salvajes, acantilados, naturaleza y un casco histórico con encanto junto al mar Cantábrico.';
 
-// Schema.org mainEntity (TouristDestination) para Playa de Santiago de Deba (Deba)
-$mainEntity_description     = 'La Playa de Santiago de Deba, situada en la localidad de Deba (Gipuzkoa), es una playa tranquila de arena fina rodeada de naturaleza y protegida por acantilados, perfecta para el baño y paseos costeros.';
-$mainEntity_addressLocality = 'Deba';
-$mainEntity_addressRegion   = 'País Vasco';
-$mainEntity_addressCountry  = 'España';
+    // Schema.org mainEntity (TouristDestination) para Deba
+    $mainEntity_description     = 'Deba es una localidad costera de Gipuzkoa conocida por sus playas, sus espectaculares acantilados, su entorno natural y su patrimonio histórico, ideal para turismo de naturaleza y costa.';
+    $mainEntity_addressLocality = 'Deba';
+    $mainEntity_addressRegion   = 'Gipuzkoa';
+    $mainEntity_addressCountry  = 'España';
 
-// Coordenadas aproximadas de la Playa de Santiago de Deba
-$mainEntity_geo_latitude    = 43.2730;
-$mainEntity_geo_longitude   = -2.3500;
+    // Coordenadas aproximadas de Deba
+    $mainEntity_geo_latitude    = 43.2950;
+    $mainEntity_geo_longitude   = -2.3530;
 
-// Imagen representativa y URL canónica para Playa de Santiago de Deba
-$mainEntity_image = PATH_LOCALIDAD . "/pais-vasco/deba/playa-de-santiago-deba/img/playa-santiago-deba.jpg";
-$mainEntity_url   = PATH_LOCALIDAD . "/pais-vasco/deba/playa-de-santiago-deba/index.php";
-?>
+    // Imagen representativa y URL canónica para Deba
+    $mainEntity_image = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/img/deba-gipuzkoa.jpg";
+    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/";

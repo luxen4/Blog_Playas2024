@@ -1,19 +1,18 @@
 <?php
-    // Datos principales para Playa de Plentzia (Bizkaia)
-    $descripcion = 'Descubre la Playa de Plentzia, una playa urbana y familiar en Bizkaia con aguas tranquilas, ideal para el baño, deportes acuáticos y paseos junto al estuario del río Butrón.';
-    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Datos principales para Plentzia
+    $descripcion = 'Descubre Plentzia en Bizkaia: un encantador pueblo costero del País Vasco con playa de arena fina, ría tranquila, casco histórico y ambiente marinero junto al mar Cantábrico.';
 
-    // Schema.org mainEntity (TouristDestination) para Playa de Plentzia
-    $mainEntity_description     = 'La Playa de Plentzia, situada en la localidad costera del mismo nombre en Bizkaia, destaca por su entorno seguro y accesible, su paseo marítimo y su proximidad a bares y servicios locales.';
+    // Schema.org mainEntity (TouristDestination) para Plentzia
+    $mainEntity_description     = 'Plentzia es una localidad costera de Bizkaia conocida por su playa urbana de aguas tranquilas, su ría navegable, su puerto y su casco histórico de tradición marinera.';
     $mainEntity_addressLocality = 'Plentzia';
     $mainEntity_addressRegion   = 'País Vasco';
     $mainEntity_addressCountry  = 'España';
 
-    // Coordenadas aproximadas del centro de la Playa de Plentzia
-    $mainEntity_geo_latitude    = 43.3915;
-    $mainEntity_geo_longitude   = -2.9511;
+    // Coordenadas aproximadas de Plentzia
+    $mainEntity_geo_latitude    = 43.4032;
+    $mainEntity_geo_longitude   = -2.9508;
 
-    // Imagen representativa y URL canónica para Playa de Plentzia
-    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-plentzia.jpg";
-    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    // Imagen representativa y URL canónica para Plentzia
+    $mainEntity_image = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/img/plentzia.jpg";
+    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/";
 ?>

@@ -14,7 +14,7 @@
     $mainEntity_geo_longitude = -3.2167;
 
     // Imagen representativa y URL canónica
-    $mainEntity_image = $_SERVER['DOCUMENT_ROOT']  . "/{$region_minuscula}/{$localidad_minuscula}/img/castro-urdiales.jpg";
-    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT']  . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $mainEntity_image = $_SERVER['DOCUMENT_ROOT']  . "/{$region_minuscula}/{$localidad_minuscula}/img/castro-urdiales-cantabria.jpg";
+    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT']  . "/{$region_minuscula}/{$localidad_minuscula}/";
 ?>
 

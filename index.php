@@ -1,30 +1,19 @@
-<?php define('LUGAR', 'Turismo Norte de España'); ?>
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
-<?php define(
-    'KEYWORDS_CONTENT', 
-    'playas de España, playas del Cantábrico, turismo costero, turismo de playa, naturaleza y mar, costa de Cantabria, surf en España, rutas por la costa, vacaciones en la playa, turismo y naturaleza'
-);
-?>
-
-
 <?php https://www.youtube.com/watch?v=0ZvtKu0XBMg
   $title = 'Playas del Cantabrico'; $lugar_minuscula= 'playas-cantabrico';
-  $region_minuscula = 'cantabria';
-  $localidad_minuscula = ''; $lugar_interes="";
-  $lugar_minuscula_footer = 'Playas del Cantábrico';
-  $lugar_minuscula = $lugar_minuscula_footer;
-  define('COLOR_PAGE', 'orange');
-
-  $localidad_minuscula='';
-
-  $author_content = 'Adrián Laya García'; 
+  $localidad_minuscula='';  $lugar_interes=""; $region_minuscula = 'cantabria';
 ?>
+
+
+<?php define('LUGAR', 'Turismo Norte de España'); ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('TITLE', "Turismo Norte de España}"); ?>
 <?php define('DESCRIPTION', "Recorre la Ruta de la Costa Oriental en Ajo: senderos naturales, acantilados, faros y vistas panorámicas del Cantábrico en una experiencia inolvidable."); ?>
-
+<?php define('KEYWORDS_CONTENT', 'playas de España, playas del Cantábrico, turismo costero, turismo de playa, naturaleza y mar, costa de Cantabria, surf en España, rutas por la costa, vacaciones en la playa, turismo y naturaleza'); ?>
+<?php define('COLOR_PAGE', 'orange'); ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines-comunes.php"; ?>
 <?php require PATH_HOME_HEAD_VARIABLES . "/meta-tags.php"; ?>
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -37,7 +26,6 @@
   
   <?php require PATH_DOMINIO_RAIZ . "/_html/body/navbar-generico.php"; ?>
 
-
     <!-- Código de AdCash (runAutoTag) -->
     <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
     <script type="text/javascript">
@@ -47,19 +35,18 @@
     </script>
 
 
-
-<main class="container mx-auto my-6 px-2">
+<main class="max-w-screen-2xl mx-auto my-6 px-4">
 
   <div class="grid grid-cols-12 gap-4">
 
     <!-- ASIDE IZQUIERDO (2 columnas) -->
-    <aside class="hidden md:block md:col-span-2">
+    <aside class="hidden md:block md:col-span-3">
       <div class="sticky top-4 space-y-4">
         
-        <?php /*<div class="bg-gray-100 p-2 text-center rounded-lg shadow">
+        <div class="bg-gray-100 p-2 text-center rounded-lg shadow">
           <p class="text-sm">Publicidad</p>
           <div id="ad-left-1"></div>
-        </div>*/ ?>
+        </div>
 
         <?php require PATH_DOMINIO_RAIZ . "/_anuncios/amazon/publicidad-tematizada.php"; ?>
 
@@ -76,7 +63,7 @@
     </aside>
 
     <!-- CONTENIDO CENTRAL (7 columnas) -->
-    <div class="col-span-12 md:col-span-7">
+    <div class="col-span-12 md:col-span-6">
       <div class="w-full">
         <section class="bg50 p-1 rounded-2xl mb-6">
           

@@ -13,6 +13,8 @@ $lugar_interes = "" ;
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/localidades/index-generico.php"; ?>
 
 
+
+
 <?php /*  
 $localidad = 'Castro-Urdiales';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   

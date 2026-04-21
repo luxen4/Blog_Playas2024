@@ -1,4 +1,4 @@
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', $lugar_minuscula))) ?>
 <?php define('PATH_LOCALIDAD', PATH_LOCALIDADES .$region_minuscula.'/'.$localidad_minuscula.'/lugares-interes/'.$lugar_interes.'img/'); ?>
 
 <?php define('PATH_LUGARES_INTERES', PATH_LOCALIDAD ."/lugares-interes/".$lugar_minuscula); ?>

@@ -1,41 +1,41 @@
 <?php
-$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Sustituye si tienes otro valor
+$site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Cambia si tienes un valor distinto
 
-// Variables de configuración para Pinterest – Santiago de Deba
-$pinterest_property_card_card_content        = 'summary_large_image';
-$pinterest_property_card_title_content       = 'Playa de Santiago de Deba – País Vasco';
-$pinterest_property_card_description_content = 'Descubre la Playa de Santiago de Deba en Deba, País Vasco: un rincón costero con arena fina, oleaje moderado y un entorno natural ideal para el baño y el paseo.';
-$pinterest_property_card_image_content       = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
+// Pinterest
+$pinterest_property_card_card_content        = 'SUMARY_LARGE_IMAGE';
+$pinterest_property_card_title_content       = 'Deba, Gipuzkoa';
+$pinterest_property_card_description_content = 'Descubre Deba en Gipuzkoa: un destino costero con playas, acantilados espectaculares y un entorno natural privilegiado junto al mar Cantábrico.';
+$pinterest_property_card_image_content       = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula.'/img/deba-gipuzkoa.png';
 
-// Variables de configuración para Twitter Cards – Santiago de Deba
+// Twitter Cards
 $twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
-$twitterCards_title       = 'Playa de Santiago de Deba – País Vasco';
-$twitterCards_description = 'Explora la Playa de Santiago de Deba en Deba: arena fina, entorno natural protegido y oleaje tranquilo perfecto para el baño y paseos relajantes.';
-$twitterCards_image       = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
-$twitterCards_url         = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/index.php';
+$twitterCards_title       = 'Deba, Gipuzkoa';
+$twitterCards_description = 'Explora Deba: playas salvajes, acantilados y naturaleza en uno de los rincones más bonitos de la costa vasca.';
+$twitterCards_image       = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula.'/img/deba-gipuzkoa.png';
+$twitterCards_url         = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula;
 
-// Variables Open Graph – Santiago de Deba
-$graph_Meta_Tags_property_title        = 'Playa de Santiago de Deba – País Vasco';
-$graph_Meta_Tags_property_description  = 'Visita la Playa de Santiago de Deba en Deba, País Vasco: una playa con arena fina, perfecta para el baño y paseos costeros en un entorno natural protegido.';
-$graph_Meta_Tags_property_image        = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
-$graph_Meta_Tags_property_url          = PATH_LOCALIDAD . '/pais-vasco/deba/playa-de-santiago-deba/index.php';
+// Open Graph
+$graph_Meta_Tags_property_title        = 'Deba, Gipuzkoa';
+$graph_Meta_Tags_property_description  = 'Visita Deba, un precioso municipio costero del País Vasco con playas, acantilados y naturaleza junto al Cantábrico.';
+
+$graph_Meta_Tags_property_image        = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula.'/img/deba-gipuzkoa.png';
+
+$graph_Meta_Tags_property_url          = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula;
 $graph_Meta_Tags_property_type         = 'website';
 
-$graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';
-$graph_Meta_Tags_property_locale       = 'es_ES';
-$graph_Meta_Tags_property_image_alt    = 'Playa de Santiago de Deba en Deba, País Vasco';
+$graph_Meta_Tags_property_site_name    = TURISMO_NORTE_ESPANA;
+$graph_Meta_Tags_property_locale       = IDIOMA_LOCAL;
+$graph_Meta_Tags_property_image_alt    = 'Deba, Gipuzkoa';
 $graph_Meta_Tags_property_image_width  = '1200';
 $graph_Meta_Tags_property_image_height = '630';
-$graph_Meta_Tags_property_author       = 'Adrián Laya García';
+$graph_Meta_Tags_property_author       = AUTHOR;
 $graph_Meta_Tags_property_updated_timeEEEEEEE = date('c');
-$graph_Meta_Tags_property_published_time = '2025-07-09T08:00:00+02:00'; // Fecha de publicación
+$graph_Meta_Tags_property_published_time = '2025-07-17T08:00:00+02:00'; // Ajusta según publicación real
 $graph_Meta_Tags_property_section      = 'Turismo y Playas';
-$graph_Meta_Tags_property_tag          = 'Santiago de Deba';
-$graph_Meta_Tags_property_tag2         = 'Playas País Vasco';
-$graph_Meta_Tags_property_tag3         = 'Turismo costero';
+$graph_Meta_Tags_property_tag          = 'Deba, Gipuzkoa';
+$graph_Meta_Tags_property_tag2         = 'Playas Gipuzkoa';
+$graph_Meta_Tags_property_tag3         = TURISMO_NORTE_ESPANA;
 ?>
 
-
-<?php define('DESCRIPTION', "Descubre Deba, en la costa de Gipuzkoa: playas tranquilas, acantilados espectaculares, rutas de senderismo y un encantador casco histórico junto al mar Cantábrico."); ?>
-<?php define('KEYWORDS_CONTENT', 'Deba, Gipuzkoa, turismo Gipuzkoa, costa vasca, playas del País Vasco, senderismo Gipuzkoa, naturaleza Cantábrica, Geoparque de la Costa Vasca'); ?>
+<?php //echo($graph_Meta_Tags_property_image) ?>

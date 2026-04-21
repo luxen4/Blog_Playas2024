@@ -1,19 +1,18 @@
 <?php
     // Datos principales para Sonabia
-    $descripcion = 'Descubre Sonabia, un tranquilo rincón costero en el extremo oriental de Cantabria, con playas vírgenes como Sonabia rodeadas de acantilados y pinares, perfecto para el baño, el senderismo y la observación de aves.';
-    $url = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $descripcion = 'Descubre Sonabia en Cantabria: un rincón natural espectacular con la Playa de Sonabia, acantilados impresionantes y vistas únicas al Mar Cantábrico junto al monte Candina.';
 
     // Schema.org mainEntity (TouristDestination) para Sonabia
-    $mainEntity_description     = 'Sonabia es un pequeño enclave costero de Cantabria, conocido por su playa virgen de arena dorada, sus acantilados y sus rutas de senderismo junto al mar.';
+    $mainEntity_description     = 'Sonabia, en el municipio de Castro Urdiales, es un enclave natural privilegiado conocido por la Playa de Sonabia (o Valdearenas), el monte Candina y sus espectaculares acantilados con vistas al mar.';
     $mainEntity_addressLocality = 'Sonabia';
     $mainEntity_addressRegion   = 'Cantabria';
     $mainEntity_addressCountry  = 'España';
 
-    // Coordenadas aproximadas del centro de Sonabia
-    $mainEntity_geo_latitude    = 43.4425;
-    $mainEntity_geo_longitude   = -3.4050;
+    // Coordenadas aproximadas de Sonabia
+    $mainEntity_geo_latitude    = 43.4120;
+    $mainEntity_geo_longitude   = -3.3290;
 
     // Imagen representativa y URL canónica para Sonabia
-    $mainEntity_image = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/img/sonabia.jpg";
-    $mainEntity_url   = PATH_LOCALIDAD . "/{$region_minuscula}/{$localidad_minuscula}/index.php";
+    $mainEntity_image = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/img/sonabia.jpg";
+    $mainEntity_url   = $_SERVER['DOCUMENT_ROOT'] . "/{$region_minuscula}/{$localidad_minuscula}/";
 ?>
